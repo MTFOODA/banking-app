@@ -12,7 +12,7 @@ if settings.is_production or os.environ.get('RUN_BRANDING_QA')!='1':
 source=make_url(settings.test_database_url)
 if source.host not in {'localhost','127.0.0.1','::1'}:
  raise RuntimeError('Branding QA refuses a remote PostgreSQL host')
-qa_name='faisal_branding_qa_test'
+qa_name='banking_app_qa_test'
 with psycopg.connect(source.set(drivername='postgresql',database='postgres').render_as_string(hide_password=False),autocommit=True) as connection:
  if not connection.execute('select 1 from pg_database where datname=%s',(qa_name,)).fetchone():
   connection.execute(sql.SQL('CREATE DATABASE {}').format(sql.Identifier(qa_name)))
@@ -31,10 +31,13 @@ from app.services.rbac import sync_roles
 from seed_demo_banking_data import seed_demo_banking
 assert engine.url.database==qa_name
 Base.metadata.create_all(engine)
-credentials_file=root/'.tmp/branding_qa_credentials.local.json'
+credentials_file=root/'.tmp/banking_qa_credentials.local.json'
 credentials_file.parent.mkdir(parents=True,exist_ok=True)
 with SessionLocal() as db:
  seed_demo_banking(db)
+ from app.services.development_customers import assign_enrolled_usernames
+ assign_enrolled_usernames(db)
+ db.commit()
  sync_roles(db)
  user=db.scalar(select(User).where(User.username_key==username_key('brandingqa')))
  if user is None:
@@ -47,6 +50,20 @@ with SessionLocal() as db:
   db.add(user);db.commit()
   credentials_file.write_text(json.dumps({'username':'brandingqa','password':password}),encoding='utf-8')
  elif not credentials_file.exists():raise RuntimeError('QA credentials unavailable; existing user preserved')
+ from app.services.registration_demo import provision_registration_batch,seed_registration_demo
+ seed_registration_demo(db)
+ customers=[]
+ batch=secrets.token_hex(3)
+ for code in ('nbe','cib','banque_misr'):
+  rows=provision_registration_batch(db,'Q'+code[:2]+batch,1,bank_code=code)
+  customers.extend(rows)
+ db.commit()
+ private=json.loads(credentials_file.read_text())
+ private['customers']=customers
+ private['customer_password']='Qa8!'+secrets.token_urlsafe(20)
+ while not assess_password(private['customer_password']).valid:
+  private['customer_password']='Qa8!'+secrets.token_urlsafe(20)
+ credentials_file.write_text(json.dumps(private),encoding='utf-8')
 if __name__=='__main__':
  import uvicorn
  from app.main import app

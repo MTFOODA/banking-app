@@ -1,20 +1,11 @@
 import 'package:flutter/material.dart';
 
+import '../config/banking_identity.dart';
 import '../theme/app_spacing.dart';
 import '../theme/faisal_palette.dart';
 import '../../features/branding/presentation/widgets/branding_scope.dart';
-import '../../features/branding/presentation/widgets/branding_image.dart';
 
-/// Bank brand mark rendered from the project's original logo artwork.
-///
-/// The image is bundled at [assetPath] (`assets/branding/logo.png`) and is
-/// derived from the repository's `logo.jpg` by
-/// `scripts/generate_brand_assets.ps1`. The artwork is never recoloured,
-/// stretched or cropped at runtime.
-///
-/// The wordmark colours are resolved from the active [ColorScheme] unless
-/// [onDark] is provided explicitly, so the text always contrasts with the
-/// surface it is painted on (light theme → dark text, dark theme → light text).
+/// The compiled Banking App identity. Remote bank appearance never replaces it.
 class FaisalLogo extends StatelessWidget {
   const FaisalLogo({
     super.key,
@@ -22,76 +13,65 @@ class FaisalLogo extends StatelessWidget {
     this.onDark,
     this.showWordmark = false,
   });
-
-  /// Bundled brand asset (also declared in `pubspec.yaml`).
-  static const String assetPath = 'assets/branding/logo.png';
-
+  static const String assetPath = BankingIdentity.logo;
   final double size;
-
-  /// Forces the light-on-dark palette (for the deep-green header gradient).
-  /// When null, it is inferred from [ThemeData.brightness].
   final bool? onDark;
   final bool showWordmark;
-
   @override
   Widget build(BuildContext context) {
-    final palette = context.palette;
-    final branding = BrandingScope.of(context);
-    final isOnDark = onDark ?? Theme.of(context).brightness == Brightness.dark;
-    final wordmarkColor = isOnDark
+    final dark = onDark ?? Theme.of(context).brightness == Brightness.dark;
+    final color = dark
         ? BrandingScope.headerText(context)
         : context.colors.onSurface;
-    final taglineColor = isOnDark
-        ? palette.onHeaderMuted
+    final muted = dark
+        ? context.palette.onHeaderMuted
         : context.colors.onSurfaceVariant;
+    final arabic = Localizations.localeOf(context).languageCode == 'ar';
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
         ClipRRect(
-          borderRadius: BorderRadius.circular(size * 0.24),
-          child: BrandingImage(
-            url: isOnDark
-                ? branding.text('dark_logo_url') ?? branding.text('logo_url')
-                : branding.text('logo_url'),
-            width: size,
-            height: size,
-            label: '${branding.text('application_name') ?? 'Faisal App'} logo',
-            fallback: Image.asset(
+          borderRadius: BorderRadius.circular(size * .24),
+          child: ColoredBox(
+            color: Colors.white,
+            child: Image.asset(
               assetPath,
               width: size,
               height: size,
               fit: BoxFit.contain,
               filterQuality: FilterQuality.high,
-              semanticLabel: 'Faisal App logo',
+              semanticLabel: 'Banking App logo',
             ),
           ),
         ),
         if (showWordmark) ...[
           const SizedBox(width: AppSpacing.md),
-          ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 140),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(
-                  branding.text('application_name') ?? 'Faisal App',
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w700,
-                    letterSpacing: 0.4,
-                    color: wordmarkColor,
+          Flexible(
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 160),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    BankingIdentity.name,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w700,
+                      letterSpacing: .4,
+                      color: color,
+                    ),
                   ),
-                ),
-                Text(
-                  branding.text('application_tagline') ?? 'فيصل',
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(fontSize: 12, color: taglineColor),
-                ),
-              ],
+                  Text(
+                    arabic ? 'بنوكك في تطبيق واحد' : 'Your banks, one app',
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(fontSize: 12, color: muted),
+                  ),
+                ],
+              ),
             ),
           ),
         ],

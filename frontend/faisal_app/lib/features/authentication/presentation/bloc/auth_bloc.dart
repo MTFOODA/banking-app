@@ -136,6 +136,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
         identifier: event.identifier,
         password: event.password,
         rememberDevice: event.rememberDevice,
+        bankCode: event.bankCode,
       );
       if (!_canEmit(emit)) {
         return;

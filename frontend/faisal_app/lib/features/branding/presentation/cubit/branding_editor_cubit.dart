@@ -129,6 +129,28 @@ class BrandingEditorCubit extends Cubit<BrandingEditorState> {
     );
   }
 
+  void editBank(String bankCode, String field, dynamic value) {
+    if (state.busy ||
+        state.values == null ||
+        !bankAppearanceKeys.contains(field)) {
+      return;
+    }
+    final root = Map<String, dynamic>.from(state.values!);
+    final overrides = Map<String, dynamic>.from(
+      root['bank_overrides'] as Map? ?? {},
+    );
+    final current = overrides[bankCode];
+    final appearance = current is Map
+        ? Map<String, dynamic>.from(current)
+        : <String, dynamic>{
+            for (final key in bankAppearanceKeys) key: root[key],
+          };
+    appearance[field] = value;
+    overrides[bankCode] = appearance;
+    root['bank_overrides'] = overrides;
+    _emit(values: root, dirty: true);
+  }
+
   Future<void> save() => _run(() async {
     final config = BrandingConfig.fromJson(state.values!);
     _adopt(
@@ -158,9 +180,13 @@ class BrandingEditorCubit extends Cubit<BrandingEditorState> {
       _emit(notice: 'published');
     }
   });
-  Future<void> restore({int? version}) => _run(() async {
+  Future<void> restore({int? version, String? bankCode}) => _run(() async {
     _adopt(
-      await repository.restore(state.document!.revision, version: version),
+      await repository.restore(
+        state.document!.revision,
+        version: version,
+        bankCode: bankCode,
+      ),
       notice: 'restored',
     );
   });

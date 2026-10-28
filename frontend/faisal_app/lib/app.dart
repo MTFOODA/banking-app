@@ -3,7 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:go_router/go_router.dart';
 
-import 'core/theme/branding_theme.dart';
+import 'core/theme/app_theme.dart';
+import 'core/config/banking_identity.dart';
+import 'features/branding/presentation/widgets/customer_appearance.dart';
 import 'features/branding/presentation/cubit/branding_cubit.dart';
 import 'features/branding/presentation/widgets/branding_runtime.dart';
 import 'core/di/injector.dart';
@@ -47,9 +49,7 @@ class FaisalApp extends StatelessWidget {
                 cubit: brandingCubit,
                 builder: (context, branding) => MaterialApp.router(
                   debugShowCheckedModeBanner: false,
-                  onGenerateTitle: (context) =>
-                      branding.text('application_name') ??
-                      AppLocalizations.of(context).appName,
+                  onGenerateTitle: (context) => BankingIdentity.name,
                   locale: locale,
                   supportedLocales: AppLocalizations.supportedLocales,
                   localizationsDelegates: const [
@@ -58,19 +58,16 @@ class FaisalApp extends StatelessWidget {
                     GlobalWidgetsLocalizations.delegate,
                     GlobalCupertinoLocalizations.delegate,
                   ],
-                  theme: BrandingTheme.build(
-                    branding,
-                    Brightness.light,
-                    locale.languageCode,
-                  ),
-                  darkTheme: BrandingTheme.build(
-                    branding,
-                    Brightness.dark,
-                    locale.languageCode,
-                  ),
-                  themeMode: BrandingTheme.mode(branding, themeMode),
+                  theme: AppTheme.light(),
+                  darkTheme: AppTheme.dark(),
+                  themeMode: themeMode,
                   routerConfig: router,
                   builder: (context, child) {
+                    final routed = CustomerAppearance(
+                      published: branding,
+                      router: router,
+                      child: child ?? const SizedBox.shrink(),
+                    );
                     return BlocListener<AuthBloc, AuthState>(
                       listenWhen: (previous, current) =>
                           !previous.sessionExpired && current.sessionExpired,
@@ -84,9 +81,9 @@ class FaisalApp extends StatelessWidget {
                           ? BiometricGate(
                               service: sl<BiometricService>(),
                               store: sl<SessionStore>(),
-                              child: child ?? const SizedBox.shrink(),
+                              child: routed,
                             )
-                          : child ?? const SizedBox.shrink(),
+                          : routed,
                     );
                   },
                 ),

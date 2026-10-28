@@ -140,6 +140,7 @@ def authenticate(
     password: str,
     remember_device: bool,
     meta: dict | None = None,
+    bank_code: str | None = None,
 ) -> tuple[str, IssuedSession | None, str | None, int | None, User | None]:
     """Authenticate a customer or staff member.
 
@@ -170,7 +171,9 @@ def authenticate(
             details={"retry_after_seconds": int((user.locked_until - now).total_seconds()) if user.locked_until else 900},
         )
 
-    if not verify_password(password, user.password_hash):
+    password_valid = verify_password(password, user.password_hash)
+    bank_matches = bank_code is None or user.login_type == 'staff' or (user.profile is not None and user.profile.bank_code == bank_code)
+    if not password_valid or not bank_matches:
         _register_failed_attempt(db, user)
         record_audit(
             db,

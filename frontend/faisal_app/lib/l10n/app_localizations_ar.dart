@@ -10,13 +10,13 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get appName => 'تطبيق فيصل';
+  String get appName => 'Banking App';
 
   @override
-  String get bankName => 'بنك فيصل الإسلامي المصري';
+  String get bankName => 'البنك';
 
   @override
-  String get bankNameShort => 'بنك فيصل';
+  String get bankNameShort => 'Banking App';
 
   @override
   String get appTagline => 'خدمات مصرفية بتصميم مدروس';
@@ -26,7 +26,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get demoDataNotice =>
-      'هذا تطبيق تجريبي. جميع الأرصدة والبطاقات والمعاملات والطلبات محاكاة ولا ترتبط بأنظمة بنك فيصل الإسلامي المصري.';
+      'محاكاة للتطوير. أسماء البنوك وثيماتها لا تعني وجود اتصال بأي بنك أو شبكة دفع حقيقية.';
 
   @override
   String get simulated => 'محاكاة';
@@ -216,7 +216,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get securityNotice =>
-      'لا تشارك كلمة المرور أو الرموز المؤقتة مع أي شخص. لن يطلبها بنك فيصل مطلقاً.';
+      'لا تشارك كلمة المرور أو الرموز المؤقتة مع أي شخص. لن يطلبها البنك منك.';
 
   @override
   String get invalidCardNumber => 'أدخل رقم بطاقة صحيحاً (8 أرقام على الأقل).';
@@ -1305,7 +1305,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get registrationExplanation =>
-      'أدخل رقم بطاقتك أو حسابك الحالي. ثم تحقق برمز عبر بيانات الاتصال المسجلة لدى البنك. لا تحتاج كلمة مرور مصرفية حالية.';
+      'اختر البنك وأدخل رقم الكارت. بعدها تحقّق ببيانات الاتصال المسجلة لدى البنك، ثم أنشئ اسم مستخدم فريدًا وكلمة مرور.';
 
   @override
   String get registrationVerified =>
@@ -1997,11 +1997,10 @@ class AppLocalizationsAr extends AppLocalizations {
       'المبلغ بعد التحويل أصغر من الحد الدقيق أو يتجاوز نطاق الرصيد المسموح.';
 
   @override
-  String get publicWelcomeTitle => 'مرحبًا بك في بنك فيصل';
+  String get publicWelcomeTitle => 'مرحبًا بك في Banking App';
 
   @override
-  String get publicWelcomeSubtitle =>
-      'خدماتك البنكية ووسائل التواصل في مكان واحد.';
+  String get publicWelcomeSubtitle => 'خدماتك البنكية والدعم في مكان واحد.';
 
   @override
   String get publicBranches => 'الفروع';
@@ -2090,7 +2089,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'تعذّر فتح الرابط. حاول مرة أخرى أو استخدم تطبيق خرائط أو متصفحًا آخر.';
 
   @override
-  String get brandingTitle => 'هوية التطبيق والمظهر';
+  String get brandingTitle => 'إعدادات مظهر البنوك';
 
   @override
   String get brandingGeneral => 'الهوية العامة';
@@ -2236,7 +2235,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get brandingDraftNotice =>
-      'المسودات والمعاينة لا تؤثران على العملاء. انشر التعديلات صراحةً لتطبيقها.';
+      'احفظ المسودة ثم انشرها لتحديث شاشات العملاء. يُجلب التحديث عند العودة للتطبيق، ولا يحتاج تغيير الإعدادات الداخلية المدعومة لتنزيل إصدار جديد.';
 
   @override
   String get brandingSaved => 'تم حفظ المسودة. الهوية المنشورة لم تتغير.';
@@ -2258,7 +2257,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get brandingInvalid =>
-      'راجع الألوان والنصوص والخطوط والمقياس. يلزم تباين ٤٫٥:١ للنصوص والأزرار. تعرض المعاينة آخر إعداد صالح.';
+      'راجع النصوص الداخلية والخطوط المتاحة ومقياس الحجم. تحتفظ المعاينة بآخر إعداد صالح.';
 
   @override
   String get brandingRequestFailed =>
@@ -2273,7 +2272,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get brandingPublishConfirm =>
-      'هل تريد نشر المسودة المحفوظة لجميع العملاء؟';
+      'هل تريد نشر تعديلات المظهر الداخلي المحفوظة للبنوك المعنية؟';
 
   @override
   String get brandingReloadConfirm =>
@@ -2294,7 +2293,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get brandingNativeHelp =>
-      'أسماء وأيقونات Android/iOS وشاشات الإقلاع الأصلية موارد ضمن البناء. هذه الإعدادات تغيّر الهوية داخل التطبيق فقط. الأيقونات البديلة المحددة مسبقًا تتطلب إصدارًا أصليًا مختبرًا بشكل منفصل.';
+      'اسم Banking App واللوجو وأيقونات النظام وموارد الإقلاع ثابتة. تغييرها يحتاج إصدارًا جديدًا؛ هذه الشاشة لا تتيح تعديلها.';
 
   @override
   String get brandingHex => 'لون HEX ‏(#RRGGBB)';
@@ -2316,4 +2315,64 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get brandingSystemFont => 'خط النظام الأصلي';
+
+  @override
+  String get bankSelectionLabel => 'البنك';
+
+  @override
+  String get bankSelectionRequired => 'اختر البنك الذي يتبع له الكارت.';
+
+  @override
+  String get bankRegistrationHelp =>
+      'اختر بنك الكارت التجريبي المسجل. التحقق يتم ببيانات الاتصال المسجلة للعميل؛ اختيار البنك لا يغير ملكية الكارت.';
+
+  @override
+  String get bankFixedIdentity => 'هوية التطبيق الثابتة';
+
+  @override
+  String get bankFixedIdentityHelp =>
+      'اسم Banking App واللوجو وأيقونة التطبيق ومظهر الدخول ثابتة في إصدار التطبيق. الإعدادات هنا تخص شاشات العملاء بعد تسجيل الدخول فقط.';
+
+  @override
+  String get bankAppearanceScope =>
+      'التعديلات تخص العملاء المسجلين لدى البنك المختار. لكل بنك إعداداته المستقلة، وهوية التطبيق الأساسية ثابتة.';
+
+  @override
+  String get bankPresetColors => 'ألوان ثيم البنك';
+
+  @override
+  String get bankPresetHelp =>
+      'لوحة ألوان ثابتة مستوحاة من هوية البنك مع ضبط تباين النصوص. لا يمكن استبدالها بألوان عشوائية.';
+
+  @override
+  String get bankInternalContent => 'المحتوى داخل حسابات العملاء';
+
+  @override
+  String get bankInternalCaption => 'نص إضافي داخلي (اختياري)';
+
+  @override
+  String get bankRestorePreset => 'استعادة إعدادات هذا البنك كمسودة';
+
+  @override
+  String get bankDirectoryNote =>
+      'دليل عناوين الفروع المرفق خاص ببنك فيصل فقط. للبنوك الأخرى استخدم الموقع الرسمي؛ لا نعرض عناوين أو أرقام خدمة عملاء غير متحقق منها.';
+
+  @override
+  String get bankOfficialWebsite => 'فتح الموقع الرسمي للبنك';
+
+  @override
+  String get bankServiceChoose => 'اختر البنك المطلوب لهذه الخدمة.';
+
+  @override
+  String get bankLinkedBank => 'البنك المسجل';
+
+  @override
+  String get bankLoginSelectionLabel => 'البنك (اختياري عند الدخول)';
+
+  @override
+  String get bankLoginAutomatic => 'تحديد البنك من اليوزر أو الكارت';
+
+  @override
+  String get bankLoginSelectionHelp =>
+      'اختر البنك التابع لهذا اليوزر أو الكارت، أو اترك التحديد التلقائي. كل دخول يفتح بثيم البنك المتحقق منه على السيرفر. دخول الأدمن لا يحتاج اختيار بنك.';
 }

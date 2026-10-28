@@ -48,7 +48,7 @@ class AppConfig {
     }
   }
 
-  static const String appVersion = '1.0.0';
+  static const String appVersion = '1.1.0';
   static const Duration connectTimeout = Duration(seconds: 20);
   static const Duration receiveTimeout = Duration(seconds: 30);
   static const Duration sendTimeout = Duration(seconds: 30);

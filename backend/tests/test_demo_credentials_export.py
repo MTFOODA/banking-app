@@ -22,7 +22,7 @@ def test_export_is_minimal_complete_repeatable_and_preserves_users(db_session, t
     assert text.count('Username:') == len(users)
     assert text.count('OTP:') == 1
     fields = {line.split(':', 1)[0] for line in text.splitlines() if line}
-    assert fields == {'Username', 'Card', 'Password', 'Accounts', 'Certificates', 'Funds', 'OTP'}
+    assert fields == {'Username', 'Bank', 'Card', 'Password', 'Accounts', 'Certificates', 'Funds', 'OTP'}
     exporter.export_credentials(db_session, destination)
     assert destination.read_text(encoding='utf-8') == text
     db_session.expire_all()

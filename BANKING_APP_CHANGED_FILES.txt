@@ -1,0 +1,200 @@
+Banking App changed files relative to 0828bf7 (2026-10-28)
+Status | Path | Purpose
+
+ADDED | BANKING_APP_REPORT.md | Implementation, configuration and actual verification documentation
+MODIFIED | README.md | Implementation, configuration and actual verification documentation
+MODIFIED | admin/README.txt | Local development initialization, safe credentials export and run documentation
+MODIFIED | admin/RUN_COMMANDS.txt | Local development initialization, safe credentials export and run documentation
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/drawable-hdpi/splash_logo.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/drawable-mdpi/splash_logo.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/drawable-xhdpi/splash_logo.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/drawable-xxhdpi/splash_logo.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/drawable-xxxhdpi/splash_logo.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-hdpi/ic_launcher.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-mdpi/ic_launcher.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/manifest.json | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/web/favicon.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/web/icons/Icon-192.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/web/icons/Icon-512.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/web/icons/Icon-maskable-192.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/web/icons/Icon-maskable-512.png | Preserve original native branding resource / integrity manifest
+ADDED | admin/branding_archive/faisal_original_20261028/windows/runner/resources/app_icon.ico | Preserve original native branding resource / integrity manifest
+MODIFIED | admin/check_local_web.py | Local development initialization, safe credentials export and run documentation
+MODIFIED | admin/export_demo_credentials.py | Local development initialization, safe credentials export and run documentation
+MODIFIED | admin/initialize_registration_customers.py | Local development initialization, safe credentials export and run documentation
+ADDED | admin/migrate_demo.py | Local development initialization, safe credentials export and run documentation
+ADDED | backend/alembic/versions/c94d28f1a710_bank_affiliation.py | Additive bank catalogue and existing-customer affiliation migration
+MODIFIED | backend/app/api/router.py | Banking App integration preserving existing business behavior
+MODIFIED | backend/app/api/v1/auth.py | Carry selected bank through existing registration/login and validate server ownership
+ADDED | backend/app/api/v1/banks.py | Banking App integration preserving existing business behavior
+MODIFIED | backend/app/api/v1/branding.py | Banking App integration preserving existing business behavior
+MODIFIED | backend/app/api/v1/security.py | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | backend/app/core/config.py | Banking App integration preserving existing business behavior
+MODIFIED | backend/app/models/__init__.py | Banking App integration preserving existing business behavior
+ADDED | backend/app/models/bank.py | Reviewed reference catalogue and server-owned bank affiliation
+MODIFIED | backend/app/models/user.py | Banking App integration preserving existing business behavior
+MODIFIED | backend/app/schemas/auth.py | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | backend/app/schemas/branding.py | Banking App integration preserving existing business behavior
+MODIFIED | backend/app/schemas/security.py | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | backend/app/services/auth_service.py | Carry selected bank through existing registration/login and validate server ownership
+ADDED | backend/app/services/bank_catalogue.py | Reviewed reference catalogue and server-owned bank affiliation
+ADDED | backend/app/services/bank_catalogue_data.py | Reviewed reference catalogue and server-owned bank affiliation
+MODIFIED | backend/app/services/branding_service.py | Banking App integration preserving existing business behavior
+MODIFIED | backend/app/services/registration_demo.py | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | backend/app/services/registration_service.py | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | backend/app/services/transfer_execution.py | Banking App integration preserving existing business behavior
+MODIFIED | backend/serve_branding_qa.py | Isolated, additive local QA server provisioning
+ADDED | backend/tests/test_bank_affiliation.py | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | backend/tests/test_branding.py | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | backend/tests/test_branding_concurrency.py | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | backend/tests/test_demo_credentials_export.py | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | database/seed_demo_banking_data.py | Banking App integration preserving existing business behavior
+MODIFIED | frontend/faisal_app/android/app/src/main/AndroidManifest.xml | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/drawable-hdpi/splash_logo.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/drawable-mdpi/splash_logo.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/drawable-xhdpi/splash_logo.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/drawable-xxhdpi/splash_logo.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/drawable-xxxhdpi/splash_logo.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+ADDED | frontend/faisal_app/assets/branding/banking_app_logo_master.png | Original generated Banking App master logo
+ADDED | frontend/faisal_app/assets/data/bank_catalogue.json | Generated offline bank presets
+MODIFIED | frontend/faisal_app/integration_test/branding_emulator_test.dart | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | frontend/faisal_app/integration_test/security_flow_test.dart | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/ios/Runner/Info.plist | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/lib/app.dart | Wire catalogue/scoped appearance into existing DI and app lifecycle
+MODIFIED | frontend/faisal_app/lib/core/config/app_config.dart | Banking App integration preserving existing business behavior
+ADDED | frontend/faisal_app/lib/core/config/banking_identity.dart | Banking App integration preserving existing business behavior
+MODIFIED | frontend/faisal_app/lib/core/di/injector.dart | Wire catalogue/scoped appearance into existing DI and app lifecycle
+MODIFIED | frontend/faisal_app/lib/core/routing/app_router.dart | Bank-aware service routing; preserve Faisal directory ownership
+MODIFIED | frontend/faisal_app/lib/core/widgets/card_artwork.dart | Fixed logo and bank-scoped customer header/card appearance
+MODIFIED | frontend/faisal_app/lib/core/widgets/faisal_balance_visibility.dart | Fixed logo and bank-scoped customer header/card appearance
+MODIFIED | frontend/faisal_app/lib/core/widgets/faisal_bank_card.dart | Fixed logo and bank-scoped customer header/card appearance
+MODIFIED | frontend/faisal_app/lib/core/widgets/faisal_logo.dart | Fixed logo and bank-scoped customer header/card appearance
+MODIFIED | frontend/faisal_app/lib/features/authentication/data/datasources/auth_remote_data_source.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/data/models/auth_mapper.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/data/repositories/auth_repository_impl.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/domain/entities/auth_entities.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/domain/repositories/auth_repository.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/bloc/auth_bloc.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/bloc/auth_event.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/bloc/registration_cubit.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/pages/login_form_card.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/pages/login_page.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/pages/registration_page.dart | Carry selected bank through existing registration/login and validate server ownership
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/pages/splash_page.dart | Carry selected bank through existing registration/login and validate server ownership
+ADDED | frontend/faisal_app/lib/features/banks/data/bank_catalogue_repository_impl.dart | Validated bank catalogue, offline cache, bank selection and repository/Cubit
+ADDED | frontend/faisal_app/lib/features/banks/domain/entities/bank_catalogue.g.dart | Validated bank catalogue, offline cache, bank selection and repository/Cubit
+ADDED | frontend/faisal_app/lib/features/banks/domain/entities/bank_definition.dart | Validated bank catalogue, offline cache, bank selection and repository/Cubit
+ADDED | frontend/faisal_app/lib/features/banks/domain/repositories/bank_catalogue_repository.dart | Validated bank catalogue, offline cache, bank selection and repository/Cubit
+ADDED | frontend/faisal_app/lib/features/banks/presentation/bank_catalogue_cubit.dart | Validated bank catalogue, offline cache, bank selection and repository/Cubit
+ADDED | frontend/faisal_app/lib/features/banks/presentation/bank_selector.dart | Validated bank catalogue, offline cache, bank selection and repository/Cubit
+MODIFIED | frontend/faisal_app/lib/features/branding/data/repositories/branding_repository_impl.dart | Fixed identity policy and isolated per-bank internal appearance
+MODIFIED | frontend/faisal_app/lib/features/branding/domain/entities/branding_config.dart | Fixed identity policy and isolated per-bank internal appearance
+MODIFIED | frontend/faisal_app/lib/features/branding/domain/repositories/branding_repository.dart | Fixed identity policy and isolated per-bank internal appearance
+MODIFIED | frontend/faisal_app/lib/features/branding/presentation/cubit/branding_editor_cubit.dart | Fixed identity policy and isolated per-bank internal appearance
+MODIFIED | frontend/faisal_app/lib/features/branding/presentation/pages/admin_branding_page.dart | Fixed identity policy and isolated per-bank internal appearance
+MODIFIED | frontend/faisal_app/lib/features/branding/presentation/widgets/branding_preview.dart | Fixed identity policy and isolated per-bank internal appearance
+MODIFIED | frontend/faisal_app/lib/features/branding/presentation/widgets/branding_runtime.dart | Fixed identity policy and isolated per-bank internal appearance
+MODIFIED | frontend/faisal_app/lib/features/branding/presentation/widgets/branding_scope.dart | Fixed identity policy and isolated per-bank internal appearance
+ADDED | frontend/faisal_app/lib/features/branding/presentation/widgets/customer_appearance.dart | Fixed identity policy and isolated per-bank internal appearance
+MODIFIED | frontend/faisal_app/lib/features/cards/presentation/pages/card_application_page.dart | Fixed logo and bank-scoped customer header/card appearance
+MODIFIED | frontend/faisal_app/lib/features/home/presentation/widgets/home_balance_card.dart | Fixed logo and bank-scoped customer header/card appearance
+MODIFIED | frontend/faisal_app/lib/features/home/presentation/widgets/home_header.dart | Fixed logo and bank-scoped customer header/card appearance
+MODIFIED | frontend/faisal_app/lib/features/products/presentation/pages/bank_notices_page.dart | Banking App integration preserving existing business behavior
+MODIFIED | frontend/faisal_app/lib/features/settings/presentation/pages/profile_page.dart | Display authenticated customer bank
+ADDED | frontend/faisal_app/lib/features/support/presentation/pages/bank_services_gate.dart | Bank-aware service routing; preserve Faisal directory ownership
+MODIFIED | frontend/faisal_app/lib/features/support/presentation/pages/branch_directory_page.dart | Bank-aware service routing; preserve Faisal directory ownership
+MODIFIED | frontend/faisal_app/lib/features/support/presentation/pages/public_bank_services_page.dart | Bank-aware service routing; preserve Faisal directory ownership
+MODIFIED | frontend/faisal_app/lib/l10n/app_ar.arb | English/Arabic Banking App and bank-choice labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_en.arb | English/Arabic Banking App and bank-choice labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_localizations.dart | English/Arabic Banking App and bank-choice labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_localizations_ar.dart | English/Arabic Banking App and bank-choice labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_localizations_en.dart | English/Arabic Banking App and bank-choice labels
+MODIFIED | frontend/faisal_app/pubspec.yaml | Version 1.1.0+2 and compiled identity metadata
+ADDED | frontend/faisal_app/test/bank_appearance_test.dart | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | frontend/faisal_app/test/branding_test.dart | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | frontend/faisal_app/test/dynamic_branding_test.dart | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | frontend/faisal_app/test/security_flows_test.dart | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | frontend/faisal_app/test/startup_flow_test.dart | Updated regression coverage and bank-aware fixtures / emulator scenarios
+MODIFIED | frontend/faisal_app/web/favicon.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/web/icons/Icon-192.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/web/icons/Icon-512.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/web/icons/Icon-maskable-192.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/web/icons/Icon-maskable-512.png | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/web/index.html | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/web/manifest.json | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/windows/runner/Runner.rc | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/windows/runner/main.cpp | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+MODIFIED | frontend/faisal_app/windows/runner/resources/app_icon.ico | Compiled Banking App identity and native/PWA logo resources; stable package IDs
+ADDED | screenshots/banking_app/2026-10-28/01_saved_draft_en.png | Actual emulator visual verification artifact (fictional QA data)
+ADDED | screenshots/banking_app/2026-10-28/02_published_en.png | Actual emulator visual verification artifact (fictional QA data)
+ADDED | screenshots/banking_app/2026-10-28/03_ar_dark.png | Actual emulator visual verification artifact (fictional QA data)
+ADDED | screenshots/banking_app/2026-10-28/04_registration.png | Actual emulator visual verification artifact (fictional QA data)
+ADDED | screenshots/banking_app/2026-10-28/05_nbe_home.png | Actual emulator visual verification artifact (fictional QA data)
+ADDED | screenshots/banking_app/2026-10-28/06_cib_home.png | Actual emulator visual verification artifact (fictional QA data)
+ADDED | screenshots/banking_app/2026-10-28/07_banque_misr_home.png | Actual emulator visual verification artifact (fictional QA data)
+ADDED | screenshots/banking_app/2026-10-28/08_fixed_login.png | Actual emulator visual verification artifact (fictional QA data)
+ADDED | screenshots/banking_app/2026-10-28/09_nbe_dark_ar.png | Actual emulator visual verification artifact (fictional QA data)
+ADDED | screenshots/banking_app/2026-10-28/10_normal_apk_start.png | Actual emulator visual verification artifact (fictional QA data)
+ADDED | scripts/add_banking_app_localizations.py | Reproducible branding/catalogue asset generation or private emulator QA runner
+ADDED | scripts/build_bank_catalogue.py | Reproducible branding/catalogue asset generation or private emulator QA runner
+ADDED | scripts/generate_banking_identity.py | Reproducible branding/catalogue asset generation or private emulator QA runner
+MODIFIED | scripts/run_branding_emulator.py | Reproducible branding/catalogue asset generation or private emulator QA runner
+MODIFIED | BANKING_APP_CHANGED_FILES.txt | This complete source/resource manifest

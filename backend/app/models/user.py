@@ -118,6 +118,7 @@ class User(Base, TimestampMixin):
 
 class CustomerProfile(Base, TimestampMixin):
     __tablename__ = "customer_profiles"
+    bank_code: Mapped[str] = mapped_column(String(32), ForeignKey("banks.code", ondelete="RESTRICT"), nullable=False, default="faisal", server_default="faisal", index=True)
 
     id = uuid_pk()
     user_id: Mapped[uuid.UUID] = mapped_column(

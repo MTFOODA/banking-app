@@ -70,17 +70,20 @@ class BrandingRepositoryImpl implements BrandingRepository {
         ),
       );
   @override
-  Future<BrandingEditorDocument> restore(int revision, {int? version}) async =>
-      BrandingEditorDocument.fromJson(
-        _map(
-          await client.post(
-            version == null
-                ? '/admin/branding/defaults'
-                : '/admin/branding/history/$version/restore',
-            body: {'expected_revision': revision},
-          ),
-        ),
-      );
+  Future<BrandingEditorDocument> restore(
+    int revision, {
+    int? version,
+    String? bankCode,
+  }) async => BrandingEditorDocument.fromJson(
+    _map(
+      await client.post(
+        version == null
+            ? '/admin/branding/defaults'
+            : '/admin/branding/history/$version/restore',
+        body: {'expected_revision': revision, 'bank_code': ?bankCode},
+      ),
+    ),
+  );
   @override
   Future<List<BrandingHistoryEntry>> history({int? before}) async {
     final data = await client.get(

@@ -10,13 +10,13 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appName => 'Faisal App';
+  String get appName => 'Banking App';
 
   @override
-  String get bankName => 'Faisal Islamic Bank of Egypt';
+  String get bankName => 'Your bank';
 
   @override
-  String get bankNameShort => 'Faisal Bank';
+  String get bankNameShort => 'Banking App';
 
   @override
   String get appTagline => 'Banking, thoughtfully designed';
@@ -26,7 +26,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get demoDataNotice =>
-      'This is a demonstration application. All balances, cards, transactions and requests are simulated and are not connected to Faisal Islamic Bank systems.';
+      'Development simulation. Bank names and themes do not indicate a connection to any real bank or payment network.';
 
   @override
   String get simulated => 'Simulated';
@@ -216,7 +216,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get securityNotice =>
-      'Never share your password or one-time codes. Faisal Bank will never ask for them.';
+      'Never share your password or one-time codes. Your bank will never ask for them.';
 
   @override
   String get invalidCardNumber =>
@@ -1313,7 +1313,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get registrationExplanation =>
-      'Enter your existing card or account number. Next, verify a code using the contact registered with the bank. Your existing banking password is not needed.';
+      'Choose your bank and enter your card number. Next, verify with the contact already registered at the bank, then create your unique username and password.';
 
   @override
   String get registrationVerified =>
@@ -2013,7 +2013,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'The amount received is too small or exceeds the supported balance range.';
 
   @override
-  String get publicWelcomeTitle => 'Welcome to Faisal Bank';
+  String get publicWelcomeTitle => 'Welcome to Banking App';
 
   @override
   String get publicWelcomeSubtitle =>
@@ -2107,7 +2107,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Could not open the link. Try again or use another maps app or browser.';
 
   @override
-  String get brandingTitle => 'App Branding & Appearance';
+  String get brandingTitle => 'Bank appearance settings';
 
   @override
   String get brandingGeneral => 'General branding';
@@ -2254,7 +2254,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get brandingDraftNotice =>
-      'Drafts and previews do not affect customers. Publish explicitly to apply them.';
+      'Save a draft and explicitly publish to update customer screens. Connected clients refresh on foreground resume; no new app download is needed for supported internal settings.';
 
   @override
   String get brandingSaved => 'Draft saved. Live branding is unchanged.';
@@ -2276,7 +2276,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get brandingInvalid =>
-      'Check colors, text, fonts and scale. Text/buttons require contrast of at least 4.5:1. The preview keeps the last valid configuration.';
+      'Check the internal text, supported fonts and size scale. The preview keeps the last valid appearance.';
 
   @override
   String get brandingRequestFailed =>
@@ -2291,7 +2291,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get brandingPublishConfirm =>
-      'Publish this saved draft for all customers?';
+      'Publish the saved internal appearance changes for the affected banks?';
 
   @override
   String get brandingReloadConfirm => 'Reload and replace your unsaved edits?';
@@ -2311,7 +2311,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get brandingNativeHelp =>
-      'Android/iOS launcher names, icons and native startup screens are build resources. These controls update in-app branding only. Predefined alternate icons require a separately tested native release.';
+      'The Banking App name, logo, launcher icons and native startup resources are fixed. Changing them requires a new application release; this screen has no controls to change them.';
 
   @override
   String get brandingHex => 'HEX color (#RRGGBB)';
@@ -2333,4 +2333,64 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get brandingSystemFont => 'Original system font';
+
+  @override
+  String get bankSelectionLabel => 'Bank';
+
+  @override
+  String get bankSelectionRequired => 'Choose your card’s bank.';
+
+  @override
+  String get bankRegistrationHelp =>
+      'Choose the bank of your provisioned development card. Verification uses the contact already registered for that customer; selecting a bank never changes card ownership.';
+
+  @override
+  String get bankFixedIdentity => 'Fixed application identity';
+
+  @override
+  String get bankFixedIdentityHelp =>
+      'Banking App name, logo, launcher icon and sign-in appearance are fixed in the application release. These settings customize customer screens after sign-in only.';
+
+  @override
+  String get bankAppearanceScope =>
+      'Edits apply to customers registered with the selected bank. Other banks and the fixed application identity stay independent.';
+
+  @override
+  String get bankPresetColors => 'Bank color preset';
+
+  @override
+  String get bankPresetHelp =>
+      'This read-only palette is inspired by the bank’s identity and adjusted for accessible text contrast. Colors cannot be replaced with arbitrary values.';
+
+  @override
+  String get bankInternalContent => 'Content inside customer accounts';
+
+  @override
+  String get bankInternalCaption => 'Internal caption (optional)';
+
+  @override
+  String get bankRestorePreset => 'Restore this bank’s defaults as draft';
+
+  @override
+  String get bankDirectoryNote =>
+      'The bundled street-address directory belongs to Faisal Bank only. For other banks, use the verified official website; no unverified addresses or hotlines are shown.';
+
+  @override
+  String get bankOfficialWebsite => 'Open official bank website';
+
+  @override
+  String get bankServiceChoose => 'Choose a bank for this service.';
+
+  @override
+  String get bankLinkedBank => 'Registered bank';
+
+  @override
+  String get bankLoginSelectionLabel => 'Bank (optional for sign-in)';
+
+  @override
+  String get bankLoginAutomatic => 'Detect from username or card';
+
+  @override
+  String get bankLoginSelectionHelp =>
+      'Choose the bank for this username/card, or leave automatic. Each successful sign-in uses the bank verified by the server. Administrators sign in without choosing a bank.';
 }

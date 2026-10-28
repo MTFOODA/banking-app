@@ -63,8 +63,10 @@ class FakeAuth implements AuthRepository {
   }
 
   @override
-  Future<RegistrationChallenge> startRegistration(String identifier) async =>
-      start != null ? start!() : challenge;
+  Future<RegistrationChallenge> startRegistration(
+    String identifier, {
+    String bankCode = 'faisal',
+  }) async => start != null ? start!() : challenge;
   static const challenge = RegistrationChallenge(
     reference: 'challenge',
     contact: '***',
@@ -340,6 +342,20 @@ class ProtectedTestVault extends FlutterSecureStorage {
   }
 }
 
+Future<void> selectRegistrationBank(WidgetTester tester) async {
+  final picker = find.byType(DropdownButtonFormField<String>);
+  await tester.ensureVisible(picker);
+  await tester.tap(picker);
+  await tester.pumpAndSettle();
+  final bank = find.textContaining('Faisal Islamic');
+  if (bank.evaluate().isNotEmpty) {
+    await tester.tap(bank.last);
+  } else {
+    await tester.tap(find.textContaining('\u0641\u064a\u0635\u0644').last);
+  }
+  await tester.pumpAndSettle();
+}
+
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
   late FakeAuth auth;
@@ -515,6 +531,7 @@ void main() {
     'registration validates identifier, OTP, resend, password and session completion',
     (tester) async {
       await pump(tester, const RegistrationPage());
+      await selectRegistrationBank(tester);
       await tapText(tester, 'Continue');
       expect(find.textContaining('Enter 6–24'), findsOneWidget);
       await tester.enterText(
@@ -544,6 +561,7 @@ void main() {
     'taken username shows three selectable suggestions and permits a new value',
     (tester) async {
       await pump(tester, const RegistrationPage());
+      await selectRegistrationBank(tester);
       await tester.enterText(find.byType(TextFormField).first, '000123456789');
       await tapText(tester, 'Continue');
       await tester.enterText(find.byType(TextFormField).first, '123456');
@@ -581,6 +599,7 @@ void main() {
       'development OTP is below the form and updates on resend in $locale',
       (tester) async {
         await pump(tester, const RegistrationPage(), locale: locale);
+        await selectRegistrationBank(tester);
         await tester.enterText(
           find.byType(TextFormField).first,
           '000123456789',
@@ -629,6 +648,7 @@ void main() {
       developmentCode: '123456',
     );
     await pump(tester, const RegistrationPage());
+    await selectRegistrationBank(tester);
     await tester.enterText(find.byType(TextFormField).first, '000123456789');
     await tapText(tester, 'Continue');
     expect(find.byKey(const ValueKey('development_otp_panel')), findsNothing);
@@ -640,6 +660,7 @@ void main() {
     final completer = Completer<RegistrationChallenge>();
     auth.start = () => completer.future;
     await pump(tester, const RegistrationPage());
+    await selectRegistrationBank(tester);
     await tester.enterText(find.byType(TextFormField).first, '000123456789');
     await tester.tap(find.text('Continue'));
     await tester.pump();
@@ -661,6 +682,7 @@ void main() {
         addTearDown(tester.view.resetPhysicalSize);
         addTearDown(tester.view.resetDevicePixelRatio);
         await pump(tester, const RegistrationPage(), locale: locale);
+        await selectRegistrationBank(tester);
         final context = tester.element(find.byType(RegistrationPage));
         expect(
           Directionality.of(context),

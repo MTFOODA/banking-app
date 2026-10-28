@@ -8,6 +8,7 @@ import '../../../../core/widgets/faisal_buttons.dart';
 import '../../../../core/widgets/faisal_text_field.dart';
 import '../../../../l10n/app_localizations.dart';
 import 'login_widgets.dart';
+import '../../../banks/presentation/bank_selector.dart';
 
 class LoginFormCard extends StatelessWidget {
   const LoginFormCard({
@@ -21,6 +22,8 @@ class LoginFormCard extends StatelessWidget {
     required this.busy,
     required this.onForgotPassword,
     this.errorMessage,
+    this.bankCode,
+    this.onBankChanged,
   });
 
   final GlobalKey<FormState> formKey;
@@ -32,6 +35,8 @@ class LoginFormCard extends StatelessWidget {
   final bool busy;
   final VoidCallback onForgotPassword;
   final String? errorMessage;
+  final String? bankCode;
+  final ValueChanged<String?>? onBankChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -54,6 +59,18 @@ class LoginFormCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            if (onBankChanged != null) ...[
+              BankSelector(
+                value: bankCode,
+                onChanged: onBankChanged!,
+                enabled: !busy,
+                requiredSelection: false,
+                label: l10n.bankLoginSelectionLabel,
+              ),
+              const SizedBox(height: 8),
+              Text(l10n.bankLoginSelectionHelp, style: context.texts.bodySmall),
+              const SizedBox(height: AppSpacing.lg),
+            ],
             FaisalTextField(
               controller: identifierController,
               label: l10n.loginIdentifier,

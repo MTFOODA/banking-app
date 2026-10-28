@@ -1,3 +1,5 @@
+import '../../../banks/domain/entities/bank_definition.dart';
+
 import 'dart:convert';
 
 import 'package:equatable/equatable.dart';
@@ -17,6 +19,18 @@ const brandingColorKeys = <String>[
   'card',
   'border',
 ];
+const bankAppearanceKeys = <String>[
+  'welcome_message',
+  'application_tagline',
+  'primary_font',
+  'arabic_font',
+  'english_font',
+  'font_size_scale',
+  'heading_font_weight',
+  'body_font_weight',
+  'theme_mode',
+];
+
 const brandingFonts = ['System', 'NotoSans', 'NotoSansArabic'];
 const brandingAssetFields = ['logo_url', 'dark_logo_url', 'splash_image_url'];
 
@@ -29,6 +43,7 @@ class BrandingConfig extends Equatable {
   final String _json;
   static final defaults = BrandingConfig._({
     'schema_version': 1,
+    'bank_overrides': <String, dynamic>{},
     'application_name': null,
     'application_short_name': null,
     'application_tagline': null,
@@ -78,7 +93,10 @@ class BrandingConfig extends Equatable {
     'theme_mode': 'user',
   });
 
-  factory BrandingConfig.fromJson(Map<String, dynamic> input) {
+  factory BrandingConfig.fromJson(
+    Map<String, dynamic> input, {
+    bool internal = false,
+  }) {
     if (input.keys.any((k) => !defaults.data.containsKey(k)) ||
         input['schema_version'] != 1) {
       throw const FormatException('Unsupported branding configuration');
@@ -153,8 +171,62 @@ class BrandingConfig extends Equatable {
       }
       data[mode] = Map<String, String>.unmodifiable(colors);
     }
+    final overrides = data['bank_overrides'];
+    if (overrides is! Map || overrides.length > 100) {
+      throw const FormatException('Invalid bank overrides');
+    }
+    final validated = <String, dynamic>{};
+    for (final entry in overrides.entries) {
+      if (entry.key is! String ||
+          !RegExp(r'^[a-z][a-z0-9_]{1,31}$').hasMatch(entry.key as String) ||
+          entry.value is! Map) {
+        throw const FormatException('Invalid bank appearance');
+      }
+      final values = Map<String, dynamic>.from(entry.value as Map);
+      if (values.keys.any((key) => !bankAppearanceKeys.contains(key))) {
+        throw const FormatException('Unsupported bank appearance field');
+      }
+      final scoped = BrandingConfig.fromJson({
+        ...defaults.toJson(),
+        ...values,
+        'bank_overrides': <String, dynamic>{},
+      });
+      validated[entry.key] = Map<String, dynamic>.unmodifiable({
+        for (final key in bankAppearanceKeys) key: scoped.data[key],
+      });
+    }
+    data['bank_overrides'] = Map<String, dynamic>.unmodifiable(validated);
+    if (!internal) {
+      for (final key in [
+        'application_name',
+        'application_short_name',
+        ...brandingAssetFields,
+      ]) {
+        data[key] = null;
+      }
+      data['custom_theme'] = false;
+      data['light'] = defaults.data['light'];
+      data['dark'] = defaults.data['dark'];
+    }
     return BrandingConfig._(data);
   }
+  BrandingConfig forBank(BankDefinition bank) {
+    final values = toJson();
+    final override = (values['bank_overrides'] as Map)[bank.code];
+    if (override is Map) {
+      for (final key in bankAppearanceKeys) {
+        if (override.containsKey(key)) {
+          values[key] = override[key];
+        }
+      }
+    }
+    values['bank_overrides'] = <String, dynamic>{};
+    values['custom_theme'] = true;
+    values['light'] = bank.light;
+    values['dark'] = bank.dark;
+    return BrandingConfig.fromJson(values, internal: true);
+  }
+
   Map<String, dynamic> toJson() => jsonDecode(_json) as Map<String, dynamic>;
   String? text(String key) => data[key] as String?;
   bool get customTheme => data['custom_theme'] as bool;

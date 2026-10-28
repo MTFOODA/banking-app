@@ -101,19 +101,19 @@ abstract class AppLocalizations {
   /// No description provided for @appName.
   ///
   /// In en, this message translates to:
-  /// **'Faisal App'**
+  /// **'Banking App'**
   String get appName;
 
   /// No description provided for @bankName.
   ///
   /// In en, this message translates to:
-  /// **'Faisal Islamic Bank of Egypt'**
+  /// **'Your bank'**
   String get bankName;
 
   /// No description provided for @bankNameShort.
   ///
   /// In en, this message translates to:
-  /// **'Faisal Bank'**
+  /// **'Banking App'**
   String get bankNameShort;
 
   /// No description provided for @appTagline.
@@ -131,7 +131,7 @@ abstract class AppLocalizations {
   /// No description provided for @demoDataNotice.
   ///
   /// In en, this message translates to:
-  /// **'This is a demonstration application. All balances, cards, transactions and requests are simulated and are not connected to Faisal Islamic Bank systems.'**
+  /// **'Development simulation. Bank names and themes do not indicate a connection to any real bank or payment network.'**
   String get demoDataNotice;
 
   /// No description provided for @simulated.
@@ -497,7 +497,7 @@ abstract class AppLocalizations {
   /// No description provided for @securityNotice.
   ///
   /// In en, this message translates to:
-  /// **'Never share your password or one-time codes. Faisal Bank will never ask for them.'**
+  /// **'Never share your password or one-time codes. Your bank will never ask for them.'**
   String get securityNotice;
 
   /// No description provided for @invalidCardNumber.
@@ -2603,7 +2603,7 @@ abstract class AppLocalizations {
   /// No description provided for @registrationExplanation.
   ///
   /// In en, this message translates to:
-  /// **'Enter your existing card or account number. Next, verify a code using the contact registered with the bank. Your existing banking password is not needed.'**
+  /// **'Choose your bank and enter your card number. Next, verify with the contact already registered at the bank, then create your unique username and password.'**
   String get registrationExplanation;
 
   /// No description provided for @registrationVerified.
@@ -3893,7 +3893,7 @@ abstract class AppLocalizations {
   /// No description provided for @publicWelcomeTitle.
   ///
   /// In en, this message translates to:
-  /// **'Welcome to Faisal Bank'**
+  /// **'Welcome to Banking App'**
   String get publicWelcomeTitle;
 
   /// No description provided for @publicWelcomeSubtitle.
@@ -4067,7 +4067,7 @@ abstract class AppLocalizations {
   /// No description provided for @brandingTitle.
   ///
   /// In en, this message translates to:
-  /// **'App Branding & Appearance'**
+  /// **'Bank appearance settings'**
   String get brandingTitle;
 
   /// No description provided for @brandingGeneral.
@@ -4355,7 +4355,7 @@ abstract class AppLocalizations {
   /// No description provided for @brandingDraftNotice.
   ///
   /// In en, this message translates to:
-  /// **'Drafts and previews do not affect customers. Publish explicitly to apply them.'**
+  /// **'Save a draft and explicitly publish to update customer screens. Connected clients refresh on foreground resume; no new app download is needed for supported internal settings.'**
   String get brandingDraftNotice;
 
   /// No description provided for @brandingSaved.
@@ -4391,7 +4391,7 @@ abstract class AppLocalizations {
   /// No description provided for @brandingInvalid.
   ///
   /// In en, this message translates to:
-  /// **'Check colors, text, fonts and scale. Text/buttons require contrast of at least 4.5:1. The preview keeps the last valid configuration.'**
+  /// **'Check the internal text, supported fonts and size scale. The preview keeps the last valid appearance.'**
   String get brandingInvalid;
 
   /// No description provided for @brandingRequestFailed.
@@ -4415,7 +4415,7 @@ abstract class AppLocalizations {
   /// No description provided for @brandingPublishConfirm.
   ///
   /// In en, this message translates to:
-  /// **'Publish this saved draft for all customers?'**
+  /// **'Publish the saved internal appearance changes for the affected banks?'**
   String get brandingPublishConfirm;
 
   /// No description provided for @brandingReloadConfirm.
@@ -4451,7 +4451,7 @@ abstract class AppLocalizations {
   /// No description provided for @brandingNativeHelp.
   ///
   /// In en, this message translates to:
-  /// **'Android/iOS launcher names, icons and native startup screens are build resources. These controls update in-app branding only. Predefined alternate icons require a separately tested native release.'**
+  /// **'The Banking App name, logo, launcher icons and native startup resources are fixed. Changing them requires a new application release; this screen has no controls to change them.'**
   String get brandingNativeHelp;
 
   /// No description provided for @brandingHex.
@@ -4495,6 +4495,114 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Original system font'**
   String get brandingSystemFont;
+
+  /// No description provided for @bankSelectionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank'**
+  String get bankSelectionLabel;
+
+  /// No description provided for @bankSelectionRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your card’s bank.'**
+  String get bankSelectionRequired;
+
+  /// No description provided for @bankRegistrationHelp.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose the bank of your provisioned development card. Verification uses the contact already registered for that customer; selecting a bank never changes card ownership.'**
+  String get bankRegistrationHelp;
+
+  /// No description provided for @bankFixedIdentity.
+  ///
+  /// In en, this message translates to:
+  /// **'Fixed application identity'**
+  String get bankFixedIdentity;
+
+  /// No description provided for @bankFixedIdentityHelp.
+  ///
+  /// In en, this message translates to:
+  /// **'Banking App name, logo, launcher icon and sign-in appearance are fixed in the application release. These settings customize customer screens after sign-in only.'**
+  String get bankFixedIdentityHelp;
+
+  /// No description provided for @bankAppearanceScope.
+  ///
+  /// In en, this message translates to:
+  /// **'Edits apply to customers registered with the selected bank. Other banks and the fixed application identity stay independent.'**
+  String get bankAppearanceScope;
+
+  /// No description provided for @bankPresetColors.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank color preset'**
+  String get bankPresetColors;
+
+  /// No description provided for @bankPresetHelp.
+  ///
+  /// In en, this message translates to:
+  /// **'This read-only palette is inspired by the bank’s identity and adjusted for accessible text contrast. Colors cannot be replaced with arbitrary values.'**
+  String get bankPresetHelp;
+
+  /// No description provided for @bankInternalContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Content inside customer accounts'**
+  String get bankInternalContent;
+
+  /// No description provided for @bankInternalCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'Internal caption (optional)'**
+  String get bankInternalCaption;
+
+  /// No description provided for @bankRestorePreset.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore this bank’s defaults as draft'**
+  String get bankRestorePreset;
+
+  /// No description provided for @bankDirectoryNote.
+  ///
+  /// In en, this message translates to:
+  /// **'The bundled street-address directory belongs to Faisal Bank only. For other banks, use the verified official website; no unverified addresses or hotlines are shown.'**
+  String get bankDirectoryNote;
+
+  /// No description provided for @bankOfficialWebsite.
+  ///
+  /// In en, this message translates to:
+  /// **'Open official bank website'**
+  String get bankOfficialWebsite;
+
+  /// No description provided for @bankServiceChoose.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose a bank for this service.'**
+  String get bankServiceChoose;
+
+  /// No description provided for @bankLinkedBank.
+  ///
+  /// In en, this message translates to:
+  /// **'Registered bank'**
+  String get bankLinkedBank;
+
+  /// No description provided for @bankLoginSelectionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank (optional for sign-in)'**
+  String get bankLoginSelectionLabel;
+
+  /// No description provided for @bankLoginAutomatic.
+  ///
+  /// In en, this message translates to:
+  /// **'Detect from username or card'**
+  String get bankLoginAutomatic;
+
+  /// No description provided for @bankLoginSelectionHelp.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose the bank for this username/card, or leave automatic. Each successful sign-in uses the bank verified by the server. Administrators sign in without choosing a bank.'**
+  String get bankLoginSelectionHelp;
 }
 
 class _AppLocalizationsDelegate

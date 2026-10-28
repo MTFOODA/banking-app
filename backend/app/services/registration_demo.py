@@ -14,11 +14,14 @@ ACCOUNTS = ("0000000000901", "0000000000902")
 
 
 def seed_registration_demo(db: Session, *, suffix: str = '0901', customer_number: str | None = None,
-                           balanced_funding: bool = False, commit: bool = True) -> bool:
+                           balanced_funding: bool = False, commit: bool = True,
+                           bank_code: str = 'faisal') -> bool:
     if settings.environment not in {"development", "test"}:
         raise RuntimeError("Registration fixtures are restricted to development/test")
     if len(suffix) != 4 or not suffix.isascii() or not suffix.isdigit():
         raise ValueError('A four-digit fictional suffix is required')
+    from app.services.bank_catalogue import registration_bank
+    registration_bank(db, bank_code)
     card_number = '400000000000' + suffix
     account_numbers = ACCOUNTS if suffix == '0901' else ('000000000' + suffix, '100000000' + suffix)
     if db.scalar(select(User.id).where(User.login_identifier_hash == hash_identifier(card_number))):
@@ -33,7 +36,7 @@ def seed_registration_demo(db: Session, *, suffix: str = '0901', customer_number
             must_change_password=True, is_active=True)
         db.add(user)
         db.flush()
-        db.add(CustomerProfile(user_id=user.id, first_name_en="Registration", last_name_en="Example",
+        db.add(CustomerProfile(user_id=user.id, bank_code=bank_code, first_name_en="Registration", last_name_en="Example",
             first_name_ar="عميل", last_name_ar="تسجيل تجريبي", customer_number=customer_number or 'REG-DEMO-' + suffix,
             email="registration.customer@example.com" if suffix == '0901' else f"registration.{suffix}@example.invalid",
             phone="+201000000901" if suffix == '0901' else "+20100000" + suffix, identity_verified=True))
@@ -72,7 +75,7 @@ def seed_registration_demo(db: Session, *, suffix: str = '0901', customer_number
         raise
 
 
-def provision_registration_batch(db: Session, batch: str, count: int = 4) -> list[dict]:
+def provision_registration_batch(db: Session, batch: str, count: int = 4, *, bank_code: str = 'faisal') -> list[dict]:
     """Caller commits once; existing/enrolled identities are never reset."""
     import re
     from sqlalchemy import text
@@ -80,12 +83,18 @@ def provision_registration_batch(db: Session, batch: str, count: int = 4) -> lis
         raise RuntimeError('Registration fixtures are development/test only')
     if not re.fullmatch(r'[a-zA-Z0-9]{1,24}', batch) or not 1 <= count <= 10:
         raise ValueError('Use an alphanumeric batch and 1..10 customers')
+    if len(f'SELF-REG-{batch}-{count}') > 24:
+        raise ValueError('Batch label is too long for the existing customer number; use 12 characters or fewer')
+    from app.services.bank_catalogue import registration_bank
+    registration_bank(db, bank_code)
     db.execute(text('SELECT pg_advisory_xact_lock(192201, 11121)'))
     results = []
     for index in range(1, count + 1):
         customer_number = f'SELF-REG-{batch}-{index}'
         profile = db.scalar(select(CustomerProfile).where(CustomerProfile.customer_number == customer_number))
         if profile:
+            if profile.bank_code != bank_code:
+                raise RuntimeError('Existing fixture bank differs; refusing to reassign it')
             user = db.get(User, profile.user_id)
             card = db.scalar(select(Card).where(Card.customer_id == user.id, Card.pan_token == f'registration-demo-{user.id}'))
             if card is None or card.card_number_hash != hash_identifier('400000000000' + card.card_last4):
@@ -103,8 +112,8 @@ def provision_registration_batch(db: Session, batch: str, count: int = 4) -> lis
                     break
             else:
                 raise RuntimeError('Fictional registration identifier range exhausted')
-            seed_registration_demo(db, suffix=suffix, customer_number=customer_number, balanced_funding=True, commit=False)
+            seed_registration_demo(db, suffix=suffix, customer_number=customer_number, balanced_funding=True, commit=False, bank_code=bank_code)
             user = db.scalar(select(User).where(User.login_identifier_hash == hash_identifier('400000000000' + suffix)))
-        results.append({'id': str(user.id), 'card': '400000000000' + suffix,
+        results.append({'id': str(user.id), 'card': '400000000000' + suffix, 'bank_code': bank_code,
                         'enrollment_completed': user.enrollment_completed})
     return results

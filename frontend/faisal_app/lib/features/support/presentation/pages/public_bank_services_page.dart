@@ -8,7 +8,8 @@ import '../../../../l10n/app_localizations.dart';
 import '../services/bank_contact_links.dart';
 
 class AtmLocatorPage extends StatefulWidget {
-  const AtmLocatorPage({super.key});
+  const AtmLocatorPage({super.key, this.bankName});
+  final String? bankName;
   @override
   State<AtmLocatorPage> createState() => _AtmLocatorPageState();
 }
@@ -25,7 +26,9 @@ class _AtmLocatorPageState extends State<AtmLocatorPage> {
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context), links = sl<BankContactLinks>();
     return FaisalPage(
-      title: l.publicAtms,
+      title: widget.bankName == null
+          ? l.publicAtms
+          : '${l.publicAtms} · ${widget.bankName}',
       child: FaisalSurface(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -78,12 +81,15 @@ class _AtmLocatorPageState extends State<AtmLocatorPage> {
 }
 
 class CallCenterPage extends StatelessWidget {
-  const CallCenterPage({super.key});
+  const CallCenterPage({super.key, this.bankName});
+  final String? bankName;
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context), links = sl<BankContactLinks>();
     return FaisalPage(
-      title: l.publicCallCenter,
+      title: bankName == null
+          ? l.publicCallCenter
+          : '${l.publicCallCenter} · $bankName',
       child: FaisalSurface(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,

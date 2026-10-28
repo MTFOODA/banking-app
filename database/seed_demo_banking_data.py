@@ -572,6 +572,8 @@ def seed_demo_banking(
     if settings.environment == "production":
         raise RuntimeError("Refusing to seed fictional demo data in production.")
 
+    from app.services.bank_catalogue import seed_bank_catalogue
+    seed_bank_catalogue(db)
     now = now or datetime.now(UTC)
     products = seed_products(db)  # idempotent catalogue, commits internally
     account_products = {

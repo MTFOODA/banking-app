@@ -8,6 +8,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:faisal_app/core/errors/app_exception.dart';
+import 'package:faisal_app/features/banks/domain/entities/bank_definition.dart';
 import 'package:faisal_app/core/theme/app_theme.dart';
 import 'package:faisal_app/core/theme/branding_theme.dart';
 import 'package:faisal_app/core/theme/faisal_palette.dart';
@@ -28,14 +29,16 @@ import 'security_flows_test.dart' as fixtures;
 
 BrandingConfig custom({String name = 'QA Brand'}) {
   final data = BrandingConfig.defaults.toJson();
-  data['application_name'] = name;
-  data['custom_theme'] = true;
-  data['primary_font'] = 'NotoSans';
-  data['arabic_font'] = 'NotoSansArabic';
-  data['english_font'] = 'NotoSans';
-  data['font_size_scale'] = 1.1;
-  data['light']['primary'] = '#1D4ED8';
-  data['light']['button_background'] = '#1D4ED8';
+  data['welcome_message'] = name;
+  data['bank_overrides'] = {
+    'faisal': {
+      'welcome_message': name,
+      'primary_font': 'NotoSans',
+      'arabic_font': 'NotoSansArabic',
+      'english_font': 'NotoSans',
+      'font_size_scale': 1.1,
+    },
+  };
   return BrandingConfig.fromJson(data);
 }
 
@@ -112,7 +115,11 @@ class FakeBranding extends BrandingRepository {
   }
 
   @override
-  Future<BrandingEditorDocument> restore(int revision, {int? version}) async {
+  Future<BrandingEditorDocument> restore(
+    int revision, {
+    int? version,
+    String? bankCode,
+  }) async {
     check();
     draft = version == null
         ? BrandingConfig.defaults
@@ -161,7 +168,7 @@ void main() {
     );
   });
   test('custom colors, typography, buttons and palette apply in both languages and modes', () {
-    final config = custom();
+    final config = custom().forBank(BankCatalogue.bundled.find('faisal')!);
     for (final language in ['ar', 'en']) {
       for (final brightness in Brightness.values) {
         final theme = BrandingTheme.build(config, brightness, language);
@@ -192,7 +199,7 @@ void main() {
         {'primary_font': 'RemoteFont'},
         {'font_size_scale': 3},
         {'heading_font_weight': 900},
-        {'application_name': 'Bad\u202e'},
+        {'welcome_message': 'Bad\u202e'},
       ]) {
         expect(
           () => BrandingConfig.fromJson({
@@ -279,42 +286,42 @@ void main() {
     final repository = FakeBranding();
     final cubit = BrandingEditorCubit(repository);
     await cubit.load();
-    cubit.edit('application_name', 'First');
+    cubit.edit('welcome_message', 'First');
     await cubit.save();
     await cubit.publish();
     final first = repository.active.version;
     await cubit.restore();
-    expect(repository.active.config.text('application_name'), 'First');
-    expect(cubit.state.values!['application_name'], isNull);
+    expect(repository.active.config.text('welcome_message'), 'First');
+    expect(cubit.state.values!['welcome_message'], isNull);
     await cubit.publish();
     expect(repository.active.config, BrandingConfig.defaults);
     await cubit.restore(version: first);
     expect(repository.active.config, BrandingConfig.defaults);
     await cubit.publish();
-    expect(repository.active.config.text('application_name'), 'First');
+    expect(repository.active.config.text('welcome_message'), 'First');
     await cubit.close();
   });
   test('save draft is isolated; publish requires saved draft; conflicts and upload failures preserve edits', () async {
     final repository = FakeBranding();
     final cubit = BrandingEditorCubit(repository);
     await cubit.load();
-    cubit.edit('application_name', 'New brand');
+    cubit.edit('welcome_message', 'New brand');
     await cubit.publish();
     expect(cubit.state.error, 'saveFirst');
     await cubit.save();
     expect(repository.active.config, BrandingConfig.defaults);
     expect(cubit.state.dirty, isFalse);
     await cubit.publish();
-    expect(repository.active.config.text('application_name'), 'New brand');
-    cubit.edit('application_name', 'Keep this edit');
+    expect(repository.active.config.text('welcome_message'), 'New brand');
+    cubit.edit('welcome_message', 'Keep this edit');
     repository.conflict = true;
     await cubit.save();
     expect(cubit.state.error, 'conflict');
-    expect(cubit.state.values!['application_name'], 'Keep this edit');
+    expect(cubit.state.values!['welcome_message'], 'Keep this edit');
     repository.conflict = false;
     repository.fail = true;
     await cubit.upload('logo_url', Uint8List(4), 'logo.png');
-    expect(cubit.state.values!['application_name'], 'Keep this edit');
+    expect(cubit.state.values!['welcome_message'], 'Keep this edit');
     await cubit.close();
   });
   testWidgets(
@@ -370,7 +377,8 @@ void main() {
       repository.active = BrandingSnapshot(1, custom());
       await cubit.refresh(force: true);
       await tester.pumpAndSettle();
-      expect(find.text('QA Brand'), findsOneWidget);
+      expect(find.text('Banking App'), findsOneWidget);
+      expect(find.text('QA Brand'), findsNothing);
       expect(find.text('pending transfer draft'), findsOneWidget);
       expect(router.routeInformationProvider.value.uri.path, '/');
       await tester.tap(find.text('Existing action'));
@@ -427,7 +435,7 @@ void main() {
             Directionality.of(context),
             locale == 'ar' ? TextDirection.rtl : TextDirection.ltr,
           );
-          final name = find.byKey(const ValueKey('1-application_name'));
+          final name = find.byKey(const ValueKey('1-faisal-welcome_message'));
           await tester.ensureVisible(name);
           await tester.enterText(name, 'Example Brand');
           await tester.pumpAndSettle();
@@ -437,7 +445,12 @@ void main() {
           await tester.tap(save);
           await tester.pumpAndSettle();
           expect(find.text(l.brandingSaved), findsOneWidget);
-          expect(repository.draft!.text('application_name'), 'Example Brand');
+          expect(
+            repository.draft!
+                .forBank(BankCatalogue.bundled.find('faisal')!)
+                .text('welcome_message'),
+            'Example Brand',
+          );
           final publish = find.byKey(const Key('branding-publish'));
           await tester.ensureVisible(publish);
           await tester.tap(publish);
@@ -447,7 +460,9 @@ void main() {
           );
           await tester.pumpAndSettle();
           expect(
-            repository.active.config.text('application_name'),
+            repository.active.config
+                .forBank(BankCatalogue.bundled.find('faisal')!)
+                .text('welcome_message'),
             'Example Brand',
           );
           expect(tester.takeException(), isNull);

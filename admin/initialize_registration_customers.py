@@ -32,17 +32,18 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--batch', required=True, help='Alphanumeric idempotency label; use a new label for a new set.')
     parser.add_argument('--count', type=int, default=4)
+    parser.add_argument('--bank', default='faisal', help='Issuer bank code from /api/v1/banks; fictional fixtures only.')
     args = parser.parse_args()
     if settings.environment not in {'development', 'test'} or not (make_url(settings.test_database_url).database or '').endswith('_test'):
         raise RuntimeError('Only the configured local persistent demo test database is allowed')
     engine = create_engine(settings.test_database_url)
     before = snapshot(engine)
     with Session(engine) as db, db.begin():
-        rows = provision_registration_batch(db, args.batch, args.count)
+        rows = provision_registration_batch(db, args.batch, args.count, bank_code=args.bank)
     after = snapshot(engine)
     assert all(hashes <= after[name] for name, hashes in before.items()), 'Existing banking data changed'
     with Session(engine) as db, db.begin():
-        assert provision_registration_batch(db, args.batch, args.count) == rows
+        assert provision_registration_batch(db, args.batch, args.count, bank_code=args.bank) == rows
     assert snapshot(engine) == after, 'Non-idempotent registration seed'
     with Session(engine) as db:
         export_credentials(db, ROOT / 'admin/admin.txt', additional_identifiers=[r['card'] for r in rows])
@@ -50,7 +51,7 @@ def main():
     blocks = re.split(r'\n\s*\n', exported)
     fresh = [next(block for block in blocks if 'Card: ' + row['card'] in block) for row in rows]
     (ROOT / 'admin/NEW_REGISTRATION_USERS.txt').write_text(
-        'SELF-REGISTRATION BATCH ' + args.batch + '\nUse demo API 8011; choose username/password after OTP.\n\n' +
+        'SELF-REGISTRATION BATCH ' + args.batch + '\nBank: ' + args.bank + '\nUse demo API 8011; choose username/password after OTP.\n\n' +
         '\n\n'.join(fresh) + '\n\nCommands: admin/RUN_COMMANDS.txt\n', encoding='utf-8')
     result = {'batch': args.batch, 'customers': len(rows), 'ready_for_registration': sum(not r['enrollment_completed'] for r in rows),
               'previous_rows_preserved': True, 'second_run_unchanged': True}

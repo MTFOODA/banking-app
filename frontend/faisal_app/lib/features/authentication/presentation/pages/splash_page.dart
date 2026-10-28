@@ -1,6 +1,3 @@
-import '../../../branding/presentation/widgets/branding_scope.dart';
-import '../../../branding/presentation/widgets/branding_image.dart';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -53,14 +50,7 @@ class SplashPage extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Center(
-                    child: BrandingImage(
-                      url: BrandingScope.of(context).text('splash_image_url'),
-                      width: 260,
-                      height: 160,
-                      fallback: const FaisalLogo(size: 64, showWordmark: true),
-                    ),
-                  ),
+                  const Center(child: FaisalLogo(size: 64, showWordmark: true)),
                   const SizedBox(height: AppSpacing.xl),
                   if (failed)
                     ..._failure(context, l10n, state)

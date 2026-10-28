@@ -60,8 +60,8 @@ void main() {
       // so Theme.of() resolves the theme under test.
       await tester.pumpAndSettle();
 
-      final wordmark = tester.widget<Text>(find.text('Faisal App'));
-      final tagline = tester.widget<Text>(find.text('فيصل'));
+      final wordmark = tester.widget<Text>(find.text('Banking App'));
+      final tagline = tester.widget<Text>(find.text('Your banks, one app'));
       final surface = theme.colorScheme.surface;
 
       expect(
@@ -93,7 +93,7 @@ void main() {
       ),
     );
 
-    final wordmark = tester.widget<Text>(find.text('Faisal App'));
+    final wordmark = tester.widget<Text>(find.text('Banking App'));
     expect(wordmark.style!.color, Colors.white);
   });
 }

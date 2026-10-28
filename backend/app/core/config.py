@@ -29,7 +29,7 @@ class Settings(BaseSettings):
     )
 
     # --- Application -----------------------------------------------------
-    app_name: str = "Faisal App API"
+    app_name: str = "Banking App API"
     environment: str = "development"
     debug: bool = True
     api_v1_prefix: str = "/api/v1"

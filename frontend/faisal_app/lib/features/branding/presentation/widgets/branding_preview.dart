@@ -5,15 +5,19 @@ import '../../../../core/widgets/faisal_logo.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../domain/entities/branding_config.dart';
 import 'branding_scope.dart';
+import '../../../banks/domain/entities/bank_definition.dart';
+import '../../../../core/config/banking_identity.dart';
 
 class BrandingPreview extends StatelessWidget {
   const BrandingPreview({
     super.key,
     required this.config,
     required this.brightness,
+    this.bank,
   });
   final BrandingConfig config;
   final Brightness brightness;
+  final BankDefinition? bank;
   @override
   Widget build(BuildContext context) {
     final theme = BrandingTheme.build(
@@ -25,6 +29,7 @@ class BrandingPreview extends StatelessWidget {
     return BrandingScope(
       config: config,
       preview: true,
+      bank: bank,
       child: Theme(
         data: theme,
         child: Builder(
@@ -44,13 +49,18 @@ class BrandingPreview extends StatelessWidget {
                     const SizedBox(width: 12),
                     Expanded(
                       child: Text(
-                        config.text('application_name') ?? l.appName,
+                        BankingIdentity.name,
                         style: theme.textTheme.titleLarge,
                       ),
                     ),
                   ],
                 ),
                 const SizedBox(height: 16),
+                if (bank != null)
+                  Text(
+                    bank!.name(Localizations.localeOf(context).languageCode),
+                    style: theme.textTheme.titleMedium,
+                  ),
                 Text(
                   config.text('welcome_message') ?? l.brandingPreviewBody,
                   style: theme.textTheme.headlineSmall,

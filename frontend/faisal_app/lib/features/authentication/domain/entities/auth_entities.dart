@@ -15,6 +15,7 @@ class CustomerProfileEntity extends Equatable {
     this.address,
     this.segment = 'retail',
     this.identityVerified = false,
+    this.bankCode = 'faisal',
   });
 
   final String id;
@@ -29,6 +30,7 @@ class CustomerProfileEntity extends Equatable {
   final String? address;
   final String segment;
   final bool identityVerified;
+  final String bankCode;
 
   String displayName({required bool arabic}) => arabic
       ? '$firstNameAr $lastNameAr'.trim()
@@ -42,6 +44,7 @@ class CustomerProfileEntity extends Equatable {
     phone,
     address,
     identityVerified,
+    bankCode,
   ];
 }
 

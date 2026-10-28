@@ -8,7 +8,11 @@ abstract class BrandingRepository {
   Future<BrandingEditorDocument> editor();
   Future<BrandingEditorDocument> save(int revision, BrandingConfig config);
   Future<BrandingEditorDocument> publish(int revision);
-  Future<BrandingEditorDocument> restore(int revision, {int? version});
+  Future<BrandingEditorDocument> restore(
+    int revision, {
+    int? version,
+    String? bankCode,
+  });
   Future<List<BrandingHistoryEntry>> history({int? before});
   Future<String> upload(Uint8List bytes, String filename);
 }

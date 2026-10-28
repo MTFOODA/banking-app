@@ -2,7 +2,10 @@ import '../entities/auth_entities.dart';
 import '../entities/security_entities.dart';
 
 abstract class AuthRepository {
-  Future<RegistrationChallenge> startRegistration(String identifier);
+  Future<RegistrationChallenge> startRegistration(
+    String identifier, {
+    String bankCode = 'faisal',
+  });
   Future<RegistrationChallenge> resendRegistration(String challenge);
   Future<String> verifyRegistration(String challenge, String code);
   Future<UsernameAvailability> checkUsername(String grant, String username);
@@ -23,6 +26,7 @@ abstract class AuthRepository {
     required String identifier,
     required String password,
     required bool rememberDevice,
+    String? bankCode,
   });
 
   Future<AuthSession> completeFirstLogin({

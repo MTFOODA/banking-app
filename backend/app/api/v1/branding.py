@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 from app.core.database import get_db
 from app.dependencies.auth import require_permissions
 from app.models.user import User
-from app.schemas.branding import BrandingDraftRequest, BrandingVersionRequest
+from app.schemas.branding import BrandingDraftRequest, BrandingVersionRequest, BrandingRestoreRequest
 from app.services import branding_service as service
 from app.services.security_service import throttle
 
@@ -72,8 +72,8 @@ def publish(payload: BrandingVersionRequest, user: User = admin, db: Session = D
 
 
 @router.post("/admin/branding/defaults")
-def defaults(payload: BrandingVersionRequest, user: User = admin, db: Session = Depends(get_db)):
-    return service.restore_draft(db, user, payload.expected_revision)
+def defaults(payload: BrandingRestoreRequest, user: User = admin, db: Session = Depends(get_db)):
+    return service.restore_draft(db, user, payload.expected_revision, bank_code=payload.bank_code)
 
 
 @router.get("/admin/branding/history")
@@ -82,18 +82,15 @@ def history(before: int | None = Query(None, gt=0), user: User = admin, db: Sess
 
 
 @router.post("/admin/branding/history/{version}/restore")
-def restore(version: int, payload: BrandingVersionRequest, user: User = admin, db: Session = Depends(get_db)):
-    return service.restore_draft(db, user, payload.expected_revision, version)
+def restore(version: int, payload: BrandingRestoreRequest, user: User = admin, db: Session = Depends(get_db)):
+    return service.restore_draft(db, user, payload.expected_revision, version, bank_code=payload.bank_code)
 
 
 @router.post("/admin/branding/assets", status_code=201)
 async def upload(file: UploadFile = File(...), user: User = admin, db: Session = Depends(get_db)):
-    throttle(db, f"branding-upload:{user.id}", 10)
     try:
-        data = await file.read(service.MAX_IMAGE_BYTES + 1)
-        # Decode in the worker pool, never on the event loop.
-        from starlette.concurrency import run_in_threadpool
-        return await run_in_threadpool(service.store_image, db, user, data, file.content_type or "")
+        from app.core.exceptions import AppError
+        raise AppError(code="fixed_application_identity", message="Banking App name and logo can only change in an application release.", status_code=403)
     finally:
         await file.close()
 

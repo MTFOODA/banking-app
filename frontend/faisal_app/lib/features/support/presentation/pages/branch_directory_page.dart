@@ -10,7 +10,8 @@ import '../cubit/branch_directory_cubit.dart';
 import '../services/bank_contact_links.dart';
 
 class BranchDirectoryPage extends StatefulWidget {
-  const BranchDirectoryPage({super.key});
+  const BranchDirectoryPage({super.key, this.bankName});
+  final String? bankName;
   @override
   State<BranchDirectoryPage> createState() => _BranchDirectoryPageState();
 }
@@ -29,7 +30,13 @@ class _BranchDirectoryPageState extends State<BranchDirectoryPage> {
     final l = AppLocalizations.of(context);
     return Scaffold(
       backgroundColor: context.palette.softSurface,
-      appBar: AppBar(title: Text(l.publicBranches)),
+      appBar: AppBar(
+        title: Text(
+          widget.bankName == null
+              ? l.publicBranches
+              : '${l.publicBranches} · ${widget.bankName}',
+        ),
+      ),
       body: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 800),

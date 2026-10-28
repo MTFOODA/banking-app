@@ -100,11 +100,13 @@ class RegistrationCubit extends Cubit<RegistrationState> {
     return super.close();
   }
 
-  Future<void> start(String identifier) async {
+  Future<void> start(String identifier, {String bankCode = 'faisal'}) async {
     if (state.busy) return;
     emit(const RegistrationState(busy: true));
     try {
-      _received(await _repository.startRegistration(identifier));
+      _received(
+        await _repository.startRegistration(identifier, bankCode: bankCode),
+      );
     } on AppException catch (e) {
       if (!isClosed) emit(RegistrationState(error: e));
     }

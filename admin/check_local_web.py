@@ -10,4 +10,4 @@ except HTTPError:
     sys.exit(2)
 except (URLError, TimeoutError):
     sys.exit(1)
-sys.exit(0 if '<title>Faisal App</title>' in page else 2)
+sys.exit(0 if any(title in page for title in ('<title>Banking App</title>', '<title>Faisal App</title>')) else 2)

@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../../core/di/injector.dart';
+import '../../../branding/presentation/widgets/branding_scope.dart';
 import '../../../../core/localization/security_error.dart';
 import '../../../../core/routing/app_routes.dart';
 import '../../../../core/security/biometric_service.dart';
@@ -107,6 +108,10 @@ class _ProfilePageState extends State<ProfilePage> {
                         const SizedBox(height: 20),
                         Text(p.customerNumber),
                         Text(p.maskedIdentifier),
+                        if (BrandingScope.bankOf(context) != null)
+                          Text(
+                            '${l.bankLinkedBank}: ${BrandingScope.bankOf(context)!.name(Localizations.localeOf(context).languageCode)}',
+                          ),
                         if (p.username != null)
                           Text('${l.usernameLabel}: ${p.username}'),
                         if (p.email != null)

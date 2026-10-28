@@ -29,6 +29,7 @@ class _LoginPageState extends State<LoginPage> {
   final _identifierController = TextEditingController();
   final _passwordController = TextEditingController();
   bool _rememberDevice = false;
+  String? _bankCode;
 
   @override
   void dispose() {
@@ -56,6 +57,7 @@ class _LoginPageState extends State<LoginPage> {
         identifier: _identifierController.text,
         password: _passwordController.text,
         rememberDevice: _rememberDevice,
+        bankCode: _bankCode,
       ),
     );
   }
@@ -101,12 +103,13 @@ class _LoginPageState extends State<LoginPage> {
                       children: [
                         Row(
                           children: [
-                            const FaisalLogo(
-                              size: 52,
-                              onDark: true,
-                              showWordmark: true,
+                            const Expanded(
+                              child: FaisalLogo(
+                                size: 52,
+                                onDark: true,
+                                showWordmark: true,
+                              ),
                             ),
-                            const Spacer(),
                             FaisalLanguageToggle(
                               languageCode: languageCode,
                               onChanged: languageCubit.change,
@@ -115,8 +118,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                         const SizedBox(height: AppSpacing.xxl),
                         Text(
-                          BrandingScope.of(context).text('welcome_message') ??
-                              l10n.welcomeBack,
+                          l10n.welcomeBack,
                           style: context.texts.headlineMedium?.copyWith(
                             color: BrandingScope.headerText(context),
                             fontWeight: FontWeight.w700,
@@ -133,6 +135,9 @@ class _LoginPageState extends State<LoginPage> {
                         const SizedBox(height: AppSpacing.xl),
                         LoginFormCard(
                           formKey: _formKey,
+                          bankCode: _bankCode,
+                          onBankChanged: (value) =>
+                              setState(() => _bankCode = value),
                           identifierController: _identifierController,
                           passwordController: _passwordController,
                           rememberDevice: _rememberDevice,

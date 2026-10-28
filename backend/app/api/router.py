@@ -1,7 +1,7 @@
 """Versioned API router aggregation."""
 
 from fastapi import APIRouter
-from app.api.v1 import security, investments, branding
+from app.api.v1 import security, investments, branding, banks
 
 from app.api.v1 import (
     accounts,
@@ -24,6 +24,7 @@ from app.api.v1 import (
 )
 
 api_router = APIRouter()
+api_router.include_router(banks.router)
 api_router.include_router(branding.router)
 api_router.include_router(security.router)
 api_router.include_router(investments.router)

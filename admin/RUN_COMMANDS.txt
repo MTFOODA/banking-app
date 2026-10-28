@@ -47,3 +47,13 @@ Port 8000 is a SEPARATE development database and may have different credentials.
 Use 8011 for this file. No administrator password has been reset by these scripts.
 Web sessions use memory only; a page reload requires signing in again.
 Release builds require an explicit HTTPS API_BASE_URL.
+
+Banking App migration and bank-specific fixtures (from project root):
+   backend/.venv/Scripts/python.exe admin/migrate_demo.py
+   backend/.venv/Scripts/python.exe admin/initialize_registration_customers.py --batch NBE2810 --count 2 --bank nbe
+   backend/.venv/Scripts/python.exe admin/initialize_registration_customers.py --batch CIB2810 --count 2 --bank cib
+Select the Bank printed next to the card in admin.txt for self-registration.
+Sign-in can choose the bank or detect it from the username/card automatically.
+Different usernames for different banks open each bank's verified internal theme.
+The fixed Banking App name/logo require this new build; supported internal
+appearance publications afterward do not require downloading an app update.

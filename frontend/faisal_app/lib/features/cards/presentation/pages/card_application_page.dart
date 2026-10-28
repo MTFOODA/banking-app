@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+
+import '../../../branding/presentation/widgets/branding_scope.dart';
+import '../../../branding/domain/entities/branding_config.dart';
+
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
@@ -357,12 +361,25 @@ class CardProductPreview extends StatelessWidget {
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
     final ar = Localizations.localeOf(context).languageCode == 'ar';
+    final bank = BrandingScope.bankOf(context);
+    final primary = bank == null || bank.code == 'faisal'
+        ? null
+        : BrandingConfig.parseColor(bank.light['primary']!);
+    final accent = bank == null || bank.code == 'faisal'
+        ? null
+        : BrandingConfig.parseColor(bank.light['accent']!);
     return Semantics(
       label: '${l.cardPreview}: ${product.name(ar)}',
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
         child: DecoratedBox(
-          decoration: BoxDecoration(gradient: cardGradient(product.variant)),
+          decoration: BoxDecoration(
+            gradient: cardGradient(
+              product.variant,
+              primary: primary,
+              accent: accent,
+            ),
+          ),
           child: CustomPaint(
             painter: CardArtwork(product.variant),
             child: Padding(

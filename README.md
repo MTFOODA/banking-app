@@ -1,4 +1,4 @@
-# Faisal App — fictional banking development project
+# Banking App — fictional multi-bank development project
 
 Flutter (mobile/web) + FastAPI + SQLAlchemy + PostgreSQL. All banking movements
 are simulated. This project is not connected to a real bank or payment network.
@@ -38,12 +38,17 @@ through the existing CLI, never shipped with the repository.
 
 ## Dynamic branding
 
-Authorized staff: **Dashboard → Settings → App Branding & Appearance**.
-Save drafts, preview both appearance modes, then explicitly publish. Defaults
-preserve the original theme. Restore defaults/history as drafts before publishing.
-Launcher icons/names and native launch screens require a new native release.
-See [BRANDING_AUDIT.md](BRANDING_AUDIT.md) and
-[DYNAMIC_BRANDING_REPORT.md](DYNAMIC_BRANDING_REPORT.md).
+Authorized staff: **Dashboard → Settings → Bank appearance settings**.
+The Banking App name, original logo and external login identity are compiled
+assets. Staff can edit each bank's internal welcome text, typography and supported
+appearance preferences, preview light/dark modes, save drafts, publish, and
+restore history. Colors come exclusively from reviewed Egyptian bank presets.
+Customers select their issuer bank and existing fictional card at registration;
+the server checks ownership. Their authenticated screens use that bank's theme.
+No real bank/card network integration is claimed. One bank is linked per customer
+identity in this increment. Existing customers remain affiliated with Faisal.
+See [BANKING_APP_REPORT.md](BANKING_APP_REPORT.md) for migration, limitations,
+verification and the exact changed-file manifest.
 
 ## Verification
 

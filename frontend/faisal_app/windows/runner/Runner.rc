@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "eg.faisalbank" "\0"
-            VALUE "FileDescription", "faisal_app" "\0"
+            VALUE "FileDescription", "Banking App" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "faisal_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 eg.faisalbank. All rights reserved." "\0"
             VALUE "OriginalFilename", "faisal_app.exe" "\0"
-            VALUE "ProductName", "faisal_app" "\0"
+            VALUE "ProductName", "Banking App" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

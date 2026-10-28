@@ -17,6 +17,7 @@ class AuthRemoteDataSource {
     required String identifier,
     required String password,
     required bool rememberDevice,
+    String? bankCode,
   }) async {
     final data = await _client.post(
       '/auth/login',
@@ -24,6 +25,7 @@ class AuthRemoteDataSource {
         'identifier': identifier,
         'password': password,
         'remember_device': rememberDevice,
+        'bank_code': ?bankCode,
       },
     );
     return _asMap(data);

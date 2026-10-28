@@ -85,9 +85,13 @@ void main() {
       await waitFor(tester, find.text('Register for digital banking'));
       await tap(tester, 'Register for digital banking');
       await tester.pumpAndSettle();
+      await tester.tap(find.byType(DropdownButtonFormField<String>).first);
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('Faisal Islamic Bank of Egypt').last);
+      await tester.pumpAndSettle();
       await tester.enterText(
         find.byType(TextFormField).first,
-        '0000-0000-00901',
+        '4000-0000-0000-0901',
       );
       await tap(tester, 'Continue');
       await waitFor(tester, find.text('Verify code'));

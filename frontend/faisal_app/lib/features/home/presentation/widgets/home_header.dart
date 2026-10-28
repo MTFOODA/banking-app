@@ -1,3 +1,5 @@
+import '../../../../core/config/banking_identity.dart';
+import '../../../../core/widgets/faisal_logo.dart';
 import '../../../branding/presentation/widgets/branding_scope.dart';
 
 import 'package:flutter/material.dart';
@@ -45,34 +47,11 @@ class HomeHeader extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    Container(
-                      width: 34,
-                      height: 34,
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        border: Border.all(
-                          color: FaisalColors.goldAccent,
-                          width: 1.4,
-                        ),
-                      ),
-                      alignment: Alignment.center,
-                      child: Text(
-                        'ف',
-                        style: TextStyle(
-                          color: BrandingScope.headerText(context),
-                          fontSize: 16,
-                          fontWeight: FontWeight.w700,
-                        ),
-                      ),
-                    ),
+                    const FaisalLogo(size: 34, onDark: true),
                     const SizedBox(width: AppSpacing.sm),
                     Flexible(
                       child: Text(
-                        BrandingScope.of(context)
-                                .text('application_short_name') ??
-                            BrandingScope.of(context)
-                                .text('application_name') ??
-                            'Faisal App',
+                        BankingIdentity.name,
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
@@ -86,9 +65,20 @@ class HomeHeader extends StatelessWidget {
                     ),
                   ],
                 ),
+                if (BrandingScope.bankOf(context) != null) ...[
+                  const SizedBox(height: 6),
+                  Text(
+                    BrandingScope.bankOf(context)!
+                        .name(Localizations.localeOf(context).languageCode),
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: context.palette.onHeaderMuted,
+                    ),
+                  ),
+                ],
                 const SizedBox(height: AppSpacing.lg),
                 Text(
-                  greeting,
+                  BrandingScope.of(context).text('welcome_message') ?? greeting,
                   style: TextStyle(
                     color: BrandingScope.headerText(context)
                         .withValues(alpha: 0.72),
@@ -105,6 +95,17 @@ class HomeHeader extends StatelessWidget {
                     fontWeight: FontWeight.w700,
                   ),
                 ),
+                if (BrandingScope.of(context)
+                        .text('application_tagline')
+                        ?.isNotEmpty ==
+                    true)
+                  Text(
+                    BrandingScope.of(context).text('application_tagline')!,
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: context.palette.onHeaderMuted,
+                    ),
+                  ),
               ],
             ),
           ),

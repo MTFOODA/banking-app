@@ -30,6 +30,7 @@ class AuthMapper {
     return CustomerProfileEntity(
       id: json['id'] as String,
       customerNumber: json['customer_number'] as String? ?? '',
+      bankCode: json['bank_code'] as String? ?? 'faisal',
       firstNameEn: json['first_name_en'] as String? ?? '',
       lastNameEn: json['last_name_en'] as String? ?? '',
       firstNameAr: json['first_name_ar'] as String? ?? '',

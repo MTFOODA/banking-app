@@ -57,6 +57,7 @@ def login(payload: LoginRequest, request: Request, db: Session = Depends(get_db)
         identifier=payload.identifier,
         password=payload.password,
         remember_device=payload.remember_device,
+        bank_code=payload.bank_code,
         meta=client_meta(request),
     )
     return _login_response(status, issued, setup_token, setup_expires, user)

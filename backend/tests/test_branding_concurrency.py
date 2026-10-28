@@ -20,7 +20,7 @@ def test_two_publishers_commit_one_version(seeded_dataset):
             must_change_password=False,enrollment_completed=True,is_active=True)
         db.add(actor);db.commit();actor_id=actor.id
         old=service.admin_config(db)
-        saved=service.save_draft(db,actor,old['revision'],BrandingConfig(application_name='Concurrent QA'))
+        saved=service.save_draft(db,actor,old['revision'],BrandingConfig(bank_overrides={'nbe': {'welcome_message':'Concurrent QA'}}))
         expected=saved['revision']
     barrier=Barrier(2)
     def run(_):

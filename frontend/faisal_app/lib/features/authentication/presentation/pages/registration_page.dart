@@ -1,3 +1,5 @@
+import '../../../banks/presentation/bank_selector.dart';
+
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -34,6 +36,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
   final _password = TextEditingController(),
       _confirmation = TextEditingController();
   Timer? _timer;
+  String? _bankCode;
   @override
   void initState() {
     super.initState();
@@ -195,10 +198,19 @@ class _RegistrationPageState extends State<RegistrationPage> {
                                 const SizedBox(height: 20),
                                 if (state.step ==
                                     RegistrationStep.identifier) ...[
+                                  BankSelector(
+                                    value: _bankCode,
+                                    registrationOnly: true,
+                                    enabled: !state.busy,
+                                    onChanged: (value) =>
+                                        setState(() => _bankCode = value),
+                                  ),
+                                  const SizedBox(height: 12),
+                                  Text(l.bankRegistrationHelp),
+                                  const SizedBox(height: 20),
                                   FaisalTextField(
                                     controller: _identifier,
-                                    label:
-                                        '${l.cardNumber} / ${l.accountNumber}',
+                                    label: l.cardNumber,
                                     keyboardType: TextInputType.number,
                                     validator: (v) =>
                                         normalizeRegistrationIdentifier(
@@ -218,6 +230,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
                                           normalizeRegistrationIdentifier(
                                             _identifier.text,
                                           )!,
+                                          bankCode: _bankCode!,
                                         );
                                       }
                                     },

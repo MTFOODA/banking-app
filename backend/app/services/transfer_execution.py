@@ -88,6 +88,8 @@ def _resolve_accounts(db: Session, user: User, draft: TransferCreate, *, lock: b
     receiver = db.get(User, destination.customer_id)
     if not receiver or not receiver.is_active or receiver.is_locked or (receiver.locked_until and receiver.locked_until > utcnow()):
         _error("invalid_destination", "The destination is not eligible.")
+    if draft.transfer_type == 'internal' and (not user.profile or not receiver.profile or user.profile.bank_code != receiver.profile.bank_code):
+        _error("invalid_destination", "Choose a destination at the same bank or use a domestic bank transfer.")
     conversion_allowed=allow_fx and draft.transfer_type=='own_accounts' and not beneficiary and destination.customer_id==user.id
     if source.currency != draft.currency.upper() or (destination.currency != source.currency and not conversion_allowed) or (beneficiary and beneficiary.currency != source.currency):
         _error("currency_mismatch", "Both accounts must use the selected currency.")

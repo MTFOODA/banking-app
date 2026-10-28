@@ -18,15 +18,17 @@ class AuthLoginRequested extends AuthEvent {
     required this.identifier,
     required this.password,
     required this.rememberDevice,
+    this.bankCode,
   });
 
   /// Card number or account number (normalised by the API).
   final String identifier;
   final String password;
   final bool rememberDevice;
+  final String? bankCode;
 
   @override
-  List<Object?> get props => [identifier, rememberDevice];
+  List<Object?> get props => [identifier, rememberDevice, bankCode];
 }
 
 class AuthTokensRefreshed extends AuthEvent {

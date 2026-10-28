@@ -12,6 +12,9 @@ from app.services.registration_service import normalize_registration_identifier
 class RegistrationStart(BaseModel):
     model_config = ConfigDict(extra="forbid")
     identifier: str = Field(min_length=6, max_length=64)
+    # Default preserves older clients; the new Flutter form requires selection.
+    bank_code: str = Field(default='faisal',pattern=r'^[a-z][a-z0-9_]{1,31}$')
+    identifier_type: Literal['card', 'card_or_account'] = 'card_or_account'
 
     @field_validator("identifier")
     @classmethod

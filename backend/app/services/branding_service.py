@@ -17,7 +17,7 @@ from sqlalchemy.orm import Session
 from app.core.config import settings
 from app.core.exceptions import AppError
 from app.models.branding import BrandingPublication, BrandingSettings
-from app.schemas.branding import BrandingConfig
+from app.schemas.branding import BrandingConfig, InternalAppearance, current_policy_config
 from app.services.common import record_audit
 
 MAX_IMAGE_BYTES = 2 * 1024 * 1024
@@ -39,12 +39,12 @@ def public_config(db: Session) -> dict:
     row = db.get(BrandingSettings, 1)
     publication = db.get(BrandingPublication, row.active_version) if row and row.active_version else None
     return {"configuration_version": publication.version if publication else 0,
-            "config": publication.config if publication else BrandingConfig().model_dump(mode="json")}
+            "config": current_policy_config(publication.config).model_dump(mode="json") if publication else BrandingConfig().model_dump(mode="json")}
 
 
 def admin_config(db: Session) -> dict:
     row = state(db)
-    result = {"revision": row.revision, "draft": row.draft, **public_config(db)}
+    result = {"revision": row.revision, "draft": current_policy_config(row.draft).model_dump(mode="json") if row.draft else None, **public_config(db)}
     db.commit()
     return result
 
@@ -74,6 +74,7 @@ def validate_assets(config: BrandingConfig):
 
 
 def save_draft(db, actor, expected, config):
+    config = BrandingConfig.model_validate(config.model_dump(mode="json"))
     validate_assets(config)
     row = _locked(db, expected)
     row.draft = config.model_dump(mode="json")
@@ -102,14 +103,24 @@ def publish(db, actor, expected):
     return admin_config(db)
 
 
-def restore_draft(db, actor, expected, version=None):
+def restore_draft(db, actor, expected, version=None, *, bank_code=None):
     if version is None:
         config = BrandingConfig()
     else:
         old = db.get(BrandingPublication, version)
         if old is None:
             raise AppError(code="branding_version_missing", message="Published version not found.", status_code=404)
-        config = BrandingConfig.model_validate(old.config)
+        config = current_policy_config(old.config)
+    if bank_code is not None:
+        from app.services.bank_catalogue_data import BANK_ROWS
+        if bank_code not in {row[0] for row in BANK_ROWS}:
+            raise AppError(code='bank_unavailable',message='Unknown bank.',status_code=422)
+        row=state(db)
+        current=current_policy_config(row.draft or public_config(db)['config'])
+        appearance=config.bank_overrides.get(bank_code) or InternalAppearance(**{
+            key:getattr(config,key) for key in InternalAppearance.model_fields})
+        current.bank_overrides={**current.bank_overrides,bank_code:appearance}
+        config=current
     return save_draft(db, actor, expected, config)
 
 
@@ -118,7 +129,7 @@ def history(db, *, before=None):
     if before is not None:
         query = query.where(BrandingPublication.version < before)
     return [{"version": p.version, "published_at": p.published_at, "published_by": p.published_by,
-             "config": p.config} for p in db.scalars(query)]
+             "config": current_policy_config(p.config).model_dump(mode="json")} for p in db.scalars(query)]
 
 
 def published_asset(db, name):

@@ -31,6 +31,7 @@ class LoginRequest(BaseModel):
     )
     password: str = Field(min_length=1, max_length=PASSWORD_MAX_LENGTH)
     remember_device: bool = False
+    bank_code: str | None = Field(default=None, pattern=r'^[a-z][a-z0-9_]{1,31}$')
 
     @field_validator("identifier")
     @classmethod
@@ -46,6 +47,7 @@ class LoginRequest(BaseModel):
 
 
 class CustomerProfileResponse(ORMModel):
+    bank_code: str = "faisal"
     id: uuid.UUID
     customer_number: str
     first_name_en: str

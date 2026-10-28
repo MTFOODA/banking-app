@@ -34,12 +34,14 @@ class FaisalBalanceVisibilityToggle extends StatelessWidget {
     required this.showLabel,
     required this.hideLabel,
     this.onDark = true,
+    this.foregroundColor,
   });
 
   final BalanceVisibilityController controller;
   final String showLabel;
   final String hideLabel;
   final bool onDark;
+  final Color? foregroundColor;
 
   @override
   Widget build(BuildContext context) {
@@ -53,7 +55,9 @@ class FaisalBalanceVisibilityToggle extends StatelessWidget {
           controller.visible
               ? Icons.visibility_outlined
               : Icons.visibility_off_outlined,
-          color: onDark ? context.palette.onHeader : context.colors.onSurface,
+          color:
+              foregroundColor ??
+              (onDark ? context.palette.onHeader : context.colors.onSurface),
           size: 20,
         ),
       ),

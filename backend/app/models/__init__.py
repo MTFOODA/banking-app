@@ -17,3 +17,4 @@ from app.models.security import AuthorizationGrant, OtpChallenge, SecurityThrott
 from app.models.investment import InvestmentTerms, InvestmentHolding, InvestmentOperation
 from app.models.fx_transfer import OwnFxQuote
 from app.models.branding import BrandingSettings, BrandingPublication
+from app.models.bank import Bank

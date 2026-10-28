@@ -1,21 +1,21 @@
-import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../../core/di/injector.dart';
 import '../../../../core/theme/faisal_palette.dart';
+import '../../../../core/config/banking_identity.dart';
 import '../../../../core/widgets/faisal_logo.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../../admin/presentation/pages/admin_frame.dart';
+import '../../../banks/domain/entities/bank_definition.dart';
+import '../../../banks/presentation/bank_catalogue_cubit.dart';
+import '../../../banks/presentation/bank_selector.dart';
 import '../../domain/entities/branding_config.dart';
 import '../../domain/repositories/branding_repository.dart';
 import '../cubit/branding_cubit.dart';
 import '../cubit/branding_editor_cubit.dart';
-import '../widgets/branding_color_picker.dart';
-import '../widgets/branding_image.dart';
 import '../widgets/branding_preview.dart';
-import '../widgets/branding_scope.dart';
 
 class AdminBrandingPage extends StatefulWidget {
   const AdminBrandingPage({super.key, this.repository, this.onPublished});
@@ -31,8 +31,8 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
     onPublished:
         widget.onPublished ?? () => sl<BrandingCubit>().refresh(force: true),
   )..load();
+  String bankCode = 'faisal';
   bool dark = false, allowPop = false;
-  BrandingConfig lastValid = BrandingConfig.defaults;
   @override
   void dispose() {
     cubit.close();
@@ -74,43 +74,33 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
   String notice(AppLocalizations l, String code) => switch (code) {
     'saved' => l.brandingSaved,
     'published' => l.brandingPublished,
-    'restored' => l.brandingRestored,
-    _ => l.brandingUploaded,
+    _ => l.brandingRestored,
   };
-  Future<void> upload(String field) async {
-    try {
-      final picked = await FilePicker.pickFile(
-        type: FileType.custom,
-        allowedExtensions: ['png', 'jpg', 'jpeg'],
-      );
-      if (picked == null || !mounted) {
-        return;
-      }
-      final size = await picked.length();
-      if (size == null || size > 2 * 1024 * 1024) {
-        throw const FormatException();
-      }
-      await cubit.upload(field, await picked.readAsBytes(), picked.name);
-    } catch (_) {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(AppLocalizations.of(context).brandingUploadHelp),
-          ),
-        );
-      }
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
     return BlocBuilder<BrandingEditorCubit, BrandingEditorState>(
       bloc: cubit,
       builder: (context, state) {
-        if (state.validConfig != null) {
-          lastValid = state.validConfig!;
-        }
+        final catalogue = sl.isRegistered<BankCatalogueCubit>()
+            ? sl<BankCatalogueCubit>().state
+            : BankCatalogue.bundled;
+        final bank =
+            catalogue.find(bankCode) ?? BankCatalogue.bundled.find('faisal')!;
+        final root =
+            state.validConfig ??
+            state.document?.active.config ??
+            BrandingConfig.defaults;
+        final effective = root.forBank(bank);
+        final overrides = state.values?['bank_overrides'] as Map?;
+        final raw = overrides?[bankCode];
+        final values = raw is Map
+            ? raw
+            : <String, dynamic>{
+                for (final key in bankAppearanceKeys)
+                  key: state.values?[key] ?? BrandingConfig.defaults.data[key],
+              };
+        final epoch = '${state.epoch}-$bankCode';
         return PopScope(
           canPop: !state.dirty || allowPop,
           onPopInvokedWithResult: (didPop, result) async {
@@ -151,26 +141,45 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         if (state.busy) const LinearProgressIndicator(),
+                        _section(
+                          l.bankFixedIdentity,
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              const FaisalLogo(size: 48, showWordmark: true),
+                              const SizedBox(height: 12),
+                              Text(l.bankFixedIdentityHelp),
+                              const SizedBox(height: 8),
+                              Text(
+                                BankingIdentity.name,
+                                style: context.texts.titleMedium,
+                              ),
+                            ],
+                          ),
+                        ),
                         Text(
                           '${l.brandingVersion}: ${state.document!.active.version}',
                           style: context.texts.titleMedium,
                         ),
-                        const SizedBox(height: 8),
-                        Text(l.brandingDraftNotice),
-                        if (state.dirty)
-                          Padding(
-                            padding: const EdgeInsets.only(top: 8),
-                            child: Text(
-                              l.brandingUnsaved,
-                              style: TextStyle(color: context.colors.primary),
-                            ),
-                          ),
+                        const SizedBox(height: 12),
+                        BankSelector(
+                          value: bankCode,
+                          enabled: !state.busy,
+                          onChanged: (value) {
+                            if (value != null) {
+                              setState(() => bankCode = value);
+                            }
+                          },
+                        ),
+                        const SizedBox(height: 12),
+                        Text(l.bankAppearanceScope),
+                        if (state.dirty) _message(l.brandingUnsaved),
                         if (state.error != null)
-                          _message(error(l, state.error!), error: true),
+                          _message(error(l, state.error!), bad: true),
                         if (state.notice != null)
                           _message(notice(l, state.notice!)),
                         if (state.validConfig == null)
-                          _message(l.brandingInvalid, error: true),
+                          _message(l.brandingInvalid, bad: true),
                         _section(
                           l.brandingPreview,
                           Column(
@@ -195,7 +204,8 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
                               ),
                               const SizedBox(height: 12),
                               BrandingPreview(
-                                config: lastValid,
+                                config: effective,
+                                bank: bank,
                                 brightness: dark
                                     ? Brightness.dark
                                     : Brightness.light,
@@ -204,205 +214,68 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
                           ),
                         ),
                         _section(
-                          l.brandingGeneral,
+                          l.bankPresetColors,
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              Text(l.bankPresetHelp),
+                              const SizedBox(height: 12),
+                              for (final mode in ['light', 'dark']) ...[
+                                Text(
+                                  mode == 'light'
+                                      ? l.brandingLight
+                                      : l.brandingDark,
+                                  style: context.texts.titleMedium,
+                                ),
+                                const SizedBox(height: 8),
+                                Wrap(
+                                  spacing: 10,
+                                  runSpacing: 10,
+                                  children: [
+                                    for (final entry
+                                        in (mode == 'light'
+                                                ? bank.light
+                                                : bank.dark)
+                                            .entries)
+                                      Chip(
+                                        avatar: CircleAvatar(
+                                          backgroundColor:
+                                              BrandingConfig.parseColor(
+                                                entry.value,
+                                              ),
+                                        ),
+                                        label: Text(
+                                          '${colorLabel(l, entry.key)}: ${entry.value}',
+                                        ),
+                                      ),
+                                  ],
+                                ),
+                                const SizedBox(height: 16),
+                              ],
+                            ],
+                          ),
+                        ),
+                        _section(
+                          l.bankInternalContent,
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
                               _text(
                                 state,
-                                'application_name',
-                                l.brandingName,
-                                40,
-                                helper: l.brandingOriginal,
-                              ),
-                              _text(
-                                state,
-                                'application_short_name',
-                                l.brandingShortName,
-                                20,
-                              ),
-                              _text(
-                                state,
+                                epoch,
+                                values,
                                 'welcome_message',
                                 l.brandingWelcome,
                                 160,
                               ),
                               _text(
                                 state,
+                                epoch,
+                                values,
                                 'application_tagline',
-                                l.brandingTagline,
+                                l.bankInternalCaption,
                                 100,
                               ),
-                              Text(
-                                l.brandingUploadHelp,
-                                style: context.texts.bodySmall,
-                              ),
-                              const SizedBox(height: 12),
-                              for (final entry in [
-                                ('logo_url', l.brandingLogo),
-                                ('dark_logo_url', l.brandingDarkLogo),
-                                ('splash_image_url', l.brandingSplash),
-                              ])
-                                Padding(
-                                  padding: const EdgeInsets.only(bottom: 16),
-                                  child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.stretch,
-                                    children: [
-                                      Text(
-                                        entry.$2,
-                                        style: context.texts.titleMedium,
-                                      ),
-                                      const SizedBox(height: 8),
-                                      BrandingScope(
-                                        config: lastValid,
-                                        preview: true,
-                                        child: Align(
-                                          alignment:
-                                              AlignmentDirectional.centerStart,
-                                          child: BrandingImage(
-                                            url:
-                                                state.values![entry.$1]
-                                                    as String?,
-                                            width: 120,
-                                            height: 80,
-                                            label: entry.$2,
-                                            fallback: const FaisalLogo(
-                                              size: 60,
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                      Wrap(
-                                        spacing: 12,
-                                        children: [
-                                          TextButton.icon(
-                                            onPressed: state.busy
-                                                ? null
-                                                : () => upload(entry.$1),
-                                            icon: const Icon(
-                                              Icons.upload_outlined,
-                                            ),
-                                            label: Text(l.brandingUpload),
-                                          ),
-                                          TextButton(
-                                            onPressed: state.busy
-                                                ? null
-                                                : () => cubit.edit(
-                                                    entry.$1,
-                                                    null,
-                                                  ),
-                                            child: Text(l.brandingRemove),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                            ],
-                          ),
-                        ),
-                        _section(
-                          l.brandingColors,
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.stretch,
-                            children: [
-                              SwitchListTile(
-                                contentPadding: EdgeInsets.zero,
-                                title: Text(l.brandingCustomTheme),
-                                value: state.values!['custom_theme'] as bool,
-                                onChanged: state.busy
-                                    ? null
-                                    : (v) => cubit.edit('custom_theme', v),
-                              ),
-                              for (final mode in ['light', 'dark']) ...[
-                                const SizedBox(height: 12),
-                                Text(
-                                  mode == 'light'
-                                      ? l.brandingLight
-                                      : l.brandingDark,
-                                  style: context.texts.titleLarge,
-                                ),
-                                const SizedBox(height: 12),
-                                LayoutBuilder(
-                                  builder: (context, constraints) => Wrap(
-                                    spacing: 12,
-                                    runSpacing: 12,
-                                    children: [
-                                      for (final entry in _colorLabels(
-                                        l,
-                                      ).entries)
-                                        SizedBox(
-                                          width: constraints.maxWidth > 620
-                                              ? (constraints.maxWidth - 24) / 3
-                                              : constraints.maxWidth > 420
-                                              ? (constraints.maxWidth - 12) / 2
-                                              : constraints.maxWidth,
-                                          child: TextFormField(
-                                            key: ValueKey(
-                                              '${state.epoch}-$mode-${entry.key}',
-                                            ),
-                                            initialValue:
-                                                (state.values![mode]
-                                                        as Map)[entry.key]
-                                                    as String,
-                                            enabled: !state.busy,
-                                            textDirection: TextDirection.ltr,
-                                            maxLength: 7,
-                                            decoration: InputDecoration(
-                                              labelText: entry.value,
-                                              counterText: '',
-                                              suffixIcon: IconButton(
-                                                tooltip: l.brandingHex,
-                                                onPressed: state.busy
-                                                    ? null
-                                                    : () async {
-                                                        final current =
-                                                            (state.values![mode]
-                                                                    as Map)[entry
-                                                                    .key]
-                                                                as String;
-                                                        final picked =
-                                                            await pickBrandingColor(
-                                                              context,
-                                                              RegExp(
-                                                                    r'^#[0-9a-fA-F]{6}$',
-                                                                  ).hasMatch(
-                                                                    current,
-                                                                  )
-                                                                  ? current
-                                                                  : '#075C46',
-                                                            );
-                                                        if (picked != null) {
-                                                          cubit.edit(
-                                                            entry.key,
-                                                            picked,
-                                                            mode: mode,
-                                                            resetForm: true,
-                                                          );
-                                                        }
-                                                      },
-                                                icon: Icon(
-                                                  Icons.color_lens,
-                                                  color: _safeColor(
-                                                    (state.values![mode]
-                                                            as Map)[entry.key]
-                                                        as String,
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            onChanged: (v) => cubit.edit(
-                                              entry.key,
-                                              v.toUpperCase(),
-                                              mode: mode,
-                                            ),
-                                          ),
-                                        ),
-                                    ],
-                                  ),
-                                ),
-                              ],
                             ],
                           ),
                         ),
@@ -413,27 +286,33 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
                             children: [
                               _dropdown(
                                 state,
+                                epoch,
+                                values,
                                 'primary_font',
                                 l.brandingPrimaryFont,
                                 brandingFonts,
                               ),
                               _dropdown(
                                 state,
+                                epoch,
+                                values,
                                 'arabic_font',
                                 l.brandingArabicFont,
                                 ['System', 'NotoSansArabic'],
                               ),
                               _dropdown(
                                 state,
+                                epoch,
+                                values,
                                 'english_font',
                                 l.brandingEnglishFont,
                                 ['System', 'NotoSans'],
                               ),
                               Text(
-                                '${l.brandingScale}: ${(state.values!['font_size_scale'] as num).toStringAsFixed(2)}',
+                                '${l.brandingScale}: ${(values['font_size_scale'] as num).toStringAsFixed(2)}',
                               ),
                               Slider(
-                                value: (state.values!['font_size_scale'] as num)
+                                value: (values['font_size_scale'] as num)
                                     .toDouble(),
                                 min: .9,
                                 max: 1.15,
@@ -442,32 +321,41 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
                                     '${l.brandingScale}: ${v.toStringAsFixed(2)}',
                                 onChanged: state.busy
                                     ? null
-                                    : (v) => cubit.edit(
+                                    : (v) => cubit.editBank(
+                                        bankCode,
                                         'font_size_scale',
                                         double.parse(v.toStringAsFixed(2)),
                                       ),
                               ),
                               _dropdown(
                                 state,
+                                epoch,
+                                values,
                                 'heading_font_weight',
                                 l.brandingHeadingWeight,
                                 [400, 500, 600, 700],
                               ),
                               _dropdown(
                                 state,
+                                epoch,
+                                values,
                                 'body_font_weight',
                                 l.brandingBodyWeight,
                                 [400, 500, 600],
                               ),
-                              _dropdown(state, 'theme_mode', l.brandingMode, [
-                                'user',
-                                'light',
-                                'dark',
-                                'system',
-                              ]),
+                              _dropdown(
+                                state,
+                                epoch,
+                                values,
+                                'theme_mode',
+                                l.brandingMode,
+                                ['user', 'light', 'dark', 'system'],
+                              ),
                             ],
                           ),
                         ),
+                        Text(l.brandingDraftNotice),
+                        const SizedBox(height: 12),
                         Wrap(
                           spacing: 12,
                           runSpacing: 12,
@@ -514,10 +402,10 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
                               ? null
                               : () async {
                                   if (await confirm(l.brandingReplaceConfirm)) {
-                                    await cubit.restore();
+                                    await cubit.restore(bankCode: bankCode);
                                   }
                                 },
-                          child: Text(l.brandingDefaults),
+                          child: Text(l.bankRestorePreset),
                         ),
                         _section(
                           l.brandingHistory,
@@ -548,6 +436,7 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
                                             )) {
                                               await cubit.restore(
                                                 version: entry.version,
+                                                bankCode: bankCode,
                                               );
                                             }
                                           },
@@ -562,20 +451,7 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
                             ],
                           ),
                         ),
-                        _section(
-                          l.brandingNative,
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                l.brandingReleaseRequired,
-                                style: context.texts.titleMedium,
-                              ),
-                              const SizedBox(height: 8),
-                              Text(l.brandingNativeHelp),
-                            ],
-                          ),
-                        ),
+                        _section(l.brandingNative, Text(l.brandingNativeHelp)),
                       ],
                     ),
                   ),
@@ -585,20 +461,35 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
     );
   }
 
-  Widget _message(String message, {bool error = false}) => Padding(
-    padding: const EdgeInsets.symmetric(vertical: 12),
+  Widget _message(String value, {bool bad = false}) => Padding(
+    padding: const EdgeInsets.symmetric(vertical: 10),
     child: Semantics(
       liveRegion: true,
       child: Text(
-        message,
+        value,
         style: TextStyle(
-          color: error ? context.colors.error : context.colors.primary,
+          color: bad ? context.colors.error : context.colors.primary,
         ),
       ),
     ),
   );
+  String colorLabel(AppLocalizations l, String key) => switch (key) {
+    'primary' => l.brandingPrimary,
+    'secondary' => l.brandingSecondary,
+    'accent' => l.brandingAccent,
+    'background' => l.brandingBackground,
+    'surface' => l.brandingSurface,
+    'text_primary' => l.brandingTextPrimary,
+    'text_secondary' => l.brandingTextSecondary,
+    'error' => l.brandingError,
+    'button_background' => l.brandingButtonBackground,
+    'button_text' => l.brandingButtonText,
+    'card' => l.brandingCard,
+    'border' => l.brandingBorder,
+    _ => key,
+  };
   Widget _section(String title, Widget child) => Padding(
-    padding: const EdgeInsets.symmetric(vertical: 16),
+    padding: const EdgeInsets.symmetric(vertical: 14),
     child: Card(
       child: Padding(
         padding: const EdgeInsets.all(20),
@@ -615,72 +506,52 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
   );
   Widget _text(
     BrandingEditorState state,
+    String epoch,
+    Map values,
     String key,
     String label,
-    int max, {
-    String? helper,
-  }) => Padding(
+    int max,
+  ) => Padding(
     padding: const EdgeInsets.only(bottom: 16),
     child: TextFormField(
-      key: ValueKey('${state.epoch}-$key'),
-      initialValue: state.values![key] as String? ?? '',
+      key: ValueKey('$epoch-$key'),
+      initialValue: values[key] as String? ?? '',
       enabled: !state.busy,
       maxLength: max,
-      decoration: InputDecoration(
-        labelText: label,
-        helperText: helper,
-        helperMaxLines: 2,
-      ),
-      onChanged: (value) =>
-          cubit.edit(key, value.trim().isEmpty ? null : value.trim()),
+      decoration: InputDecoration(labelText: label),
+      onChanged: (v) =>
+          cubit.editBank(bankCode, key, v.trim().isEmpty ? null : v.trim()),
     ),
   );
   Widget _dropdown(
     BrandingEditorState state,
+    String epoch,
+    Map values,
     String key,
     String label,
     List<Object> options,
   ) {
     final l = AppLocalizations.of(context);
-    String name(Object v) => switch (v) {
+    String name(Object value) => switch (value) {
       'System' => l.brandingSystemFont,
       'user' => l.brandingUserMode,
       'light' => l.brandingLight,
       'dark' => l.brandingDark,
       'system' => l.brandingSystem,
-      _ => v.toString(),
+      _ => value.toString(),
     };
     return Padding(
       padding: const EdgeInsets.only(bottom: 16),
       child: DropdownButtonFormField<Object>(
-        key: ValueKey('${state.epoch}-$key'),
-        initialValue: state.values![key],
+        key: ValueKey('$epoch-$key'),
+        initialValue: values[key],
         isExpanded: true,
         decoration: InputDecoration(labelText: label),
         items: options
             .map((v) => DropdownMenuItem(value: v, child: Text(name(v))))
             .toList(),
-        onChanged: state.busy ? null : (v) => cubit.edit(key, v),
+        onChanged: state.busy ? null : (v) => cubit.editBank(bankCode, key, v),
       ),
     );
   }
-
-  Color _safeColor(String value) => RegExp(r'^#[a-fA-F0-9]{6}$').hasMatch(value)
-      ? BrandingConfig.parseColor(value)
-      : context.colors.error;
-  Map<String, String> _colorLabels(AppLocalizations l) =>
-      Map.fromIterables(brandingColorKeys, [
-        l.brandingPrimary,
-        l.brandingSecondary,
-        l.brandingAccent,
-        l.brandingBackground,
-        l.brandingSurface,
-        l.brandingTextPrimary,
-        l.brandingTextSecondary,
-        l.brandingError,
-        l.brandingButtonBackground,
-        l.brandingButtonText,
-        l.brandingCard,
-        l.brandingBorder,
-      ]);
 }

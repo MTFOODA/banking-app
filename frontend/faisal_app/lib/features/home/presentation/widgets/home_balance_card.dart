@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+import '../../../branding/presentation/widgets/branding_scope.dart';
+import '../../../branding/domain/entities/branding_config.dart';
+import '../../../../core/widgets/card_artwork.dart';
+
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_spacing.dart';
 import '../../../../core/utils/formatters.dart';
@@ -24,10 +28,18 @@ class HomeBalanceCard extends StatelessWidget {
     final l10n = AppLocalizations.of(context);
     final locale = Localizations.localeOf(context).languageCode;
     final totals = overview.accounts.totals;
+    final bank = BrandingScope.bankOf(context);
+    final customBank = bank != null && bank.code != 'faisal';
     return Container(
       padding: const EdgeInsets.all(AppSpacing.xl),
       decoration: BoxDecoration(
-        gradient: FaisalGradients.card(Theme.of(context).brightness),
+        gradient: customBank
+            ? cardGradient(
+                'gold',
+                primary: BrandingConfig.parseColor(bank.primary),
+                accent: BrandingConfig.parseColor(bank.accent),
+              )
+            : FaisalGradients.card(Theme.of(context).brightness),
         borderRadius: BorderRadius.circular(AppRadius.xl),
         boxShadow: [
           BoxShadow(
@@ -57,6 +69,7 @@ class HomeBalanceCard extends StatelessWidget {
                   controller: visibility,
                   showLabel: l10n.showBalance,
                   hideLabel: l10n.hideBalance,
+                  foregroundColor: Colors.white,
                 ),
               ],
             ),
@@ -86,8 +99,10 @@ class HomeBalanceCard extends StatelessWidget {
                 Container(
                   width: 6,
                   height: 6,
-                  decoration: const BoxDecoration(
-                    color: FaisalColors.goldAccent,
+                  decoration: BoxDecoration(
+                    color: customBank
+                        ? BrandingConfig.parseColor(bank.accent)
+                        : FaisalColors.goldAccent,
                     shape: BoxShape.circle,
                   ),
                 ),
@@ -104,7 +119,9 @@ class HomeBalanceCard extends StatelessWidget {
                 TextButton(
                   onPressed: onAccountsTap,
                   style: TextButton.styleFrom(
-                    foregroundColor: FaisalColors.goldAccent,
+                    foregroundColor: customBank
+                        ? Colors.white
+                        : FaisalColors.goldAccent,
                     padding: const EdgeInsets.symmetric(
                       horizontal: AppSpacing.sm,
                     ),

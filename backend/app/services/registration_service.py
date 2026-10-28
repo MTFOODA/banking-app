@@ -30,8 +30,10 @@ def normalize_registration_identifier(value: str) -> str:
     return digits
 
 
-def resolve_eligible_customer(db: Session, identifier: str) -> User | None:
+def resolve_eligible_customer(db: Session, identifier: str, bank_code: str = 'faisal', *, card_only: bool = False) -> User | None:
     card = db.scalar(select(Card).where(Card.card_number_hash == hash_identifier(identifier)))
+    if card_only and card is None:
+        return None
     account = db.scalar(select(Account).where(Account.account_number_hash == hash_identifier(f"acct:{identifier}")))
     legacy = db.scalar(select(User).where(User.login_identifier_hash == hash_identifier(identifier)))
     owners = {row.customer_id for row in (card, account) if row is not None}
@@ -43,7 +45,7 @@ def resolve_eligible_customer(db: Session, identifier: str) -> User | None:
     now = utcnow()
     if (not user or user.login_type != "customer" or user.enrollment_completed or not user.is_active
         or user.is_locked or (user.locked_until and user.locked_until > now)
-        or not user.profile or not user.profile.identity_verified
+        or not user.profile or user.profile.bank_code != bank_code or not user.profile.identity_verified
         or not (user.profile.email or user.profile.phone)):
         return None
     if account and account.status != "active":
@@ -102,10 +104,12 @@ def _issue_code(db: Session, challenge: OtpChallenge, user: User | None, referen
     return response
 
 
-def start(db: Session, identifier: str, ip: str) -> dict:
+def start(db: Session, identifier: str, ip: str, *, bank_code: str = 'faisal', card_only: bool = False) -> dict:
+    from app.services.bank_catalogue import registration_bank
+    registration_bank(db,bank_code)
     security_service.throttle(db, f"registration:ip:{ip}", 10, 600)
     security_service.throttle(db, f"registration:id:{hash_identifier(identifier)}", 4, 600)
-    user = resolve_eligible_customer(db, identifier)
+    user = resolve_eligible_customer(db, identifier, bank_code, card_only=card_only)
     if user:
         user = security_service.lock_user(db, user)
         if user.enrollment_completed:

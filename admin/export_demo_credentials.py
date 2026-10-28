@@ -81,6 +81,7 @@ def export_credentials(db: Session, destination: Path, *, additional_identifiers
                             'غير محفوظ محليًا؛ كلمة المرور الحالية لم تتغير')
         lines += [
             'Username: ' + (user.username or 'يُختار أثناء التسجيل بعد OTP'),
+            *(['Bank: ' + user.profile.bank_code] if user.profile else []),
             'Card: ' + (', '.join(card_numbers) if card_numbers else 'لا يوجد'),
             'Password: ' + password,
             'Accounts: ' + str(sum(account.customer_id == user.id for account in accounts)),

@@ -1,5 +1,8 @@
 import 'dart:async';
 
+import '../../../../core/di/injector.dart';
+import '../../../banks/presentation/bank_catalogue_cubit.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -22,12 +25,18 @@ class _BrandingRuntimeState extends State<BrandingRuntime>
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     unawaited(widget.cubit?.refresh());
+    if (sl.isRegistered<BankCatalogueCubit>()) {
+      unawaited(sl<BankCatalogueCubit>().refresh());
+    }
   }
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.resumed) {
       unawaited(widget.cubit?.refresh());
+      if (sl.isRegistered<BankCatalogueCubit>()) {
+        unawaited(sl<BankCatalogueCubit>().refresh());
+      }
     }
   }
 

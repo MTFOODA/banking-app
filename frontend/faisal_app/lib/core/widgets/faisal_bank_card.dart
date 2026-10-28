@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../../features/branding/presentation/widgets/branding_scope.dart';
+import '../../features/branding/domain/entities/branding_config.dart';
+
 import '../../features/cards/domain/entities/card_entities.dart';
 import '../../l10n/app_localizations.dart';
 import '../localization/labels.dart';
@@ -29,6 +32,13 @@ class FaisalBankCard extends StatelessWidget {
     final l10n = AppLocalizations.of(context);
     final arabic = Localizations.localeOf(context).languageCode == 'ar';
     final radius = BorderRadius.circular(AppRadius.xl);
+    final bank = BrandingScope.bankOf(context);
+    final bankPrimary = bank == null || bank.code == 'faisal'
+        ? null
+        : BrandingConfig.parseColor(bank.light['primary']!);
+    final bankAccent = bank == null || bank.code == 'faisal'
+        ? null
+        : BrandingConfig.parseColor(bank.light['accent']!);
     final variant = cardVariant(
       card.productCode.isEmpty && card.isCredit
           ? 'CP-PLATINUM-CREDIT'
@@ -45,7 +55,11 @@ class FaisalBankCard extends StatelessWidget {
           borderRadius: radius,
           child: Ink(
             decoration: BoxDecoration(
-              gradient: cardGradient(variant),
+              gradient: cardGradient(
+                variant,
+                primary: bankPrimary,
+                accent: bankAccent,
+              ),
               borderRadius: radius,
               boxShadow: [
                 BoxShadow(

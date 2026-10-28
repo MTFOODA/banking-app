@@ -67,27 +67,38 @@ def dark_colors():
     )
 
 
-class BrandingConfig(StrictModel):
-    schema_version: Literal[1] = 1
-    # Null means preserve the existing, localized presentation exactly.
-    application_name: str | None = Field(default=None, min_length=1, max_length=40)
-    application_short_name: str | None = Field(default=None, min_length=1, max_length=20)
+class InternalAppearance(StrictModel):
     application_tagline: str | None = Field(default=None, max_length=100)
     welcome_message: str | None = Field(default=None, max_length=160)
-    logo_url: str | None = None
-    dark_logo_url: str | None = None
-    splash_image_url: str | None = None
-    custom_theme: bool = False
-    light: BrandingColors = Field(default_factory=BrandingColors)
-    dark: BrandingColors = Field(default_factory=dark_colors)
     primary_font: Literal["System", "NotoSans", "NotoSansArabic"] = "System"
     arabic_font: Literal["System", "NotoSansArabic"] = "System"
     english_font: Literal["System", "NotoSans"] = "System"
     font_size_scale: float = Field(default=1, ge=.9, le=1.15, allow_inf_nan=False)
     heading_font_weight: Literal[400, 500, 600, 700] = 700
     body_font_weight: Literal[400, 500, 600] = 400
-    # 'user' preserves the current local/system theme selection.
     theme_mode: Literal["user", "light", "dark", "system"] = "user"
+
+    @field_validator("application_tagline", "welcome_message")
+    @classmethod
+    def internal_text(cls, value):
+        if value is not None and (value != value.strip() or any(ord(c) < 32 or c in "\u202a\u202b\u202c\u202d\u202e\u2066\u2067\u2068\u2069" for c in value)):
+            raise ValueError("Use plain text without control characters")
+        return value
+
+
+class BrandingConfig(InternalAppearance):
+    schema_version: Literal[1] = 1
+    bank_overrides: dict[str, InternalAppearance] = Field(default_factory=dict, max_length=100)
+    # Null means preserve the existing, localized presentation exactly.
+    application_name: str | None = Field(default=None, min_length=1, max_length=40)
+    application_short_name: str | None = Field(default=None, min_length=1, max_length=20)
+    logo_url: str | None = None
+    dark_logo_url: str | None = None
+    splash_image_url: str | None = None
+    custom_theme: bool = False
+    light: BrandingColors = Field(default_factory=BrandingColors)
+    dark: BrandingColors = Field(default_factory=dark_colors)
+    # 'user' preserves the current local/system theme selection.
 
     @field_validator("logo_url", "dark_logo_url", "splash_image_url")
     @classmethod
@@ -106,8 +117,34 @@ class BrandingConfig(StrictModel):
         return value
 
 
+    @model_validator(mode="after")
+    def fixed_application_identity(self):
+        if any(getattr(self,key) is not None for key in ("application_name","application_short_name","logo_url","dark_logo_url","splash_image_url")):
+            raise ValueError("Banking App name and logo are fixed application assets")
+        if self.custom_theme or self.light != BrandingColors() or self.dark != dark_colors():
+            raise ValueError("Only the bank catalogue color presets may be used")
+        from app.services.bank_catalogue_data import BANK_ROWS
+        known={row[0] for row in BANK_ROWS}
+        if any(code not in known for code in self.bank_overrides):
+            raise ValueError("Unknown bank appearance key")
+        return self
+
+
+def current_policy_config(data: dict) -> BrandingConfig:
+    """Read old snapshots without rewriting history or resurrecting old identity controls."""
+    value=dict(data)
+    for key in ("application_name","application_short_name","logo_url","dark_logo_url","splash_image_url"):
+        value[key]=None
+    value.update(custom_theme=False,light=BrandingColors().model_dump(),dark=dark_colors().model_dump())
+    return BrandingConfig.model_validate(value)
+
+
 class BrandingVersionRequest(StrictModel):
     expected_revision: int = Field(ge=0)
+
+
+class BrandingRestoreRequest(BrandingVersionRequest):
+    bank_code: str | None = Field(default=None,pattern=r'^[a-z][a-z0-9_]{1,31}$')
 
 
 class BrandingDraftRequest(BrandingVersionRequest):

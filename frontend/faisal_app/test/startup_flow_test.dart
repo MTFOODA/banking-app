@@ -47,6 +47,7 @@ class _FakeAuthRepository implements AuthRepository {
     required String identifier,
     required String password,
     required bool rememberDevice,
+    String? bankCode,
   }) => throw UnimplementedError();
 
   @override

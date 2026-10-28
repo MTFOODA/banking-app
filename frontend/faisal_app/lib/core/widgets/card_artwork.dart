@@ -9,30 +9,57 @@ String cardVariant(String code) => switch (code) {
   _ => 'gold',
 };
 
-LinearGradient cardGradient(String variant) => LinearGradient(
-  begin: Alignment.topLeft,
-  end: Alignment.bottomRight,
-  colors: switch (variant) {
-    'platinum' => const [
-      Color(0xff090f0d),
-      Color(0xff143f33),
-      Color(0xff080d0c),
-    ],
-    'platinum_fx' => const [
-      Color(0xff080c0b),
-      Color(0xff242719),
-      Color(0xff826c25),
-    ],
-    'youth' => const [Color(0xff116c52), Color(0xff0b463d), Color(0xff5b792d)],
-    'meeza' => const [Color(0xff163d29), Color(0xff47733a), Color(0xff686323)],
-    'meeza_bab_rezq' => const [
-      Color(0xff6e5b1c),
-      Color(0xff3b5a24),
-      Color(0xff123d30),
-    ],
-    _ => const [Color(0xff75601e), Color(0xff254e32), Color(0xff064536)],
-  },
-);
+LinearGradient cardGradient(String variant, {Color? primary, Color? accent}) =>
+    LinearGradient(
+      begin: Alignment.topLeft,
+      end: Alignment.bottomRight,
+      colors: primary != null && accent != null
+          ? [
+              Color.lerp(
+                Colors.black,
+                primary,
+                variant.startsWith('platinum') ? .25 : .55,
+              )!,
+              Color.lerp(Colors.black, primary, .65)!,
+              Color.lerp(
+                Colors.black,
+                accent,
+                variant == 'platinum_fx' ? .5 : .35,
+              )!,
+            ]
+          : switch (variant) {
+              'platinum' => const [
+                Color(0xff090f0d),
+                Color(0xff143f33),
+                Color(0xff080d0c),
+              ],
+              'platinum_fx' => const [
+                Color(0xff080c0b),
+                Color(0xff242719),
+                Color(0xff826c25),
+              ],
+              'youth' => const [
+                Color(0xff116c52),
+                Color(0xff0b463d),
+                Color(0xff5b792d),
+              ],
+              'meeza' => const [
+                Color(0xff163d29),
+                Color(0xff47733a),
+                Color(0xff686323),
+              ],
+              'meeza_bab_rezq' => const [
+                Color(0xff6e5b1c),
+                Color(0xff3b5a24),
+                Color(0xff123d30),
+              ],
+              _ => const [
+                Color(0xff75601e),
+                Color(0xff254e32),
+                Color(0xff064536),
+              ],
+            },
+    );
 
 /// Shared vector artwork for product previews and actual owned cards.
 class CardArtwork extends CustomPainter {

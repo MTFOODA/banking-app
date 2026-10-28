@@ -1,5 +1,3 @@
-import '../../../branding/presentation/widgets/branding_scope.dart';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
@@ -98,9 +96,7 @@ class _BankNoticesPageState extends State<BankNoticesPage> {
                       const SizedBox(height: 24),
                       Text(
                         widget.id == null
-                            ? BrandingScope.of(context)
-                                      .text('welcome_message') ??
-                                  l.publicWelcomeTitle
+                            ? l.publicWelcomeTitle
                             : l.admPublicTitle,
                         style: context.texts.headlineMedium?.copyWith(
                           color: context.palette.onHeader,

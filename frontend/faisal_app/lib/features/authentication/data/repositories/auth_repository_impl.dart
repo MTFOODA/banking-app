@@ -22,12 +22,16 @@ class AuthRepositoryImpl implements AuthRepository {
       );
 
   @override
-  Future<RegistrationChallenge> startRegistration(String identifier) async =>
-      _challenge(
-        await _remote.securityPost('registration/start', {
-          'identifier': identifier,
-        }),
-      );
+  Future<RegistrationChallenge> startRegistration(
+    String identifier, {
+    String bankCode = 'faisal',
+  }) async => _challenge(
+    await _remote.securityPost('registration/start', {
+      'identifier': identifier,
+      'bank_code': bankCode,
+      'identifier_type': 'card',
+    }),
+  );
   @override
   Future<RegistrationChallenge> resendRegistration(String challenge) async =>
       _challenge(
@@ -106,11 +110,13 @@ class AuthRepositoryImpl implements AuthRepository {
     required String identifier,
     required String password,
     required bool rememberDevice,
+    String? bankCode,
   }) async {
     final json = await _remote.login(
       identifier: identifier,
       password: password,
       rememberDevice: rememberDevice,
+      bankCode: bankCode,
     );
     final status = json['status'] as String?;
     final userJson = json['user'];

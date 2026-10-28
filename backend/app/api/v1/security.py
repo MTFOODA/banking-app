@@ -14,7 +14,7 @@ router = APIRouter(prefix="/auth", tags=["Authentication"])
 
 @router.post("/registration/start")
 def start(payload: RegistrationStart, request: Request, db: Session = Depends(get_db)):
-    return registration_service.start(db, payload.identifier, client_meta(request)["ip_address"] or "unknown")
+    return registration_service.start(db, payload.identifier, client_meta(request)["ip_address"] or "unknown", bank_code=payload.bank_code, card_only=payload.identifier_type == 'card')
 
 
 @router.post("/registration/resend")

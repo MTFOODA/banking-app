@@ -62,6 +62,9 @@ import '../../features/support/domain/repositories/bank_directory_repository.dar
 import '../../features/support/data/repositories/bank_directory_repository_impl.dart';
 import '../../features/support/presentation/services/bank_contact_links.dart';
 import '../network/dio_client.dart';
+import '../../features/banks/domain/repositories/bank_catalogue_repository.dart';
+import '../../features/banks/data/bank_catalogue_repository_impl.dart';
+import '../../features/banks/presentation/bank_catalogue_cubit.dart';
 import '../../features/branding/data/repositories/branding_repository_impl.dart';
 import '../../features/branding/data/branding_asset_cache.dart';
 import '../../features/branding/domain/repositories/branding_repository.dart';
@@ -90,6 +93,13 @@ Future<void> configureDependencies() async {
 
   final client = DioClient(sessionStore: sessionStore);
   sl.registerSingleton<DioClient>(client);
+  sl.registerLazySingleton<BankCatalogueRepository>(
+    () => BankCatalogueRepositoryImpl(client),
+  );
+  sl.registerLazySingleton<BankCatalogueCubit>(
+    () => BankCatalogueCubit(sl<BankCatalogueRepository>(), preferences),
+    dispose: (cubit) => cubit.close(),
+  );
   sl.registerLazySingleton<BrandingRepository>(
     () => BrandingRepositoryImpl(client),
   );

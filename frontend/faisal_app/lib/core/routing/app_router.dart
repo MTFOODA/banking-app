@@ -1,7 +1,9 @@
-import '../../features/branding/presentation/widgets/branding_scope.dart';
+import '../config/banking_identity.dart';
 
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+
+import '../../features/support/presentation/pages/bank_services_gate.dart';
 
 import '../../features/admin/presentation/pages/admin_settings_page.dart';
 import '../../features/branding/presentation/pages/admin_branding_page.dart';
@@ -33,8 +35,6 @@ import '../../features/more/presentation/pages/more_page.dart';
 import '../../features/transactions/domain/repositories/transactions_repository.dart';
 import '../../features/transactions/presentation/pages/transactions_page.dart';
 import '../presentation/main_shell.dart';
-import '../../features/support/presentation/pages/branch_directory_page.dart';
-import '../../features/support/presentation/pages/public_bank_services_page.dart';
 import 'app_routes.dart';
 import 'route_guard.dart';
 
@@ -55,12 +55,17 @@ GoRouter buildRouter({required AuthBloc authBloc}) {
       ),
       GoRoute(
         path: AppRoutes.branches,
-        builder: (_, _) => const BranchDirectoryPage(),
+        builder: (_, _) =>
+            const BankServicesGate(kind: BankServiceKind.branches),
       ),
-      GoRoute(path: AppRoutes.atms, builder: (_, _) => const AtmLocatorPage()),
+      GoRoute(
+        path: AppRoutes.atms,
+        builder: (_, _) => const BankServicesGate(kind: BankServiceKind.atms),
+      ),
       GoRoute(
         path: AppRoutes.callCenter,
-        builder: (_, _) => const CallCenterPage(),
+        builder: (_, _) =>
+            const BankServicesGate(kind: BankServiceKind.callCenter),
       ),
       GoRoute(
         path: AppRoutes.preLogin,
@@ -188,11 +193,7 @@ GoRouter buildRouter({required AuthBloc authBloc}) {
       ),
     ],
     errorBuilder: (context, state) => Scaffold(
-      appBar: AppBar(
-        title: Text(
-          BrandingScope.of(context).text('application_name') ?? 'Faisal App',
-        ),
-      ),
+      appBar: AppBar(title: Text(BankingIdentity.name)),
       body: Center(
         child: TextButton(
           onPressed: () => context.go(AppRoutes.home),

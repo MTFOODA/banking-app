@@ -1,7 +1,7 @@
 FICTIONAL DEVELOPMENT BANK - ADMINISTRATION
 
 MINIMAL LOCAL CREDENTIAL FILE
-  admin/admin.txt contains only username, card number(s), verified known local
+  admin/admin.txt contains only username, issuer bank, card number(s), verified known local
   password, account count, active certificate count and active fund count for
   every identity in the persistent phone database, plus one OTP explanation.
   Unenrolled identities choose their username and password after OTP. Unknown
@@ -173,9 +173,12 @@ prepare a later batch. Reusing a label never resets enrolled credentials.
 See ADMIN_WEB_SETUP_REPORT.md for actual browser/emulator test results.
 
 
-DYNAMIC APP BRANDING AND APPEARANCE
-  Dashboard > Settings > App Branding & Appearance. Existing content-management
-  permission is enforced on every editing, history and private-image endpoint.
+BANKING APP IDENTITY AND BANK APPEARANCE (2026-10-28)
+  Dashboard > Settings > Bank appearance settings. Existing content-management
+  permission is enforced on every editing and history endpoint.
+  Name/logo/launcher identity are fixed as Banking App. Upload/edit identity APIs
+  are disabled. Only internal bank-scoped text/fonts/mode settings are editable.
+  Colors are read-only reviewed Egyptian-bank presets, not a free color picker.
   Save draft and preview first; Publish applies the SAVED draft explicitly.
   Defaults and history restore as drafts and require a separate publish action.
   No custom branding is automatically published by setup or migrations.
@@ -187,7 +190,9 @@ DYNAMIC APP BRANDING AND APPEARANCE
   Select the target deliberately. Never reset an existing database.
   Keep the branding upload directory on persistent shared storage when running
   multiple API workers/hosts; include it in backups with publication history.
-  See DYNAMIC_BRANDING_REPORT.md and BRANDING_CHANGED_FILES.txt at project root.
+  See BANKING_APP_REPORT.md and BANKING_APP_CHANGED_FILES.txt at project root.
+  The earlier DYNAMIC_BRANDING_REPORT.md describes the superseded unrestricted
+  name/logo/color editor and is retained only as implementation history.
 
   Optional isolated real-emulator test, from project root (local PostgreSQL only):
     $env:DEBUG='false'
@@ -195,6 +200,18 @@ DYNAMIC APP BRANDING AND APPEARANCE
     backend/.venv/Scripts/python.exe backend/serve_branding_qa.py
   In a second terminal, with emulator-5554 and a debug app already installed:
     backend/.venv/Scripts/python.exe scripts/run_branding_emulator.py
-  Uses ONLY faisal_branding_qa_test on port 8017, random private fixture credentials
-  in ignored .tmp, and screenshots/branding/manual. Existing credentials and
+  Uses ONLY banking_app_qa_test on port 8017, random private fixture credentials
+  in ignored .tmp, and screenshots/banking_app/2026-10-28. Existing credentials and
   persistent demo data are never reset. It refuses production/remote DB hosts.
+
+  Fresh multi-bank self-registration fixtures (from project root):
+    backend/.venv/Scripts/python.exe admin/initialize_registration_customers.py --batch NBE2810 --count 2 --bank nbe
+    backend/.venv/Scripts/python.exe admin/initialize_registration_customers.py --batch CIB2810 --count 2 --bank cib
+  Existing batches never reset enrolled passwords. Use a new alphanumeric label
+  of at most 12 characters for additional customers. admin.txt is ignored by Git
+  and now identifies the issuer bank next to each fictional customer's card.
+  Select that exact bank before requesting the development OTP. The code changes
+  for each challenge and appears below the OTP form only on the dev/test server.
+  No real SMS/email or external bank card verification is configured.
+  All original demo customers/cards/accounts remain affiliated with Faisal.
+  The additive bank migration is c94d28f1a710. No tables/data were reset.
