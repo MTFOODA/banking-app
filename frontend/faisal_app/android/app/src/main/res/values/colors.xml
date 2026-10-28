@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- White matches the background of the original logo artwork, so the
+         adaptive foreground never shows a seam behind the mark. -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

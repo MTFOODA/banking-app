@@ -1,0 +1,134 @@
+BRANDING CHANGE INVENTORY - 2026-10-28
+Compared with the pre-implementation source snapshot.
+Generated files, local secrets and build outputs are excluded.
+
+MODIFIED .gitignore
+  Exclude secrets, uploads, caches, builds and database artifacts.
+ADDED BRANDING_AUDIT.md
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED BRANDING_CHANGED_FILES.txt
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED DYNAMIC_BRANDING_REPORT.md
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED README.md
+  Setup, admin controls, migration and isolated QA instructions.
+MODIFIED admin/README.txt
+  Setup, admin controls, migration and isolated QA instructions.
+ADDED backend/alembic/versions/b317a90d66e1_app_branding.py
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+MODIFIED backend/app/api/router.py
+  Register new branding models/router alongside existing functionality.
+ADDED backend/app/api/v1/branding.py
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+MODIFIED backend/app/models/__init__.py
+  Register new branding models/router alongside existing functionality.
+ADDED backend/app/models/branding.py
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED backend/app/schemas/branding.py
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED backend/app/services/branding_service.py
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED backend/requirements-dev.txt
+  Document/install existing pytest tooling.
+MODIFIED backend/requirements.txt
+  Add Pillow for bounded raster validation.
+ADDED backend/serve_branding_qa.py
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED backend/tests/test_branding.py
+  Branding/regression automated verification.
+ADDED backend/tests/test_branding_concurrency.py
+  Branding/regression automated verification.
+ADDED frontend/faisal_app/assets/fonts/NotoSans-OFL.txt
+  Original SIL Open Font License.
+ADDED frontend/faisal_app/assets/fonts/NotoSans.ttf
+  Bundled, offline Noto font asset.
+ADDED frontend/faisal_app/assets/fonts/NotoSansArabic-OFL.txt
+  Original SIL Open Font License.
+ADDED frontend/faisal_app/assets/fonts/NotoSansArabic.ttf
+  Bundled, offline Noto font asset.
+ADDED frontend/faisal_app/integration_test/branding_emulator_test.dart
+  Branding/regression automated verification.
+MODIFIED frontend/faisal_app/lib/app.dart
+  Register branding dependencies and retain the existing router/session objects.
+MODIFIED frontend/faisal_app/lib/bootstrap.dart
+  Register branding dependencies and retain the existing router/session objects.
+MODIFIED frontend/faisal_app/lib/core/di/injector.dart
+  Register branding dependencies and retain the existing router/session objects.
+MODIFIED frontend/faisal_app/lib/core/routing/app_router.dart
+  Add settings routes and a dynamic in-app fallback title; existing routes retained.
+MODIFIED frontend/faisal_app/lib/core/routing/app_routes.dart
+  Add settings routes and a dynamic in-app fallback title; existing routes retained.
+ADDED frontend/faisal_app/lib/core/theme/branding_theme.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+MODIFIED frontend/faisal_app/lib/core/widgets/faisal_app_bar.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+MODIFIED frontend/faisal_app/lib/core/widgets/faisal_logo.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+MODIFIED frontend/faisal_app/lib/core/widgets/faisal_page.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+MODIFIED frontend/faisal_app/lib/features/admin/presentation/pages/admin_dashboard_page.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+ADDED frontend/faisal_app/lib/features/admin/presentation/pages/admin_settings_page.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+MODIFIED frontend/faisal_app/lib/features/authentication/presentation/pages/login_page.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+MODIFIED frontend/faisal_app/lib/features/authentication/presentation/pages/login_widgets.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+MODIFIED frontend/faisal_app/lib/features/authentication/presentation/pages/password_setup_header.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+MODIFIED frontend/faisal_app/lib/features/authentication/presentation/pages/splash_page.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+ADDED frontend/faisal_app/lib/features/branding/data/branding_asset_cache.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/data/repositories/branding_repository_impl.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/domain/entities/branding_config.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/domain/repositories/branding_repository.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/presentation/cubit/branding_cubit.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/presentation/cubit/branding_editor_cubit.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/presentation/pages/admin_branding_page.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/presentation/widgets/branding_color_picker.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/presentation/widgets/branding_image.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/presentation/widgets/branding_preview.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/presentation/widgets/branding_runtime.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED frontend/faisal_app/lib/features/branding/presentation/widgets/branding_scope.dart
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+MODIFIED frontend/faisal_app/lib/features/home/presentation/widgets/home_header.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+MODIFIED frontend/faisal_app/lib/features/products/presentation/pages/bank_notices_page.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+MODIFIED frontend/faisal_app/lib/features/products/presentation/widgets/public_service_cards.dart
+  Integrate shared branding tokens, names or artwork while preserving the default layout.
+MODIFIED frontend/faisal_app/lib/l10n/app_ar.arb
+  English/Arabic branding localization or generated delegate.
+MODIFIED frontend/faisal_app/lib/l10n/app_en.arb
+  English/Arabic branding localization or generated delegate.
+MODIFIED frontend/faisal_app/lib/l10n/app_localizations.dart
+  English/Arabic branding localization or generated delegate.
+MODIFIED frontend/faisal_app/lib/l10n/app_localizations_ar.dart
+  English/Arabic branding localization or generated delegate.
+MODIFIED frontend/faisal_app/lib/l10n/app_localizations_en.dart
+  English/Arabic branding localization or generated delegate.
+MODIFIED frontend/faisal_app/pubspec.yaml
+  Declare the two bundled font families; Flutter dependencies unchanged.
+ADDED frontend/faisal_app/test/dynamic_branding_test.dart
+  Branding/regression automated verification.
+ADDED screenshots/branding/2026-10-28/01_saved_draft_en.png
+  Actual emulator screenshot (fictional branding only).
+ADDED screenshots/branding/2026-10-28/02_published_en.png
+  Actual emulator screenshot (fictional branding only).
+ADDED screenshots/branding/2026-10-28/03_ar_dark.png
+  Actual emulator screenshot (fictional branding only).
+ADDED scripts/add_branding_localizations.py
+  Branding configuration, validated APIs, state, caching, preview or documentation.
+ADDED scripts/run_branding_emulator.py
+  Branding configuration, validated APIs, state, caching, preview or documentation.

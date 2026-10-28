@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Bank - emulator (admin/admin.txt database)",
+      "type": "dart",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/frontend/faisal_app",
+      "program": "lib/main.dart",
+      "deviceId": "emulator-5554",
+      "toolArgs": [
+        "--dart-define=API_BASE_URL=http://10.0.2.2:8011/api/v1"
+      ]
+    },
+    {
+      "name": "Bank - separate development database (8000)",
+      "type": "dart",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/frontend/faisal_app",
+      "program": "lib/main.dart",
+      "toolArgs": [
+        "--dart-define=API_BASE_URL=http://10.0.2.2:8000/api/v1"
+      ]
+    },
+    {
+      "name": "Bank - web (admin/admin.txt database)",
+      "type": "dart",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/frontend/faisal_app",
+      "program": "lib/main.dart",
+      "deviceId": "edge",
+      "toolArgs": [
+        "--web-hostname=127.0.0.1",
+        "--web-port=8080",
+        "--dart-define=API_BASE_URL=http://127.0.0.1:8011/api/v1"
+      ]
+    }
+  ]
+}

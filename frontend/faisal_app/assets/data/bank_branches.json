@@ -1,0 +1,320 @@
+{
+  "source_workbook": "Faisal_Islamic_Bank_44_Branches.xlsx",
+  "source_sha256": "04de99fba7caef246adda5869f670b3d555ebe90f58a731b5eeb525c0e0ad012",
+  "maps_kind": "mixed",
+  "corrections_file": "branch_directory_overrides.json",
+  "corrections_sha256": "b1e0e7893e334ebb896bdf63d62104a26327e41339cfb827fefd802bbd65d6c5",
+  "pin_source": "https://www.faisalbank.com.eg/api/sitecore/AtmBranches/GetBranchListJson",
+  "branches": [
+    {
+      "id": "1",
+      "name": "الرئيسي - 26 يوليو",
+      "governorate": "القاهرة",
+      "address": "3 شارع 26 يوليو، وسط البلد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%20-%2026%20%D9%8A%D9%88%D9%84%D9%8A%D9%88%203%20%D8%B4%D8%A7%D8%B1%D8%B9%2026%20%D9%8A%D9%88%D9%84%D9%8A%D9%88%D8%8C%20%D9%88%D8%B3%D8%B7%20%D8%A7%D9%84%D8%A8%D9%84%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "15",
+      "name": "الجيزة - المبنى الإداري",
+      "governorate": "الجيزة",
+      "address": "149 شارع التحرير، ميدان الجلاء، الدقي، الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.039497%2C31.218555",
+      "maps_kind": "coordinate_pin"
+    },
+    {
+      "id": "2",
+      "name": "الأزهر",
+      "governorate": "القاهرة",
+      "address": "106 شارع جوهر القائد، الدراسة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A3%D8%B2%D9%87%D8%B1%20106%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%AC%D9%88%D9%87%D8%B1%20%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D8%AF%D8%8C%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "3",
+      "name": "السيدة زينب",
+      "governorate": "القاهرة",
+      "address": "38 شارع عبد المجيد اللبان",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D9%8A%D8%AF%D8%A9%20%D8%B2%D9%8A%D9%86%D8%A8%2038%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF%20%D8%A7%D9%84%D9%84%D8%A8%D8%A7%D9%86%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "4",
+      "name": "الظاهر",
+      "governorate": "القاهرة",
+      "address": "14 أ شارع السبع، الظاهر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B8%D8%A7%D9%87%D8%B1%2014%20%D8%A3%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D8%A8%D8%B9%D8%8C%20%D8%A7%D9%84%D8%B8%D8%A7%D9%87%D8%B1%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "5",
+      "name": "مصر الجديدة - سفير",
+      "governorate": "القاهرة",
+      "address": "82 شارع عثمان بن عفان، ميدان سفير",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D8%B5%D8%B1%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20-%20%D8%B3%D9%81%D9%8A%D8%B1%2082%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%81%D8%A7%D9%86%D8%8C%20%D9%85%D9%8A%D8%AF%D8%A7%D9%86%20%D8%B3%D9%81%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "6",
+      "name": "مصر الجديدة - الأثري",
+      "governorate": "القاهرة",
+      "address": "4 شارع الأثري محمد بن نافع",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D8%B5%D8%B1%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20-%20%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A%204%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D9%86%D8%A7%D9%81%D8%B9%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "7",
+      "name": "مدينة نصر",
+      "governorate": "القاهرة",
+      "address": "15 شارع أحمد قاسم جودة، متفرع من عباس العقاد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D9%86%D8%B5%D8%B1%2015%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A3%D8%AD%D9%85%D8%AF%20%D9%82%D8%A7%D8%B3%D9%85%20%D8%AC%D9%88%D8%AF%D8%A9%D8%8C%20%D9%85%D8%AA%D9%81%D8%B1%D8%B9%20%D9%85%D9%86%20%D8%B9%D8%A8%D8%A7%D8%B3%20%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "8",
+      "name": "المعادي",
+      "governorate": "القاهرة",
+      "address": "66 كورنيش النيل، المعادي",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A%2066%20%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4%20%D8%A7%D9%84%D9%86%D9%8A%D9%84%D8%8C%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "9",
+      "name": "المقطم",
+      "governorate": "القاهرة",
+      "address": "38 شارع 9، المقطم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85%2038%20%D8%B4%D8%A7%D8%B1%D8%B9%209%D8%8C%20%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "10",
+      "name": "شبرا",
+      "governorate": "القاهرة",
+      "address": "51 شارع شبرا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%B4%D8%A8%D8%B1%D8%A7%2051%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B4%D8%A8%D8%B1%D8%A7%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "11",
+      "name": "الرحاب",
+      "governorate": "القاهرة",
+      "address": "القطعة G40، السوق الشرقي، مجمع البنوك",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8%20%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9%20G40%D8%8C%20%D8%A7%D9%84%D8%B3%D9%88%D9%82%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%8C%20%D9%85%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "12",
+      "name": "مدينتي",
+      "governorate": "القاهرة",
+      "address": "المرحلة الأولى، مجمع البنوك، وحدة 111",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%AA%D9%8A%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89%D8%8C%20%D9%85%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83%D8%8C%20%D9%88%D8%AD%D8%AF%D8%A9%20111%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "13",
+      "name": "القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "address": "شارع التسعين، كمبوند زيزينيا، قرب الجامعة الأمريكية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86%D8%8C%20%D9%83%D9%85%D8%A8%D9%88%D9%86%D8%AF%20%D8%B2%D9%8A%D8%B2%D9%8A%D9%86%D9%8A%D8%A7%D8%8C%20%D9%82%D8%B1%D8%A8%20%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9%20%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "14",
+      "name": "العاصمة الإدارية الجديدة",
+      "governorate": "القاهرة",
+      "address": "حي المال والأعمال، العاصمة الإدارية الجديدة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9%20%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D8%AD%D9%8A%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%20%D9%88%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D8%8C%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9%20%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "16",
+      "name": "الدقي",
+      "governorate": "الجيزة",
+      "address": "17 شارع محمود خليل الحصري (الفالوجا سابقًا)",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0564606%2C31.2115721",
+      "maps_kind": "coordinate_pin"
+    },
+    {
+      "id": "17",
+      "name": "الهرم",
+      "governorate": "الجيزة",
+      "address": "230 شارع الهرم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%87%D8%B1%D9%85%20230%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D9%87%D8%B1%D9%85%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9"
+    },
+    {
+      "id": "18",
+      "name": "السادس من أكتوبر",
+      "governorate": "الجيزة",
+      "address": "38 المحور المركزي، السادس من أكتوبر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%D9%85%D9%86%20%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1%2038%20%D8%A7%D9%84%D9%85%D8%AD%D9%88%D8%B1%20%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%8C%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%D9%85%D9%86%20%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9"
+    },
+    {
+      "id": "19",
+      "name": "الشيخ زايد - بيفرلي هيلز",
+      "governorate": "الجيزة",
+      "address": "ذا ستريب مول، وحدة K3، وصلة دهشور، بيفرلي هيلز",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE%20%D8%B2%D8%A7%D9%8A%D8%AF%20-%20%D8%A8%D9%8A%D9%81%D8%B1%D9%84%D9%8A%20%D9%87%D9%8A%D9%84%D8%B2%20%D8%B0%D8%A7%20%D8%B3%D8%AA%D8%B1%D9%8A%D8%A8%20%D9%85%D9%88%D9%84%D8%8C%20%D9%88%D8%AD%D8%AF%D8%A9%20K3%D8%8C%20%D9%88%D8%B5%D9%84%D8%A9%20%D8%AF%D9%87%D8%B4%D9%88%D8%B1%D8%8C%20%D8%A8%D9%8A%D9%81%D8%B1%D9%84%D9%8A%20%D9%87%D9%8A%D9%84%D8%B2%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9"
+    },
+    {
+      "id": "20",
+      "name": "مصطفى كامل",
+      "governorate": "الإسكندرية",
+      "address": "392 أبراج الأشراف، طريق الحرية، تقاطع أحمد شوقي",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D8%B5%D8%B7%D9%81%D9%89%20%D9%83%D8%A7%D9%85%D9%84%20392%20%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D8%A7%D9%81%D8%8C%20%D8%B7%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D8%A9%D8%8C%20%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B4%D9%88%D9%82%D9%8A%20%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9"
+    },
+    {
+      "id": "21",
+      "name": "الأزاريطة",
+      "governorate": "الإسكندرية",
+      "address": "7 شارع فيكتور باسيلي، الأزاريطة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A3%D8%B2%D8%A7%D8%B1%D9%8A%D8%B7%D8%A9%207%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D9%81%D9%8A%D9%83%D8%AA%D9%88%D8%B1%20%D8%A8%D8%A7%D8%B3%D9%8A%D9%84%D9%8A%D8%8C%20%D8%A7%D9%84%D8%A3%D8%B2%D8%A7%D8%B1%D9%8A%D8%B7%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9"
+    },
+    {
+      "id": "22",
+      "name": "المنتزه",
+      "governorate": "الإسكندرية",
+      "address": "698 أ طريق الجيش، تقاطع شارع أطلس، ميامي",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B2%D9%87%20698%20%D8%A3%20%D8%B7%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%D8%8C%20%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A3%D8%B7%D9%84%D8%B3%D8%8C%20%D9%85%D9%8A%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9"
+    },
+    {
+      "id": "23",
+      "name": "العجمي",
+      "governorate": "الإسكندرية",
+      "address": "عجمي ستار مول، بوابة 8، طريق الإسكندرية مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B9%D8%AC%D9%85%D9%8A%20%D8%B9%D8%AC%D9%85%D9%8A%20%D8%B3%D8%AA%D8%A7%D8%B1%20%D9%85%D9%88%D9%84%D8%8C%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%208%D8%8C%20%D8%B7%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9%20%D9%85%D8%B7%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9"
+    },
+    {
+      "id": "24",
+      "name": "المنصورة",
+      "governorate": "الدقهلية",
+      "address": "1 شارع الجيش، تقاطع طلعت حرب، المنصورة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9%201%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%D8%8C%20%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%20%D8%B7%D9%84%D8%B9%D8%AA%20%D8%AD%D8%B1%D8%A8%D8%8C%20%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9"
+    },
+    {
+      "id": "25",
+      "name": "ميت غمر",
+      "governorate": "الدقهلية",
+      "address": "50 شارع أحمد عرابي، تنظيم 8، ميت غمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D9%8A%D8%AA%20%D8%BA%D9%85%D8%B1%2050%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B9%D8%B1%D8%A7%D8%A8%D9%8A%D8%8C%20%D8%AA%D9%86%D8%B8%D9%8A%D9%85%208%D8%8C%20%D9%85%D9%8A%D8%AA%20%D8%BA%D9%85%D8%B1%20%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9"
+    },
+    {
+      "id": "26",
+      "name": "دمياط الجديدة",
+      "governorate": "دمياط",
+      "address": "قطعة 85، المنطقة المركزية، دمياط الجديدة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%AF%D9%85%D9%8A%D8%A7%D8%B7%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D9%82%D8%B7%D8%B9%D8%A9%2085%D8%8C%20%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9%20%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%A9%D8%8C%20%D8%AF%D9%85%D9%8A%D8%A7%D8%B7%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D8%AF%D9%85%D9%8A%D8%A7%D8%B7"
+    },
+    {
+      "id": "27",
+      "name": "طنطا",
+      "governorate": "الغربية",
+      "address": "2 شارع محمد سعيد باشا، ميدان الجمهورية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%B7%D9%86%D8%B7%D8%A7%202%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B3%D8%B9%D9%8A%D8%AF%20%D8%A8%D8%A7%D8%B4%D8%A7%D8%8C%20%D9%85%D9%8A%D8%AF%D8%A7%D9%86%20%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9"
+    },
+    {
+      "id": "28",
+      "name": "المحلة الكبرى",
+      "governorate": "الغربية",
+      "address": "شارع الجيش، عمارة الأوقاف",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%D8%8C%20%D8%B9%D9%85%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81%20%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9"
+    },
+    {
+      "id": "29",
+      "name": "الزقازيق",
+      "governorate": "الشرقية",
+      "address": "ميدان المنتزه، عمارة العقادين",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B2%D9%82%D8%A7%D8%B2%D9%8A%D9%82%20%D9%85%D9%8A%D8%AF%D8%A7%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B2%D9%87%D8%8C%20%D8%B9%D9%85%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%AF%D9%8A%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9"
+    },
+    {
+      "id": "30",
+      "name": "العاشر من رمضان",
+      "governorate": "الشرقية",
+      "address": "الحي الأول، عمارة 4، أمام الإدارة التعليمية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1%20%D9%85%D9%86%20%D8%B1%D9%85%D8%B6%D8%A7%D9%86%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%D8%8C%20%D8%B9%D9%85%D8%A7%D8%B1%D8%A9%204%D8%8C%20%D8%A3%D9%85%D8%A7%D9%85%20%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9"
+    },
+    {
+      "id": "31",
+      "name": "بنها",
+      "governorate": "القليوبية",
+      "address": "شارع البحر، بنها",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A8%D9%86%D9%87%D8%A7%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D8%8C%20%D8%A8%D9%86%D9%87%D8%A7%20%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9"
+    },
+    {
+      "id": "32",
+      "name": "العبور",
+      "governorate": "القليوبية",
+      "address": "طريق مصر الإسماعيلية الصحراوي، جولف سيتي",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1%20%D8%B7%D8%B1%D9%8A%D9%82%20%D9%85%D8%B5%D8%B1%20%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%8A%D8%8C%20%D8%AC%D9%88%D9%84%D9%81%20%D8%B3%D9%8A%D8%AA%D9%8A%20%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9"
+    },
+    {
+      "id": "33",
+      "name": "شبين الكوم",
+      "governorate": "المنوفية",
+      "address": "6 شارع جمال عبد الناصر، برج الجمهورية بلازا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%B4%D8%A8%D9%8A%D9%86%20%D8%A7%D9%84%D9%83%D9%88%D9%85%206%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%AC%D9%85%D8%A7%D9%84%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1%D8%8C%20%D8%A8%D8%B1%D8%AC%20%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9%20%D8%A8%D9%84%D8%A7%D8%B2%D8%A7%20%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9"
+    },
+    {
+      "id": "34",
+      "name": "دمنهور",
+      "governorate": "البحيرة",
+      "address": "شارع الشيخ محمد عبد الكريم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%AF%D9%85%D9%86%D9%87%D9%88%D8%B1%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%20%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9"
+    },
+    {
+      "id": "35",
+      "name": "الإسماعيلية",
+      "governorate": "الإسماعيلية",
+      "address": "4 شارع أحمد عرابي، تقاطع شارع الجيش",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9%204%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B9%D8%B1%D8%A7%D8%A8%D9%8A%D8%8C%20%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%20%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9"
+    },
+    {
+      "id": "36",
+      "name": "السويس",
+      "governorate": "السويس",
+      "address": "3 شارع الجلاء",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3%203%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AC%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3"
+    },
+    {
+      "id": "37",
+      "name": "بورسعيد",
+      "governorate": "بورسعيد",
+      "address": "17 شارع طرح البحر، تقاطع شارع الجيش",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF%2017%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B7%D8%B1%D8%AD%20%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D8%8C%20%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%20%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF"
+    },
+    {
+      "id": "38",
+      "name": "الفيوم",
+      "governorate": "الفيوم",
+      "address": "30 شارع سعد زغلول، بجوار مجمع المصالح الحكومية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%81%D9%8A%D9%88%D9%85%2030%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B3%D8%B9%D8%AF%20%D8%B2%D8%BA%D9%84%D9%88%D9%84%D8%8C%20%D8%A8%D8%AC%D9%88%D8%A7%D8%B1%20%D9%85%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D9%84%D8%AD%20%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D9%81%D9%8A%D9%88%D9%85"
+    },
+    {
+      "id": "39",
+      "name": "بني سويف",
+      "governorate": "بني سويف",
+      "address": "5 كورنيش النيل، برج زهرة النيل",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A8%D9%86%D9%8A%20%D8%B3%D9%88%D9%8A%D9%81%205%20%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4%20%D8%A7%D9%84%D9%86%D9%8A%D9%84%D8%8C%20%D8%A8%D8%B1%D8%AC%20%D8%B2%D9%87%D8%B1%D8%A9%20%D8%A7%D9%84%D9%86%D9%8A%D9%84%20%D8%A8%D9%86%D9%8A%20%D8%B3%D9%88%D9%8A%D9%81"
+    },
+    {
+      "id": "40",
+      "name": "المنيا",
+      "governorate": "المنيا",
+      "address": "87 شارع سعد زغلول، الكورنيش",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7%2087%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B3%D8%B9%D8%AF%20%D8%B2%D8%BA%D9%84%D9%88%D9%84%D8%8C%20%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4%20%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7"
+    },
+    {
+      "id": "41",
+      "name": "أسيوط",
+      "governorate": "أسيوط",
+      "address": "امتداد شارع يسري راغب، حي غرب",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A3%D8%B3%D9%8A%D9%88%D8%B7%20%D8%A7%D9%85%D8%AA%D8%AF%D8%A7%D8%AF%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D9%8A%D8%B3%D8%B1%D9%8A%20%D8%B1%D8%A7%D8%BA%D8%A8%D8%8C%20%D8%AD%D9%8A%20%D8%BA%D8%B1%D8%A8%20%D8%A3%D8%B3%D9%8A%D9%88%D8%B7"
+    },
+    {
+      "id": "42",
+      "name": "سوهاج",
+      "governorate": "سوهاج",
+      "address": "شارع ترعة باجة، أعلى نقابة التطبيقيين",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%B3%D9%88%D9%87%D8%A7%D8%AC%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%AA%D8%B1%D8%B9%D8%A9%20%D8%A8%D8%A7%D8%AC%D8%A9%D8%8C%20%D8%A3%D8%B9%D9%84%D9%89%20%D9%86%D9%82%D8%A7%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D9%8A%D9%8A%D9%86%20%D8%B3%D9%88%D9%87%D8%A7%D8%AC"
+    },
+    {
+      "id": "43",
+      "name": "قنا",
+      "governorate": "قنا",
+      "address": "امتداد شارع الأقصر، مدينة العمال، بجوار نقابة التطبيقيين",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%82%D9%86%D8%A7%20%D8%A7%D9%85%D8%AA%D8%AF%D8%A7%D8%AF%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D8%B1%D8%8C%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D8%8C%20%D8%A8%D8%AC%D9%88%D8%A7%D8%B1%20%D9%86%D9%82%D8%A7%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D9%8A%D9%8A%D9%86%20%D9%82%D9%86%D8%A7"
+    },
+    {
+      "id": "44",
+      "name": "أسوان",
+      "governorate": "أسوان",
+      "address": "74 شارع أبطال التحرير، عمارة الأوقاف، الكورنيش",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A3%D8%B3%D9%88%D8%A7%D9%86%2074%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A3%D8%A8%D8%B7%D8%A7%D9%84%20%D8%A7%D9%84%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1%D8%8C%20%D8%B9%D9%85%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81%D8%8C%20%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4%20%D8%A3%D8%B3%D9%88%D8%A7%D9%86"
+    }
+  ]
+}

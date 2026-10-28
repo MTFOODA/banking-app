@@ -1,0 +1,19 @@
+{
+  "verified_on": "2026-10-27",
+  "source_url": "https://www.faisalbank.com.eg/api/sitecore/AtmBranches/GetBranchListJson",
+  "reason": "User-requested Giza administrative-building pin, second position, and Dokki label; coordinates verified against the official public branch locator.",
+  "first_ids": ["1", "15"],
+  "branches": {
+    "15": {
+      "name": "الجيزة - المبنى الإداري",
+      "address": "149 شارع التحرير، ميدان الجلاء، الدقي، الجيزة",
+      "maps_kind": "coordinate_pin",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.039497%2C31.218555"
+    },
+    "16": {
+      "name": "الدقي",
+      "maps_kind": "coordinate_pin",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0564606%2C31.2115721"
+    }
+  }
+}

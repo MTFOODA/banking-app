@@ -1,0 +1,49 @@
+﻿RUN COMMANDS - local fictional development only
+Run from the project root in PowerShell. Keep the API terminal open.
+
+1. Start the demo server matching this credentials file:
+   .\admin\start_server.cmd
+   API: http://127.0.0.1:8011
+   Health: http://127.0.0.1:8011/health
+   Docs: http://127.0.0.1:8011/docs
+
+2. In a second terminal run the web app:
+   .\admin\run_web.cmd
+   The command opens Edge automatically, including when the bank web app is already running.
+   Address: http://127.0.0.1:8080
+   Alternative: use the manual flutter command below and choose chrome if installed.
+   VS Code: select Bank - web (admin/admin.txt database).
+
+Manual equivalent:
+   cd backend
+   $env:DEBUG='false'
+   .\.venv\Scripts\python.exe serve_integration.py
+   In another terminal from the project root:
+   cd frontend/faisal_app
+   flutter run -d edge --web-hostname=127.0.0.1 --web-port=8080 --dart-define=API_BASE_URL=http://127.0.0.1:8011/api/v1
+
+Emulator:
+   cd frontend/faisal_app
+   flutter run -d emulator-5554 --dart-define=API_BASE_URL=http://10.0.2.2:8011/api/v1
+
+Tests and APK (from frontend/faisal_app):
+   flutter test --no-pub
+   flutter analyze --no-pub
+   dart format --output=none --set-exit-if-changed lib test integration_test
+   flutter build apk --debug --no-pub --target lib/main.dart --dart-define=API_BASE_URL=http://10.0.2.2:8011/api/v1
+Backend tests (from backend):
+   $env:DEBUG='false'
+   .\.venv\Scripts\python.exe -m pytest
+
+Create a fresh self-registration batch (from project root):
+   $env:DEBUG='false'
+   backend/.venv/Scripts/python.exe admin/initialize_registration_customers.py --batch 20261027 --count 4
+The same batch is idempotent and never resets enrolled customers. Choose a NEW
+alphanumeric batch label for additional customers after these have registered.
+New customers choose a unique username and password after OTP. A development OTP
+appears on the OTP screen; it changes on resend. No real SMS/email is sent.
+
+Port 8000 is a SEPARATE development database and may have different credentials.
+Use 8011 for this file. No administrator password has been reset by these scripts.
+Web sessions use memory only; a page reload requires signing in again.
+Release builds require an explicit HTTPS API_BASE_URL.
