@@ -72,6 +72,9 @@ import '../../features/branding/domain/repositories/branding_repository.dart';
 import '../../features/branding/presentation/cubit/branding_cubit.dart';
 import '../security/session_store.dart';
 import '../security/biometric_service.dart';
+import '../../features/authentication/data/repositories/local_saved_banks_repository.dart';
+import '../../features/authentication/domain/repositories/saved_banks_repository.dart';
+import '../../features/authentication/presentation/cubit/saved_banks_cubit.dart';
 
 final GetIt sl = GetIt.instance;
 
@@ -95,6 +98,15 @@ Future<void> configureDependencies() async {
   await _loadStoredSession(sessionStore);
   sl.registerSingleton<SessionStore>(sessionStore);
   sl.registerSingleton<BiometricService>(BiometricService(preferences));
+  sl.registerSingleton<SavedBanksRepository>(
+    LocalSavedBanksRepository(preferences, sessionStore),
+    dispose: (repository) =>
+        (repository as LocalSavedBanksRepository).dispose(),
+  );
+  sl.registerLazySingleton<SavedBanksCubit>(
+    () => SavedBanksCubit(sl<SavedBanksRepository>()),
+    dispose: (cubit) => cubit.close(),
+  );
 
   final client = DioClient(sessionStore: sessionStore);
   sl.registerSingleton<DioClient>(client);
@@ -121,7 +133,11 @@ Future<void> configureDependencies() async {
   );
 
   sl.registerLazySingleton<AuthRepository>(
-    () => AuthRepositoryImpl(AuthRemoteDataSource(client), sessionStore),
+    () => AuthRepositoryImpl(
+      AuthRemoteDataSource(client),
+      sessionStore,
+      savedBanks: sl<SavedBanksRepository>(),
+    ),
   );
   sl.registerLazySingleton<AccountsRepository>(
     () => AccountsRepositoryImpl(client),
@@ -175,7 +191,12 @@ Future<void> configureDependencies() async {
   );
 
   sl.registerLazySingleton<AuthBloc>(
-    () => AuthBloc(sl<AuthRepository>(), sessionStore),
+    () => AuthBloc(
+      sl<AuthRepository>(),
+      sessionStore,
+      savedBanks: sl<SavedBanksRepository>(),
+      biometrics: sl<BiometricService>(),
+    ),
   );
   sl.registerLazySingleton<LanguageCubit>(
     () => LanguageCubit(preferences, sl<SettingsRepository>()),

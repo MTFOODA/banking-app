@@ -46,9 +46,15 @@ class CustomerAppearance extends StatelessWidget {
               : null;
           final code = signedIn ? auth.user?.profile?.bankCode : selected;
           final bank = catalogue.find(code);
-          if (path == AppRoutes.onboarding || bank == null) {
+          if (path == AppRoutes.onboarding ||
+              path == AppRoutes.savedBanks ||
+              bank == null) {
             return Theme(
-              data: Theme.of(context),
+              data: BrandingTheme.build(
+                BrandingConfig.defaults,
+                Theme.of(context).brightness,
+                Localizations.localeOf(context).languageCode,
+              ),
               child: BrandingScope(
                 config: BrandingConfig.defaults,
                 child: child,

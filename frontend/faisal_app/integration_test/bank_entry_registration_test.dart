@@ -13,6 +13,7 @@ import 'package:faisal_app/features/authentication/presentation/bloc/auth_bloc.d
 import 'package:faisal_app/features/authentication/presentation/bloc/auth_event.dart';
 import 'package:faisal_app/features/authentication/presentation/bloc/auth_state.dart';
 import 'package:faisal_app/features/authentication/presentation/pages/login_page.dart';
+import 'package:faisal_app/features/authentication/presentation/pages/saved_banks_page.dart';
 import 'package:faisal_app/features/authentication/presentation/pages/registration_page.dart';
 import 'package:faisal_app/features/banks/presentation/bank_onboarding_page.dart';
 import 'package:faisal_app/features/banks/presentation/bank_selection_cubit.dart';
@@ -51,12 +52,23 @@ void main() {
         find.byWidgetPredicate(
           (w) =>
               w is BankOnboardingPage ||
+              w is SavedBanksPage ||
               w is LoginPage ||
               w is NavigationBar ||
               w is AdminDashboardPage,
         ),
       );
       sl<AuthBloc>().add(const AuthLogoutRequested());
+      await flow.waitFor(
+        t,
+        find.byWidgetPredicate(
+          (w) => w is BankOnboardingPage || w is SavedBanksPage,
+        ),
+      );
+      if (find.byType(SavedBanksPage).evaluate().isNotEmpty) {
+        final pageContext = t.element(find.byType(SavedBanksPage));
+        GoRouter.of(pageContext).go('/choose-bank');
+      }
       await flow.waitFor(t, find.byType(BankOnboardingPage));
       await sl<LanguageCubit>().change('en');
       await sl<ThemeCubit>().change(ThemeMode.light);
@@ -106,6 +118,8 @@ void main() {
 
       Future<void> logout() async {
         sl<AuthBloc>().add(const AuthLogoutRequested());
+        await flow.waitFor(t, find.byType(SavedBanksPage));
+        GoRouter.of(t.element(find.byType(SavedBanksPage))).go('/login');
         await flow.waitFor(t, find.byType(LoginPage));
         expect(sl<AuthBloc>().state.status, AuthStatus.unauthenticated);
       }

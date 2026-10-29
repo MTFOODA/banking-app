@@ -2418,4 +2418,25 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get bankContactUnavailable =>
       'لم يتم توثيق رقم خدمة العملاء هنا بعد. استخدم موقع البنك الرسمي للتواصل.';
+
+  @override
+  String get savedBanksTitle => 'بنوكي';
+
+  @override
+  String get savedBanksSubtitle =>
+      'اختار حساب سبق وسجلت الدخول بيه على الجهاز ده.';
+
+  @override
+  String get savedBanksAdd => 'إضافة بنك جديد';
+
+  @override
+  String get savedBanksUsePassword => 'الدخول بكلمة المرور';
+
+  @override
+  String get savedBanksPrivacy =>
+      'كلمة المرور لا تُحفظ. الدخول بالبصمة يحتاج جلسة سارية لدى البنك؛ عند انتهائها أو إلغائها سيُطلب تسجيل الدخول بكلمة المرور.';
+
+  @override
+  String get savedBanksBiometricRetry =>
+      'لم يكتمل التحقق بالبصمة. حاول مرة أخرى أو ادخل بكلمة المرور.';
 }

@@ -34,6 +34,7 @@ class DioClient {
     _dio.interceptors.add(
       InterceptorsWrapper(
         onRequest: (options, handler) {
+          options.extra['sessionGeneration'] = _sessionStore.generation;
           final token = _sessionStore.accessToken;
           if (token != null &&
               token.isNotEmpty &&
@@ -53,6 +54,8 @@ class DioClient {
           );
           final canRetry =
               status == 401 &&
+              error.requestOptions.extra['sessionGeneration'] ==
+                  _sessionStore.generation &&
               !isRefreshCall &&
               _sessionStore.hasSession &&
               !error.requestOptions.path.contains('/auth/registration/') &&
@@ -61,7 +64,11 @@ class DioClient {
               _refresher != null;
 
           if (canRetry) {
+            final generation = _sessionStore.generation;
             final refreshed = await _refreshOnce();
+            if (generation != _sessionStore.generation) {
+              return handler.next(error);
+            }
             if (refreshed) {
               final options = error.requestOptions
                 ..extra['retried'] = true

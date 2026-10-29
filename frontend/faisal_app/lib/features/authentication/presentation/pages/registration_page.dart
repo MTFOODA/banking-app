@@ -66,7 +66,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
       listener: (context, state) {
         if (state.session != null) {
           context.read<AuthBloc>().add(
-            AuthTokensRefreshed(state.session!.user),
+            AuthRegistrationCompleted(state.session!.user),
           );
         }
       },

@@ -1,0 +1,49 @@
+Saved banks changes relative to 9f5bc1f (2026-10-29)
+Status | Path | Purpose
+
+ADDED | SAVED_BANKS_REPORT.md | Implementation, actual verification results and exact changed-file manifest
+MODIFIED | admin/README.txt | Development usage, Android biometric re-enablement and QA documentation
+ADDED | frontend/faisal_app/android/app/src/main/kotlin/eg/faisalbank/faisal_app/BankBiometricGuard.kt | Per-account AndroidKeyStore CryptoObject; one fresh strong-biometric proof per operation
+MODIFIED | frontend/faisal_app/android/app/src/main/kotlin/eg/faisalbank/faisal_app/MainActivity.kt | Bind and dispose the narrow biometric proof channel
+MODIFIED | frontend/faisal_app/integration_test/bank_entry_registration_test.dart | Saved-account/session/native-adapter and existing-flow regression coverage
+ADDED | frontend/faisal_app/integration_test/saved_banks_test.dart | Saved-account/session/native-adapter and existing-flow regression coverage
+MODIFIED | frontend/faisal_app/integration_test/security_flow_test.dart | Saved-account/session/native-adapter and existing-flow regression coverage
+MODIFIED | frontend/faisal_app/lib/core/di/injector.dart | Register saved-bank repository/Cubit through existing GetIt composition
+MODIFIED | frontend/faisal_app/lib/core/network/dio_client.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+MODIFIED | frontend/faisal_app/lib/core/routing/app_router.dart | Startup saved-bank route, guard and repository-state router refresh
+MODIFIED | frontend/faisal_app/lib/core/routing/app_routes.dart | Startup saved-bank route, guard and repository-state router refresh
+MODIFIED | frontend/faisal_app/lib/core/routing/route_guard.dart | Startup saved-bank route, guard and repository-state router refresh
+MODIFIED | frontend/faisal_app/lib/core/security/biometric_gate.dart | Per-owner encrypted credentials, scoped biometrics and session concurrency protection
+MODIFIED | frontend/faisal_app/lib/core/security/biometric_service.dart | Per-owner encrypted credentials, scoped biometrics and session concurrency protection
+MODIFIED | frontend/faisal_app/lib/core/security/session_store.dart | Per-owner encrypted credentials, scoped biometrics and session concurrency protection
+MODIFIED | frontend/faisal_app/lib/features/authentication/data/repositories/auth_repository_impl.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+ADDED | frontend/faisal_app/lib/features/authentication/data/repositories/local_saved_banks_repository.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+ADDED | frontend/faisal_app/lib/features/authentication/domain/entities/saved_bank.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+MODIFIED | frontend/faisal_app/lib/features/authentication/domain/repositories/auth_repository.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+ADDED | frontend/faisal_app/lib/features/authentication/domain/repositories/saved_banks_repository.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/bloc/auth_bloc.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/bloc/auth_event.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+ADDED | frontend/faisal_app/lib/features/authentication/presentation/cubit/saved_banks_cubit.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/pages/login_page.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/pages/registration_page.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+ADDED | frontend/faisal_app/lib/features/authentication/presentation/pages/saved_banks_page.dart | Reuse authentication layers for saved banks, safe persistence and normal login/registration
+MODIFIED | frontend/faisal_app/lib/features/banks/presentation/bank_onboarding_page.dart | Add-bank navigation and safe return to existing saved cards
+MODIFIED | frontend/faisal_app/lib/features/branding/presentation/widgets/customer_appearance.dart | Neutral chooser surface with isolated bank theme on each card
+MODIFIED | frontend/faisal_app/lib/features/more/presentation/pages/more_page.dart | My banks action parks current customer session for switching
+MODIFIED | frontend/faisal_app/lib/l10n/app_ar.arb | English/Arabic saved-bank, password fallback and privacy labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_en.arb | English/Arabic saved-bank, password fallback and privacy labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_localizations.dart | English/Arabic saved-bank, password fallback and privacy labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_localizations_ar.dart | English/Arabic saved-bank, password fallback and privacy labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_localizations_en.dart | English/Arabic saved-bank, password fallback and privacy labels
+MODIFIED | frontend/faisal_app/pubspec.yaml | Version 1.3.0+4, existing dependency set preserved
+ADDED | frontend/faisal_app/test/saved_banks_test.dart | Saved-account/session/native-adapter and existing-flow regression coverage
+MODIFIED | frontend/faisal_app/test/security_flows_test.dart | Saved-account/session/native-adapter and existing-flow regression coverage
+ADDED | screenshots/saved_banks/2026-10-29/01_three_saved_banks.png | Actual emulator proof using fictional QA identities
+ADDED | screenshots/saved_banks/2026-10-29/02_biometric_enabled.png | Actual emulator proof using fictional QA identities
+ADDED | screenshots/saved_banks/2026-10-29/03_cold_bootstrap_chooser.png | Actual emulator proof using fictional QA identities
+ADDED | screenshots/saved_banks/2026-10-29/04_single_fingerprint_cib_home.png | Actual emulator proof using fictional QA identities
+ADDED | screenshots/saved_banks/2026-10-29/05_nbe_password_switch.png | Actual emulator proof using fictional QA identities
+ADDED | screenshots/saved_banks/2026-10-29/06_arabic_dark_chooser.png | Actual emulator proof using fictional QA identities
+ADDED | screenshots/saved_banks/2026-10-29/07_revoked_password_fallback.png | Actual emulator proof using fictional QA identities
+ADDED | scripts/run_saved_banks_emulator.py | Opt-in real emulator runner; private fixtures and exactly one touch per native prompt
+ADDED | SAVED_BANKS_CHANGED_FILES.txt | Implementation, actual verification results and exact changed-file manifest

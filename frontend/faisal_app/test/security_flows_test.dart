@@ -481,6 +481,7 @@ void main() {
     final service = BiometricService(
       await SharedPreferences.getInstance(),
       auth: FakeLocalAuth(),
+      vault: ProtectedTestVault(),
     );
     await service.enable('Verify identity');
     final store = SessionStore();

@@ -4681,6 +4681,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'A customer service number has not been verified here yet. Use this bank’s official contact website.'**
   String get bankContactUnavailable;
+
+  /// No description provided for @savedBanksTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'My banks'**
+  String get savedBanksTitle;
+
+  /// No description provided for @savedBanksSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose an account you signed in to on this device.'**
+  String get savedBanksSubtitle;
+
+  /// No description provided for @savedBanksAdd.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a new bank'**
+  String get savedBanksAdd;
+
+  /// No description provided for @savedBanksUsePassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in with password'**
+  String get savedBanksUsePassword;
+
+  /// No description provided for @savedBanksPrivacy.
+  ///
+  /// In en, this message translates to:
+  /// **'Passwords are never saved. Biometric sign-in requires an active bank session; expired or revoked sessions require your password again.'**
+  String get savedBanksPrivacy;
+
+  /// No description provided for @savedBanksBiometricRetry.
+  ///
+  /// In en, this message translates to:
+  /// **'Biometric verification was not completed. Try again or sign in with your password.'**
+  String get savedBanksBiometricRetry;
 }
 
 class _AppLocalizationsDelegate

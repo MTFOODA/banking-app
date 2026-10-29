@@ -1,6 +1,7 @@
 import '../../../../core/config/banking_identity.dart';
 import '../../../../core/di/injector.dart';
 import '../../../banks/presentation/bank_selection_cubit.dart';
+import '../../domain/repositories/saved_banks_repository.dart';
 import '../../../products/presentation/widgets/public_service_cards.dart';
 import '../../../products/presentation/widgets/public_announcements_panel.dart';
 import '../../../branding/presentation/widgets/branding_scope.dart';
@@ -37,6 +38,17 @@ class _LoginPageState extends State<LoginPage> {
   String? get _bankCode => sl.isRegistered<BankSelectionCubit>()
       ? sl<BankSelectionCubit>().state
       : null;
+
+  @override
+  void initState() {
+    super.initState();
+    if (sl.isRegistered<SavedBanksRepository>()) {
+      final pending = sl<SavedBanksRepository>().pendingLogin;
+      if (pending?.bankCode == _bankCode) {
+        _identifierController.text = pending!.username;
+      }
+    }
+  }
 
   @override
   void dispose() {
@@ -159,7 +171,13 @@ class _LoginPageState extends State<LoginPage> {
                         TextButton(
                           onPressed: state.busy
                               ? null
-                              : () => context.go(AppRoutes.onboarding),
+                              : () {
+                                  if (sl.isRegistered<SavedBanksRepository>()) {
+                                    sl<SavedBanksRepository>().pendingLogin =
+                                        null;
+                                  }
+                                  context.go(AppRoutes.onboarding);
+                                },
                           child: Text(
                             l10n.bankChangeSelection,
                             style: TextStyle(
@@ -167,6 +185,19 @@ class _LoginPageState extends State<LoginPage> {
                             ),
                           ),
                         ),
+                        if (sl.isRegistered<SavedBanksRepository>() &&
+                            sl<SavedBanksRepository>().entries.isNotEmpty)
+                          TextButton(
+                            onPressed: state.busy
+                                ? null
+                                : () => context.go(AppRoutes.savedBanks),
+                            child: Text(
+                              l10n.savedBanksTitle,
+                              style: TextStyle(
+                                color: BrandingScope.headerText(context),
+                              ),
+                            ),
+                          ),
                         OutlinedButton(
                           onPressed: state.busy
                               ? null

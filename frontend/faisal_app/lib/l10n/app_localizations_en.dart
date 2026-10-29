@@ -2436,4 +2436,25 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get bankContactUnavailable =>
       'A customer service number has not been verified here yet. Use this bank’s official contact website.';
+
+  @override
+  String get savedBanksTitle => 'My banks';
+
+  @override
+  String get savedBanksSubtitle =>
+      'Choose an account you signed in to on this device.';
+
+  @override
+  String get savedBanksAdd => 'Add a new bank';
+
+  @override
+  String get savedBanksUsePassword => 'Sign in with password';
+
+  @override
+  String get savedBanksPrivacy =>
+      'Passwords are never saved. Biometric sign-in requires an active bank session; expired or revoked sessions require your password again.';
+
+  @override
+  String get savedBanksBiometricRetry =>
+      'Biometric verification was not completed. Try again or sign in with your password.';
 }

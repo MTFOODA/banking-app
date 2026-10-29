@@ -40,6 +40,14 @@ abstract class AuthRepository {
   /// Refreshes tokens; returns null when the refresh token is no longer valid.
   Future<AuthSession?> refreshSession(String refreshToken);
 
+  /// Uses the existing rotating refresh endpoint, verifying the selected owner
+  /// before any returned credential can become the active session.
+  Future<AuthSession> resumeSavedBank({
+    required String refreshToken,
+    required String userId,
+    required String bankCode,
+  });
+
   Future<void> logout({String? refreshToken, bool allDevices = false});
 
   Future<void> changePassword({

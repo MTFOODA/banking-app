@@ -232,3 +232,28 @@ BANK-AWARE ENTRY - version 1.2.0+3 (2026-10-29)
   Screenshots: screenshots/bank_entry/2026-10-29
   Public directories have reviewed snapshots for 14 banks. Other banks explicitly
   show unavailable data and an official link. No other bank inherits Faisal data.
+
+
+SAVED BANKS - version 1.3.0+4 (2026-10-29)
+  After a successful customer login/registration, My banks remembers that exact
+  username and issuing bank on this device. Each card uses its bank's official
+  logo and internal theme. Add a new bank follows the existing bank choice flow.
+  More -> My banks parks the current session for switching. Sign out revokes
+  the current session and removes its saved credential; the card remains and
+  requires a password. Other saved identities are unaffected.
+  Enable biometrics separately for each identity in Profile, using the existing
+  server password authorization first. Android 9+ uses a fresh, strong biometric
+  CryptoObject on an enrollment-bound Keystore key for every unlock. The backend
+  rotating refresh endpoint must still validate the session and exact user/bank.
+  Users of the previous Android biometric marker must enable biometrics once
+  again from Profile after signing in with their password. No password is reset.
+  iOS retains the existing enrollment-bound Keychain flow (device test pending).
+  Web keeps only chooser metadata across reloads; credentials remain in memory,
+  so browser restarts require password sign-in. Web biometric login is disabled.
+  No backend API/schema/migration changes or database reset are required.
+  Opt-in emulator QA with a registered strong fingerprint (emulator finger 1):
+    backend/.venv/Scripts/python.exe scripts/run_saved_banks_emulator.py
+  Start backend/serve_branding_qa.py with RUN_BRANDING_QA=1 first, as above.
+  QA fixture secrets stay in ignored .tmp and are never compiled or committed.
+  Results: SAVED_BANKS_REPORT.md
+  Screenshots: screenshots/saved_banks/2026-10-29

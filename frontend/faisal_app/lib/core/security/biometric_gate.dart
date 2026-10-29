@@ -46,6 +46,7 @@ class _BiometricGateState extends State<BiometricGate>
     if ((state == AppLifecycleState.paused ||
             state == AppLifecycleState.hidden) &&
         !_unlocking &&
+        !widget.service.authenticating &&
         widget.service.enabled &&
         widget.store.hasSession) {
       setState(() => _locked = true);
@@ -70,7 +71,7 @@ class _BiometricGateState extends State<BiometricGate>
     if (mounted) {
       setState(() {
         _unlocking = false;
-        _locked = !unlocked;
+        _locked = widget.store.hasSession && !unlocked;
         _failed = !unlocked;
       });
     }

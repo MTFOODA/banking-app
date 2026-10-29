@@ -4,32 +4,132 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../core/errors/app_exception.dart';
 import '../../../../core/security/session_store.dart';
+import '../../../../core/security/biometric_service.dart';
+import '../../domain/repositories/saved_banks_repository.dart';
 import '../../domain/entities/auth_entities.dart';
 import '../../domain/repositories/auth_repository.dart';
 import 'auth_event.dart';
 import 'auth_state.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
-  AuthBloc(this._repository, this._sessionStore) : super(const AuthState()) {
+  AuthBloc(
+    this._repository,
+    this._sessionStore, {
+    this._savedBanks,
+    this._biometrics,
+  }) : super(const AuthState()) {
     on<AuthStarted>(_onStarted);
-    on<AuthTokensRefreshed>(
-      (event, emit) => emit(
-        state.copyWith(status: AuthStatus.authenticated, user: event.user),
-      ),
-    );
+    on<AuthTokensRefreshed>((event, emit) {
+      if (_savedBanks == null || state.isAuthenticated) {
+        emit(
+          state.copyWith(status: AuthStatus.authenticated, user: event.user),
+        );
+      }
+    });
     on<AuthLoginRequested>(_onLoginRequested);
+    on<AuthRegistrationCompleted>((event, emit) {
+      if (_savedBanks == null ||
+          (_sessionStore.hasSession &&
+              _sessionStore.activeUserId == event.user.id)) {
+        emit(AuthState(status: AuthStatus.authenticated, user: event.user));
+      }
+    });
     on<AuthPasswordSetupSubmitted>(_onPasswordSetupSubmitted);
     on<AuthLogoutRequested>(_onLogoutRequested);
     on<AuthSessionExpired>(_onSessionExpired);
     on<AuthProfileRefreshRequested>(_onProfileRefreshRequested);
-    on<AuthErrorCleared>(
-      (event, emit) => emit(state.copyWith(clearError: true, busy: false)),
-    );
+    on<AuthErrorCleared>((event, emit) {
+      if (!state.busy) emit(state.copyWith(clearError: true));
+    });
     on<AuthPasswordChanged>(_onPasswordChanged);
+    on<AuthSavedBankRequested>(_onSavedBankRequested);
+    on<AuthReturnToBanksRequested>((event, emit) async {
+      if (state.busy || !state.isAuthenticated || state.isStaff) return;
+      emit(state.copyWith(busy: true));
+      await _clearSessionSafely();
+      if (_canEmit(emit)) {
+        emit(const AuthState(status: AuthStatus.unauthenticated));
+      }
+    });
   }
 
   final AuthRepository _repository;
   final SessionStore _sessionStore;
+  final SavedBanksRepository? _savedBanks;
+  final BiometricService? _biometrics;
+
+  @override
+  void onChange(Change<AuthState> change) {
+    _biometrics?.bindIdentity(change.nextState.user?.id);
+    super.onChange(change);
+  }
+
+  Future<void> _onSavedBankRequested(
+    AuthSavedBankRequested event,
+    Emitter<AuthState> emit,
+  ) async {
+    final saved = _savedBanks, biometric = _biometrics;
+    if (state.busy ||
+        state.isAuthenticated ||
+        saved == null ||
+        biometric == null ||
+        !saved.entries.contains(event.entry)) {
+      return;
+    }
+    emit(const AuthState(status: AuthStatus.unauthenticated, busy: true));
+    await _clearSessionSafely();
+    biometric.bindIdentity(event.entry.userId);
+    if (!biometric.enabledFor(event.entry.userId) ||
+        !await biometric.unlock(event.reason)) {
+      if (_canEmit(emit)) {
+        emit(
+          const AuthState(
+            status: AuthStatus.unauthenticated,
+            errorCode: AppErrorCode.forbidden,
+          ),
+        );
+      }
+      return;
+    }
+    try {
+      final token = await saved.credential(event.entry);
+      if (token == null) {
+        throw const AppException(code: AppErrorCode.unauthorized);
+      }
+      final session = await _repository.resumeSavedBank(
+        refreshToken: token,
+        userId: event.entry.userId,
+        bankCode: event.entry.bankCode,
+      );
+      if (_canEmit(emit)) {
+        emit(AuthState(status: AuthStatus.authenticated, user: session.user));
+      }
+    } on AppException catch (error) {
+      if (error.isAuthFailure) {
+        await saved.invalidate(event.entry.userId);
+        await _clearSessionSafely();
+        saved.pendingLogin = event.entry;
+      }
+      if (_canEmit(emit)) {
+        emit(
+          AuthState(
+            status: AuthStatus.unauthenticated,
+            errorCode: error.code,
+            sessionExpired: error.isAuthFailure,
+          ),
+        );
+      }
+    } catch (_) {
+      if (_canEmit(emit)) {
+        emit(
+          const AuthState(
+            status: AuthStatus.unauthenticated,
+            errorCode: AppErrorCode.unknown,
+          ),
+        );
+      }
+    }
+  }
 
   /// Upper bound for validating a saved session. Dio has its own transport
   /// timeouts; this guard also covers a stalled platform channel or a server
@@ -47,9 +147,33 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
       emit(const AuthState(status: AuthStatus.unknown, busy: true));
     }
 
+    // Saved customers always enter through their bank card. Never silently
+    // activate the last bank or authenticate a different saved identity.
+    if (_savedBanks != null &&
+        _savedBanks.entries.isNotEmpty &&
+        !_sessionStore.activeIsStaff &&
+        (_sessionStore.activeUserId != null || !_repository.hasStoredSession) &&
+        _sessionStore.setupToken == null) {
+      await _clearSessionSafely();
+      emit(const AuthState(status: AuthStatus.unauthenticated));
+      return;
+    }
+
     if (_repository.hasStoredSession) {
       try {
         final user = await _repository.currentUser().timeout(_restoreTimeout);
+        if (_savedBanks != null &&
+            !user.isStaff &&
+            !user.mustChangePassword &&
+            _sessionStore.refreshToken != null) {
+          await _savedBanks.remember(user, _sessionStore.refreshToken!);
+          await _biometrics?.migrateLegacyIdentity(user.id);
+          await _clearSessionSafely();
+          if (_canEmit(emit)) {
+            emit(const AuthState(status: AuthStatus.unauthenticated));
+          }
+          return;
+        }
         if (isClosed) {
           return;
         }
@@ -127,11 +251,13 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     AuthLoginRequested event,
     Emitter<AuthState> emit,
   ) async {
+    if (state.busy) return;
     if (!_canEmit(emit)) {
       return;
     }
     emit(const AuthState(status: AuthStatus.unauthenticated, busy: true));
     try {
+      await _clearSessionSafely();
       final outcome = await _repository.login(
         identifier: event.identifier,
         password: event.password,
@@ -253,6 +379,8 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     AuthSessionExpired event,
     Emitter<AuthState> emit,
   ) async {
+    final owner = _sessionStore.activeUserId;
+    if (owner != null) await _savedBanks?.invalidate(owner);
     await _clearSessionSafely();
     if (!_canEmit(emit)) {
       return;

@@ -35,6 +35,13 @@ class MorePage extends StatelessWidget {
                     child: Column(
                       children: [
                         FaisalActionTile(
+                          icon: Icons.account_balance_outlined,
+                          title: l10n.savedBanksTitle,
+                          onTap: () => context.read<AuthBloc>().add(
+                            const AuthReturnToBanksRequested(),
+                          ),
+                        ),
+                        FaisalActionTile(
                           icon: Icons.savings_outlined,
                           title: l10n.certificatesTitle,
                           onTap: () =>

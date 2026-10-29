@@ -1,5 +1,6 @@
 import 'package:faisal_app/features/banks/presentation/bank_onboarding_page.dart';
 import 'package:faisal_app/features/authentication/presentation/pages/login_page.dart';
+import 'package:faisal_app/features/authentication/presentation/pages/saved_banks_page.dart';
 import 'package:faisal_app/main.dart' as app;
 import 'package:faisal_app/features/products/presentation/pages/bank_notices_page.dart';
 import 'package:faisal_app/core/di/injector.dart';
@@ -41,10 +42,19 @@ bool isStartupPage(Widget widget) =>
     widget is TextFormField ||
     widget is NavigationBar ||
     widget is BankNoticesPage ||
+    widget is SavedBanksPage ||
     widget is BankOnboardingPage;
 
 /// Follow the global bank selection before entering the username form.
 Future<void> chooseBank(WidgetTester tester, String code) async {
+  if (find.byType(SavedBanksPage).evaluate().isNotEmpty) {
+    final add = find.byKey(const Key('saved-banks-add'));
+    await waitFor(tester, add);
+    await tester.pumpAndSettle();
+    await tester.ensureVisible(add);
+    await tester.tap(add);
+    await tester.pumpAndSettle();
+  }
   if (find.byType(LoginPage).evaluate().isNotEmpty) {
     await tap(tester, 'Change bank');
   }
@@ -73,7 +83,11 @@ Future<void> openSignIn(WidgetTester tester) async {
   await waitFor(
     tester,
     find.byWidgetPredicate(
-      (w) => w is LoginPage || w is BankOnboardingPage || w is BankNoticesPage,
+      (w) =>
+          w is LoginPage ||
+          w is BankOnboardingPage ||
+          w is BankNoticesPage ||
+          w is SavedBanksPage,
     ),
   );
   final card = find.byKey(const ValueKey('notice_continue_login'));
@@ -82,7 +96,8 @@ Future<void> openSignIn(WidgetTester tester) async {
     await tester.tap(card);
     await tester.pumpAndSettle();
   }
-  if (find.byType(BankOnboardingPage).evaluate().isNotEmpty) {
+  if (find.byType(BankOnboardingPage).evaluate().isNotEmpty ||
+      find.byType(SavedBanksPage).evaluate().isNotEmpty) {
     await chooseBank(tester, 'faisal');
   }
   await waitFor(tester, find.byType(TextFormField));

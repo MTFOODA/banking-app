@@ -1,4 +1,6 @@
 import '../di/injector.dart';
+import '../../features/authentication/presentation/cubit/saved_banks_cubit.dart';
+import '../../features/authentication/presentation/pages/saved_banks_page.dart';
 import '../../features/banks/presentation/bank_selection_cubit.dart';
 import '../../features/banks/presentation/bank_onboarding_page.dart';
 import '../config/banking_identity.dart';
@@ -49,15 +51,23 @@ GoRouter buildRouter({required AuthBloc authBloc}) {
       sl.isRegistered<BankSelectionCubit>()
           ? sl<BankSelectionCubit>().stream
           : null,
+      sl.isRegistered<SavedBanksCubit>() ? sl<SavedBanksCubit>().stream : null,
     ),
     redirect: (context, state) => resolveRedirect(
       auth: authBloc.state,
       location: state.uri.path,
+      hasSavedBanks:
+          sl.isRegistered<SavedBanksCubit>() &&
+          sl<SavedBanksCubit>().state.isNotEmpty,
       hasSelectedBank:
           !sl.isRegistered<BankSelectionCubit>() ||
           sl<BankSelectionCubit>().state != null,
     ),
     routes: [
+      GoRoute(
+        path: AppRoutes.savedBanks,
+        builder: (_, _) => const SavedBanksPage(),
+      ),
       GoRoute(
         path: AppRoutes.onboarding,
         builder: (_, _) => const BankOnboardingPage(),

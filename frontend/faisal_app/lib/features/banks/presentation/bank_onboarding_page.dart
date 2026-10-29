@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/di/injector.dart';
+import '../../authentication/domain/repositories/saved_banks_repository.dart';
 import '../../../core/routing/app_routes.dart';
 import '../../../core/widgets/faisal_logo.dart';
 import '../../../l10n/app_localizations.dart';
@@ -39,6 +40,15 @@ class _BankOnboardingPageState extends State<BankOnboardingPage> {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
+        leading:
+            sl.isRegistered<SavedBanksRepository>() &&
+                sl<SavedBanksRepository>().entries.isNotEmpty
+            ? IconButton(
+                icon: const BackButtonIcon(),
+                tooltip: AppLocalizations.of(context).savedBanksTitle,
+                onPressed: () => context.go(AppRoutes.savedBanks),
+              )
+            : null,
         title: Text(l.appName),
         actions: [
           Padding(
@@ -142,6 +152,14 @@ class _BankOnboardingPageState extends State<BankOnboardingPage> {
                                           ),
                                           onTap: () async {
                                             await selection.select(bank.code);
+                                            if (sl
+                                                .isRegistered<
+                                                  SavedBanksRepository
+                                                >()) {
+                                              sl<SavedBanksRepository>()
+                                                      .pendingLogin =
+                                                  null;
+                                            }
                                             if (context.mounted) {
                                               context.go(AppRoutes.login);
                                             }
