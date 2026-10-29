@@ -37,7 +37,7 @@ class Links extends BankContactLinks {
   }
 }
 
-class Directory implements BankDirectoryRepository {
+class Directory extends BankDirectoryRepository {
   Directory(this.branches);
   final List<BankBranch> branches;
   bool fail = false;
@@ -51,7 +51,8 @@ class Directory implements BankDirectoryRepository {
 class WaitingNotices extends admin.PublicRepository {
   final response = Completer<List<Announcement>>();
   @override
-  Future<List<Announcement>> fetchPublicAnnouncements() => response.future;
+  Future<List<Announcement>> fetchPublicAnnouncements({String? bankCode}) =>
+      response.future;
 }
 
 void main() {
@@ -197,7 +198,7 @@ void main() {
         auth: const AuthState(status: AuthStatus.unauthenticated),
         location: AppRoutes.accounts,
       ),
-      AppRoutes.preLogin,
+      AppRoutes.login,
     );
   });
   for (final locale in ['en', 'ar']) {

@@ -9,19 +9,21 @@ import '../../../../core/theme/faisal_palette.dart';
 import '../../../../l10n/app_localizations.dart';
 
 class PublicServiceCards extends StatelessWidget {
-  const PublicServiceCards({super.key});
+  const PublicServiceCards({super.key, this.includeLogin = true});
+  final bool includeLogin;
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
     final custom = BrandingScope.of(context).customTheme;
     final cards = [
-      (
-        key: 'notice_continue_login',
-        title: l.signIn,
-        hint: l.publicSignInHint,
-        icon: Icons.login_rounded,
-        route: AppRoutes.login,
-      ),
+      if (includeLogin)
+        (
+          key: 'notice_continue_login',
+          title: l.signIn,
+          hint: l.publicSignInHint,
+          icon: Icons.login_rounded,
+          route: AppRoutes.login,
+        ),
       (
         key: 'public_branches',
         title: l.publicBranches,
@@ -59,7 +61,7 @@ class PublicServiceCards extends StatelessWidget {
                   button: true,
                   child: Material(
                     key: ValueKey(cards[i].key),
-                    color: i == 0
+                    color: cards[i].key == 'notice_continue_login'
                         ? (custom
                               ? context.colors.primary
                               : FaisalColors.primaryGreen)
@@ -69,7 +71,7 @@ class PublicServiceCards extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(22),
                       side: BorderSide(
-                        color: i == 0
+                        color: cards[i].key == 'notice_continue_login'
                             ? (custom
                                   ? context.palette.gold
                                   : FaisalColors.goldAccent)
@@ -95,7 +97,7 @@ class PublicServiceCards extends StatelessWidget {
                               Icon(
                                 cards[i].icon,
                                 size: 32,
-                                color: i == 0
+                                color: cards[i].key == 'notice_continue_login'
                                     ? (custom
                                           ? context.palette.gold
                                           : FaisalColors.goldAccent)
@@ -107,7 +109,7 @@ class PublicServiceCards extends StatelessWidget {
                               Text(
                                 cards[i].title,
                                 style: context.texts.titleMedium?.copyWith(
-                                  color: i == 0
+                                  color: cards[i].key == 'notice_continue_login'
                                       ? (custom
                                             ? context.colors.onPrimary
                                             : FaisalColors.white)
@@ -121,7 +123,7 @@ class PublicServiceCards extends StatelessWidget {
                               Text(
                                 cards[i].hint,
                                 style: context.texts.bodySmall?.copyWith(
-                                  color: i == 0
+                                  color: cards[i].key == 'notice_continue_login'
                                       ? (custom
                                             ? context.colors.onPrimary
                                             : FaisalColors.white)

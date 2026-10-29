@@ -4,7 +4,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:go_router/go_router.dart';
 
 import 'core/theme/app_theme.dart';
-import 'core/config/banking_identity.dart';
 import 'features/branding/presentation/widgets/customer_appearance.dart';
 import 'features/branding/presentation/cubit/branding_cubit.dart';
 import 'features/branding/presentation/widgets/branding_runtime.dart';
@@ -49,7 +48,8 @@ class FaisalApp extends StatelessWidget {
                 cubit: brandingCubit,
                 builder: (context, branding) => MaterialApp.router(
                   debugShowCheckedModeBanner: false,
-                  onGenerateTitle: (context) => BankingIdentity.name,
+                  onGenerateTitle: (context) =>
+                      AppLocalizations.of(context).appName,
                   locale: locale,
                   supportedLocales: AppLocalizations.supportedLocales,
                   localizationsDelegates: const [

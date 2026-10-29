@@ -156,7 +156,7 @@ void main() {
     );
     expect(find.text('Published customer greeting'), findsOneWidget);
     expect(find.text('Original greeting'), findsNothing);
-    expect(find.text('Banking App'), findsOneWidget);
+    expect(find.text('Banking App'), findsNothing);
   });
   test(
     'offline bank catalogue uses cache and coalesces refresh requests',
@@ -301,15 +301,16 @@ void main() {
           BrandingScope.of(pageContext).text('welcome_message'),
           'Published',
         );
-        expect(find.text('Banking App'), findsOneWidget);
+        expect(find.text('Banking App'), findsNothing);
+        expect(
+          find.text(BankCatalogue.bundled.find(bank)!.name('en')),
+          findsOneWidget,
+        );
         router.go('/login');
         await tester.pumpAndSettle();
         pageContext = tester.element(find.byKey(const Key('draft')));
-        expect(
-          Theme.of(pageContext).colorScheme.primary,
-          AppTheme.light().colorScheme.primary,
-        );
-        expect(BrandingScope.of(pageContext), BrandingConfig.defaults);
+        expect(Theme.of(pageContext).colorScheme.primary, expected);
+        expect(BrandingScope.bankOf(pageContext)?.code, bank);
         await tester.pumpWidget(const SizedBox());
         await tester.pumpAndSettle();
         router.dispose();

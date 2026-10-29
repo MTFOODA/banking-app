@@ -1,0 +1,431 @@
+{
+  "bank_code": "mashreq",
+  "branches": [
+    {
+      "id": "mashreq-8979cedcec64937f",
+      "name": "Alexandria - Horreya branch",
+      "address": "Building number 125 horreya road Alexandria",
+      "governorate": "Alex",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1994243%2C29.9102421"
+    },
+    {
+      "id": "mashreq-353c6f3a41c36fe1",
+      "name": "Beverly Hills Branch",
+      "address": "Plot 9, 10, Beverly Hills, SODIC Garden City Development and Investment Project (known as STRIP), Sheikh Zayed City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0598960%2C30.9388470"
+    },
+    {
+      "id": "mashreq-c75a879f639b286f",
+      "name": "Down Town Branch",
+      "address": "21 Draeeh Saad Street - Kasr Al Aini",
+      "governorate": "cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0378600%2C31.2379200"
+    },
+    {
+      "id": "mashreq-661f9785cff65df8",
+      "name": "Heliopolis Branch",
+      "address": "21 Ismail El Falaky Street, Heliopolis",
+      "governorate": "cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1039980%2C31.3271640"
+    },
+    {
+      "id": "mashreq-8017d1261fa2b4f2",
+      "name": "Kattamya Branch",
+      "address": "101 building, 902 st, fifth settlement beside Hussein Youssef",
+      "governorate": "cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0189534%2C31.4195084"
+    },
+    {
+      "id": "mashreq-9e4efbb6e4cfa277",
+      "name": "Maadi Branch",
+      "address": "Unit No 3 - Template 24 -2/4 Al Laselky Street - Maadi",
+      "governorate": "cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9741100%2C31.2804700"
+    },
+    {
+      "id": "mashreq-237d99deb01cd66e",
+      "name": "New Cairo Branch",
+      "address": "Le Roy Resort, located in Plot No. 14, in the eastern extension of the Southern Investors Area, New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0028800%2C31.5041000"
+    },
+    {
+      "id": "mashreq-1d2d12cf94a0ae7d",
+      "name": "Thawra Branch",
+      "address": "103 Thawra Street, Heliopolis",
+      "governorate": "cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0832300%2C31.3413400"
+    },
+    {
+      "id": "mashreq-2bd213da4075a292",
+      "name": "Dokki Branch",
+      "address": "147 Al Tahrir St., Dokki",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0394893%2C31.2181016"
+    },
+    {
+      "id": "mashreq-0485d764b02afe2d",
+      "name": "El Sheikh Zayed Branch",
+      "address": "Crazy water Axis, Guizera Plaza,Block 33 Unit 206 G1",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0362500%2C31.0029500"
+    },
+    {
+      "id": "mashreq-07fed17f1a57185c",
+      "name": "Mohandseen Branch",
+      "address": "32 Riad street, corner of Shehab",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0369100%2C31.1950300"
+    },
+    {
+      "id": "mashreq-cda7cb47844ddc4c",
+      "name": "Zamalek Branch",
+      "address": "9 Elgabalaya street - Eltonsy Building",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mashreq+Egypt+Zamalek+Branch+9+Elgabalaya+street+-+Eltonsy+Building+Cairo+Egypt"
+    },
+    {
+      "id": "mashreq-6c9fbdcce42b4b8d",
+      "name": "Rehab Branch",
+      "address": "Shop No. 103 unit No. G34 East Court Al Rehab",
+      "governorate": "cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mashreq+Egypt+Rehab+Branch+Shop+No.+103+unit+No.+G34+East+Court+Al+Rehab+cairo+Egypt"
+    },
+    {
+      "id": "mashreq-c2bca926c1c522f8",
+      "name": "10th of Ramadan Branch",
+      "address": "No 3- City Center - Down Town Mall – 10Th Ramadan City - Sharkia Governorate",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mashreq+Egypt+10th+of+Ramadan+Branch+No+3-+City+Center+-+Down+Town+Mall+%E2%80%93+10Th+Ramadan+City+-+Sharkia+Governorate+Cairo+Egypt"
+    }
+  ],
+  "atms": [
+    {
+      "id": "mashreq-8790597cce25b83e",
+      "name": "10th of Ramadan Branch 1",
+      "address": "Omar Ebn Elkhattab st., Down town mall, 10th of Ramadan 3",
+      "governorate": "Sharqiea",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3048900%2C31.7435500"
+    },
+    {
+      "id": "mashreq-73bfa36dca441125",
+      "name": "10th of Ramadan Branch 2",
+      "address": "Omar Ebn Elkhattab st., Down town mall, 10th of Ramadan 3",
+      "governorate": "Sharqiea",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3048900%2C31.7435500"
+    },
+    {
+      "id": "mashreq-0ae55685a4d7dc23",
+      "name": "Beverly Hills Branch 1",
+      "address": "Beverly Hills Branch L2 Unit 9 & 10 Sodic Strip",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0598960%2C30.9388470"
+    },
+    {
+      "id": "mashreq-ebab67fe19165997",
+      "name": "Beverly Hills Branch 2",
+      "address": "Beverly Hills Branch L2 Unit 9 & 10 Sodic Strip",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0598960%2C30.9388470"
+    },
+    {
+      "id": "mashreq-1b00974d4bbc1d7a",
+      "name": "City Center Almaza Mall",
+      "address": "Floor 1, ATM center, City Center Almaza, 50 M sheraton elmattar elnozha",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0816300%2C31.3646800"
+    },
+    {
+      "id": "mashreq-6cb986c1cf567ffa",
+      "name": "Dokki ATM 1- Lobby",
+      "address": "147 Al Tahrir st., Dokki",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0394893%2C31.2181016"
+    },
+    {
+      "id": "mashreq-a9c8b2c8f3932310",
+      "name": "Dokki ATM 2- Lobby",
+      "address": "147 Al Tahrir st., Dokki",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0394893%2C31.2181016"
+    },
+    {
+      "id": "mashreq-05d1e6155506b5e6",
+      "name": "Dokki ATM 3- Lobby",
+      "address": "147 Al Tahrir st., Dokki",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0394893%2C31.2181016"
+    },
+    {
+      "id": "mashreq-53524f626ec60557",
+      "name": "Dolphin Mall - 6 October City",
+      "address": "First floor, Dolphin Mall, 6th of October",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9776900%2C30.9549600"
+    },
+    {
+      "id": "mashreq-52885c0171ee7ac2",
+      "name": "Cairo - Down Town Branch 1",
+      "address": "21 Dareh Saad ST-Down Town, Cairo2",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0385800%2C31.2349300"
+    },
+    {
+      "id": "mashreq-55b90953fc4c1a36",
+      "name": "Cairo - Down Town Branch 2",
+      "address": "21 Dareh Saad ST-Down Town, Cairo2",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0385800%2C31.2349300"
+    },
+    {
+      "id": "mashreq-b84c916ae80d1618",
+      "name": "e& Shoubra store 2",
+      "address": "237 Shoubra street in front of kheer zaman super market",
+      "governorate": "e& Shoubra Store 2",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0919380%2C31.2454050"
+    },
+    {
+      "id": "mashreq-eff6dfd544bebecf",
+      "name": "Fatahallah Market - Wabour El Mayah - Alexandria",
+      "address": "Fathallah Market - wabour el mayah Mahad el tawleed st,elshaheed glal el Desouky – Bab Sharq",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2001200%2C29.9229700"
+    },
+    {
+      "id": "mashreq-1840f1f0238ff08d",
+      "name": "Fawry Store - Al Mansheya - Alexandria",
+      "address": "Majestic mall, Oraby Sq 5 Mohammed Ahmed El-Tayeb, Al Mansheyah Al Kubra",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1984100%2C29.8933800"
+    },
+    {
+      "id": "mashreq-ae3fe63ee8db3084",
+      "name": "Golf City Mall - Obour",
+      "address": "Floor 1 Golf City Mall, Masr Ismalia Road, obour entrance",
+      "governorate": "El-Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1820200%2C31.4747500"
+    },
+    {
+      "id": "mashreq-fb564a71b50bf15d",
+      "name": "Grand Mall - Maadi",
+      "address": "Maadi Grand Mall, Talon maadi,Naguib Al Mestekawi",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9658600%2C31.2700300"
+    },
+    {
+      "id": "mashreq-d20303639043ab26",
+      "name": "10th of Ramadan - Guardians Co.",
+      "address": "Ismailia Road Sharia Guardians Company",
+      "governorate": "Sharkia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3065030%2C31.7414550"
+    },
+    {
+      "id": "mashreq-e53af9c04471b165",
+      "name": "Heliopolis Branch 1",
+      "address": "21 Ismael el falaky St,Masr el Gededa",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1039980%2C31.3271640"
+    },
+    {
+      "id": "mashreq-5691efaacfaa4181",
+      "name": "Heliopolis Branch 2",
+      "address": "21 Ismael el falaky St,Masr el Gededa",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1039980%2C31.3271640"
+    },
+    {
+      "id": "mashreq-090fc0067e4806be",
+      "name": "Heliopolis Branch 3",
+      "address": "21 Ismael el falaky St,Masr el Gededa",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1039980%2C31.3271640"
+    },
+    {
+      "id": "mashreq-7dc4a97bc42ca54a",
+      "name": "Heliopolis Branch 4",
+      "address": "21 Ismael el falaky St,Masr el Gededa",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1039980%2C31.3271640"
+    },
+    {
+      "id": "mashreq-9920b2caf652aac5",
+      "name": "Heliopolis Branch 5",
+      "address": "21 Ismael el falaky St,Masr el Gededa",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1039980%2C31.3271640"
+    },
+    {
+      "id": "mashreq-67580251af6149d1",
+      "name": "Alexandria - Horreya Branch 1",
+      "address": "Building number 125 horreya road Alexandria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1994243%2C29.9102421"
+    },
+    {
+      "id": "mashreq-52a30eeff551c5c9",
+      "name": "Alexandria - Horreya Branch 2",
+      "address": "Building number 125 horreya road Alexandria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1994243%2C29.9102421"
+    },
+    {
+      "id": "mashreq-3ea24cfdd23bc1b9",
+      "name": "Hyper One Zayed",
+      "address": "Extension Of 26th Of July Spine El Sheikh Zayed, 6th Of October",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0304300%2C31.0212300"
+    },
+    {
+      "id": "mashreq-a85292aa6416ae85",
+      "name": "Kattameya Branch 1",
+      "address": "Business Mall, Plot 219-101, 5th District El Tagamoa",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0187970%2C31.4204460"
+    },
+    {
+      "id": "mashreq-91e67103fc507774",
+      "name": "Kattameya Branch 2",
+      "address": "Business Mall, Plot 219-101, 5th District El Tagamoa",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0187970%2C31.4204460"
+    },
+    {
+      "id": "mashreq-678de1677d34530e",
+      "name": "Maadi Branch 1",
+      "address": "3 Elaselky ST, Maadi-Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9699630%2C31.2790160"
+    },
+    {
+      "id": "mashreq-cbd39bcb8b3127d5",
+      "name": "Maadi Branch 2",
+      "address": "3 Elaselky ST, Maadi-Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9699630%2C31.2790160"
+    },
+    {
+      "id": "mashreq-65185fc49ccd503c",
+      "name": "Mohandeseen Branch 1",
+      "address": "32 EL REYAD ST,Off shehab st., Mohandessien",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0535600%2C31.1950400"
+    },
+    {
+      "id": "mashreq-62ed0af4937d5f3f",
+      "name": "Mohandeseen Branch 2",
+      "address": "32 EL REYAD ST,Off shehab st., Mohandessien",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0535600%2C31.1950400"
+    },
+    {
+      "id": "mashreq-efbf4a5198736306",
+      "name": "Fathallah Market - Muntazah - Alexandria",
+      "address": "Tower No. 6, El-Geish Road, Bahary Sheraton, Al-Montazah",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2808100%2C30.0141900"
+    },
+    {
+      "id": "mashreq-03a2b7dd398ab804",
+      "name": "New Cairo Branch 1",
+      "address": "Le Roy Resort, located in Plot No. 14, in the eastern extension of the Southern Investors Area, New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0028800%2C31.5041000"
+    },
+    {
+      "id": "mashreq-dedc37befa90a541",
+      "name": "New Cairo Branch 2",
+      "address": "Le Roy Resort, located in Plot No. 14, in the eastern extension of the Southern Investors Area, New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0706900%2C31.5144040"
+    },
+    {
+      "id": "mashreq-18d04afad5dea5a9",
+      "name": "Dr. Reda Pharmacy - Gesr El Suez",
+      "address": "Gesr suez square near gate 4 shamas club",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1186400%2C31.3403800"
+    },
+    {
+      "id": "mashreq-d27e5301d7beddd9",
+      "name": "Rehab Branch 1",
+      "address": "Rehab Branch , Unit 103 Eastern Market – Rehab City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0734200%2C31.5138800"
+    },
+    {
+      "id": "mashreq-330114e59017b921",
+      "name": "Rehab Branch 2",
+      "address": "Rehab Branch , Unit 103 Eastern Market – Rehab City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0734200%2C31.5138800"
+    },
+    {
+      "id": "mashreq-9fbc55e0b1cf7eea",
+      "name": "Saudi German Hospital - Al Nozha",
+      "address": "Saudi German Hospital Taha Hussein Rd, Huckstep, El Nozha",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1326600%2C31.3841900"
+    },
+    {
+      "id": "mashreq-26dd41611d9d76ce",
+      "name": "Saudi German Hospital - Alexandria",
+      "address": "Alex west compound mehwer el tamear north coast road 23 km Alexandria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4810300%2C29.6833300"
+    },
+    {
+      "id": "mashreq-5527a9f4c6b116fe",
+      "name": "Thawra Branch 1",
+      "address": "103 El Thawra street – Helioples",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0832300%2C31.3413400"
+    },
+    {
+      "id": "mashreq-42c230ecbba0b93b",
+      "name": "Thawra Branch 2",
+      "address": "103 El Thawra street – Helioples",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0832300%2C31.3413400"
+    },
+    {
+      "id": "mashreq-d56a2f371c64fb27",
+      "name": "Zamalek Branch 1",
+      "address": "TONSY BUILDING, Gabalya Street Al Gabalayah, Zamalek, Cairo Governorate",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0538593%2C31.2184500"
+    },
+    {
+      "id": "mashreq-2c21d37778dda711",
+      "name": "Zamalek Branch 2",
+      "address": "TONSY BUILDING, Gabalya Street Al Gabalayah, Zamalek, Cairo Governorate",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0538593%2C31.2184500"
+    },
+    {
+      "id": "mashreq-a7b5372c58244f70",
+      "name": "Zayed City Branch 1",
+      "address": "Plot 33 Gezira Tower beside Arkan Tower, Sheikh Zayed, 6th of October",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0202700%2C31.0028500"
+    },
+    {
+      "id": "mashreq-a7dfaa0928be3008",
+      "name": "Zayed City Branch 2",
+      "address": "Plot 33 Gezira Tower beside Arkan Tower, Sheikh Zayed, 6th of October",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0202700%2C31.0028500"
+    }
+  ],
+  "branches_status": "published",
+  "atms_status": "published",
+  "source_urls": [
+    "https://www.mashreq.com/en/egypt/personal/locators/"
+  ],
+  "branch_locator_url": "https://www.mashreq.com/en/egypt/personal/locators/",
+  "atm_locator_url": "https://www.mashreq.com/en/egypt/personal/locators/",
+  "hotline": null,
+  "contact_url": "https://www.mashreq.com/en/egypt/",
+  "reviewed_at": "2026-10-29",
+  "version": "a95129631e681b4b"
+}

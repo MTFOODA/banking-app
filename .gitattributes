@@ -1,0 +1,3 @@
+
+# Preserve reviewed official SVG bytes and cross-platform SHA-256 integrity.
+frontend/faisal_app/assets/banks/*.svg -text -whitespace

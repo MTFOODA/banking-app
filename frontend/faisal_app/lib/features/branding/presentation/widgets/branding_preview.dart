@@ -49,7 +49,7 @@ class BrandingPreview extends StatelessWidget {
                     const SizedBox(width: 12),
                     Expanded(
                       child: Text(
-                        BankingIdentity.name,
+                        BankingIdentity.displayName(context),
                         style: theme.textTheme.titleLarge,
                       ),
                     ),

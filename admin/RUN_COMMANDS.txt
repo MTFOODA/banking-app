@@ -53,7 +53,6 @@ Banking App migration and bank-specific fixtures (from project root):
    backend/.venv/Scripts/python.exe admin/initialize_registration_customers.py --batch NBE2810 --count 2 --bank nbe
    backend/.venv/Scripts/python.exe admin/initialize_registration_customers.py --batch CIB2810 --count 2 --bank cib
 Select the Bank printed next to the card in admin.txt for self-registration.
-Sign-in can choose the bank or detect it from the username/card automatically.
+Choose the bank first. Sign-in uses username/password only; self-registration uses the card, then OTP and a new username/password.
 Different usernames for different banks open each bank's verified internal theme.
-The fixed Banking App name/logo require this new build; supported internal
-appearance publications afterward do not require downloading an app update.
+Native Banking App launcher branding stays fixed. In-app bank names/logos follow the selected bank; supported internal appearance publications do not require an app update.

@@ -56,7 +56,7 @@ void main() {
         auth: const AuthState(status: AuthStatus.unauthenticated),
         location: '/home',
       );
-      expect(redirect, '/bank-notices');
+      expect(redirect, '/login');
     });
     test('forces password setup before home', () {
       final redirect = resolveRedirect(

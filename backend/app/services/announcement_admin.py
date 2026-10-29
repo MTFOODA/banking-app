@@ -52,15 +52,23 @@ def get_announcement(db: Session, announcement_id: uuid.UUID) -> Announcement:
 def _validate_public_location(location, audiences):
     if location not in {'home', 'pre_login', 'both'}:
         raise AppError(code='invalid_announcement_location', message='Choose a valid display location.', status_code=422)
-    if location != 'home' and any(kind != 'all' for kind in audiences):
+    if location != 'home' and any(kind not in {'all', 'bank'} for kind in audiences):
         raise AppError(code='private_announcement_not_public',
             message='Before-login announcements must be addressed to everyone.', status_code=422)
+
+
+def _validate_bank_audience(kind, value):
+    if kind == 'bank':
+        from app.services.bank_catalogue_data import catalogue
+        if value not in {b['code'] for b in catalogue()['banks']}:
+            raise AppError(code='bank_unavailable', message='Choose a valid bank audience.', status_code=422)
 
 
 def create_announcement(db: Session, actor: User, payload: dict) -> Announcement:
     data = dict(payload)
     audience_type = data.pop("audience_type", "all")
     audience_value = data.pop("audience_value", None)
+    _validate_bank_audience(audience_type, audience_value)
     status = data.pop("status", AnnouncementStatus.DRAFT)
     _validate_public_location(data.get('display_location', 'home'), [audience_type])
     if status == AnnouncementStatus.PUBLISHED:
@@ -92,6 +100,7 @@ def update_announcement(
     audience_value = data.pop("audience_value", None)
     _validate_public_location(data.get('display_location', item.display_location),
         [audience_type] if audience_type else [a.audience_type for a in item.audiences])
+    _validate_bank_audience(audience_type, audience_value)
     for field, value in data.items():
         if hasattr(item, field):
             setattr(item, field, value)

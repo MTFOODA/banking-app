@@ -1,3 +1,5 @@
+import '../../../banks/presentation/bank_selector.dart';
+
 import 'package:flutter/material.dart';
 
 import '../../../../core/localization/labels.dart';
@@ -21,6 +23,7 @@ class _AdminAnnouncementFormState extends State<AdminAnnouncementForm> {
       _bodyAr = TextEditingController(text: widget.initial?.bodyAr);
   late String _location = widget.initial?.displayLocation ?? 'home',
       _priority = widget.initial?.priority ?? 'normal';
+  late String? _bankCode = widget.initial?.bankCode;
   bool _busy = false;
   String? _error;
   @override
@@ -68,7 +71,11 @@ class _AdminAnnouncementFormState extends State<AdminAnnouncementForm> {
       'display_location': _location,
       'status': publish ? 'published' : widget.initial?.status ?? 'draft',
     };
-    if (widget.initial == null) payload['audience_type'] = 'all';
+    if (widget.initial == null ||
+        (widget.initial?.publiclyAddressed ?? false)) {
+      payload['audience_type'] = _bankCode == null ? 'all' : 'bank';
+      payload['audience_value'] = _bankCode;
+    }
     final ok = await widget.onSave(payload);
     if (!mounted) return;
     if (ok) {
@@ -113,6 +120,24 @@ class _AdminAnnouncementFormState extends State<AdminAnnouncementForm> {
                         (v ?? '').trim().length < 3 ? l.admRequired : null,
                   ),
                   const SizedBox(height: 10),
+                ],
+                if (widget.initial == null ||
+                    widget.initial!.publiclyAddressed) ...[
+                  SwitchListTile(
+                    title: Text(l.bankNoticeSpecific),
+                    value: _bankCode != null,
+                    onChanged: _busy
+                        ? null
+                        : (enabled) => setState(
+                            () => _bankCode = enabled ? 'faisal' : null,
+                          ),
+                  ),
+                  if (_bankCode != null)
+                    BankSelector(
+                      value: _bankCode,
+                      enabled: !_busy,
+                      onChanged: (v) => setState(() => _bankCode = v),
+                    ),
                 ],
                 DropdownButtonFormField<String>(
                   key: const ValueKey('announcement_location'),

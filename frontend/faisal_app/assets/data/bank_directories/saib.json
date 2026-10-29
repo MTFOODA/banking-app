@@ -1,0 +1,16 @@
+{
+  "bank_code": "saib",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://www.saib.com.eg/"
+  ],
+  "branch_locator_url": "https://www.saib.com.eg/",
+  "atm_locator_url": "https://www.saib.com.eg/",
+  "hotline": "16668",
+  "contact_url": "https://www.saib.com.eg/",
+  "reviewed_at": "2026-10-29",
+  "version": "68ceb5d70520f558"
+}

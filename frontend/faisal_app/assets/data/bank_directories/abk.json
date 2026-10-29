@@ -1,0 +1,14 @@
+{
+  "bank_code": "abk",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [],
+  "branch_locator_url": "https://www.abkegypt.com/",
+  "atm_locator_url": "https://www.abkegypt.com/",
+  "hotline": null,
+  "contact_url": "https://www.abkegypt.com/",
+  "reviewed_at": null,
+  "version": "943b7bb7dcbba687"
+}

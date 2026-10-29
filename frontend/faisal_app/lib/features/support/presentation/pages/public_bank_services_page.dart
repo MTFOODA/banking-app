@@ -1,3 +1,8 @@
+import '../../domain/entities/bank_directory.dart';
+import '../../domain/repositories/bank_directory_repository.dart';
+import '../../../banks/domain/entities/bank_definition.dart';
+import '../../../../core/widgets/faisal_logo.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -80,25 +85,55 @@ class _AtmLocatorPageState extends State<AtmLocatorPage> {
   }
 }
 
-class CallCenterPage extends StatelessWidget {
-  const CallCenterPage({super.key, this.bankName});
+class CallCenterPage extends StatefulWidget {
+  const CallCenterPage({super.key, this.bankName, this.bankCode = 'faisal'});
   final String? bankName;
+  final String bankCode;
+  @override
+  State<CallCenterPage> createState() => _CallCenterPageState();
+}
+
+class _CallCenterPageState extends State<CallCenterPage> {
+  BankDirectory? directory;
+  @override
+  void initState() {
+    super.initState();
+    load();
+  }
+
+  Future<void> load() async {
+    if (!sl.isRegistered<BankDirectoryRepository>()) return;
+    final value = await sl<BankDirectoryRepository>().loadDirectory(
+      widget.bankCode,
+    );
+    if (mounted) setState(() => directory = value);
+    final next = await sl<BankDirectoryRepository>().loadDirectory(
+      widget.bankCode,
+      refresh: true,
+    );
+    if (mounted && !identical(value, next)) setState(() => directory = next);
+  }
+
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context), links = sl<BankContactLinks>();
+    // Legacy widget-only callers retain their existing Faisal contact page.
+    // For every other bank an unverified phone number stays unavailable.
+    final number =
+        directory?.hotline ??
+        (widget.bankCode == 'faisal' ? BankContactLinks.hotline : null);
+    final website =
+        directory?.contactUrl ??
+        Uri.parse(BankCatalogue.bundled.find(widget.bankCode)!.website);
     return FaisalPage(
-      title: bankName == null
+      title: widget.bankName == null
           ? l.publicCallCenter
-          : '${l.publicCallCenter} · $bankName',
+          : '${l.publicCallCenter} · ${widget.bankName}',
       child: FaisalSurface(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Icon(
-              Icons.headset_mic_outlined,
-              size: 60,
-              color: context.colors.primary,
-            ),
+            const Center(child: FaisalLogo(size: 54)),
             const SizedBox(height: 20),
             Text(
               l.publicCallEgypt,
@@ -106,48 +141,48 @@ class CallCenterPage extends StatelessWidget {
               style: context.texts.titleLarge,
             ),
             const SizedBox(height: 12),
-            SelectableText(
-              BankContactLinks.hotline,
-              textDirection: TextDirection.ltr,
-              textAlign: TextAlign.center,
-              style: context.texts.displayMedium?.copyWith(
-                color: context.colors.primary,
+            if (number != null) ...[
+              SelectableText(
+                number,
+                textDirection: TextDirection.ltr,
+                textAlign: TextAlign.center,
+                style: context.texts.displayMedium?.copyWith(
+                  color: context.colors.primary,
+                ),
               ),
-            ),
-            const SizedBox(height: 12),
-            Text(l.publicHotlineAvailability, textAlign: TextAlign.center),
-            const SizedBox(height: 24),
-            FilledButton.icon(
-              key: const ValueKey('call_center_dial'),
-              onPressed: () => openBankLink(
-                context,
-                links,
-                Uri(scheme: 'tel', path: BankContactLinks.hotline),
+              const SizedBox(height: 12),
+              Text(l.publicHotlineAvailability, textAlign: TextAlign.center),
+              const SizedBox(height: 24),
+              FilledButton.icon(
+                key: const ValueKey('call_center_dial'),
+                onPressed: () => openBankLink(
+                  context,
+                  links,
+                  Uri(scheme: 'tel', path: number),
+                ),
+                icon: const Icon(Icons.call_outlined),
+                label: Text(l.publicCallAction),
               ),
-              icon: const Icon(Icons.call_outlined),
-              label: Text(l.publicCallAction),
-            ),
-            const SizedBox(height: 12),
-            OutlinedButton.icon(
-              key: const ValueKey('call_center_copy'),
-              onPressed: () async {
-                await Clipboard.setData(
-                  const ClipboardData(text: BankContactLinks.hotline),
-                );
-                if (context.mounted) {
-                  ScaffoldMessenger.of(
-                    context,
-                  ).showSnackBar(SnackBar(content: Text(l.publicNumberCopied)));
-                }
-              },
-              icon: const Icon(Icons.copy_outlined),
-              label: Text(l.publicCopyNumber),
-            ),
+              const SizedBox(height: 12),
+              OutlinedButton.icon(
+                key: const ValueKey('call_center_copy'),
+                onPressed: () async {
+                  await Clipboard.setData(ClipboardData(text: number));
+                  if (context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(content: Text(l.publicNumberCopied)),
+                    );
+                  }
+                },
+                icon: const Icon(Icons.copy_outlined),
+                label: Text(l.publicCopyNumber),
+              ),
+            ] else
+              Text(l.bankContactUnavailable, textAlign: TextAlign.center),
             const SizedBox(height: 12),
             TextButton.icon(
               key: const ValueKey('call_center_website'),
-              onPressed: () =>
-                  openBankLink(context, links, BankContactLinks.website),
+              onPressed: () => openBankLink(context, links, website),
               icon: const Icon(Icons.language),
               label: Text(l.publicOfficialWebsite),
             ),

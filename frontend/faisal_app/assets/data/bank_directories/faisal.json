@@ -1,0 +1,2486 @@
+{
+  "bank_code": "faisal",
+  "branches": [
+    {
+      "id": "1",
+      "name": "الرئيسي - 26 يوليو",
+      "governorate": "القاهرة",
+      "address": "3 شارع 26 يوليو، وسط البلد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%20-%2026%20%D9%8A%D9%88%D9%84%D9%8A%D9%88%203%20%D8%B4%D8%A7%D8%B1%D8%B9%2026%20%D9%8A%D9%88%D9%84%D9%8A%D9%88%D8%8C%20%D9%88%D8%B3%D8%B7%20%D8%A7%D9%84%D8%A8%D9%84%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "15",
+      "name": "الجيزة - المبنى الإداري",
+      "governorate": "الجيزة",
+      "address": "149 شارع التحرير، ميدان الجلاء، الدقي، الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.039497%2C31.218555",
+      "maps_kind": "coordinate_pin"
+    },
+    {
+      "id": "2",
+      "name": "الأزهر",
+      "governorate": "القاهرة",
+      "address": "106 شارع جوهر القائد، الدراسة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A3%D8%B2%D9%87%D8%B1%20106%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%AC%D9%88%D9%87%D8%B1%20%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D8%AF%D8%8C%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "3",
+      "name": "السيدة زينب",
+      "governorate": "القاهرة",
+      "address": "38 شارع عبد المجيد اللبان",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D9%8A%D8%AF%D8%A9%20%D8%B2%D9%8A%D9%86%D8%A8%2038%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF%20%D8%A7%D9%84%D9%84%D8%A8%D8%A7%D9%86%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "4",
+      "name": "الظاهر",
+      "governorate": "القاهرة",
+      "address": "14 أ شارع السبع، الظاهر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B8%D8%A7%D9%87%D8%B1%2014%20%D8%A3%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D8%A8%D8%B9%D8%8C%20%D8%A7%D9%84%D8%B8%D8%A7%D9%87%D8%B1%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "5",
+      "name": "مصر الجديدة - سفير",
+      "governorate": "القاهرة",
+      "address": "82 شارع عثمان بن عفان، ميدان سفير",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D8%B5%D8%B1%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20-%20%D8%B3%D9%81%D9%8A%D8%B1%2082%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%81%D8%A7%D9%86%D8%8C%20%D9%85%D9%8A%D8%AF%D8%A7%D9%86%20%D8%B3%D9%81%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "6",
+      "name": "مصر الجديدة - الأثري",
+      "governorate": "القاهرة",
+      "address": "4 شارع الأثري محمد بن نافع",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D8%B5%D8%B1%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20-%20%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A%204%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D9%86%D8%A7%D9%81%D8%B9%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "7",
+      "name": "مدينة نصر",
+      "governorate": "القاهرة",
+      "address": "15 شارع أحمد قاسم جودة، متفرع من عباس العقاد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D9%86%D8%B5%D8%B1%2015%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A3%D8%AD%D9%85%D8%AF%20%D9%82%D8%A7%D8%B3%D9%85%20%D8%AC%D9%88%D8%AF%D8%A9%D8%8C%20%D9%85%D8%AA%D9%81%D8%B1%D8%B9%20%D9%85%D9%86%20%D8%B9%D8%A8%D8%A7%D8%B3%20%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "8",
+      "name": "المعادي",
+      "governorate": "القاهرة",
+      "address": "66 كورنيش النيل، المعادي",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A%2066%20%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4%20%D8%A7%D9%84%D9%86%D9%8A%D9%84%D8%8C%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "9",
+      "name": "المقطم",
+      "governorate": "القاهرة",
+      "address": "38 شارع 9، المقطم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85%2038%20%D8%B4%D8%A7%D8%B1%D8%B9%209%D8%8C%20%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "10",
+      "name": "شبرا",
+      "governorate": "القاهرة",
+      "address": "51 شارع شبرا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%B4%D8%A8%D8%B1%D8%A7%2051%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B4%D8%A8%D8%B1%D8%A7%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "11",
+      "name": "الرحاب",
+      "governorate": "القاهرة",
+      "address": "القطعة G40، السوق الشرقي، مجمع البنوك",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8%20%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9%20G40%D8%8C%20%D8%A7%D9%84%D8%B3%D9%88%D9%82%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%8C%20%D9%85%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "12",
+      "name": "مدينتي",
+      "governorate": "القاهرة",
+      "address": "المرحلة الأولى، مجمع البنوك، وحدة 111",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D8%AF%D9%8A%D9%86%D8%AA%D9%8A%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89%D8%8C%20%D9%85%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83%D8%8C%20%D9%88%D8%AD%D8%AF%D8%A9%20111%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "13",
+      "name": "القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "address": "شارع التسعين، كمبوند زيزينيا، قرب الجامعة الأمريكية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86%D8%8C%20%D9%83%D9%85%D8%A8%D9%88%D9%86%D8%AF%20%D8%B2%D9%8A%D8%B2%D9%8A%D9%86%D9%8A%D8%A7%D8%8C%20%D9%82%D8%B1%D8%A8%20%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9%20%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "14",
+      "name": "العاصمة الإدارية الجديدة",
+      "governorate": "القاهرة",
+      "address": "حي المال والأعمال، العاصمة الإدارية الجديدة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9%20%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D8%AD%D9%8A%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%20%D9%88%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D8%8C%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9%20%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9"
+    },
+    {
+      "id": "16",
+      "name": "الدقي",
+      "governorate": "الجيزة",
+      "address": "17 شارع محمود خليل الحصري (الفالوجا سابقًا)",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0564606%2C31.2115721",
+      "maps_kind": "coordinate_pin"
+    },
+    {
+      "id": "17",
+      "name": "الهرم",
+      "governorate": "الجيزة",
+      "address": "230 شارع الهرم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%87%D8%B1%D9%85%20230%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D9%87%D8%B1%D9%85%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9"
+    },
+    {
+      "id": "18",
+      "name": "السادس من أكتوبر",
+      "governorate": "الجيزة",
+      "address": "38 المحور المركزي، السادس من أكتوبر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%D9%85%D9%86%20%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1%2038%20%D8%A7%D9%84%D9%85%D8%AD%D9%88%D8%B1%20%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%8C%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%20%D9%85%D9%86%20%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9"
+    },
+    {
+      "id": "19",
+      "name": "الشيخ زايد - بيفرلي هيلز",
+      "governorate": "الجيزة",
+      "address": "ذا ستريب مول، وحدة K3، وصلة دهشور، بيفرلي هيلز",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE%20%D8%B2%D8%A7%D9%8A%D8%AF%20-%20%D8%A8%D9%8A%D9%81%D8%B1%D9%84%D9%8A%20%D9%87%D9%8A%D9%84%D8%B2%20%D8%B0%D8%A7%20%D8%B3%D8%AA%D8%B1%D9%8A%D8%A8%20%D9%85%D9%88%D9%84%D8%8C%20%D9%88%D8%AD%D8%AF%D8%A9%20K3%D8%8C%20%D9%88%D8%B5%D9%84%D8%A9%20%D8%AF%D9%87%D8%B4%D9%88%D8%B1%D8%8C%20%D8%A8%D9%8A%D9%81%D8%B1%D9%84%D9%8A%20%D9%87%D9%8A%D9%84%D8%B2%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9"
+    },
+    {
+      "id": "20",
+      "name": "مصطفى كامل",
+      "governorate": "الإسكندرية",
+      "address": "392 أبراج الأشراف، طريق الحرية، تقاطع أحمد شوقي",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D8%B5%D8%B7%D9%81%D9%89%20%D9%83%D8%A7%D9%85%D9%84%20392%20%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D8%A7%D9%81%D8%8C%20%D8%B7%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D8%A9%D8%8C%20%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B4%D9%88%D9%82%D9%8A%20%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9"
+    },
+    {
+      "id": "21",
+      "name": "الأزاريطة",
+      "governorate": "الإسكندرية",
+      "address": "7 شارع فيكتور باسيلي، الأزاريطة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A3%D8%B2%D8%A7%D8%B1%D9%8A%D8%B7%D8%A9%207%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D9%81%D9%8A%D9%83%D8%AA%D9%88%D8%B1%20%D8%A8%D8%A7%D8%B3%D9%8A%D9%84%D9%8A%D8%8C%20%D8%A7%D9%84%D8%A3%D8%B2%D8%A7%D8%B1%D9%8A%D8%B7%D8%A9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9"
+    },
+    {
+      "id": "22",
+      "name": "المنتزه",
+      "governorate": "الإسكندرية",
+      "address": "698 أ طريق الجيش، تقاطع شارع أطلس، ميامي",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B2%D9%87%20698%20%D8%A3%20%D8%B7%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%D8%8C%20%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A3%D8%B7%D9%84%D8%B3%D8%8C%20%D9%85%D9%8A%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9"
+    },
+    {
+      "id": "23",
+      "name": "العجمي",
+      "governorate": "الإسكندرية",
+      "address": "عجمي ستار مول، بوابة 8، طريق الإسكندرية مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B9%D8%AC%D9%85%D9%8A%20%D8%B9%D8%AC%D9%85%D9%8A%20%D8%B3%D8%AA%D8%A7%D8%B1%20%D9%85%D9%88%D9%84%D8%8C%20%D8%A8%D9%88%D8%A7%D8%A8%D8%A9%208%D8%8C%20%D8%B7%D8%B1%D9%8A%D9%82%20%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9%20%D9%85%D8%B7%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9"
+    },
+    {
+      "id": "24",
+      "name": "المنصورة",
+      "governorate": "الدقهلية",
+      "address": "1 شارع الجيش، تقاطع طلعت حرب، المنصورة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9%201%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%D8%8C%20%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%20%D8%B7%D9%84%D8%B9%D8%AA%20%D8%AD%D8%B1%D8%A8%D8%8C%20%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9"
+    },
+    {
+      "id": "25",
+      "name": "ميت غمر",
+      "governorate": "الدقهلية",
+      "address": "50 شارع أحمد عرابي، تنظيم 8، ميت غمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%85%D9%8A%D8%AA%20%D8%BA%D9%85%D8%B1%2050%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B9%D8%B1%D8%A7%D8%A8%D9%8A%D8%8C%20%D8%AA%D9%86%D8%B8%D9%8A%D9%85%208%D8%8C%20%D9%85%D9%8A%D8%AA%20%D8%BA%D9%85%D8%B1%20%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9"
+    },
+    {
+      "id": "26",
+      "name": "دمياط الجديدة",
+      "governorate": "دمياط",
+      "address": "قطعة 85، المنطقة المركزية، دمياط الجديدة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%AF%D9%85%D9%8A%D8%A7%D8%B7%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D9%82%D8%B7%D8%B9%D8%A9%2085%D8%8C%20%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9%20%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%A9%D8%8C%20%D8%AF%D9%85%D9%8A%D8%A7%D8%B7%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D8%AF%D9%85%D9%8A%D8%A7%D8%B7"
+    },
+    {
+      "id": "27",
+      "name": "طنطا",
+      "governorate": "الغربية",
+      "address": "2 شارع محمد سعيد باشا، ميدان الجمهورية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%B7%D9%86%D8%B7%D8%A7%202%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B3%D8%B9%D9%8A%D8%AF%20%D8%A8%D8%A7%D8%B4%D8%A7%D8%8C%20%D9%85%D9%8A%D8%AF%D8%A7%D9%86%20%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9"
+    },
+    {
+      "id": "28",
+      "name": "المحلة الكبرى",
+      "governorate": "الغربية",
+      "address": "شارع الجيش، عمارة الأوقاف",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%D8%8C%20%D8%B9%D9%85%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81%20%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9"
+    },
+    {
+      "id": "29",
+      "name": "الزقازيق",
+      "governorate": "الشرقية",
+      "address": "ميدان المنتزه، عمارة العقادين",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B2%D9%82%D8%A7%D8%B2%D9%8A%D9%82%20%D9%85%D9%8A%D8%AF%D8%A7%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B2%D9%87%D8%8C%20%D8%B9%D9%85%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%AF%D9%8A%D9%86%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9"
+    },
+    {
+      "id": "30",
+      "name": "العاشر من رمضان",
+      "governorate": "الشرقية",
+      "address": "الحي الأول، عمارة 4، أمام الإدارة التعليمية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1%20%D9%85%D9%86%20%D8%B1%D9%85%D8%B6%D8%A7%D9%86%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%D8%8C%20%D8%B9%D9%85%D8%A7%D8%B1%D8%A9%204%D8%8C%20%D8%A3%D9%85%D8%A7%D9%85%20%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9"
+    },
+    {
+      "id": "31",
+      "name": "بنها",
+      "governorate": "القليوبية",
+      "address": "شارع البحر، بنها",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A8%D9%86%D9%87%D8%A7%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D8%8C%20%D8%A8%D9%86%D9%87%D8%A7%20%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9"
+    },
+    {
+      "id": "32",
+      "name": "العبور",
+      "governorate": "القليوبية",
+      "address": "طريق مصر الإسماعيلية الصحراوي، جولف سيتي",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1%20%D8%B7%D8%B1%D9%8A%D9%82%20%D9%85%D8%B5%D8%B1%20%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%8A%D8%8C%20%D8%AC%D9%88%D9%84%D9%81%20%D8%B3%D9%8A%D8%AA%D9%8A%20%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9"
+    },
+    {
+      "id": "33",
+      "name": "شبين الكوم",
+      "governorate": "المنوفية",
+      "address": "6 شارع جمال عبد الناصر، برج الجمهورية بلازا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%B4%D8%A8%D9%8A%D9%86%20%D8%A7%D9%84%D9%83%D9%88%D9%85%206%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%AC%D9%85%D8%A7%D9%84%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1%D8%8C%20%D8%A8%D8%B1%D8%AC%20%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9%20%D8%A8%D9%84%D8%A7%D8%B2%D8%A7%20%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9"
+    },
+    {
+      "id": "34",
+      "name": "دمنهور",
+      "governorate": "البحيرة",
+      "address": "شارع الشيخ محمد عبد الكريم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%AF%D9%85%D9%86%D9%87%D9%88%D8%B1%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%20%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9"
+    },
+    {
+      "id": "35",
+      "name": "الإسماعيلية",
+      "governorate": "الإسماعيلية",
+      "address": "4 شارع أحمد عرابي، تقاطع شارع الجيش",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9%204%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B9%D8%B1%D8%A7%D8%A8%D9%8A%D8%8C%20%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%20%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9"
+    },
+    {
+      "id": "36",
+      "name": "السويس",
+      "governorate": "السويس",
+      "address": "3 شارع الجلاء",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3%203%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AC%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3"
+    },
+    {
+      "id": "37",
+      "name": "بورسعيد",
+      "governorate": "بورسعيد",
+      "address": "17 شارع طرح البحر، تقاطع شارع الجيش",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF%2017%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B7%D8%B1%D8%AD%20%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D8%8C%20%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%AC%D9%8A%D8%B4%20%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF"
+    },
+    {
+      "id": "38",
+      "name": "الفيوم",
+      "governorate": "الفيوم",
+      "address": "30 شارع سعد زغلول، بجوار مجمع المصالح الحكومية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%81%D9%8A%D9%88%D9%85%2030%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B3%D8%B9%D8%AF%20%D8%B2%D8%BA%D9%84%D9%88%D9%84%D8%8C%20%D8%A8%D8%AC%D9%88%D8%A7%D8%B1%20%D9%85%D8%AC%D9%85%D8%B9%20%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D9%84%D8%AD%20%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D9%81%D9%8A%D9%88%D9%85"
+    },
+    {
+      "id": "39",
+      "name": "بني سويف",
+      "governorate": "بني سويف",
+      "address": "5 كورنيش النيل، برج زهرة النيل",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A8%D9%86%D9%8A%20%D8%B3%D9%88%D9%8A%D9%81%205%20%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4%20%D8%A7%D9%84%D9%86%D9%8A%D9%84%D8%8C%20%D8%A8%D8%B1%D8%AC%20%D8%B2%D9%87%D8%B1%D8%A9%20%D8%A7%D9%84%D9%86%D9%8A%D9%84%20%D8%A8%D9%86%D9%8A%20%D8%B3%D9%88%D9%8A%D9%81"
+    },
+    {
+      "id": "40",
+      "name": "المنيا",
+      "governorate": "المنيا",
+      "address": "87 شارع سعد زغلول، الكورنيش",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7%2087%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%B3%D8%B9%D8%AF%20%D8%B2%D8%BA%D9%84%D9%88%D9%84%D8%8C%20%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4%20%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7"
+    },
+    {
+      "id": "41",
+      "name": "أسيوط",
+      "governorate": "أسيوط",
+      "address": "امتداد شارع يسري راغب، حي غرب",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A3%D8%B3%D9%8A%D9%88%D8%B7%20%D8%A7%D9%85%D8%AA%D8%AF%D8%A7%D8%AF%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D9%8A%D8%B3%D8%B1%D9%8A%20%D8%B1%D8%A7%D8%BA%D8%A8%D8%8C%20%D8%AD%D9%8A%20%D8%BA%D8%B1%D8%A8%20%D8%A3%D8%B3%D9%8A%D9%88%D8%B7"
+    },
+    {
+      "id": "42",
+      "name": "سوهاج",
+      "governorate": "سوهاج",
+      "address": "شارع ترعة باجة، أعلى نقابة التطبيقيين",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%B3%D9%88%D9%87%D8%A7%D8%AC%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%AA%D8%B1%D8%B9%D8%A9%20%D8%A8%D8%A7%D8%AC%D8%A9%D8%8C%20%D8%A3%D8%B9%D9%84%D9%89%20%D9%86%D9%82%D8%A7%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D9%8A%D9%8A%D9%86%20%D8%B3%D9%88%D9%87%D8%A7%D8%AC"
+    },
+    {
+      "id": "43",
+      "name": "قنا",
+      "governorate": "قنا",
+      "address": "امتداد شارع الأقصر، مدينة العمال، بجوار نقابة التطبيقيين",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D9%82%D9%86%D8%A7%20%D8%A7%D9%85%D8%AA%D8%AF%D8%A7%D8%AF%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D8%B1%D8%8C%20%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D8%8C%20%D8%A8%D8%AC%D9%88%D8%A7%D8%B1%20%D9%86%D9%82%D8%A7%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D9%8A%D9%8A%D9%86%20%D9%82%D9%86%D8%A7"
+    },
+    {
+      "id": "44",
+      "name": "أسوان",
+      "governorate": "أسوان",
+      "address": "74 شارع أبطال التحرير، عمارة الأوقاف، الكورنيش",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%20%D9%81%D8%B1%D8%B9%20%D8%A3%D8%B3%D9%88%D8%A7%D9%86%2074%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A3%D8%A8%D8%B7%D8%A7%D9%84%20%D8%A7%D9%84%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1%D8%8C%20%D8%B9%D9%85%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81%D8%8C%20%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4%20%D8%A3%D8%B3%D9%88%D8%A7%D9%86"
+    }
+  ],
+  "atms": [
+    {
+      "id": "faisal-9fef88fe38f26d42",
+      "name": "فرع المقطم 1",
+      "address": "38 شارع 9 - تقسيم المنطقة (د) - بجوار صيدليات مصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0138000%2C31.2867200"
+    },
+    {
+      "id": "faisal-6de44d94f626cf0d",
+      "name": "فودافون دمنهور 1",
+      "address": "شارع عبد السلام الشاذلى - امام مبنى محافظة البحيرة بجوار مسجد العطا",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0287446%2C30.4491058"
+    },
+    {
+      "id": "faisal-a69211fa7bb9b4d8",
+      "name": "فودافون بنها 1",
+      "address": "امتداد شارع سعد زغلول - بجوار كمبيوتر مول - بنها - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4546290%2C31.1805686"
+    },
+    {
+      "id": "faisal-6cc16f524b46bb7f",
+      "name": "WE شبين القناطير 1",
+      "address": "بجوار أحمد فريد للأشعة - شبين القناطر - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1871708%2C31.2095581"
+    },
+    {
+      "id": "faisal-f76fe54aaabb0ff2",
+      "name": "أورانج قنا حوض 10",
+      "address": "شارع البستان - حوض 10 - قنا",
+      "governorate": "قـنــا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1539639%2C32.7177723"
+    },
+    {
+      "id": "faisal-4dd865ae4fdb7d8a",
+      "name": "أسواق العثيم 15 مايو",
+      "address": "قطعة رقم 26 - المرحلة الثانية - المركز الرئيسى - بجوار التوحيد والنور - 15 مايو - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8284004%2C31.3692320"
+    },
+    {
+      "id": "faisal-1156ada5c024cb33",
+      "name": "فرع المقطم 2",
+      "address": "38 شارع 9 - تقسيم المنطقة (د) - بجوار صيدليات مصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0138000%2C31.2867200"
+    },
+    {
+      "id": "faisal-3dde367afb22c2e7",
+      "name": "تريومف 2",
+      "address": "تريومف 2",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0156000%2C31.4553000"
+    },
+    {
+      "id": "faisal-847956cb407ddf84",
+      "name": "WE بني سويف (2)",
+      "address": "شارع إسلام - الجزيرة - بجوار أورانج - بني سويف",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.0744000%2C31.0979000"
+    },
+    {
+      "id": "faisal-48ef33763f688bd0",
+      "name": "إتصالات السويس (2)",
+      "address": "5 شارع الخياط و راشد - الأربعين - السويس",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0055000%2C32.5489000"
+    },
+    {
+      "id": "faisal-51928ac774c9f02b",
+      "name": "إتصالات الإسماعيلية 2",
+      "address": "تقاطع شارع الإسكندرية مع شارع داود حمدان - الإسماعيلية",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5900000%2C32.2644000"
+    },
+    {
+      "id": "faisal-517da91324dc3d1c",
+      "name": "WE بورسعيد 2",
+      "address": "برج الفنار - امام حي المناخ - بور سعيد",
+      "governorate": "بورسعيد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2565000%2C32.2842000"
+    },
+    {
+      "id": "faisal-b539ef90a8bfad1c",
+      "name": "WE السويس (2)",
+      "address": "كومبوند أسعد - السيد هاشم - السويس",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9822415%2C32.5530100"
+    },
+    {
+      "id": "faisal-dca958cc32556b5d",
+      "name": "فودافون دمنهور 2",
+      "address": "شارع أحمد عرابي - برج الأطباء - أمام المحكمة القديمة - دمنهور - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0347515%2C30.4553437"
+    },
+    {
+      "id": "faisal-2ed83c53b43a4afa",
+      "name": "إتصالات الزقازيق 2",
+      "address": "شارع مديرية الأمن - امام مسجد النهضة - الكوبري الجديد - ناصية شارع السادات - الزقازيق",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5785276%2C31.5044138"
+    },
+    {
+      "id": "faisal-58c81ac407dbdcfa",
+      "name": "WE شبين القناطر 2",
+      "address": "45 شارع بورسعيد - شبين القناطر - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2899158%2C31.3731052"
+    },
+    {
+      "id": "faisal-c33058bbe551d517",
+      "name": "WE مدينة السلام 2",
+      "address": "5 مدخل 1 - شارع 6 أكتوبر - مساكن المحمودية - ميدان الإسكندرية - مدينة السلام",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9672288%2C30.9265259"
+    },
+    {
+      "id": "faisal-59510ea3ff0569af",
+      "name": "بلازا 34",
+      "address": "طريق الشباب - الشيخ زايد",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0442000%2C31.0036000"
+    },
+    {
+      "id": "faisal-a20aedb5c4be2f6b",
+      "name": "WE المنصورة - الجلاء",
+      "address": "شارع الجلاء الرئيسي - برج درة الجلاء - امام حمام السباحة - المنصورة",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0417000%2C31.3813000"
+    },
+    {
+      "id": "faisal-566e649d23ea5c94",
+      "name": "WE المنصورة - الدراسات",
+      "address": "شارع عبده معروف - برج الشبراوي - بجوار أورانج - منطقة الدراسات - المنصورة",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0370000%2C31.3815000"
+    },
+    {
+      "id": "faisal-70a291586ca48de6",
+      "name": "WE رأس غارب",
+      "address": "شارع الحرية - المجمع التجاري - رأس غارب - البحر الأحمر",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.3529000%2C33.0777000"
+    },
+    {
+      "id": "faisal-27bc8832b775df94",
+      "name": "WE شرم الشيخ",
+      "address": "ميدان الساعة – السوق القديم – شرم الشيخ – جنوب سيناء",
+      "governorate": "جنوب سيناء",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9158000%2C34.3299000"
+    },
+    {
+      "id": "faisal-3fa1946010e032f8",
+      "name": "WE سفاجا",
+      "address": "شارع العروبة - امام مسجد الخالدين - بجوار مجلس المدينة - سفاجا - البحر الأحمر",
+      "governorate": "البحر الاحمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.7643445%2C33.9420513"
+    },
+    {
+      "id": "faisal-9c30f01ab627e949",
+      "name": "WE الغردقة المدارس",
+      "address": "شارع المدارس - الغردقة",
+      "governorate": "البحر الاحمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2161724%2C33.8306122"
+    },
+    {
+      "id": "faisal-08dd61e4dde55b7b",
+      "name": "WE الغردقة النصر",
+      "address": "طريق النصر - بجوار المصرية للسيارات - الغردقة",
+      "governorate": "البحر الاحمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2570000%2C33.8116000"
+    },
+    {
+      "id": "faisal-36eb9652aac6f60e",
+      "name": "WE ابو تشت",
+      "address": "شارع المستشفى العام - مركز ابو تشت - قنا",
+      "governorate": "قـنــا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.0181000%2C32.0204000"
+    },
+    {
+      "id": "faisal-391b1f97a895056e",
+      "name": "WE إسنا",
+      "address": "شارع الكورنيش - بجوار فرع سامسونج - إسنا - الأقصر",
+      "governorate": "الأقصر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6896545%2C32.6410366"
+    },
+    {
+      "id": "faisal-0843583a211f056b",
+      "name": "WE أسوان",
+      "address": "اول المدينة الصناعية - الإشارة - أسوان",
+      "governorate": "أسوان",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6225659%2C32.6218259"
+    },
+    {
+      "id": "faisal-fee1b038a09476f0",
+      "name": "WE الأقصر",
+      "address": "شارع نادي المدينة المنورة - امام عمر ماركت - الأقصر",
+      "governorate": "قـنــا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6834000%2C32.6366000"
+    },
+    {
+      "id": "faisal-01fe792e10ce900e",
+      "name": "WE قنا - مصنع الغزل",
+      "address": "شارع مصنع الغزل - حوض العبيد - قنا",
+      "governorate": "قـنــا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1732919%2C32.7304296"
+    },
+    {
+      "id": "faisal-784102bdff4d085f",
+      "name": "WE طهطا",
+      "address": "شارع بورسعيد - طهطا - سوهاج",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.7685743%2C31.5003263"
+    },
+    {
+      "id": "faisal-3e8d25b56e24cc39",
+      "name": "WE ابو تيج",
+      "address": "شارع عبد المنعم رياض - امام الأسعاف - مركز ابو تيج - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0460000%2C31.3182000"
+    },
+    {
+      "id": "faisal-b36c3407b6b125b1",
+      "name": "WE جرجا",
+      "address": "شارع زيد بن الخطاب - مركز جرجا - سوهاج",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.3385000%2C31.8902000"
+    },
+    {
+      "id": "faisal-a9e5d90ff0cbe80c",
+      "name": "WE المراغة",
+      "address": "شارع أسيوط سوهاج العمومي - مركز المراغة - سوهاج",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.7012130%2C31.6015549"
+    },
+    {
+      "id": "faisal-1c994920a84b63a1",
+      "name": "WE أخميم",
+      "address": "شارع أمتداد ابو القاسم - مركز أخميم - سوهاج",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.5587000%2C31.7391000"
+    },
+    {
+      "id": "faisal-30b0bda1374cad3c",
+      "name": "WE البلينا",
+      "address": "1 شارع الجمهورية - مركز البلينا - سوهاج",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.2342854%2C31.9977186"
+    },
+    {
+      "id": "faisal-6662f7ee6a5a8ce9",
+      "name": "WE المنشاه",
+      "address": "شارع سعد زغلول - مركز المنشاه - سوهاج",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.4705000%2C31.8055000"
+    },
+    {
+      "id": "faisal-072580cb2ee3e354",
+      "name": "WE دير مواس",
+      "address": "شارع الجيش - مركز دير مواس - المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.6442633%2C30.8510708"
+    },
+    {
+      "id": "faisal-715b002e99f46ed8",
+      "name": "WE ملوي",
+      "address": "شارع المجيدي - ملوي - المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.7373550%2C30.8399568"
+    },
+    {
+      "id": "faisal-8e2fe497207bbe0b",
+      "name": "WE مغاغة",
+      "address": "شارع السلام - برج عبد الحميد السيد - مغاغة - المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.6483000%2C30.8214000"
+    },
+    {
+      "id": "faisal-e7f9341a9509a7e7",
+      "name": "WE مطاي",
+      "address": "شارع الثورة - مركز مطاي - المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4171041%2C30.7847413"
+    },
+    {
+      "id": "faisal-cb76a90e7839c408",
+      "name": "WE ابو هلال",
+      "address": "شارع الزخرفية - كوبري المنصورة الجديد - بجوار حلواني موروج - ابو هلال - المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0902000%2C30.7589000"
+    },
+    {
+      "id": "faisal-97135efee6deb283",
+      "name": "WE بحر البقر",
+      "address": "حي الجنوب - امام كوبري الشادر - بحر البقر - بورسعيد",
+      "governorate": "بورسعيد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1271286%2C32.1017864"
+    },
+    {
+      "id": "faisal-5ff38c951efac23f",
+      "name": "WE المنيا",
+      "address": "333 شارع طه حسين - أرض سلطان - المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0850000%2C30.7585000"
+    },
+    {
+      "id": "faisal-0bd984ff61b0fa4c",
+      "name": "WE بني سويف - النادي",
+      "address": "شارع النادي الرياضي - بني سويف",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.0627851%2C31.1004590"
+    },
+    {
+      "id": "faisal-898fdd9a8c648690",
+      "name": "WE الفشن",
+      "address": "شارع سعد زغلول - بجانب المطافي - الفشن - بني سويف",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.8252000%2C30.9001000"
+    },
+    {
+      "id": "faisal-c93cc53d2679a2c2",
+      "name": "WE سمسطا",
+      "address": "شارع بورسعيد - امام كازيون ماركت - سمسطا - بني سويف",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.9142000%2C30.9714000"
+    },
+    {
+      "id": "faisal-19f131166d523084",
+      "name": "WE إهناسيا",
+      "address": "شارع ترعة السلطان - ناحية شارع عدلي - إهناسيا - بني سويف",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.0491000%2C30.9923000"
+    },
+    {
+      "id": "faisal-15b8c3cd4b2c5bb3",
+      "name": "WE سنورس",
+      "address": "شارع مبارك - امام مسجد مبارك - سنورس - الفيوم",
+      "governorate": "الفيوم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.4087270%2C30.8654519"
+    },
+    {
+      "id": "faisal-f50fbcd2813913d3",
+      "name": "WE إطسا",
+      "address": "إمتداد شارع عمر بن الخطاب - إطسا - الفيوم",
+      "governorate": "الفيوم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.2359623%2C30.7995241"
+    },
+    {
+      "id": "faisal-625c7812c0470028",
+      "name": "WE بور فؤاد",
+      "address": "5 تنظيم شارع الجمهورية - بور فؤاد - بورسعيد",
+      "governorate": "بورسعيد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2528418%2C32.3162939"
+    },
+    {
+      "id": "faisal-f20ada4b24ff210e",
+      "name": "WE مركز ناصر",
+      "address": "شارع جمال عبد الناصر - امام بنك مصر - مركز ناصر - بني سويف",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.9498000%2C31.2004000"
+    },
+    {
+      "id": "faisal-16e1ec569f3044d4",
+      "name": "WE الشيخ زايد الإسماعيلية",
+      "address": "شارع التجاري - الشيخ زايد - الإسماعيلية",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5954203%2C32.2767686"
+    },
+    {
+      "id": "faisal-8e2db391cdb17dd3",
+      "name": "WE كفر سعد",
+      "address": "شارع نصر الرئيسي - بجوار فودافون - كفر سعد - دمياط",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.3684000%2C31.7208000"
+    },
+    {
+      "id": "faisal-dcb17e4a82767da0",
+      "name": "WE السينانية",
+      "address": "امام مستشفى الصفا - السينانية - دمياط",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4240982%2C31.8015738"
+    },
+    {
+      "id": "faisal-82a064b88eeb4198",
+      "name": "WE إيتاي البارود المحكمة",
+      "address": "28 شارع الجمهورية - امام المحكمة - إيتاي البارود - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8864779%2C30.6673482"
+    },
+    {
+      "id": "faisal-5acf490fc7a18d7a",
+      "name": "WE إدكو",
+      "address": "2 شارع صلاح سالم - مركز إدكو - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.3488942%2C30.2947206"
+    },
+    {
+      "id": "faisal-1b148fc1ba131e88",
+      "name": "WE المحمودية",
+      "address": "شارع 6 اكتوبر - بجوار قسم الشرطة - المحمودية",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2348159%2C30.5280818"
+    },
+    {
+      "id": "faisal-38fe836f1bee15e4",
+      "name": "WE ابو المطامير",
+      "address": "شارع البوسطة الجديدة - بجوار مكتب البريد - ابو المطامير - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9107919%2C30.1783418"
+    },
+    {
+      "id": "faisal-1d5db9eafc609cf5",
+      "name": "WE حوش عيسى",
+      "address": "شارع الجمهورية - امام مركز الشرطة - حوش عيسى - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9152670%2C30.2970925"
+    },
+    {
+      "id": "faisal-463dcf32589ea0e6",
+      "name": "WE كفر الدوار التعاوني",
+      "address": "16 الإسكان التعاوني - الحدائق - المرحلة الثانية - كفر الدوار - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1341646%2C30.1335589"
+    },
+    {
+      "id": "faisal-731367a446ae02b7",
+      "name": "WE كفر الدوار الجمهورية",
+      "address": "44 شارع الجمهورية - كفر الدوار - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1322000%2C30.1303000"
+    },
+    {
+      "id": "faisal-f3d26ae6fdd96915",
+      "name": "WE دمنهور الموقف",
+      "address": "شارع الموقف - امام بوابة 7 - دمنهور",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0219230%2C30.4686614"
+    },
+    {
+      "id": "faisal-5ede8e46832d9498",
+      "name": "WE إيتاي البارود مجلس المدينة",
+      "address": "شارع مجلس المدينة - إيتاي البارود - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9990000%2C30.8372000"
+    },
+    {
+      "id": "faisal-dc87fd591825d269",
+      "name": "WE شربين",
+      "address": "شارع السلك - بجوار فودافون - برج هارون - شربين - الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1934010%2C31.5276555"
+    },
+    {
+      "id": "faisal-280d60bdf5c07922",
+      "name": "WE ميت سلسيل",
+      "address": "امام الموقف - مركز ميت سلسيل - الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1964598%2C31.5159234"
+    },
+    {
+      "id": "faisal-f3ac5373770d78c0",
+      "name": "WE منية النصر",
+      "address": "شارع المحطة - الكردي - منية النصر - الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1729190%2C31.8837106"
+    },
+    {
+      "id": "faisal-e64113754dcccf5a",
+      "name": "WE الجمالية",
+      "address": "شارع المحطة - بجوار مستشفى النجاح - مركز الجمالية - الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1769268%2C31.8632940"
+    },
+    {
+      "id": "faisal-3277c5e7b7e30990",
+      "name": "WE المنزلة",
+      "address": "شارع ابن تيم - ناحية امن الدولة - المنزلة - الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1602794%2C31.9353722"
+    },
+    {
+      "id": "faisal-a7d88158fe551a16",
+      "name": "WE سبرباي",
+      "address": "شارع سبرباي - امام موقف عبد المنعم رياض - طنطا",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8266077%2C31.0075473"
+    },
+    {
+      "id": "faisal-55d632e2f2a113ac",
+      "name": "WE المنصورة - السكة الجديدة",
+      "address": "شارع بنك مصر - بجوار فودافون - تقاطع بنك مصر مع السكة الجديدة - المنصورة",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0379000%2C31.3799000"
+    },
+    {
+      "id": "faisal-8055922f36a16f95",
+      "name": "WE كفر الشيخ صنعاء",
+      "address": "امام حديقة صنعاء - كفر الشيخ",
+      "governorate": "كفر الشيخ",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1060462%2C30.9465425"
+    },
+    {
+      "id": "faisal-4a0e93fda1f8a8c1",
+      "name": "WE سيدي سالم",
+      "address": "شارع 23 يوليو - سيدي سالم - كفر الشيخ",
+      "governorate": "كفر الشيخ",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2713877%2C30.7900454"
+    },
+    {
+      "id": "faisal-e2f813002d8bf6c7",
+      "name": "WE كفر الشيخ",
+      "address": "شارع إبراهيم مغازي - كفر الشيخ",
+      "governorate": "كفر الشيخ",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1925897%2C30.7014370"
+    },
+    {
+      "id": "faisal-59a7503f0c09d22b",
+      "name": "WE دسوق",
+      "address": "شارع السينما - دسوق - كفر الشيخ",
+      "governorate": "كفر الشيخ",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1345131%2C30.6444579"
+    },
+    {
+      "id": "faisal-f271714e37b914b9",
+      "name": "WE مطوبس",
+      "address": "شارع بورسعيد - مطوبس - كفر الشيخ",
+      "governorate": "كفر الشيخ",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2963267%2C30.5206105"
+    },
+    {
+      "id": "faisal-31e8b93032c99f6a",
+      "name": "WE المنصورة - قناة السويس",
+      "address": "شارع قناة السويس - بجوار كنتاكي - المنصورة",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0528618%2C31.4013895"
+    },
+    {
+      "id": "faisal-6e7808ec6b37eed5",
+      "name": "WE المنصورة - شارع بورسعيد",
+      "address": "شارع بورسعيد - المنصورة",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0428701%2C31.3808534"
+    },
+    {
+      "id": "faisal-cf8a058159a26586",
+      "name": "WE كفر الزيات",
+      "address": "شارع البحر - جمال عبد الناصر - كفر الزيات - الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8249886%2C30.8121138"
+    },
+    {
+      "id": "faisal-b7377c327c1597c2",
+      "name": "WE طنطا",
+      "address": "19 شارع الفاتح - امام توكيل نيسان للسيارات - طنطا - الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7840000%2C30.9971000"
+    },
+    {
+      "id": "faisal-419d8b6c5debcdc9",
+      "name": "WE المحلة الكبرى",
+      "address": "شارع وابور النور - بجوار فتح الله - المحلة الكبرى - الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9589930%2C31.1680224"
+    },
+    {
+      "id": "faisal-34f634ed6bf5c029",
+      "name": "WE منيا القمح",
+      "address": "شارع سعيد زغلول - طريق بنها منيا القمح - مركز منيا القمح - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5588522%2C31.3279671"
+    },
+    {
+      "id": "faisal-400a384750c81690",
+      "name": "WE ديرب نجم",
+      "address": "شارع النصر - برج ابو حسين - ديرب نجم - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7410000%2C31.5917000"
+    },
+    {
+      "id": "faisal-b476ea731daa1ceb",
+      "name": "WE المحلة الششتاوي",
+      "address": "ميدان الششتاوي - بجوار أورانج - المحلة الكبرى - الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9797544%2C31.1719630"
+    },
+    {
+      "id": "faisal-64d26529a6f06824",
+      "name": "WE الأردنية",
+      "address": "2 مجمع عبد المقصود - خلف موقف الأتوبيس - العاشر من رمضان",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3031352%2C31.7450983"
+    },
+    {
+      "id": "faisal-ddd2d054b11da1c8",
+      "name": "WE العاشر من رمضان",
+      "address": "شارع صيدناوي - اسفل موبيليات القصر - العاشر من رمضان",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2976000%2C31.7472000"
+    },
+    {
+      "id": "faisal-0990f753a694d5d8",
+      "name": "WE الزقازيق - شارع فاروق",
+      "address": "شارع فاروق - قسم النحال - اول الزقازيق - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5767924%2C31.5158453"
+    },
+    {
+      "id": "faisal-1fda2de467538a9e",
+      "name": "WE فاقوس",
+      "address": "شارع الجمهورية - امام بنك ابو ظبي - فاقوس - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7268306%2C31.7947240"
+    },
+    {
+      "id": "faisal-1c5d3e7bd5a81649",
+      "name": "WE الزقازيق",
+      "address": "شارع مفارق المنصورة - امام استوديو ابو هاشم - الزقازيق",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5941534%2C31.4998518"
+    },
+    {
+      "id": "faisal-46207da115accccd",
+      "name": "WE ميامي",
+      "address": "شارع 6 - متفرع من 45 - ميامي",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0605654%2C31.2517157"
+    },
+    {
+      "id": "faisal-27342ab68efea06a",
+      "name": "WE محطة الرمل",
+      "address": "شارع صفية زغلول - امام مطعم جاد - بجوار فودافون - محطة الرمل",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2013176%2C29.9011117"
+    },
+    {
+      "id": "faisal-6bf52e87a5dc635d",
+      "name": "WE سبورتنج",
+      "address": "شارع الدلتا - بجوار محل Believe - سبورتنج",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2229344%2C29.9457216"
+    },
+    {
+      "id": "faisal-8ef63c720ed0551c",
+      "name": "WE كفر شكر",
+      "address": "4 ميدان كفر شكر - برج المدينة المنورة - امام البنك الأهلي المصري",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5564496%2C31.2659915"
+    },
+    {
+      "id": "faisal-43e2fbc8ab2defee",
+      "name": "WE الإبراهيمية",
+      "address": "219 طريق الحرية - الإبراهيمية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1987620%2C29.9080912"
+    },
+    {
+      "id": "faisal-21886a9c17f65b3d",
+      "name": "WE السيوف",
+      "address": "ميدان السيوف - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2414547%2C29.9921273"
+    },
+    {
+      "id": "faisal-95f9d9f8cce37522",
+      "name": "WE القناطر الخيرية",
+      "address": "2 شارع سوق الثلاثاء - امام مول طايع - القناطر الخيرية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1923402%2C31.1339942"
+    },
+    {
+      "id": "faisal-cf2443aec5bd9315",
+      "name": "WE طوخ",
+      "address": "2 شارع عطية الفيومي - مصرف الحصة - طوخ - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3517915%2C31.2241538"
+    },
+    {
+      "id": "faisal-cec7f45142aad0b6",
+      "name": "WE قها",
+      "address": "1 شارع القناطر الخيرية - قها - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2782834%2C31.2027111"
+    },
+    {
+      "id": "faisal-d5715811c0908f22",
+      "name": "WE أكتوبر",
+      "address": "محور جمال عبد الناصر - الحي الحادي عشر - سنتر الوجيه",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9629823%2C30.9005020"
+    },
+    {
+      "id": "faisal-4f00538c7c8bcaef",
+      "name": "WE سقارة",
+      "address": "طريق سقارة - امام نقطة مرور سقارة - سقارة - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8523855%2C31.2156022"
+    },
+    {
+      "id": "faisal-efddafd850828831",
+      "name": "WE حدائق الأهرام",
+      "address": "شارع الجيش - البوابة الرابعة - حدائق الأهرام",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9911000%2C31.1374000"
+    },
+    {
+      "id": "faisal-adbf3c33e6e49b18",
+      "name": "WE مشعل",
+      "address": "32 شارع الهرم - مشعل - الهرم - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9882693%2C31.1425328"
+    },
+    {
+      "id": "faisal-cc355fde5fb2afb2",
+      "name": "WE فيصل حسن محمد",
+      "address": "شارع حسن محمد - فيصل",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0033801%2C31.1719217"
+    },
+    {
+      "id": "faisal-04594f56363ae9ca",
+      "name": "WE المناشي",
+      "address": "9 شارع الوحدة الصحية - منشأة القناطر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1565801%2C31.0561464"
+    },
+    {
+      "id": "faisal-fb95f722c5b9e269",
+      "name": "WE شبرامنت",
+      "address": "امام نقطة مرور شبرامنت - شبرامنت - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8493883%2C31.3147998"
+    },
+    {
+      "id": "faisal-223731efcc37a7ea",
+      "name": "WE العياط",
+      "address": "شارع شكري القواتلي - امام الإدارة التعليمية - العياط - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.6231907%2C31.2578553"
+    },
+    {
+      "id": "faisal-781d1404c5b429ec",
+      "name": "WE شارع مراد",
+      "address": "شارع مراد - بجوار عمر افندي - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0179185%2C31.2141719"
+    },
+    {
+      "id": "faisal-6eb58ff4fbbbc757",
+      "name": "WE مدينة النهضة الجديدة",
+      "address": "مساكن القاهرة - موقف الأوتوبيس - ميدان النهضة - مدينة النهضة الجديدة - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9552420%2C31.2853243"
+    },
+    {
+      "id": "faisal-fb26e19ae7dc299a",
+      "name": "WE الشرابية",
+      "address": "2 شارع الإمام الحسين - امام الجامع الأبيض - الشرابية",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0754832%2C31.2636852"
+    },
+    {
+      "id": "faisal-624d5b754f62f3fa",
+      "name": "WE مدينة السلام",
+      "address": "أطلس 1 بلوك 6 - مدينة السلام",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1591758%2C31.4173896"
+    },
+    {
+      "id": "faisal-13ba284e327cd0e8",
+      "name": "WE السيدة زينب",
+      "address": "شارع السد - امام سنتر شاهين - السيدة زينب",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Faisal+Islamic+Bank+of+Egypt+WE+%D8%A7%D9%84%D8%B3%D9%8A%D8%AF%D8%A9+%D8%B2%D9%8A%D9%86%D8%A8+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B3%D8%AF+-+%D8%A7%D9%85%D8%A7%D9%85+%D8%B3%D9%86%D8%AA%D8%B1+%D8%B4%D8%A7%D9%87%D9%8A%D9%86+-+%D8%A7%D9%84%D8%B3%D9%8A%D8%AF%D8%A9+%D8%B2%D9%8A%D9%86%D8%A8+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "faisal-57a0e5d2e67a237e",
+      "name": "صيدلية أحمد يحيى",
+      "address": "الكورت يارد - الشيخ زايد",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0383000%2C31.0017000"
+    },
+    {
+      "id": "faisal-5c3df0b5112c33c4",
+      "name": "قرية أروما العين السخنة",
+      "address": "قرية أروما - طريق العين السخنة - السويس",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0639182%2C31.3377966"
+    },
+    {
+      "id": "faisal-2477915b9937fde2",
+      "name": "وي عزبة أسكوت",
+      "address": "عزبة أسكوت - ميامي الجديدة",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2615718%2C30.0201997"
+    },
+    {
+      "id": "faisal-c5c04cfbe44cd057",
+      "name": "أسواق العثيم القناطر الخيرية",
+      "address": "شارع الحرية - حوض بين الجسرين - امام المستشفى العام - القناطر الخيرية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1942000%2C31.1378000"
+    },
+    {
+      "id": "faisal-a231c1387bc950a5",
+      "name": "أسواق العثيم الفردوس",
+      "address": "فيرست مول - مركز مدينة الفردوس - السادس من اكتوبر - قطعة 2 خدمات",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9469079%2C31.0509923"
+    },
+    {
+      "id": "faisal-46bce1f760c4cda6",
+      "name": "أسواق العثيم المطبعة",
+      "address": "شارع عمرو بن العاص - ناصية الاربعين - المطبعة - فيصل",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0030416%2C31.1660195"
+    },
+    {
+      "id": "faisal-4af06be6d9964149",
+      "name": "أسواق العثيم العروبة",
+      "address": "340 شارع العروبة - بجوار مدارس براعم مصر - الهرم",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9859280%2C31.1690239"
+    },
+    {
+      "id": "faisal-481c16c4c4170d34",
+      "name": "أسواق ابو سلامة",
+      "address": "منطقة التلاجة - امام كشري ابو سلامة - البدرشين - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.7930115%2C31.2710562"
+    },
+    {
+      "id": "faisal-0bf6a6fdfa314e4f",
+      "name": "أسواق العثيم البدرشين",
+      "address": "شارع فخر الدولة - البدرشين",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8075708%2C31.2662928"
+    },
+    {
+      "id": "faisal-d77735200d376322",
+      "name": "أسواق العثيم الدقي",
+      "address": "7 شارع عدي من شارع التحرير - الدقي – بجوار مستشفى 6 أكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0631501%2C31.2011746"
+    },
+    {
+      "id": "faisal-a37db11281c863d0",
+      "name": "أسواق السعودية التجمع الأول",
+      "address": "المجاورة السابعة - بجوار سنترال التجمع الأول - التجمع الأول - القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0611018%2C31.4533713"
+    },
+    {
+      "id": "faisal-7c5227b1fadc2ecd",
+      "name": "أسواق العثيم المطرية",
+      "address": "12 شارع الرشاد - ناصية شارع يوسف - مخرج المطرية",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1235022%2C31.3121151"
+    },
+    {
+      "id": "faisal-58bf11520eebf36a",
+      "name": "أسواق العثيم حدائق حلوان",
+      "address": "كورنيش النيل - محطة الدواجن - بجوار التوحيد و النور - حدائق حلوان",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8838300%2C31.2897172"
+    },
+    {
+      "id": "faisal-35de27bca69373e2",
+      "name": "أسواق العثيم المقطم",
+      "address": "قطعة ارض رقم 9114 - منطقة س - شارع 9 - المقطم",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0088650%2C31.3162696"
+    },
+    {
+      "id": "faisal-ff3772762166a91c",
+      "name": "هايبر أسواق الشرقية",
+      "address": "شارع بورسعيد - محطة الشادر القديم - امام الملاهي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0791756%2C31.2690784"
+    },
+    {
+      "id": "faisal-ef72f96ec6349518",
+      "name": "إتصالات أسيوط السادات",
+      "address": "إمتداد يسري راغب - امام مدرسة جمال فرغلي الثانوية بنين - السادات - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1776437%2C31.1881823"
+    },
+    {
+      "id": "faisal-2b1e422bb31640d1",
+      "name": "إتصالات أسيوط الهلالي",
+      "address": "35 برج سرايا الهلالي - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1832327%2C31.1916766"
+    },
+    {
+      "id": "faisal-97862fb14b17eb63",
+      "name": "وي أشمون",
+      "address": "شارع سعد زغلول - ميدان الزهور - أشمون - المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2967000%2C30.9722000"
+    },
+    {
+      "id": "faisal-a9ed11d9c1b2de0e",
+      "name": "إتصالات أكتوبر الحي السادس",
+      "address": "عمارة 44 - امام مول وادي الملوك - المجاوة الثامنة - الحي السادس - السادس من أكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9420937%2C30.9189787"
+    },
+    {
+      "id": "faisal-8105b9781ab479c2",
+      "name": "الجيزاوي حدائق أكتوبر",
+      "address": "حدائق أكتوبر - امام الحي الأسباني - الجولف 2",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8941825%2C31.0675549"
+    },
+    {
+      "id": "faisal-ca9f631b8d4882d8",
+      "name": "إتصالات أكتوبر الحي الأول",
+      "address": "عمارة 201 - المجاورة الثانية - الحي الأول - السادس من اكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9444161%2C31.0066402"
+    },
+    {
+      "id": "faisal-e678ed2c2853b5ce",
+      "name": "سيتي سنتر ألماظة",
+      "address": "سيتي سنتر مول - حي الملتقى العربي - ألماظة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0814381%2C31.3649672"
+    },
+    {
+      "id": "faisal-349da743268c3a2d",
+      "name": "أمان شارع السودان",
+      "address": "شارع السودان - بجوار مزلقان ناهيا - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0497000%2C31.2025000"
+    },
+    {
+      "id": "faisal-2fe559dfd41da354",
+      "name": "أمان المعتمدية",
+      "address": "شارع المعتمدية - حوض المغني - ناحية مسجد الحسن - أرض اللواء",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0694000%2C31.1997000"
+    },
+    {
+      "id": "faisal-5e67419fb8463cad",
+      "name": "أمان ابو قرقاص",
+      "address": "شارع الجمهورية – مركز أبو قرقاص – محافظة المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9330847%2C30.8367858"
+    },
+    {
+      "id": "faisal-b2125ec6f0d557cf",
+      "name": "أمان بني مزار",
+      "address": "شارع الجمهورية - مركز بني مزار - المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4962000%2C30.8044000"
+    },
+    {
+      "id": "faisal-9f7a57c1b6aae045",
+      "name": "أمان ملك حفني",
+      "address": "16 تقاطع شارع 587 و شارع ملك حفني",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2554422%2C29.9908484"
+    },
+    {
+      "id": "faisal-e3d0094fb2182e96",
+      "name": "أمان محرم بك",
+      "address": "66 شارع محرم بك - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1918073%2C29.9131603"
+    },
+    {
+      "id": "faisal-2175f870ec093f2a",
+      "name": "أمان خالد بن الوليد",
+      "address": "18 شارع خالد بن الوليد - سيدي بشر",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2535294%2C29.9770549"
+    },
+    {
+      "id": "faisal-4be2de3f158c5828",
+      "name": "أمان الهرم",
+      "address": "شارع عز الدين عمر - متفرع من شارع ترسا - الهرم",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9924687%2C31.1613433"
+    },
+    {
+      "id": "faisal-2aadafc3446fca11",
+      "name": "أمان كرداسة",
+      "address": "شارع السادات - شياخة كرداسة - قسم كرداسة - محافظة الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0342263%2C31.1142231"
+    },
+    {
+      "id": "faisal-6f2b5859104949ec",
+      "name": "أمان المطرية",
+      "address": "94 شارع المطراوي - امام جامع المطراوي - المطرية - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1187027%2C31.3070216"
+    },
+    {
+      "id": "faisal-3c43e30fb03043a8",
+      "name": "أمان سكة الوايلي",
+      "address": "2 شارع سكة الوايلي - تقاطع شارع بورسعيد - ميدان الزاوية الحمراء - حدائق القبة - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0928950%2C31.2789691"
+    },
+    {
+      "id": "faisal-c58131c3268ec3da",
+      "name": "أمان حدائق حلوان",
+      "address": "1 ش العزب - مدينة الهدى - جمال عبد الناصر - حدائق حلوان",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8956363%2C31.2970025"
+    },
+    {
+      "id": "faisal-a9eee980d12127ce",
+      "name": "أمان حدائق المعادي",
+      "address": "84 شارع حسنين دسوقى – حدائق المعادي - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9697576%2C31.2522096"
+    },
+    {
+      "id": "faisal-ce69eff5368c9979",
+      "name": "أمان دار السلام",
+      "address": "21 شارع ترعة الخشاب - دار السلام - البساتين",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9912884%2C31.2571602"
+    },
+    {
+      "id": "faisal-9cb44bc03649ee06",
+      "name": "فتح الله أمواج",
+      "address": "فتح الله ماركت - امام قرية أمواج - الكيلو 130 - طريق الساحل الشمالي",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9915797%2C28.6797452"
+    },
+    {
+      "id": "faisal-9671f0a6bfe62319",
+      "name": "صيدلية أمين",
+      "address": "1 شارع السوق التجاري - من شارع الدكتور - العمرانية",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9863233%2C31.1982483"
+    },
+    {
+      "id": "faisal-1e2a0e6a3a794f16",
+      "name": "وي أنبي",
+      "address": "إشارة أنبي - الحي السابع - مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0537845%2C31.3359327"
+    },
+    {
+      "id": "faisal-12667133ac0e00e6",
+      "name": "طنطا أوت ليت مول",
+      "address": "شارع الأشرف مع شارع عنتر بن شداد - طنطا",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7849000%2C30.9944000"
+    },
+    {
+      "id": "faisal-828cc23367f04144",
+      "name": "أورانج قفط",
+      "address": "مركز قفط - قنا",
+      "governorate": "قـنــا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.9008000%2C32.7225000"
+    },
+    {
+      "id": "faisal-39235751a74ebb9a",
+      "name": "أورانج فرشوط",
+      "address": "شارع أحمد بدوي - بجوار شركة الكهرباء - فرشوط - قنا",
+      "governorate": "قـنــا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.0296000%2C32.1621000"
+    },
+    {
+      "id": "faisal-9a388a6aa832bdd3",
+      "name": "أورانج قنا التجنيد",
+      "address": "شارع مصنع الغزل - التجنيد - قنا",
+      "governorate": "قـنــا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1762382%2C32.7329066"
+    },
+    {
+      "id": "faisal-d3f1b966c6019af8",
+      "name": "أورانج المقطم",
+      "address": "محل 5 - شارع 9 - قطعة رقم 7936 - المنطقة س - المقطم - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0081821%2C31.3152140"
+    },
+    {
+      "id": "faisal-684e28a25f425110",
+      "name": "إتصالات إبشواي",
+      "address": "شارع الجمهورية - امام مجلس المدينة - إبشواي - الفيوم",
+      "governorate": "الفيوم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2461428%2C31.3550817"
+    },
+    {
+      "id": "faisal-bc2c1e83db247013",
+      "name": "إتصالات طما",
+      "address": "شارع الجمهورية - مركز طما - سوهاج",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.8929259%2C31.3755668"
+    },
+    {
+      "id": "faisal-a9587478badb45eb",
+      "name": "إتصالات دراو",
+      "address": "شارع المستشفى العام - دراو - أسوان",
+      "governorate": "أسوان",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.4151179%2C32.9268662"
+    },
+    {
+      "id": "faisal-a3b9f40347761989",
+      "name": "إتصالات الفتح",
+      "address": "شارع عبد العال حسين - مركز الفتح - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1852000%2C31.2121000"
+    },
+    {
+      "id": "faisal-36af43a883f710e1",
+      "name": "إتصالات جرجا",
+      "address": "برج البارودي - المزلقان القبلي - جرجا - سوهاج",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.6419171%2C31.7162440"
+    },
+    {
+      "id": "faisal-2c5720e2c4e7a11d",
+      "name": "إتصالات ساحل سليم",
+      "address": "شارع نادي المعلمين - من شارع الجمهورية - ساحل سليم - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.8987000%2C31.3250000"
+    },
+    {
+      "id": "faisal-7dd7a5452c0016aa",
+      "name": "إتصالات البداري",
+      "address": "شارع الدواوين - مركز البداري - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.8239000%2C31.4282000"
+    },
+    {
+      "id": "faisal-00b103871e1d9c7b",
+      "name": "إتصالات صدفا",
+      "address": "شارع الجيش - مركز صدفا - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.9653168%2C31.3809457"
+    },
+    {
+      "id": "faisal-38e44b328e94527d",
+      "name": "إتصالات دمياط",
+      "address": "ميدان باب الحرس - دمياط",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4165000%2C31.8133000"
+    },
+    {
+      "id": "faisal-8d3e70b62371bf1e",
+      "name": "إتصالات الزرقا",
+      "address": "الشارع الرئيسي - امام مستشفى الزرقا العام - الزرقا - دمياط",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2093173%2C31.6355563"
+    },
+    {
+      "id": "faisal-41bbbb25c8ff6f71",
+      "name": "إتصالات السويس الجناين",
+      "address": "21 شارع محلات مركز شباب العمدة - الجناين - السويس",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0710787%2C32.5481032"
+    },
+    {
+      "id": "faisal-86e6c52fd09790fd",
+      "name": "إتصالات الدلنجات",
+      "address": "شارع الجمهورية - الدلنجات - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8303412%2C30.5305709"
+    },
+    {
+      "id": "faisal-b9275afd80d740ac",
+      "name": "إتصالات كوم حمادة",
+      "address": "شارع الشونة - كوم حمادة - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7640335%2C30.7023757"
+    },
+    {
+      "id": "faisal-34b6e15071a4e964",
+      "name": "إتصالات بلقاس",
+      "address": "شارع الثورة - امام بنك QNB - بلقاس - الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2094463%2C31.3566704"
+    },
+    {
+      "id": "faisal-3ca64cb82d68f511",
+      "name": "إتصالات المطرية",
+      "address": "شارع سعد زغلول - امام حلواني السيد ابو النصر - المطرية - الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1827971%2C32.0300117"
+    },
+    {
+      "id": "faisal-e40e5df15736f1de",
+      "name": "إتصالات زفتى",
+      "address": "5 شارع الشهيد أحمد حامد ابو الحسايب - امام قسم شرطة زفتى - زفتى - الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7531379%2C31.2449343"
+    },
+    {
+      "id": "faisal-bb5b0bf11d4d5a5b",
+      "name": "إتصالات المنصورة",
+      "address": "برج اليسر - إمتداد شارع جيهان - المنصورة",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0337075%2C31.3576045"
+    },
+    {
+      "id": "faisal-7f5585d2bdcdcbdb",
+      "name": "إتصالات القرين",
+      "address": "ميدان القلعة - القرين - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6127578%2C31.7432843"
+    },
+    {
+      "id": "faisal-39f9a93650a9f7aa",
+      "name": "إتصالات الحسينية",
+      "address": "شارع المركز - حي ابو عوف - الحسينية - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7242000%2C31.6493000"
+    },
+    {
+      "id": "faisal-a175b8875eb77f5a",
+      "name": "إتصالات اولاد صقر",
+      "address": "شارع البحر - امام كوبري السوق - اولاد صقر - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5786000%2C31.5123000"
+    },
+    {
+      "id": "faisal-e656db914c4c2355",
+      "name": "إتصالات هرية",
+      "address": "هرية رزنة - الزقازيق",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5814000%2C31.5115000"
+    },
+    {
+      "id": "faisal-35e26269cdffd563",
+      "name": "إتصالات الإبراهيمية",
+      "address": "بجوار نادي الإبراهيمية الرياضي - مركز الإبراهيمية - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7224405%2C31.5644409"
+    },
+    {
+      "id": "faisal-b1fe1a921af938c6",
+      "name": "إتصالات القنايات",
+      "address": "شارع الإدارة التعليمية - القنايات - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6169657%2C31.4618008"
+    },
+    {
+      "id": "faisal-fbd0e559a43ae5d7",
+      "name": "إتصالات هربيط",
+      "address": "حي ابو سباعي - امام صيدلية شاكر - هربيط - ابو كبير - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7338000%2C31.6611000"
+    },
+    {
+      "id": "faisal-ec116326cd245f28",
+      "name": "إتصالات مرسى مطروح",
+      "address": "شارع الإسكندرية - امام المستشفى العام - مرسى مطروح",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4011422%2C27.2210459"
+    },
+    {
+      "id": "faisal-16fa7fb065d164ca",
+      "name": "إتصالات القلج",
+      "address": "برج العز - عمارة 31 - مركز الخانكة",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2366000%2C31.3768000"
+    },
+    {
+      "id": "faisal-bf53223d4e873b61",
+      "name": "إتصالات الجبل الأصفر",
+      "address": "شارع الخانكة العمومي - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2394000%2C31.3696000"
+    },
+    {
+      "id": "faisal-2bcd66799e13cf6d",
+      "name": "إتصالات ابو زعبل",
+      "address": "عقار رقم 16 - طريق الخانكة ابو زعبل",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2217333%2C31.3691275"
+    },
+    {
+      "id": "faisal-a70258363118cc07",
+      "name": "إتصالات ام بيومي",
+      "address": "شارع الزناتي - أرض ام بيومي - اول شارع أحمد عرابي من الدائري - قليوب - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1476637%2C31.2514569"
+    },
+    {
+      "id": "faisal-42489a4753bcb522",
+      "name": "إتصالات باسوس",
+      "address": "شارع القناطر الخيرية - اول باسوس - عمارة الصفا و المروة",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1858365%2C31.1557936"
+    },
+    {
+      "id": "faisal-b6f5d5ffed4fbedb",
+      "name": "إتصالات منطي",
+      "address": "شارع عبد البديع الزميتي - منطي - قليوب - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1767000%2C31.2059000"
+    },
+    {
+      "id": "faisal-d3c46496dec8fd1f",
+      "name": "إتصالات كعبيش",
+      "address": "21 شارع كعبيش - فيصل - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9997275%2C31.1557185"
+    },
+    {
+      "id": "faisal-9240257d68e368c9",
+      "name": "إتصالات زغلول الهرم",
+      "address": "شارع زغلول - نزلة بطران - الهرم",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2031840%2C31.4547022"
+    },
+    {
+      "id": "faisal-ce1db49dff91d5bc",
+      "name": "إتصالات الصف",
+      "address": "194 شارع الجمهورية - قسم الصف - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.5644945%2C31.2810281"
+    },
+    {
+      "id": "faisal-9c2dbd43a157d20e",
+      "name": "إتصالات منيل شيحة",
+      "address": "طريق مصر أسيوط الزراعي - منيل شيحة - امام فودافون - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9487919%2C31.2426111"
+    },
+    {
+      "id": "faisal-6676b83139daa18a",
+      "name": "إتصالات دار السلام",
+      "address": "شارع أسيا - نزلة أندريا - دار السلام",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9760274%2C31.2367777"
+    },
+    {
+      "id": "faisal-b94c5a22181fa0ea",
+      "name": "إتصالات القصر العيني",
+      "address": "30 شارع المبتديان - امام البنك الأهلي المصري و عمارة عبد الهادي الحلواني",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0367718%2C31.2389074"
+    },
+    {
+      "id": "faisal-b3c2647d54b248cc",
+      "name": "إدارة الزكاة",
+      "address": "مبنى إدارة الزكاة لبنك فيصل الإسلامي المصري - شارع رمسيس - غمرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0647272%2C31.2563017"
+    },
+    {
+      "id": "faisal-22ac48062fafe864",
+      "name": "ماستر إسكندرية الصحراوي",
+      "address": "طريق القاهرة إسكندرية الصحراوي",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0167000%2C31.0050000"
+    },
+    {
+      "id": "faisal-ada5c7b644654f1d",
+      "name": "وي البصراوي إمبابة",
+      "address": "شارع محمد عثمان - من شارع العروبة - إمبابة - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0796000%2C31.2121000"
+    },
+    {
+      "id": "faisal-5f2c92167cd3487d",
+      "name": "مستشفى ابن سينا",
+      "address": "شارع الجيش - بجوار مبنى القوى العاملة - طنطا - الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8178005%2C30.9937617"
+    },
+    {
+      "id": "faisal-0f441b5748943200",
+      "name": "وي ابنوب",
+      "address": "شارع بورسعيد - امام المحكمة - مركز ابنوب - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2683234%2C31.1569985"
+    },
+    {
+      "id": "faisal-722930e253255319",
+      "name": "صن مول ابو قير",
+      "address": "مساكن ضباط القوات المسلحة - ابو قير",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.3050000%2C30.0793000"
+    },
+    {
+      "id": "faisal-11ab62e96e27cb0a",
+      "name": "خير زمان الأقصر",
+      "address": "شارع الإذاعة و التلفزيون - الأقصر",
+      "governorate": "الأقصر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6943000%2C32.6383000"
+    },
+    {
+      "id": "faisal-4d2988d2d030bb0f",
+      "name": "خير زمان مجلس الأمة",
+      "address": "87 شارع مجلس الأمة - السيدة زينب",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0285000%2C31.2379000"
+    },
+    {
+      "id": "faisal-87ae4f8f738cfe83",
+      "name": "مول الأهرام",
+      "address": "حدائق الأهرام - امام نادي حدائق الأهرام",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9923000%2C31.1445000"
+    },
+    {
+      "id": "faisal-433a47da48fff4b9",
+      "name": "ماستر الأوتوستوراد",
+      "address": "محطة وطنية - الأوتوستوراد - المعادي - امام محطة توتال",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9647000%2C31.2822000"
+    },
+    {
+      "id": "faisal-3994846022387f2a",
+      "name": "وي التجمع الأول",
+      "address": "شارع الشهيد وائل عبد الجابر - المجاورة الثالثة - إسكان الشباب - التجمع الأول",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0919595%2C31.3140034"
+    },
+    {
+      "id": "faisal-023d8c3dee3b17a1",
+      "name": "ماستر الإتحادية",
+      "address": "كوبري الإتحادية - مصر الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0282000%2C31.3568000"
+    },
+    {
+      "id": "faisal-4974e3bdc471e7fa",
+      "name": "سيتي سنتر الإسكندرية",
+      "address": "كم 6 - طريق الإسكندرية القاهرة الصحراوي - امام الحديقة الدولية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Faisal+Islamic+Bank+of+Egypt+%D8%B3%D9%8A%D8%AA%D9%8A+%D8%B3%D9%86%D8%AA%D8%B1+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D9%83%D9%85+6+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%8A+-+%D8%A7%D9%85%D8%A7%D9%85+%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D9%82%D8%A9+%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "faisal-0eef6b011ab364b4",
+      "name": "كارفور الإسماعيلية",
+      "address": "طريق البلاجات - الإسماعيلية",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5762887%2C32.2616967"
+    },
+    {
+      "id": "faisal-652976dc5c7f6648",
+      "name": "وي السويس الاربعين",
+      "address": "21 برج لؤلؤة الروضة - ش. ناصر - حي الاربعين - محافظة السويس",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9683000%2C32.5450000"
+    },
+    {
+      "id": "faisal-9b96ec8a2b7a467a",
+      "name": "هايبر خير بلدنا الباجور",
+      "address": "شارع الجيش - طريق مصر شبين الكوم - الباجور - المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4221588%2C31.0366764"
+    },
+    {
+      "id": "faisal-9a2d1007e9daf84f",
+      "name": "مدرسة البخاري",
+      "address": "مدرسة البخاري الأزهري للغات - التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0029931%2C31.4302878"
+    },
+    {
+      "id": "faisal-b649c20b44ed316e",
+      "name": "فودافون رأس البر",
+      "address": "شارع السوق العمومى - بجوار حسان مول - رأس البر",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.5125646%2C31.8346690"
+    },
+    {
+      "id": "faisal-7c1d8ada1bf6e6bf",
+      "name": "وحدة محلة البصراط",
+      "address": "قرية البصراط - مركز المنزلة - الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1571000%2C31.9375000"
+    },
+    {
+      "id": "faisal-804001fdf492705b",
+      "name": "مونجيني التبين",
+      "address": "43 شارع كورنيش النيل - بجوار كازيون ماركت - التبين - القاهرة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8028000%2C31.3008000"
+    },
+    {
+      "id": "faisal-078a1253626e7c76",
+      "name": "ماستر التجمع الخامس",
+      "address": "شارع التسعين - التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0253000%2C31.4697000"
+    },
+    {
+      "id": "faisal-1db4f0dfed71fda5",
+      "name": "بيت الجملة التجمع الثالث",
+      "address": "جاردينيا هايتس مول - التجمع الثالث - القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0243000%2C31.4826000"
+    },
+    {
+      "id": "faisal-ca33240c8b7029e8",
+      "name": "فوري بلس التعاون",
+      "address": "254 شارع الملك فيصل - بجوار موبايل شوب - التعاون - فيصل",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0004861%2C31.1647211"
+    },
+    {
+      "id": "faisal-12d2a2282c27229c",
+      "name": "ثمرة التوحيد ماركت",
+      "address": "شارع ناصر - كومبوند صن سيتي - بجوار الأمن المركزي - السويس",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9723035%2C32.5247675"
+    },
+    {
+      "id": "faisal-5ba27e5389a10a0d",
+      "name": "فوري بلس بنها الجديدة",
+      "address": "2 شارع كامل - النجدة - بنها الجديدة - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4625821%2C31.1768229"
+    },
+    {
+      "id": "faisal-f99b8dd4dc840e71",
+      "name": "الجيزاوي ماركت سقارة",
+      "address": "طريق سقارة السياحي بعد كوبري عثمان - امام فندق كتاركت",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9654255%2C31.1765301"
+    },
+    {
+      "id": "faisal-73938928e5898da5",
+      "name": "ماستر صوفيا الحجاز",
+      "address": "ميدان الحجاز - اسفل كوبرى الحجاز",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1164000%2C31.3163000"
+    },
+    {
+      "id": "faisal-e7d4984323c1dc2a",
+      "name": "تي اي داتا الزاويا الحمراء",
+      "address": "52 شارع منشية الجمل - الزاوية الحمراء - امام كشري ابو شريف - بالقرب من قسم الزاوية الحمراء",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0958079%2C31.2671413"
+    },
+    {
+      "id": "faisal-318b06f0b28c9e2d",
+      "name": "رنين الحي العاشر",
+      "address": "23 شارع أحمد الزمر - بعد سوق السيارات - الحى العاشر - مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0535000%2C31.3582000"
+    },
+    {
+      "id": "faisal-2f905373f7677eca",
+      "name": "خير زمان الحي العاشر",
+      "address": "17 شارع أحمد الزمر - امام البوابة الثالثة - سوق السيارات - الحي العاشر - مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0532000%2C31.3589000"
+    },
+    {
+      "id": "faisal-7f4e8652109edad3",
+      "name": "فودافون الخانكة",
+      "address": "شارع البطل أحمد عبد العزيز - بجوار قسم الخانكة",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2155251%2C31.3547082"
+    },
+    {
+      "id": "faisal-65e12ab28de58d38",
+      "name": "ماستر الخطاطبة",
+      "address": "كارتة الخطاطبة - طريق القاهرة الإسكندرية الزراعي",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Faisal+Islamic+Bank+of+Egypt+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D8%A7%D9%84%D8%AE%D8%B7%D8%A7%D8%B7%D8%A8%D8%A9+%D9%83%D8%A7%D8%B1%D8%AA%D8%A9+%D8%A7%D9%84%D8%AE%D8%B7%D8%A7%D8%B7%D8%A8%D8%A9+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "faisal-8682297fff44bdf7",
+      "name": "فتح الله بشاير الخير",
+      "address": "47 مدينة بشاير الخير - القباري - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1637952%2C29.8876254"
+    },
+    {
+      "id": "faisal-9e28802f828596c3",
+      "name": "سيتي مول شبرا الخيمة",
+      "address": "شارع أحمد عرابي - شبرا الخيمة - القليوبية",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1230000%2C31.2612000"
+    },
+    {
+      "id": "faisal-3850f1635fe5e4c3",
+      "name": "نادي حديد عز الدخيلة",
+      "address": "الدخيلة - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1144582%2C29.7958471"
+    },
+    {
+      "id": "faisal-0953f75278af69ab",
+      "name": "فتح الله كفر الدوار",
+      "address": "مدخل كفر الدوار - امام مركز الأطباء",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1275767%2C30.1228461"
+    },
+    {
+      "id": "faisal-05be529b3abb6a74",
+      "name": "فودافون كفر الدوار",
+      "address": "شارع بورسعيد - اتجاه مجلس المدينة و امام بنك مصر - كفر الدوار - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1341625%2C30.1350075"
+    },
+    {
+      "id": "faisal-51e8289432d9ad5a",
+      "name": "ماستر الرحاب",
+      "address": "مدينة الرحاب - شل اوت الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0561000%2C31.4917000"
+    },
+    {
+      "id": "faisal-84b0c8b4fd9e1d38",
+      "name": "فرع الرحاب",
+      "address": "السوق الشرقي - مجمع البنوك - الرحاب",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0705319%2C31.5850423"
+    },
+    {
+      "id": "faisal-a30a8f1066be2138",
+      "name": "صيدلية شريف الزغيبي",
+      "address": "طريق نبروه المنصورة - نبروه - الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0940590%2C31.3082497"
+    },
+    {
+      "id": "faisal-f9c0e9d500c8bb3b",
+      "name": "فتح الله الزيتون",
+      "address": "شارع ترعة الجبل - أبراج جولدن سيتي - امام عمارة مصر للتأمين",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0472000%2C31.2486000"
+    },
+    {
+      "id": "faisal-4331d4dfaf4ea3ea",
+      "name": "وي بركة السبع",
+      "address": "5 شارع عبد السلام عارف - بركة السبع - المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6361739%2C31.0861512"
+    },
+    {
+      "id": "faisal-acc466669d705baf",
+      "name": "ماستر مدينة السلام",
+      "address": "موقف العاشر من رمضان",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3024000%2C31.7425000"
+    },
+    {
+      "id": "faisal-96f270342e55ecd4",
+      "name": "نادي السلام بنها",
+      "address": "بجوار مديرية الأمن - بنها - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4685615%2C31.1919363"
+    },
+    {
+      "id": "faisal-942b061edcc8e32f",
+      "name": "هايبر السلطان",
+      "address": "هايبر السلطان - الحي المتميز - 6 أكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9862471%2C30.9815043"
+    },
+    {
+      "id": "faisal-6350190a151fba5a",
+      "name": "خير زمان نزلة السمان",
+      "address": "80 شارع سعد زغلول - رقم 1 شارع محمد عبد اللطيف - نزلة السمان - الهرم - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9772000%2C31.1378000"
+    },
+    {
+      "id": "faisal-7781351346781a69",
+      "name": "وي السنطة",
+      "address": "شارع الجمهورية - مول السعد - السنطة - الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7303657%2C31.1195083"
+    },
+    {
+      "id": "faisal-32b4b81ef8767b76",
+      "name": "محطة بنزين الغابة الشجرية",
+      "address": "الغابة الشجرية - التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0189000%2C31.5019000"
+    },
+    {
+      "id": "faisal-353961bb44d86f92",
+      "name": "وي الشهداء",
+      "address": "شارع كمال النجار - ميدان مصطفى كامل - الشهداء - المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6314812%2C31.0826776"
+    },
+    {
+      "id": "faisal-2fd86036162cb77b",
+      "name": "تي اي داتا العباسية",
+      "address": "96 شارع العباسية - امام قسم الوايلي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0594844%2C31.2661157"
+    },
+    {
+      "id": "faisal-24840683a06d3787",
+      "name": "صن مول العباسية",
+      "address": "برج مصر للسياحة - مجمع خدمات القوات المسلحة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0723925%2C31.2860202"
+    },
+    {
+      "id": "faisal-2002c73e36dd2fae",
+      "name": "ماستر العبور",
+      "address": "محطة شل اوت - مدخل مدينة العبور - القليوبية",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2090000%2C31.4513000"
+    },
+    {
+      "id": "faisal-e5a3710039382e07",
+      "name": "فوري بلس العجمي",
+      "address": "شارع الإسكندرية مطروح - بجوار كازينو ويدوس - الهانوفيل - قسم الدخيلة - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0957858%2C29.7676570"
+    },
+    {
+      "id": "faisal-f615e7982b62470a",
+      "name": "فتح الله برج العرب",
+      "address": "برج العرب مول - الحي السكني الأول - المجاورة الثالثة - امام مصانع فرج الله - برج العرب الجديدة",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8902785%2C29.5849237"
+    },
+    {
+      "id": "faisal-4b5b5bfcb86dc403",
+      "name": "العروبة مول برج العرب",
+      "address": "محور التعمير - برج العرب",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0665448%2C29.7726121"
+    },
+    {
+      "id": "faisal-d0537b837b6ddbd4",
+      "name": "العروبة مول",
+      "address": "قطعة رقم 248 - طريق طنطا المحلة - محافظة الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8101000%2C31.0016000"
+    },
+    {
+      "id": "faisal-c9ad9c3f683c8ed0",
+      "name": "صيدلية شريف العليمي",
+      "address": "85 شارع المريوطية - المريوطية - فيصل",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0039892%2C31.1396480"
+    },
+    {
+      "id": "faisal-79b983b2c6f305d4",
+      "name": "وي روض الفرج",
+      "address": "208 شارع ابو الفرج - بجوار معهد التومبسكو - ميدان روض الفرج (جديد)",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0817669%2C31.2367593"
+    },
+    {
+      "id": "faisal-9c72784762fd8cf3",
+      "name": "الفرجاني المهندسين",
+      "address": "77 شارع أحمد عرابي - المهندسين",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0645289%2C31.2027521"
+    },
+    {
+      "id": "faisal-eea4409a0594b2e8",
+      "name": "رنين الفسطاط",
+      "address": "شارع الفسطاط - المجاوره الثامنة - مدينة الفسطاط الجديدة - بجوار السنترال - مصر القديمة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0027248%2C31.2436698"
+    },
+    {
+      "id": "faisal-f733391886c89cc9",
+      "name": "فودافون مصر القديمة",
+      "address": "2 شارع عبد الله العمري - ميدان حسن الأنوار - بالقرب من مسجد عمرو بن العاص",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0243389%2C31.2374530"
+    },
+    {
+      "id": "faisal-8f6dc9ad9f774f23",
+      "name": "وي القطور",
+      "address": "شارع الجيش - بجوار فودافون - القطور - الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9719693%2C30.9566208"
+    },
+    {
+      "id": "faisal-4726d420c091292c",
+      "name": "وي القوصية",
+      "address": "شارع الجلاء - برج خالد بن الوليد - امام البنك الاهلي - مركز القوصية - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1904312%2C31.1780739"
+    },
+    {
+      "id": "faisal-4dbc7715c34fd2bf",
+      "name": "وي شبين الكوم",
+      "address": "19 مساكن التعاونيات - شارع الجلاء البحري - شبين الكوم - المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5671947%2C31.0073950"
+    },
+    {
+      "id": "faisal-b23b6c9ee84fd1cf",
+      "name": "خير زمان شبين الكوم",
+      "address": "شارع صبري ابو علم - شبين الكوم - المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5655684%2C31.0038234"
+    },
+    {
+      "id": "faisal-accfa877e4fa851b",
+      "name": "هايبر خير بلدنا شبين الكوم",
+      "address": "شارع مصطفى كامل (البحر) - شبين الكوم - المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5701414%2C31.0135259"
+    },
+    {
+      "id": "faisal-1aa2a11e69636f71",
+      "name": "فتح الله طوسون",
+      "address": "أبراج المستشارين - خلف كلية التربية الرياضية - منطقة طوسون - ابو قير",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2826000%2C30.0694000"
+    },
+    {
+      "id": "faisal-54bda7735925a4e5",
+      "name": "فتح الله دمنهور",
+      "address": "أبراج الأندلس - شارع الأندلس - ميدان النافورة - دمنهور",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0443057%2C30.4738619"
+    },
+    {
+      "id": "faisal-ee024348a5140d89",
+      "name": "فتح الله وابور المياه",
+      "address": "شارع الشهيد جلال الدسوقي - بالقرب من مستشفى الماترناتية - وابور المياه",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2009872%2C29.9225173"
+    },
+    {
+      "id": "faisal-977385d40abcb7a6",
+      "name": "فتح الله المنشا",
+      "address": "20 شارع المنشا - بجوار مكتبة البلدية - محرم بك",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1959534%2C29.9143793"
+    },
+    {
+      "id": "faisal-56762755a65f1986",
+      "name": "فتح الله سيدي جابر",
+      "address": "مول سيتي سكوير - مدينة الضباط - سيدي جابر - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2284597%2C29.9418415"
+    },
+    {
+      "id": "faisal-66827e09f416c111",
+      "name": "فتح الله النصر",
+      "address": "شارع النصر - برج حدائق اللوتس - مدخل الهيلتون - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2136030%2C29.9670667"
+    },
+    {
+      "id": "faisal-26b8c64a0e806a59",
+      "name": "فتح الله كرموز",
+      "address": "شارع كرموز - بجوار مستشفى الجمهورية - شونة راغب",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1814600%2C29.9043497"
+    },
+    {
+      "id": "faisal-c1ec16dd8cb47fc2",
+      "name": "فتح الله جرين بلازا",
+      "address": "برج حدائق اللوتس - شارع النصر - مدخل الهيلتون - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2076000%2C29.9287000"
+    },
+    {
+      "id": "faisal-e5a7249b9ac57318",
+      "name": "فتح الله شاطئ النخيل",
+      "address": "فتح الله ماركت - فرع شاطئ النخيل - 6 أكتوبر - العجمي",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0857069%2C29.7331000"
+    },
+    {
+      "id": "faisal-eb682de6af2e0646",
+      "name": "فتح الله المنتزه",
+      "address": "أبراج شيراتون المنتزه - برج رقم 5 - فتح الله ماركت - أمام حدائق قصر المنتزه",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2807315%2C30.0142399"
+    },
+    {
+      "id": "faisal-55bd2e95b6a00989",
+      "name": "فتح الله الهرم",
+      "address": "شارع الهرم - محطة الكوم الأخضر - الهرم",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0031761%2C31.1781546"
+    },
+    {
+      "id": "faisal-d928e968b5343d41",
+      "name": "وي سرس الليان",
+      "address": "امام كوبري المرور - سرس الليان - الباجور - المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4325000%2C31.0386000"
+    },
+    {
+      "id": "faisal-e48bfb4c0610d357",
+      "name": "مجمع المحاكم قنا",
+      "address": "شارع مستشفى الهلال - حي المصالح - قنا",
+      "governorate": "قـنــا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1596000%2C32.7202000"
+    },
+    {
+      "id": "faisal-da7cef424ded8e54",
+      "name": "المحلاوي مسطرد",
+      "address": "أبراج الصفا - بجوار المعهد الديني - مسطرد - شبرا الخيمة",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1496027%2C31.2920088"
+    },
+    {
+      "id": "faisal-de64599a0a1cbfea",
+      "name": "رنين ترعة المحمودية",
+      "address": "97 برج المدينة المنورة - امام ترعة المحمودية - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2145000%2C29.9458000"
+    },
+    {
+      "id": "faisal-c6a07a1335ef40e2",
+      "name": "المزار مول",
+      "address": "مول المزار - الشيخ زايد",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0534971%2C30.9611023"
+    },
+    {
+      "id": "faisal-0fba2059197071e9",
+      "name": "ماستر شيراتون المطار",
+      "address": "شيراتون المطار - النزهة - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1032000%2C31.3761000"
+    },
+    {
+      "id": "faisal-2f8fa9c7a6a963ac",
+      "name": "صيدلية ليلة المقطم",
+      "address": "امام الجامعة الحديثة - الهضبة الوسطى - المطقم",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9919835%2C31.3178502"
+    },
+    {
+      "id": "faisal-bfd6ca014220e476",
+      "name": "زاهر ماركت المقطم",
+      "address": "شارع 9 - بجوار مستشفى المقطم - المقطم",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0124795%2C31.3273919"
+    },
+    {
+      "id": "faisal-6447d7671572251e",
+      "name": "رنين المنشية",
+      "address": "67 شارع محمود فهمى النقراشى - متفرع من شارع النصر - المنشية - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2021000%2C29.9043000"
+    },
+    {
+      "id": "faisal-683356d5f21646e4",
+      "name": "صيدلية محمد عبد المنعم",
+      "address": "81 شارع مسجد الهدى - منشية البكاري - فيصل - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0305470%2C31.5044170"
+    },
+    {
+      "id": "faisal-f772ad071ba75316",
+      "name": "اوبو فون المنوات",
+      "address": "الكيلو 17 طريق مصر بني سويف الزراعي - الشارع الرئيسي - بجوار مسجد الفاروق - المنوات - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9633000%2C31.2155000"
+    },
+    {
+      "id": "faisal-968b96c0d1cf9430",
+      "name": "رنين عزبة النخل",
+      "address": "68 شارع عين شمس - بجوار مترو عزبة النخل - غانم مول",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1278000%2C31.3135000"
+    },
+    {
+      "id": "faisal-4ce7753aee392e6e",
+      "name": "فودافون الهرم",
+      "address": "175 شارع الهرم - امام مسرح الزعيم",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9942768%2C31.1611117"
+    },
+    {
+      "id": "faisal-53ab1d5717b2f249",
+      "name": "تي اي داتا قليوب",
+      "address": "1 شارع الرشاح - متفرع من شارع العاشر من رمضان - بجوار فودافون - قليوب",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1810297%2C31.2103476"
+    },
+    {
+      "id": "faisal-4ce46606495fb26a",
+      "name": "تي اي داتا نكلا",
+      "address": "موقف نكلا المحور - امام سنترال برقاش - منشأة القناطر - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1707857%2C31.0516384"
+    },
+    {
+      "id": "faisal-defb56df28d405a9",
+      "name": "تي اي داتا سانت تريزا",
+      "address": "شارع شبرا - محطة سانت تريزا - بجوار كشرى التحرير",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0895237%2C31.2452339"
+    },
+    {
+      "id": "faisal-f2798bc33f0b2fb2",
+      "name": "خير زمان مدينة بدر",
+      "address": "مول الصفا - ميدان الجامعة الروسية - مدينة بدر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1409358%2C31.7179987"
+    },
+    {
+      "id": "faisal-6965e25da6d6d016",
+      "name": "وي بسيون",
+      "address": "شارع 23 يوليو - عمارة ابو سبعة - بسيون - الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9429852%2C30.8222757"
+    },
+    {
+      "id": "faisal-14dff30b78dc908b",
+      "name": "هايبر خير بلدنا بنها",
+      "address": "شارع كورنيش النيل - منطقة الفلل - بنها - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4626561%2C31.1767799"
+    },
+    {
+      "id": "faisal-eb336fd6982c73f2",
+      "name": "وي بلقاس",
+      "address": "ميدان المحطة - امام فودافون - بلقاس - الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2101754%2C31.3562610"
+    },
+    {
+      "id": "faisal-e62f0feb761b4049",
+      "name": "ماستر بنها",
+      "address": "طريق شبرا بنها الحر - بعد الكارتة",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4575000%2C31.1805000"
+    },
+    {
+      "id": "faisal-641d7b8be3cc4689",
+      "name": "خير زمان حدائق حلوان",
+      "address": "شارع حمودة - تقاطع شارع السايس - حدائق حلوان",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8408000%2C31.3220000"
+    },
+    {
+      "id": "faisal-d6967d05fdfc99c7",
+      "name": "صيدلية ياسر حفني",
+      "address": "38 شارع القصر العيني - امام مكتب بريد القصر العيني",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0316236%2C31.2329522"
+    },
+    {
+      "id": "faisal-e097c8f799b604d1",
+      "name": "خير زمان سموحة",
+      "address": "شارع الفردوس - سموحة - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2089000%2C29.9333000"
+    },
+    {
+      "id": "faisal-6884b747f82cc592",
+      "name": "صيدلية د/ وائل",
+      "address": "1 شارع بدوي محمود من شارع كريستال عصفور - شبرا الخيمة - القليوبية",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1225965%2C31.2607082"
+    },
+    {
+      "id": "faisal-b97864cba6f300d5",
+      "name": "وي ديروط",
+      "address": "امام البنك الاهلي المصري - مركز ديروط - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.5525000%2C30.8100000"
+    },
+    {
+      "id": "faisal-14d169b966768a2b",
+      "name": "رفال مول",
+      "address": "شارع أحمد تيسير - كلية البنات - مصر الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0458000%2C31.3647000"
+    },
+    {
+      "id": "faisal-6a7c65137e3b3e5d",
+      "name": "زاهر ماركت مدينة نصر",
+      "address": "شارع محمد عوض - من مكرم عبيد - مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0661117%2C31.3436551"
+    },
+    {
+      "id": "faisal-a1888ef7682a259b",
+      "name": "سيتي ووك سترب",
+      "address": "وصلة دهشور - امام بوابة 5 - الشيخ زايد",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0225000%2C30.9828000"
+    },
+    {
+      "id": "faisal-47e247fbeab01ab5",
+      "name": "ماكينة سنتر عين شمس",
+      "address": "محل رقم 16 - كوبري العشرين - تقاطع شارع العشرين مع المهاجرين - عين شمس - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1118000%2C31.3333000"
+    },
+    {
+      "id": "faisal-7e53839ec8c34b36",
+      "name": "ماكينة سنتر",
+      "address": "الكيلو 4.5 - اسفل كوبري الجيش - امام موقف 4.5 - مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0789235%2C31.3820757"
+    },
+    {
+      "id": "faisal-94ff742c7bd985fb",
+      "name": "صيدلية وقاية",
+      "address": "105 ن حدائق الأهرام - البوابة الثالثة - بجوار مدرسة نيو فيجن",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9564245%2C31.1005746"
+    },
+    {
+      "id": "faisal-52d78ef73eb14094",
+      "name": "كايرو فيستيفال",
+      "address": "تقاطع التسعين مع الطريق الدائري",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0178000%2C31.4709000"
+    },
+    {
+      "id": "faisal-e1ea4e58e498a701",
+      "name": "فيوتشر مول",
+      "address": "التجمع الثالث - ميدان أربيلا القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9819948%2C31.4261392"
+    },
+    {
+      "id": "faisal-a11e01ab60c4f13f",
+      "name": "وي قويسنا",
+      "address": "شارع الجيش - بجوار مركز الشرطة - قويسنا - المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6107368%2C31.1549106"
+    },
+    {
+      "id": "faisal-cca9d0e9de05b401",
+      "name": "لوكيشن",
+      "address": "طريق القاهرة الإسكندرية الزراعي - قويسنا",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Faisal+Islamic+Bank+of+Egypt+%D9%84%D9%88%D9%83%D9%8A%D8%B4%D9%86+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A+-+%D9%82%D9%88%D9%8A%D8%B3%D9%86%D8%A7+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "faisal-ec739b4c55457a26",
+      "name": "نيدز ماركت",
+      "address": "شارع 5أ تقاطع شارع الثروة المعدنية - البوابة الأولى - حدائق الأهرام",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9878000%2C31.1450000"
+    },
+    {
+      "id": "faisal-dcf46a7150eb7dc0",
+      "name": "وي منفلوط",
+      "address": "الشارع الجديد - برج عرفة - مركز منفلوط - أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3106000%2C30.9695000"
+    },
+    {
+      "id": "faisal-fb78c3e730c226a4",
+      "name": "هايبر وان",
+      "address": "مدخل مدينة الشيخ زايد - إمتداد محور 26 يوليو - 6 أكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0492691%2C30.9761570"
+    }
+  ],
+  "branches_status": "published",
+  "atms_status": "published",
+  "source_urls": [
+    "https://www.faisalbank.com.eg/ar/Branches",
+    "https://www.faisalbank.com.eg/api/sitecore/AtmBranches/GetATMListJson",
+    "https://www.faisalbank.com.eg/"
+  ],
+  "branch_locator_url": "https://www.faisalbank.com.eg/ar/Branches",
+  "atm_locator_url": "https://www.faisalbank.com.eg/ar/Branches",
+  "hotline": "19851",
+  "contact_url": "https://www.faisalbank.com.eg/",
+  "reviewed_at": "2026-10-29",
+  "version": "2eecc5c7ac4c273f"
+}

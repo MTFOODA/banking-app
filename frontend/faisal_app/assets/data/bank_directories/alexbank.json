@@ -1,0 +1,16 @@
+{
+  "bank_code": "alexbank",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://www.alexbank.com/"
+  ],
+  "branch_locator_url": "https://www.alexbank.com/",
+  "atm_locator_url": "https://www.alexbank.com/",
+  "hotline": "19033",
+  "contact_url": "https://www.alexbank.com/",
+  "reviewed_at": "2026-10-29",
+  "version": "dc69756f6ca508a2"
+}

@@ -16,11 +16,17 @@ class BankDefinition extends Equatable {
     required this.light,
     required this.dark,
     required this.registrationEnabled,
+    this.abbreviation = '',
+    this.logoAsset,
   });
   final String code, nameEn, nameAr, website, primary, accent;
   final Map<String, String> light, dark;
   final bool registrationEnabled;
-  String name(String language) => language == 'ar' ? nameAr : nameEn;
+  final String abbreviation;
+  final String? logoAsset;
+  String name(String language) => language == 'ar'
+      ? (abbreviation.isEmpty ? nameAr : '$nameAr ($abbreviation)')
+      : nameEn;
   factory BankDefinition.fromJson(Map<String, dynamic> value) {
     String text(String key, int max) {
       final text = value[key];
@@ -75,6 +81,12 @@ class BankDefinition extends Equatable {
         !RegExp(r'^#[A-Fa-f0-9]{6}$').hasMatch(accent)) {
       throw const FormatException('Invalid bank identity color');
     }
+    final logo = value['logo_asset'];
+    if (logo != null &&
+        (logo is! String ||
+            !RegExp(r'^assets/banks/[a-z0-9_]+\.(png|svg)$').hasMatch(logo))) {
+      throw const FormatException('Invalid compiled bank logo');
+    }
     return BankDefinition(
       code: code,
       nameEn: text('name_en', 120),
@@ -85,6 +97,10 @@ class BankDefinition extends Equatable {
       light: colors('light'),
       dark: colors('dark'),
       registrationEnabled: value['registration_enabled'] == true,
+      abbreviation: value['abbreviation'] is String
+          ? value['abbreviation'] as String
+          : '',
+      logoAsset: logo as String?,
     );
   }
   @override
@@ -98,6 +114,8 @@ class BankDefinition extends Equatable {
     jsonEncode(light),
     jsonEncode(dark),
     registrationEnabled,
+    abbreviation,
+    logoAsset,
   ];
 }
 

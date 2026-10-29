@@ -1,0 +1,280 @@
+{
+  "abc": {
+    "source_url": "https://www.bank-abc.com/Style Library/Images/BankABClogo.png",
+    "website": "https://www.bank-abc.com/en/CountrySites/Egypt",
+    "asset": "assets/banks/abc.png",
+    "sha256": "365a17f779a46396bba5f6110eb477de23ebd5fd260c8e2b119010bfb85123b6",
+    "reviewed_at": "2026-10-29"
+  },
+  "adcb": {
+    "source_url": "https://www.adcb.com.eg/wp-content/uploads/2020/08/cropped-logo-192x192.png",
+    "website": "https://www.adcb.com.eg/",
+    "asset": "assets/banks/adcb.png",
+    "sha256": "a27104b17da47c9730dcb1e14e2f741360aacaa7abd80663a2734772a6265385",
+    "reviewed_at": "2026-10-29"
+  },
+  "adib": {
+    "source_url": "https://www.adib.eg/media/146118/logo.png",
+    "website": "https://www.adib.eg/",
+    "asset": "assets/banks/adib.png",
+    "sha256": "7d8a1f99990fcb691e6f3e00e1000ba6240d40481d65acffdbef6281ea04e0db",
+    "reviewed_at": "2026-10-29"
+  },
+  "agricultural": {
+    "source_url": "https://www.abe.com.eg/assets/img/logo.png",
+    "website": "https://www.abe.com.eg/",
+    "asset": "assets/banks/agricultural.png",
+    "sha256": "bd3573fad47b142bc45017ead3b2c3d700d4e8194b61d0b35194fb62f0ae7a8d",
+    "reviewed_at": "2026-10-29"
+  },
+  "aib": {
+    "source_url": "https://www.aib.com.eg/img/AIB Logo FF-03.png",
+    "website": "https://www.aib.com.eg/",
+    "asset": "assets/banks/aib.png",
+    "sha256": "a2471065798fdc6385908a30d033f9b2e3a3d55a9b01e9f4baf6822636a4277a",
+    "reviewed_at": "2026-10-29"
+  },
+  "alexbank": {
+    "source_url": "https://www.alexbank.com/.resources/intesaSanPaolo-templating-module/templates/webresources/CIB/images/favicon-96x96.png",
+    "website": "https://www.alexbank.com/",
+    "asset": "assets/banks/alexbank.png",
+    "sha256": "ce5ff71ff6b113d96c1f14a6b347ada1deee03b227613c1a60d33de4498c02f0",
+    "reviewed_at": "2026-10-29"
+  },
+  "arab_bank": {
+    "source_url": "https://www.arabbank.com.eg/Mvc/Content/images/apple-touch-icon.png",
+    "website": "https://www.arabbank.com.eg/",
+    "asset": "assets/banks/arab_bank.png",
+    "sha256": "ddcebb3df2f36a8d2aa00b36cb6c4ef7be076606f5bd077f0757d6d694da367e",
+    "reviewed_at": "2026-10-29"
+  },
+  "bank_nxt": {
+    "source_url": "https://www.banknxteg.com/media/4079/logo-blue.png",
+    "website": "https://www.banknxteg.com/",
+    "asset": "assets/banks/bank_nxt.png",
+    "sha256": "0ecffc0bab8a12a4f9469589619006481445e19b73e828db4b55e3ceb04b0c19",
+    "reviewed_at": "2026-10-29"
+  },
+  "banque_caire": {
+    "source_url": "https://www.bdc.com.eg/.resources/bdc/webresources/img/BDC_logo.png",
+    "website": "https://www.bdc.com.eg/",
+    "asset": "assets/banks/banque_caire.png",
+    "sha256": "cd99c2642c8fcb670254cebf416ab566e6d67e85c7a437c9dccf3fff4646b5cf",
+    "reviewed_at": "2026-10-29"
+  },
+  "banque_misr": {
+    "source_url": "https://www.banquemisr.com/Assets/Images/bmp-logo.png",
+    "website": "https://www.banquemisr.com/",
+    "asset": "assets/banks/banque_misr.png",
+    "sha256": "28dad0264c4a119dfbb0032f1cf0d7a5a52aa1568b9ef2142aacfe6eba34e77b",
+    "reviewed_at": "2026-10-29"
+  },
+  "credit_agricole": {
+    "source_url": "https://www.ca-egypt.com/app/themes/credit-agricole/main-assets/images/CA_Logo_seul-1.svg",
+    "website": "https://www.ca-egypt.com/",
+    "asset": "assets/banks/credit_agricole.svg",
+    "sha256": "c0c98ec43db1ab158394781babf5cc8365a0f400037303bb5c857562a6938453",
+    "reviewed_at": "2026-10-29"
+  },
+  "fab": {
+    "source_url": "https://www.fabmisr.com.eg/-/jssmedia/Project/FAB2/Fab2/data/media/img/fab-logo/FABMISR-ICON.svg?iar=0&hash=925AA53982F7D882CF4E597AFE0E6990",
+    "website": "https://www.fabmisr.com.eg/",
+    "asset": "assets/banks/fab.svg",
+    "sha256": "567d3e7117d396daaffb5a4091f84fa1f22a56d323ff7381d47de577ef734b3d",
+    "reviewed_at": "2026-10-29"
+  },
+  "faisal": {
+    "source_url": "https://www.faisalbank.com.eg/-/media/Images/Logo/logo-img.ashx",
+    "website": "https://www.faisalbank.com.eg/",
+    "asset": "assets/banks/faisal.svg",
+    "sha256": "7edf7922abf1fff214733d4cb66563743f0c3251e4bb6cad719d8415b2992017",
+    "reviewed_at": "2026-10-29"
+  },
+  "hsbc": {
+    "source_url": "https://www.hsbc.com.eg/content/dam/hsbc/hbeg/images/logos/hsbc-logo.svg",
+    "website": "https://www.hsbc.com.eg/",
+    "asset": "assets/banks/hsbc.svg",
+    "sha256": "cdae86adbb8bc893c2b67d3b63fbed3c33b45dc2f0f01372ef9d430ae7f896d5",
+    "reviewed_at": "2026-10-29",
+    "source_sha256": "392961169ed068757ca4ccfba64f9a1e5cfd0e5c2467039ec5f0315afcb4de50",
+    "render_normalization": "Inline official CSS presentation classes; geometry preserved"
+  },
+  "idb": {
+    "source_url": "https://www.idb.com.eg/media/bpij0tty/logo.webp",
+    "website": "https://www.idb.com.eg/",
+    "asset": "assets/banks/idb.png",
+    "sha256": "a111d243585bcfbbb465ca3d3764588ac8af89bf3813afc31f0ab9519335d6e8",
+    "reviewed_at": "2026-10-29"
+  },
+  "kfh": {
+    "source_url": "https://www.eg.kfh.com/wp-content/uploads/2024/12/KFH_EGYPT_LOGO.png",
+    "website": "https://www.eg.kfh.com/en/",
+    "asset": "assets/banks/kfh.png",
+    "sha256": "06c438d506f5a11c46199c081a8c820f1e381704b8da06c372eb9d191096a25a",
+    "reviewed_at": "2026-10-29"
+  },
+  "nbk": {
+    "source_url": "https://www.nbk.com/dam/jcr:281bc4f7-7256-48c6-a05e-761bacea00a3/nbk-logo.svg",
+    "website": "https://www.nbk.com/egypt",
+    "asset": "assets/banks/nbk.svg",
+    "sha256": "942221ef93546e4b741c85a8370e28cf6571385be7ed8b6cbe97038b6c15d630",
+    "reviewed_at": "2026-10-29",
+    "source_sha256": "e724b15588ccf66318aac6bdad54fa14aeab02235caa10223af57baa657f0d3a",
+    "render_normalization": "Inline official CSS presentation classes; geometry preserved"
+  },
+  "onebank": {
+    "source_url": "https://www.onebank.eg/resources/img/logo_onebank.svg",
+    "website": "https://www.onebank.eg/",
+    "asset": "assets/banks/onebank.svg",
+    "sha256": "e088d12fcc320b72469d99a0eb7386950d13e0602bb98f8d77a18536c441f971",
+    "reviewed_at": "2026-10-29",
+    "source_sha256": "19170c5c6dd5e81f9a26d4dd22594c4c951e032793af4168d2aec0b029372793",
+    "render_normalization": "Inline official CSS presentation classes; geometry preserved"
+  },
+  "saib": {
+    "source_url": "https://www.saib.com.eg/img/SAIB-50-Years-Logo.png",
+    "website": "https://www.saib.com.eg/",
+    "asset": "assets/banks/saib.png",
+    "sha256": "9fa49c43eda36e5b1f9412e46a60ffa74d8cfa52539e1443217e37e937e65a65",
+    "reviewed_at": "2026-10-29"
+  },
+  "nbe": {
+    "source_url": "https://www.nbe.com.eg/NBE/MainSite/SiteImages/favicon.ico",
+    "website": "https://www.nbe.com.eg/",
+    "asset": "assets/banks/nbe.png",
+    "sha256": "c4df88d5aabdb757c9cd4775cdd84d969777ccc3d0344c25d0a95af6e93265a7",
+    "reviewed_at": "2026-10-29"
+  },
+  "mashreq": {
+    "source_url": "https://www.mashreq.com/-/jssmedia/Images/Logos/mobile_header_logo",
+    "website": "https://www.mashreq.com/en/egypt/",
+    "asset": "assets/banks/mashreq.svg",
+    "sha256": "082d7f4ef686277a28dee5b043d7da809b60e16c7478cdcde450ffa421448282",
+    "reviewed_at": "2026-10-29"
+  },
+  "albaraka": {
+    "source_url": "https://www.albaraka.com.eg/media/33theevh/logo.png",
+    "website": "https://www.albaraka.com.eg/",
+    "asset": "assets/banks/albaraka.png",
+    "sha256": "8e7a0ecd42186edbe66d3810d088780c621e883995c9627c76e2de87e80c5ae9",
+    "reviewed_at": "2026-10-29"
+  },
+  "ealbank": {
+    "source_url": "https://www.eal-bank.com/VI/images/logo.png",
+    "website": "https://www.eal-bank.com/VI/index_en.asp",
+    "asset": "assets/banks/ealbank.png",
+    "sha256": "6f97efa8e8f28232f7f159586b0cf0cab22bc09129e62527d9e206b24cb948d6",
+    "reviewed_at": "2026-10-29"
+  },
+  "suez_canal": {
+    "source_url": "https://scbank.com.eg/img/logo/logo.png",
+    "website": "https://scbank.com.eg/",
+    "asset": "assets/banks/suez_canal.png",
+    "sha256": "a50990adc1891886cd75471e845a89f13f97a333dc4197344737babc1f3d7e5b",
+    "reviewed_at": "2026-10-29"
+  },
+  "egbank": {
+    "source_url": "https://myegbank.com/images/logo.png",
+    "website": "https://myegbank.com/QuickRegistration/index",
+    "asset": "assets/banks/egbank.png",
+    "sha256": "a6023788a6c1e036e7509a456d52783acaeb103a8e6e2fcf6616b41b7cd268e5",
+    "reviewed_at": "2026-10-29"
+  },
+  "united_bank": {
+    "source_url": "https://www.theubeg.com/images/logo.png",
+    "website": "https://www.theubeg.com/",
+    "asset": "assets/banks/united_bank.png",
+    "sha256": "c4ead9d25fed9c553803dbfd7341fb7d2db2f7caf484f856a6fc3d1fde65b1c2",
+    "reviewed_at": "2026-10-29"
+  },
+  "citi": {
+    "source_url": "https://www.citigroup.com/rcs/citigpa/storage/public/citi-logo-rgb.jpg",
+    "website": "https://www.citigroup.com/global",
+    "asset": "assets/banks/citi.png",
+    "sha256": "59660f0de959a6f206d1e813ace867ce9e6f27d2b5595914b367f07643390ff0",
+    "reviewed_at": "2026-10-29"
+  },
+  "aaib": {
+    "source_url": "https://play-lh.googleusercontent.com/dBvhEqbkbiha_vIa-aXHcO6OGQVCX6ftjm-_SPZl-mHLHDfwqj5eFbZp7dZ-aJDsYJiXqhgD2KZVwZHekJaKjQQ=s0-br30",
+    "website": "https://play.google.com/store/apps/details?id=com.aaib",
+    "publisher_asset": "Bank-published official mobile application icon",
+    "asset": "assets/banks/aaib.png",
+    "sha256": "83b08f94eae772236203382fd0b2bbbf4da909250e6e10e6237380eb4993196d",
+    "reviewed_at": "2026-10-29"
+  },
+  "qnb": {
+    "source_url": "https://play-lh.googleusercontent.com/Yb_e3eHjfesfrxfIty5OXZpLZmyPb8ztNZJ6Tcd6hEWA3zLLMA7TEiHORl27-tAprh1WeV2cgl-l3wf7magPKSc=s0-br30",
+    "website": "https://play.google.com/store/apps/details?id=eg.com.qnb.eazymobile",
+    "publisher_asset": "Bank-published official mobile application icon",
+    "asset": "assets/banks/qnb.png",
+    "sha256": "3558f00e0b1a2d89ffc94dd39ccaaae1fef397ebf22f76f92c00f6e02b7b2b1d",
+    "reviewed_at": "2026-10-29"
+  },
+  "cib": {
+    "source_url": "https://play-lh.googleusercontent.com/reT4V7qroVOww0pZaGY1JLZ-XaPgeETgDss0RCiH9v6ux9ojBwpZQYY4iVOU5DDlwq8iI4zDP0ioxutUOTdj1A=s0-br30",
+    "website": "https://play.google.com/store/apps/details?id=com.cibeg.ddc1.digitalbanking.live",
+    "publisher_asset": "Bank-published official mobile application icon",
+    "asset": "assets/banks/cib.png",
+    "sha256": "e8acd32a8fd924cd982be34ec04dd43313dab1f8d588dc6e581cf4e7ca45d024",
+    "reviewed_at": "2026-10-29"
+  },
+  "emirates_nbd": {
+    "source_url": "https://play-lh.googleusercontent.com/SE1QW9TysPkbFYDysj3hpAH7ViW6YjWaAWAQjeoMUlQ7PYH9Ju_6I90X4wL4EJL_tVjwdo1RD9miFTHT7KWf0g=s0-br30",
+    "website": "https://play.google.com/store/apps/details?id=enbd.mobilebanking.egyptmobile",
+    "publisher_asset": "Bank-published official mobile application icon",
+    "asset": "assets/banks/emirates_nbd.png",
+    "sha256": "041b4583d5e81324f20b4d1de118e382d78b3e681ef53ab99288f4c3da245316",
+    "reviewed_at": "2026-10-29"
+  },
+  "hdb": {
+    "source_url": "https://play-lh.googleusercontent.com/kQPHKCA2MgAwTzcXNPC-eU7_UorEaZGCsNs0dblXYO7nRopqRn_Vf29raKdvbXdAHNtF_AfxGn_1jNYh4EIO2Q=s0-br30",
+    "website": "https://play.google.com/store/apps/details?id=com.hdb.mobilebanking",
+    "publisher_asset": "Bank-published official mobile application icon",
+    "asset": "assets/banks/hdb.png",
+    "sha256": "245cc2c1f3f2cf9317217460cf02a9bd58f1e018492e6815b6db95562a48252f",
+    "reviewed_at": "2026-10-29"
+  },
+  "midbank": {
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/1c/0f/3c1c0fb1-48f4-705d-eabf-4e2ea9f6d966/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.png",
+    "website": "https://apps.apple.com/eg/app/midbank-mobile-banking/id6479634981",
+    "publisher_asset": "Bank-published official mobile application icon",
+    "asset": "assets/banks/midbank.png",
+    "sha256": "01148acce22696310d39d48467fedfafdff4ac7f548a1392e4df33c0244f5861",
+    "reviewed_at": "2026-10-29"
+  },
+  "abk": {
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/29/71/27297135-a31d-248b-2b4b-81ba7b90188b/AppIcon-ABK-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+    "website": "https://apps.apple.com/eg/app/abk-egypt/id6474174154?uo=4",
+    "publisher_asset": "Bank-published official mobile application icon",
+    "publisher": "Alahli Bank of Kuwiat-Egypt",
+    "asset": "assets/banks/abk.png",
+    "sha256": "a669ef0e83d991931604ac6583c07f44fda34fb27d7ebd4f0f16ebd354909154",
+    "reviewed_at": "2026-10-29"
+  },
+  "ebank": {
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/14/7e/10147ee1-8231-2eac-1a2f-27f6823f5d02/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
+    "website": "https://apps.apple.com/eg/app/ebank-mobile-banking/id1474121936?uo=4",
+    "publisher_asset": "Bank-published official mobile application icon",
+    "publisher": "Export Development Bank of Egypt",
+    "asset": "assets/banks/ebank.png",
+    "sha256": "31e6945b9156a12d4613b4eaebeda5a79e36e9bfce1a04ffae8860a2b2497c03",
+    "reviewed_at": "2026-10-29"
+  },
+  "standard_chartered": {
+    "source_url": "https://www.sc.com/en/",
+    "website": "https://www.sc.com/en/",
+    "embedded_svg_class": "site-branding__logo--full",
+    "asset": "assets/banks/standard_chartered.svg",
+    "sha256": "db5605c6f43740ef0687c4897383250c29fa206b215a1265baf51cb36966d288",
+    "reviewed_at": "2026-10-29"
+  },
+  "attijariwafa": {
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/c6/0f/aec60f31-29b3-3c11-9570-3b992a4e5c87/AppIcon-1-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+    "website": "https://apps.apple.com/eg/app/attijari-mobile-egypt/id1485591290?uo=4",
+    "publisher_asset": "Bank-published official mobile application icon",
+    "publisher": "ATTIJARIWAFA BANK EGYPT S.A.E",
+    "asset": "assets/banks/attijariwafa.png",
+    "sha256": "f7312a021ce0f7cb848a791cf5fde859de67bfa429b0cf39db3470fc482a9308",
+    "reviewed_at": "2026-10-29"
+  }
+}

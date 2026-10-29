@@ -1,0 +1,2111 @@
+{
+  "bank_code": "albaraka",
+  "branches": [
+    {
+      "id": "albaraka-923e6d4a89e323aa",
+      "name": "بنك البركة - فرع القاهرة الجديدة",
+      "address": "قطعة 75 منطقة خدمات التجمع الخامس القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9997703%2C31.4366277"
+    },
+    {
+      "id": "albaraka-50c686bf83885209",
+      "name": "بنك البركة - فرع هليوبوليس",
+      "address": "76 شارع السيد الميرغني - مصر الجديدة - القاهرة - مصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0846796%2C31.3272519"
+    },
+    {
+      "id": "albaraka-34300649f14f19d6",
+      "name": "بنك البركة - فرع عدلى",
+      "address": "9 شارع عدلي - وسط البلد - القاهرة - مصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0514307%2C31.2450932"
+    },
+    {
+      "id": "albaraka-67d67da0322e591c",
+      "name": "بنك البركة - فرع عباس العقاد",
+      "address": "108 عباس العقاد , المنطقة الأولي , مدينة نصر , محافظة القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0691351%2C31.3357312"
+    },
+    {
+      "id": "albaraka-02b7c45041fdb3a1",
+      "name": "بنك البركة - فرع المعادى",
+      "address": "3 شارع وهيب دوس - ميدان المحطة - المعادي - القاهرة - مصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9603682%2C31.2596064"
+    },
+    {
+      "id": "albaraka-3623aef7c79c2a16",
+      "name": "بنك البركة - فرع أحمد فخرى",
+      "address": "18 شارع أحمد فخري - مدينة نصر - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0675879%2C31.3492147"
+    },
+    {
+      "id": "albaraka-b7214600383312ca",
+      "name": "بنك البركة - فرع شبرا",
+      "address": "72 شارع روض الفرج - شبرا - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0703560%2C31.2480330"
+    },
+    {
+      "id": "albaraka-3d1b8248b64b0dd4",
+      "name": "بنك البركة - فرع الرحاب",
+      "address": "المبنى الادارى رقم 6 - منطقة البنوك - مدينة الرحاب - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0588396%2C31.4910892"
+    },
+    {
+      "id": "albaraka-70766018feb67bab",
+      "name": "بنك البركة - فرع الأزهر",
+      "address": "391 شارع بورسعيد - مول الازهر - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0490999%2C31.2554604"
+    },
+    {
+      "id": "albaraka-948a203594d09ae6",
+      "name": "بنك البركة - فرع المنيل",
+      "address": "83 شارع عبد العزيز ال سعود - المنيل - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0196873%2C31.2229048"
+    },
+    {
+      "id": "albaraka-8c2860b3617993ea",
+      "name": "بنك البركة - فرع الحديقة الدولية",
+      "address": "70 شارع احمد الزمر - مدينة نصر - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0475026%2C31.3604049"
+    },
+    {
+      "id": "albaraka-b10d13fe51889afa",
+      "name": "بنك البركة - فرع اللاسلكى",
+      "address": "7 & 8 شارع اللاسلكي - المعادي الجديدة - القاهرة - مصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9744292%2C31.2816581"
+    },
+    {
+      "id": "albaraka-3b1173c4b78e4949",
+      "name": "بنك البركة - فرع العباسية",
+      "address": "43 شارع العباسية - العباسية - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0632979%2C31.2710609"
+    },
+    {
+      "id": "albaraka-03cf3f88df8d0650",
+      "name": "بنك البركة - فرع سانت فاتيما",
+      "address": "168 شارع النزهة - ميدان سانت فاتيما - مصر الجديدة - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1061943%2C31.3436823"
+    },
+    {
+      "id": "albaraka-7d1dfcffd1d7ce80",
+      "name": "بنك البركة - فرع مدينتي",
+      "address": "الوحدة رقم (C1B) منطقة خدمات القطاع الجنوبى-المرحلة الاولى بمشروع مدينتى",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0831768%2C31.6388547"
+    },
+    {
+      "id": "albaraka-dc8e96b99a1321b7",
+      "name": "بنك البركة - فرع التجمع الخامس",
+      "address": "شارع 90 ،29 ب سيتي سنتر ، التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0167460%2C31.4160640"
+    },
+    {
+      "id": "albaraka-0635740c806f979f",
+      "name": "بنك البركة – فرع المقطم",
+      "address": "شارع رقم 9 – قطعة 478 (د) المقطم",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+%E2%80%93+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B1%D9%82%D9%85+9+%E2%80%93+%D9%82%D8%B7%D8%B9%D8%A9+478+%28%D8%AF%29+%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-d3e0a2b39123314a",
+      "name": "بنك البركة – فرع إيست تاون",
+      "address": "مول سوديك إيست تاون، شارع التسعين الجنوبي، القاهرة الجديدة.",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+%E2%80%93+%D9%81%D8%B1%D8%B9+%D8%A5%D9%8A%D8%B3%D8%AA+%D8%AA%D8%A7%D9%88%D9%86+%D9%85%D9%88%D9%84+%D8%B3%D9%88%D8%AF%D9%8A%D9%83+%D8%A5%D9%8A%D8%B3%D8%AA+%D8%AA%D8%A7%D9%88%D9%86%D8%8C+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D8%8C+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9.+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-18989ef08ee8e8ab",
+      "name": "بنك البركة – فرع التسعين الشمالي",
+      "address": "246التسعين الشمالى – التجمع الخامس – القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+%E2%80%93+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A+246%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%89+%E2%80%93+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%E2%80%93+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-e5057ab4b19f50c6",
+      "name": "بنك البركة- فرع التجمع الخامس الإلكتروني",
+      "address": "شارع 90 ،29 ب داون تاون ، التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9-+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A+%D8%B4%D8%A7%D8%B1%D8%B9+90+%D8%8C29+%D8%A8+%D8%AF%D8%A7%D9%88%D9%86+%D8%AA%D8%A7%D9%88%D9%86+%D8%8C+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-3d5f9ca102139790",
+      "name": "بنك البركة - فرع الإسكندرية",
+      "address": "71 شارع السلطان حسين -باب شرق – الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2004914%2C29.9080028"
+    },
+    {
+      "id": "albaraka-ab3a065f365e6342",
+      "name": "بنك البركة - فرع برج العرب",
+      "address": "المنطقة الخامسة - منطقة البنوك - أمام جهاز المدينة - مدينة برج العرب الجديدة - الإسكندرية - مصر",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8835074%2C29.5771801"
+    },
+    {
+      "id": "albaraka-e441ac4f4940cb08",
+      "name": "بنك البركة - فرع سموحة",
+      "address": "عمارة(S)، عمارات سموحة تراس شارع 38، متفرع من شارع فيكتور عمانئويل – سموحة – قسم سيدي جابر – محافظة الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2165677%2C29.9410127"
+    },
+    {
+      "id": "albaraka-35a88a5679910ddf",
+      "name": "بنك البركة - فرع ستانلي",
+      "address": "46 شارع عبد العزيز فهمي - الرمل - الأسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2365628%2C29.9508180"
+    },
+    {
+      "id": "albaraka-0c6ea92aa81e6c3e",
+      "name": "بنك البركة - فرع ميامى",
+      "address": "18 طريق الكورنيش منطقة ميامى سيدى بشر المنتزة بجوار شارع 45 الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2703889%2C29.9938056"
+    },
+    {
+      "id": "albaraka-bf74399c980a8aeb",
+      "name": "فرع سموحة الإلكتروني",
+      "address": "عمارة(S)، عمارات سموحة تراس شارع 38، متفرع من شارع فيكتور عمانئويل – سموحة – قسم سيدي جابر – محافظة الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D9%81%D8%B1%D8%B9+%D8%B3%D9%85%D9%88%D8%AD%D8%A9+%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A+%D8%B9%D9%85%D8%A7%D8%B1%D8%A9%28S%29%D8%8C+%D8%B9%D9%85%D8%A7%D8%B1%D8%A7%D8%AA+%D8%B3%D9%85%D9%88%D8%AD%D8%A9+%D8%AA%D8%B1%D8%A7%D8%B3+%D8%B4%D8%A7%D8%B1%D8%B9+38%D8%8C+%D9%85%D8%AA%D9%81%D8%B1%D8%B9+%D9%85%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%81%D9%8A%D9%83%D8%AA%D9%88%D8%B1+%D8%B9%D9%85%D8%A7%D9%86%D8%A6%D9%88%D9%8A%D9%84+%E2%80%93+%D8%B3%D9%85%D9%88%D8%AD%D8%A9+%E2%80%93+%D9%82%D8%B3%D9%85+%D8%B3%D9%8A%D8%AF%D9%8A+%D8%AC%D8%A7%D8%A8%D8%B1+%E2%80%93+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-8f445b66c2ced53d",
+      "name": "بنك البركة - فرع المهندسين",
+      "address": "45 شارع محمد حسن حلمي- المهندسين - الجيزة - مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0553570%2C31.2021780"
+    },
+    {
+      "id": "albaraka-ae2ac636c122c1ee",
+      "name": "بنك البركة - فرع محى الدين أبو العز",
+      "address": "62 شارع محي الدين أبو العز - الدقي - الجيزة - مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0419539%2C31.2001865"
+    },
+    {
+      "id": "albaraka-be8d158e6914be27",
+      "name": "بنك البركة - فرع السادس من أكتوبر",
+      "address": "قطعة رقم 1/أ مركز خدمات الخامس والسادس - السادس من أكتوبر- مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9520833%2C30.9135934"
+    },
+    {
+      "id": "albaraka-98d91e07772b5909",
+      "name": "بنك البركة - فرع فيصل",
+      "address": "شارع السلام المتفرع من شارع فيصل - أمام كلية التربية الرياضية - الجيزة - مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0102196%2C31.1898600"
+    },
+    {
+      "id": "albaraka-84237db7e330e1c9",
+      "name": "بنك البركة - فرع الدقى",
+      "address": "33 شارع المساحة - الدقي- الجيزة - مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0379629%2C31.2171420"
+    },
+    {
+      "id": "albaraka-ff7e0ac99b173112",
+      "name": "بنك البركة - فرع أحمد عرابي",
+      "address": "13 ناصية شارعى الهادى والامين من شارع احمد عرابى - مدينة الصحفيين - العجوزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0511223%2C31.2125529"
+    },
+    {
+      "id": "albaraka-594692a1c61d35fb",
+      "name": "بنك البركة - فرع الهرم",
+      "address": "48 شارع الهرم - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9893293%2C31.1474689"
+    },
+    {
+      "id": "albaraka-e11167bdc1941fb7",
+      "name": "بنك البركة - فرع الشيخ زايد",
+      "address": "قطعة رقم 3 (I) مشروع ليجيندا الحى الاول",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0290656%2C31.0011837"
+    },
+    {
+      "id": "albaraka-03db907402d59cef",
+      "name": "بنك البركة - فرع نيو زايد",
+      "address": "سوديك وست - ستريب مول – وصلة دهشور – الشيخ زايد",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D9%81%D8%B1%D8%B9+%D9%86%D9%8A%D9%88+%D8%B2%D8%A7%D9%8A%D8%AF+%D8%B3%D9%88%D8%AF%D9%8A%D9%83+%D9%88%D8%B3%D8%AA+-+%D8%B3%D8%AA%D8%B1%D9%8A%D8%A8+%D9%85%D9%88%D9%84+%E2%80%93+%D9%88%D8%B5%D9%84%D8%A9+%D8%AF%D9%87%D8%B4%D9%88%D8%B1+%E2%80%93+%D8%A7%D9%84%D8%B4%D9%8A%D8%AE+%D8%B2%D8%A7%D9%8A%D8%AF+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-4de4f6f577b24a9e",
+      "name": "بنك البركة - فرع طنطا",
+      "address": "32 شارع الجيش - طنطا - محافظة الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6787853%2C30.9475383"
+    },
+    {
+      "id": "albaraka-d450e2e66833de8a",
+      "name": "بنك البركة - فرع المنصورة",
+      "address": "ناصية شارعي قناة السويس والفلكي - حي توريل - المنصورة - مصر",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0501674%2C31.3989231"
+    },
+    {
+      "id": "albaraka-78a6e02cf064c257",
+      "name": "بنك البركة – فرع أسيوط",
+      "address": "25 شارع الجمهورية، أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+%E2%80%93+%D9%81%D8%B1%D8%B9+%D8%A3%D8%B3%D9%8A%D9%88%D8%B7+25+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9%D8%8C+%D8%A3%D8%B3%D9%8A%D9%88%D8%B7+%D8%A3%D8%B3%D9%8A%D9%88%D8%B7+Egypt"
+    },
+    {
+      "id": "albaraka-53774dcb627d5c6f",
+      "name": "بنك البركة - فرع العاشر من رمضان",
+      "address": "قطعة رقم 4/أ مركز المدينة الرئيسى - المرحلة الثانية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3052745%2C31.7411964"
+    },
+    {
+      "id": "albaraka-fa3bb08544041a66",
+      "name": "بنك البركة - فرع الزقازيق",
+      "address": "2 شارع سعد زغلول, أمام كبري الجامعة و جمعيه الهلال الاحمر و الانقاذ النهري",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5833007%2C31.4989537"
+    },
+    {
+      "id": "albaraka-0b07349dc5be959b",
+      "name": "بنك البركة - فرع الإسماعيلية",
+      "address": "58 شارع صلاح سالم – برج مالك – محافظة الإسماعيلية",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+58+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B5%D9%84%D8%A7%D8%AD+%D8%B3%D8%A7%D9%84%D9%85+%E2%80%93+%D8%A8%D8%B1%D8%AC+%D9%85%D8%A7%D9%84%D9%83+%E2%80%93+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-75e81e3cb123069e",
+      "name": "بنك البركة ATM - بنك البركة - فرع الإسماعيلية",
+      "address": "برج مالك - شارع محمد علي بجوار رنين الاسماعيلية – محافظة الاسماعيلية",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A8%D8%B1%D8%AC+%D9%85%D8%A7%D9%84%D9%83+-+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%85%D8%AD%D9%85%D8%AF+%D8%B9%D9%84%D9%8A+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%B1%D9%86%D9%8A%D9%86+%D8%A7%D9%84%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%E2%80%93+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-4019eebb549c9e30",
+      "name": "بنك البركة – فرع دمنهور",
+      "address": "1 شارع عبدالسلام الشاذلى – بحوض الكرداسى - حى شبرا - دمنهور",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+%E2%80%93+%D9%81%D8%B1%D8%B9+%D8%AF%D9%85%D9%86%D9%87%D9%88%D8%B1+1+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85+%D8%A7%D9%84%D8%B4%D8%A7%D8%B0%D9%84%D9%89+%E2%80%93+%D8%A8%D8%AD%D9%88%D8%B6+%D8%A7%D9%84%D9%83%D8%B1%D8%AF%D8%A7%D8%B3%D9%89+-+%D8%AD%D9%89+%D8%B4%D8%A8%D8%B1%D8%A7+-+%D8%AF%D9%85%D9%86%D9%87%D9%88%D8%B1+%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-aac60ed8bf03312d",
+      "name": "بنك البركة - فرع المنيا",
+      "address": "شارع الجمهورية - امام محطة قطار المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9+-+%D8%A7%D9%85%D8%A7%D9%85+%D9%85%D8%AD%D8%B7%D8%A9+%D9%82%D8%B7%D8%A7%D8%B1+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+Egypt"
+    },
+    {
+      "id": "albaraka-68c0ef6febb1cdd7",
+      "name": "بنك البركة - فرع دمياط",
+      "address": "3 شارع سعد زغلول – مبني الغرفة التجارية - دمياط",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D9%81%D8%B1%D8%B9+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+3+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B3%D8%B9%D8%AF+%D8%B2%D8%BA%D9%84%D9%88%D9%84+%E2%80%93+%D9%85%D8%A8%D9%86%D9%8A+%D8%A7%D9%84%D8%BA%D8%B1%D9%81%D8%A9+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9+-+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+Egypt"
+    },
+    {
+      "id": "albaraka-46cf1dc201b88420",
+      "name": "بنك البركة – فرع بني سويف",
+      "address": "برج الأصدقاء، كورنيش النيل، بني سويف.",
+      "governorate": "بني سويف",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+%E2%80%93+%D9%81%D8%B1%D8%B9+%D8%A8%D9%86%D9%8A+%D8%B3%D9%88%D9%8A%D9%81+%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D8%A3%D8%B5%D8%AF%D9%82%D8%A7%D8%A1%D8%8C+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84%D8%8C+%D8%A8%D9%86%D9%8A+%D8%B3%D9%88%D9%8A%D9%81.+%D8%A8%D9%86%D9%8A+%D8%B3%D9%88%D9%8A%D9%81+Egypt"
+    },
+    {
+      "id": "albaraka-b24d4b0afdc4947c",
+      "name": "بنك البركة ATM- مترو ماركت - الغردقة",
+      "address": "الهضبة الشمالية ش الشيراتون امام فندق سيجال",
+      "governorate": "البحر الأحمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM-+%D9%85%D8%AA%D8%B1%D9%88+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+-+%D8%A7%D9%84%D8%BA%D8%B1%D8%AF%D9%82%D8%A9+%D8%A7%D9%84%D9%87%D8%B6%D8%A8%D8%A9+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9+%D8%B4+%D8%A7%D9%84%D8%B4%D9%8A%D8%B1%D8%A7%D8%AA%D9%88%D9%86+%D8%A7%D9%85%D8%A7%D9%85+%D9%81%D9%86%D8%AF%D9%82+%D8%B3%D9%8A%D8%AC%D8%A7%D9%84+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1+%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1+Egypt"
+    }
+  ],
+  "atms": [
+    {
+      "id": "albaraka-dc807df2098f8cd2",
+      "name": "بنك البركة - فرع هليوبوليس",
+      "address": "76 شارع السيد الميرغني - مصر الجديدة - القاهرة - مصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0846796%2C31.3272519"
+    },
+    {
+      "id": "albaraka-3fb490ee028a7ac6",
+      "name": "بنك البركة - فرع عدلى",
+      "address": "9 شارع عدلي - وسط البلد - القاهرة - مصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0514307%2C31.2450932"
+    },
+    {
+      "id": "albaraka-ae41655ed98da022",
+      "name": "بنك البركة - فرع عباس العقاد",
+      "address": "108 عباس العقاد , المنطقة الأولي , مدينة نصر , محافظة القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0691351%2C31.3357312"
+    },
+    {
+      "id": "albaraka-c7d4653ca1398d95",
+      "name": "بنك البركة - فرع المعادى",
+      "address": "3 شارع وهيب دوس - ميدان المحطة - المعادي - القاهرة - مصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9603682%2C31.2596064"
+    },
+    {
+      "id": "albaraka-57413714b8d19bb1",
+      "name": "بنك البركة - فرع أحمد فخرى",
+      "address": "18 شارع أحمد فخري - مدينة نصر - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0675879%2C31.3492147"
+    },
+    {
+      "id": "albaraka-71465e103f8f9865",
+      "name": "بنك البركة - فرع شبرا",
+      "address": "72 شارع روض الفرج - شبرا - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0703560%2C31.2480330"
+    },
+    {
+      "id": "albaraka-9875c27e36c25dbb",
+      "name": "بنك البركة - فرع الرحاب",
+      "address": "المبنى الادارى رقم 6 - منطقة البنوك - مدينة الرحاب - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0588396%2C31.4910892"
+    },
+    {
+      "id": "albaraka-9a44b05945f653de",
+      "name": "بنك البركة - فرع الأزهر",
+      "address": "391 شارع بورسعيد - مول الازهر - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0490999%2C31.2554604"
+    },
+    {
+      "id": "albaraka-140b404ca06d8dcd",
+      "name": "بنك البركة - فرع المنيل",
+      "address": "83 شارع عبد العزيز ال سعود - المنيل - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0196873%2C31.2229048"
+    },
+    {
+      "id": "albaraka-66041711ed2cdf38",
+      "name": "بنك البركة - فرع الحديقة الدولية",
+      "address": "70 شارع احمد الزمر - مدينة نصر - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0475026%2C31.3604049"
+    },
+    {
+      "id": "albaraka-5f9407a797e2eba1",
+      "name": "بنك البركة - فرع اللاسلكى",
+      "address": "7 & 8 شارع اللاسلكي - المعادي الجديدة - القاهرة - مصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9744292%2C31.2816581"
+    },
+    {
+      "id": "albaraka-fb0dd4a3b1f8dce9",
+      "name": "بنك البركة - فرع العباسية",
+      "address": "43 شارع العباسية - العباسية - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0632979%2C31.2710609"
+    },
+    {
+      "id": "albaraka-1fb8f73dede504b5",
+      "name": "بنك البركة - فرع سانت فاتيما",
+      "address": "168 شارع النزهة - ميدان سانت فاتيما - مصر الجديدة - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1061943%2C31.3436823"
+    },
+    {
+      "id": "albaraka-f57e1a7451e51014",
+      "name": "بنك البركة - فرع مدينتي",
+      "address": "الوحدة رقم (C1B) منطقة خدمات القطاع الجنوبى-المرحلة الاولى بمشروع مدينتى",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0831768%2C31.6388547"
+    },
+    {
+      "id": "albaraka-658bc4a8a3fad8a8",
+      "name": "بنك البركة ATM - مول سيتى سنتر الماظة",
+      "address": "\" مطار الماظة، شيراتون المطار، قسم النزهة، \"",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0814120%2C31.3651185"
+    },
+    {
+      "id": "albaraka-e9f01ef2d59ff54f",
+      "name": "بنك البركة ATM - جملة ماركت صلاح سالم",
+      "address": "عمارات العبور شارع صلاح سالم بجوار كوبرى الفنجرى مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0748378%2C31.3019015"
+    },
+    {
+      "id": "albaraka-f1001292bd88b9b3",
+      "name": "بنك البركة ATM - محطة مترو العباسية",
+      "address": "\"السرايات ، الوايلي ، محافظة القاهرة\"",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0719696%2C31.2834249"
+    },
+    {
+      "id": "albaraka-150a222a2878e874",
+      "name": "بنك البركة ATM - محطة مترو كلية البنات",
+      "address": "أحمد تيسير- أل جولف- ناصر سيتي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0838939%2C31.3290259"
+    },
+    {
+      "id": "albaraka-539160e98fec8e58",
+      "name": "بنك البركة ATM - مول كونكورد بلازا",
+      "address": "· شارع التسعين (محور الحرية) في التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0248976%2C31.4825881"
+    },
+    {
+      "id": "albaraka-a8315cbd9be8f659",
+      "name": "بنك البركة ATM - مسجد الشرطة القاهرة الجديدة",
+      "address": "\"محور العروبة، خلف كايروفيستيفال سيتي بالتجمع الخامس\"",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0300404%2C31.4231924"
+    },
+    {
+      "id": "albaraka-6676d82b67e1f962",
+      "name": "بنك البركة ATM - كارفور سيتى سنتر المعادى",
+      "address": "المعادى - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9826814%2C31.3161867"
+    },
+    {
+      "id": "albaraka-479538170d8c6f6f",
+      "name": "بنك البركة ATM - شيل أوت الفردوس",
+      "address": "محطة وقود شيل اوت -الفردوس 1 محور جيهان السادات داخل ماستر ماركت",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0425885%2C31.2977795"
+    },
+    {
+      "id": "albaraka-a0f2fbe2f8467893",
+      "name": "بنك البركة ATM - فورى بلس حدائق القبة",
+      "address": "المحل التجاري رقم (8) بالدور الأرضي بالعقار رقم (123) شارع مصر والسودان بجوار قطونيل وقرب من البنك الأهلي - حدائق القبة - محافظة القاهرة.",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0615960%2C31.3331368"
+    },
+    {
+      "id": "albaraka-5e15cd22e58ee304",
+      "name": "بنك البركة ATM - كايرو فستيفال سيتي مول",
+      "address": "الطريق الدائرى -القاهرة الجديدة - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0290116%2C31.4086296"
+    },
+    {
+      "id": "albaraka-18af4805e6f39444",
+      "name": "بنك البركة ATM - أمان ستور مدينة نصر",
+      "address": "شارع الميثاق – الحى العاشر – مدينة نصر – القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A3%D9%85%D8%A7%D9%86+%D8%B3%D8%AA%D9%88%D8%B1+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%8A%D8%AB%D8%A7%D9%82+%E2%80%93+%D8%A7%D9%84%D8%AD%D9%89+%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1+%E2%80%93+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+%E2%80%93+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-d690e56d7f1b6768",
+      "name": "بنك البركة - ATM-القاهرة الجديدة",
+      "address": "قطعة 75 منطقة خدمات التجمع الخامس القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9997703%2C31.4366277"
+    },
+    {
+      "id": "albaraka-438cedb8754210df",
+      "name": "بنك البركة - ATM-التجمع الخامس",
+      "address": "شارع 90 ،29 ب سيتي سنتر ، التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0167460%2C31.4160640"
+    },
+    {
+      "id": "albaraka-92e493bcc131a317",
+      "name": "بنك البركة ATM - ماستر ماركت روكسى",
+      "address": "محطة وقود مصر للبترول – روكسى مصر الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%B1%D9%88%D9%83%D8%B3%D9%89+%D9%85%D8%AD%D8%B7%D8%A9+%D9%88%D9%82%D9%88%D8%AF+%D9%85%D8%B5%D8%B1+%D9%84%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%84+%E2%80%93+%D8%B1%D9%88%D9%83%D8%B3%D9%89+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-72d265928ccb4ae3",
+      "name": "بنك البركة ATM ماستر ماركت الشروق",
+      "address": "بوابة 2 - بجوار براديس مول - مدينة الشروق",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D9%82+%D8%A8%D9%88%D8%A7%D8%A8%D8%A9+2+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%A8%D8%B1%D8%A7%D8%AF%D9%8A%D8%B3+%D9%85%D9%88%D9%84+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D9%82+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-5d51322c6c2e72c3",
+      "name": "بنك البركة ATM - رنين 15 مايو",
+      "address": "مجاورة 10 - بجوار مركز المدينة - 15 مايو",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B1%D9%86%D9%8A%D9%86+15+%D9%85%D8%A7%D9%8A%D9%88+%D9%85%D8%AC%D8%A7%D9%88%D8%B1%D8%A9+10+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%85%D8%B1%D9%83%D8%B2+%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9+-+15+%D9%85%D8%A7%D9%8A%D9%88+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-06d7a9f71a89d967",
+      "name": "بنك البركة ATM - رنين جسر السويس",
+      "address": "شارع جسر السويس - بعد كوبرى التجنيد - اتجاه روكسى",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B1%D9%86%D9%8A%D9%86+%D8%AC%D8%B3%D8%B1+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%AC%D8%B3%D8%B1+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+-+%D8%A8%D8%B9%D8%AF+%D9%83%D9%88%D8%A8%D8%B1%D9%89+%D8%A7%D9%84%D8%AA%D8%AC%D9%86%D9%8A%D8%AF+-+%D8%A7%D8%AA%D8%AC%D8%A7%D9%87+%D8%B1%D9%88%D9%83%D8%B3%D9%89+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-8563b229bf4de119",
+      "name": "بنك البركة ATM - كازيون ماركت - عين شمس",
+      "address": "\" رقم 143 شارع الوحدة العربية مع شارع الحرية - حى عين شمس - محافظة القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+-+%D8%B9%D9%8A%D9%86+%D8%B4%D9%85%D8%B3+%22+%D8%B1%D9%82%D9%85+143+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9+%D9%85%D8%B9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D8%A9+-+%D8%AD%D9%89+%D8%B9%D9%8A%D9%86+%D8%B4%D9%85%D8%B3+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-dbfec9ece7a7edfb",
+      "name": "بنك البركة ATM - وان جولدن اسكور مول",
+      "address": "شارع ال90 - بجوار نادى رويال و نادى بنك مصر - التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%88%D8%A7%D9%86+%D8%AC%D9%88%D9%84%D8%AF%D9%86+%D8%A7%D8%B3%D9%83%D9%88%D8%B1+%D9%85%D9%88%D9%84+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%8490+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%86%D8%A7%D8%AF%D9%89+%D8%B1%D9%88%D9%8A%D8%A7%D9%84+%D9%88+%D9%86%D8%A7%D8%AF%D9%89+%D8%A8%D9%86%D9%83+%D9%85%D8%B5%D8%B1+-+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-e73b7963b3b99ae6",
+      "name": "بنك البركة ATM - مكسيم مول",
+      "address": "شارع التسعين الشمالي - أمام الجامعة الأمريكية بالقاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D9%83%D8%B3%D9%8A%D9%85+%D9%85%D9%88%D9%84+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A+-+%D8%A3%D9%85%D8%A7%D9%85+%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9+%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-6e49c0baa911eb6c",
+      "name": "بنك البركةATM – أوبن أير مول مدينتي",
+      "address": "مدينتى - بوابة 2 - القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9ATM+%E2%80%93+%D8%A3%D9%88%D8%A8%D9%86+%D8%A3%D9%8A%D8%B1+%D9%85%D9%88%D9%84+%D9%85%D8%AF%D9%8A%D9%86%D8%AA%D9%8A+%D9%85%D8%AF%D9%8A%D9%86%D8%AA%D9%89+-+%D8%A8%D9%88%D8%A7%D8%A8%D8%A9+2+-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-49685f2f8d5bdd88",
+      "name": "بنك البركة -ديستركيت 5 مول",
+      "address": "اول طريق السخنة - القطامية - شركة مراكز السخنة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-%D8%AF%D9%8A%D8%B3%D8%AA%D8%B1%D9%83%D9%8A%D8%AA+5+%D9%85%D9%88%D9%84+%D8%A7%D9%88%D9%84+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%B3%D8%AE%D9%86%D8%A9+-+%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D9%85%D9%8A%D8%A9+-+%D8%B4%D8%B1%D9%83%D8%A9+%D9%85%D8%B1%D8%A7%D9%83%D8%B2+%D8%A7%D9%84%D8%B3%D8%AE%D9%86%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-a757f42239993502",
+      "name": "بنك البركة ATM - سيركل ك ميفيدا",
+      "address": "كموند ميفيدا –كلوب هاوس 47 - التجمع الخامس – القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B3%D9%8A%D8%B1%D9%83%D9%84+%D9%83+%D9%85%D9%8A%D9%81%D9%8A%D8%AF%D8%A7+%D9%83%D9%85%D9%88%D9%86%D8%AF+%D9%85%D9%8A%D9%81%D9%8A%D8%AF%D8%A7+%E2%80%93%D9%83%D9%84%D9%88%D8%A8+%D9%87%D8%A7%D9%88%D8%B3+47+-+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%E2%80%93+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-8a66be5115a3092b",
+      "name": "بنك البركة ATM - رنين استور - حلوان",
+      "address": "كورنيش النيل – حلوان - برج الفؤاد",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B1%D9%86%D9%8A%D9%86+%D8%A7%D8%B3%D8%AA%D9%88%D8%B1+-+%D8%AD%D9%84%D9%88%D8%A7%D9%86+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+%E2%80%93+%D8%AD%D9%84%D9%88%D8%A7%D9%86+-+%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D9%81%D8%A4%D8%A7%D8%AF+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-0f09b63a8098b888",
+      "name": "بنك البركةATM – ديستريكت 5",
+      "address": "اول طريق السخنة - القطامية - شركة مراكز السخنة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9ATM+%E2%80%93+%D8%AF%D9%8A%D8%B3%D8%AA%D8%B1%D9%8A%D9%83%D8%AA+5+%D8%A7%D9%88%D9%84+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%B3%D8%AE%D9%86%D8%A9+-+%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D9%85%D9%8A%D8%A9+-+%D8%B4%D8%B1%D9%83%D8%A9+%D9%85%D8%B1%D8%A7%D9%83%D8%B2+%D8%A7%D9%84%D8%B3%D8%AE%D9%86%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-f539abde8b09609a",
+      "name": "بنك البركة ATM- الماظة بارك - مول",
+      "address": "الماظة - امام مستشفى مصر للطيران - الماظة بارك مول",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM-+%D8%A7%D9%84%D9%85%D8%A7%D8%B8%D8%A9+%D8%A8%D8%A7%D8%B1%D9%83+-+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D9%85%D8%A7%D8%B8%D8%A9+-+%D8%A7%D9%85%D8%A7%D9%85+%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89+%D9%85%D8%B5%D8%B1+%D9%84%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86+-+%D8%A7%D9%84%D9%85%D8%A7%D8%B8%D8%A9+%D8%A8%D8%A7%D8%B1%D9%83+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-0ef12322f579558b",
+      "name": "بنك البركة ATM - ذا يارد مول",
+      "address": "مدينة الرحاب - بوابة 6 - القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B0%D8%A7+%D9%8A%D8%A7%D8%B1%D8%AF+%D9%85%D9%88%D9%84+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8+-+%D8%A8%D9%88%D8%A7%D8%A8%D8%A9+6+-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-882f6b3ea0d65c4a",
+      "name": "بنك البركة ATM - كازيون ماركت الزمالك",
+      "address": "المحل التجارى ببرج ميتيكس الكائن 19 ش أحمد حشمت - قسم الزمالك - محافظة القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%89+%D8%A8%D8%A8%D8%B1%D8%AC+%D9%85%D9%8A%D8%AA%D9%8A%D9%83%D8%B3+%D8%A7%D9%84%D9%83%D8%A7%D8%A6%D9%86+19+%D8%B4+%D8%A3%D8%AD%D9%85%D8%AF+%D8%AD%D8%B4%D9%85%D8%AA+-+%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-c13556d75f5c1eb6",
+      "name": "بنك البركة ATM - مول 5A",
+      "address": "قطعة 5 أ المنطقة السياحية التجمع الخامس- القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D9%88%D9%84+5A+%D9%82%D8%B7%D8%B9%D8%A9+5+%D8%A3+%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9+%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A%D8%A9+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-c1840bf79351b2f1",
+      "name": "بنك البركة ATM - فرع WE حلمية الزيتون",
+      "address": "143 شارع سليم الاول - حلمية الزيتون",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D8%B1%D8%B9+WE+%D8%AD%D9%84%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86+143+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B3%D9%84%D9%8A%D9%85+%D8%A7%D9%84%D8%A7%D9%88%D9%84+-+%D8%AD%D9%84%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-31528314a5f1cf28",
+      "name": "بنك البركة ATM - أوسكار ماركت التجمع الخامس",
+      "address": "خلف جامعة المستقبل، 425 خلف جامعة المستقبل، 425 متفرع من شارع 90، التسعين، القاهرة الجديدة,",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A3%D9%88%D8%B3%D9%83%D8%A7%D8%B1+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%D8%AE%D9%84%D9%81+%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D8%8C+425+%D8%AE%D9%84%D9%81+%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84%D8%8C+425+%D9%85%D8%AA%D9%81%D8%B1%D8%B9+%D9%85%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+90%D8%8C+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86%D8%8C+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%2C+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-f7d0b8b0e104dbdb",
+      "name": "بنك البركة ATM - سكاى لاين بلازا",
+      "address": "شارع المشير أحمد إسماعيل، شيراتون المطر، النزهة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B3%D9%83%D8%A7%D9%89+%D9%84%D8%A7%D9%8A%D9%86+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D8%B4%D9%8A%D8%B1+%D8%A3%D8%AD%D9%85%D8%AF+%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D8%8C+%D8%B4%D9%8A%D8%B1%D8%A7%D8%AA%D9%88%D9%86+%D8%A7%D9%84%D9%85%D8%B7%D8%B1%D8%8C+%D8%A7%D9%84%D9%86%D8%B2%D9%87%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-e6528f835fc5685c",
+      "name": "نك البركة ATM - صيدلية بى ويل مصر الجديدة",
+      "address": "شارع المقريزى - منشية البكرى - مصر الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9+%D8%A8%D9%89+%D9%88%D9%8A%D9%84+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%82%D8%B1%D9%8A%D8%B2%D9%89+-+%D9%85%D9%86%D8%B4%D9%8A%D8%A9+%D8%A7%D9%84%D8%A8%D9%83%D8%B1%D9%89+-+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-0c2eda9af468f519",
+      "name": "بنك البركة ATM - صيدلية بى ويل شارع الطاقة",
+      "address": "عمارات نادى القضاة - شارع الطاقة - مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9+%D8%A8%D9%89+%D9%88%D9%8A%D9%84+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9+%D8%B9%D9%85%D8%A7%D8%B1%D8%A7%D8%AA+%D9%86%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A9+-+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-b0bdb916548c86e3",
+      "name": "بنك البركة ATM - صيدلية بى ويل شبرا الخيمة",
+      "address": "شارع نادى المؤسسة - سور نادى المؤسسة - امام محطة مترو شبرا الخيمة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9+%D8%A8%D9%89+%D9%88%D9%8A%D9%84+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D8%AE%D9%8A%D9%85%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%86%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D8%A9+-+%D8%B3%D9%88%D8%B1+%D9%86%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D8%A9+-+%D8%A7%D9%85%D8%A7%D9%85+%D9%85%D8%AD%D8%B7%D8%A9+%D9%85%D8%AA%D8%B1%D9%88+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D8%AE%D9%8A%D9%85%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-14747106ebfee3c3",
+      "name": "بنك البركة ATM - خير زمان السيدة زينب",
+      "address": "87ش مجلس الامة السيدة زينب",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AE%D9%8A%D8%B1+%D8%B2%D9%85%D8%A7%D9%86+%D8%A7%D9%84%D8%B3%D9%8A%D8%AF%D8%A9+%D8%B2%D9%8A%D9%86%D8%A8+87%D8%B4+%D9%85%D8%AC%D9%84%D8%B3+%D8%A7%D9%84%D8%A7%D9%85%D8%A9+%D8%A7%D9%84%D8%B3%D9%8A%D8%AF%D8%A9+%D8%B2%D9%8A%D9%86%D8%A8+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-5bc6cfe525103739",
+      "name": "بنك البركة ATM - فورى بلس - شارع شبرا",
+      "address": "شارع شبرا – محطة مسره – شبرا مصر – القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+-+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B4%D8%A8%D8%B1%D8%A7+%E2%80%93+%D9%85%D8%AD%D8%B7%D8%A9+%D9%85%D8%B3%D8%B1%D9%87+%E2%80%93+%D8%B4%D8%A8%D8%B1%D8%A7+%D9%85%D8%B5%D8%B1+%E2%80%93+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-987343b2b3f2586a",
+      "name": "بنك البركة ATM - تريفيوم سكوير مول",
+      "address": "منطقة التجمع الخامس، طريق 90 الشمالي، محور محمد نجيب، محافظة القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AA%D8%B1%D9%8A%D9%81%D9%8A%D9%88%D9%85+%D8%B3%D9%83%D9%88%D9%8A%D8%B1+%D9%85%D9%88%D9%84+%D9%85%D9%86%D8%B7%D9%82%D8%A9+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%8C+%D8%B7%D8%B1%D9%8A%D9%82+90+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%8C+%D9%85%D8%AD%D9%88%D8%B1+%D9%85%D8%AD%D9%85%D8%AF+%D9%86%D8%AC%D9%8A%D8%A8%D8%8C+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-8f577543be6377ad",
+      "name": "نك البركة ATM - سكاي لاين بلازا",
+      "address": "شارع المشير أحمد إسماعيل، شيراتون المطار، النزهة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B3%D9%83%D8%A7%D9%8A+%D9%84%D8%A7%D9%8A%D9%86+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D8%B4%D9%8A%D8%B1+%D8%A3%D8%AD%D9%85%D8%AF+%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D8%8C+%D8%B4%D9%8A%D8%B1%D8%A7%D8%AA%D9%88%D9%86+%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B1%D8%8C+%D8%A7%D9%84%D9%86%D8%B2%D9%87%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-ee038f38a179d5c2",
+      "name": "بنك البركة ATM - خير زمان ماركت ريحانه مول",
+      "address": "شارع زهراء المعادى الرئيسى – مول ريحانه معمار المرشدى - بعد نفق زهراء المعادى",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AE%D9%8A%D8%B1+%D8%B2%D9%85%D8%A7%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%B1%D9%8A%D8%AD%D8%A7%D9%86%D9%87+%D9%85%D9%88%D9%84+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B2%D9%87%D8%B1%D8%A7%D8%A1+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%89+%E2%80%93+%D9%85%D9%88%D9%84+%D8%B1%D9%8A%D8%AD%D8%A7%D9%86%D9%87+%D9%85%D8%B9%D9%85%D8%A7%D8%B1+%D8%A7%D9%84%D9%85%D8%B1%D8%B4%D8%AF%D9%89+-+%D8%A8%D8%B9%D8%AF+%D9%86%D9%81%D9%82+%D8%B2%D9%87%D8%B1%D8%A7%D8%A1+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-adb237b46094bdbe",
+      "name": "بنك البركة ATM - مترو ماركت النادى الاهلى",
+      "address": "شارع حسن المأمون – مدينة نصر – امام النادى الاهلى – القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D8%AA%D8%B1%D9%88+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D8%A7%D9%87%D9%84%D9%89+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%AD%D8%B3%D9%86+%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D9%86+%E2%80%93+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+%E2%80%93+%D8%A7%D9%85%D8%A7%D9%85+%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D8%A7%D9%87%D9%84%D9%89+%E2%80%93+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-5cd63a824ce04519",
+      "name": "بنك البركة ATM- فورى بلس الرحاب",
+      "address": "المحل التجاري رقم (338) مدينة الرحاب - السوق القديم - محافظة القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A+%D8%B1%D9%82%D9%85+%28338%29+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8+-+%D8%A7%D9%84%D8%B3%D9%88%D9%82+%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-db5a5696ba2f160d",
+      "name": "بنك البركة ATM- فورى بلس - شارع 9 المعادى",
+      "address": "شارع 9 - المعادى – القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+-+%D8%B4%D8%A7%D8%B1%D8%B9+9+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%89+%D8%B4%D8%A7%D8%B1%D8%B9+9+-+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%89+%E2%80%93+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-30605a114c1ad734",
+      "name": "بنك البركة ATM - العثيم ماركت ذا جاردن",
+      "address": "ذا جاردن - سور الحديقة الدولية – مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%84%D8%B9%D8%AB%D9%8A%D9%85+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%B0%D8%A7+%D8%AC%D8%A7%D8%B1%D8%AF%D9%86+%D8%B0%D8%A7+%D8%AC%D8%A7%D8%B1%D8%AF%D9%86+-+%D8%B3%D9%88%D8%B1+%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D9%82%D8%A9+%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9+%E2%80%93+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-25fc5beb5c7a15a4",
+      "name": "بنك البركة ATM - العثيم ماركت المعادى",
+      "address": "21شارع الحريه- ميدان الحريه - المعادي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%84%D8%B9%D8%AB%D9%8A%D9%85+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%89+21%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%87-+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%87+-+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-d761dfd60c384c25",
+      "name": "بنك البركة- فرع التجمع الخامس الإلكتروني",
+      "address": "شارع 90 ،29 ب داون تاون ، التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9-+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A+%D8%B4%D8%A7%D8%B1%D8%B9+90+%D8%8C29+%D8%A8+%D8%AF%D8%A7%D9%88%D9%86+%D8%AA%D8%A7%D9%88%D9%86+%D8%8C+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-88ca873728cdfaa5",
+      "name": "بنك البركة ATM - فورى بلس - هليوبوليس",
+      "address": "شارع الحجاز، أمام مستشفى هليوبوليس - هليوبوليس - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+-+%D9%87%D9%84%D9%8A%D9%88%D8%A8%D9%88%D9%84%D9%8A%D8%B3+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%B2%D8%8C+%D8%A3%D9%85%D8%A7%D9%85+%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89+%D9%87%D9%84%D9%8A%D9%88%D8%A8%D9%88%D9%84%D9%8A%D8%B3+-+%D9%87%D9%84%D9%8A%D9%88%D8%A8%D9%88%D9%84%D9%8A%D8%B3+-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-d16a9e49b0745512",
+      "name": "بنك البركة ATM - كازيون ماركت النزهه",
+      "address": "شارع محمد كامل حسين – النزهه الجديده – القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D9%86%D8%B2%D9%87%D9%87+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%85%D8%AD%D9%85%D8%AF+%D9%83%D8%A7%D9%85%D9%84+%D8%AD%D8%B3%D9%8A%D9%86+%E2%80%93+%D8%A7%D9%84%D9%86%D8%B2%D9%87%D9%87+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D9%87+%E2%80%93+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-7d60f5bf99824864",
+      "name": "بنك البركة ATM - صيدلية د/خالد موسى",
+      "address": "مدينة الواحة - مدينة نصر – القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9+%D8%AF%2F%D8%AE%D8%A7%D9%84%D8%AF+%D9%85%D9%88%D8%B3%D9%89+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%A9+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+%E2%80%93+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-4ef142b585f37cff",
+      "name": "بنك البركة ATM - فورى بلس الزيتون",
+      "address": "2 شارع الزيتون بجوار مول الزيتون",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86+2+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-e2ae9565a37b6aee",
+      "name": "بنك البركة ATM - امان استور المطرية",
+      "address": "شارع المطريه - امام الشهر العقارى – المطرية - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%85%D8%A7%D9%86+%D8%A7%D8%B3%D8%AA%D9%88%D8%B1+%D8%A7%D9%84%D9%85%D8%B7%D8%B1%D9%8A%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D8%B7%D8%B1%D9%8A%D9%87+-+%D8%A7%D9%85%D8%A7%D9%85+%D8%A7%D9%84%D8%B4%D9%87%D8%B1+%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D9%89+%E2%80%93+%D8%A7%D9%84%D9%85%D8%B7%D8%B1%D9%8A%D8%A9+-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-fcad3deaac0c8c19",
+      "name": "بنك البركة ATM - اسواق العثيم حلوان 3",
+      "address": "القطعة 18, 20 بشارع مصطفي فهمي ناصية شارع خسرو ( حلوان ) المحكمه -القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D8%B3%D9%88%D8%A7%D9%82+%D8%A7%D9%84%D8%B9%D8%AB%D9%8A%D9%85+%D8%AD%D9%84%D9%88%D8%A7%D9%86+3+%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9+18%2C+20+%D8%A8%D8%B4%D8%A7%D8%B1%D8%B9+%D9%85%D8%B5%D8%B7%D9%81%D9%8A+%D9%81%D9%87%D9%85%D9%8A+%D9%86%D8%A7%D8%B5%D9%8A%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%AE%D8%B3%D8%B1%D9%88+%28+%D8%AD%D9%84%D9%88%D8%A7%D9%86+%29+%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D9%87+-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-fabf40626ea45e56",
+      "name": "بنك البركة ATM - اسواق العثيم ولى العهد",
+      "address": "89ب امتداد ولي العهد حدائق القبة -ابرج الشروق- القاهره",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D8%B3%D9%88%D8%A7%D9%82+%D8%A7%D9%84%D8%B9%D8%AB%D9%8A%D9%85+%D9%88%D9%84%D9%89+%D8%A7%D9%84%D8%B9%D9%87%D8%AF+89%D8%A8+%D8%A7%D9%85%D8%AA%D8%AF%D8%A7%D8%AF+%D9%88%D9%84%D9%8A+%D8%A7%D9%84%D8%B9%D9%87%D8%AF+%D8%AD%D8%AF%D8%A7%D8%A6%D9%82+%D8%A7%D9%84%D9%82%D8%A8%D8%A9+-%D8%A7%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D9%82-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D9%87+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-9c313391212774a4",
+      "name": "بنك البركة ATM - اسواق العثيم المطرية",
+      "address": "رقم 12 شارع الرشاد ناصية شارع يوسف مخرج المطرية-القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D8%B3%D9%88%D8%A7%D9%82+%D8%A7%D9%84%D8%B9%D8%AB%D9%8A%D9%85+%D8%A7%D9%84%D9%85%D8%B7%D8%B1%D9%8A%D8%A9+%D8%B1%D9%82%D9%85+12+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B1%D8%B4%D8%A7%D8%AF+%D9%86%D8%A7%D8%B5%D9%8A%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%8A%D9%88%D8%B3%D9%81+%D9%85%D8%AE%D8%B1%D8%AC+%D8%A7%D9%84%D9%85%D8%B7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-9d9103df23c261b6",
+      "name": "بنك البركة ATM - اسواق العثيم شارع زغلول",
+      "address": "1 ش زغلول الهرم-الجيزة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D8%B3%D9%88%D8%A7%D9%82+%D8%A7%D9%84%D8%B9%D8%AB%D9%8A%D9%85+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B2%D8%BA%D9%84%D9%88%D9%84+1+%D8%B4+%D8%B2%D8%BA%D9%84%D9%88%D9%84+%D8%A7%D9%84%D9%87%D8%B1%D9%85-%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-01d3e291808745fc",
+      "name": "بنك البركة ATM - مستشفى روفان اسيوط",
+      "address": "طريق المنيا اسيوط - الطريق الدئرى - بجوارى ميدان الوسطى و مدارس الكوثر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89+%D8%B1%D9%88%D9%81%D8%A7%D9%86+%D8%A7%D8%B3%D9%8A%D9%88%D8%B7+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+%D8%A7%D8%B3%D9%8A%D9%88%D8%B7+-+%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%AF%D8%A6%D8%B1%D9%89+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1%D9%89+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D9%88%D8%B3%D8%B7%D9%89+%D9%88+%D9%85%D8%AF%D8%A7%D8%B1%D8%B3+%D8%A7%D9%84%D9%83%D9%88%D8%AB%D8%B1+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-c27b39b327f9194f",
+      "name": "بنك البركة ATM - فورى بلس عين شمس",
+      "address": "المحلين التجاريين أرقام (2-3) بالعقار رقم 158 شارع أحمد عصمت - ناصية شارع علي حسن - عين شمس الشرقية - عين شمس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+%D8%B9%D9%8A%D9%86+%D8%B4%D9%85%D8%B3+%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%8A%D9%86+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D9%8A%D9%86+%D8%A3%D8%B1%D9%82%D8%A7%D9%85+%282-3%29+%D8%A8%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1+%D8%B1%D9%82%D9%85+158+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A3%D8%AD%D9%85%D8%AF+%D8%B9%D8%B5%D9%85%D8%AA+-+%D9%86%D8%A7%D8%B5%D9%8A%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B9%D9%84%D9%8A+%D8%AD%D8%B3%D9%86+-+%D8%B9%D9%8A%D9%86+%D8%B4%D9%85%D8%B3+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+-+%D8%B9%D9%8A%D9%86+%D8%B4%D9%85%D8%B3+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-c11a5c8b049f032b",
+      "name": "بنك البركة ATM - جملة ماركت التجمع الثالث",
+      "address": "التجمع الثالث - بجور ميدان النهضة - محور جمال عبد الناصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9989874%2C31.4714118"
+    },
+    {
+      "id": "albaraka-7a8ef7d36486fc13",
+      "name": "بنك البركة ATM - ماستر ماركت التجمع الخامس",
+      "address": "التجمع الخامس - التسعين الشمالى -كوبرى النائب العام",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+-+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%89+-%D9%83%D9%88%D8%A8%D8%B1%D9%89+%D8%A7%D9%84%D9%86%D8%A7%D8%A6%D8%A8+%D8%A7%D9%84%D8%B9%D8%A7%D9%85+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-7085cde28421e281",
+      "name": "بنك البركة ATM - أسواق فتح الله للجملة بدر",
+      "address": "طريق سعد زغلول - ميدان الحرية - مدينة بدر - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A3%D8%B3%D9%88%D8%A7%D9%82+%D9%81%D8%AA%D8%AD+%D8%A7%D9%84%D9%84%D9%87+%D9%84%D9%84%D8%AC%D9%85%D9%84%D8%A9+%D8%A8%D8%AF%D8%B1+%D8%B7%D8%B1%D9%8A%D9%82+%D8%B3%D8%B9%D8%AF+%D8%B2%D8%BA%D9%84%D9%88%D9%84+-+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D8%A9+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A8%D8%AF%D8%B1+-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-172c5caffb7cac48",
+      "name": "بنك البركة ATM - نادى المستقبل",
+      "address": "مدينة المستقبل - الهايكستب - طريق مصر اسماعيلية الصحراوى - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%86%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84+-+%D8%A7%D9%84%D9%87%D8%A7%D9%8A%D9%83%D8%B3%D8%AA%D8%A8+-+%D8%B7%D8%B1%D9%8A%D9%82+%D9%85%D8%B5%D8%B1+%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%89+-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-210a4b8e62ac5170",
+      "name": "بنك البركة ATM -العثيم ماركت مصر الجديدة",
+      "address": "شارع النزهة - ميدان تريومف - مصر الجديدة - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-%D8%A7%D9%84%D8%B9%D8%AB%D9%8A%D9%85+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%86%D8%B2%D9%87%D8%A9+-+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%AA%D8%B1%D9%8A%D9%88%D9%85%D9%81+-+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-5e87f13e870639a3",
+      "name": "بنك البركة ATM -مسجد النزهة",
+      "address": "شارع مكرم عبيد - امام سيتى ستارز - مدينة نصر - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-%D9%85%D8%B3%D8%AC%D8%AF+%D8%A7%D9%84%D9%86%D8%B2%D9%87%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%85%D9%83%D8%B1%D9%85+%D8%B9%D8%A8%D9%8A%D8%AF+-+%D8%A7%D9%85%D8%A7%D9%85+%D8%B3%D9%8A%D8%AA%D9%89+%D8%B3%D8%AA%D8%A7%D8%B1%D8%B2+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-b26899489e142068",
+      "name": "بنك البركة ATM -نادى النصر الرياضى",
+      "address": "ميدان المحكمة – الحجاز – مصر الجديدة - القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-%D9%86%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D9%86%D8%B5%D8%B1+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%89+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9+%E2%80%93+%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%B2+%E2%80%93+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-ce452481545e1e37",
+      "name": "بنك البركة - فرع الإسكندرية",
+      "address": "71 شارع السلطان حسين -باب شرق – الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2004914%2C29.9080028"
+    },
+    {
+      "id": "albaraka-5ffc7c2a87b21a1b",
+      "name": "بنك البركة - فرع برج العرب",
+      "address": "المنطقة الخامسة - منطقة البنوك - أمام جهاز المدينة - مدينة برج العرب الجديدة - الإسكندرية - مصر",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8835074%2C29.5771801"
+    },
+    {
+      "id": "albaraka-899ae7ec16ab57f4",
+      "name": "بنك البركة - فرع سموحة",
+      "address": "عمارة(S)، عمارات سموحة تراس شارع 38، متفرع من شارع فيكتور عمانئويل – سموحة – قسم سيدي جابر – محافظة الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2165677%2C29.9410127"
+    },
+    {
+      "id": "albaraka-f13f69b475b04ed5",
+      "name": "بنك البركة - جملة ماركت بشاير الخير",
+      "address": "ن : 47 /48 /49 مدينة بشاير الخير 3 بالقبارى – الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1626509%2C29.8885779"
+    },
+    {
+      "id": "albaraka-0336ba952d3c5a1d",
+      "name": "بنك البركة - فرع ستانلي",
+      "address": "46 شارع عبد العزيز فهمي - الرمل - الأسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2365628%2C29.9508180"
+    },
+    {
+      "id": "albaraka-2a678112aeeb2903",
+      "name": "بنك البركة ATM - جملة ماركت جرين تورز",
+      "address": "جرين تاورز _سموحة - بجوار ابيس",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2039439%2C29.9634666"
+    },
+    {
+      "id": "albaraka-09a6e78a248ad574",
+      "name": "بنك البركة ATM - جملة ماركت كرموز",
+      "address": "\"قنال المحمودية البحري، نوبار، كرموز\"",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1813857%2C29.9046222"
+    },
+    {
+      "id": "albaraka-217a4cf9d3394efe",
+      "name": "بنك البركة ATM - جملة ماركت ميامى 45",
+      "address": "\"ميامى شارع ٤٥ أمام شاطىء البوريفاج، حى المنتزه\"",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2709925%2C29.9977510"
+    },
+    {
+      "id": "albaraka-a26788a2de383f33",
+      "name": "بنك البركة ATM - جملة ماركت جناكليس مول",
+      "address": "شارع الفتح منطقة سان استيفانو -قسم الرمل",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2435502%2C29.9693130"
+    },
+    {
+      "id": "albaraka-2eae852636067067",
+      "name": "بنك البركة ATM - جملة ماركت المنتزة",
+      "address": "6 ابراج شيراتون المنتزة - المنتزة",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2806830%2C30.0146630"
+    },
+    {
+      "id": "albaraka-1e4237422b1219ef",
+      "name": "بنك البركة ATM - خير زمان جليم",
+      "address": "عقار رقم 366 – مجمع الوطنية – النموذج المتميز – جليم",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2208673%2C29.9312378"
+    },
+    {
+      "id": "albaraka-17bab13e926526ce",
+      "name": "بنك البركة ATM - كارفور سيتى سنتر الإسكندرية",
+      "address": "الكيلو8 طريق الاسكندرية الصحراوي – الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1688326%2C29.9316368"
+    },
+    {
+      "id": "albaraka-6d0eee4d059025f9",
+      "name": "بنك البركة ATM - كارفور جرين بلازا",
+      "address": "مول جرين بلازا – الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2062560%2C29.9667639"
+    },
+    {
+      "id": "albaraka-de4b3bda33a5604e",
+      "name": "بنك البركة ATM - جملة ماركت الجمرك",
+      "address": "\"أبو شوشة، قسم الجمرك، الإسكندرية\"",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1903887%2C29.9199815"
+    },
+    {
+      "id": "albaraka-b787ca353805652d",
+      "name": "بنك البركة - فرع ميامى",
+      "address": "18 طريق الكورنيش منطقة ميامى سيدى بشر المنتزة بجوار شارع 45 الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2703889%2C29.9938056"
+    },
+    {
+      "id": "albaraka-7b4f5b8baf5732f3",
+      "name": "بنك البركة ATM - محطة قطار سيدى جابر",
+      "address": "ميدان سيدى جابر الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2189328%2C29.9424796"
+    },
+    {
+      "id": "albaraka-167e4969669d995c",
+      "name": "بنك البركة ATM - جملة ماركت محطة الرمل",
+      "address": "شارع البطريركيه اليونانيه بأستامبول رقم (11) شارع العطارين محطة الرمل",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1986523%2C29.9021085"
+    },
+    {
+      "id": "albaraka-d410a63fe304d31f",
+      "name": "بنك البركة ATM - رنين العجمى",
+      "address": "شارع مصر اسكندرية الصحراوى – العجمى - اسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0863000%2C29.7474200"
+    },
+    {
+      "id": "albaraka-cf08af6c2929eaff",
+      "name": "بنك البركة ATM - رنين السيوف",
+      "address": "طريق الإسكندرية- مرسى مطروح الساحل الشمالى",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2457500%2C29.9901200"
+    },
+    {
+      "id": "albaraka-6a38f0e199a32715",
+      "name": "بنك البركة - ATM-برج العرب",
+      "address": "المنطقة الخامسة - منطقة البنوك - أمام جهاز المدينة - مدينة برج العرب الجديدة - الإسكندرية - مصر",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8835074%2C29.5771801"
+    },
+    {
+      "id": "albaraka-2b26c177f075d450",
+      "name": "بنك البركة ATM - فورى بلس - ابوقير",
+      "address": "أبو قير - شارع طوسون - بجوار مدرسة الاباء الفرنسيسكان - الأسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+-+%D8%A7%D8%A8%D9%88%D9%82%D9%8A%D8%B1+%D8%A3%D8%A8%D9%88+%D9%82%D9%8A%D8%B1+-+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B7%D9%88%D8%B3%D9%88%D9%86+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%85%D8%AF%D8%B1%D8%B3%D8%A9+%D8%A7%D9%84%D8%A7%D8%A8%D8%A7%D8%A1+%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%B3%D9%83%D8%A7%D9%86+-+%D8%A7%D9%84%D8%A3%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-43f095ad8757ced9",
+      "name": "بنك البركة ATM - أمان ستور العامرية",
+      "address": "المحل 2 بالعقار رقم 23 شارع الشرقاي – العامرية – محافظة الأسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A3%D9%85%D8%A7%D9%86+%D8%B3%D8%AA%D9%88%D8%B1+%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D9%85%D8%AD%D9%84+2+%D8%A8%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1+%D8%B1%D9%82%D9%85+23+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D8%A7%D9%8A+%E2%80%93+%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%B1%D9%8A%D8%A9+%E2%80%93+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A3%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-e5c9cfda104c95fa",
+      "name": "بنك البركة ATM - شركة بترومنت",
+      "address": "ش وادى القمر - المكس - الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B4%D8%B1%D9%83%D8%A9+%D8%A8%D8%AA%D8%B1%D9%88%D9%85%D9%86%D8%AA+%D8%B4+%D9%88%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D9%82%D9%85%D8%B1+-+%D8%A7%D9%84%D9%85%D9%83%D8%B3+-+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-24072bf89ee31fce",
+      "name": "بنك البركة ATM - سيركل ك الشاطبى",
+      "address": "سيركل ك - محطة وقودا لتعاون - طريق الجيش - كورنيش الشاطبى - الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B3%D9%8A%D8%B1%D9%83%D9%84+%D9%83+%D8%A7%D9%84%D8%B4%D8%A7%D8%B7%D8%A8%D9%89+%D8%B3%D9%8A%D8%B1%D9%83%D9%84+%D9%83+-+%D9%85%D8%AD%D8%B7%D8%A9+%D9%88%D9%82%D9%88%D8%AF%D8%A7+%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%AC%D9%8A%D8%B4+-+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D8%B4%D8%A7%D8%B7%D8%A8%D9%89+-+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-9bed861603adc571",
+      "name": "بنك البركة ATM - مستشفى الاندليسة اسكندرية",
+      "address": "460 شارع أبو قير، فلمنج، قسم أول الرمل، محافظة الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89+%D8%A7%D9%84%D8%A7%D9%86%D8%AF%D9%84%D9%8A%D8%B3%D8%A9+%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+460+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A3%D8%A8%D9%88+%D9%82%D9%8A%D8%B1%D8%8C+%D9%81%D9%84%D9%85%D9%86%D8%AC%D8%8C+%D9%82%D8%B3%D9%85+%D8%A3%D9%88%D9%84+%D8%A7%D9%84%D8%B1%D9%85%D9%84%D8%8C+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-ad52461d0592eb1b",
+      "name": "بنك البركة ATM- فورى بلس سيدى بشر",
+      "address": "المحل التجارى رقم (4) بالدور الأرضي - شارع رقم 600 سابقاً وحاليا شارع القاهرة – سيدى بشر - محافظة الأسكندرية.",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+%D8%B3%D9%8A%D8%AF%D9%89+%D8%A8%D8%B4%D8%B1+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%89+%D8%B1%D9%82%D9%85+%284%29+%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1+%D8%A7%D9%84%D8%A3%D8%B1%D8%B6%D9%8A+-+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B1%D9%82%D9%85+600+%D8%B3%D8%A7%D8%A8%D9%82%D8%A7%D9%8B+%D9%88%D8%AD%D8%A7%D9%84%D9%8A%D8%A7+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%E2%80%93+%D8%B3%D9%8A%D8%AF%D9%89+%D8%A8%D8%B4%D8%B1+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A3%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9.+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-192210874dd81be1",
+      "name": "بنك البركة ATM- أمان البيطاش",
+      "address": "المحل التجاري رقم ٤ بالدور الارضي - بشارع البيطاش العمومي - تقاطع شارع القاعة الجوية - قسم الدخيلة – محافظة الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM-+%D8%A3%D9%85%D8%A7%D9%86+%D8%A7%D9%84%D8%A8%D9%8A%D8%B7%D8%A7%D8%B4+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A+%D8%B1%D9%82%D9%85+%D9%A4+%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1+%D8%A7%D9%84%D8%A7%D8%B1%D8%B6%D9%8A+-+%D8%A8%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%A8%D9%8A%D8%B7%D8%A7%D8%B4+%D8%A7%D9%84%D8%B9%D9%85%D9%88%D9%85%D9%8A+-+%D8%AA%D9%82%D8%A7%D8%B7%D8%B9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%82%D8%A7%D8%B9%D8%A9+%D8%A7%D9%84%D8%AC%D9%88%D9%8A%D8%A9+-+%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AF%D8%AE%D9%8A%D9%84%D8%A9+%E2%80%93+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-eab23877ff7f1cf5",
+      "name": "بنك البركة ATM- شركة بترول ايلاب",
+      "address": "طريق وادى القمر - العجمى القبلية - الدخيلة - الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM-+%D8%B4%D8%B1%D9%83%D8%A9+%D8%A8%D8%AA%D8%B1%D9%88%D9%84+%D8%A7%D9%8A%D9%84%D8%A7%D8%A8+%D8%B7%D8%B1%D9%8A%D9%82+%D9%88%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D9%82%D9%85%D8%B1+-+%D8%A7%D9%84%D8%B9%D8%AC%D9%85%D9%89+%D8%A7%D9%84%D9%82%D8%A8%D9%84%D9%8A%D8%A9+-+%D8%A7%D9%84%D8%AF%D8%AE%D9%8A%D9%84%D8%A9+-+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-e1640cc81ce657b1",
+      "name": "مكتبة الاسكندرية",
+      "address": "اول شارع بور سعيد – امام المجمع النظرى – الشاطبى – الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D9%85%D9%83%D8%AA%D8%A8%D8%A9+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%88%D9%84+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A8%D9%88%D8%B1+%D8%B3%D8%B9%D9%8A%D8%AF+%E2%80%93+%D8%A7%D9%85%D8%A7%D9%85+%D8%A7%D9%84%D9%85%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D9%86%D8%B8%D8%B1%D9%89+%E2%80%93+%D8%A7%D9%84%D8%B4%D8%A7%D8%B7%D8%A8%D9%89+%E2%80%93+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-0448e4ae70f70f0b",
+      "name": "سيستم - موبيل استور",
+      "address": "طريق جمال عبد الناصل - امام الاكاديمية العربية للعلوم وتكنولوجيا النقل البحرى – ميمامى – الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%B3%D9%8A%D8%B3%D8%AA%D9%85+-+%D9%85%D9%88%D8%A8%D9%8A%D9%84+%D8%A7%D8%B3%D8%AA%D9%88%D8%B1+%D8%B7%D8%B1%D9%8A%D9%82+%D8%AC%D9%85%D8%A7%D9%84+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D9%84+-+%D8%A7%D9%85%D8%A7%D9%85+%D8%A7%D9%84%D8%A7%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9+%D9%84%D9%84%D8%B9%D9%84%D9%88%D9%85+%D9%88%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7+%D8%A7%D9%84%D9%86%D9%82%D9%84+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%89+%E2%80%93+%D9%85%D9%8A%D9%85%D8%A7%D9%85%D9%89+%E2%80%93+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-3b662c0b42b63d3f",
+      "name": "بنك البركة ATM - فورى بلس سموحة",
+      "address": "محمد فوزى مغاذى – سموحة - الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+%D8%B3%D9%85%D9%88%D8%AD%D8%A9+%D9%85%D8%AD%D9%85%D8%AF+%D9%81%D9%88%D8%B2%D9%89+%D9%85%D8%BA%D8%A7%D8%B0%D9%89+%E2%80%93+%D8%B3%D9%85%D9%88%D8%AD%D8%A9+-+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-9969bdd59d5a7abf",
+      "name": "بنك البركة ATM - جملة ماركت – العجمى ستار",
+      "address": "شارع الايمان - امام مرور العجمى - الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%E2%80%93+%D8%A7%D9%84%D8%B9%D8%AC%D9%85%D9%89+%D8%B3%D8%AA%D8%A7%D8%B1+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%A7%D9%8A%D9%85%D8%A7%D9%86+-+%D8%A7%D9%85%D8%A7%D9%85+%D9%85%D8%B1%D9%88%D8%B1+%D8%A7%D9%84%D8%B9%D8%AC%D9%85%D9%89+-+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-b84dd9610b6770e7",
+      "name": "بنك البركة ATM - جملة ماركت – روز جاردن",
+      "address": "طريق القاهرة - الإسكندرية الصحراوي - العامرية، محافظة الإسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%E2%80%93+%D8%B1%D9%88%D8%B2+%D8%AC%D8%A7%D8%B1%D8%AF%D9%86+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+-+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%8A+-+%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%B1%D9%8A%D8%A9%D8%8C+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-bbfa5e5bb5de6670",
+      "name": "بنك البركة ATM - جملة ماركت برج العرب",
+      "address": "جملة ماركت - مدينة برج العرب - الاسكندرية",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8900984%2C29.5873009"
+    },
+    {
+      "id": "albaraka-af5cc9a54b82f50c",
+      "name": "بنك البركة - فرع المهندسين",
+      "address": "45 شارع محمد حسن حلمي- المهندسين - الجيزة - مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0553570%2C31.2021780"
+    },
+    {
+      "id": "albaraka-79935deb06409fa4",
+      "name": "بنك البركة - فرع محى الدين أبو العز",
+      "address": "62 شارع محي الدين أبو العز - الدقي - الجيزة - مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0419539%2C31.2001865"
+    },
+    {
+      "id": "albaraka-f6dc0b0550cbe543",
+      "name": "بنك البركة - فرع فيصل",
+      "address": "شارع السلام المتفرع من شارع فيصل - أمام كلية التربية الرياضية - الجيزة - مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0102196%2C31.1898600"
+    },
+    {
+      "id": "albaraka-5311ee10ae164051",
+      "name": "بنك البركة - فرع الدقى",
+      "address": "33 شارع المساحة - الدقي- الجيزة - مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0379629%2C31.2171420"
+    },
+    {
+      "id": "albaraka-52cda0de4800a329",
+      "name": "بنك البركة - فرع أحمد عرابي",
+      "address": "13 ناصية شارعى الهادى والامين من شارع احمد عرابى - مدينة الصحفيين - العجوزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0511223%2C31.2125529"
+    },
+    {
+      "id": "albaraka-95506d3d201256d4",
+      "name": "بنك البركة - فرع الهرم",
+      "address": "48 شارع الهرم - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9893293%2C31.1474689"
+    },
+    {
+      "id": "albaraka-94f8a2e4fc20cd1d",
+      "name": "بنك البركة - فرع الشيخ زايد",
+      "address": "قطعة رقم 3 (I) مشروع ليجيندا الحى الاول",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0290656%2C31.0011837"
+    },
+    {
+      "id": "albaraka-1e3097b8adc33f85",
+      "name": "بنك البركة ATM - ماستر ماركت وصلة دهشور",
+      "address": "داخل ماستر ماركت بمحطة وقود شيل اوت – زايد 1 بوصلة دهشور بجوار مدخل الشيخ زايد 4",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0294146%2C30.9642997"
+    },
+    {
+      "id": "albaraka-9aa88098592df2ff",
+      "name": "بنك البركة ATM - مول مصر",
+      "address": "\"طريق الواحات، قسم أول 6 أكتوبر، اول 6 أكتوبر\"",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9718413%2C31.0166975"
+    },
+    {
+      "id": "albaraka-606672b48f8e7b2e",
+      "name": "بنك البركة ATM - مول الأهرام",
+      "address": "1/16 منطقة - حدائق الأهرام - جيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9699714%2C31.0999191"
+    },
+    {
+      "id": "albaraka-824fc07362592fad",
+      "name": "بنك البركة ATM - مول أركان بلازا",
+      "address": "المحور المركزى مدخل زايد 2000 مدينة الشيج زايد -6 أكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0209248%2C31.0033736"
+    },
+    {
+      "id": "albaraka-ef41fa49f96fb065",
+      "name": "بنك البركة ATM - فيرست مول",
+      "address": "الطالبية - فيصل - محافظة الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0068759%2C31.1773765"
+    },
+    {
+      "id": "albaraka-106bf14f781d5743",
+      "name": "بنك البركة ATM - كارفور داندي مول",
+      "address": "داندي مول – اكتوبر - طريق مصر الاسكندرية الصحراوي",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0632017%2C31.0274769"
+    },
+    {
+      "id": "albaraka-c6f5cc91d6474686",
+      "name": "بنك البركة ATM - فورى بلس الوراق",
+      "address": "عقار1 شارع الدكتور سعد اللبان من كورنيش النيل -برج المغربى وراق الحضر امبابة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0962000%2C31.2233200"
+    },
+    {
+      "id": "albaraka-2c1c6a925bf840b0",
+      "name": "بنك البركة ATM - مول العرب",
+      "address": "المحور المركزى ميدان جهينة السادس من أكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0072411%2C30.9750663"
+    },
+    {
+      "id": "albaraka-9dc7b2245bfa757c",
+      "name": "بنك البركة ATM - أمان ستورز سليمان جوهر",
+      "address": "15شارع محمود امين من شارع سليمان جوهر - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0419141%2C31.2125753"
+    },
+    {
+      "id": "albaraka-e7d9245950d1c0ec",
+      "name": "بنك البركة ATM - محطة قطار الجيزة",
+      "address": "ميدان الجيزة العمرانية",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0093085%2C31.2079196"
+    },
+    {
+      "id": "albaraka-aab2027c5126e7e3",
+      "name": "بنك البركة ATM - صيدلية الحلو",
+      "address": "شارع الجيش - حدائق الأهرام – الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9614346%2C31.0895224"
+    },
+    {
+      "id": "albaraka-698239d4acd535af",
+      "name": "بنك البركة - ATM-السادس من أكتوبر",
+      "address": "قطعة رقم 1/أ مركز خدمات الخامس والسادس - السادس من أكتوبر- مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9520833%2C30.9135934"
+    },
+    {
+      "id": "albaraka-a1b1f1075d8603bf",
+      "name": "بنك البركة ATM - جاليريا 40 مول",
+      "address": "محور 26 يوليو، قسم الشيخ زايد، الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AC%D8%A7%D9%84%D9%8A%D8%B1%D9%8A%D8%A7+40+%D9%85%D9%88%D9%84+%D9%85%D8%AD%D9%88%D8%B1+26+%D9%8A%D9%88%D9%84%D9%8A%D9%88%D8%8C+%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%B4%D9%8A%D8%AE+%D8%B2%D8%A7%D9%8A%D8%AF%D8%8C+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-97efb5cefcc9d326",
+      "name": "بنك البركة ATM - كازيون ماركت العجوزة",
+      "address": "شارع طنطا - العجوزة - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D8%B9%D8%AC%D9%88%D8%B2%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B7%D9%86%D8%B7%D8%A7+-+%D8%A7%D9%84%D8%B9%D8%AC%D9%88%D8%B2%D8%A9+-+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-e515bbda16ffd5ea",
+      "name": "بنك البركة - واك اوف كايرو - مول",
+      "address": "الشيخ زايد - بعد كموند بيفرلى هيلز - 6اكتوبر - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D9%88%D8%A7%D9%83+%D8%A7%D9%88%D9%81+%D9%83%D8%A7%D9%8A%D8%B1%D9%88+-+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D8%B4%D9%8A%D8%AE+%D8%B2%D8%A7%D9%8A%D8%AF+-+%D8%A8%D8%B9%D8%AF+%D9%83%D9%85%D9%88%D9%86%D8%AF+%D8%A8%D9%8A%D9%81%D8%B1%D9%84%D9%89+%D9%87%D9%8A%D9%84%D8%B2+-+6%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1+-+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-4b2c854ef0aa1a29",
+      "name": "بنك البركة ATM -حديقة زايد المركزية",
+      "address": "الشيخ زايد - 6اكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-%D8%AD%D8%AF%D9%8A%D9%82%D8%A9+%D8%B2%D8%A7%D9%8A%D8%AF+%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%A9+%D8%A7%D9%84%D8%B4%D9%8A%D8%AE+%D8%B2%D8%A7%D9%8A%D8%AF+-+6%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-6f48da4e93875a85",
+      "name": "بنك البركة ATM - امان ستور الحصرى",
+      "address": "امام مسجد الحصرى - السادس من اكتوبر - محافظة الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%85%D8%A7%D9%86+%D8%B3%D8%AA%D9%88%D8%B1+%D8%A7%D9%84%D8%AD%D8%B5%D8%B1%D9%89+%D8%A7%D9%85%D8%A7%D9%85+%D9%85%D8%B3%D8%AC%D8%AF+%D8%A7%D9%84%D8%AD%D8%B5%D8%B1%D9%89+-+%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3+%D9%85%D9%86+%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-a3c2be31645febc6",
+      "name": "بنك البركة ATM - ماستر ماركت - المهندسين",
+      "address": "محطة وقود التعاون - ماستر ماركت - مدينة الأعلام - ، المهندسين ، محافظة الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+-+%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D9%86+%D9%85%D8%AD%D8%B7%D8%A9+%D9%88%D9%82%D9%88%D8%AF+%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86+-+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%A3%D8%B9%D9%84%D8%A7%D9%85+-+%D8%8C+%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D9%86+%D8%8C+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-2e62eea27c0f2076",
+      "name": "بنك البركة - فرع نيو زايد",
+      "address": "سوديك وست - ستريب مول – وصلة دهشور – الشيخ زايد",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D9%81%D8%B1%D8%B9+%D9%86%D9%8A%D9%88+%D8%B2%D8%A7%D9%8A%D8%AF+%D8%B3%D9%88%D8%AF%D9%8A%D9%83+%D9%88%D8%B3%D8%AA+-+%D8%B3%D8%AA%D8%B1%D9%8A%D8%A8+%D9%85%D9%88%D9%84+%E2%80%93+%D9%88%D8%B5%D9%84%D8%A9+%D8%AF%D9%87%D8%B4%D9%88%D8%B1+%E2%80%93+%D8%A7%D9%84%D8%B4%D9%8A%D8%AE+%D8%B2%D8%A7%D9%8A%D8%AF+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-9a9a7f5b4be17274",
+      "name": "بنك البركة ATM - كازيون ماركت شارع السودان",
+      "address": "العقار رقم 268 شارع السودان - العجوزة - محافظة الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1+%D8%B1%D9%82%D9%85+268+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86+-+%D8%A7%D9%84%D8%B9%D8%AC%D9%88%D8%B2%D8%A9+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-b14540512619c5fb",
+      "name": "بنك البركة ATM - كازيون ماركت المريوطية",
+      "address": "لمحل الكائن بالعقار رقم 43 شارع استديو مصر - المريوطية الرئيسي - حي الطالبية - محافظة الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D9%88%D8%B7%D9%8A%D8%A9+%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D9%83%D8%A7%D8%A6%D9%86+%D8%A8%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1+%D8%B1%D9%82%D9%85+43+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D8%B3%D8%AA%D8%AF%D9%8A%D9%88+%D9%85%D8%B5%D8%B1+-+%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D9%88%D8%B7%D9%8A%D8%A9+%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A+-+%D8%AD%D9%8A+%D8%A7%D9%84%D8%B7%D8%A7%D9%84%D8%A8%D9%8A%D8%A9+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-35f938fa3574b0b4",
+      "name": "بنك البركة ATM - خير زمان شارع البطل",
+      "address": "37ش البطل احمد عبد العزيز-المهندسين",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AE%D9%8A%D8%B1+%D8%B2%D9%85%D8%A7%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%A8%D8%B7%D9%84+37%D8%B4+%D8%A7%D9%84%D8%A8%D8%B7%D9%84+%D8%A7%D8%AD%D9%85%D8%AF+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-785c34a01ba37ee9",
+      "name": "بنك البركة ATM - خير زمان سعد بن أبي وقاص",
+      "address": "10ش سعد بن ابى وقاص ناصيه بيتزا كينج -الهرم",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AE%D9%8A%D8%B1+%D8%B2%D9%85%D8%A7%D9%86+%D8%B3%D8%B9%D8%AF+%D8%A8%D9%86+%D8%A3%D8%A8%D9%8A+%D9%88%D9%82%D8%A7%D8%B5+10%D8%B4+%D8%B3%D8%B9%D8%AF+%D8%A8%D9%86+%D8%A7%D8%A8%D9%89+%D9%88%D9%82%D8%A7%D8%B5+%D9%86%D8%A7%D8%B5%D9%8A%D9%87+%D8%A8%D9%8A%D8%AA%D8%B2%D8%A7+%D9%83%D9%8A%D9%86%D8%AC+-%D8%A7%D9%84%D9%87%D8%B1%D9%85+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-8c7769d09ee861ac",
+      "name": "بنك البركة ATM - ويست تاون هب - بيفرلى هيلز",
+      "address": "وست تاون هب - بيفرلى هيلز - الشيخ زايد - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%88%D9%8A%D8%B3%D8%AA+%D8%AA%D8%A7%D9%88%D9%86+%D9%87%D8%A8+-+%D8%A8%D9%8A%D9%81%D8%B1%D9%84%D9%89+%D9%87%D9%8A%D9%84%D8%B2+%D9%88%D8%B3%D8%AA+%D8%AA%D8%A7%D9%88%D9%86+%D9%87%D8%A8+-+%D8%A8%D9%8A%D9%81%D8%B1%D9%84%D9%89+%D9%87%D9%8A%D9%84%D8%B2+-+%D8%A7%D9%84%D8%B4%D9%8A%D8%AE+%D8%B2%D8%A7%D9%8A%D8%AF+-+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-30e872e5db03294c",
+      "name": "بنك البركة ATM - جملة ماركت حدائق الاهرام",
+      "address": "حدائق الاهرام - بوابة 1 – الجيزة – السادس من اكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%AD%D8%AF%D8%A7%D8%A6%D9%82+%D8%A7%D9%84%D8%A7%D9%87%D8%B1%D8%A7%D9%85+%D8%AD%D8%AF%D8%A7%D8%A6%D9%82+%D8%A7%D9%84%D8%A7%D9%87%D8%B1%D8%A7%D9%85+-+%D8%A8%D9%88%D8%A7%D8%A8%D8%A9+1+%E2%80%93+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%E2%80%93+%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3+%D9%85%D9%86+%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-2478b4126e25c086",
+      "name": "بنك البركة ATM- ماستر ماركت – محطة وقود فيول أب",
+      "address": "ماستر ماركت –محطة وقود فيول أب - طريق دائرى الهرم",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM-+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%E2%80%93+%D9%85%D8%AD%D8%B7%D8%A9+%D9%88%D9%82%D9%88%D8%AF+%D9%81%D9%8A%D9%88%D9%84+%D8%A3%D8%A8+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%E2%80%93%D9%85%D8%AD%D8%B7%D8%A9+%D9%88%D9%82%D9%88%D8%AF+%D9%81%D9%8A%D9%88%D9%84+%D8%A3%D8%A8+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%AF%D8%A7%D8%A6%D8%B1%D9%89+%D8%A7%D9%84%D9%87%D8%B1%D9%85+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-1115762840dcea5e",
+      "name": "بنك البركة ATM - جملة ماركت فيصل",
+      "address": "عمارة الأطباء -قطعة رقم 1920- شارع الملك فيصل – العمرانية",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D9%81%D9%8A%D8%B5%D9%84+%D8%B9%D9%85%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D8%A3%D8%B7%D8%A8%D8%A7%D8%A1+-%D9%82%D8%B7%D8%B9%D8%A9+%D8%B1%D9%82%D9%85+1920-+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%8A%D8%B5%D9%84+%E2%80%93+%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A7%D9%86%D9%8A%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-b7ae0ca051483940",
+      "name": "اورنج اكسبريس - ربيع الجيزى",
+      "address": "38 شارع ربيع الجيزى، بجوار محكمة الجيزة الابتدائية",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A7%D9%88%D8%B1%D9%86%D8%AC+%D8%A7%D9%83%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3+-+%D8%B1%D8%A8%D9%8A%D8%B9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D9%89+38+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B1%D8%A8%D9%8A%D8%B9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D9%89%D8%8C+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%85%D8%AD%D9%83%D9%85%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%A7%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-4d1482b9e4488212",
+      "name": "بنك البركة ATM - امان استور الملكة",
+      "address": "شارع الملك فيصل - خلف الاوبيض موتورز - اول فيصل - امام مدرسة اللواء الاسلامى",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%85%D8%A7%D9%86+%D8%A7%D8%B3%D8%AA%D9%88%D8%B1+%D8%A7%D9%84%D9%85%D9%84%D9%83%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%8A%D8%B5%D9%84+-+%D8%AE%D9%84%D9%81+%D8%A7%D9%84%D8%A7%D9%88%D8%A8%D9%8A%D8%B6+%D9%85%D9%88%D8%AA%D9%88%D8%B1%D8%B2+-+%D8%A7%D9%88%D9%84+%D9%81%D9%8A%D8%B5%D9%84+-+%D8%A7%D9%85%D8%A7%D9%85+%D9%85%D8%AF%D8%B1%D8%B3%D8%A9+%D8%A7%D9%84%D9%84%D9%88%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%89+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-9ac9d32f5c29de71",
+      "name": "بنك البركة ATM - امان استور مدينة الصف",
+      "address": "202شارع الجمهورية - امام بنك مصر - مدينة الصف - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%85%D8%A7%D9%86+%D8%A7%D8%B3%D8%AA%D9%88%D8%B1+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B5%D9%81+202%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9+-+%D8%A7%D9%85%D8%A7%D9%85+%D8%A8%D9%86%D9%83+%D9%85%D8%B5%D8%B1+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B5%D9%81+-+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-b3acd42412837ad4",
+      "name": "بنك البركة ATM - امان استور كفر طهورمس",
+      "address": "شارع الملكة - من كفر طهرمس - تقسيم سعد نجم - كفر طهرمس - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%85%D8%A7%D9%86+%D8%A7%D8%B3%D8%AA%D9%88%D8%B1+%D9%83%D9%81%D8%B1+%D8%B7%D9%87%D9%88%D8%B1%D9%85%D8%B3+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%84%D9%83%D8%A9+-+%D9%85%D9%86+%D9%83%D9%81%D8%B1+%D8%B7%D9%87%D8%B1%D9%85%D8%B3+-+%D8%AA%D9%82%D8%B3%D9%8A%D9%85+%D8%B3%D8%B9%D8%AF+%D9%86%D8%AC%D9%85+-+%D9%83%D9%81%D8%B1+%D8%B7%D9%87%D8%B1%D9%85%D8%B3+-+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-a2070ea092c49165",
+      "name": "بنك البركة ATM -امان استور منشأه البكارى",
+      "address": "عقار رقم 24 نزله دائرى المريوطية فيصل - بجوار مدرية ابن سينا وامام شركة المياه - منشاءه البكارى - الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-%D8%A7%D9%85%D8%A7%D9%86+%D8%A7%D8%B3%D8%AA%D9%88%D8%B1+%D9%85%D9%86%D8%B4%D8%A3%D9%87+%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D8%B1%D9%89+%D8%B9%D9%82%D8%A7%D8%B1+%D8%B1%D9%82%D9%85+24+%D9%86%D8%B2%D9%84%D9%87+%D8%AF%D8%A7%D8%A6%D8%B1%D9%89+%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D9%88%D8%B7%D9%8A%D8%A9+%D9%81%D9%8A%D8%B5%D9%84+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%85%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D8%A8%D9%86+%D8%B3%D9%8A%D9%86%D8%A7+%D9%88%D8%A7%D9%85%D8%A7%D9%85+%D8%B4%D8%B1%D9%83%D8%A9+%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87+-+%D9%85%D9%86%D8%B4%D8%A7%D8%A1%D9%87+%D8%A7%D9%84%D8%A8%D9%83%D8%A7%D8%B1%D9%89+-+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-6e6d068abec0e7ac",
+      "name": "بنك البركة ATM - اسواق العثيم البدرشين",
+      "address": "شارع فخر الدولة –البدرشين-الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D8%B3%D9%88%D8%A7%D9%82+%D8%A7%D9%84%D8%B9%D8%AB%D9%8A%D9%85+%D8%A7%D9%84%D8%A8%D8%AF%D8%B1%D8%B4%D9%8A%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%81%D8%AE%D8%B1+%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9+%E2%80%93%D8%A7%D9%84%D8%A8%D8%AF%D8%B1%D8%B4%D9%8A%D9%86-%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-6f031fd914b6cba4",
+      "name": "بنك البركة ATM - اسواق العثيم نصر الثورة",
+      "address": "39شارع ناصر الثورة - فيصل",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D8%B3%D9%88%D8%A7%D9%82+%D8%A7%D9%84%D8%B9%D8%AB%D9%8A%D9%85+%D9%86%D8%B5%D8%B1+%D8%A7%D9%84%D8%AB%D9%88%D8%B1%D8%A9+39%D8%B4%D8%A7%D8%B1%D8%B9+%D9%86%D8%A7%D8%B5%D8%B1+%D8%A7%D9%84%D8%AB%D9%88%D8%B1%D8%A9+-+%D9%81%D9%8A%D8%B5%D9%84+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-88771dd49588ea7b",
+      "name": "بنك البركة ATM - العثيم ماركت جرينز مول",
+      "address": "بيتا - جرينز مول - حدائق أكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%84%D8%B9%D8%AB%D9%8A%D9%85+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%AC%D8%B1%D9%8A%D9%86%D8%B2+%D9%85%D9%88%D9%84+%D8%A8%D9%8A%D8%AA%D8%A7+-+%D8%AC%D8%B1%D9%8A%D9%86%D8%B2+%D9%85%D9%88%D9%84+-+%D8%AD%D8%AF%D8%A7%D8%A6%D9%82+%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-6a04982398e236c7",
+      "name": "بنك البركة ATM - صيدلية بى ويل فيصل",
+      "address": "363 شارع الملك فيصل - امام الهيئة العامة للاندية التعليمية وبنك مصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9+%D8%A8%D9%89+%D9%88%D9%8A%D9%84+%D9%81%D9%8A%D8%B5%D9%84+363+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%8A%D8%B5%D9%84+-+%D8%A7%D9%85%D8%A7%D9%85+%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9+%D9%84%D9%84%D8%A7%D9%86%D8%AF%D9%8A%D8%A9+%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9+%D9%88%D8%A8%D9%86%D9%83+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-00d23b6ce50f7df2",
+      "name": "بنك البركة ATM -فورى بلس أرض اللواء",
+      "address": "أرض اللواء - شارع المعتمدية - محافظة الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+%D8%A3%D8%B1%D8%B6+%D8%A7%D9%84%D9%84%D9%88%D8%A7%D8%A1+%D8%A3%D8%B1%D8%B6+%D8%A7%D9%84%D9%84%D9%88%D8%A7%D8%A1+-+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D9%85%D8%AF%D9%8A%D8%A9+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-376d1646d236c1fc",
+      "name": "بنك البركة ATM - جملة ماركت مشعل",
+      "address": "تقاطع شارع الامام الشافعى مع الوفاء والامل - مشعل - الهرم",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9889218%2C31.1463458"
+    },
+    {
+      "id": "albaraka-d62a1cf6e0971ca0",
+      "name": "بنك البركة ATM - جملة ماركت الهرم",
+      "address": "شارع محمود خليل النحاس - الهرم - الجيزة 128-114",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D9%87%D8%B1%D9%85+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%85%D8%AD%D9%85%D9%88%D8%AF+%D8%AE%D9%84%D9%8A%D9%84+%D8%A7%D9%84%D9%86%D8%AD%D8%A7%D8%B3+-+%D8%A7%D9%84%D9%87%D8%B1%D9%85+-+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+128-114+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-d2bc31666e046f01",
+      "name": "بنك البركة ATM - ماستر ماركت العبور",
+      "address": "محطة وقود شيل اوت - محور العبور - بعد مدخل العبور",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1951074%2C31.4598373"
+    },
+    {
+      "id": "albaraka-5efd3d446f65e6dd",
+      "name": "بنك البركة ATM - أمان ستورز شبرا الخيمة",
+      "address": "محل تجارى رقم 2 الدور الأرضي بعقار رقم 1 شارع التحيوي برج الهوارى شبرا الخيمة",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1410830%2C31.2511623"
+    },
+    {
+      "id": "albaraka-8d4b44bb397c163b",
+      "name": "بنك البركة ATM - رنين بنها",
+      "address": "مجمع المواقف كفر سعد بنها القليوبية",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4720500%2C31.1981900"
+    },
+    {
+      "id": "albaraka-a31e1d32944d2934",
+      "name": "بنك البركة ATM - الشركة الهندسية شطا",
+      "address": "شارع محمد فريد البر الشرقى طريق بنها الزراعى",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4627163%2C31.1856068"
+    },
+    {
+      "id": "albaraka-88487066bfb92464",
+      "name": "بنك البركة ATM - فرع We مدينة العبور",
+      "address": "محور السادات - محلية 8 – الحى الاول - مدينة العبور",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D8%B1%D8%B9+We+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+%D9%85%D8%AD%D9%88%D8%B1+%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A7%D8%AA+-+%D9%85%D8%AD%D9%84%D9%8A%D8%A9+8+%E2%80%93+%D8%A7%D9%84%D8%AD%D9%89+%D8%A7%D9%84%D8%A7%D9%88%D9%84+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-fe8e916fda353572",
+      "name": "بنك البركة ATM - خير زمان ماركت شبرا الخيمة",
+      "address": "قطعة الأرض رقم (159) شارع البلاستيك – من شارع 15 مايو ـ برج كريم ـ قسم ثان شبرا الخيمة",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AE%D9%8A%D8%B1+%D8%B2%D9%85%D8%A7%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D8%AE%D9%8A%D9%85%D8%A9+%D9%82%D8%B7%D8%B9%D8%A9+%D8%A7%D9%84%D8%A3%D8%B1%D8%B6+%D8%B1%D9%82%D9%85+%28159%29+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83+%E2%80%93+%D9%85%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+15+%D9%85%D8%A7%D9%8A%D9%88+%D9%80+%D8%A8%D8%B1%D8%AC+%D9%83%D8%B1%D9%8A%D9%85+%D9%80+%D9%82%D8%B3%D9%85+%D8%AB%D8%A7%D9%86+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D8%AE%D9%8A%D9%85%D8%A9+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-9e1d7215d051c10d",
+      "name": "بنك البركة ATM - هاب مول العبور",
+      "address": "هاب مول – بجوار محطة وقود شيل اوت – محور العبور – القليوبية",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%87%D8%A7%D8%A8+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+%D9%87%D8%A7%D8%A8+%D9%85%D9%88%D9%84+%E2%80%93+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%85%D8%AD%D8%B7%D8%A9+%D9%88%D9%82%D9%88%D8%AF+%D8%B4%D9%8A%D9%84+%D8%A7%D9%88%D8%AA+%E2%80%93+%D9%85%D8%AD%D9%88%D8%B1+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+%E2%80%93+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-1532d2594bbce165",
+      "name": "بنك البركة ATM - Z مول شبين القناطر",
+      "address": "طريق شبين القناطر – قليوب العمومى – القليوبية",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+Z+%D9%85%D9%88%D9%84+%D8%B4%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%B7%D8%B1+%D8%B7%D8%B1%D9%8A%D9%82+%D8%B4%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%B7%D8%B1+%E2%80%93+%D9%82%D9%84%D9%8A%D9%88%D8%A8+%D8%A7%D9%84%D8%B9%D9%85%D9%88%D9%85%D9%89+%E2%80%93+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-a64f476397bff876",
+      "name": "بنك البركة ATM - ماستر ماركت – شل اوت مسطرد",
+      "address": "شارع السكة الحديد - امام كوبرى مسطرد اتجاه الشارع الجديد - بجوار رنين ستور",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%E2%80%93+%D8%B4%D9%84+%D8%A7%D9%88%D8%AA+%D9%85%D8%B3%D8%B7%D8%B1%D8%AF+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B3%D9%83%D8%A9+%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF+-+%D8%A7%D9%85%D8%A7%D9%85+%D9%83%D9%88%D8%A8%D8%B1%D9%89+%D9%85%D8%B3%D8%B7%D8%B1%D8%AF+%D8%A7%D8%AA%D8%AC%D8%A7%D9%87+%D8%A7%D9%84%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%B1%D9%86%D9%8A%D9%86+%D8%B3%D8%AA%D9%88%D8%B1+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-9ac6172fa572e280",
+      "name": "بنك البركة ATM -افينيو مول",
+      "address": "محور العبور - مدينة العبور - القليوبية",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-%D8%A7%D9%81%D9%8A%D9%86%D9%8A%D9%88+%D9%85%D9%88%D9%84+%D9%85%D8%AD%D9%88%D8%B1+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+-+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-1fb42413471ec79f",
+      "name": "بنك البركة ATM - كازيون ماركت بورسعيد",
+      "address": "ميدان ستالين جراد- حي المناخ- بور سعيد",
+      "governorate": "بورسعيد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%B3%D8%AA%D8%A7%D9%84%D9%8A%D9%86+%D8%AC%D8%B1%D8%A7%D8%AF-+%D8%AD%D9%8A+%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE-+%D8%A8%D9%88%D8%B1+%D8%B3%D8%B9%D9%8A%D8%AF+%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF+Egypt"
+    },
+    {
+      "id": "albaraka-e9f21648a42a2396",
+      "name": "بنك البركة ATM - كازيون ماركت السويس",
+      "address": "المحل الكائن بالقطعة رقم \"10\" شارع ابوبكر الصديق - السحاب - حى فيصل - محافظة السويس",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D9%83%D8%A7%D8%A6%D9%86+%D8%A8%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9+%D8%B1%D9%82%D9%85+%2210%22+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D8%A8%D9%88%D8%A8%D9%83%D8%B1+%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82+-+%D8%A7%D9%84%D8%B3%D8%AD%D8%A7%D8%A8+-+%D8%AD%D9%89+%D9%81%D9%8A%D8%B5%D9%84+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+Egypt"
+    },
+    {
+      "id": "albaraka-11e2346cd820e288",
+      "name": "بنك البركة ATM - ماستر ماركت وطنية - نفق أحمد حمدى",
+      "address": "محطة بنزين وطنية - طريق النفق مع طريق الاسماعيلية السويس - محافظة السويس",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D9%88%D8%B7%D9%86%D9%8A%D8%A9+-+%D9%86%D9%81%D9%82+%D8%A3%D8%AD%D9%85%D8%AF+%D8%AD%D9%85%D8%AF%D9%89+%D9%85%D8%AD%D8%B7%D8%A9+%D8%A8%D9%86%D8%B2%D9%8A%D9%86+%D9%88%D8%B7%D9%86%D9%8A%D8%A9+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%86%D9%81%D9%82+%D9%85%D8%B9+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+Egypt"
+    },
+    {
+      "id": "albaraka-3e70e29cab453a3d",
+      "name": "بنك البركة ATM -حديقة الشهداء - السويس",
+      "address": "كورنيش السويس - متفرع من شارع الجيش - بجوار محافظة السويس - السويس",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-%D8%AD%D8%AF%D9%8A%D9%82%D8%A9+%D8%A7%D9%84%D8%B4%D9%87%D8%AF%D8%A7%D8%A1+-+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+-+%D9%85%D8%AA%D9%81%D8%B1%D8%B9+%D9%85%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B4+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+-+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+Egypt"
+    },
+    {
+      "id": "albaraka-9fd27f1d99c06be2",
+      "name": "بنك البركة - فرع طنطا",
+      "address": "32 شارع الجيش - طنطا - محافظة الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6787853%2C30.9475383"
+    },
+    {
+      "id": "albaraka-7d34fb2d89f4b078",
+      "name": "بنك البركة ATM - رنين المحلة الكبرى",
+      "address": "ميدان المشخمة فوق أولاد رجب المحلة الكبرى الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9766800%2C31.1760396"
+    },
+    {
+      "id": "albaraka-499a0b101b2e4bd8",
+      "name": "بنك البركة ATM - عطوان جروب طنطا",
+      "address": "طاريق طنطا السريع - الغربية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8031853%2C31.0132563"
+    },
+    {
+      "id": "albaraka-c90676c3e8552bb1",
+      "name": "بنك البركة ATM - فتح الله ماركت طنطا",
+      "address": "أوتليت مول - شارع السعيد, امام كلية التجارة - طنطا",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D8%AA%D8%AD+%D8%A7%D9%84%D9%84%D9%87+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%B7%D9%86%D8%B7%D8%A7+%D8%A3%D9%88%D8%AA%D9%84%D9%8A%D8%AA+%D9%85%D9%88%D9%84+-+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B3%D8%B9%D9%8A%D8%AF%2C+%D8%A7%D9%85%D8%A7%D9%85+%D9%83%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9+-+%D8%B7%D9%86%D8%B7%D8%A7+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-f6c6a59796283a2c",
+      "name": "بنك البركة ATM - نادى السكة الحديد - طنطا",
+      "address": "شارع حافظ وهبى - امام المستشفى العسكرى - طنطا",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%86%D8%A7%D8%AF%D9%89+%D8%A7%D9%84%D8%B3%D9%83%D8%A9+%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF+-+%D8%B7%D9%86%D8%B7%D8%A7+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%AD%D8%A7%D9%81%D8%B8+%D9%88%D9%87%D8%A8%D9%89+-+%D8%A7%D9%85%D8%A7%D9%85+%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89+%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%89+-+%D8%B7%D9%86%D8%B7%D8%A7+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-f963109ed37d0e17",
+      "name": "اورنج اكسبريس - بسيون",
+      "address": "شارع 23 يوليو - بسيون – الغربية 1",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A7%D9%88%D8%B1%D9%86%D8%AC+%D8%A7%D9%83%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3+-+%D8%A8%D8%B3%D9%8A%D9%88%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+23+%D9%8A%D9%88%D9%84%D9%8A%D9%88+-+%D8%A8%D8%B3%D9%8A%D9%88%D9%86+%E2%80%93+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+1+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-ed3ef9a2b84d9478",
+      "name": "اورنج اكسبريس - زفتى",
+      "address": "ش الجمهوريه - زفتي - بجوار عصير حورس",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A7%D9%88%D8%B1%D9%86%D8%AC+%D8%A7%D9%83%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3+-+%D8%B2%D9%81%D8%AA%D9%89+%D8%B4+%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D9%87+-+%D8%B2%D9%81%D8%AA%D9%8A+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%B9%D8%B5%D9%8A%D8%B1+%D8%AD%D9%88%D8%B1%D8%B3+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-c9ac5ebb9ef4af8f",
+      "name": "بنك البركة - فرع المنصورة",
+      "address": "ناصية شارعي قناة السويس والفلكي - حي توريل - المنصورة - مصر",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0501674%2C31.3989231"
+    },
+    {
+      "id": "albaraka-b9a197ba7a829719",
+      "name": "بنك البركة ATM - أمان ستورز السنبلاوين",
+      "address": "الدقهلية السنبلاوين 2 ش صلاح سالم",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8819091%2C31.4590261"
+    },
+    {
+      "id": "albaraka-6dc2e91e4454e277",
+      "name": "بنك البركة ATM - محطة قطار المنصورة",
+      "address": "ميدان المحطة المنصورة الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0454451%2C31.3885269"
+    },
+    {
+      "id": "albaraka-304e0ae715740f20",
+      "name": "بنك البركة ATM - كازيون ماركت - المنصورة",
+      "address": "المحل الكائن شارع مجمع المحاكم - مدينة المنصورة - محافظة الدقهلية",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+-+%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D9%83%D8%A7%D8%A6%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%85%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%83%D9%85+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-a4682500d210d889",
+      "name": "اورنج اكسبريس - اجا",
+      "address": "ش الجلاء - بجانب فودافون - أجا",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A7%D9%88%D8%B1%D9%86%D8%AC+%D8%A7%D9%83%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3+-+%D8%A7%D8%AC%D8%A7+%D8%B4+%D8%A7%D9%84%D8%AC%D9%84%D8%A7%D8%A1+-+%D8%A8%D8%AC%D8%A7%D9%86%D8%A8+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%A3%D8%AC%D8%A7+%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-9531d71536a2ae61",
+      "name": "بنك البركة ATM - أمان ستورز أسيوط",
+      "address": "محل تجارى رقم 3 الدور الأرضي ببرج الياسمين –شارع الجمهورية -أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0870967%2C30.7618397"
+    },
+    {
+      "id": "albaraka-0988451d5749552c",
+      "name": "بنك البركة ATM - رنين أسيوط",
+      "address": "ابراج مارينا كوبرى الوسطى – بجوار مدارس الكوثر – اسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1821200%2C31.1867300"
+    },
+    {
+      "id": "albaraka-00bcb6d99132c774",
+      "name": "بنك البركة – فرع أسيوط",
+      "address": "25 شارع الجمهورية، أسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+%E2%80%93+%D9%81%D8%B1%D8%B9+%D8%A3%D8%B3%D9%8A%D9%88%D8%B7+25+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9%D8%8C+%D8%A3%D8%B3%D9%8A%D9%88%D8%B7+%D8%A3%D8%B3%D9%8A%D9%88%D8%B7+Egypt"
+    },
+    {
+      "id": "albaraka-e888db3ff29bd75e",
+      "name": "بنك البركة ATM - أمان ستورز طامية",
+      "address": "96 شارع 23 يوليو بندر طامية الفيوم",
+      "governorate": "الفيوم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.4745472%2C30.9547825"
+    },
+    {
+      "id": "albaraka-96f5752f30453739",
+      "name": "بنك البركة ATM - رنين الفيوم",
+      "address": "ابراج رويال سيتى – قطعة 10 شارع أحمد شوقى – طريق منشأه عبدالله – حى غرب",
+      "governorate": "الفيوم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.3166321%2C30.8524292"
+    },
+    {
+      "id": "albaraka-ac471e0329bd1d60",
+      "name": "بنك البركة ATM - كازيون ماركت الفيوم",
+      "address": "كازيون ماركت - 11 شارع يوسف وهبى - قسم ثانى - شياخة البارون حاليا - عمارات الهيئة العامة لتعاونيات البناء والاسكان رقم 43 - محافظة الفيوم",
+      "governorate": "الفيوم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D9%81%D9%8A%D9%88%D9%85+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+-+11+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%8A%D9%88%D8%B3%D9%81+%D9%88%D9%87%D8%A8%D9%89+-+%D9%82%D8%B3%D9%85+%D8%AB%D8%A7%D9%86%D9%89+-+%D8%B4%D9%8A%D8%A7%D8%AE%D8%A9+%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D9%88%D9%86+%D8%AD%D8%A7%D9%84%D9%8A%D8%A7+-+%D8%B9%D9%85%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9+%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%D8%A7%D8%AA+%D8%A7%D9%84%D8%A8%D9%86%D8%A7%D8%A1+%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D8%A7%D9%86+%D8%B1%D9%82%D9%85+43+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D9%81%D9%8A%D9%88%D9%85+%D8%A7%D9%84%D9%81%D9%8A%D9%88%D9%85+Egypt"
+    },
+    {
+      "id": "albaraka-c884bcbc540d6e4e",
+      "name": "بنك البركة ATM - أوت ليت العاشر من رمضان",
+      "address": "شارع الخرطوم المنطقه الصناعية التانيه B2 طريق البنوك ونادي الرواد بجوار مصنع بم بم ومصنع كادبوري",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2946029%2C31.7714198"
+    },
+    {
+      "id": "albaraka-b553e915780801e0",
+      "name": "بنك البركة ATM - نادى الرواد الرياضى",
+      "address": "\"المجاورة الثانية، العاشر من رمضان الشرقية \"",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2819586%2C31.7495106"
+    },
+    {
+      "id": "albaraka-bf8c7196bbb93370",
+      "name": "بنك البركة - فرع الزقازيق",
+      "address": "2 شارع سعد زغلول, أمام كبري الجامعة و جمعيه الهلال الاحمر و الانقاذ النهري",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5833007%2C31.4989537"
+    },
+    {
+      "id": "albaraka-ac35150ccc1e453c",
+      "name": "بنك البركة ATM - كازيون ماركت بلبيس",
+      "address": "شارع ابو بكر الصديق – مدينة بلبيس – محافظة الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A8%D9%84%D8%A8%D9%8A%D8%B3+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D8%A8%D9%88+%D8%A8%D9%83%D8%B1+%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82+%E2%80%93+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A8%D9%84%D8%A8%D9%8A%D8%B3+%E2%80%93+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-6e2b3c2d06de0b4f",
+      "name": "بنك البركة - ATM-العاشر من رمضان",
+      "address": "قطعة رقم 4/أ مركز المدينة الرئيسى - المرحلة الثانية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3052745%2C31.7411964"
+    },
+    {
+      "id": "albaraka-1517c8054ba72f7d",
+      "name": "بنك البركة ATM - أمان ستورز أبو كبير",
+      "address": "شارع مصطفي كامل- أبو كبير-الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A3%D9%85%D8%A7%D9%86+%D8%B3%D8%AA%D9%88%D8%B1%D8%B2+%D8%A3%D8%A8%D9%88+%D9%83%D8%A8%D9%8A%D8%B1+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%85%D8%B5%D8%B7%D9%81%D9%8A+%D9%83%D8%A7%D9%85%D9%84-+%D8%A3%D8%A8%D9%88+%D9%83%D8%A8%D9%8A%D8%B1-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-a01847b9d96f3c98",
+      "name": "بنك البركة ATM - مينى سو ستور",
+      "address": "شارع طلبة عويضة - مدينة الزقازيق - الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D9%8A%D9%86%D9%89+%D8%B3%D9%88+%D8%B3%D8%AA%D9%88%D8%B1+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B7%D9%84%D8%A8%D8%A9+%D8%B9%D9%88%D9%8A%D8%B6%D8%A9+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B2%D9%82%D8%A7%D8%B2%D9%8A%D9%82+-+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-3d751e4fefc4b621",
+      "name": "ماركت الدار - الزقازيق",
+      "address": "شارع الغشام -بجوار ديسيباس – الزقازيق – الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D8%AF%D8%A7%D8%B1+-+%D8%A7%D9%84%D8%B2%D9%82%D8%A7%D8%B2%D9%8A%D9%82+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%BA%D8%B4%D8%A7%D9%85+-%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%AF%D9%8A%D8%B3%D9%8A%D8%A8%D8%A7%D8%B3+%E2%80%93+%D8%A7%D9%84%D8%B2%D9%82%D8%A7%D8%B2%D9%8A%D9%82+%E2%80%93+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-41379a741830d066",
+      "name": "بنك البركة ATM - فورى بلس منيا القمح",
+      "address": "المحل التجارى بالدور الأرضي بالعقار بشارع العمدة (هندسة الري) - منيا القمح - محافظة الشرقية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+%D9%85%D9%86%D9%8A%D8%A7+%D8%A7%D9%84%D9%82%D9%85%D8%AD+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%89+%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1+%D8%A7%D9%84%D8%A3%D8%B1%D8%B6%D9%8A+%D8%A8%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1+%D8%A8%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B9%D9%85%D8%AF%D8%A9+%28%D9%87%D9%86%D8%AF%D8%B3%D8%A9+%D8%A7%D9%84%D8%B1%D9%8A%29+-+%D9%85%D9%86%D9%8A%D8%A7+%D8%A7%D9%84%D9%82%D9%85%D8%AD+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-17269403ecf94c45",
+      "name": "بنك البركة ATM - كارفور الإسماعيلية",
+      "address": "الكورنيش الجديد – بحيرة التمساح – الإسماعيلية",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5764151%2C32.2610890"
+    },
+    {
+      "id": "albaraka-99a241dd093b7e03",
+      "name": "بنك البركة -ATM -فرع الإسماعيلية",
+      "address": "برج مالك شارع محمد علي بجوار رنين – محافظة الإسماعيلية",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-ATM+-%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A8%D8%B1%D8%AC+%D9%85%D8%A7%D9%84%D9%83+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%85%D8%AD%D9%85%D8%AF+%D8%B9%D9%84%D9%8A+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%B1%D9%86%D9%8A%D9%86+%E2%80%93+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-935d83792270a903",
+      "name": "بنك البركة - إدارة مرور - اسماعليلية",
+      "address": "شارع 6 أكتوبر - الاسماعيلية",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D9%85%D8%B1%D9%88%D8%B1+-+%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%84%D9%8A%D9%84%D9%8A%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+6+%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1+-+%D8%A7%D9%84%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-29766d9feebcdf3c",
+      "name": "بنك البركة ATM فورى بلس - الأسماعيلية",
+      "address": "شارع السلطان حسين – الاسماعيلية",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+-+%D8%A7%D9%84%D8%A3%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D9%86+%D8%AD%D8%B3%D9%8A%D9%86+%E2%80%93+%D8%A7%D9%84%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-2c3cc16d713902a9",
+      "name": "بنك البركة ATM - مول العروبة – الاسكندرية",
+      "address": "طريق مطار برج العرب - عند تقاطع محور التعمير مع طريق الساحل الشمالي - (سيدي كرير) - الكيلو 34",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%A8%D8%A9+%E2%80%93+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%B7%D8%B1%D9%8A%D9%82+%D9%85%D8%B7%D8%A7%D8%B1+%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8+-+%D8%B9%D9%86%D8%AF+%D8%AA%D9%82%D8%A7%D8%B7%D8%B9+%D9%85%D8%AD%D9%88%D8%B1+%D8%A7%D9%84%D8%AA%D8%B9%D9%85%D9%8A%D8%B1+%D9%85%D8%B9+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A+-+%28%D8%B3%D9%8A%D8%AF%D9%8A+%D9%83%D8%B1%D9%8A%D8%B1%29+-+%D8%A7%D9%84%D9%83%D9%8A%D9%84%D9%88+34+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-2fad05dd080a72d7",
+      "name": "بنك البركة ATM - بنك البركة - فرع الإسماعيلية",
+      "address": "برج مالك - شارع محمد علي بجوار رنين الاسماعيلية – محافظة الاسماعيلية",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A8%D8%B1%D8%AC+%D9%85%D8%A7%D9%84%D9%83+-+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%85%D8%AD%D9%85%D8%AF+%D8%B9%D9%84%D9%8A+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%B1%D9%86%D9%8A%D9%86+%D8%A7%D9%84%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%E2%80%93+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-7ddafa9d26410676",
+      "name": "بنك البركة ATM فورى بلس - أسوان",
+      "address": "المحل التجارى رقم 1 بعقار رقم 1 شارع شرق البندر - كسر الحجر - عمارة أبو عرب قسم اسوان اول",
+      "governorate": "أسوان",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+-+%D8%A3%D8%B3%D9%88%D8%A7%D9%86+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%89+%D8%B1%D9%82%D9%85+1+%D8%A8%D8%B9%D9%82%D8%A7%D8%B1+%D8%B1%D9%82%D9%85+1+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B4%D8%B1%D9%82+%D8%A7%D9%84%D8%A8%D9%86%D8%AF%D8%B1+-+%D9%83%D8%B3%D8%B1+%D8%A7%D9%84%D8%AD%D8%AC%D8%B1+-+%D8%B9%D9%85%D8%A7%D8%B1%D8%A9+%D8%A3%D8%A8%D9%88+%D8%B9%D8%B1%D8%A8+%D9%82%D8%B3%D9%85+%D8%A7%D8%B3%D9%88%D8%A7%D9%86+%D8%A7%D9%88%D9%84+%D8%A3%D8%B3%D9%88%D8%A7%D9%86+Egypt"
+    },
+    {
+      "id": "albaraka-bdc3dfa9a6d78cc2",
+      "name": "بنك البركة ATM - فورى بلس كومبو",
+      "address": "شارع بور سعيد امام المعهد الازهرى - كومبو – اسوان",
+      "governorate": "أسوان",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+%D9%83%D9%88%D9%85%D8%A8%D9%88+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A8%D9%88%D8%B1+%D8%B3%D8%B9%D9%8A%D8%AF+%D8%A7%D9%85%D8%A7%D9%85+%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF+%D8%A7%D9%84%D8%A7%D8%B2%D9%87%D8%B1%D9%89+-+%D9%83%D9%88%D9%85%D8%A8%D9%88+%E2%80%93+%D8%A7%D8%B3%D9%88%D8%A7%D9%86+%D8%A3%D8%B3%D9%88%D8%A7%D9%86+Egypt"
+    },
+    {
+      "id": "albaraka-bd48a8b3416ce25a",
+      "name": "بنك البركة ATM - شركة المطاحن دمنهور",
+      "address": "قسم دمنهور، البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0289400%2C30.4768600"
+    },
+    {
+      "id": "albaraka-869a0aa987e6a728",
+      "name": "محطة قطار دمنهور",
+      "address": "ميدان الساعة دمنهور البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0341448%2C30.4682237"
+    },
+    {
+      "id": "albaraka-c18469ee672ef183",
+      "name": "بنك البركة ATM - ايليت بلازا مول",
+      "address": "كورنيش النيل – دمنهور – البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%8A%D9%84%D9%8A%D8%AA+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+%D9%85%D9%88%D9%84+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+%E2%80%93+%D8%AF%D9%85%D9%86%D9%87%D9%88%D8%B1+%E2%80%93+%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-ddca7e5b08999d2a",
+      "name": "بنك البركة ATM - فورى بلس ميدان الساعة",
+      "address": "المحل التجارى رقم (1) بالدور الأرضى وذلك ببرج حرب بشارع أحمد محرم أمام مبني مباحث أمن الدولة سابقآ بيدان الساعة بمدينة دمنهور - محافظة البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%89+%D8%B1%D9%82%D9%85+%281%29+%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1+%D8%A7%D9%84%D8%A3%D8%B1%D8%B6%D9%89+%D9%88%D8%B0%D9%84%D9%83+%D8%A8%D8%A8%D8%B1%D8%AC+%D8%AD%D8%B1%D8%A8+%D8%A8%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A3%D8%AD%D9%85%D8%AF+%D9%85%D8%AD%D8%B1%D9%85+%D8%A3%D9%85%D8%A7%D9%85+%D9%85%D8%A8%D9%86%D9%8A+%D9%85%D8%A8%D8%A7%D8%AD%D8%AB+%D8%A3%D9%85%D9%86+%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9+%D8%B3%D8%A7%D8%A8%D9%82%D8%A2+%D8%A8%D9%8A%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9+%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%AF%D9%85%D9%86%D9%87%D9%88%D8%B1+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-1bec6895122bf0e0",
+      "name": "بنك البركة ATM - فورى بلس كفر الدوار",
+      "address": "المحل التجاري رقم والكائن بالدور الأرضي برج الرضا - شارع المحكمة - ضمن المخطط التفصيلي لمنطقة الإدكاوي - مدينة كفر الدوار - البحيرة",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+%D9%83%D9%81%D8%B1+%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%B1+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A+%D8%B1%D9%82%D9%85+%D9%88%D8%A7%D9%84%D9%83%D8%A7%D8%A6%D9%86+%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1+%D8%A7%D9%84%D8%A3%D8%B1%D8%B6%D9%8A+%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D8%B1%D8%B6%D8%A7+-+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9+-+%D8%B6%D9%85%D9%86+%D8%A7%D9%84%D9%85%D8%AE%D8%B7%D8%B7+%D8%A7%D9%84%D8%AA%D9%81%D8%B5%D9%8A%D9%84%D9%8A+%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9+%D8%A7%D9%84%D8%A5%D8%AF%D9%83%D8%A7%D9%88%D9%8A+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%83%D9%81%D8%B1+%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%B1+-+%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-6e6c82dbaae93e45",
+      "name": "بنك البركة ATM - أمان ستورز المنيا",
+      "address": "شارع 6 أكتوبر –المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0870967%2C30.7618397"
+    },
+    {
+      "id": "albaraka-468642eddc818cf9",
+      "name": "بنك البركة ATM - محطة قطار المنيا",
+      "address": "ميدان المحطة المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0968700%2C30.7540300"
+    },
+    {
+      "id": "albaraka-f369bd887b863ad0",
+      "name": "بنك البركة - فرع المنيا",
+      "address": "شارع الجمهورية - امام محطة قطار المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9+-+%D8%A7%D9%85%D8%A7%D9%85+%D9%85%D8%AD%D8%B7%D8%A9+%D9%82%D8%B7%D8%A7%D8%B1+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+Egypt"
+    },
+    {
+      "id": "albaraka-19c5d6280364ed4a",
+      "name": "بنك البركة ATM - صيدلية د/ريهام",
+      "address": "شارع طه حسين – محافظة المنيا",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9+%D8%AF%2F%D8%B1%D9%8A%D9%87%D8%A7%D9%85+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B7%D9%87+%D8%AD%D8%B3%D9%8A%D9%86+%E2%80%93+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+Egypt"
+    },
+    {
+      "id": "albaraka-dd37e1b26fe39620",
+      "name": "بنك البركة - فرع دمياط",
+      "address": "3 شارع سعد زغلول – مبني الغرفة التجارية - دمياط",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+-+%D9%81%D8%B1%D8%B9+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+3+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B3%D8%B9%D8%AF+%D8%B2%D8%BA%D9%84%D9%88%D9%84+%E2%80%93+%D9%85%D8%A8%D9%86%D9%8A+%D8%A7%D9%84%D8%BA%D8%B1%D9%81%D8%A9+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9+-+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+Egypt"
+    },
+    {
+      "id": "albaraka-fe274a4bbf97d093",
+      "name": "بنك البركة ATM - فوري بلس فارسكور",
+      "address": "شارع الدكتور احمد المقدم - الترعة الشرقاوية بجوار كوبري هلالي - بجوار شركة WE - مدينة فارسكور - محافظة دمياط",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%8A+%D8%A8%D9%84%D8%B3+%D9%81%D8%A7%D8%B1%D8%B3%D9%83%D9%88%D8%B1+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1+%D8%A7%D8%AD%D9%85%D8%AF+%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85+-+%D8%A7%D9%84%D8%AA%D8%B1%D8%B9%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D8%A7%D9%88%D9%8A%D8%A9+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%83%D9%88%D8%A8%D8%B1%D9%8A+%D9%87%D9%84%D8%A7%D9%84%D9%8A+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%B4%D8%B1%D9%83%D8%A9+WE+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%81%D8%A7%D8%B1%D8%B3%D9%83%D9%88%D8%B1+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+Egypt"
+    },
+    {
+      "id": "albaraka-4d8fd9df52996fa9",
+      "name": "فورى بلس - دمياط الجديدة",
+      "address": "شارع الصعيدى سابقا - حسب الله الكفراوى حاليا – دمياط الجديدة",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D9%81%D9%88%D8%B1%D9%89+%D8%A8%D9%84%D8%B3+-+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%B5%D8%B9%D9%8A%D8%AF%D9%89+%D8%B3%D8%A7%D8%A8%D9%82%D8%A7+-+%D8%AD%D8%B3%D8%A8+%D8%A7%D9%84%D9%84%D9%87+%D8%A7%D9%84%D9%83%D9%81%D8%B1%D8%A7%D9%88%D9%89+%D8%AD%D8%A7%D9%84%D9%8A%D8%A7+%E2%80%93+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+Egypt"
+    },
+    {
+      "id": "albaraka-d1627552f6e7d467",
+      "name": "بنك البركة ATM - امان ستور الأقصر",
+      "address": "القطعة 53 شارع 6 م ش الثلاجة روماني من شارع التلفزيون محل رقم 1",
+      "governorate": "الأقصر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%85%D8%A7%D9%86+%D8%B3%D8%AA%D9%88%D8%B1+%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D8%B1+%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9+53+%D8%B4%D8%A7%D8%B1%D8%B9+6+%D9%85+%D8%B4+%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AC%D8%A9+%D8%B1%D9%88%D9%85%D8%A7%D9%86%D9%8A+%D9%85%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%AD%D9%84+%D8%B1%D9%82%D9%85+1+%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D8%B1+Egypt"
+    },
+    {
+      "id": "albaraka-f209c982d00b243f",
+      "name": "بنك البركة ATM - فورى بلس قوص",
+      "address": "شارع النصر - مركز قوص - محافظة قنا",
+      "governorate": "قنا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.9198530%2C32.7659742"
+    },
+    {
+      "id": "albaraka-96e16ee4f93c5bd3",
+      "name": "بنك البركة ATM - أمان ستور قنا",
+      "address": "قوص -ميدان المحطة-عمارات الاوقاف",
+      "governorate": "قنا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A3%D9%85%D8%A7%D9%86+%D8%B3%D8%AA%D9%88%D8%B1+%D9%82%D9%86%D8%A7+%D9%82%D9%88%D8%B5+-%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D9%85%D8%AD%D8%B7%D8%A9-%D8%B9%D9%85%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D8%A7%D9%88%D9%82%D8%A7%D9%81+%D9%82%D9%86%D8%A7+Egypt"
+    },
+    {
+      "id": "albaraka-baca353eff73ee2a",
+      "name": "بنك البركة ATM - امان استور نجع حمادى",
+      "address": "نجع حمادى - قنا",
+      "governorate": "قنا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A7%D9%85%D8%A7%D9%86+%D8%A7%D8%B3%D8%AA%D9%88%D8%B1+%D9%86%D8%AC%D8%B9+%D8%AD%D9%85%D8%A7%D8%AF%D9%89+%D9%86%D8%AC%D8%B9+%D8%AD%D9%85%D8%A7%D8%AF%D9%89+-+%D9%82%D9%86%D8%A7+%D9%82%D9%86%D8%A7+Egypt"
+    },
+    {
+      "id": "albaraka-8de2bf3b721fcfc9",
+      "name": "بنك البركة ATM - فورى بلس بنى سويف",
+      "address": "شارع بورسعيد – برج الشيماء بنى سويف",
+      "governorate": "بني سويف",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.0802988%2C31.1012559"
+    },
+    {
+      "id": "albaraka-d75bbbc02127aa02",
+      "name": "بنك البركة ATM - كازيون ماركت بنى سويف",
+      "address": "مول اكاديا - شرق النيل – بنى سويف",
+      "governorate": "بني سويف",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A8%D9%86%D9%89+%D8%B3%D9%88%D9%8A%D9%81+%D9%85%D9%88%D9%84+%D8%A7%D9%83%D8%A7%D8%AF%D9%8A%D8%A7+-+%D8%B4%D8%B1%D9%82+%D8%A7%D9%84%D9%86%D9%8A%D9%84+%E2%80%93+%D8%A8%D9%86%D9%89+%D8%B3%D9%88%D9%8A%D9%81+%D8%A8%D9%86%D9%8A+%D8%B3%D9%88%D9%8A%D9%81+Egypt"
+    },
+    {
+      "id": "albaraka-003439f7fa186186",
+      "name": "بنك البركة – فرع بني سويف",
+      "address": "برج الأصدقاء، كورنيش النيل، بني سويف.",
+      "governorate": "بني سويف",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+%E2%80%93+%D9%81%D8%B1%D8%B9+%D8%A8%D9%86%D9%8A+%D8%B3%D9%88%D9%8A%D9%81+%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D8%A3%D8%B5%D8%AF%D9%82%D8%A7%D8%A1%D8%8C+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84%D8%8C+%D8%A8%D9%86%D9%8A+%D8%B3%D9%88%D9%8A%D9%81.+%D8%A8%D9%86%D9%8A+%D8%B3%D9%88%D9%8A%D9%81+Egypt"
+    },
+    {
+      "id": "albaraka-50a9712beeee2c89",
+      "name": "بنك البركة ATM - أمان ستورز جهينة",
+      "address": "جهينة -أول شارع السوق القديم بجوار اتصالات",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.6793501%2C31.4904834"
+    },
+    {
+      "id": "albaraka-7576d2fd868c4c8c",
+      "name": "بنك البركة ATM - فورى بلس البلينا",
+      "address": "شارع مجلس المدينة - البلينا - سوهاج",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.2354670%2C32.0029787"
+    },
+    {
+      "id": "albaraka-aaac73a63fa2845c",
+      "name": "بنك البركة ATM - أمان ستورز قويسنا",
+      "address": "المنوفية 38 أ تقاطع ش الجيش مع شارع بورسعيد قوسنا",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5544090%2C31.0112610"
+    },
+    {
+      "id": "albaraka-10fe2592ee8a2ae4",
+      "name": "بنك البركة ATM - شركة العربي قويسنا",
+      "address": "مبنى الخمسين مصانع شركة العربى كافور الرمل منطقة مبارك الصناعية الثالثة قويسنا المنوفييه",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5407343%2C31.1806130"
+    },
+    {
+      "id": "albaraka-53d70687a80cb9fc",
+      "name": "بنك البركة ATM - رنين شبين الكوم",
+      "address": "49 شارع مصطفى كامل متفرع من شارع البحر شين الكوم",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5500300%2C31.0119500"
+    },
+    {
+      "id": "albaraka-32111675ef8f037a",
+      "name": "بنك البركة ATM - خير زمان شبين الكوم",
+      "address": "شارع صبرى أبو علم مصنع الثلج -شبين الكوم",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5657941%2C31.0042451"
+    },
+    {
+      "id": "albaraka-2b6520a99660f8e9",
+      "name": "بنك البركة ATM - فوري بلس الباجور",
+      "address": "شارع الجيش - حوض الكبير الغربي 24 بالقطعة 333 من 128 - بندر الباجور - محافظة المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%81%D9%88%D8%B1%D9%8A+%D8%A8%D9%84%D8%B3+%D8%A7%D9%84%D8%A8%D8%A7%D8%AC%D9%88%D8%B1+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B4+-+%D8%AD%D9%88%D8%B6+%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A+24+%D8%A8%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9+333+%D9%85%D9%86+128+-+%D8%A8%D9%86%D8%AF%D8%B1+%D8%A7%D9%84%D8%A8%D8%A7%D8%AC%D9%88%D8%B1+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-07bc119f06bd7233",
+      "name": "اورنج اكسبريس - بركة السبع",
+      "address": "18ش الحزب الوطني من ش عبد المنعم رياض-بركة السبع - المنوفيه",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A7%D9%88%D8%B1%D9%86%D8%AC+%D8%A7%D9%83%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3+-+%D8%A8%D8%B1%D9%83%D8%A9+%D8%A7%D9%84%D8%B3%D8%A8%D8%B9+18%D8%B4+%D8%A7%D9%84%D8%AD%D8%B2%D8%A8+%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A+%D9%85%D9%86+%D8%B4+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D9%85%D9%86%D8%B9%D9%85+%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A8%D8%B1%D9%83%D8%A9+%D8%A7%D9%84%D8%B3%D8%A8%D8%B9+-+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D9%87+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-88cd770cce9bb491",
+      "name": "اورنج اكسبريس - تلا",
+      "address": "ش مصر الجديدة - عقار رقم 1 - محل رقم 1 - امام النساجون الشرقيون - تلا - المنوفية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A7%D9%88%D8%B1%D9%86%D8%AC+%D8%A7%D9%83%D8%B3%D8%A8%D8%B1%D9%8A%D8%B3+-+%D8%AA%D9%84%D8%A7+%D8%B4+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+-+%D8%B9%D9%82%D8%A7%D8%B1+%D8%B1%D9%82%D9%85+1+-+%D9%85%D8%AD%D9%84+%D8%B1%D9%82%D9%85+1+-+%D8%A7%D9%85%D8%A7%D9%85+%D8%A7%D9%84%D9%86%D8%B3%D8%A7%D8%AC%D9%88%D9%86+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D9%88%D9%86+-+%D8%AA%D9%84%D8%A7+-+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "albaraka-7725cf66e24f73e1",
+      "name": "نك البركة ATM - جملة ماركت الغردقة",
+      "address": "شارع الكوثر- مجمع البنوك - متفرع طريق النصر - الغردقة اول",
+      "governorate": "البحر الأحمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D8%BA%D8%B1%D8%AF%D9%82%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%83%D9%88%D8%AB%D8%B1-+%D9%85%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83+-+%D9%85%D8%AA%D9%81%D8%B1%D8%B9+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%86%D8%B5%D8%B1+-+%D8%A7%D9%84%D8%BA%D8%B1%D8%AF%D9%82%D8%A9+%D8%A7%D9%88%D9%84+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1+%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1+Egypt"
+    },
+    {
+      "id": "albaraka-fa8d5ba8a62e080d",
+      "name": "بنك البركة ATM- مترو ماركت - الغردقة",
+      "address": "الهضبة الشمالية ش الشيراتون امام فندق سيجال",
+      "governorate": "البحر الأحمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM-+%D9%85%D8%AA%D8%B1%D9%88+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+-+%D8%A7%D9%84%D8%BA%D8%B1%D8%AF%D9%82%D8%A9+%D8%A7%D9%84%D9%87%D8%B6%D8%A8%D8%A9+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9+%D8%B4+%D8%A7%D9%84%D8%B4%D9%8A%D8%B1%D8%A7%D8%AA%D9%88%D9%86+%D8%A7%D9%85%D8%A7%D9%85+%D9%81%D9%86%D8%AF%D9%82+%D8%B3%D9%8A%D8%AC%D8%A7%D9%84+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1+%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1+Egypt"
+    },
+    {
+      "id": "albaraka-b9a1405403c759d1",
+      "name": "بنك البركة ATM - أمان ستورز كفر الشيخ",
+      "address": "كفر الشيخ للمحل التجاري رقم 25 بالدور الارضي، بالعقار الكائن بشارع صلاح سالم،بندر كفر الشيخ، محافظة كفر الشيخ",
+      "governorate": "كفر الشيخ",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1133227%2C30.9462521"
+    },
+    {
+      "id": "albaraka-0ba6f57917c98139",
+      "name": "بنك البركة ATM - شركة المطاحن كفر الشيخ",
+      "address": "طريق دسوق كفر الشيخ",
+      "governorate": "كفر الشيخ",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1187083%2C30.9353620"
+    },
+    {
+      "id": "albaraka-01c37507b801ae0f",
+      "name": "بنك البركة ATM - كازيون ماركت كفر الشيخ",
+      "address": "لمحل الكائن شارع ناجى شتلة - محكمة الاسرة - شرق المدينة - محافظة كفر الشيخ",
+      "governorate": "كفر الشيخ",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%83%D8%A7%D8%B2%D9%8A%D9%88%D9%86+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D9%83%D9%81%D8%B1+%D8%A7%D9%84%D8%B4%D9%8A%D8%AE+%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D9%83%D8%A7%D8%A6%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%86%D8%A7%D8%AC%D9%89+%D8%B4%D8%AA%D9%84%D8%A9+-+%D9%85%D8%AD%D9%83%D9%85%D8%A9+%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A9+-+%D8%B4%D8%B1%D9%82+%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D9%83%D9%81%D8%B1+%D8%A7%D9%84%D8%B4%D9%8A%D8%AE+%D9%83%D9%81%D8%B1+%D8%A7%D9%84%D8%B4%D9%8A%D8%AE+Egypt"
+    },
+    {
+      "id": "albaraka-3e74a6495038e9f2",
+      "name": "بنك البركة ATM - البدر مول",
+      "address": "شارع الأسكندرية – مرسي مطروح",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8562500%2C28.9505300"
+    },
+    {
+      "id": "albaraka-4d6301b0b3792855",
+      "name": "بنك البركة ATM - فندق الماسة O-Mall",
+      "address": "O Mall فندق الماسة مدينة العالمين الجديدة -مرسى مطروح",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.3537684%2C27.2406375"
+    },
+    {
+      "id": "albaraka-d0f390c2f8a1cd87",
+      "name": "بنك البركة ATM - أسواق فتح الله للجملة – مرسى مطروح",
+      "address": "اسواق فتح الله للجمله – فندق رويال بالاس – ش الكورنيش – مطروح",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A3%D8%B3%D9%88%D8%A7%D9%82+%D9%81%D8%AA%D8%AD+%D8%A7%D9%84%D9%84%D9%87+%D9%84%D9%84%D8%AC%D9%85%D9%84%D8%A9+%E2%80%93+%D9%85%D8%B1%D8%B3%D9%89+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D8%A7%D8%B3%D9%88%D8%A7%D9%82+%D9%81%D8%AA%D8%AD+%D8%A7%D9%84%D9%84%D9%87+%D9%84%D9%84%D8%AC%D9%85%D9%84%D9%87+%E2%80%93+%D9%81%D9%86%D8%AF%D9%82+%D8%B1%D9%88%D9%8A%D8%A7%D9%84+%D8%A8%D8%A7%D9%84%D8%A7%D8%B3+%E2%80%93+%D8%B4+%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%E2%80%93+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D9%85%D8%B1%D8%B3%D9%89+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "albaraka-afc719b74dc36bbb",
+      "name": "بنك البركة ATM - سعودى ماركت - مراسى",
+      "address": "129 طريق اسكندرية مطروح الصحراوى, قرية مراسى, سيدى عبد الرحمن, الساحل الشمالى",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B3%D8%B9%D9%88%D8%AF%D9%89+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+-+%D9%85%D8%B1%D8%A7%D8%B3%D9%89+129+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%89%2C+%D9%82%D8%B1%D9%8A%D8%A9+%D9%85%D8%B1%D8%A7%D8%B3%D9%89%2C+%D8%B3%D9%8A%D8%AF%D9%89+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86%2C+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%89+%D9%85%D8%B1%D8%B3%D9%89+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "albaraka-641eb6ae7d7c0de5",
+      "name": "بنك البركة ATM - مارينا 4",
+      "address": "الكيلو 94 - طريق الإسكندرية - مطروح - الساحل الشمالى",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7+4+%D8%A7%D9%84%D9%83%D9%8A%D9%84%D9%88+94+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+-+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+-+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%89+%D9%85%D8%B1%D8%B3%D9%89+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "albaraka-378adf595e2e06c3",
+      "name": "بنك البركة ATM - بلو سايد - مارينا 5",
+      "address": "داخل قرية مارينا 5 - الساحل الشمالى",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%A8%D9%84%D9%88+%D8%B3%D8%A7%D9%8A%D8%AF+-+%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7+5+%D8%AF%D8%A7%D8%AE%D9%84+%D9%82%D8%B1%D9%8A%D8%A9+%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7+5+-+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%89+%D9%85%D8%B1%D8%B3%D9%89+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "albaraka-53ce57b4a6d417c9",
+      "name": "بنك البركة ATM - ريفيت مول - امواج",
+      "address": "الكيلو 137 طريق اسكندرية مطروح الصحراوى - قرية امواج - الساحل الشمالى",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%B1%D9%8A%D9%81%D9%8A%D8%AA+%D9%85%D9%88%D9%84+-+%D8%A7%D9%85%D9%88%D8%A7%D8%AC+%D8%A7%D9%84%D9%83%D9%8A%D9%84%D9%88+137+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%89+-+%D9%82%D8%B1%D9%8A%D8%A9+%D8%A7%D9%85%D9%88%D8%A7%D8%AC+-+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%89+%D9%85%D8%B1%D8%B3%D9%89+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "albaraka-05bea7bd2b9ef767",
+      "name": "بنك البركة ATM - جملة ماركت العلمين الجديدة",
+      "address": "الكيلو 108 - المدينة التراثية - العلمين الجديدة - الساحل الشمالى - محافظة مطروح",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%83%D9%8A%D9%84%D9%88+108+-+%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AB%D9%8A%D8%A9+-+%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+-+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%89+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D9%85%D8%B1%D8%B3%D9%89+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "albaraka-36d50ee8cc9740f5",
+      "name": "بنك البركة ATM -جملة ماركت مارينا 5",
+      "address": "طريق إسكندرية مطروح - امام بوابة مارينا 5 - الساحل الشمالى",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-%D8%AC%D9%85%D9%84%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7+5+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+-+%D8%A7%D9%85%D8%A7%D9%85+%D8%A8%D9%88%D8%A7%D8%A8%D8%A9+%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7+5+-+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%89+%D9%85%D8%B1%D8%B3%D9%89+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "albaraka-393a4d4b752dab0a",
+      "name": "بنك البركة ATM - محطة وقود شل اوت العلمين 1",
+      "address": "طريق إسكندرية مطروح - محطة وقود شل اوت العلمين 1 - مدينة العلمين",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D8%A8%D9%86%D9%83+%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9+ATM+-+%D9%85%D8%AD%D8%B7%D8%A9+%D9%88%D9%82%D9%88%D8%AF+%D8%B4%D9%84+%D8%A7%D9%88%D8%AA+%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D9%86+1+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+-+%D9%85%D8%AD%D8%B7%D8%A9+%D9%88%D9%82%D9%88%D8%AF+%D8%B4%D9%84+%D8%A7%D9%88%D8%AA+%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D9%86+1+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D9%86+%D9%85%D8%B1%D8%B3%D9%89+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "albaraka-10d8521e79797009",
+      "name": "لافيستا - الساحل الشمالى",
+      "address": "الكيلو ١٧٠ طريق الإسكندرية مطروح - الضبعة - محافظة مطروح",
+      "governorate": "مرسى مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Al+Baraka+Bank+Egypt+%D9%84%D8%A7%D9%81%D9%8A%D8%B3%D8%AA%D8%A7+-+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%89+%D8%A7%D9%84%D9%83%D9%8A%D9%84%D9%88+%D9%A1%D9%A7%D9%A0+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+-+%D8%A7%D9%84%D8%B6%D8%A8%D8%B9%D8%A9+-+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D9%85%D8%B1%D8%B3%D9%89+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "albaraka-38cc7f46f050d477",
+      "name": "بنك البركة ATM - جنينة سيتى مول",
+      "address": "خليج نعمة - شرم الشيخ",
+      "governorate": "جنوب سيناء",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9079710%2C34.3199430"
+    }
+  ],
+  "branches_status": "published",
+  "atms_status": "published",
+  "source_urls": [
+    "https://www.albaraka.com.eg/search-result/"
+  ],
+  "branch_locator_url": "https://www.albaraka.com.eg/search-result/",
+  "atm_locator_url": "https://www.albaraka.com.eg/search-result/",
+  "hotline": null,
+  "contact_url": "https://www.albaraka-bank.com.eg/",
+  "reviewed_at": "2026-10-29",
+  "version": "b7737923569bf981"
+}

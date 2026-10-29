@@ -1,0 +1,14 @@
+{
+  "bank_code": "hsbc",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [],
+  "branch_locator_url": "https://www.hsbc.com.eg/branch-finder/",
+  "atm_locator_url": "https://www.hsbc.com.eg/branch-finder/",
+  "hotline": null,
+  "contact_url": "https://www.hsbc.com.eg/",
+  "reviewed_at": null,
+  "version": "e02ca2ae70e66e02"
+}

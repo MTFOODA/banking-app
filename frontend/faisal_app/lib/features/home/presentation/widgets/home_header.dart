@@ -51,8 +51,8 @@ class HomeHeader extends StatelessWidget {
                     const SizedBox(width: AppSpacing.sm),
                     Flexible(
                       child: Text(
-                        BankingIdentity.name,
-                        maxLines: 1,
+                        BankingIdentity.displayName(context),
+                        maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
                           color: BrandingScope.headerText(context)
@@ -65,17 +65,6 @@ class HomeHeader extends StatelessWidget {
                     ),
                   ],
                 ),
-                if (BrandingScope.bankOf(context) != null) ...[
-                  const SizedBox(height: 6),
-                  Text(
-                    BrandingScope.bankOf(context)!
-                        .name(Localizations.localeOf(context).languageCode),
-                    style: TextStyle(
-                      fontSize: 12,
-                      color: context.palette.onHeaderMuted,
-                    ),
-                  ),
-                ],
                 const SizedBox(height: AppSpacing.lg),
                 Text(
                   BrandingScope.of(context).text('welcome_message') ?? greeting,

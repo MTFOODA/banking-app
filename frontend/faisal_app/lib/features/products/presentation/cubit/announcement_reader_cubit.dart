@@ -16,16 +16,17 @@ class AnnouncementReaderState {
 }
 
 class AnnouncementReaderCubit extends Cubit<AnnouncementReaderState> {
-  AnnouncementReaderCubit(this._repository, {this.id})
+  AnnouncementReaderCubit(this._repository, {this.id, this.bankCode})
     : super(const AnnouncementReaderState());
   final DiscoverRepository _repository;
   final String? id;
+  final String? bankCode;
   Future<void> load() async {
     if (isClosed) return;
     emit(const AnnouncementReaderState());
     try {
       final items = id == null
-          ? await _repository.fetchPublicAnnouncements()
+          ? await _repository.fetchPublicAnnouncements(bankCode: bankCode)
           : [await _repository.fetchAnnouncement(id!)];
       if (!isClosed) {
         emit(AnnouncementReaderState(items: items, loading: false));

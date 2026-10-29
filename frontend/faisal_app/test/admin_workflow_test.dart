@@ -128,7 +128,9 @@ class WorkflowRepository implements AdminRepository {
 class PublicRepository implements DiscoverRepository {
   bool fail = false, empty = false;
   @override
-  Future<List<Announcement>> fetchPublicAnnouncements() async {
+  Future<List<Announcement>> fetchPublicAnnouncements({
+    String? bankCode,
+  }) async {
     if (fail) throw fixtures.failure;
     return empty ? [] : [notice()];
   }

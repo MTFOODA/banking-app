@@ -1,0 +1,1684 @@
+{
+  "bank_code": "suez_canal",
+  "branches": [
+    {
+      "id": "suez_canal-ba2774b7d81e4612",
+      "name": "10 th of Ramadan Branch",
+      "address": "Banks Center beside investors Assembly-in front of Kafrawy Garden",
+      "governorate": "10th Of Ramadan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2770850%2C31.7534460"
+    },
+    {
+      "id": "suez_canal-33350654f5616cd4",
+      "name": "6th of October University Branch",
+      "address": "6th Of October University - Mehwar EL Markazy St.- Zone 1/1 - 6th of October - Giza",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9754440%2C30.9461180"
+    },
+    {
+      "id": "suez_canal-e086c4b4292d071d",
+      "name": "Arkan Mall Branch",
+      "address": "Unit Number VY 203 & AY 204 - Arakn Mall - Shiekh Zayed, Giza",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0199720%2C31.0060120"
+    },
+    {
+      "id": "suez_canal-0904d5b907606ec3",
+      "name": "El Hosary Branch",
+      "address": "block, 3 area 14/1, main axis, Nasr St",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9715370%2C30.9426780"
+    },
+    {
+      "id": "suez_canal-e1f13bb5a4700202",
+      "name": "October Branch",
+      "address": "55 Behind Banks Area Behind Al Ahram Central press",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9429300%2C30.8959750"
+    },
+    {
+      "id": "suez_canal-59c35c2f15115b79",
+      "name": "Al Amreia Branch",
+      "address": "Free Zone- Service building- Al Amreia",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0373450%2C29.7776620"
+    },
+    {
+      "id": "suez_canal-24c27a9d60e05985",
+      "name": "Borg EL Arab Branch",
+      "address": "Banks Center-in front of Borg El Arab police office",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8835910%2C29.5766820"
+    },
+    {
+      "id": "suez_canal-c0d524bbaf014462",
+      "name": "Gleem Branch",
+      "address": "334 El Geish St. - Gleem",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2396380%2C29.9551700"
+    },
+    {
+      "id": "suez_canal-1e2bbdaf25bd0cbe",
+      "name": "Roshdy Branch",
+      "address": "411 AL-Horria Road - Roshdy – Alexandria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2256530%2C29.9484090"
+    },
+    {
+      "id": "suez_canal-8479bbb4d30823b5",
+      "name": "Smouha Branch",
+      "address": "5, Mohamed Bahaa El Din El Ghatory St.",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2142690%2C29.9427700"
+    },
+    {
+      "id": "suez_canal-b6de34e77aedd137",
+      "name": "Sporting Club Branch",
+      "address": "255 Horrya Road - in front of sporting club main gate – Alexandria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2119710%2C29.9338460"
+    },
+    {
+      "id": "suez_canal-3e522ade9a40a1ab",
+      "name": "Assuit Branch",
+      "address": "42 A, Salah Salem St. - El Helaly Before - Sray El Barody Tower",
+      "governorate": "Assuit",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1828660%2C31.1928450"
+    },
+    {
+      "id": "suez_canal-ac3e11922c6ff02b",
+      "name": "Bani Suif Branch",
+      "address": "3, Ard El Horya - Zeizenia Tower",
+      "governorate": "Bani Suif",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.0789100%2C31.1000970"
+    },
+    {
+      "id": "suez_canal-6279142f21571887",
+      "name": "El-Rehab Branch",
+      "address": "Gate Way Mall - El-Rehab - New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0653910%2C31.4803420"
+    },
+    {
+      "id": "suez_canal-c46dd032157a2569",
+      "name": "Dokki Islamic Branch",
+      "address": "122, El Tahrir St.",
+      "governorate": "Dokki",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0391040%2C31.2145510"
+    },
+    {
+      "id": "suez_canal-d2a4a5f50ec3bec3",
+      "name": "Magles El Dawla Branch",
+      "address": "48 Giza St. - Orman Tower",
+      "governorate": "Dokki",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0346660%2C31.2178170"
+    },
+    {
+      "id": "suez_canal-d9041a6a9e7877fb",
+      "name": "Garden City Branch",
+      "address": "7, Abdel Qader Hamza St.",
+      "governorate": "Downtown",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0419050%2C31.2341510"
+    },
+    {
+      "id": "suez_canal-ff1ccb431fa06597",
+      "name": "Dumietta Branch",
+      "address": "Dumietta New Port Authority-port service Center",
+      "governorate": "Dumietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4454420%2C31.7648760"
+    },
+    {
+      "id": "suez_canal-1a7dd42e6c90e7d8",
+      "name": "New Economic Zone Branch",
+      "address": "114 Kattamia St.- Economic zone General Authority investors service building",
+      "governorate": "El Ein El Sokhna",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.7140010%2C32.3046070"
+    },
+    {
+      "id": "suez_canal-393196f229cbc0e9",
+      "name": "Teda Ein El Sokhna Branch",
+      "address": "third district-Northern west Gulf-Economic zone-Tida Building",
+      "governorate": "El Ein El Sokhna",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.6716800%2C32.3130260"
+    },
+    {
+      "id": "suez_canal-f0d1336055f3d0c0",
+      "name": "El Manial Branch",
+      "address": "13, El Manial St.El Rawda",
+      "governorate": "El Manial",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0126180%2C31.2250200"
+    },
+    {
+      "id": "suez_canal-e062324a8e84bfd2",
+      "name": "El Menia Branch",
+      "address": "195 B, Cornish El Nile St. opposite to Police Club",
+      "governorate": "El Menia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0981510%2C30.7601640"
+    },
+    {
+      "id": "suez_canal-cac61bb37fa8d7dd",
+      "name": "Obour Branch",
+      "address": "16,17 Banks Center-Behind Toyota service Center-Obour City",
+      "governorate": "El Obour",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1821250%2C31.4674510"
+    },
+    {
+      "id": "suez_canal-db87ff15c3f9f180",
+      "name": "EL Sadat Branch",
+      "address": "City Services Axis-Fifth District(Banks Area) Sadat City",
+      "governorate": "El Sadat",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3750090%2C30.5017090"
+    },
+    {
+      "id": "suez_canal-fb27866c0b8cc85f",
+      "name": "Giza Branch",
+      "address": "27,Taha Hussein St.",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0192350%2C31.2156440"
+    },
+    {
+      "id": "suez_canal-7f35e65646381dc1",
+      "name": "Zamalek Club Branch",
+      "address": "Zamalek Club - Gamet Al-Dewal Al-Arabia St. - Mohandseen",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0589850%2C31.2064930"
+    },
+    {
+      "id": "suez_canal-b28cd12a042ede18",
+      "name": "Heliopolis Branch",
+      "address": "12, Baghdad St.",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0901270%2C31.3230680"
+    },
+    {
+      "id": "suez_canal-e0bad4276ebf6388",
+      "name": "Orouba Branch",
+      "address": "36, Al Orouba St.",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0901650%2C31.3312200"
+    },
+    {
+      "id": "suez_canal-fc4d0f13b8b84f04",
+      "name": "Smash Club Airport Branch",
+      "address": "43 El Nozha St. - behind Novotel Hotel",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1193750%2C31.3994410"
+    },
+    {
+      "id": "suez_canal-5ea1e049c564cfe3",
+      "name": "Hurghada Branch",
+      "address": "10 Hurghada Safaga Road - New Kawthar Division - Banks District - Hurghada - Red Sea",
+      "governorate": "Hurghada - Red Sea",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1997690%2C33.8239650"
+    },
+    {
+      "id": "suez_canal-a545ecd8c5f968bb",
+      "name": "Al-Irshad Building Suez Canal Authority - Ismailia",
+      "address": "Al-Irshad Building Suez Canal Authority - Ismailia",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5889660%2C32.2812420"
+    },
+    {
+      "id": "suez_canal-3945fa77f3cf7134",
+      "name": "Ismailia Branch",
+      "address": "127, El Teraa St. behind El Timsah Company",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5880120%2C32.2704180"
+    },
+    {
+      "id": "suez_canal-e05e9db06fd75d8e",
+      "name": "New Ismailia Branch",
+      "address": "690 Suez Canal Authority-Sheikh Zayed-east Railway Station",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6040000%2C32.2984930"
+    },
+    {
+      "id": "suez_canal-15077586d2a2a46d",
+      "name": "Fostat Branch",
+      "address": "Plot 2, Block 2/A, First Neighborhood, New Fustat City",
+      "governorate": "Maadi",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0033270%2C31.2435240"
+    },
+    {
+      "id": "suez_canal-4fa0102da9d88009",
+      "name": "Maadi Branch",
+      "address": "14, Wadi El Nile St.",
+      "governorate": "Maadi",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9571790%2C31.2557200"
+    },
+    {
+      "id": "suez_canal-07a31e61d80018f6",
+      "name": "Mansoura Branch",
+      "address": "28H,29 Saad Saghloul St.",
+      "governorate": "Mansoura",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0536130%2C31.3975900"
+    },
+    {
+      "id": "suez_canal-560a8301cdf0b78f",
+      "name": "Al-Alamien Branch",
+      "address": "O Mall - Al-Alamien - North Coast",
+      "governorate": "Matrouh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8445790%2C28.9454630"
+    },
+    {
+      "id": "suez_canal-efa5eb00283b2072",
+      "name": "El Ahrar Branch",
+      "address": "19, El Ahrar St. from El Batal Ahmed Abdel Aziz St.",
+      "governorate": "Mohandssein",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0483940%2C31.2086030"
+    },
+    {
+      "id": "suez_canal-f0dcd03e107a1488",
+      "name": "Mohandssein Branch",
+      "address": "8, Abdelrahman Al Refaie St. opposite to Shooting Club Gate 5",
+      "governorate": "Mohandssein",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0490340%2C31.2005550"
+    },
+    {
+      "id": "suez_canal-9d259025a44b26f6",
+      "name": "Sphinx Branch",
+      "address": "24, Syria St.",
+      "governorate": "Mohandssein",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0527890%2C31.1968970"
+    },
+    {
+      "id": "suez_canal-9c9d3d61bcf993d2",
+      "name": "City Stars Branch",
+      "address": "Omar Ibn EL Khattab St. - Nasr City",
+      "governorate": "Nasr City",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0734010%2C31.3464920"
+    },
+    {
+      "id": "suez_canal-51bc23117e9876e6",
+      "name": "Makram Ebbed Branch",
+      "address": "1 Hafez Ibrahim St. - six district",
+      "governorate": "Nasr City",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0682300%2C31.3428900"
+    },
+    {
+      "id": "suez_canal-7312c4422e7268fc",
+      "name": "Nasr City Branch",
+      "address": "74, Abbas El Akkad St.",
+      "governorate": "Nasr City",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0580600%2C31.3380040"
+    },
+    {
+      "id": "suez_canal-dd81a1e1ce58f3f0",
+      "name": "Madinty Branch",
+      "address": "1 A commercial centers area in front of Arabesque mall",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1066720%2C31.6302620"
+    },
+    {
+      "id": "suez_canal-4542f0c8ab3c8ac1",
+      "name": "Tagamua Branch",
+      "address": "140 first district -city Center-fifth settlement - Tagamua",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0180373%2C31.4292337"
+    },
+    {
+      "id": "suez_canal-4d94ad87cd5568b9",
+      "name": "Top 90 Branch",
+      "address": "421 90 St.-City Center-third district-fifth settlement beside FUE university",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0259890%2C31.4901040"
+    },
+    {
+      "id": "suez_canal-515662e374e112fe",
+      "name": "Port Said Branch",
+      "address": "El Mahrousa Tower , Mahmoud Sedki & panama St.",
+      "governorate": "Port Said",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2627410%2C32.3116580"
+    },
+    {
+      "id": "suez_canal-e4b4ee4511fdbdcc",
+      "name": "Qena Branch",
+      "address": "Dandra bridge, Elomaid tower- Dolphin square",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1588270%2C32.7062960"
+    },
+    {
+      "id": "suez_canal-0858e0840c0886a7",
+      "name": "Zagazig Branch",
+      "address": "34 Saad Zaghloul St. Zagazig - El-Sharika",
+      "governorate": "Shakira",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5845470%2C31.4950780"
+    },
+    {
+      "id": "suez_canal-f333797a2d9ff3ef",
+      "name": "Sharm El Sheikh Branch",
+      "address": "office building-Neama Bay-Fun Town",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9101160%2C34.3169320"
+    },
+    {
+      "id": "suez_canal-4316aa8c38e34940",
+      "name": "Shbin El-Kom Branch",
+      "address": "City Club Wall - Shbin El-Kom - Monofia",
+      "governorate": "Shbin El-Kom",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5647180%2C31.0127200"
+    },
+    {
+      "id": "suez_canal-639e636d45446f0a",
+      "name": "Shoubra Branch",
+      "address": "60,62 Shoubra St from Masara St,Badran island",
+      "governorate": "Shoubra",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0735520%2C31.2449340"
+    },
+    {
+      "id": "suez_canal-585976efd1fc78f2",
+      "name": "Sohag Branch",
+      "address": "47B El-Gomhoria St. - Infront of Sohag Club - Sohag",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.5640300%2C31.6967280"
+    },
+    {
+      "id": "suez_canal-e37a5f6767ce85c1",
+      "name": "Port Tewfik Branch",
+      "address": "242,243- Canal Authority buildings-",
+      "governorate": "Suez",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9415040%2C32.5688680"
+    },
+    {
+      "id": "suez_canal-6a25ab65cd51404e",
+      "name": "Suez Branch",
+      "address": "8, Saad Saghloul St.",
+      "governorate": "Suez",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9647500%2C32.5515170"
+    },
+    {
+      "id": "suez_canal-a29fa3271cbdeedb",
+      "name": "Tanta Branch",
+      "address": "7A, Ahmed Ali St. ( El Moalemen Club )",
+      "governorate": "Tanta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7976100%2C30.9958970"
+    }
+  ],
+  "atms": [
+    {
+      "id": "suez_canal-1e6888c3aa8ce25f",
+      "name": "10th of Ramadan Branch",
+      "address": "Banks Center beside investors Assembly-in front of Kafrawy Garden",
+      "governorate": "10th Of Ramadan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2770850%2C31.7534460"
+    },
+    {
+      "id": "suez_canal-81e253b54493d9f8",
+      "name": "Arab Contractor Company",
+      "address": "47Km, Cairo Ismailia Desert Road Behind International Medical Center",
+      "governorate": "10th of Ramadan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2166100%2C31.6869770"
+    },
+    {
+      "id": "suez_canal-dd54f8df5099ace2",
+      "name": "6 October University Branch",
+      "address": "6th Of October University",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9750103%2C30.9477220"
+    },
+    {
+      "id": "suez_canal-b97fbcf32f47c0b2",
+      "name": "6th of October Branch 2",
+      "address": "55 Behind Banks Area Behind Al Ahram Central press",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9429300%2C30.8959750"
+    },
+    {
+      "id": "suez_canal-63b62a70079992e5",
+      "name": "Arkan Mall Branch",
+      "address": "Unit Number VY 203 & AY 204 - Arakn Mall - Shiekh Zayed, Giza",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0199720%2C31.0060120"
+    },
+    {
+      "id": "suez_canal-ade42582957d115a",
+      "name": "El Hosary Branch",
+      "address": "block, 3 area 14/1, main axis, Nasr St",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9715370%2C30.9426780"
+    },
+    {
+      "id": "suez_canal-5036e79204d9c336",
+      "name": "E-Star Factory",
+      "address": "E-Star Facoty industrial Area 6th of October",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9174651%2C30.8918223"
+    },
+    {
+      "id": "suez_canal-7cd25b4df4a4c6f2",
+      "name": "Gallaria 40",
+      "address": "26th of July corridor, first Al Sheikh Zayed - Galleria 40 Mall",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0161600%2C31.0013570"
+    },
+    {
+      "id": "suez_canal-4e3488bd83002a56",
+      "name": "Mall Of Arabia",
+      "address": "26th of july axis, juhayna square, Mall of Arabia, Gate No.15",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0066310%2C30.9752600"
+    },
+    {
+      "id": "suez_canal-adc51cf045273313",
+      "name": "Mall of Egypt",
+      "address": "Giza- Al Wahat Al Baharia, Giza Governorate",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9712460%2C31.0179360"
+    },
+    {
+      "id": "suez_canal-4c09e15a437e80c5",
+      "name": "Mazar Mall",
+      "address": "Mazar Mall, Zone16, Area 5, Zayed October",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0540890%2C30.9601910"
+    },
+    {
+      "id": "suez_canal-5f0c585dc46d1669",
+      "name": "Polaris Park",
+      "address": "1ST Zone,Developres Area-North Extensions",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9634670%2C30.8825480"
+    },
+    {
+      "id": "suez_canal-31f0360c6ddc8195",
+      "name": "Total Gas station Mehwar",
+      "address": "Mehwar EL Markazy St . Opposite to Dar Al Fouad Hospital",
+      "governorate": "6th of October",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9959740%2C30.9612570"
+    },
+    {
+      "id": "suez_canal-d2314a17843795f3",
+      "name": "Arab Contractor Company - Abaseya",
+      "address": "El Geish St - The Funds of arab contractor company - Abaseya",
+      "governorate": "Abaseya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0701405%2C31.2819261"
+    },
+    {
+      "id": "suez_canal-27117a71d15b8cb7",
+      "name": "Teda Ein El Sokhna Branch",
+      "address": "third district-North west Suez Gulf-Economic zone-Tida Building",
+      "governorate": "Ain El Sokhna",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.6716800%2C32.3130260"
+    },
+    {
+      "id": "suez_canal-57114973c4ffd24b",
+      "name": "Al Amreia Branch",
+      "address": "Free Zone- Service building-El Ameriea",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0373450%2C29.7776620"
+    },
+    {
+      "id": "suez_canal-d8bfbeb27081da65",
+      "name": "Alexandria Library",
+      "address": "ATM Center Alex Library",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1227800%2C29.5428600"
+    },
+    {
+      "id": "suez_canal-05724406fd94d73b",
+      "name": "City Center Alex",
+      "address": "City Center Alex Mall - Moharam Bek - Alex",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1665220%2C29.9335100"
+    },
+    {
+      "id": "suez_canal-f3e19bc61c26adb4",
+      "name": "Gleem Bay",
+      "address": "Gleem Bay – El-Giesh Road – Alexandria Kourniesh",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2431100%2C29.9587040"
+    },
+    {
+      "id": "suez_canal-7e35b785c8ff4a35",
+      "name": "Gleem Branch",
+      "address": "334 El Geish St. - Gleem",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2396380%2C29.9551700"
+    },
+    {
+      "id": "suez_canal-5f449da8f3be649e",
+      "name": "Orouba Mall Alex",
+      "address": "Orouba Mall – Borg Al-Arab Airport – North Coast Rd",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0067340%2C29.6381230"
+    },
+    {
+      "id": "suez_canal-170e457e15681fae",
+      "name": "Roshdy Branch",
+      "address": "411 AL-Horria Road - Roshdy - Alexandria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2256530%2C29.9484090"
+    },
+    {
+      "id": "suez_canal-1cf7b0e76788851e",
+      "name": "San Stefano Mall",
+      "address": "Army Road - Alexandria Cournish - San Stefano Mall - Alexandria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2450926%2C29.9667227"
+    },
+    {
+      "id": "suez_canal-73c24156cf2d2531",
+      "name": "Sporting Club Branch",
+      "address": "255 Horrya Road - in front of sporting club main gate – Alexandria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2119710%2C29.9338460"
+    },
+    {
+      "id": "suez_canal-39940284d7d161aa",
+      "name": "Assuit Branch",
+      "address": "42 A, Salah Salem St. - El Helaly Before - Sray El Barody Tower",
+      "governorate": "Assuit",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1828660%2C31.1928450"
+    },
+    {
+      "id": "suez_canal-fc6ee75e5adbbbfd",
+      "name": "Downtown Mall",
+      "address": "Downtown Mall – Tawfik Khashaba st – Asyut",
+      "governorate": "Asyut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1816520%2C31.1852360"
+    },
+    {
+      "id": "suez_canal-4934fc5bd61f3114",
+      "name": "Bani Suif Branch",
+      "address": "3, Ard El Horya - Zeizenia Tower",
+      "governorate": "Bani Suif",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.0789100%2C31.1000970"
+    },
+    {
+      "id": "suez_canal-4b785c76a12712b2",
+      "name": "City Mall Damnhour",
+      "address": "City Mall – Alex Agriculture Rd, Abadeyat Damanhour",
+      "governorate": "Behira",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0428920%2C30.4195930"
+    },
+    {
+      "id": "suez_canal-3bfa49bd2b417df4",
+      "name": "Borg EL Arab Branch",
+      "address": "Banks Center-in front of Borg El Arab police office",
+      "governorate": "Borg El Arab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8835910%2C29.5766820"
+    },
+    {
+      "id": "suez_canal-d64f58fe0dbcc2a5",
+      "name": "C3 – Carrefour – 15 May",
+      "address": "C3 Mall – Carrefour 15 May – Al Outstrad",
+      "governorate": "cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8202780%2C31.3536590"
+    },
+    {
+      "id": "suez_canal-91389745d214f590",
+      "name": "C3 – Carrefour – 6 Oct",
+      "address": "C3 Mall – Carrefour beside MSA University EL Wahat Rd",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Suez+Canal+Bank+C3+%E2%80%93+Carrefour+%E2%80%93+6+Oct+C3+Mall+%E2%80%93+Carrefour+beside+MSA+University+EL+Wahat+Rd+Cairo+Egypt"
+    },
+    {
+      "id": "suez_canal-4066b7bd036ea973",
+      "name": "C3 – Carrefour - Badr",
+      "address": "C3 Mall – Carrefour Badr - Entranece for Badr City - Horreya Rd",
+      "governorate": "cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1355750%2C31.7156200"
+    },
+    {
+      "id": "suez_canal-34d9286f8fcb2651",
+      "name": "C3 – Carrefour - Shorouk",
+      "address": "C3 Mall – Carrefour ElShorouk – ElHorreya Rd",
+      "governorate": "cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1532060%2C31.6448880"
+    },
+    {
+      "id": "suez_canal-4e6f9157acb92d79",
+      "name": "El-Rehab Building",
+      "address": "Mohamed Nagib Axis – Chill out Boulevard Mall – Beside Princess Café – Second New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0745390%2C31.4732520"
+    },
+    {
+      "id": "suez_canal-917ff975723a251c",
+      "name": "Fuel up Mosheer",
+      "address": "Mosheer Tantway Axis - Fuel up Gas Station",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Suez+Canal+Bank+Fuel+up+Mosheer+Mosheer+Tantway+Axis+-+Fuel+up+Gas+Station+Cairo+Egypt"
+    },
+    {
+      "id": "suez_canal-c407db5663d74b62",
+      "name": "Garden 8",
+      "address": "Salah El Din Abdel Karim, New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0464640%2C31.4849790"
+    },
+    {
+      "id": "suez_canal-8cdcbb714b92bd3e",
+      "name": "Grand Mall Maadi",
+      "address": "St 250 – Maadi Al Gharbeyah – Maadi",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9655230%2C31.2699010"
+    },
+    {
+      "id": "suez_canal-e50308f6988b4416",
+      "name": "Hyper Badr",
+      "address": "Huper One Market - Badr City Road",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1084250%2C31.7497160"
+    },
+    {
+      "id": "suez_canal-e9239ede1cf720e3",
+      "name": "Maxim Mall",
+      "address": "North Teseen Rd, Al Tahrir Axis – New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0295160%2C31.4968670"
+    },
+    {
+      "id": "suez_canal-ec0d68dc9f3b7f48",
+      "name": "Mobil Concord Plaza",
+      "address": "Mobil Gas Station behind concord plaza Mall - new cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0223590%2C31.4795980"
+    },
+    {
+      "id": "suez_canal-d54ac6bab5fcb25e",
+      "name": "Oscar Market 5th settlement",
+      "address": "90th Street - Oscar Market Mall - 5th settlement",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0277080%2C31.4887800"
+    },
+    {
+      "id": "suez_canal-b0496bb1fa9034e6",
+      "name": "Parking Zamalek",
+      "address": "Parking Zamalek – beside Nile City Boat in front of B Cairo",
+      "governorate": "cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0466140%2C31.2279490"
+    },
+    {
+      "id": "suez_canal-2f0b0c229a622fdb",
+      "name": "Sodic EDNC",
+      "address": "EDNC Mall South Teseen, New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0157390%2C31.5161700"
+    },
+    {
+      "id": "suez_canal-03f921e948bf505a",
+      "name": "Sofitel El-Guizera Hotel",
+      "address": "Sofitel El-Guizera Hotel - El-Zamalek - Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0385910%2C31.2244950"
+    },
+    {
+      "id": "suez_canal-0e47e6b4a741a199",
+      "name": "Triumph Luxury Hotel",
+      "address": "Katameya hights road - New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0040110%2C31.4008560"
+    },
+    {
+      "id": "suez_canal-bb83bc5fb1b7751b",
+      "name": "Triumph Plaza Hotel",
+      "address": "El Khalifa El-Maamoun St - Heliopolis",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0866500%2C31.3057780"
+    },
+    {
+      "id": "suez_canal-c05514dda5cf3aa5",
+      "name": "City Grand Mall New Damietta",
+      "address": "Gamal Abd El Nasser St – Damietta El-Gedeeda",
+      "governorate": "Damietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4366210%2C31.6787160"
+    },
+    {
+      "id": "suez_canal-233ac655ee28cc9d",
+      "name": "Dumietta Branch",
+      "address": "Dommitte New Port Authority-port service Center",
+      "governorate": "Damietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4454420%2C31.7648760"
+    },
+    {
+      "id": "suez_canal-b301a985c979f4ba",
+      "name": "Mall Of Mansoura",
+      "address": "Mall of Mansora - Mit alkorama - Talkha",
+      "governorate": "Damietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0724300%2C31.3587820"
+    },
+    {
+      "id": "suez_canal-f2dc0403c52571e9",
+      "name": "Dokki Branch",
+      "address": "122, El Tahrir St.",
+      "governorate": "Dokki",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0390600%2C31.2147060"
+    },
+    {
+      "id": "suez_canal-c45b006b8f83edc7",
+      "name": "El Ahrar Branch",
+      "address": "19, El Ahrar St. from El Batal Ahmed Abdel Aziz St.",
+      "governorate": "Dokki",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0483940%2C31.2086030"
+    },
+    {
+      "id": "suez_canal-00adb06aa5e8a6ae",
+      "name": "Fawry Plus Musdaq",
+      "address": "Commercial Store No. 1 - Real Estate 42 - Organization Musdeq Street - Dokki",
+      "governorate": "Dokki",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0395224%2C31.2060166"
+    },
+    {
+      "id": "suez_canal-a6f0132abb30396c",
+      "name": "Mohandssein Branch",
+      "address": "8, Abdelrahman Al Refaie St. opposite to Shooting Club Gate 5",
+      "governorate": "Dokki",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0490341%2C31.2005546"
+    },
+    {
+      "id": "suez_canal-338fc59b2198ee2c",
+      "name": "Sheraton Cairo Hotel",
+      "address": "Sheraton Cairo Hotel - Al- Galaa Square _ Dokki",
+      "governorate": "Dokki",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0392150%2C31.2203090"
+    },
+    {
+      "id": "suez_canal-79b798b4745cfe40",
+      "name": "Garden City",
+      "address": "7, Abdel Qader Hamza St.",
+      "governorate": "Downtown",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0419050%2C31.2341510"
+    },
+    {
+      "id": "suez_canal-e027cfe537c3324c",
+      "name": "Garden City Branch 2",
+      "address": "7, Abdel Qader Hamza St. Garden City.",
+      "governorate": "Downtown",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0419050%2C31.2341510"
+    },
+    {
+      "id": "suez_canal-236eb86ef62e368b",
+      "name": "Martrans Company",
+      "address": "7 Abdel Khalek Tharwt st, downtown Cairo",
+      "governorate": "Downtown",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0511811%2C31.2390731"
+    },
+    {
+      "id": "suez_canal-62c210a0beb90de8",
+      "name": "Syndicate of Journalists",
+      "address": "Abdel Khaleq Tharwat Street - Downtown - Cairo",
+      "governorate": "Downtown",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0520350%2C31.2385510"
+    },
+    {
+      "id": "suez_canal-3503f0eed7d5dc5c",
+      "name": "New Economic Zone Branch",
+      "address": "114 Kattamia St.-Suez Canal Economic zone General Authority investors service building",
+      "governorate": "Economic zone",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.7140010%2C32.3046070"
+    },
+    {
+      "id": "suez_canal-7a0f93854d8c3bd9",
+      "name": "El Manial Branch",
+      "address": "13, El Manial St.El Rawda",
+      "governorate": "El Manial",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0126180%2C31.2250200"
+    },
+    {
+      "id": "suez_canal-7666e17652cae7d3",
+      "name": "El Menia Branch",
+      "address": "195 B, Cornish El Nile St. opposite to Police Club",
+      "governorate": "El Menia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0981510%2C30.7601640"
+    },
+    {
+      "id": "suez_canal-d76a613bed0b122c",
+      "name": "Panda Super El Obour",
+      "address": "Soliman Al Farsy St. First district - El Obour City",
+      "governorate": "El Obour",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2324711%2C31.4602867"
+    },
+    {
+      "id": "suez_canal-785790a333cdf664",
+      "name": "Egypt For Medical Clothes Co.",
+      "address": "6,7,9 area Industrial Zone - Sadat City",
+      "governorate": "El Sadat",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3677330%2C30.5472010"
+    },
+    {
+      "id": "suez_canal-b11b67e58a764e12",
+      "name": "EL Sadat Branch",
+      "address": "City Services Axis-Fifth District(Banks Area) Sadat City",
+      "governorate": "El Sadat",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3750090%2C30.5017090"
+    },
+    {
+      "id": "suez_canal-dcb6f53e22d214e0",
+      "name": "Golf Centeral",
+      "address": "Golf Central Mall, plam hills, First 6th october - Giza",
+      "governorate": "El-Shiekh Zayed",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9949420%2C31.0436530"
+    },
+    {
+      "id": "suez_canal-b976c15f6d228eb6",
+      "name": "Park Street",
+      "address": "Park St Mall - Elbostan Area - El-Shiekh Zayed",
+      "governorate": "El-Shiekh Zayed",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0257090%2C31.0115890"
+    },
+    {
+      "id": "suez_canal-a9fffb28878ec22b",
+      "name": "Trivium Mall",
+      "address": "Al Bostan St in front of Park St Mall - El Shkikh Zayed",
+      "governorate": "El-Shiekh Zayed",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0259830%2C31.0094900"
+    },
+    {
+      "id": "suez_canal-e5235f361985325f",
+      "name": "Walk of Cairo",
+      "address": "Wak of Cairo Mall - El-Shiekh Zayed - Giza",
+      "governorate": "El-Shiekh Zayed",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0771180%2C30.9520540"
+    },
+    {
+      "id": "suez_canal-7457d421bdb4db77",
+      "name": "El Shorouk Company",
+      "address": "Al Shorouk Modern printing and packaging company , first industrial zone",
+      "governorate": "El-Shrouk",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1732390%2C31.4711180"
+    },
+    {
+      "id": "suez_canal-3dccee34de82e16d",
+      "name": "Terrace Mall",
+      "address": "Third District East Expansion Area - Shorouk City - Cairo",
+      "governorate": "El-Shrouk",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1510290%2C31.6269550"
+    },
+    {
+      "id": "suez_canal-24e36ee3bea11aa8",
+      "name": "Mega Mall Fayum",
+      "address": "Mega Mall – Mahmoud Fahmy St – Fayum",
+      "governorate": "Fayum",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.3188610%2C30.8316480"
+    },
+    {
+      "id": "suez_canal-b12f25bad0e8cc50",
+      "name": "Electric Car Charging Station",
+      "address": "first of Cairo Alex Rd behind Nacita office Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0547140%2C31.0589850"
+    },
+    {
+      "id": "suez_canal-662bd306aa688d6b",
+      "name": "First Mall",
+      "address": "First Mall - Four Seasons Hotel - Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0242640%2C31.2168440"
+    },
+    {
+      "id": "suez_canal-fb8f84b2ce7356fb",
+      "name": "Giza Branch",
+      "address": "27,Taha Hussein St.",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0192350%2C31.2156440"
+    },
+    {
+      "id": "suez_canal-349871e515756ed2",
+      "name": "Hyper Sphinx",
+      "address": "Hyper One Market - Alex Cairo Road",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1629200%2C30.8204270"
+    },
+    {
+      "id": "suez_canal-1442f8d98355969e",
+      "name": "Magles Eldawal Branch",
+      "address": "48 Giza St. - Orman Tower",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0346660%2C31.2178170"
+    },
+    {
+      "id": "suez_canal-7232935a9e7d443b",
+      "name": "Royal Park",
+      "address": "26th of july axis, before Hyper one - Royal Park Mall",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0347270%2C31.0287640"
+    },
+    {
+      "id": "suez_canal-060ddd7076aa9ed9",
+      "name": "Sodic Westown Hub",
+      "address": "Westown hub Mall, Beverly Hills, Second Al Sheikh Zayed, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0743380%2C30.9465000"
+    },
+    {
+      "id": "suez_canal-7ad9c69daa944e21",
+      "name": "Zamalek Club Branch",
+      "address": "Zamalek Club Wall - Gamet Al-Dewal Al-Arabia St. - Mohandseen",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0589850%2C31.2064930"
+    },
+    {
+      "id": "suez_canal-8e7b854314ac2dec",
+      "name": "Downtown Gouna",
+      "address": "Building No. H9, El Balad District, El Gouna",
+      "governorate": "Gouna",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3969760%2C33.6750520"
+    },
+    {
+      "id": "suez_canal-873609db965e9199",
+      "name": "Movenpick Hotel - El-Gouna",
+      "address": "Movenpick ElGouna Hotel - El-Gouna - Hurghada - Red sea",
+      "governorate": "Gouna",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3951010%2C33.6855710"
+    },
+    {
+      "id": "suez_canal-acf604a8377043eb",
+      "name": "On The Run El-Gouna",
+      "address": "Mobil Gas Station - Ras Ghareb - Hurghada Road - El-Gouna Entrance - Red Sea",
+      "governorate": "Gouna",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3669320%2C33.6404440"
+    },
+    {
+      "id": "suez_canal-2095f73914e241c9",
+      "name": "Cleopatra Pyramids View Hotel",
+      "address": "Abo El-Hol Touristic Road - Nazlet El Seman - Haram - Giza",
+      "governorate": "Haram",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9753430%2C31.1410460"
+    },
+    {
+      "id": "suez_canal-e13115489ed11388",
+      "name": "Fawry Plus Tersa",
+      "address": "No. (33) built on the plot of land located in Al-Bohat Marine Basin No. (5) in Tersa Street (previously) Al-Qaed Muhammad Anwar Al-Sadat Street (currently) - Al-Haram - Giza Governorate",
+      "governorate": "Haram",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9884460%2C31.1581130"
+    },
+    {
+      "id": "suez_canal-9d216bfe279bc701",
+      "name": "Cairo International Air Port Terminal 2",
+      "address": "Cairo new international Airport -Arrival Terminal 2",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1121958%2C31.3987330"
+    },
+    {
+      "id": "suez_canal-a0c703efedf3632d",
+      "name": "City Center Almaza",
+      "address": "Sheraton Al Matar - El Nozha Cairo",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0810480%2C31.3639620"
+    },
+    {
+      "id": "suez_canal-d2adcd3e700062b5",
+      "name": "Heliopolis Branch",
+      "address": "12, Baghdad St.",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0901270%2C31.3230680"
+    },
+    {
+      "id": "suez_canal-8f3dad2dc2bfff8e",
+      "name": "Military Academy",
+      "address": "El Orouba, Al Matar , El Nozha",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1060038%2C31.3525353"
+    },
+    {
+      "id": "suez_canal-13a54e8ef74053c3",
+      "name": "On the Run Roxy",
+      "address": "72 Al Khalifa Al Maamoon",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0907473%2C31.3118324"
+    },
+    {
+      "id": "suez_canal-692f7418bb26ebed",
+      "name": "Orouba Branch",
+      "address": "36, Al Orouba St.",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0901650%2C31.3312200"
+    },
+    {
+      "id": "suez_canal-54d0d8290b79f4fc",
+      "name": "Smash Club Airport",
+      "address": "43 El Nozha St. - behind Novotel Hotel",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1187450%2C31.4022220"
+    },
+    {
+      "id": "suez_canal-6e58cc6b5b5a65ed",
+      "name": "Smash Club Airport Branch",
+      "address": "43 El Nozha St. - behind Novotel Hotel",
+      "governorate": "Heliopolis",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1193750%2C31.3994410"
+    },
+    {
+      "id": "suez_canal-a883015567585e70",
+      "name": "Hurghada Branch",
+      "address": "10 Hurghada Safaga Road - New Al-Kawthar Division - Banks District - Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1997690%2C33.8239650"
+    },
+    {
+      "id": "suez_canal-ff2faa6e6a310541",
+      "name": "Marina Hurghada",
+      "address": "Marina Hurghada - El-Sakala - Hurghada - Red Sea",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2275730%2C33.8420420"
+    },
+    {
+      "id": "suez_canal-9f8b01b98d7441fe",
+      "name": "Swiss Inn Hotel",
+      "address": "Swiss Inn Resort - Touristic Walk - Hurghada - Read Sea",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1585440%2C33.8256800"
+    },
+    {
+      "id": "suez_canal-df4d88a4b0326269",
+      "name": "Al-Irshad Building Branch",
+      "address": "Al-Irshad Building Suez Cana Authority - Ismailia",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5889660%2C32.2812420"
+    },
+    {
+      "id": "suez_canal-d90dd1dcef74a1f7",
+      "name": "Canal Company (Ford Garage)",
+      "address": "Shebin El-kom St. - Ismailia - Beside Al-Eraki Pharmacy",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5981704%2C32.2760044"
+    },
+    {
+      "id": "suez_canal-8be41bdefc7917fc",
+      "name": "Canal Company (Head Office)",
+      "address": "Area No. 6 - Canal Road - Ismailia",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5922060%2C32.2975200"
+    },
+    {
+      "id": "suez_canal-002e34781e672399",
+      "name": "El Temsah Payroll Company",
+      "address": "El Gomrok St. behind El Teraa St.",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5873820%2C32.2701580"
+    },
+    {
+      "id": "suez_canal-22bd5204a4e2160f",
+      "name": "Fawry Plus Ismailia",
+      "address": "224 Shebin El Koom St. - Mina House Tower",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6076040%2C32.2723010"
+    },
+    {
+      "id": "suez_canal-602fcdd54c656a45",
+      "name": "Ismailia Branch",
+      "address": "127, El Teraa St. behind El Timsah Company",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5880120%2C32.2704180"
+    },
+    {
+      "id": "suez_canal-2409526e63c7821d",
+      "name": "New Ismailia Br",
+      "address": "690 Suez Canal Authority-Sheikh Zayed-east Railway Station",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6040000%2C32.2984930"
+    },
+    {
+      "id": "suez_canal-6435e4dd4ef7fe4f",
+      "name": "Al nasr for pharmaceutical industries",
+      "address": "Abu Zaabal Industrial Area - Khanka - Qalyubia",
+      "governorate": "Khanka",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2426240%2C31.4205030"
+    },
+    {
+      "id": "suez_canal-2eb377d2a8d60569",
+      "name": "Julie Vile Hotel",
+      "address": "Julie Vile Hotel - Gazirat Al Awameyah – Luxor",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6657020%2C32.6217740"
+    },
+    {
+      "id": "suez_canal-2bd47892dfc10ba3",
+      "name": "Fostat Branch",
+      "address": "Plot 2, Block 2/A, First Neighborhood, New Fustat City",
+      "governorate": "Maadi",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0030450%2C31.2435710"
+    },
+    {
+      "id": "suez_canal-98baebb921381220",
+      "name": "Maadi Branch",
+      "address": "14, Wadi El Nile St.",
+      "governorate": "Maadi",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9571790%2C31.2557200"
+    },
+    {
+      "id": "suez_canal-9647e891c0029c80",
+      "name": "On the Run Maadi",
+      "address": "Palestine Street, New Maadi",
+      "governorate": "Maadi",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9780650%2C31.2831550"
+    },
+    {
+      "id": "suez_canal-0a98364e4c401913",
+      "name": "Town Center Mall",
+      "address": "Madinat El Salam in front of Adly Mansour Metro station",
+      "governorate": "Madinet El-Salam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1497760%2C31.4200910"
+    },
+    {
+      "id": "suez_canal-5eef236ac9a84c73",
+      "name": "West Bank El-Manial",
+      "address": "West Bank - Abdel Aziz Al-Sood - El-Manial - Giza",
+      "governorate": "Manial",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0263350%2C31.2236521"
+    },
+    {
+      "id": "suez_canal-928abb64ef65279d",
+      "name": "Al Safwaa School",
+      "address": "Al Safwaa School Ring Road opposite to Farag Mosque - Mansoura",
+      "governorate": "Mansoura",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0205921%2C31.3684354"
+    },
+    {
+      "id": "suez_canal-a935662052e8235c",
+      "name": "Chillout Mansoura",
+      "address": "Chill out Mansoura Gas Station – Al Mansoura",
+      "governorate": "Mansoura",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0542040%2C31.4108580"
+    },
+    {
+      "id": "suez_canal-2e035be90b5cde7f",
+      "name": "Delta University",
+      "address": "Faculty of Energy Engineering - Delta University - Gamasa Mansoura Road",
+      "governorate": "Mansoura",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4435660%2C31.4941420"
+    },
+    {
+      "id": "suez_canal-b3b38903bed20e90",
+      "name": "Mansoura Branch",
+      "address": "28H,29 Saad Saghloul St.",
+      "governorate": "Mansoura",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0536130%2C31.3975900"
+    },
+    {
+      "id": "suez_canal-fc272918baf53a40",
+      "name": "MG Alexander The Great Hotel",
+      "address": "Km18 – in front of Tourism Police station – Marsa Alam - Red Sea",
+      "governorate": "Marsa Allam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.2298730%2C34.7973460"
+    },
+    {
+      "id": "suez_canal-f8b0288df8c09366",
+      "name": "Jaz Crystal Hotel",
+      "address": "Jaz Crystal Hotel - Almaza Bay - Matruh",
+      "governorate": "Matrouh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1990700%2C27.5534880"
+    },
+    {
+      "id": "suez_canal-4b4bc25203acdfd6",
+      "name": "Mobil Telal",
+      "address": "Mobil Gas Station - Alex - Matrouh Rd - AlDabaa",
+      "governorate": "Matrouh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0004950%2C28.6287010"
+    },
+    {
+      "id": "suez_canal-2582ad7342d20eaf",
+      "name": "Watanya Al Aalmen",
+      "address": "Al Alameen City, Matrouh Alex Road",
+      "governorate": "Matrouh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8847860%2C28.8614630"
+    },
+    {
+      "id": "suez_canal-7fddab30ce3ebade",
+      "name": "Porto Sporting Club",
+      "address": "Porto Minya - Minya - Al Wosta Rd",
+      "governorate": "Minya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.3546550%2C32.0746750"
+    },
+    {
+      "id": "suez_canal-b89bacc7f474a987",
+      "name": "Bashtel Station",
+      "address": "New Bashteel Train Station - Giza",
+      "governorate": "Mohandseen",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0658800%2C31.1885570"
+    },
+    {
+      "id": "suez_canal-63c96eac90b1ffb9",
+      "name": "Sphinx Branch",
+      "address": "24, Syria St.",
+      "governorate": "Mohandssein",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0527890%2C31.1968970"
+    },
+    {
+      "id": "suez_canal-3a83dc0587906ce2",
+      "name": "Hamza Pharmacy",
+      "address": "Hamza Pharmacies - Hassab Allah El-Kafarway Axis -Mokatam - Cairo",
+      "governorate": "Mokatam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9870300%2C31.3282220"
+    },
+    {
+      "id": "suez_canal-f097fb9a87c40f59",
+      "name": "Mokattam plaza Mall",
+      "address": "ninth St. 1155 from area 1 ,Hay Al Asmarat",
+      "governorate": "Mokattam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0090490%2C31.3403789"
+    },
+    {
+      "id": "suez_canal-ed5f0c85c7472c15",
+      "name": "MMK Compnay",
+      "address": "MMK Company industrial zone sadat",
+      "governorate": "Monofia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4372860%2C30.6217520"
+    },
+    {
+      "id": "suez_canal-14c520cf710715f1",
+      "name": "Arab Contractor Medical Center",
+      "address": "Arab Contractor Medical Center - Nasr City Cairo",
+      "governorate": "Nasr City",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0549150%2C31.2966720"
+    },
+    {
+      "id": "suez_canal-b732c303df219795",
+      "name": "City Stars Branch",
+      "address": "Omar Ibn EL Khattab St. - Nasr City",
+      "governorate": "Nasr City",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0734010%2C31.3464920"
+    },
+    {
+      "id": "suez_canal-b0383ebb84a3531b",
+      "name": "Citystars",
+      "address": "Omar Ibn EL Khatab St. - Nasr City",
+      "governorate": "Nasr City",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0739510%2C31.3441870"
+    },
+    {
+      "id": "suez_canal-5dd90f208600a70d",
+      "name": "Makram Ebbed Branch",
+      "address": "1 Hafez Ibrahim St. - six district",
+      "governorate": "Nasr City",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0682300%2C31.3428900"
+    },
+    {
+      "id": "suez_canal-457db53dd16fb5a9",
+      "name": "Misr Petroleum Station",
+      "address": "Misr Petroleum Station - Fisrt Of Abaas Al-Akad Street - Nasr City - Cairo",
+      "governorate": "Nasr City",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0682840%2C31.3361150"
+    },
+    {
+      "id": "suez_canal-fcf742c1a75b2395",
+      "name": "Nasr City Branch",
+      "address": "74, Abbas El Akkad St.",
+      "governorate": "Nasr City",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0033270%2C31.2435240"
+    },
+    {
+      "id": "suez_canal-15e2122ec7689f08",
+      "name": "Central Intelligence",
+      "address": "Central Intelligence H.Q - New Administrative Capital - Cairo",
+      "governorate": "New Administrative Capital",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0386600%2C31.7723060"
+    },
+    {
+      "id": "suez_canal-3849e3f988536b96",
+      "name": "Adnoc Gas station Ring Road",
+      "address": "Ring road Maadi Way - opposite to JW Marriott Hotel",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0726680%2C31.4290772"
+    },
+    {
+      "id": "suez_canal-64c51e576c417813",
+      "name": "Avenue Mall El-Rehab",
+      "address": "Avenue Mall - El-Rehab - New Cairo",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0585525%2C31.5091060"
+    },
+    {
+      "id": "suez_canal-ac60930f28d138cb",
+      "name": "Cairo Festival City",
+      "address": "Food Court Entrance Beside Carrefour- Cairo Festival City",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0278749%2C31.4070656"
+    },
+    {
+      "id": "suez_canal-761c6765cefb624b",
+      "name": "Cash In Dash - New Cairo",
+      "address": "Cash In Dash Station - Plot 340 Southern El-Teseen St. - Infront of Concord Plaza - New Cairo",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0258300%2C31.4851950"
+    },
+    {
+      "id": "suez_canal-2f3db96cfbd1b08a",
+      "name": "District 5",
+      "address": "Kilometer 9 south of Cairo-Sokhna Road, the southern extension of New Cairo City - Cairo",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9548070%2C31.4532848"
+    },
+    {
+      "id": "suez_canal-4ec19ba0afadfa5d",
+      "name": "Dusit Thani Lake View Hotel",
+      "address": "Lake house club - South Teseen - New Cairo",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0244950%2C31.4536540"
+    },
+    {
+      "id": "suez_canal-6f52fd4d6ab07547",
+      "name": "El Souq El Sharki El Rehab",
+      "address": "El Souq El Sharki El Gadded - Gate 23 - El Rehab City",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0702084%2C31.5165162"
+    },
+    {
+      "id": "suez_canal-42936b3bf752b133",
+      "name": "El-Rehab Branch 1",
+      "address": "Gate Way Mall - El-Rehab - New Cairo",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0653909%2C31.4803416"
+    },
+    {
+      "id": "suez_canal-4ce0cab706a25ded",
+      "name": "El-Rehab Branch 2",
+      "address": "Gate Way Mall - El-Rehab - New Cairo",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0653909%2C31.4803416"
+    },
+    {
+      "id": "suez_canal-0f3d94a59ce224d9",
+      "name": "Fuel Up Station",
+      "address": "Mostafa Kamel Axis - First settelment - back of Police Academy",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0495628%2C31.4418224"
+    },
+    {
+      "id": "suez_canal-5d4b3ecaa3b63446",
+      "name": "Hazard Mall",
+      "address": "Hazard Mall, First Settlement, next to the Settlement Youth Center",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0630774%2C31.4467761"
+    },
+    {
+      "id": "suez_canal-dbb3f5976209d988",
+      "name": "Madinty Branch",
+      "address": "1 A commercial centers area in front of Arabesque mall",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1066720%2C31.6302620"
+    },
+    {
+      "id": "suez_canal-b080719bcb4d82a6",
+      "name": "Mivieda Compound",
+      "address": "Medical services area 14, polt No.16, Mivida compound, east lotus, fifth settlement",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0009470%2C31.5325300"
+    },
+    {
+      "id": "suez_canal-3af6e0f14958401d",
+      "name": "Operation Building",
+      "address": "Plot 407 - Third sector - fifth settlement - New Cairo",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0266440%2C31.4869630"
+    },
+    {
+      "id": "suez_canal-e0afcbcafe8afbd9",
+      "name": "Tagamua Branch",
+      "address": "140 first district -city Center-fifth settlement",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0180373%2C31.4292337"
+    },
+    {
+      "id": "suez_canal-b0f4925b46cde19b",
+      "name": "Top 90 New Cairo Branch",
+      "address": "421 90 St.-City Center-third district-fifth settlement beside FUE university",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0259890%2C31.4901041"
+    },
+    {
+      "id": "suez_canal-5c6b4ce0a4926f64",
+      "name": "Total Madinty Gas Station",
+      "address": "In front of Madinty gate 2 on Suez Cairo road.",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1166790%2C31.6354162"
+    },
+    {
+      "id": "suez_canal-f900e39657a5d696",
+      "name": "Uvenues Mall",
+      "address": "Uvenues Mall, first settlement",
+      "governorate": "New Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0073220%2C31.4033120"
+    },
+    {
+      "id": "suez_canal-8aa8f96d9f85eca2",
+      "name": "Al-Alamien Branch",
+      "address": "O Mall - Al-Alamien - North Coast",
+      "governorate": "North Coast",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8445790%2C28.9454630"
+    },
+    {
+      "id": "suez_canal-32c7d63c1dbeed54",
+      "name": "2Go - El-Obour",
+      "address": "Street No.1, Sheikh Saharawi St - El Obour Rd-Infront of Banha Civil University",
+      "governorate": "Obour",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2453550%2C31.4600100"
+    },
+    {
+      "id": "suez_canal-b0a84b33cc69eddd",
+      "name": "Adnoc Golf El Obour Gas Station",
+      "address": "100 railway St. behind compound Golf El Obour - opposite to Carrefour",
+      "governorate": "Obour",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1934395%2C31.4613924"
+    },
+    {
+      "id": "suez_canal-5052a4941462614f",
+      "name": "Port Said Branch",
+      "address": "El Mahrousa Tower , Mahmoud Sedki & panama St.",
+      "governorate": "Port Said",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2627410%2C32.3116580"
+    },
+    {
+      "id": "suez_canal-83381c73a867da32",
+      "name": "Porto Said Hotel & Spa",
+      "address": "International Coastal Rd - Port Said",
+      "governorate": "Port Said",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.1025990%2C30.7813920"
+    },
+    {
+      "id": "suez_canal-86c3a1ce665370ff",
+      "name": "Port Tawfik Branch",
+      "address": "242,243-Suez Canal Authority buildings-",
+      "governorate": "Port Tewfik",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9415040%2C32.5688680"
+    },
+    {
+      "id": "suez_canal-12a4ba72d80002ef",
+      "name": "C3 – Carrefour - Obour",
+      "address": "C3 Mall – Carrefour El Obour - Obour Rd",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2316380%2C31.4555760"
+    },
+    {
+      "id": "suez_canal-dee416b90dd6aaf7",
+      "name": "Obour Branch",
+      "address": "16,17 Banking Area, behind Toyota Center, Obour City",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1821250%2C31.4674510"
+    },
+    {
+      "id": "suez_canal-207996ab3fe34355",
+      "name": "Z Mall",
+      "address": "Z Mall- Quylob – Shibin ElQanater Rd – Shibin ElQanater",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3032000%2C31.3026940"
+    },
+    {
+      "id": "suez_canal-891ed60249341779",
+      "name": "Qena Branch",
+      "address": "Dandra bridge, Elomaid tower- Dolphin square",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1588270%2C32.7062960"
+    },
+    {
+      "id": "suez_canal-1f88ce1fe92d6c11",
+      "name": "Desert Rose Resort",
+      "address": "Desert Rose Resort - Huraghada",
+      "governorate": "Red Sea",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0965500%2C33.8350600"
+    },
+    {
+      "id": "suez_canal-88e90d9e9f757ba4",
+      "name": "Fanadir Marina Gouna",
+      "address": "Al Gouna - Marina Fanadir - Red sea",
+      "governorate": "Red Sea",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.4179380%2C33.6699150"
+    },
+    {
+      "id": "suez_canal-2d4a1ea90fa40130",
+      "name": "99 Land Mark Mall",
+      "address": "Tolba Awaiada St - Zagazig - 99 Landmark Mall",
+      "governorate": "Sharkia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5909260%2C31.4898930"
+    },
+    {
+      "id": "suez_canal-258a472571af2676",
+      "name": "El-Thamar El-Dany",
+      "address": "10th of Ramadan City 1 - indursial aera",
+      "governorate": "Sharkia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2216530%2C31.7570070"
+    },
+    {
+      "id": "suez_canal-273b89decb1e45d7",
+      "name": "Sky Delga Mall - 10th of Ramadan",
+      "address": "Sky Delga Mall Msir Noor Road - 10th of Ramadan",
+      "governorate": "Sharkia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3190050%2C31.7380830"
+    },
+    {
+      "id": "suez_canal-270706c49c834885",
+      "name": "Cataract Hotel Resort Sharm El Sheikh",
+      "address": "Cataract Pyramisa Resort",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9104190%2C34.3233670"
+    },
+    {
+      "id": "suez_canal-a87c679ada3143a2",
+      "name": "Charmillion Hotel",
+      "address": "Charmillion Club Aqua Park - Nabq - Sharm El-Shiekh - South Sinai",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0090150%2C34.4260320"
+    },
+    {
+      "id": "suez_canal-7561e54c81ab9b65",
+      "name": "Kirosiez Park Land Hotel",
+      "address": "Kirosiez Park Land Hotel - Sharm El-Shiekh - South Sainai",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9232634%2C34.3402315"
+    },
+    {
+      "id": "suez_canal-6ef569adbbe16b27",
+      "name": "Monte Carlo Hotel",
+      "address": "Monte Carlo Hotel - Sharm El-Shiekh - South Sainai",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8660500%2C34.3202130"
+    },
+    {
+      "id": "suez_canal-f1ea84434d389af6",
+      "name": "Sharm El Sheikh Branch",
+      "address": "office building-Neama Bay-Fun Town",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9101160%2C34.3169320"
+    },
+    {
+      "id": "suez_canal-fcfc81ed06d877f6",
+      "name": "Sharm El-Shiekh Airport",
+      "address": "Sharm El-Shiekh Airport - International Arrival Hall",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9815200%2C34.3892410"
+    },
+    {
+      "id": "suez_canal-b5fb040f27a8cc73",
+      "name": "Soho Square Sharm El Sheikh",
+      "address": "Soho Square Savoy Hotel - Sharm El-Sheikh - South Sainai",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9635750%2C34.3948440"
+    },
+    {
+      "id": "suez_canal-6e3f7ae7e56bb3c2",
+      "name": "Shbin El-Kom Branch",
+      "address": "City Club Wall - Shbin El-Kom - Monofia",
+      "governorate": "Shbin El-Kom",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5647180%2C31.0127200"
+    },
+    {
+      "id": "suez_canal-1188807397275fca",
+      "name": "Shoubra Branch",
+      "address": "60,62 Shoubra St from Masara St,Badran island",
+      "governorate": "Shoubra",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0735520%2C31.2449340"
+    },
+    {
+      "id": "suez_canal-70a97950245264c3",
+      "name": "Smouha Branch",
+      "address": "5, Mohamed Bahaa El Din El Ghatory St.",
+      "governorate": "Smouha",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2141380%2C29.9425350"
+    },
+    {
+      "id": "suez_canal-49a3b80f63bde42b",
+      "name": "Sohag Branch",
+      "address": "47B El-Gomhoria St. - infornt of Sohag Club - Sohag",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.5640300%2C31.6967280"
+    },
+    {
+      "id": "suez_canal-1aafd74bc632f1f1",
+      "name": "Vodafone Sohag",
+      "address": "Mohamed abdelhamid radwan st in front of dar elsalam hospital - sohag",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.2792350%2C32.0583120"
+    },
+    {
+      "id": "suez_canal-693866b6bd96e4f2",
+      "name": "Knoz Misr Company",
+      "address": "knoz misr City El-Galala Road - Ataka - Suez",
+      "governorate": "Suez",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.6559520%2C32.2324920"
+    },
+    {
+      "id": "suez_canal-f23d5e0ea217119e",
+      "name": "Petroleum's Medical Center",
+      "address": "Petroleum's Medical Center - Salah Nsiem Road - Suez",
+      "governorate": "Suez",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9583230%2C32.5059510"
+    },
+    {
+      "id": "suez_canal-37bafb7ef71c2679",
+      "name": "Suez Branch",
+      "address": "8, Saad Saghloul St.",
+      "governorate": "Suez",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9647500%2C32.5515170"
+    },
+    {
+      "id": "suez_canal-7309e2a1c5d13dc0",
+      "name": "Mall of Tanta",
+      "address": "Mall of Tanta, Manshiet El Awqaf, Tanta, Gharbia Gov.",
+      "governorate": "Tanta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8420980%2C31.0176500"
+    },
+    {
+      "id": "suez_canal-afbde7f7c121ad47",
+      "name": "Tanta Branch",
+      "address": "7A, Ahmed Ali St. ( El Moalemen Club )",
+      "governorate": "Tanta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7976100%2C30.9958970"
+    },
+    {
+      "id": "suez_canal-1a08fd176a4beb83",
+      "name": "Zagazig Branch",
+      "address": "34 Saad Zaghlol St. Zagazig - El-Sharkia",
+      "governorate": "Zagazig",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5845468%2C31.4950779"
+    },
+    {
+      "id": "suez_canal-3718b66778b9aea3",
+      "name": "A-One Zahraa El Maadi",
+      "address": "New Zahraa Maadi Road - Ring Road - behind Carrefour Maadi - Cairo",
+      "governorate": "Zahraa El-Maadi",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9679401%2C31.3132580"
+    }
+  ],
+  "branches_status": "published",
+  "atms_status": "published",
+  "source_urls": [
+    "https://scbank.com.eg/Locator.aspx"
+  ],
+  "branch_locator_url": "https://scbank.com.eg/Locator.aspx",
+  "atm_locator_url": "https://scbank.com.eg/Locator.aspx",
+  "hotline": null,
+  "contact_url": "https://www.scbank.com.eg/",
+  "reviewed_at": "2026-10-29",
+  "version": "50e2e84138a40612"
+}

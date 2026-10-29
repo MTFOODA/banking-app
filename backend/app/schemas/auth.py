@@ -4,7 +4,8 @@ from __future__ import annotations
 
 import uuid
 
-from pydantic import AliasChoices, BaseModel, Field, field_validator
+from pydantic import AliasChoices, BaseModel, Field, field_validator, model_validator
+from typing import Literal
 
 from app.core.security import (
     PASSWORD_MAX_LENGTH,
@@ -32,6 +33,16 @@ class LoginRequest(BaseModel):
     password: str = Field(min_length=1, max_length=PASSWORD_MAX_LENGTH)
     remember_device: bool = False
     bank_code: str | None = Field(default=None, pattern=r'^[a-z][a-z0-9_]{1,31}$')
+    identifier_type: Literal['legacy','username'] = 'legacy'
+
+    @model_validator(mode='before')
+    @classmethod
+    def username_input(cls, value):
+        if isinstance(value,dict) and value.get('identifier_type')=='username':
+            from app.services.username_service import normalize_username
+            value=dict(value)
+            value['identifier']=normalize_username(str(value.get('identifier',value.get('card_number',''))))
+        return value
 
     @field_validator("identifier")
     @classmethod

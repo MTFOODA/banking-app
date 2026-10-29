@@ -215,3 +215,20 @@ BANKING APP IDENTITY AND BANK APPEARANCE (2026-10-28)
   No real SMS/email or external bank card verification is configured.
   All original demo customers/cards/accounts remain affiliated with Faisal.
   The additive bank migration is c94d28f1a710. No tables/data were reset.
+
+
+BANK-AWARE ENTRY - version 1.2.0+3 (2026-10-29)
+  See BANK_ENTRY_REPORT.md for current behavior, coverage and actual test results.
+  Two introductions -> official bank logos -> username/password sign-in directly.
+  Login also includes branches, ATMs, customer service and public bank notices.
+  Use Change bank to access a different bank username. An authenticated customer's
+  backend profile controls the bank identity. Registration uses a card only,
+  followed by the existing development OTP and unique username/password creation.
+  The admin username remains devadmin; use the current ignored admin.txt password.
+  No passwords or permissions were reset. Native launcher identity is unchanged.
+  Bank-specific notice audiences can be selected in the announcement editor.
+  Default emulator QA runner now exercises registration; use --flow entry explicitly:
+    backend/.venv/Scripts/python.exe scripts/run_branding_emulator.py --flow entry
+  Screenshots: screenshots/bank_entry/2026-10-29
+  Public directories have reviewed snapshots for 14 banks. Other banks explicitly
+  show unavailable data and an official link. No other bank inherits Faisal data.

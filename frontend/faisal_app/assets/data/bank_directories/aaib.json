@@ -1,0 +1,16 @@
+{
+  "bank_code": "aaib",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://aaib.com/pdfs/account-opening-english-booklet-individuals.pdf"
+  ],
+  "branch_locator_url": "https://www.aaib.com/",
+  "atm_locator_url": "https://www.aaib.com/",
+  "hotline": "19555",
+  "contact_url": "https://www.aaib.com/",
+  "reviewed_at": "2026-10-29",
+  "version": "e7fea6c6e0708bc7"
+}

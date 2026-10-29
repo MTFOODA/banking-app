@@ -1,0 +1,16 @@
+{
+  "bank_code": "nbk",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://www.nbk.com/egypt"
+  ],
+  "branch_locator_url": "https://www.nbk.com/egypt/personal/ways-to-bank/branch-network.html",
+  "atm_locator_url": "https://www.nbk.com/egypt/personal/ways-to-bank/branch-network.html",
+  "hotline": "19336",
+  "contact_url": "https://www.nbk.com/egypt",
+  "reviewed_at": "2026-10-29",
+  "version": "86b8d9de713ae01f"
+}

@@ -1,0 +1,14 @@
+{
+  "bank_code": "emirates_nbd",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [],
+  "branch_locator_url": "https://www.emiratesnbd.com.eg/",
+  "atm_locator_url": "https://www.emiratesnbd.com.eg/",
+  "hotline": null,
+  "contact_url": "https://www.emiratesnbd.com.eg/",
+  "reviewed_at": null,
+  "version": "bbcbd92b4b35869e"
+}

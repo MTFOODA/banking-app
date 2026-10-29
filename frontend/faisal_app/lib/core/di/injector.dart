@@ -65,6 +65,7 @@ import '../network/dio_client.dart';
 import '../../features/banks/domain/repositories/bank_catalogue_repository.dart';
 import '../../features/banks/data/bank_catalogue_repository_impl.dart';
 import '../../features/banks/presentation/bank_catalogue_cubit.dart';
+import '../../features/banks/presentation/bank_selection_cubit.dart';
 import '../../features/branding/data/repositories/branding_repository_impl.dart';
 import '../../features/branding/data/branding_asset_cache.dart';
 import '../../features/branding/domain/repositories/branding_repository.dart';
@@ -77,6 +78,10 @@ final GetIt sl = GetIt.instance;
 /// Composition root, called once from `bootstrap.dart`.
 Future<void> configureDependencies() async {
   final preferences = await _loadPreferences();
+  sl.registerLazySingleton<BankSelectionCubit>(
+    () => BankSelectionCubit(preferences),
+    dispose: (cubit) => cubit.close(),
+  );
   if (preferences != null) {
     sl.registerSingleton<SharedPreferences>(preferences);
   }
@@ -150,7 +155,10 @@ Future<void> configureDependencies() async {
     () => SettingsRepositoryImpl(client),
   );
   sl.registerLazySingleton<BankDirectoryRepository>(
-    () => BankDirectoryRepositoryImpl(),
+    () => BankDirectoryRepositoryImpl(
+      client: sl<DioClient>(),
+      preferences: preferences,
+    ),
   );
   sl.registerLazySingleton<BankContactLinks>(() => BankContactLinks());
   sl.registerLazySingleton<SupportRepository>(

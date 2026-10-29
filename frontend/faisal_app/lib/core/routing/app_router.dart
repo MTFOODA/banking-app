@@ -1,3 +1,6 @@
+import '../di/injector.dart';
+import '../../features/banks/presentation/bank_selection_cubit.dart';
+import '../../features/banks/presentation/bank_onboarding_page.dart';
 import '../config/banking_identity.dart';
 
 import 'package:flutter/material.dart';
@@ -41,10 +44,24 @@ import 'route_guard.dart';
 GoRouter buildRouter({required AuthBloc authBloc}) {
   return GoRouter(
     initialLocation: AppRoutes.splash,
-    refreshListenable: GoRouterRefreshStream(authBloc.stream),
-    redirect: (context, state) =>
-        resolveRedirect(auth: authBloc.state, location: state.uri.path),
+    refreshListenable: GoRouterRefreshStream(
+      authBloc.stream,
+      sl.isRegistered<BankSelectionCubit>()
+          ? sl<BankSelectionCubit>().stream
+          : null,
+    ),
+    redirect: (context, state) => resolveRedirect(
+      auth: authBloc.state,
+      location: state.uri.path,
+      hasSelectedBank:
+          !sl.isRegistered<BankSelectionCubit>() ||
+          sl<BankSelectionCubit>().state != null,
+    ),
     routes: [
+      GoRoute(
+        path: AppRoutes.onboarding,
+        builder: (_, _) => const BankOnboardingPage(),
+      ),
       GoRoute(
         path: AppRoutes.adminSettings,
         builder: (_, _) => const AdminSettingsPage(),
@@ -193,7 +210,7 @@ GoRouter buildRouter({required AuthBloc authBloc}) {
       ),
     ],
     errorBuilder: (context, state) => Scaffold(
-      appBar: AppBar(title: Text(BankingIdentity.name)),
+      appBar: AppBar(title: Text(BankingIdentity.displayName(context))),
       body: Center(
         child: TextButton(
           onPressed: () => context.go(AppRoutes.home),

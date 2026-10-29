@@ -51,6 +51,7 @@ def public_announcements(
     category: str | None = None,
     limit: int = 20,
     location: str = 'home',
+    bank_code: str | None = None,
 ) -> list[Announcement]:
     now = utcnow()
     stmt = (
@@ -69,14 +70,18 @@ def public_announcements(
     if category:
         stmt = stmt.where(Announcement.category == category)
     audience = AnnouncementAudience
+    # Session affiliation overrides any public bank preference for private reads.
+    effective_bank = user.profile.bank_code if user and user.profile else bank_code
     allowed = [audience.audience_type == 'all']
+    if effective_bank:
+        allowed.append(and_(audience.audience_type == 'bank', audience.audience_value == effective_bank))
     if user:
         allowed.append(and_(audience.audience_type == 'customer', audience.audience_value == str(user.id)))
         if user.profile:
             allowed.append(and_(audience.audience_type == 'customer_segment', audience.audience_value == user.profile.segment))
     stmt = stmt.where(or_(~Announcement.audiences.any(), Announcement.audiences.any(or_(*allowed))))
     if location == 'pre_login':
-        stmt = stmt.where(~Announcement.audiences.any(audience.audience_type != 'all'))
+        stmt = stmt.where(~Announcement.audiences.any(audience.audience_type.notin_(['all', 'bank'])))
     return list(db.scalars(stmt).all())
 
 

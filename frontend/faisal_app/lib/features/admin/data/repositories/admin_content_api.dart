@@ -90,7 +90,11 @@ mixin AdminContentApi {
       priority: asString(json['priority'], 'normal'),
       displayLocation: asString(json['display_location'], 'home'),
       publiclyAddressed: asMapList(json['audiences'])
-          .every((a) => a['audience_type'] == 'all'),
+          .every((a) => ['all', 'bank'].contains(a['audience_type'])),
+      bankCode: asMapList(json['audiences'])
+          .where((a) => a['audience_type'] == 'bank')
+          .map((a) => asString(a['audience_value']))
+          .firstOrNull,
       status: asString(json['status'], 'draft'),
       imageUrl: asStringOrNull(json['image_url']),
       publishAt: asDateOrNull(json['publish_at']),

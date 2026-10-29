@@ -1,3 +1,8 @@
+import '../../../../core/config/banking_identity.dart';
+import '../../../../core/di/injector.dart';
+import '../../../banks/presentation/bank_selection_cubit.dart';
+import '../../../products/presentation/widgets/public_service_cards.dart';
+import '../../../products/presentation/widgets/public_announcements_panel.dart';
 import '../../../branding/presentation/widgets/branding_scope.dart';
 
 import 'package:flutter/material.dart';
@@ -29,7 +34,9 @@ class _LoginPageState extends State<LoginPage> {
   final _identifierController = TextEditingController();
   final _passwordController = TextEditingController();
   bool _rememberDevice = false;
-  String? _bankCode;
+  String? get _bankCode => sl.isRegistered<BankSelectionCubit>()
+      ? sl<BankSelectionCubit>().state
+      : null;
 
   @override
   void dispose() {
@@ -135,9 +142,6 @@ class _LoginPageState extends State<LoginPage> {
                         const SizedBox(height: AppSpacing.xl),
                         LoginFormCard(
                           formKey: _formKey,
-                          bankCode: _bankCode,
-                          onBankChanged: (value) =>
-                              setState(() => _bankCode = value),
                           identifierController: _identifierController,
                           passwordController: _passwordController,
                           rememberDevice: _rememberDevice,
@@ -155,9 +159,9 @@ class _LoginPageState extends State<LoginPage> {
                         TextButton(
                           onPressed: state.busy
                               ? null
-                              : () => context.go(AppRoutes.preLogin),
+                              : () => context.go(AppRoutes.onboarding),
                           child: Text(
-                            l10n.publicWelcomeTitle,
+                            l10n.bankChangeSelection,
                             style: TextStyle(
                               color: BrandingScope.headerText(context),
                             ),
@@ -172,8 +176,20 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                           child: Text(l10n.registerTitle),
                         ),
+                        const SizedBox(height: 24),
+                        const PublicServiceCards(includeLogin: false),
+                        const SizedBox(height: 20),
+                        Container(
+                          padding: const EdgeInsets.all(20),
+                          decoration: BoxDecoration(
+                            color: context.colors.surface,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: const PublicAnnouncementsPanel(),
+                        ),
+                        const SizedBox(height: 20),
                         Text(
-                          l10n.bankName,
+                          BankingIdentity.displayName(context),
                           textAlign: TextAlign.center,
                           style: context.texts.bodySmall?.copyWith(
                             color: BrandingScope.headerText(context)

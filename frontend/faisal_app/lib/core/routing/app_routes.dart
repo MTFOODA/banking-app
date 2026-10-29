@@ -2,6 +2,7 @@
 class AppRoutes {
   const AppRoutes._();
 
+  static const String onboarding = '/choose-bank';
   static const String splash = '/splash';
   static const String login = '/login';
   static const String preLogin = '/bank-notices';

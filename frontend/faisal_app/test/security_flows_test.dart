@@ -1,3 +1,5 @@
+import 'package:faisal_app/features/banks/presentation/bank_selection_cubit.dart';
+
 import 'dart:async';
 
 import 'package:faisal_app/core/di/injector.dart';
@@ -343,16 +345,7 @@ class ProtectedTestVault extends FlutterSecureStorage {
 }
 
 Future<void> selectRegistrationBank(WidgetTester tester) async {
-  final picker = find.byType(DropdownButtonFormField<String>);
-  await tester.ensureVisible(picker);
-  await tester.tap(picker);
-  await tester.pumpAndSettle();
-  final bank = find.textContaining('Faisal Islamic');
-  if (bank.evaluate().isNotEmpty) {
-    await tester.tap(bank.last);
-  } else {
-    await tester.tap(find.textContaining('\u0641\u064a\u0635\u0644').last);
-  }
+  await sl<BankSelectionCubit>().select('faisal');
   await tester.pumpAndSettle();
 }
 
@@ -364,6 +357,12 @@ void main() {
     FlutterSecureStorage.setMockInitialValues({});
     auth = FakeAuth();
     bloc = AuthBloc(auth, SessionStore());
+    final selection = BankSelectionCubit(null);
+    await selection.select('faisal');
+    sl.registerSingleton<BankSelectionCubit>(
+      selection,
+      dispose: (c) => c.close(),
+    );
     sl.registerSingleton<AuthRepository>(auth);
     sl.registerSingleton<BiometricService>(NoBiometrics());
   });

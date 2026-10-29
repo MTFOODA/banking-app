@@ -7,25 +7,33 @@ import 'app_routes.dart';
 
 /// Adapts a BLoC state stream into a [Listenable] for GoRouter refresh.
 class GoRouterRefreshStream extends ChangeNotifier {
-  GoRouterRefreshStream(Stream<dynamic> stream) {
+  GoRouterRefreshStream(Stream<dynamic> stream, [Stream<dynamic>? selection]) {
     _subscription = stream.asBroadcastStream().listen((_) => notifyListeners());
+    _selection = selection?.listen((_) => notifyListeners());
   }
 
   late final StreamSubscription<dynamic> _subscription;
+  StreamSubscription<dynamic>? _selection;
 
   @override
   void dispose() {
     _subscription.cancel();
+    _selection?.cancel();
     super.dispose();
   }
 }
 
 /// Pure redirect function (easy to unit test without a router).
-String? resolveRedirect({required AuthState auth, required String location}) {
+String? resolveRedirect({
+  required AuthState auth,
+  required String location,
+  bool hasSelectedBank = true,
+}) {
   // Screens that are reachable without an authenticated session. The splash
   // route is deliberately **not** part of this list: it is only a transient
   // startup screen, so a signed-out state must leave it immediately.
   final isCredentialScreen =
+      location == AppRoutes.onboarding ||
       location == AppRoutes.login ||
       location == AppRoutes.preLogin ||
       location == AppRoutes.branches ||
@@ -42,7 +50,10 @@ String? resolveRedirect({required AuthState auth, required String location}) {
       // and the retry action instead of bouncing to the login screen.
       return location == AppRoutes.splash ? null : AppRoutes.splash;
     case AuthStatus.unauthenticated:
-      return isCredentialScreen ? null : AppRoutes.preLogin;
+      if (!hasSelectedBank) {
+        return location == AppRoutes.onboarding ? null : AppRoutes.onboarding;
+      }
+      return isCredentialScreen ? null : AppRoutes.login;
     case AuthStatus.firstLoginRequired:
       return location == AppRoutes.passwordSetup
           ? null
@@ -51,7 +62,8 @@ String? resolveRedirect({required AuthState auth, required String location}) {
       final landing = auth.isStaff && auth.can('admin.dashboard.view')
           ? AppRoutes.admin
           : AppRoutes.home;
-      if (location == AppRoutes.login ||
+      if (location == AppRoutes.onboarding ||
+          location == AppRoutes.login ||
           location == AppRoutes.preLogin ||
           location == AppRoutes.splash ||
           location == AppRoutes.passwordSetup ||

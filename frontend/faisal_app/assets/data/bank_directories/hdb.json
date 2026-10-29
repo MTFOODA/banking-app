@@ -1,0 +1,16 @@
+{
+  "bank_code": "hdb",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://www.hdb-egy.com/en/"
+  ],
+  "branch_locator_url": "https://www.hdb-egy.com/",
+  "atm_locator_url": "https://www.hdb-egy.com/",
+  "hotline": "19995",
+  "contact_url": "https://www.hdb-egy.com/",
+  "reviewed_at": "2026-10-29",
+  "version": "7f9b951f5013892e"
+}

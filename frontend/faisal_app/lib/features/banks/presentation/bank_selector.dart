@@ -5,6 +5,7 @@ import '../../../core/di/injector.dart';
 import '../../../l10n/app_localizations.dart';
 import '../domain/entities/bank_definition.dart';
 import 'bank_catalogue_cubit.dart';
+import 'bank_logo.dart';
 
 class BankSelector extends StatelessWidget {
   const BankSelector({
@@ -48,14 +49,7 @@ class BankSelector extends StatelessWidget {
               value: bank.code,
               child: Row(
                 children: [
-                  Icon(
-                    Icons.account_balance,
-                    size: 20,
-                    color: Color(
-                      0xff000000 |
-                          int.parse(bank.primary.substring(1), radix: 16),
-                    ),
-                  ),
+                  BankLogo(bank: bank, size: 38),
                   const SizedBox(width: 10),
                   Expanded(
                     child: Text(

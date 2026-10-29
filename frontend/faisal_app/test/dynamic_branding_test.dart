@@ -377,7 +377,7 @@ void main() {
       repository.active = BrandingSnapshot(1, custom());
       await cubit.refresh(force: true);
       await tester.pumpAndSettle();
-      expect(find.text('Banking App'), findsOneWidget);
+      expect(find.text('Your banks'), findsOneWidget);
       expect(find.text('QA Brand'), findsNothing);
       expect(find.text('pending transfer draft'), findsOneWidget);
       expect(router.routeInformationProvider.value.uri.path, '/');

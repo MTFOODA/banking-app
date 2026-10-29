@@ -25,8 +25,8 @@ router = APIRouter(tags=["Discover"])
 
 
 @router.get('/public/announcements', response_model=list[PublicAnnouncementResponse], summary='Public notices before sign-in')
-def pre_login_announcements(limit: int = Query(20, ge=1, le=50), db: Session = Depends(get_db)):
-    items = content_service.public_announcements(db, None, limit=limit, location='pre_login')
+def pre_login_announcements(limit: int = Query(20, ge=1, le=50), bank_code: str | None = Query(None, pattern=r'^[a-z][a-z0-9_]{1,31}$'), db: Session = Depends(get_db)):
+    items = content_service.public_announcements(db, None, limit=limit, location='pre_login', bank_code=bank_code)
     return [PublicAnnouncementResponse.model_validate(item) for item in items]
 
 

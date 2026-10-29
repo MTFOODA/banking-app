@@ -101,7 +101,7 @@ abstract class AppLocalizations {
   /// No description provided for @appName.
   ///
   /// In en, this message translates to:
-  /// **'Banking App'**
+  /// **'Your banks'**
   String get appName;
 
   /// No description provided for @bankName.
@@ -113,7 +113,7 @@ abstract class AppLocalizations {
   /// No description provided for @bankNameShort.
   ///
   /// In en, this message translates to:
-  /// **'Banking App'**
+  /// **'Your banks'**
   String get bankNameShort;
 
   /// No description provided for @appTagline.
@@ -413,7 +413,7 @@ abstract class AppLocalizations {
   /// No description provided for @loginSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Sign in with your username, card or account number.'**
+  /// **'Sign in with your username and password.'**
   String get loginSubtitle;
 
   /// No description provided for @cardNumber.
@@ -431,13 +431,13 @@ abstract class AppLocalizations {
   /// No description provided for @loginIdentifier.
   ///
   /// In en, this message translates to:
-  /// **'Username, card or account number'**
+  /// **'Username'**
   String get loginIdentifier;
 
   /// No description provided for @loginIdentifierHint.
   ///
   /// In en, this message translates to:
-  /// **'Enter your username, card or account number'**
+  /// **'Enter your username'**
   String get loginIdentifierHint;
 
   /// No description provided for @invalidLoginIdentifier.
@@ -2603,7 +2603,7 @@ abstract class AppLocalizations {
   /// No description provided for @registrationExplanation.
   ///
   /// In en, this message translates to:
-  /// **'Choose your bank and enter your card number. Next, verify with the contact already registered at the bank, then create your unique username and password.'**
+  /// **'Enter your card number for the selected bank. Verify using your registered contact, then create your unique username and password.'**
   String get registrationExplanation;
 
   /// No description provided for @registrationVerified.
@@ -3395,7 +3395,7 @@ abstract class AppLocalizations {
   /// No description provided for @admPublicPolicy.
   ///
   /// In en, this message translates to:
-  /// **'Before-sign-in notices are public. Do not include customer or private information. Targeted notices must remain on home.'**
+  /// **'Before-login notices are public to everyone or the selected bank, and contain no personal data.'**
   String get admPublicPolicy;
 
   /// No description provided for @admTitleEn.
@@ -3893,7 +3893,7 @@ abstract class AppLocalizations {
   /// No description provided for @publicWelcomeTitle.
   ///
   /// In en, this message translates to:
-  /// **'Welcome to Banking App'**
+  /// **'Welcome to your bank'**
   String get publicWelcomeTitle;
 
   /// No description provided for @publicWelcomeSubtitle.
@@ -4451,7 +4451,7 @@ abstract class AppLocalizations {
   /// No description provided for @brandingNativeHelp.
   ///
   /// In en, this message translates to:
-  /// **'The Banking App name, logo, launcher icons and native startup resources are fixed. Changing them requires a new application release; this screen has no controls to change them.'**
+  /// **'Launcher labels and icons are fixed in the application release. Changes require a new release. These controls only affect in-app appearance.'**
   String get brandingNativeHelp;
 
   /// No description provided for @brandingHex.
@@ -4523,7 +4523,7 @@ abstract class AppLocalizations {
   /// No description provided for @bankFixedIdentityHelp.
   ///
   /// In en, this message translates to:
-  /// **'Banking App name, logo, launcher icon and sign-in appearance are fixed in the application release. These settings customize customer screens after sign-in only.'**
+  /// **'Bank names and official logos follow the selected bank. These settings change supported in-app appearance, not the native launcher.'**
   String get bankFixedIdentityHelp;
 
   /// No description provided for @bankAppearanceScope.
@@ -4603,6 +4603,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Choose the bank for this username/card, or leave automatic. Each successful sign-in uses the bank verified by the server. Administrators sign in without choosing a bank.'**
   String get bankLoginSelectionHelp;
+
+  /// No description provided for @bankIntroTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your banks, in one place'**
+  String get bankIntroTitle;
+
+  /// No description provided for @bankIntroBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your bank to access its services with its own familiar identity. Switch banks whenever you need to.'**
+  String get bankIntroBody;
+
+  /// No description provided for @bankSecurityIntroTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your identity stays with your bank'**
+  String get bankSecurityIntroTitle;
+
+  /// No description provided for @bankSecurityIntroBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in using your bank username. New here? Verify your card with a one-time code, then create a username and password.'**
+  String get bankSecurityIntroBody;
+
+  /// No description provided for @bankChooseTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your bank'**
+  String get bankChooseTitle;
+
+  /// No description provided for @bankChooseBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Your login, branches, ATMs and customer service will follow this selection.'**
+  String get bankChooseBody;
+
+  /// No description provided for @bankSearchLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Search banks'**
+  String get bankSearchLabel;
+
+  /// No description provided for @bankChangeSelection.
+  ///
+  /// In en, this message translates to:
+  /// **'Change bank'**
+  String get bankChangeSelection;
+
+  /// No description provided for @bankNoticeSpecific.
+  ///
+  /// In en, this message translates to:
+  /// **'Notice for a specific bank'**
+  String get bankNoticeSpecific;
+
+  /// No description provided for @bankDirectoryReviewed.
+  ///
+  /// In en, this message translates to:
+  /// **'Source reviewed'**
+  String get bankDirectoryReviewed;
+
+  /// No description provided for @bankDirectoryPartial.
+  ///
+  /// In en, this message translates to:
+  /// **'This is a verified subset of the bank’s published locations. See the official locator for the full current network.'**
+  String get bankDirectoryPartial;
+
+  /// No description provided for @bankDirectoryUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'A verified address list is not available here yet. Use this bank’s official locator; another bank’s locations are never substituted.'**
+  String get bankDirectoryUnavailable;
+
+  /// No description provided for @bankContactUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'A customer service number has not been verified here yet. Use this bank’s official contact website.'**
+  String get bankContactUnavailable;
 }
 
 class _AppLocalizationsDelegate

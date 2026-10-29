@@ -151,7 +151,7 @@ class _AdminBrandingPageState extends State<AdminBrandingPage> {
                               Text(l.bankFixedIdentityHelp),
                               const SizedBox(height: 8),
                               Text(
-                                BankingIdentity.name,
+                                BankingIdentity.displayName(context),
                                 style: context.texts.titleMedium,
                               ),
                             ],

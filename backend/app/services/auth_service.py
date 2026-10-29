@@ -141,6 +141,7 @@ def authenticate(
     remember_device: bool,
     meta: dict | None = None,
     bank_code: str | None = None,
+    username_only: bool = False,
 ) -> tuple[str, IssuedSession | None, str | None, int | None, User | None]:
     """Authenticate a customer or staff member.
 
@@ -152,7 +153,8 @@ def authenticate(
         limit=settings.login_rate_limit_attempts,
     )
 
-    user = resolve_login_user(db, identifier)
+    user = (db.scalar(select(User).where(User.username_key == hash_identifier(f'username:{normalize_identifier(identifier)}')))
+            if username_only else resolve_login_user(db, identifier))
     if user is None:
         # Burn comparable time so unknown identifiers are not distinguishable.
         verify_password(password, hash_password("dummy-password-value"))

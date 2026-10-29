@@ -1,0 +1,14 @@
+{
+  "bank_code": "abc",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [],
+  "branch_locator_url": "https://www.bank-abc.com/en/CountrySites/Egypt",
+  "atm_locator_url": "https://www.bank-abc.com/en/CountrySites/Egypt",
+  "hotline": null,
+  "contact_url": "https://www.bank-abc.com/en/CountrySites/Egypt",
+  "reviewed_at": null,
+  "version": "4646315ddafb666a"
+}

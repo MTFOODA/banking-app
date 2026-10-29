@@ -26,14 +26,14 @@ BANK_ROWS = [
     ("saib", "saib", "بنك saib", "https://www.saib.com.eg/", "#005BAA", "#ED7D23"),
     ("ebank", "Export Development Bank of Egypt", "البنك المصري لتنمية الصادرات", "https://www.ebank.com.eg/", "#70245B", "#F5A623"),
     ("aib", "Arab International Bank", "المصرف العربي الدولي", "https://www.aib.com.eg/", "#043B6B", "#B5985A"),
-    ("albaraka", "Al Baraka Bank Egypt", "بنك البركة مصر", "https://www.albaraka-bank.com.eg/", "#006B4D", "#C8A45A"),
+    ("albaraka", "Al Baraka Bank Egypt", "بنك البركة مصر", "https://www.albaraka.com.eg/", "#006B4D", "#C8A45A"),
     ("attijariwafa", "Attijariwafa bank Egypt", "التجاري وفا بنك إيجيبت", "https://www.attijariwafabank.com.eg/", "#E9561A", "#7C1A35"),
     ("adib", "Abu Dhabi Islamic Bank Egypt", "مصرف أبوظبي الإسلامي مصر", "https://www.adib.eg/", "#005B46", "#C7AF76"),
     ("abk", "Al Ahli Bank of Kuwait Egypt", "البنك الأهلي الكويتي مصر", "https://www.abkegypt.com/", "#254A78", "#C69D54"),
     ("hdb", "Housing and Development Bank", "بنك التعمير والإسكان", "https://www.hdb-egy.com/", "#005B99", "#F28C28"),
     ("nbk", "National Bank of Kuwait Egypt", "بنك الكويت الوطني مصر", "https://www.nbk.com/egypt", "#003A70", "#C8102E"),
     ("ealbank", "Egyptian Arab Land Bank", "البنك العقاري المصري العربي", "https://www.eal-bank.com/", "#1F3E70", "#C1272D"),
-    ("suez_canal", "Suez Canal Bank", "بنك قناة السويس", "https://www.scbank.com.eg/", "#0075A9", "#0A977B"),
+    ("suez_canal", "Suez Canal Bank", "بنك قناة السويس", "https://scbank.com.eg/", "#0075A9", "#0A977B"),
     ("kfh", "Kuwait Finance House Egypt", "بيت التمويل الكويتي مصر", "https://www.eg.kfh.com/en/", "#006A52", "#B19A55"),
     ("united_bank", "The United Bank", "المصرف المتحد", "https://www.theubeg.com/", "#2C326E", "#A08755"),
     ("hsbc", "HSBC Egypt", "بنك HSBC مصر", "https://www.hsbc.com.eg/", "#DB0011", "#333333"),
@@ -92,9 +92,15 @@ def palette(primary,accent,*,dark):
 
 
 def catalogue():
+    from app.services.bank_public_identity import IDENTITIES
+    from pathlib import Path
+    manifest_path=Path(__file__).resolve().parents[1]/'data'/'bank_public_assets.json'
+    assets=json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.is_file() else {}
     banks=[]
     for code,en,ar,url,primary,accent in BANK_ROWS:
-        banks.append(dict(code=code,name_en=en,name_ar=ar,website=url,source_url=url,
+        localized,abbreviation=IDENTITIES[code]
+        banks.append(dict(code=code,name_en=en,name_ar=localized,abbreviation=abbreviation,
+            logo_asset=assets.get(code,{}).get('asset'),website=url,source_url=url,
             identity_primary=primary,identity_accent=accent,
             light=palette(primary,accent,dark=False),dark=palette(primary,accent,dark=True),
             # Corporate-only local operations remain available for appearance preview.

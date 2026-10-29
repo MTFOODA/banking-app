@@ -1,0 +1,16 @@
+{
+  "bank_code": "qnb",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/enretailbanking.html"
+  ],
+  "branch_locator_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/enatmbranches.html",
+  "atm_locator_url": "https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/enatmbranches.html",
+  "hotline": "19700",
+  "contact_url": "https://www.qnb.com.eg/",
+  "reviewed_at": "2026-10-29",
+  "version": "4fa39b91e94660ba"
+}

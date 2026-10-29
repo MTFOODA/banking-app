@@ -1,3 +1,6 @@
+import 'package:faisal_app/features/banks/presentation/bank_onboarding_page.dart';
+import 'package:faisal_app/features/authentication/presentation/pages/login_page.dart';
+
 import 'dart:convert';
 import 'dart:io';
 
@@ -8,7 +11,6 @@ import 'package:go_router/go_router.dart';
 import 'package:faisal_app/main.dart' as app;
 import 'package:faisal_app/core/config/app_config.dart';
 import 'package:faisal_app/core/di/injector.dart';
-import 'package:faisal_app/core/theme/app_theme.dart';
 import 'package:faisal_app/core/widgets/faisal_logo.dart';
 import 'package:faisal_app/features/admin/presentation/pages/admin_dashboard_page.dart';
 import 'package:faisal_app/features/authentication/presentation/pages/registration_page.dart';
@@ -51,6 +53,11 @@ void main() {
       }
 
       Future<void> selectBank(String code) async {
+        if (find.byType(RegistrationPage).evaluate().isNotEmpty) return;
+        if (find.byType(AdminBrandingPage).evaluate().isEmpty) {
+          await flow.chooseBank(tester, code);
+          return;
+        }
         final picker = find.byType(DropdownButtonFormField<String>).first;
         await tester.ensureVisible(picker);
         await tester.tap(picker);
@@ -68,7 +75,9 @@ void main() {
         sl<AuthBloc>().add(const AuthLogoutRequested());
         await flow.waitFor(
           tester,
-          find.byKey(const ValueKey('notice_continue_login')),
+          find.byWidgetPredicate(
+            (w) => w is LoginPage || w is BankOnboardingPage,
+          ),
         );
         await flow.openSignIn(tester);
         await tester.pumpAndSettle();
@@ -159,12 +168,15 @@ void main() {
         final customer = customers[index] as Map<String, dynamic>;
         final code = customer['bank_code'] as String;
         await logout();
-        expect(find.text('Banking App'), findsOneWidget);
+        await selectBank(code);
+        expect(find.text('Banking App'), findsNothing);
         expect(
           Theme.of(tester.element(find.byType(FaisalLogo).first))
               .colorScheme
               .primary,
-          AppTheme.light().colorScheme.primary,
+          BrandingConfig.defaults
+              .forBank(BankCatalogue.bundled.find(code)!)
+              .color('primary', Brightness.light),
         );
         if (index == 0) {
           await screenshot('08_fixed_login');
@@ -220,7 +232,7 @@ void main() {
               .forBank(BankCatalogue.bundled.find(code)!)
               .color('primary', Brightness.light),
         );
-        expect(find.text('Banking App'), findsWidgets);
+        expect(find.text('Banking App'), findsNothing);
         if (code == 'nbe') {
           expect(find.text(greeting), findsOneWidget);
         }

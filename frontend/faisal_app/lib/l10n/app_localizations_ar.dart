@@ -10,13 +10,13 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get appName => 'Banking App';
+  String get appName => 'بوابتك البنكية';
 
   @override
   String get bankName => 'البنك';
 
   @override
-  String get bankNameShort => 'Banking App';
+  String get bankNameShort => 'بوابتك البنكية';
 
   @override
   String get appTagline => 'خدمات مصرفية بتصميم مدروس';
@@ -169,8 +169,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get welcomeBack => 'مرحباً بعودتك';
 
   @override
-  String get loginSubtitle =>
-      'سجّل الدخول باسم المستخدم أو رقم البطاقة أو الحساب.';
+  String get loginSubtitle => 'سجّل الدخول باسم المستخدم وكلمة المرور.';
 
   @override
   String get cardNumber => 'رقم البطاقة';
@@ -179,11 +178,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get cardNumberHint => '4508 1234 5678 9012';
 
   @override
-  String get loginIdentifier => 'اسم المستخدم أو رقم البطاقة أو الحساب';
+  String get loginIdentifier => 'اسم المستخدم';
 
   @override
-  String get loginIdentifierHint =>
-      'أدخل اسم المستخدم أو رقم البطاقة أو الحساب';
+  String get loginIdentifierHint => 'أدخل اسم المستخدم';
 
   @override
   String get invalidLoginIdentifier =>
@@ -1305,7 +1303,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get registrationExplanation =>
-      'اختر البنك وأدخل رقم الكارت. بعدها تحقّق ببيانات الاتصال المسجلة لدى البنك، ثم أنشئ اسم مستخدم فريدًا وكلمة مرور.';
+      'أدخل رقم الكارت الخاص بالبنك المختار، ثم تحقّق بالكود عبر بيانات اتصالك المسجلة لدى البنك وأنشئ اسم مستخدم وكلمة مرور.';
 
   @override
   String get registrationVerified =>
@@ -1729,7 +1727,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get admPublicPolicy =>
-      'إعلانات ما قبل الدخول عامة للجميع. لا تضع بيانات عملاء أو معلومات خاصة. الإعلانات الموجهة تظل في الرئيسية.';
+      'تنبيهات ما قبل الدخول عامة لكل العملاء أو للبنك المختار، ولا تعرض بيانات شخصية.';
 
   @override
   String get admTitleEn => 'العنوان بالإنجليزية';
@@ -1997,7 +1995,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'المبلغ بعد التحويل أصغر من الحد الدقيق أو يتجاوز نطاق الرصيد المسموح.';
 
   @override
-  String get publicWelcomeTitle => 'مرحبًا بك في Banking App';
+  String get publicWelcomeTitle => 'مرحبًا بك في بنكك';
 
   @override
   String get publicWelcomeSubtitle => 'خدماتك البنكية والدعم في مكان واحد.';
@@ -2293,7 +2291,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get brandingNativeHelp =>
-      'اسم Banking App واللوجو وأيقونات النظام وموارد الإقلاع ثابتة. تغييرها يحتاج إصدارًا جديدًا؛ هذه الشاشة لا تتيح تعديلها.';
+      'اسم التطبيق وأيقونته في نظام التشغيل ثابتان في الإصدار. تغييرهما يحتاج إصدارًا جديدًا. الإعدادات هنا تخص المظهر داخل التطبيق.';
 
   @override
   String get brandingHex => 'لون HEX ‏(#RRGGBB)';
@@ -2331,7 +2329,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get bankFixedIdentityHelp =>
-      'اسم Banking App واللوجو وأيقونة التطبيق ومظهر الدخول ثابتة في إصدار التطبيق. الإعدادات هنا تخص شاشات العملاء بعد تسجيل الدخول فقط.';
+      'اسم البنك ولوجوه الرسمي يتبعان البنك المختار. هذه الإعدادات تغيّر المظهر المدعوم داخل التطبيق ولا تغيّر أيقونة نظام التشغيل.';
 
   @override
   String get bankAppearanceScope =>
@@ -2375,4 +2373,49 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get bankLoginSelectionHelp =>
       'اختر البنك التابع لهذا اليوزر أو الكارت، أو اترك التحديد التلقائي. كل دخول يفتح بثيم البنك المتحقق منه على السيرفر. دخول الأدمن لا يحتاج اختيار بنك.';
+
+  @override
+  String get bankIntroTitle => 'بنوكك في مكان واحد';
+
+  @override
+  String get bankIntroBody =>
+      'اختر بنكك للوصول إلى خدماته بهويته المألوفة، ويمكنك تبديل البنك وقتما تحتاج.';
+
+  @override
+  String get bankSecurityIntroTitle => 'هويتك مرتبطة ببنكك';
+
+  @override
+  String get bankSecurityIntroBody =>
+      'سجّل الدخول باسم المستخدم لدى بنكك. للتسجيل الجديد، تحقّق من كارتك بكود مؤقت ثم أنشئ اسم مستخدم وكلمة مرور.';
+
+  @override
+  String get bankChooseTitle => 'اختر بنكك';
+
+  @override
+  String get bankChooseBody =>
+      'ستظهر صفحة الدخول والفروع وماكينات الصراف وخدمة العملاء الخاصة بالبنك المختار.';
+
+  @override
+  String get bankSearchLabel => 'ابحث عن البنك';
+
+  @override
+  String get bankChangeSelection => 'تغيير البنك';
+
+  @override
+  String get bankNoticeSpecific => 'تنبيه خاص ببنك محدد';
+
+  @override
+  String get bankDirectoryReviewed => 'تاريخ مراجعة المصدر';
+
+  @override
+  String get bankDirectoryPartial =>
+      'هذه قائمة جزئية من المواقع المنشورة للبنك. راجع الدليل الرسمي للشبكة الكاملة وأحدث التغييرات.';
+
+  @override
+  String get bankDirectoryUnavailable =>
+      'قائمة العناوين الموثّقة غير متاحة هنا حتى الآن. استخدم دليل البنك الرسمي؛ لا تُعرض بيانات بنك آخر بدلًا منها.';
+
+  @override
+  String get bankContactUnavailable =>
+      'لم يتم توثيق رقم خدمة العملاء هنا بعد. استخدم موقع البنك الرسمي للتواصل.';
 }

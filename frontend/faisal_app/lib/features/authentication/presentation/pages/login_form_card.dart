@@ -73,23 +73,23 @@ class LoginFormCard extends StatelessWidget {
             ],
             FaisalTextField(
               controller: identifierController,
-              label: l10n.loginIdentifier,
-              hint: l10n.loginIdentifierHint,
-              prefixIcon: Icons.credit_card_outlined,
+              label: l10n.usernameLabel,
+              hint: l10n.usernameHint,
+              prefixIcon: Icons.person_outline,
               keyboardType: TextInputType.text,
               textInputAction: TextInputAction.next,
               maxLength: 32,
               inputFormatters: [
-                FilteringTextInputFormatter.allow(RegExp(r'[a-zA-Z0-9_.\- ]')),
+                FilteringTextInputFormatter.allow(RegExp(r'[a-zA-Z0-9]')),
                 LengthLimitingTextInputFormatter(32),
               ],
               validator: (value) {
-                final result = validateLoginIdentifier(value);
+                final result = validateUsernameField(value);
                 if (result == 'required') {
                   return l10n.fieldRequired;
                 }
                 if (result != null) {
-                  return l10n.invalidLoginIdentifier;
+                  return l10n.usernameInvalid;
                 }
                 return null;
               },

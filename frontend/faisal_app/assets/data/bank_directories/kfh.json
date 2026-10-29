@@ -1,0 +1,1062 @@
+{
+  "bank_code": "kfh",
+  "branches": [
+    {
+      "id": "kfh-eb84bca6d9175870",
+      "name": "NEW CAIRO",
+      "address": "81, El-Tesseen Street, Sector A ,Fifth Settlement, New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+NEW+CAIRO+81%2C+El-Tesseen+Street%2C+Sector+A+%2CFifth+Settlement%2C+New+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-cae5aade5512c432",
+      "name": "DOWNTOWN",
+      "address": "4 Champlion St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+DOWNTOWN+4+Champlion+St.++Egypt"
+    },
+    {
+      "id": "kfh-5bf79dc13fa9c3c6",
+      "name": "SHOUBRA",
+      "address": "40 Shoubra St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SHOUBRA+40+Shoubra+St.++Egypt"
+    },
+    {
+      "id": "kfh-5f0565325abb712e",
+      "name": "HELIOPOLIS",
+      "address": "15A - El-Ahram St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+HELIOPOLIS+15A+-+El-Ahram+St.++Egypt"
+    },
+    {
+      "id": "kfh-0af00b23bda5a805",
+      "name": "MERGHANI",
+      "address": "129 Marghany St. Crossing Al-Marghany & Nozha",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MERGHANI+129+Marghany+St.+Crossing+Al-Marghany+%26+Nozha++Egypt"
+    },
+    {
+      "id": "kfh-7b4f52db56811737",
+      "name": "SALAH SALEM",
+      "address": "13 Al-Obour Build., Salah Salem Road",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SALAH+SALEM+13+Al-Obour+Build.%2C+Salah+Salem+Road++Egypt"
+    },
+    {
+      "id": "kfh-8023f6d8605041b4",
+      "name": "New Nasr city",
+      "address": "Plot 27, Block 30, extension of Abbas El Akkad Street, 8th District - Alshahid tower Nasr City - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+New+Nasr+city+Plot+27%2C+Block+30%2C+extension+of+Abbas+El+Akkad+Street%2C+8th+District+-+Alshahid+tower+Nasr+City+-+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-d10a0090ca873d48",
+      "name": "MAKRAM EBEID",
+      "address": "68 Makram Ebaid – Nasr city – Egypt – Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MAKRAM+EBEID+68+Makram+Ebaid+%E2%80%93+Nasr+city+%E2%80%93+Egypt+%E2%80%93+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-18502d61eef5a4c5",
+      "name": "MAADI",
+      "address": "Crossing St. No. 79 and No. 10",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MAADI+Crossing+St.+No.+79+and+No.+10++Egypt"
+    },
+    {
+      "id": "kfh-aff7586752859bf1",
+      "name": "LASELKY",
+      "address": "3/2 New Maadi Lasilky St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+LASELKY+3%2F2+New+Maadi+Lasilky+St.++Egypt"
+    },
+    {
+      "id": "kfh-b6c27bd776a55d05",
+      "name": "City Stars Branch",
+      "address": "City Stars Mall, Heliopolis (New Extension)",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+City+Stars+Branch+City+Stars+Mall%2C+Heliopolis+%28New+Extension%29++Egypt"
+    },
+    {
+      "id": "kfh-844c3b4bb0d4e188",
+      "name": "Waterway",
+      "address": "22 investor north area CFS1 Unit. New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Waterway+22+investor+north+area+CFS1+Unit.+New+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-c4ccfd3aba49d783",
+      "name": "Al Rehab",
+      "address": "Shop No. 404 New Market - El Rehab City",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Al+Rehab+Shop+No.+404+New+Market+-+El+Rehab+City++Egypt"
+    },
+    {
+      "id": "kfh-fa99be523da301de",
+      "name": "EL SHEROUK CITY",
+      "address": "Carrfour - El Sherouk -sky plaza mall beside CIB Bank",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+EL+SHEROUK+CITY+Carrfour+-+El+Sherouk+-sky+plaza+mall+beside+CIB+Bank++Egypt"
+    },
+    {
+      "id": "kfh-dd0f067bf44bbb95",
+      "name": "MADINATEY",
+      "address": "South Park area - in front of Ragab's sons",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MADINATEY+South+Park+area+-+in+front+of+Ragab%27s+sons++Egypt"
+    },
+    {
+      "id": "kfh-04c5822212ded487",
+      "name": "SHERATON",
+      "address": "No. 4 Khaled Ibn Al Walid Street, Heliopolis",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SHERATON+No.+4+Khaled+Ibn+Al+Walid+Street%2C+Heliopolis++Egypt"
+    },
+    {
+      "id": "kfh-290da6819e6908cf",
+      "name": "DOKKI",
+      "address": "22 Adel Hussein Rostom St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+DOKKI+22+Adel+Hussein+Rostom+St.++Egypt"
+    },
+    {
+      "id": "kfh-c32e8b745e05ee3c",
+      "name": "MOHANDSEEN",
+      "address": "64 Gamat El-Dowal Al-Arabia St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MOHANDSEEN+64+Gamat+El-Dowal+Al-Arabia+St.++Egypt"
+    },
+    {
+      "id": "kfh-83ab94deef2e21a4",
+      "name": "SHOOTING CLUB",
+      "address": "52 Nadi El-Saaed St",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SHOOTING+CLUB+52+Nadi+El-Saaed+St++Egypt"
+    },
+    {
+      "id": "kfh-7f341abfa7e70ddf",
+      "name": "HARAM",
+      "address": "132 Haram St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+HARAM+132+Haram+St.++Egypt"
+    },
+    {
+      "id": "kfh-c111d257b5c08e91",
+      "name": "6TH OCTOBER",
+      "address": "El Essraa Plaza - Central Road",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+6TH+OCTOBER+El+Essraa+Plaza+-+Central+Road++Egypt"
+    },
+    {
+      "id": "kfh-88dc47afd6856991",
+      "name": "Arkan Plaza",
+      "address": "Units 11 & 12 Building A-2 - Arkan Plaza Complex (2) Central Axis Sheikh Zayed",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Arkan+Plaza+Units+11+%26+12+Building+A-2+-+Arkan+Plaza+Complex+%282%29+Central+Axis+Sheikh+Zayed++Egypt"
+    },
+    {
+      "id": "kfh-a19c4adde72d0cc4",
+      "name": "10TH RAMADAN",
+      "address": "MC1, Markaz El Madina, 10th of Ramadan city",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+10TH+RAMADAN+MC1%2C+Markaz+El+Madina%2C+10th+of+Ramadan+city++Egypt"
+    },
+    {
+      "id": "kfh-799776c002977571",
+      "name": "Obour",
+      "address": "Obour City - Ismalia Road - City Club Wall",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Obour+Obour+City+-+Ismalia+Road+-+City+Club+Wall++Egypt"
+    },
+    {
+      "id": "kfh-91f57465a8413e43",
+      "name": "SIDI BISHR",
+      "address": "544 El-Gheish St., Hilton",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SIDI+BISHR+544+El-Gheish+St.%2C+Hilton++Egypt"
+    },
+    {
+      "id": "kfh-209005942fd2325f",
+      "name": "ALEXANDRIA",
+      "address": "127 Crossing El-Horia St., & Lomobo St. shalat",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+ALEXANDRIA+127+Crossing+El-Horia+St.%2C+%26+Lomobo+St.+shalat++Egypt"
+    },
+    {
+      "id": "kfh-87228a20a96c2cf5",
+      "name": "SEMOUHA BRANCH",
+      "address": "23 Fawzi Moaaz St. - Somoha - Sidi Gaber - Alex",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SEMOUHA+BRANCH+23+Fawzi+Moaaz+St.+-+Somoha+-+Sidi+Gaber+-+Alex++Egypt"
+    },
+    {
+      "id": "kfh-3a2f862a4ed309bc",
+      "name": "LORAN",
+      "address": "No. 17 Shaarawy Pasha Street - Loran District",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+LORAN+No.+17+Shaarawy+Pasha+Street+-+Loran+District++Egypt"
+    },
+    {
+      "id": "kfh-052a471233d3cb0b",
+      "name": "MANSHEYA",
+      "address": "23 Nasr Square Manshaya Infront of Amon Hotel.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MANSHEYA+23+Nasr+Square+Manshaya+Infront+of+Amon+Hotel.++Egypt"
+    },
+    {
+      "id": "kfh-383a5a9fc3b8b176",
+      "name": "TANTA",
+      "address": "1 El-Gheish St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+TANTA+1+El-Gheish+St.++Egypt"
+    },
+    {
+      "id": "kfh-c6abd029749ca7eb",
+      "name": "DAMIETTA",
+      "address": "122 Moderia St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+DAMIETTA+122+Moderia+St.++Egypt"
+    },
+    {
+      "id": "kfh-5d33c6c1c5c3c7dc",
+      "name": "MANSOURA",
+      "address": "195 El-Gomhoria St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MANSOURA+195+El-Gomhoria+St.++Egypt"
+    },
+    {
+      "id": "kfh-43be2ef750973ae6",
+      "name": "Portsaid-GOMHOREYA",
+      "address": "Makka Tower #4 Abd El-Salam Aref & El-Gomhoria St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Portsaid-GOMHOREYA+Makka+Tower+%234+Abd+El-Salam+Aref+%26+El-Gomhoria+St.++Egypt"
+    },
+    {
+      "id": "kfh-3f743222cd5c46c3",
+      "name": "SUEZ",
+      "address": "Crossing Al-Aqsour St., & El-Gesh St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SUEZ+Crossing+Al-Aqsour+St.%2C+%26+El-Gesh+St.++Egypt"
+    },
+    {
+      "id": "kfh-813471e4bd17b896",
+      "name": "NEAMA BAY",
+      "address": "8 Chris Village",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+NEAMA+BAY+8+Chris+Village++Egypt"
+    },
+    {
+      "id": "kfh-5b6d44b6a295c110",
+      "name": "HURGHADA",
+      "address": "193 Villages Road, Yousef Afifi St., Beside Sindbad Village",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+HURGHADA+193+Villages+Road%2C+Yousef+Afifi+St.%2C+Beside+Sindbad+Village++Egypt"
+    },
+    {
+      "id": "kfh-726b1188567f94bc",
+      "name": "MINIA",
+      "address": "21 Al-Gomhoria St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MINIA+21+Al-Gomhoria+St.++Egypt"
+    },
+    {
+      "id": "kfh-6d0201a04a91ddfc",
+      "name": "NEW ZAMALEK",
+      "address": "No. 3 Mansour Mohamed Street - Zamalek - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+NEW+ZAMALEK+No.+3+Mansour+Mohamed+Street+-+Zamalek+-+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-3c6132bfd1813ab1",
+      "name": "Assuit",
+      "address": "No. 5 Al-Gomhoria Street - Sharq District - Second Division, Assiut - Assiut Governorate",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Assuit+No.+5+Al-Gomhoria+Street+-+Sharq+District+-+Second+Division%2C+Assiut+-+Assiut+Governorate++Egypt"
+    },
+    {
+      "id": "kfh-54e7df8dfb751633",
+      "name": "TEDA Branch",
+      "address": "The third sector, the economic zone in the northwestern Gulf of Suez",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+TEDA+Branch+The+third+sector%2C+the+economic+zone+in+the+northwestern+Gulf+of+Suez++Egypt"
+    },
+    {
+      "id": "kfh-078f4096edff504d",
+      "name": "New DAMIETTA BRANCH",
+      "address": "West of Damietta Port, division of storage and services area - New Damietta",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+New+DAMIETTA+BRANCH+West+of+Damietta+Port%2C+division+of+storage+and+services+area+-+New+Damietta++Egypt"
+    },
+    {
+      "id": "kfh-2c4cc115b1bd6378",
+      "name": "Sheben Elkom",
+      "address": "Gamal Abdel Nasser Street, in front of the Faculty of Engineering, Banks Mall, Shebin El-Kom City, Menoufia Governorate.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Sheben+Elkom+Gamal+Abdel+Nasser+Street%2C+in+front+of+the+Faculty+of+Engineering%2C+Banks+Mall%2C+Shebin+El-Kom+City%2C+Menoufia+Governorate.++Egypt"
+    },
+    {
+      "id": "kfh-b372616945bedf7f",
+      "name": "badr university assuit",
+      "address": "Badr University in Asyut",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+badr+university+assuit+Badr+University+in+Asyut++Egypt"
+    },
+    {
+      "id": "kfh-48594dbde46ee042",
+      "name": "Nile City",
+      "address": "Unit No.13 A-Ground floor located in the commercial and administrative and Hotel of Nile city towers at 2005 G -Nile Corniche- Ramla Boulak-Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Nile+City+Unit+No.13+A-Ground+floor+located+in+the+commercial+and+administrative+and+Hotel+of+Nile+city+towers+at+2005+G+-Nile+Corniche-+Ramla+Boulak-Cairo++Egypt"
+    },
+    {
+      "id": "kfh-5f4b4fb98b918a50",
+      "name": "Hilton Grand Nile branch",
+      "address": "16 Nile Kornish St, Garden city , Cairo, Third floor unit 303 & 304 in the",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Hilton+Grand+Nile+branch+16+Nile+Kornish+St%2C+Garden+city+%2C+Cairo%2C+Third+floor+unit+303+%26+304+in+the++Egypt"
+    },
+    {
+      "id": "kfh-3344dcce46b8027f",
+      "name": "Soma bay",
+      "address": "unit 8 & 9 - Marina Center , Soma Bay , Soma Bay Hurghada , Red Sea Governorate",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Soma+bay+unit+8+%26+9+-+Marina+Center+%2C+Soma+Bay+%2C+Soma+Bay+Hurghada+%2C+Red+Sea+Governorate++Egypt"
+    },
+    {
+      "id": "kfh-4124c1c151cde594",
+      "name": "Sohag",
+      "address": "Plot No. 44A, symbolic, intersection of Teachers’ School Street with Nile Corniche Street",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Sohag+Plot+No.+44A%2C+symbolic%2C+intersection+of+Teachers%E2%80%99+School+Street+with+Nile+Corniche+Street++Egypt"
+    }
+  ],
+  "atms": [
+    {
+      "id": "kfh-8b548bbeefcd8c69",
+      "name": "CAIRO AIRPORT 3",
+      "address": "Cairo International Airport - Terminal 3",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+CAIRO+AIRPORT+3+Cairo+International+Airport+-+Terminal+3++Egypt"
+    },
+    {
+      "id": "kfh-d1453f2a4ac56d58",
+      "name": "CITY STARS HOTEL",
+      "address": "Residence Suits entrance at Intercontinental City stars",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+CITY+STARS+HOTEL+Residence+Suits+entrance+at+Intercontinental+City+stars++Egypt"
+    },
+    {
+      "id": "kfh-d3f8590a3b03cce9",
+      "name": "Cairo Festival",
+      "address": "Cairo Festival City Mall (New Cairo)-Food Courte area",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Cairo+Festival+Cairo+Festival+City+Mall+%28New+Cairo%29-Food+Courte+area++Egypt"
+    },
+    {
+      "id": "kfh-0010567d21edbcf1",
+      "name": "DOWNTOWN MALL",
+      "address": "El Tessien Street New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+DOWNTOWN+MALL+El+Tessien+Street+New+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-afad39d82918401f",
+      "name": "MEDICAL COMPOUND",
+      "address": "New Cairo Behind Dusit Hotel",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MEDICAL+COMPOUND+New+Cairo+Behind+Dusit+Hotel++Egypt"
+    },
+    {
+      "id": "kfh-589645bce8139a6c",
+      "name": "DUSIT THANI",
+      "address": "El- Tesseen Street City Center Fith Settlement",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+DUSIT+THANI+El-+Tesseen+Street+City+Center+Fith+Settlement++Egypt"
+    },
+    {
+      "id": "kfh-4b392969582fbe5d",
+      "name": "DUST CLUB HOUSE",
+      "address": "Dusit Hotel Club - 90th Street - Fifth Settlement",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+DUST+CLUB+HOUSE+Dusit+Hotel+Club+-+90th+Street+-+Fifth+Settlement++Egypt"
+    },
+    {
+      "id": "kfh-3acbac04c9d34c77",
+      "name": "POINTT 90 MALL",
+      "address": "Point 90 Mall-Fifth Settlement, Southern Investors Area, New Cairo City, Cairo Governorate, in front of the American University",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+POINTT+90+MALL+Point+90+Mall-Fifth+Settlement%2C+Southern+Investors+Area%2C+New+Cairo+City%2C+Cairo+Governorate%2C+in+front+of+the+American+University++Egypt"
+    },
+    {
+      "id": "kfh-6d91935418664150",
+      "name": "EL MOSHAH MANG.",
+      "address": "Salah Salem street in front of Investmnet Ministry",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+EL+MOSHAH+MANG.+Salah+Salem+street+in+front+of+Investmnet+Ministry++Egypt"
+    },
+    {
+      "id": "kfh-588add83d8289eb8",
+      "name": "CHILLOUT",
+      "address": "Chill out Fuel Station– Al Soukhna road-Kattameya Road-Mohamed oasis District",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+CHILLOUT+Chill+out+Fuel+Station%E2%80%93+Al+Soukhna+road-Kattameya+Road-Mohamed+oasis+District++Egypt"
+    },
+    {
+      "id": "kfh-0757915371497387",
+      "name": "FAWRY EL NOZHA",
+      "address": "45 Osman Ebn Afan Street - Safier Square(ATM at Fawry Plus shop)",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+FAWRY+EL+NOZHA+45+Osman+Ebn+Afan+Street+-+Safier+Square%28ATM+at+Fawry+Plus+shop%29++Egypt"
+    },
+    {
+      "id": "kfh-53c5e37d76e0d0c1",
+      "name": "FAWRY EL HEGAZ",
+      "address": "58 El Hegaz Street, Amoun Tower(ATM at Fawry Plus shop)",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+FAWRY+EL+HEGAZ+58+El+Hegaz+Street%2C+Amoun+Tower%28ATM+at+Fawry+Plus+shop%29++Egypt"
+    },
+    {
+      "id": "kfh-06fd099509e5739a",
+      "name": "EL MASA HOTEL",
+      "address": "El Masa Hotel New Capital",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+EL+MASA+HOTEL+El+Masa+Hotel+New+Capital++Egypt"
+    },
+    {
+      "id": "kfh-508e330dc43cf441",
+      "name": "CARREFOUR SHROUK",
+      "address": "Sky Plaza Mall-Carrfour El Shrouk-beside LC wikiki shop(ATM Center)",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+CARREFOUR+SHROUK+Sky+Plaza+Mall-Carrfour+El+Shrouk-beside+LC+wikiki+shop%28ATM+Center%29++Egypt"
+    },
+    {
+      "id": "kfh-86b80dec980bc5b2",
+      "name": "Hilton ZAMALEK",
+      "address": "21 mohamed mazhar ST.-Hilton Hotel-Zamalek",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Hilton+ZAMALEK+21+mohamed+mazhar+ST.-Hilton+Hotel-Zamalek++Egypt"
+    },
+    {
+      "id": "kfh-398998fbdad0b79f",
+      "name": "AMERICANA PLAZA",
+      "address": "Central Axis - Sheikh Zayed City - Americana Plaza Mall",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+AMERICANA+PLAZA+Central+Axis+-+Sheikh+Zayed+City+-+Americana+Plaza+Mall++Egypt"
+    },
+    {
+      "id": "kfh-385baea113ed079a",
+      "name": "ARKAN MALL",
+      "address": "Plot 31, In Front Of Zayed 2000, Arkan Mall , El Sheikh Zayed, 6th of october, Giza.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+ARKAN+MALL+Plot+31%2C+In+Front+Of+Zayed+2000%2C+Arkan+Mall+%2C+El+Sheikh+Zayed%2C+6th+of+october%2C+Giza.++Egypt"
+    },
+    {
+      "id": "kfh-08259aa93cb764f9",
+      "name": "HYPER ZAYED",
+      "address": "HYPER ONE MALL – ELSHEIKH ZAYED- ENTRANCE # 1 – EL MEHWAR EL MARKAZY.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+HYPER+ZAYED+HYPER+ONE+MALL+%E2%80%93+ELSHEIKH+ZAYED-+ENTRANCE+%23+1+%E2%80%93+EL+MEHWAR+EL+MARKAZY.++Egypt"
+    },
+    {
+      "id": "kfh-0b29b54355500902",
+      "name": "MALL MISR2",
+      "address": "Food Court area entrance -Mall of Egypt after Dream Park",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MALL+MISR2+Food+Court+area+entrance+-Mall+of+Egypt+after+Dream+Park++Egypt"
+    },
+    {
+      "id": "kfh-2d94e98247b39143",
+      "name": "EL KHAMAYEL",
+      "address": "Ring Road - Al Khamayel Complex - in front of Hyper 1 - Sixth of October City",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+EL+KHAMAYEL+Ring+Road+-+Al+Khamayel+Complex+-+in+front+of+Hyper+1+-+Sixth+of+October+City++Egypt"
+    },
+    {
+      "id": "kfh-ca3aeb27e7d6b977",
+      "name": "CAIRO ALEX",
+      "address": "Cairo-Alexandria Desert Road before the gates directly after the Chillout Gas Station - towards Alexandria",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+CAIRO+ALEX+Cairo-Alexandria+Desert+Road+before+the+gates+directly+after+the+Chillout+Gas+Station+-+towards+Alexandria++Egypt"
+    },
+    {
+      "id": "kfh-992aa6d7eeb9fc1a",
+      "name": "ALEX CAIRO",
+      "address": "Alexandria-Cairo Desert Road before the gates directly after the Chillout Gas Station - in the direction of Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+ALEX+CAIRO+Alexandria-Cairo+Desert+Road+before+the+gates+directly+after+the+Chillout+Gas+Station+-+in+the+direction+of+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-37553c855e3f893a",
+      "name": "CARREFOUR ALEX",
+      "address": "Down Town Carrfour Alex_food courte gate",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+CARREFOUR+ALEX+Down+Town+Carrfour+Alex_food+courte+gate++Egypt"
+    },
+    {
+      "id": "kfh-9c4c25200552ddb4",
+      "name": "ALEX AZUR HOTEL",
+      "address": "Sun Rise Cornish Road ,Roshdy ,Alexandria",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+ALEX+AZUR+HOTEL+Sun+Rise+Cornish+Road+%2CRoshdy+%2CAlexandria++Egypt"
+    },
+    {
+      "id": "kfh-c5c6b539530cfa74",
+      "name": "ALEX DEZINIA",
+      "address": "Plot No. 2A - next to the Police Hospital and Al-Tariq Car Showroom - Muharram Bey - the entrance before Carrefour",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+ALEX+DEZINIA+Plot+No.+2A+-+next+to+the+Police+Hospital+and+Al-Tariq+Car+Showroom+-+Muharram+Bey+-+the+entrance+before+Carrefour++Egypt"
+    },
+    {
+      "id": "kfh-9deb4fb37abd3d7a",
+      "name": "Tanta Club",
+      "address": "Teachers Club Street, Tanta Sports Club gate (inside the club - next to the post office) Tanta First - Gharbia طنطا اول – الغربيه",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Tanta+Club+Teachers+Club+Street%2C+Tanta+Sports+Club+gate+%28inside+the+club+-+next+to+the+post+office%29+Tanta+First+-+Gharbia+%D8%B7%D9%86%D8%B7%D8%A7+%D8%A7%D9%88%D9%84+%E2%80%93+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D9%87++Egypt"
+    },
+    {
+      "id": "kfh-c23211521fb1e138",
+      "name": "HURGHADA AIRPORT",
+      "address": "New Airport Building (1) International Arrival Hall",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+HURGHADA+AIRPORT+New+Airport+Building+%281%29+International+Arrival+Hall++Egypt"
+    },
+    {
+      "id": "kfh-af92c488c9c3c9ea",
+      "name": "American Hospital",
+      "address": "American Hospital - Said Street - Tanta (the machine is on the hospital wall)",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+American+Hospital+American+Hospital+-+Said+Street+-+Tanta+%28the+machine+is+on+the+hospital+wall%29++Egypt"
+    },
+    {
+      "id": "kfh-c26dca1d8fb81e29",
+      "name": "City Center Almaza",
+      "address": "Suez Road-City Center Almaza Mall-ATM located in front of Bank CIB",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+City+Center+Almaza+Suez+Road-City+Center+Almaza+Mall-ATM+located+in+front+of+Bank+CIB++Egypt"
+    },
+    {
+      "id": "kfh-a8e51549dc351b5b",
+      "name": "Garden 8 Mall",
+      "address": "Waterway 2 - Garden 8 Mall - Fifth Settlement - New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Garden+8+Mall+Waterway+2+-+Garden+8+Mall+-+Fifth+Settlement+-+New+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-670a8409791680a2",
+      "name": "PALACE S.HASHISH",
+      "address": "Sahl Hashesh - Old Palace Hotel",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+PALACE+S.HASHISH+Sahl+Hashesh+-+Old+Palace+Hotel++Egypt"
+    },
+    {
+      "id": "kfh-737c6d27d923ead6",
+      "name": "ALEX TRAIN STAT",
+      "address": "Inside the Sidi Gaber-Alexandria train station",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+ALEX+TRAIN+STAT+Inside+the+Sidi+Gaber-Alexandria+train+station++Egypt"
+    },
+    {
+      "id": "kfh-ffb7ad78afa685e3",
+      "name": "Mall Of Tanta",
+      "address": "Mall of Tanta-Ktoor Road-Beside Matrix Club-Logistic district-Tanta",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Mall+Of+Tanta+Mall+of+Tanta-Ktoor+Road-Beside+Matrix+Club-Logistic+district-Tanta++Egypt"
+    },
+    {
+      "id": "kfh-28549750cf831e7d",
+      "name": "Mall Of Arabia",
+      "address": "Mall of Arabia-Gate 9-6th of October city-Giza",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Mall+Of+Arabia+Mall+of+Arabia-Gate+9-6th+of+October+city-Giza++Egypt"
+    },
+    {
+      "id": "kfh-5fe614b457e2176e",
+      "name": "PortSaid-Geish",
+      "address": "Saad Zagloul Street and the Army - in front of Omar Effendi",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+PortSaid-Geish+Saad+Zagloul+Street+and+the+Army+-+in+front+of+Omar+Effendi++Egypt"
+    },
+    {
+      "id": "kfh-c71ce0b4287d4c76",
+      "name": "Arabella",
+      "address": "Arabella Mall Fifth Settlement",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Arabella+Arabella+Mall+Fifth+Settlement++Egypt"
+    },
+    {
+      "id": "kfh-23f48c04ad2b992d",
+      "name": "mohamed nagib",
+      "address": "Cash & Dash Mohamed Nagib Axis",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+mohamed+nagib+Cash+%26+Dash+Mohamed+Nagib+Axis++Egypt"
+    },
+    {
+      "id": "kfh-5803ab6042acc95e",
+      "name": "GRAND NILE HOTEL",
+      "address": "Grand Nile Tower Hotel",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+GRAND+NILE+HOTEL+Grand+Nile+Tower+Hotel++Egypt"
+    },
+    {
+      "id": "kfh-baea3b00075b66a6",
+      "name": "badr university assuit",
+      "address": "Badr University in Asyut",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+badr+university+assuit+Badr+University+in+Asyut++Egypt"
+    },
+    {
+      "id": "kfh-18b68bc6c0507d9c",
+      "name": "Town Center",
+      "address": "The intersection of the Cairo-Ismailia Desert Road with the Ring Road in front of the Adly Mansour Metro",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Town+Center+The+intersection+of+the+Cairo-Ismailia+Desert+Road+with+the+Ring+Road+in+front+of+the+Adly+Mansour+Metro++Egypt"
+    },
+    {
+      "id": "kfh-c7e1125d149ecaa7",
+      "name": "Waterway 5A Mall",
+      "address": "Waterway 5A Mall New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Waterway+5A+Mall+Waterway+5A+Mall+New+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-e63de6579902d35f",
+      "name": "Business capital",
+      "address": "26th of July Spine, El Sheikh Zayed, 6th of october, Giza beside Americana Plaza",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Business+capital+26th+of+July+Spine%2C+El+Sheikh+Zayed%2C+6th+of+october%2C+Giza+beside+Americana+Plaza++Egypt"
+    },
+    {
+      "id": "kfh-e59ca8008fc3b21f",
+      "name": "New Giza Sporting Club",
+      "address": "22 Km Cairo-Alex Desert Road-Newgiza Sports Club",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+New+Giza+Sporting+Club+22+Km+Cairo-Alex+Desert+Road-Newgiza+Sports+Club++Egypt"
+    },
+    {
+      "id": "kfh-afa0b2ee3399eb9c",
+      "name": "Sodic",
+      "address": "Sodic Westown Hub, 38 Cairo Alex Desert road",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Sodic+Sodic+Westown+Hub%2C+38+Cairo+Alex+Desert+road++Egypt"
+    },
+    {
+      "id": "kfh-2a8c74bc16e561f0",
+      "name": "Egyptian Propylene and Polypropylene Factory",
+      "address": "Algameel Industrial Zone, Damietta road- PortSaid, Egypt",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Egyptian+Propylene+and+Polypropylene+Factory+Algameel+Industrial+Zone%2C+Damietta+road-+PortSaid%2C+Egypt++Egypt"
+    },
+    {
+      "id": "kfh-e4a0d23d108e573e",
+      "name": "Toshiba ElAraby",
+      "address": "Araby Group Industrial Zone, Qwadisna, Menoufia",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Toshiba+ElAraby+Araby+Group+Industrial+Zone%2C+Qwadisna%2C+Menoufia++Egypt"
+    },
+    {
+      "id": "kfh-3cb3ba0f2d8473cf",
+      "name": "Mivida",
+      "address": "Delta Al Andalus South Teseen Street",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Mivida+Delta+Al+Andalus+South+Teseen+Street++Egypt"
+    },
+    {
+      "id": "kfh-778b4c1afcfce2b1",
+      "name": "Swissotel",
+      "address": "Swissotel Neama Bay Elsalam road beside Casino Royal",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Swissotel+Swissotel+Neama+Bay+Elsalam+road+beside+Casino+Royal++Egypt"
+    },
+    {
+      "id": "kfh-0ccca214525cc33b",
+      "name": "Badya University",
+      "address": "Badya University - October",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Badya+University+Badya+University+-+October++Egypt"
+    },
+    {
+      "id": "kfh-3e8d2c223f411332",
+      "name": "Stella Sea Club Hotel",
+      "address": "Stella Sea Club Hotel - Ain Sokhna",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Stella+Sea+Club+Hotel+Stella+Sea+Club+Hotel+-+Ain+Sokhna++Egypt"
+    },
+    {
+      "id": "kfh-b30d43010cd07345",
+      "name": "Layan Compound",
+      "address": "Layan Compound fifth settlment",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Layan+Compound+Layan+Compound+fifth+settlment++Egypt"
+    },
+    {
+      "id": "kfh-42deacca94c713d9",
+      "name": "NEW CAIRO 1",
+      "address": "81, El-Tesseen Street, Sector A ,Fifth Settlement, New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+NEW+CAIRO+1+81%2C+El-Tesseen+Street%2C+Sector+A+%2CFifth+Settlement%2C+New+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-61503c093ce8473d",
+      "name": "NEW CAIRO 2",
+      "address": "81, El-Tesseen Street, Sector A ,Fifth Settlement, New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+NEW+CAIRO+2+81%2C+El-Tesseen+Street%2C+Sector+A+%2CFifth+Settlement%2C+New+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-9baccd5c03a730a6",
+      "name": "New Cairo 3",
+      "address": "81, El-Tesseen Street, Sector A ,Fifth Settlement, New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+New+Cairo+3+81%2C+El-Tesseen+Street%2C+Sector+A+%2CFifth+Settlement%2C+New+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-1832753b7e0bfffa",
+      "name": "DOWNTOWN",
+      "address": "4 Champlion St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+DOWNTOWN+4+Champlion+St.++Egypt"
+    },
+    {
+      "id": "kfh-ed6ba57bbfc1051c",
+      "name": "SHOUBRA",
+      "address": "40 Shoubra St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SHOUBRA+40+Shoubra+St.++Egypt"
+    },
+    {
+      "id": "kfh-8269b8a80240b7d4",
+      "name": "HELIOPOLIS",
+      "address": "15A - El-Ahram St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+HELIOPOLIS+15A+-+El-Ahram+St.++Egypt"
+    },
+    {
+      "id": "kfh-8d4520b53508ce58",
+      "name": "MERGHANI",
+      "address": "Crossing Al-Marghany & Nozha St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MERGHANI+Crossing+Al-Marghany+%26+Nozha+St.++Egypt"
+    },
+    {
+      "id": "kfh-69562072c5c30cae",
+      "name": "SALAH SALEM",
+      "address": "13 Al-Obour Build., Salah Salem Road",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SALAH+SALEM+13+Al-Obour+Build.%2C+Salah+Salem+Road++Egypt"
+    },
+    {
+      "id": "kfh-6f98dbe34f98c571",
+      "name": "New Nasr city",
+      "address": "Plot 27, Block 30, extension of Abbas El Akkad Street, 8th District - Nasr City - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+New+Nasr+city+Plot+27%2C+Block+30%2C+extension+of+Abbas+El+Akkad+Street%2C+8th+District+-+Nasr+City+-+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-c6787a6ec0b669f2",
+      "name": "MAKRAM EBEID",
+      "address": "68 Makram Ebaid – Nasr city – Egypt – Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MAKRAM+EBEID+68+Makram+Ebaid+%E2%80%93+Nasr+city+%E2%80%93+Egypt+%E2%80%93+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-87c0614be3d4c011",
+      "name": "MAADI",
+      "address": "Crossing St. No. 79 and No. 10",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MAADI+Crossing+St.+No.+79+and+No.+10++Egypt"
+    },
+    {
+      "id": "kfh-560a15b318815b23",
+      "name": "LASELKY",
+      "address": "3/2 New Maadi Lasilky St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+LASELKY+3%2F2+New+Maadi+Lasilky+St.++Egypt"
+    },
+    {
+      "id": "kfh-f6bf87b13c27654a",
+      "name": "City Starts Branch",
+      "address": "City Stars Mall, Heliopolis (New Extension)",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+City+Starts+Branch+City+Stars+Mall%2C+Heliopolis+%28New+Extension%29++Egypt"
+    },
+    {
+      "id": "kfh-4ebdb9634c643bf8",
+      "name": "WATER WAY",
+      "address": "22 investor north area CFS1 Unit. New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+WATER+WAY+22+investor+north+area+CFS1+Unit.+New+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-6c2c093e197ff9f2",
+      "name": "Al Rehab",
+      "address": "Shop No. 404 New Market - El Rehab City",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Al+Rehab+Shop+No.+404+New+Market+-+El+Rehab+City++Egypt"
+    },
+    {
+      "id": "kfh-01c332a895d4062f",
+      "name": "EL SHEROUK CITY",
+      "address": "Carrfour - El Sherouk -sky plaza mall beside CIB Bank",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+EL+SHEROUK+CITY+Carrfour+-+El+Sherouk+-sky+plaza+mall+beside+CIB+Bank++Egypt"
+    },
+    {
+      "id": "kfh-814cf2c9d0fdf546",
+      "name": "MADINATEY",
+      "address": "South Park area - in front of Ragab's sons",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MADINATEY+South+Park+area+-+in+front+of+Ragab%27s+sons++Egypt"
+    },
+    {
+      "id": "kfh-80afe2669f9ee324",
+      "name": "SHERATON",
+      "address": "No. 4 Khaled Ibn Al Walid Street, Heliopolis",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SHERATON+No.+4+Khaled+Ibn+Al+Walid+Street%2C+Heliopolis++Egypt"
+    },
+    {
+      "id": "kfh-dac16c9567dfd8d5",
+      "name": "DOKKI",
+      "address": "22 Adel Hussein Rostom St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+DOKKI+22+Adel+Hussein+Rostom+St.++Egypt"
+    },
+    {
+      "id": "kfh-297063566f7d2898",
+      "name": "MOHANDSEEN",
+      "address": "64 Gamat El-Dowal Al-Arabia St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MOHANDSEEN+64+Gamat+El-Dowal+Al-Arabia+St.++Egypt"
+    },
+    {
+      "id": "kfh-a7ce95b5d48c5cb0",
+      "name": "SHOOTING CLUB",
+      "address": "52 Nadi El-Saaed St",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SHOOTING+CLUB+52+Nadi+El-Saaed+St++Egypt"
+    },
+    {
+      "id": "kfh-6eaf8ec107edba12",
+      "name": "HARAM",
+      "address": "132 Haram St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+HARAM+132+Haram+St.++Egypt"
+    },
+    {
+      "id": "kfh-8958198fed2a8d0d",
+      "name": "6TH OCTOBER",
+      "address": "El Essraa Plaza - Central Road",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+6TH+OCTOBER+El+Essraa+Plaza+-+Central+Road++Egypt"
+    },
+    {
+      "id": "kfh-b3ac4f6474d60fe6",
+      "name": "Arkan Plaza",
+      "address": "Units 11 & 12 Building A-2 - Arkan Plaza Complex (2) Central Axis Sheikh Zayed",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Arkan+Plaza+Units+11+%26+12+Building+A-2+-+Arkan+Plaza+Complex+%282%29+Central+Axis+Sheikh+Zayed++Egypt"
+    },
+    {
+      "id": "kfh-04009fcaa8b9be0a",
+      "name": "10TH RAMADAN",
+      "address": "MC1, Markaz El Madina, 10th of Ramadan city",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+10TH+RAMADAN+MC1%2C+Markaz+El+Madina%2C+10th+of+Ramadan+city++Egypt"
+    },
+    {
+      "id": "kfh-0c9eeab23233dd21",
+      "name": "Obour",
+      "address": "Obour City - Ismalia Road - City Club Wall",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Obour+Obour+City+-+Ismalia+Road+-+City+Club+Wall++Egypt"
+    },
+    {
+      "id": "kfh-f1898cb8e106a998",
+      "name": "SIDI BISHR",
+      "address": "544 El-Gheish St., Ramada Hotel",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SIDI+BISHR+544+El-Gheish+St.%2C+Ramada+Hotel++Egypt"
+    },
+    {
+      "id": "kfh-d41e08bd940f6cca",
+      "name": "ALEXANDRIA",
+      "address": "Crossing El-Horia St., & Lomobo St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+ALEXANDRIA+Crossing+El-Horia+St.%2C+%26+Lomobo+St.++Egypt"
+    },
+    {
+      "id": "kfh-eef194d70b16776c",
+      "name": "SEMOUHA BRANCH",
+      "address": "23 Fawzi Moaaz St. - Somoha - Sidi Gaber - Alex",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SEMOUHA+BRANCH+23+Fawzi+Moaaz+St.+-+Somoha+-+Sidi+Gaber+-+Alex++Egypt"
+    },
+    {
+      "id": "kfh-c59d8388b67f8f7f",
+      "name": "LORAN",
+      "address": "No. 17 Shaarawy Pasha Street - Loran District",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+LORAN+No.+17+Shaarawy+Pasha+Street+-+Loran+District++Egypt"
+    },
+    {
+      "id": "kfh-d838243e07c71d29",
+      "name": "MANSHEYA",
+      "address": "No. 6 Al-Manakhla Market Alley - Qism El-Manshia - Alexandria",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MANSHEYA+No.+6+Al-Manakhla+Market+Alley+-+Qism+El-Manshia+-+Alexandria++Egypt"
+    },
+    {
+      "id": "kfh-cf67ac0921601185",
+      "name": "TANTA",
+      "address": "1 El-Gheish St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+TANTA+1+El-Gheish+St.++Egypt"
+    },
+    {
+      "id": "kfh-af637fcf5148c754",
+      "name": "DAMIETTA",
+      "address": "122 Moderia St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+DAMIETTA+122+Moderia+St.++Egypt"
+    },
+    {
+      "id": "kfh-a718a31884091311",
+      "name": "MANSOURA",
+      "address": "195 El-Gomhoria St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MANSOURA+195+El-Gomhoria+St.++Egypt"
+    },
+    {
+      "id": "kfh-c0e700aecc85435a",
+      "name": "Portsaid-GOMHOREYA",
+      "address": "Makka Tower #4 Abd El-Salam Aref & El-Gomhoria St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Portsaid-GOMHOREYA+Makka+Tower+%234+Abd+El-Salam+Aref+%26+El-Gomhoria+St.++Egypt"
+    },
+    {
+      "id": "kfh-0e7d4473d400018e",
+      "name": "SUEZ",
+      "address": "Crossing Al-Aqsour St., & El-Gesh St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+SUEZ+Crossing+Al-Aqsour+St.%2C+%26+El-Gesh+St.++Egypt"
+    },
+    {
+      "id": "kfh-09df8bccea432d94",
+      "name": "NEAMA BAY",
+      "address": "8 Chris Village",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+NEAMA+BAY+8+Chris+Village++Egypt"
+    },
+    {
+      "id": "kfh-6ae89f28b6676d33",
+      "name": "HURGHADA",
+      "address": "193 Villages Road, Yousef Afifi St., Beside Sindbad Village",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+HURGHADA+193+Villages+Road%2C+Yousef+Afifi+St.%2C+Beside+Sindbad+Village++Egypt"
+    },
+    {
+      "id": "kfh-5c396be33970878b",
+      "name": "MINIA",
+      "address": "21 Al-Gomhoria St.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+MINIA+21+Al-Gomhoria+St.++Egypt"
+    },
+    {
+      "id": "kfh-54c98a2d566f97c7",
+      "name": "NEW ZAMALEK",
+      "address": "No. 3 Mansour Mohamed Street - Zamalek - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+NEW+ZAMALEK+No.+3+Mansour+Mohamed+Street+-+Zamalek+-+Cairo++Egypt"
+    },
+    {
+      "id": "kfh-7130b67ad2d7fdfe",
+      "name": "Assuit",
+      "address": "No. 5 Al-Gomhoria Street - Sharq District - Second Division, Assiut - Assiut Governorate",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Assuit+No.+5+Al-Gomhoria+Street+-+Sharq+District+-+Second+Division%2C+Assiut+-+Assiut+Governorate++Egypt"
+    },
+    {
+      "id": "kfh-032e8143fcbd267d",
+      "name": "TEDA Branch",
+      "address": "The third sector, the economic zone in the northwestern Gulf of Suez",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+TEDA+Branch+The+third+sector%2C+the+economic+zone+in+the+northwestern+Gulf+of+Suez++Egypt"
+    },
+    {
+      "id": "kfh-fc6e3e1c84360899",
+      "name": "New DAMIETTA BRANCH",
+      "address": "West of Damietta Port, division of storage and services area - New Damietta",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+New+DAMIETTA+BRANCH+West+of+Damietta+Port%2C+division+of+storage+and+services+area+-+New+Damietta++Egypt"
+    },
+    {
+      "id": "kfh-05b622cbf6278cb2",
+      "name": "Sheben Elkom",
+      "address": "Gamal Abdel Nasser Street, in front of the Faculty of Engineering, Banks Mall, Shebin El-Kom City, Menoufia Governorate.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Sheben+Elkom+Gamal+Abdel+Nasser+Street%2C+in+front+of+the+Faculty+of+Engineering%2C+Banks+Mall%2C+Shebin+El-Kom+City%2C+Menoufia+Governorate.++Egypt"
+    },
+    {
+      "id": "kfh-54d63a7367dd1e89",
+      "name": "Nile City",
+      "address": "Unit No.13 A-Ground floor located in the commercial and administrative and Hotel of Nile city towers at 2005 G -Nile Corniche- Ramla Boulak-Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Nile+City+Unit+No.13+A-Ground+floor+located+in+the+commercial+and+administrative+and+Hotel+of+Nile+city+towers+at+2005+G+-Nile+Corniche-+Ramla+Boulak-Cairo++Egypt"
+    },
+    {
+      "id": "kfh-ce8ac39163ce0402",
+      "name": "Ahmed Oraby",
+      "address": "32 Ahmed Oraby St",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Ahmed+Oraby+32+Ahmed+Oraby+St++Egypt"
+    },
+    {
+      "id": "kfh-fe029154aa68c227",
+      "name": "Toshiba Al Araby Benisuief",
+      "address": "Toshiba Factory, Arab-Kom Abu Rady Industrial Zone, Central Center",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Toshiba+Al+Araby+Benisuief+Toshiba+Factory%2C+Arab-Kom+Abu+Rady+Industrial+Zone%2C+Central+Center++Egypt"
+    },
+    {
+      "id": "kfh-b59ec4970e294a5e",
+      "name": "Jaz Elite Asteria Hotel",
+      "address": "Jaz Elite Asteria Hotel-Shal Hasheesh- Hurghda",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Jaz+Elite+Asteria+Hotel+Jaz+Elite+Asteria+Hotel-Shal+Hasheesh-+Hurghda++Egypt"
+    },
+    {
+      "id": "kfh-e09e283177d706b6",
+      "name": "Oreint Makady",
+      "address": "Stella Makadi Hotel- Hurghda",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Oreint+Makady+Stella+Makadi+Hotel-+Hurghda++Egypt"
+    },
+    {
+      "id": "kfh-1e02226118631969",
+      "name": "Hilton Grand Nile branch",
+      "address": "16 Nile Kornish St, Garden city , Cairo, Third floor unit 303 & 304 in the",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+Hilton+Grand+Nile+branch+16+Nile+Kornish+St%2C+Garden+city+%2C+Cairo%2C+Third+floor+unit+303+%26+304+in+the++Egypt"
+    },
+    {
+      "id": "kfh-27f790174c0a5dbc",
+      "name": "E- Tour",
+      "address": "Xanadu Hotel 30 Km safaga hurghada road M59",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuwait+Finance+House+Egypt+E-+Tour+Xanadu+Hotel+30+Km+safaga+hurghada+road+M59++Egypt"
+    }
+  ],
+  "branches_status": "published",
+  "atms_status": "partial",
+  "source_urls": [
+    "https://www.eg.kfh.com/atm-branch-locator/",
+    "https://www.eg.kfh.com/en/"
+  ],
+  "branch_locator_url": "https://www.eg.kfh.com/atm-branch-locator/",
+  "atm_locator_url": "https://www.eg.kfh.com/atm-branch-locator/",
+  "hotline": "19072",
+  "contact_url": "https://www.eg.kfh.com/en/",
+  "reviewed_at": "2026-10-29",
+  "version": "8dfea75a049526c1"
+}

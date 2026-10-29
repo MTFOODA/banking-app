@@ -1,0 +1,167 @@
+Public source/resource changes for bank-aware entry, relative to 7dc7bf4 (2026-10-29)
+Status | File | Purpose
+
+MODIFIED | BANKING_APP_REPORT.md | Current behavior, commands and verification documentation
+ADDED | BANK_ENTRY_REPORT.md | Current behavior, commands and verification documentation
+MODIFIED | admin/README.txt | Current behavior, commands and verification documentation
+MODIFIED | admin/RUN_COMMANDS.txt | Current behavior, commands and verification documentation
+MODIFIED | backend/app/api/v1/auth.py | Existing API/security integration or public bank metadata
+MODIFIED | backend/app/api/v1/banks.py | Existing API/security integration or public bank metadata
+MODIFIED | backend/app/api/v1/products.py | Existing API/security integration or public bank metadata
+ADDED | backend/app/data/bank_directories.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | backend/app/data/bank_public_assets.json | Existing API/security integration or public bank metadata
+MODIFIED | backend/app/schemas/auth.py | Existing API/security integration or public bank metadata
+MODIFIED | backend/app/schemas/content.py | Existing API/security integration or public bank metadata
+MODIFIED | backend/app/services/announcement_admin.py | Bank-targeted public announcement editing and validation
+MODIFIED | backend/app/services/auth_service.py | Existing API/security integration or public bank metadata
+MODIFIED | backend/app/services/bank_catalogue_data.py | Existing API/security integration or public bank metadata
+ADDED | backend/app/services/bank_directory.py | Existing API/security integration or public bank metadata
+ADDED | backend/app/services/bank_public_identity.py | Existing API/security integration or public bank metadata
+MODIFIED | backend/app/services/content_service.py | Reuse existing public notices with bank audiences
+ADDED | backend/tests/test_bank_entry_directory.py | Regression coverage or real emulator registration workflow
+ADDED | frontend/faisal_app/assets/banks/aaib.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/abc.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/abk.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/adcb.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/adib.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/agricultural.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/aib.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/albaraka.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/alexbank.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/arab_bank.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/attijariwafa.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/bank_nxt.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/banque_caire.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/banque_misr.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/cib.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/citi.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/credit_agricole.svg | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/ealbank.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/ebank.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/egbank.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/emirates_nbd.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/fab.svg | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/faisal.svg | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/hdb.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/hsbc.svg | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/idb.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/kfh.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/mashreq.svg | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/midbank.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/nbe.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/nbk.svg | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/onebank.svg | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/qnb.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/saib.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/standard_chartered.svg | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/suez_canal.png | Reviewed official bank artwork, bundled for offline use
+ADDED | frontend/faisal_app/assets/banks/united_bank.png | Reviewed official bank artwork, bundled for offline use
+MODIFIED | frontend/faisal_app/assets/data/bank_catalogue.json | Existing Flutter identity, UI integration or required SVG asset dependency
+ADDED | frontend/faisal_app/assets/data/bank_directories/aaib.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/abc.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/abk.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/adcb.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/adib.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/agricultural.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/aib.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/albaraka.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/alexbank.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/arab_bank.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/attijariwafa.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/bank_nxt.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/banque_caire.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/banque_misr.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/cib.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/citi.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/credit_agricole.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/ealbank.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/ebank.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/egbank.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/emirates_nbd.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/fab.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/faisal.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/hdb.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/hsbc.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/idb.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/kfh.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/mashreq.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/midbank.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/nbe.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/nbk.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/onebank.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/qnb.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/saib.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/standard_chartered.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/suez_canal.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/assets/data/bank_directories/united_bank.json | Reviewed bank-specific branch/ATM/contact snapshot
+ADDED | frontend/faisal_app/integration_test/bank_entry_registration_test.dart | Regression coverage or real emulator registration workflow
+MODIFIED | frontend/faisal_app/integration_test/branding_emulator_test.dart | Regression coverage or real emulator registration workflow
+MODIFIED | frontend/faisal_app/integration_test/security_flow_test.dart | Regression coverage or real emulator registration workflow
+MODIFIED | frontend/faisal_app/lib/app.dart | Existing app composition, identity and version integration
+MODIFIED | frontend/faisal_app/lib/core/config/app_config.dart | Existing app composition, identity and version integration
+MODIFIED | frontend/faisal_app/lib/core/config/banking_identity.dart | Existing app composition, identity and version integration
+MODIFIED | frontend/faisal_app/lib/core/di/injector.dart | Existing app composition, identity and version integration
+MODIFIED | frontend/faisal_app/lib/core/routing/app_router.dart | Bank selection entry guard and preserved authenticated routing
+MODIFIED | frontend/faisal_app/lib/core/routing/app_routes.dart | Bank selection entry guard and preserved authenticated routing
+MODIFIED | frontend/faisal_app/lib/core/routing/route_guard.dart | Bank selection entry guard and preserved authenticated routing
+MODIFIED | frontend/faisal_app/lib/core/utils/password_policy.dart | Existing Flutter identity, UI integration or required SVG asset dependency
+MODIFIED | frontend/faisal_app/lib/core/widgets/faisal_logo.dart | Existing Flutter identity, UI integration or required SVG asset dependency
+MODIFIED | frontend/faisal_app/lib/features/admin/data/repositories/admin_content_api.dart | Bank-targeted public announcement editing and validation
+MODIFIED | frontend/faisal_app/lib/features/admin/presentation/pages/admin_announcement_form.dart | Bank-targeted public announcement editing and validation
+MODIFIED | frontend/faisal_app/lib/features/authentication/data/datasources/auth_remote_data_source.dart | Username-only login and selected-bank card registration
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/pages/login_form_card.dart | Username-only login and selected-bank card registration
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/pages/login_page.dart | Username-only login and selected-bank card registration
+MODIFIED | frontend/faisal_app/lib/features/authentication/presentation/pages/registration_page.dart | Username-only login and selected-bank card registration
+MODIFIED | frontend/faisal_app/lib/features/banks/domain/entities/bank_catalogue.g.dart | Bank metadata, official logos, selection state and onboarding
+MODIFIED | frontend/faisal_app/lib/features/banks/domain/entities/bank_definition.dart | Bank metadata, official logos, selection state and onboarding
+MODIFIED | frontend/faisal_app/lib/features/banks/presentation/bank_catalogue_cubit.dart | Bank metadata, official logos, selection state and onboarding
+ADDED | frontend/faisal_app/lib/features/banks/presentation/bank_logo.dart | Bank metadata, official logos, selection state and onboarding
+ADDED | frontend/faisal_app/lib/features/banks/presentation/bank_onboarding_page.dart | Bank metadata, official logos, selection state and onboarding
+ADDED | frontend/faisal_app/lib/features/banks/presentation/bank_selection_cubit.dart | Bank metadata, official logos, selection state and onboarding
+MODIFIED | frontend/faisal_app/lib/features/banks/presentation/bank_selector.dart | Bank metadata, official logos, selection state and onboarding
+MODIFIED | frontend/faisal_app/lib/features/branding/presentation/pages/admin_branding_page.dart | Bank identity and appearance scope across public/customer screens
+MODIFIED | frontend/faisal_app/lib/features/branding/presentation/widgets/branding_preview.dart | Bank identity and appearance scope across public/customer screens
+MODIFIED | frontend/faisal_app/lib/features/branding/presentation/widgets/customer_appearance.dart | Bank identity and appearance scope across public/customer screens
+MODIFIED | frontend/faisal_app/lib/features/home/presentation/widgets/home_header.dart | Existing Flutter identity, UI integration or required SVG asset dependency
+MODIFIED | frontend/faisal_app/lib/features/products/data/repositories/discover_repository_impl.dart | Reuse existing public notices with bank audiences
+MODIFIED | frontend/faisal_app/lib/features/products/domain/entities/discover_entities.dart | Reuse existing public notices with bank audiences
+MODIFIED | frontend/faisal_app/lib/features/products/domain/repositories/discover_repository.dart | Reuse existing public notices with bank audiences
+MODIFIED | frontend/faisal_app/lib/features/products/presentation/cubit/announcement_reader_cubit.dart | Reuse existing public notices with bank audiences
+MODIFIED | frontend/faisal_app/lib/features/products/presentation/pages/bank_notices_page.dart | Reuse existing public notices with bank audiences
+ADDED | frontend/faisal_app/lib/features/products/presentation/widgets/public_announcements_panel.dart | Reuse existing public notices with bank audiences
+MODIFIED | frontend/faisal_app/lib/features/products/presentation/widgets/public_service_cards.dart | Reuse existing public notices with bank audiences
+MODIFIED | frontend/faisal_app/lib/features/support/data/repositories/bank_directory_repository_impl.dart | Bank-specific public directories, maps, contacts and cached repository/controller
+ADDED | frontend/faisal_app/lib/features/support/domain/entities/bank_directory.dart | Bank-specific public directories, maps, contacts and cached repository/controller
+MODIFIED | frontend/faisal_app/lib/features/support/domain/repositories/bank_directory_repository.dart | Bank-specific public directories, maps, contacts and cached repository/controller
+MODIFIED | frontend/faisal_app/lib/features/support/presentation/cubit/branch_directory_cubit.dart | Bank-specific public directories, maps, contacts and cached repository/controller
+MODIFIED | frontend/faisal_app/lib/features/support/presentation/pages/bank_services_gate.dart | Bank-specific public directories, maps, contacts and cached repository/controller
+MODIFIED | frontend/faisal_app/lib/features/support/presentation/pages/branch_directory_page.dart | Bank-specific public directories, maps, contacts and cached repository/controller
+MODIFIED | frontend/faisal_app/lib/features/support/presentation/pages/public_bank_services_page.dart | Bank-specific public directories, maps, contacts and cached repository/controller
+MODIFIED | frontend/faisal_app/lib/l10n/app_ar.arb | English/Arabic entry, identity and directory labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_en.arb | English/Arabic entry, identity and directory labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_localizations.dart | English/Arabic entry, identity and directory labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_localizations_ar.dart | English/Arabic entry, identity and directory labels
+MODIFIED | frontend/faisal_app/lib/l10n/app_localizations_en.dart | English/Arabic entry, identity and directory labels
+MODIFIED | frontend/faisal_app/pubspec.lock | Existing Flutter identity, UI integration or required SVG asset dependency
+MODIFIED | frontend/faisal_app/pubspec.yaml | Existing Flutter identity, UI integration or required SVG asset dependency
+MODIFIED | frontend/faisal_app/test/admin_workflow_test.dart | Regression coverage or real emulator registration workflow
+MODIFIED | frontend/faisal_app/test/bank_appearance_test.dart | Regression coverage or real emulator registration workflow
+ADDED | frontend/faisal_app/test/bank_entry_directory_test.dart | Regression coverage or real emulator registration workflow
+MODIFIED | frontend/faisal_app/test/branding_test.dart | Regression coverage or real emulator registration workflow
+MODIFIED | frontend/faisal_app/test/core_validation_test.dart | Regression coverage or real emulator registration workflow
+MODIFIED | frontend/faisal_app/test/dynamic_branding_test.dart | Regression coverage or real emulator registration workflow
+MODIFIED | frontend/faisal_app/test/public_bank_services_test.dart | Regression coverage or real emulator registration workflow
+MODIFIED | frontend/faisal_app/test/security_flows_test.dart | Regression coverage or real emulator registration workflow
+MODIFIED | frontend/faisal_app/test/startup_flow_test.dart | Regression coverage or real emulator registration workflow
+ADDED | screenshots/bank_entry/2026-10-29/01_intro.png | Actual emulator verification with fictional test data
+ADDED | screenshots/bank_entry/2026-10-29/02_bank_login.png | Actual emulator verification with fictional test data
+ADDED | screenshots/bank_entry/2026-10-29/03_create_username.png | Actual emulator verification with fictional test data
+ADDED | screenshots/bank_entry/2026-10-29/04_registered_home.png | Actual emulator verification with fictional test data
+ADDED | screenshots/bank_entry/2026-10-29/05_misr_branches.png | Actual emulator verification with fictional test data
+ADDED | screenshots/bank_entry/2026-10-29/06_arabic_bank_home.png | Actual emulator verification with fictional test data
+ADDED | screenshots/bank_entry/2026-10-29/07_normal_app_running.png | Actual emulator verification with fictional test data
+ADDED | scripts/build_bank_directories.py | Reviewed asset/directory generation or private QA runner
+MODIFIED | scripts/run_branding_emulator.py | Reviewed asset/directory generation or private QA runner
+ADDED | scripts/sync_bank_public_assets.py | Reviewed asset/directory generation or private QA runner
+ADDED | BANK_ENTRY_CHANGED_FILES.txt | Current behavior, commands and verification documentation
+ADDED | .gitattributes | Preserve reviewed SVG bytes across operating systems for integrity verification

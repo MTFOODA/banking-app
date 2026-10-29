@@ -1,3 +1,5 @@
+> The newer BANK_ENTRY_REPORT.md supersedes the in-app wordmark, entry flow and public bank services described below. Native branding and earlier verification remain historical records.
+
 # Banking App: fixed identity and bank-scoped appearance
 
 Implementation date: 2026-10-28. This supersedes the name/logo/free-color controls

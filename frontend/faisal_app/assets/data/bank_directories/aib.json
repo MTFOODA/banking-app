@@ -1,0 +1,199 @@
+{
+  "bank_code": "aib",
+  "branches": [
+    {
+      "id": "aib-39ca7c65b496ffae",
+      "name": "المركز الرئيسى",
+      "address": "35 شارع عبد الخالق ثروت",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0504440%2C31.2430370"
+    },
+    {
+      "id": "aib-4f6660cc61108365",
+      "name": "الفرع الرئيسي - عبد الخالق ثروت (مجهز لخدمة ذوي الهمم)",
+      "address": "35 شارع عبد الخالق ثروت",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0504440%2C31.2430370"
+    },
+    {
+      "id": "aib-2a49816f809d4755",
+      "name": "التحرير",
+      "address": "5 شارع ويصا واصف - برج الرياض",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0277200%2C31.2177480"
+    },
+    {
+      "id": "aib-6e9cf939f6391011",
+      "name": "أمريكانا بلازا – الشيخ زايد",
+      "address": "أمريكانا بلازا – الشيخ زايد",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0280529%2C31.0132000"
+    },
+    {
+      "id": "aib-3ae9fd053b7e6965",
+      "name": "جزيرة العرب – المهندسين",
+      "address": "60 ش محمد حسن حلمى( جزيرة العرب ) - المهندسين",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0557974%2C31.2005462"
+    },
+    {
+      "id": "aib-2bac57a3c71e50ab",
+      "name": "الميرغني – مصر الجديدة ( مجهز لخدمة ذوي الهمم)",
+      "address": "95 أ شارع الميرغنى – عمارة برج الشمس – مصر الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0875714%2C31.3339036"
+    },
+    {
+      "id": "aib-5263417cd26820b3",
+      "name": "طيبة مول – مدينة نصر",
+      "address": "77 ب طريق النصر - مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0676270%2C31.3315570"
+    },
+    {
+      "id": "aib-ccc50ae66d32b5c8",
+      "name": "أبو داوود الظاهري – مدينة نصر",
+      "address": "21 أبو داوود الظاهري، مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0602580%2C31.3484750"
+    },
+    {
+      "id": "aib-8d01acfd822c0671",
+      "name": "المعادي",
+      "address": "2 شارع عمرو متفرع من شارع النصر – أمام مكتبة الأسره والطفل – المعادى",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9732390%2C31.2719910"
+    },
+    {
+      "id": "aib-e36e2401c5b17856",
+      "name": "طريق الحرية – الأسكندرية",
+      "address": "2 طريق الحرية",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1987590%2C29.9076590"
+    },
+    {
+      "id": "aib-ad78c0b077370d9f",
+      "name": "كفر عبده - الأسكندرية",
+      "address": "26 شارع الاسماعيلية، كفر عبده",
+      "governorate": "الأسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2243889%2C29.9489004"
+    },
+    {
+      "id": "aib-353b0918f7408656",
+      "name": "سموحه - الأسكندرية",
+      "address": "9 شارع فوزي معاذ ، كونتيننتال تاور ، سموحة",
+      "governorate": "الأسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2098827%2C29.9342661"
+    },
+    {
+      "id": "aib-84f32e1f5ae04b80",
+      "name": "شرم الشيخ",
+      "address": "فندق ريكسوس سي جيت – خليج نبق",
+      "governorate": "شرم الشيخ",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0382767%2C34.4282770"
+    },
+    {
+      "id": "aib-254619f9303c5b29",
+      "name": "بور سعيد",
+      "address": "شارعى 23 يوليه و صلاح الدين",
+      "governorate": "بورسعيد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2707150%2C32.3102540"
+    },
+    {
+      "id": "aib-776a5e1a72133da7",
+      "name": "جامعة 6 أكتوبر",
+      "address": "مدينة 6 أكتوبر - المحور المركزي - جامعة 6 اكتوبر- قطعة 1/1 - المبنى التجاري - الدور الثاني",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9772152%2C30.9459138"
+    },
+    {
+      "id": "aib-dc66c540dc6e33fa",
+      "name": "محمد مظهر – الزمالك",
+      "address": "55 شارع محمد مظهر – الزمالك",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0720499%2C31.2196239"
+    },
+    {
+      "id": "aib-f074e53926af218d",
+      "name": "عمار بن ياسر – مصر الجديدة",
+      "address": "2 شارع مصطفى مختار المتفرع من شارع عمار بن ياسر – مصر الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1133758%2C31.3547888"
+    },
+    {
+      "id": "aib-0976e53ccf4ab6b3",
+      "name": "ستيلا – التجمع الأول",
+      "address": "كمبوند ستيلا، التجمع الأول، 9 محور محمد نجيب، بجوار ووتر واي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0465279%2C31.4732351"
+    },
+    {
+      "id": "aib-964ad53fbf87f162",
+      "name": "داون تاون – التجمع الخامس",
+      "address": "مبنى S4 - مول داون تاون - التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0174318%2C31.4102318"
+    },
+    {
+      "id": "aib-c54af81cd1823da9",
+      "name": "المنصورة",
+      "address": "205 شارع الجمهورية، برج نايل فيو، المنصورة",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0479720%2C31.3858200"
+    },
+    {
+      "id": "aib-a1f3125e843f2179",
+      "name": "سوديك – الشيخ زايد",
+      "address": "العنوان : كمبوند سوديك – مول The Strip (8H) – الشيخ زايد",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0565031%2C30.9419025"
+    },
+    {
+      "id": "aib-b6d9c17fd08d4c8b",
+      "name": "البطل أحمد عبد العزيز – المهندسين (مجهز لخدمة ذوي الهمم)",
+      "address": "14 شارع البطل أحمد عبد العزيز- المهندسين",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0517897%2C31.2081350"
+    },
+    {
+      "id": "aib-826f88789a39323f",
+      "name": "كونكورديا بلازا – الشيخ زايد (مجهز لخدمة ذوي الهمم)",
+      "address": "الوحدة رقم 8، 9 بالدورالأرضي بالمبنى الإداري – مول كونكورديا بلازا – الشيخ زايد – السادس من أكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0033300%2C31.0318530"
+    },
+    {
+      "id": "aib-ce4a4ee9e89971f9",
+      "name": "ارابيلا – التجمع الخامس (مجهز لخدمة ذوي الهمم)",
+      "address": "الوحدة رقم B7 بدور البدروم الرابع التجاري والوحدة رقم B7 بدور ميزانين البنوك بالبدروم الرابع بالمبنى الإداري – مول أرابيلا – التجمع الخامس – القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9909930%2C31.4321590"
+    },
+    {
+      "id": "aib-342b2425a8582c13",
+      "name": "الجونة (مجهز لخدمة ذوي الهمم)",
+      "address": "قطعة رقم 38 – منطقة بيزنس بارك - منتجع الجونة",
+      "governorate": "البحر الأحمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Arab+International+Bank+%D8%A7%D9%84%D8%AC%D9%88%D9%86%D8%A9+%28%D9%85%D8%AC%D9%87%D8%B2+%D9%84%D8%AE%D8%AF%D9%85%D8%A9+%D8%B0%D9%88%D9%8A+%D8%A7%D9%84%D9%87%D9%85%D9%85%29+%D9%82%D8%B7%D8%B9%D8%A9+%D8%B1%D9%82%D9%85+38+%E2%80%93+%D9%85%D9%86%D8%B7%D9%82%D8%A9+%D8%A8%D9%8A%D8%B2%D9%86%D8%B3+%D8%A8%D8%A7%D8%B1%D9%83+-+%D9%85%D9%86%D8%AA%D8%AC%D8%B9+%D8%A7%D9%84%D8%AC%D9%88%D9%86%D8%A9+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1+%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1+Egypt"
+    },
+    {
+      "id": "aib-748a708f0f3ed873",
+      "name": "انطونيادس – الإسكندرية (مجهز لخدمة ذوي الهمم)",
+      "address": "مجمع البنوك بحدائق انطونيادس",
+      "governorate": "الإسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Arab+International+Bank+%D8%A7%D9%86%D8%B7%D9%88%D9%86%D9%8A%D8%A7%D8%AF%D8%B3+%E2%80%93+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%28%D9%85%D8%AC%D9%87%D8%B2+%D9%84%D8%AE%D8%AF%D9%85%D8%A9+%D8%B0%D9%88%D9%8A+%D8%A7%D9%84%D9%87%D9%85%D9%85%29+%D9%85%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83+%D8%A8%D8%AD%D8%AF%D8%A7%D8%A6%D9%82+%D8%A7%D9%86%D8%B7%D9%88%D9%86%D9%8A%D8%A7%D8%AF%D8%B3+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    }
+  ],
+  "atms": [],
+  "branches_status": "published",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://www.aib.com.eg/src/json/arbranches.json"
+  ],
+  "branch_locator_url": "https://www.aib.com.eg/find-us",
+  "atm_locator_url": "https://www.aib.com.eg/find-us",
+  "hotline": null,
+  "contact_url": "https://www.aib.com.eg/",
+  "reviewed_at": "2026-10-29",
+  "version": "b469a3e5d8ea66ad"
+}

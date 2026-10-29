@@ -1,0 +1,16 @@
+{
+  "bank_code": "cib",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://www.cibeg.com/ar/contact-us"
+  ],
+  "branch_locator_url": "https://www.cibeg.com/en/branch-and-atm-finder",
+  "atm_locator_url": "https://www.cibeg.com/en/branch-and-atm-finder",
+  "hotline": "19666",
+  "contact_url": "https://www.cibeg.com/en",
+  "reviewed_at": "2026-10-29",
+  "version": "7ecbd46dc7fea637"
+}

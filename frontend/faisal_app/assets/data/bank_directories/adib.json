@@ -1,0 +1,796 @@
+{
+  "bank_code": "adib",
+  "branches": [
+    {
+      "id": "adib-d9742808ca082ba4",
+      "name": "Nasr City",
+      "address": "106 Makram Ebeid St - Nasr City - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0676180%2C31.3438850"
+    },
+    {
+      "id": "adib-95a321b478928371",
+      "name": "Azhar",
+      "address": "13 El Zafer St - Azhar - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0463080%2C31.2674360"
+    },
+    {
+      "id": "adib-20c3e610b0daa20b",
+      "name": "Borsa",
+      "address": "5 A El Borsa El Gedida St- El Borsa - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0491500%2C31.2402330"
+    },
+    {
+      "id": "adib-8aed295fce7740f9",
+      "name": "Garden City",
+      "address": "9 Rostom St- Garden City - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0397350%2C31.2329040"
+    },
+    {
+      "id": "adib-8004f43630f00ede",
+      "name": "Heliopolis - El Andalous",
+      "address": "29 El Andalous St - Heliopolis - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0999780%2C31.3182530"
+    },
+    {
+      "id": "adib-fe5d8ea2522d4a3e",
+      "name": "Heliopolis - Merry Land",
+      "address": "El Hegaz St Roxy Sq - Heliopolis - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0946450%2C31.3158530"
+    },
+    {
+      "id": "adib-dc49f729abd0eff4",
+      "name": "Helwan",
+      "address": "3A Qibly Street Infront of Cabritage & 6th of October Garden Helwan",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8453860%2C31.3355340"
+    },
+    {
+      "id": "adib-536e4776488887a9",
+      "name": "Maadi",
+      "address": "Intersection of 257 St with 274 St- Next to Grand Mall - Maadi - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9685860%2C31.2715780"
+    },
+    {
+      "id": "adib-9dee23e58802c831",
+      "name": "Manial",
+      "address": "83 A Abd El Aziz Al Seoud - Manial - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0224700%2C31.2231930"
+    },
+    {
+      "id": "adib-eeef9e1258fe9025",
+      "name": "Opera",
+      "address": "Cairo Governorate Administrative Bldg - El Opera - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0506920%2C31.2475180"
+    },
+    {
+      "id": "adib-abe73b1c90b61394",
+      "name": "Sawah",
+      "address": "37 A Saudi Arabia CoBldg - Sawah - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1043710%2C31.2948870"
+    },
+    {
+      "id": "adib-537b1e6586294f60",
+      "name": "Zamalek",
+      "address": "14 El Saleh Ayoub St - Zamalek - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0606970%2C31.2192440"
+    },
+    {
+      "id": "adib-46617ea8b174f18b",
+      "name": "Golf City Mall",
+      "address": "Golf City Mall - El Obour City",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1759810%2C31.4761880"
+    },
+    {
+      "id": "adib-e74725699fe0290e",
+      "name": "Cairo Festival City",
+      "address": "Cairo Festival City, 5th settlement, administration building, B2",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0166280%2C31.4078780"
+    },
+    {
+      "id": "adib-7f8fc2b909f75152",
+      "name": "El Shams Club",
+      "address": "27 Abdel Hameed Badawy st, infront of El Shams Club Heliopolis Cairo, Cairo Governorate",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1165770%2C31.3468070"
+    },
+    {
+      "id": "adib-f48ba35b104b6042",
+      "name": "Maadi - Street 9",
+      "address": "92, Street 9 - Maadi - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9593250%2C31.2590210"
+    },
+    {
+      "id": "adib-547c5be1a0a8d4d8",
+      "name": "Nasr City - Moustafa El Nahas",
+      "address": "40 Amin Street, Moustafa El Nahas Extension - Nasr City",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0536340%2C31.3347590"
+    },
+    {
+      "id": "adib-24c3996d62cb7905",
+      "name": "Emad Al Din",
+      "address": "18 Emad Al Din St Downtown",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0564100%2C31.2445400"
+    },
+    {
+      "id": "adib-378c45908fd33000",
+      "name": "New Cairo Branch",
+      "address": "Plot No 155 next to the future university -sector 4 - south tenseem street - fifth assembly - new cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0261553%2C31.4950939"
+    },
+    {
+      "id": "adib-1c0f738b35ab5f0c",
+      "name": "El Thowra",
+      "address": "105 El Thawra Street , Ard El Goulf , Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0831706%2C31.3419540"
+    },
+    {
+      "id": "adib-ca161c64f3554e42",
+      "name": "Heliopolis-Sheraton",
+      "address": "Building No 7 Square 1156 Intersection of Al Moushir Ahmed Ismail with Mmar Al Khattab in front of Sheraton Helioplis School",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0994670%2C31.3718740"
+    },
+    {
+      "id": "adib-838f1d02314b4832",
+      "name": "El Obour Buildings",
+      "address": "12 Salah Salem RD, El Obour Buildings",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0777785%2C31.3112990"
+    },
+    {
+      "id": "adib-88ec136ae0de530a",
+      "name": "Korba",
+      "address": "8 Baghdad street , El Korba , Heliopolise",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0898720%2C31.3219120"
+    },
+    {
+      "id": "adib-0986c0af0becca0a",
+      "name": "Shoubra",
+      "address": "305 Shoubra street , El Khalafawy, Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1017850%2C31.2454638"
+    },
+    {
+      "id": "adib-3be15d9516fd566d",
+      "name": "Arabella",
+      "address": "Arabilla Plaza Mall - Gamal Abd El Naser Square fifth settlement , New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9920159%2C31.4305675"
+    },
+    {
+      "id": "adib-fdf82d93ab6c8168",
+      "name": "Al Rehab",
+      "address": "The Yard commercial center Gate No (6) Al Rehab City - New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0540714%2C31.4904910"
+    },
+    {
+      "id": "adib-cf236de240cb927b",
+      "name": "Shobra El Khema",
+      "address": "Abd El-Maksoud Building # 64 - 15May Street - Beside Crystal Asfour",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1227779%2C31.2553555"
+    },
+    {
+      "id": "adib-5a9abcfed9216cbd",
+      "name": "Madintey Gate 2",
+      "address": "Madinty – open air mall - unit AA01 - building A Cairo Governorate.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1079670%2C31.6241260"
+    },
+    {
+      "id": "adib-4c94048733d3b605",
+      "name": "Mokattam",
+      "address": "Plot No. 1179, Block 10, Area H - Sheikhdom of Mokattam - Khalifa District - Cairo .",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0126092%2C31.2892915"
+    },
+    {
+      "id": "adib-6c088642e6b2b127",
+      "name": "Zahraa ELMaadi",
+      "address": "Grand Plaza Project - 10th District - Me'raj City - Zahraa El Maadi located next to : Hub fifty mall",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9716230%2C31.3150540"
+    },
+    {
+      "id": "adib-61c842986ce49c4d",
+      "name": "Adly ST",
+      "address": "6 Adly Street Downtown Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0514420%2C31.2465857"
+    }
+  ],
+  "atms": [
+    {
+      "id": "adib-82cfc33a19370e20",
+      "name": "Nasr City",
+      "address": "106 Makram Ebeid St - Nasr City - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0676180%2C31.3438850"
+    },
+    {
+      "id": "adib-fbbf77dd4db3e6d7",
+      "name": "Azhar",
+      "address": "13 El Zafer St - Azhar - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0463080%2C31.2674360"
+    },
+    {
+      "id": "adib-37024717b319fe65",
+      "name": "Borsa",
+      "address": "5 A El Borsa El Gedida St- El Borsa - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0491500%2C31.2402330"
+    },
+    {
+      "id": "adib-d747eecef365dc26",
+      "name": "Garden City",
+      "address": "9 Rostom St- Garden City - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0397350%2C31.2329040"
+    },
+    {
+      "id": "adib-d711bbf7f8bb5a8c",
+      "name": "Heliopolis - El Andalous",
+      "address": "29 El Andalous St - Heliopolis - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0999780%2C31.3182530"
+    },
+    {
+      "id": "adib-5e887a589b94c020",
+      "name": "Heliopolis - Merry Land",
+      "address": "El Hegaz St Roxy Sq - Heliopolis - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0946450%2C31.3158530"
+    },
+    {
+      "id": "adib-d590b16897844a20",
+      "name": "Helwan",
+      "address": "3A Qibly Street Infront of Cabritage & 6th of October Garden Helwan",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8453860%2C31.3355340"
+    },
+    {
+      "id": "adib-73f4ea46ac68b2db",
+      "name": "Maadi",
+      "address": "Intersection of 257 St with 274 St- Next to Grand Mall - Maadi - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9685860%2C31.2715780"
+    },
+    {
+      "id": "adib-3d911364f2feeaad",
+      "name": "Manial",
+      "address": "83 A Abd El Aziz Al Seoud - Manial - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0224700%2C31.2231930"
+    },
+    {
+      "id": "adib-479021576ae03e99",
+      "name": "Opera",
+      "address": "Cairo Governorate Administrative Bldg - El Opera - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0506920%2C31.2475180"
+    },
+    {
+      "id": "adib-a8213ae6263c5013",
+      "name": "Sawah",
+      "address": "37 A Saudi Arabia CoBldg - Sawah - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1043710%2C31.2948870"
+    },
+    {
+      "id": "adib-9c21f7a3c23bd616",
+      "name": "Zamalek",
+      "address": "14 El Saleh Ayoub St - Zamalek - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0606970%2C31.2192440"
+    },
+    {
+      "id": "adib-57791bb0740a2f8d",
+      "name": "Golf City Mall",
+      "address": "Golf City Mall - El Obour City",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1759810%2C31.4761880"
+    },
+    {
+      "id": "adib-7b3b8c6f3782ff36",
+      "name": "Cairo Festival City",
+      "address": "Cairo Festival City, 5th settlement, administration building, B2",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0166280%2C31.4078780"
+    },
+    {
+      "id": "adib-bf194a9ebb6b618b",
+      "name": "El Shams Club",
+      "address": "27 Abdel Hameed Badawy st, infront of El Shams Club Heliopolis Cairo, Cairo Governorate",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1165770%2C31.3468070"
+    },
+    {
+      "id": "adib-a3f84a8bdd4f1e9d",
+      "name": "Maadi - Street 9",
+      "address": "92, Street 9 - Maadi - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9593250%2C31.2590210"
+    },
+    {
+      "id": "adib-2607ca52ef50210a",
+      "name": "Nasr City - Moustafa El Nahas",
+      "address": "40 Amin Street, Moustafa El Nahas Extension - Nasr City",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0536340%2C31.3347590"
+    },
+    {
+      "id": "adib-a7a59e500c7e0a2d",
+      "name": "Emad Al Din",
+      "address": "18 Emad Al Din St Downtown",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0564100%2C31.2445400"
+    },
+    {
+      "id": "adib-17192d881c64e8c0",
+      "name": "New Cairo Branch",
+      "address": "Plot No 155 next to the future university -sector 4 - south tenseem street - fifth assembly - new cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0261553%2C31.4950939"
+    },
+    {
+      "id": "adib-a34404da861319c3",
+      "name": "El Thowra",
+      "address": "105 El Thawra Street , Ard El Goulf , Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0831706%2C31.3419540"
+    },
+    {
+      "id": "adib-f3b0846473f6f111",
+      "name": "Heliopolis-Sheraton",
+      "address": "Building No 7 Square 1156 Intersection of Al Moushir Ahmed Ismail with Mmar Al Khattab in front of Sheraton Helioplis School",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0994670%2C31.3718740"
+    },
+    {
+      "id": "adib-29f7a6ac0234e0dc",
+      "name": "El Obour Buildings",
+      "address": "12 Salah Salem RD, El Obour Buildings",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0777785%2C31.3112990"
+    },
+    {
+      "id": "adib-2f1c971a1004217a",
+      "name": "Korba",
+      "address": "8 Baghdad street , El Korba , Heliopolise",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0898720%2C31.3219120"
+    },
+    {
+      "id": "adib-f9114f3c01a7ae0d",
+      "name": "Shoubra",
+      "address": "305 Shoubra street , El Khalafawy, Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1017850%2C31.2454638"
+    },
+    {
+      "id": "adib-e1c2f6424df248aa",
+      "name": "Arabella",
+      "address": "Arabilla Plaza Mall - Gamal Abd El Naser Square fifth settlement , New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9920159%2C31.4305675"
+    },
+    {
+      "id": "adib-beb740356673e898",
+      "name": "Al Rehab",
+      "address": "The Yard commercial center Gate No (6) Al Rehab City - New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0540714%2C31.4904910"
+    },
+    {
+      "id": "adib-4718fc598cce0fbc",
+      "name": "Shobra El Khema",
+      "address": "Abd El-Maksoud Building # 64 - 15May Street - Beside Crystal Asfour",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1227779%2C31.2553555"
+    },
+    {
+      "id": "adib-33bf085b5daa8108",
+      "name": "Get Way Plaza Mall - Al-Turjuman",
+      "address": "Al-Torgoman Mall - Al-Galaa St - Ramses",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0586211%2C31.2388017"
+    },
+    {
+      "id": "adib-ff21ee390bb44adc",
+      "name": "Sky Mall - Shorouk",
+      "address": "El Shorouk City - Plot No 8 - Entertainment District - Ninth District - Entrance 1 - Ismailia Road",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1732517%2C31.5938069"
+    },
+    {
+      "id": "adib-822d9e5bee8a04fb",
+      "name": "Cairo Complex Mall",
+      "address": "Plot No 1 bis - Square 1300 - Ankara Street - Masaken Sheraton - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1098186%2C31.3805643"
+    },
+    {
+      "id": "adib-7395fbb24a96033b",
+      "name": "Garden City building II",
+      "address": "Garden City building",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0397209%2C31.2330523"
+    },
+    {
+      "id": "adib-6e2212bdbe7ca0ff",
+      "name": "Fawry plus - Dreem Mall - ltajamue Alkhamis",
+      "address": "Shop No 21 Ground Floor - Plot 56-57-58 - Dreams Mall - Fifth Settlement",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0063207%2C31.4253494"
+    },
+    {
+      "id": "adib-1e2865ff3d6d708d",
+      "name": "Madintey Gate 2",
+      "address": "Madinty – open air mall - unit AA01 - building A Cairo Governorate.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1079670%2C31.6241260"
+    },
+    {
+      "id": "adib-41450798da13275d",
+      "name": "Mokattam",
+      "address": "Plot No. 1179, Block 10, Area H - Sheikhdom of Mokattam - Khalifa District - Cairo .",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0126092%2C31.2892915"
+    },
+    {
+      "id": "adib-43e82acf7892881a",
+      "name": "Zahraa ELMaadi",
+      "address": "Grand Plaza Project - 10th District - Me'raj City - Zahraa El Maadi located next to : Hub fifty mall",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9716230%2C31.3150540"
+    },
+    {
+      "id": "adib-ba24a33713e24a09",
+      "name": "Airport Terminal 2",
+      "address": "Cairo Airport Terminal 2 Arrivals",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1118330%2C31.4008873"
+    },
+    {
+      "id": "adib-4bdc721eecf5aa0f",
+      "name": "Airport Terminal 3",
+      "address": "Cairo Airport Terminal 3 Arrivals",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1125430%2C31.4001470"
+    },
+    {
+      "id": "adib-e4f2e46a5bda76c8",
+      "name": "Dice Factory",
+      "address": "Helwan El Balad El Harir Street Misr Helwan Textile Company Dice Factory",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8316040%2C31.3064670"
+    },
+    {
+      "id": "adib-b51844f921e25056",
+      "name": "T&C Company",
+      "address": "Obour Industrial Zone - Obour Road - Belbeis",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Abu+Dhabi+Islamic+Bank+Egypt+T%26C+Company+Obour+Industrial+Zone+-+Obour+Road+-+Belbeis++Egypt"
+    },
+    {
+      "id": "adib-a2d9cb8071eb2a25",
+      "name": "Mahallawy Market- Nasr City",
+      "address": "34 Africa Street, Plot 1 - Block 33 - District 9 - Mustafa El Nahhas Extension",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0572674%2C31.3720031"
+    },
+    {
+      "id": "adib-a3ba957ac87d3ab4",
+      "name": "Seoudi Market-Sherouq",
+      "address": "Chillout Complex - Frensh University Sq- 8 District - El Sherouk - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1502476%2C31.6046792"
+    },
+    {
+      "id": "adib-72bcb2734f0b21b2",
+      "name": "U Venues",
+      "address": "B Tourist Area - Fifth Settlement - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0076013%2C31.4032511"
+    },
+    {
+      "id": "adib-fb150729baea8477",
+      "name": "El rehab mall 2",
+      "address": "Phase - Rehab City - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0617337%2C31.4820515"
+    },
+    {
+      "id": "adib-d0ab7fea2d7708ba",
+      "name": "Craft Zone - Madinaty",
+      "address": "Main Entrance No. 3 - Madinaty next to Beit El-Gomla",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0813000%2C31.6739123"
+    },
+    {
+      "id": "adib-6cd820f3539b0299",
+      "name": "East Hub - Madinaty",
+      "address": "East Hub Madinaty - Unit G166 - In front of Craft Zone Block B5 - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0735231%2C31.6718900"
+    },
+    {
+      "id": "adib-53f120ba11d1a560",
+      "name": "Dar Al Fouad Hospital - Nasr City",
+      "address": "Nasr City - Intersection of Nasr Road and Youssef Abbas Street",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0660736%2C31.3195366"
+    },
+    {
+      "id": "adib-f800e3de5c9bba73",
+      "name": "WE Shobra",
+      "address": "Egyptian Telecommunications - 101 Denshaway Street- Shubra",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0834319%2C31.2451365"
+    },
+    {
+      "id": "adib-5523852749d1ce74",
+      "name": "WE Masr El Gdida",
+      "address": "Egyptian Telecommunications - Jash Suez - Heliopolis - Heliopolis",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1046217%2C31.3213527"
+    },
+    {
+      "id": "adib-7f3fbcaf148ff1b8",
+      "name": "Soudy Market - Hyde park",
+      "address": "Saudi Market Branch - Hyde Park Compound-New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9942804%2C31.5471700"
+    },
+    {
+      "id": "adib-6c090315ff88baff",
+      "name": "A1- El Fardos",
+      "address": "A1 El-Firdaus Gas Station - Abu Dawood El-Zaher Street Extension - Nasr City",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0615068%2C31.3623458"
+    },
+    {
+      "id": "adib-97b45e006957c4eb",
+      "name": "Mahallawy Market- EL Tagmo3",
+      "address": "Second District - 53rd Street - off Axis 77 - Fifth Settlement",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0104643%2C31.4376355"
+    },
+    {
+      "id": "adib-1f4fb52108da0fd1",
+      "name": "Ring Road Mall",
+      "address": "Ring Road - Katameya - Cairo - next to the Egyptian Shooting Club.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9825434%2C31.3358882"
+    },
+    {
+      "id": "adib-3e39e99cf0bd13d4",
+      "name": "Carrefour 10th of Ramadan",
+      "address": "Plot No. 44 - Mall C3 - Carrefour - 10th of Ramadan",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3183664%2C31.7409776"
+    },
+    {
+      "id": "adib-e021ca3472c93690",
+      "name": "Watanya - Moktam",
+      "address": "North of the Ring Road- in front of Carrefour - on the road leading to the central plateau",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9870632%2C31.3102342"
+    },
+    {
+      "id": "adib-77386472368cd98f",
+      "name": "Gardenia Citywalk",
+      "address": "Gardenia Compound - Gardenia City Walk Mall - Zahraa Nasr City",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0686771%2C31.3876806"
+    },
+    {
+      "id": "adib-7f8b1368ebca0819",
+      "name": "Rehab Sporting Club",
+      "address": "Abu Bakr Al-Siddiq Street - Al-Rehab Club - Al-Rehab City - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0646285%2C31.4973735"
+    },
+    {
+      "id": "adib-462b74c5fce4cec5",
+      "name": "Vodafone - Sherif Street",
+      "address": "Sherif Street- Downtown - next to the Central Bank",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0479968%2C31.2423687"
+    },
+    {
+      "id": "adib-13c5a698fcfbcea4",
+      "name": "B-Yard",
+      "address": "New Cairo - Banfsaj District",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0347703%2C31.4676116"
+    },
+    {
+      "id": "adib-8ebd8c625e0097a4",
+      "name": "Egypt International Exhibitions Center",
+      "address": "Field Marshal Tantawi Axis- Fifth Settlement- New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0146983%2C31.3839617"
+    },
+    {
+      "id": "adib-8aec25d36a0fc6ac",
+      "name": "District 5",
+      "address": "Ain Sokhna Road - Katameya - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9551505%2C31.4524394"
+    },
+    {
+      "id": "adib-e634415d0cf04a21",
+      "name": "Carrefour New Maadi",
+      "address": "Algeria Street - Maadi - Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9624821%2C31.2782840"
+    },
+    {
+      "id": "adib-9f047994c2baf395",
+      "name": "Carrefour City Center Maadi",
+      "address": "Carrefour City Center Maadi First Neighborhood - Maadi City of Al-Miraj",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9831437%2C31.3162741"
+    },
+    {
+      "id": "adib-f4cbf2ab1a0a8744",
+      "name": "Circle K triumph",
+      "address": "Shell Out Triumph petrol station inside Market Circle K - Fifth Settlement",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0061444%2C31.3999530"
+    },
+    {
+      "id": "adib-cc0aaed1e6a2176d",
+      "name": "Misr petroleum Station El Hegaz",
+      "address": "Misr Petroleum Fuel Station - Heliopolis - ATM Center - Heliopolis",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1059957%2C31.3218098"
+    },
+    {
+      "id": "adib-699a6b6c2ee5b5ff",
+      "name": "Nayomi Medical Center",
+      "address": "Nyoum Medical Center – New Cairo – Cairo Governorate",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0561529%2C31.4172903"
+    },
+    {
+      "id": "adib-2df5011c8863bb2c",
+      "name": "Lulu Market",
+      "address": "The commercial mall located in plot number 44B - next to the Fifth Settlement Court - Fifth Settlement.",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0057419%2C31.4285590"
+    },
+    {
+      "id": "adib-06dca5dd7fbbcdf8",
+      "name": "Orange - Degla",
+      "address": "Orange Branch – 11 Street 233 Degla – Maadi – Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9589625%2C31.2785037"
+    },
+    {
+      "id": "adib-ebfeebe75d6e4a17",
+      "name": "Orange - Elsayeda Zeinab",
+      "address": "Orange Branch – 214 Port Said Street- in front of Tawhid Wal Nour – Sayeda Zeinab – Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0360563%2C31.2476509"
+    },
+    {
+      "id": "adib-381abc70320992a9",
+      "name": "A1 Zahraa EL Maadi 2",
+      "address": "A1 Gas Station - Zahraa El Maadi - Next to 50 HUB Mall",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9656716%2C31.3070870"
+    },
+    {
+      "id": "adib-c99b8a5be805c1f9",
+      "name": "Open Air ATM Center",
+      "address": "Open Air Mall – Building F – ATM Center – Madinity",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1057818%2C31.6259182"
+    },
+    {
+      "id": "adib-f520835c2b37dd44",
+      "name": "EDNC Sodic",
+      "address": "Road 90 next to the American University – New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0160923%2C31.5136531"
+    },
+    {
+      "id": "adib-4a05690fb494ae68",
+      "name": "Almaza City Center",
+      "address": "Al Moltaka El Arabi District- Almaza City Center -C3-ATM Center- Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0808556%2C31.3662400"
+    },
+    {
+      "id": "adib-9e216b7b3e95569c",
+      "name": "Almaza park mall",
+      "address": "40 Samir Abdel Raouf Street- Extension of Makram Ebeid Street- Nasr City - in front of the Air Force Hospital",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0905136%2C31.3482784"
+    },
+    {
+      "id": "adib-af8653056883b454",
+      "name": "Maxim Mall new Cairo",
+      "address": "North 90th Street- Fifth Settlement- New Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0298234%2C31.4966507"
+    },
+    {
+      "id": "adib-2f1b58ac96368ec7",
+      "name": "Q-Market City Stars",
+      "address": "A1 Fuel Station- Omar Ibn Al-Khattab Street - next to City Stars - Nasr City",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0793810%2C31.3492347"
+    },
+    {
+      "id": "adib-4b803871dd3490c4",
+      "name": "Mall of Arabia",
+      "address": "Ground floor- next to Gate 22- Mall of Arabia - Tourist Area",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0028390%2C30.9728910"
+    },
+    {
+      "id": "adib-e18ffd20006601d0",
+      "name": "Kasr Elnile building",
+      "address": "106 - Kasr Al Aini st",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0404987%2C31.2104026"
+    },
+    {
+      "id": "adib-7d7c03424052262e",
+      "name": "Adly ST",
+      "address": "6 Adly Street Downtown Cairo",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0514420%2C31.2465857"
+    },
+    {
+      "id": "adib-81abf32f9203a1de",
+      "name": "We Nasr City",
+      "address": "Shop No. 2 Building 26 Africa Street Extension of Mustafa El Nahas Street Project 17 Building - Nasr City District",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0570984%2C31.3665855"
+    },
+    {
+      "id": "adib-6143d6582ba19907",
+      "name": "CFC Mall",
+      "address": "Centrepoint Cairo Festival Mall Gate 3",
+      "governorate": "",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0265358%2C31.4084082"
+    }
+  ],
+  "branches_status": "published",
+  "atms_status": "published",
+  "source_urls": [
+    "https://www.adib.eg/ATMsandBranches",
+    "https://www.adib.eg/"
+  ],
+  "branch_locator_url": "https://www.adib.eg/ATMsandBranches",
+  "atm_locator_url": "https://www.adib.eg/ATMsandBranches",
+  "hotline": "19951",
+  "contact_url": "https://www.adib.eg/",
+  "reviewed_at": "2026-10-29",
+  "version": "095c080874988f33"
+}

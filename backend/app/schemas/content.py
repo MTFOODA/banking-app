@@ -112,7 +112,7 @@ class AnnouncementCreate(BaseModel):
     cta_label_en: str | None = Field(default=None, max_length=80)
     cta_label_ar: str | None = Field(default=None, max_length=80)
     cta_route: str | None = Field(default=None, max_length=160)
-    audience_type: str = Field(default="all", pattern="^(all|customer_segment)$")
+    audience_type: str = Field(default="all", pattern="^(all|customer_segment|bank)$")
     audience_value: str | None = Field(default=None, max_length=80)
     status: str = Field(default="draft", pattern="^(draft|scheduled|published)$")
 
@@ -133,7 +133,7 @@ class AnnouncementUpdate(BaseModel):
     cta_label_en: str | None = Field(default=None, max_length=80)
     cta_label_ar: str | None = Field(default=None, max_length=80)
     cta_route: str | None = Field(default=None, max_length=160)
-    audience_type: str | None = Field(default=None, pattern="^(all|customer_segment)$")
+    audience_type: str | None = Field(default=None, pattern="^(all|customer_segment|bank)$")
     audience_value: str | None = Field(default=None, max_length=80)
     status: str | None = Field(default=None, pattern="^(draft|scheduled|published|archived)$")
 

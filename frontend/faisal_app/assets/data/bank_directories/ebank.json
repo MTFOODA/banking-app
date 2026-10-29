@@ -1,0 +1,16 @@
+{
+  "bank_code": "ebank",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://ebank.com.eg/"
+  ],
+  "branch_locator_url": "https://www.ebank.com.eg/",
+  "atm_locator_url": "https://www.ebank.com.eg/",
+  "hotline": "16710",
+  "contact_url": "https://www.ebank.com.eg/",
+  "reviewed_at": "2026-10-29",
+  "version": "db7e91de31913d7a"
+}

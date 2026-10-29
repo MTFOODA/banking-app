@@ -10,13 +10,13 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appName => 'Banking App';
+  String get appName => 'Your banks';
 
   @override
   String get bankName => 'Your bank';
 
   @override
-  String get bankNameShort => 'Banking App';
+  String get bankNameShort => 'Your banks';
 
   @override
   String get appTagline => 'Banking, thoughtfully designed';
@@ -169,8 +169,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get welcomeBack => 'Welcome back';
 
   @override
-  String get loginSubtitle =>
-      'Sign in with your username, card or account number.';
+  String get loginSubtitle => 'Sign in with your username and password.';
 
   @override
   String get cardNumber => 'Card number';
@@ -179,11 +178,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get cardNumberHint => '4508 1234 5678 9012';
 
   @override
-  String get loginIdentifier => 'Username, card or account number';
+  String get loginIdentifier => 'Username';
 
   @override
-  String get loginIdentifierHint =>
-      'Enter your username, card or account number';
+  String get loginIdentifierHint => 'Enter your username';
 
   @override
   String get invalidLoginIdentifier =>
@@ -1313,7 +1311,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get registrationExplanation =>
-      'Choose your bank and enter your card number. Next, verify with the contact already registered at the bank, then create your unique username and password.';
+      'Enter your card number for the selected bank. Verify using your registered contact, then create your unique username and password.';
 
   @override
   String get registrationVerified =>
@@ -1742,7 +1740,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get admPublicPolicy =>
-      'Before-sign-in notices are public. Do not include customer or private information. Targeted notices must remain on home.';
+      'Before-login notices are public to everyone or the selected bank, and contain no personal data.';
 
   @override
   String get admTitleEn => 'English title';
@@ -2013,7 +2011,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'The amount received is too small or exceeds the supported balance range.';
 
   @override
-  String get publicWelcomeTitle => 'Welcome to Banking App';
+  String get publicWelcomeTitle => 'Welcome to your bank';
 
   @override
   String get publicWelcomeSubtitle =>
@@ -2311,7 +2309,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get brandingNativeHelp =>
-      'The Banking App name, logo, launcher icons and native startup resources are fixed. Changing them requires a new application release; this screen has no controls to change them.';
+      'Launcher labels and icons are fixed in the application release. Changes require a new release. These controls only affect in-app appearance.';
 
   @override
   String get brandingHex => 'HEX color (#RRGGBB)';
@@ -2349,7 +2347,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get bankFixedIdentityHelp =>
-      'Banking App name, logo, launcher icon and sign-in appearance are fixed in the application release. These settings customize customer screens after sign-in only.';
+      'Bank names and official logos follow the selected bank. These settings change supported in-app appearance, not the native launcher.';
 
   @override
   String get bankAppearanceScope =>
@@ -2393,4 +2391,49 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get bankLoginSelectionHelp =>
       'Choose the bank for this username/card, or leave automatic. Each successful sign-in uses the bank verified by the server. Administrators sign in without choosing a bank.';
+
+  @override
+  String get bankIntroTitle => 'Your banks, in one place';
+
+  @override
+  String get bankIntroBody =>
+      'Choose your bank to access its services with its own familiar identity. Switch banks whenever you need to.';
+
+  @override
+  String get bankSecurityIntroTitle => 'Your identity stays with your bank';
+
+  @override
+  String get bankSecurityIntroBody =>
+      'Sign in using your bank username. New here? Verify your card with a one-time code, then create a username and password.';
+
+  @override
+  String get bankChooseTitle => 'Choose your bank';
+
+  @override
+  String get bankChooseBody =>
+      'Your login, branches, ATMs and customer service will follow this selection.';
+
+  @override
+  String get bankSearchLabel => 'Search banks';
+
+  @override
+  String get bankChangeSelection => 'Change bank';
+
+  @override
+  String get bankNoticeSpecific => 'Notice for a specific bank';
+
+  @override
+  String get bankDirectoryReviewed => 'Source reviewed';
+
+  @override
+  String get bankDirectoryPartial =>
+      'This is a verified subset of the bank’s published locations. See the official locator for the full current network.';
+
+  @override
+  String get bankDirectoryUnavailable =>
+      'A verified address list is not available here yet. Use this bank’s official locator; another bank’s locations are never substituted.';
+
+  @override
+  String get bankContactUnavailable =>
+      'A customer service number has not been verified here yet. Use this bank’s official contact website.';
 }

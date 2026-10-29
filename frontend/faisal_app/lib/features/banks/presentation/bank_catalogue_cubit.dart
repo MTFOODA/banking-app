@@ -11,7 +11,7 @@ class BankCatalogueCubit extends Cubit<BankCatalogue> {
     : super(_cached(preferences));
   final BankCatalogueRepository repository;
   final SharedPreferences? preferences;
-  static const cacheKey = 'banking.catalogue.v1';
+  static const cacheKey = 'banking.catalogue.v2';
   Future<void>? _inFlight;
   DateTime? _last;
   static BankCatalogue _cached(SharedPreferences? preferences) {
@@ -55,6 +55,8 @@ class BankCatalogueCubit extends Cubit<BankCatalogue> {
               'identity_primary': b.primary,
               'identity_accent': b.accent,
               'registration_enabled': b.registrationEnabled,
+              'abbreviation': b.abbreviation,
+              'logo_asset': b.logoAsset,
               'light': b.light,
               'dark': b.dark,
             },

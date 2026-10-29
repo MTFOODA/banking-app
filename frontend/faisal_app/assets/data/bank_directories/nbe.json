@@ -1,0 +1,1929 @@
+{
+  "bank_code": "nbe",
+  "branches": [
+    {
+      "id": "nbe-c47207f1487377a3",
+      "name": "Sidi Gaber Station",
+      "address": "Sidi Gaber Railway Station",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sidi+Gaber+Station+Sidi+Gaber+Railway+Station+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-fe2451432651d6f6",
+      "name": "Roshdy",
+      "address": "17A Syria Street, Roshdy",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Roshdy+17A+Syria+Street%2C+Roshdy+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-61b05cc7ef4405bb",
+      "name": "Shatby",
+      "address": "21 Omar Lotfy Street",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Shatby+21+Omar+Lotfy+Street+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-1145d809acd80093",
+      "name": "New Moharram Bek",
+      "address": "9 Al-Nizam Street, off Al-Mansha Street, Moharram Bek Police Station",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Moharram+Bek+9+Al-Nizam+Street%2C+off+Al-Mansha+Street%2C+Moharram+Bek+Police+Station+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-f35ba210b2ea6b54",
+      "name": "Moharram Bek",
+      "address": "25 El Rasafa Street, Moharram Bek",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Moharram+Bek+25+El+Rasafa+Street%2C+Moharram+Bek+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-3dbb426228a5b925",
+      "name": "Semouha",
+      "address": "Intersection of Bahaa El Ghatory Street with Fawzy Moaz Street",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Semouha+Intersection+of+Bahaa+El+Ghatory+Street+with+Fawzy+Moaz+Street+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-311c5ada50645507",
+      "name": "Marsa Matrouh",
+      "address": "Al Galaa Street, Marsa Matrouh",
+      "governorate": "Marsa Matrouh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Marsa+Matrouh+Al+Galaa+Street%2C+Marsa+Matrouh+Marsa+Matrouh+Egypt"
+    },
+    {
+      "id": "nbe-f67d33114e2d662a",
+      "name": "Victoria",
+      "address": "Rostom Basha Street, off Ibn Okail Street, Victoria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Victoria+Rostom+Basha+Street%2C+off+Ibn+Okail+Street%2C+Victoria+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-1e741301a38705f5",
+      "name": "El Hammam, Marsa Matrouh",
+      "address": "Alexandria Street, next to El Hammam Central, El Hammam city",
+      "governorate": "Marsa Matrouh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Hammam%2C+Marsa+Matrouh+Alexandria+Street%2C+next+to+El+Hammam+Central%2C+El+Hammam+city+Marsa+Matrouh+Egypt"
+    },
+    {
+      "id": "nbe-0c96423449061751",
+      "name": "Loran",
+      "address": "685 Al Horria Road, Loran, Alexandria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Loran+685+Al+Horria+Road%2C+Loran%2C+Alexandria+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-c455c402c8957e69",
+      "name": "Al Amreya",
+      "address": "Entrance of Nasiriyah, Desert Road",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Amreya+Entrance+of+Nasiriyah%2C+Desert+Road+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-cdd53edd093bb086",
+      "name": "Saint Jenny Branch (Kafr Abdo)",
+      "address": "46 Khalil El Khayyat Street with Saint Jenny Square",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Saint+Jenny+Branch+%28Kafr+Abdo%29+46+Khalil+El+Khayyat+Street+with+Saint+Jenny+Square+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-9e1137a512dbbb4e",
+      "name": "Raml Second, El Seyouf",
+      "address": "Gamila Bouhrid Street, Raml Second Police Station, El Seyouf",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Raml+Second%2C+El+Seyouf+Gamila+Bouhrid+Street%2C+Raml+Second+Police+Station%2C+El+Seyouf+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-d39f76656e5edc97",
+      "name": "Alexandria Governorate",
+      "address": "Next to Alexandria Governorate Building, Abis",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Alexandria+Governorate+Next+to+Alexandria+Governorate+Building%2C+Abis+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-b9dc2daa07efe7bb",
+      "name": "King Mariout",
+      "address": "Km 11-10.5, El-Kafouri Road, Borg El Arab, Al Amerya Second Police Station, King Mariout Bahary, El-Kafouri, Alexandria",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+King+Mariout+Km+11-10.5%2C+El-Kafouri+Road%2C+Borg+El+Arab%2C+Al+Amerya+Second+Police+Station%2C+King+Mariout+Bahary%2C+El-Kafouri%2C+Alexandria+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-45f6de63104ab31d",
+      "name": "Sidi Abdel Rahman",
+      "address": "Administrative Building No. 2, Tahya Misr Fund Services Complex, Sidi Abdel Rahman, El Alamein, Marsa Matrouh Governorate",
+      "governorate": "Marsa Matrouh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sidi+Abdel+Rahman+Administrative+Building+No.+2%2C+Tahya+Misr+Fund+Services+Complex%2C+Sidi+Abdel+Rahman%2C+El+Alamein%2C+Marsa+Matrouh+Governorate+Marsa+Matrouh+Egypt"
+    },
+    {
+      "id": "nbe-0445e17ef37bc605",
+      "name": "Al Dekheila",
+      "address": "Al Dekheila Corniche, next to the Economic Court",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Dekheila+Al+Dekheila+Corniche%2C+next+to+the+Economic+Court+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-95cd9e205f7d2e88",
+      "name": "Maamora",
+      "address": "Plot No. 314, Tomato Basin No. 3, Montazah Second Police Station, Maamora Road",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Maamora+Plot+No.+314%2C+Tomato+Basin+No.+3%2C+Montazah+Second+Police+Station%2C+Maamora+Road+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-39da0e7ddc1e4283",
+      "name": "Sidi Bishr Qibli",
+      "address": "Intersection of Mostafa Kamel Street, Roufail Street and Sidi Bishr",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sidi+Bishr+Qibli+Intersection+of+Mostafa+Kamel+Street%2C+Roufail+Street+and+Sidi+Bishr+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-012de9a599c56a35",
+      "name": "Abu Qir Naval Fleet",
+      "address": "Entertainment Center, Naval Fleet Club, Abu Qir",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Abu+Qir+Naval+Fleet+Entertainment+Center%2C+Naval+Fleet+Club%2C+Abu+Qir+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-cde6cdd6f8c5fd9f",
+      "name": "Antoniadis Gardens",
+      "address": "Next to the main gate of Antoniadis Gardens, Mahmoudia Axis",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Antoniadis+Gardens+Next+to+the+main+gate+of+Antoniadis+Gardens%2C+Mahmoudia+Axis+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-25b10ef668344a57",
+      "name": "Bashayer Al-Khair",
+      "address": "Banks Complex, Bashayer Al-Khair City 3, Qabbari",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Bashayer+Al-Khair+Banks+Complex%2C+Bashayer+Al-Khair+City+3%2C+Qabbari+Alexandria+Egypt"
+    },
+    {
+      "id": "nbe-fd3c612b7e2c44eb",
+      "name": "Suez Canal University",
+      "address": "Km 4.5, Ring Road, inside Suez Canal University campus",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Suez+Canal+University+Km+4.5%2C+Ring+Road%2C+inside+Suez+Canal+University+campus+Ismailia+Egypt"
+    },
+    {
+      "id": "nbe-83bd82bb2a6ffc38",
+      "name": "El Tal El Kebir",
+      "address": "El Tal El Kebir, Police Station Street, Ismailia",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Tal+El+Kebir+El+Tal+El+Kebir%2C+Police+Station+Street%2C+Ismailia+Ismailia+Egypt"
+    },
+    {
+      "id": "nbe-2b6e2fc65730f417",
+      "name": "El Salam District",
+      "address": "End of El Mostashfa Street, next to Ismailia Second Police Station",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Salam+District+End+of+El+Mostashfa+Street%2C+next+to+Ismailia+Second+Police+Station+Ismailia+Egypt"
+    },
+    {
+      "id": "nbe-678a550d90a391a7",
+      "name": "Al Qantarah Gharb",
+      "address": "Suez Street, Al Qantara Gharb, Ismailia",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Qantarah+Gharb+Suez+Street%2C+Al+Qantara+Gharb%2C+Ismailia+Ismailia+Egypt"
+    },
+    {
+      "id": "nbe-1c307e052d678c12",
+      "name": "Port Said",
+      "address": "rd 26, 23 of July Street, Port Said",
+      "governorate": "Port Said",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Port+Said+rd+26%2C+23+of+July+Street%2C+Port+Said+Port+Said+Egypt"
+    },
+    {
+      "id": "nbe-e97c47ef3233a549",
+      "name": "Faraskur",
+      "address": "Damietta, Faraskour, Nile Corniche, in front of the Water Company",
+      "governorate": "Damietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Faraskur+Damietta%2C+Faraskour%2C+Nile+Corniche%2C+in+front+of+the+Water+Company+Damietta+Egypt"
+    },
+    {
+      "id": "nbe-f4c0ce402dae5361",
+      "name": "El Sabah",
+      "address": "Social Club, next to Police Towers",
+      "governorate": "Suez",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Sabah+Social+Club%2C+next+to+Police+Towers+Suez+Egypt"
+    },
+    {
+      "id": "nbe-fa95b5f696c991ff",
+      "name": "El Mostakbal",
+      "address": "rd 3 Aswan Street, intersection with 23 of July Street, Suez",
+      "governorate": "Suez",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Mostakbal+rd+3+Aswan+Street%2C+intersection+with+23+of+July+Street%2C+Suez+Suez+Egypt"
+    },
+    {
+      "id": "nbe-1938c62e762d44e8",
+      "name": "Arish",
+      "address": "El Saa Square, Arish",
+      "governorate": "North Sinai",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Arish+El+Saa+Square%2C+Arish+North+Sinai+Egypt"
+    },
+    {
+      "id": "nbe-ed10f9b6ba4bfbed",
+      "name": "Al Salhia El Gedida",
+      "address": "Al Salhia International Market, Al Salhia El Gedida, Al Sharqia",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Salhia+El+Gedida+Al+Salhia+International+Market%2C+Al+Salhia+El+Gedida%2C+Al+Sharqia+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-fa893aa729330020",
+      "name": "Al Qawmia, Zagazig",
+      "address": "31 Lewaa Abdel Aziz Ayyad Street, El Mohafza Street, Al Qawmia",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Qawmia%2C+Zagazig+31+Lewaa+Abdel+Aziz+Ayyad+Street%2C+El+Mohafza+Street%2C+Al+Qawmia+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-2a506d2b98386864",
+      "name": "Manshiyat Belbeis",
+      "address": "Plot No. 1621, Zawana Basin (3), El Mansheya District, Belbeis, Al Sharqia",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Manshiyat+Belbeis+Plot+No.+1621%2C+Zawana+Basin+%283%29%2C+El+Mansheya+District%2C+Belbeis%2C+Al+Sharqia+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-3efab4387972181e",
+      "name": "Hehia El Gedida",
+      "address": "Ahmed Oraby Street, Hehia, Al Sharqia",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Hehia+El+Gedida+Ahmed+Oraby+Street%2C+Hehia%2C+Al+Sharqia+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-47aaa1e7f5e03120",
+      "name": "Damietta Axis",
+      "address": "Beginning of Port Said Road, next to Qebaa Mosque, Damietta",
+      "governorate": "Damietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Damietta+Axis+Beginning+of+Port+Said+Road%2C+next+to+Qebaa+Mosque%2C+Damietta+Damietta+Egypt"
+    },
+    {
+      "id": "nbe-59e56100b193382b",
+      "name": "Ras El Bar",
+      "address": "El Gerbi El Gedida Mall, El Gerbi, El Assi Division, Ras El Bar, Damietta",
+      "governorate": "Damietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Ras+El+Bar+El+Gerbi+El+Gedida+Mall%2C+El+Gerbi%2C+El+Assi+Division%2C+Ras+El+Bar%2C+Damietta+Damietta+Egypt"
+    },
+    {
+      "id": "nbe-47ea95ec36387314",
+      "name": "Al Qurain",
+      "address": "Al Qurain Youth Center, Al Qurain city",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Qurain+Al+Qurain+Youth+Center%2C+Al+Qurain+city+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-0ec84446f608745e",
+      "name": "Al Qanayat",
+      "address": "Al Qanayat Youth Center, El Qanayat",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Qanayat+Al+Qanayat+Youth+Center%2C+El+Qanayat+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-4357e1096276f948",
+      "name": "Abo Hammad",
+      "address": "El Geish Street, Abo Hammad",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Abo+Hammad+El+Geish+Street%2C+Abo+Hammad+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-29f7b98a3214038f",
+      "name": "Belbeis",
+      "address": "Gamal Abdel Nasser Street, Belbeis",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Belbeis+Gamal+Abdel+Nasser+Street%2C+Belbeis+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-c9bfbf3d713df3c4",
+      "name": "Faqous",
+      "address": "Port Said Street, Faqous",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Faqous+Port+Said+Street%2C+Faqous+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-d0d37c52ccb622f8",
+      "name": "Minya El Qamh",
+      "address": "Al Sayed Marai Street, next to Minya El Qamh Police Station",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Minya+El+Qamh+Al+Sayed+Marai+Street%2C+next+to+Minya+El+Qamh+Police+Station+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-aea3060687c041a5",
+      "name": "Husseineya",
+      "address": "Zohour District, Teraet Serag Street, Husseineya, Sharqia",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Husseineya+Zohour+District%2C+Teraet+Serag+Street%2C+Husseineya%2C+Sharqia+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-18da38ce52eaf7f7",
+      "name": "Belbeis Industrial Zone",
+      "address": "th Km 5, Belbeis, 10 of Ramadan city Desert Road, after El-Tayyara Square, behind Misr Al-Hadara Factory",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Belbeis+Industrial+Zone+th+Km+5%2C+Belbeis%2C+10+of+Ramadan+city+Desert+Road%2C+after+El-Tayyara+Square%2C+behind+Misr+Al-Hadara+Factory+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-290ac884cd4a4ce1",
+      "name": "El Nahda",
+      "address": "Plot 111, Central Area, New Damietta",
+      "governorate": "Damietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Nahda+Plot+111%2C+Central+Area%2C+New+Damietta+Damietta+Egypt"
+    },
+    {
+      "id": "nbe-3a2ce7631e40939b",
+      "name": "23rd July, Port Said",
+      "address": "Tarh El Bahr and Qaitbay Street, next to the Chinese Consulate",
+      "governorate": "Port Said",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+23rd+July%2C+Port+Said+Tarh+El+Bahr+and+Qaitbay+Street%2C+next+to+the+Chinese+Consulate+Port+Said+Egypt"
+    },
+    {
+      "id": "nbe-d9de43f27d89dbdb",
+      "name": "Thebes, Luxor",
+      "address": "New Thebes City, Luxor",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Thebes%2C+Luxor+New+Thebes+City%2C+Luxor+Luxor+Egypt"
+    },
+    {
+      "id": "nbe-b3d6fb2693218209",
+      "name": "Fayrouz, Hurghada",
+      "address": "37D, 39D Fayrouz District, in front of Fayrouz Resort and North Hurghada District Building, Al Ahyaa Road, Hurghada",
+      "governorate": "Red Sea",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Fayrouz%2C+Hurghada+37D%2C+39D+Fayrouz+District%2C+in+front+of+Fayrouz+Resort+and+North+Hurghada+District+Building%2C+Al+Ahyaa+Road%2C+Hurghada+Red+Sea+Egypt"
+    },
+    {
+      "id": "nbe-127d24d65114b31a",
+      "name": "El Nour District, Sharm El Sheikh",
+      "address": "Central Park, Al Nour District, Sharm El Sheikh",
+      "governorate": "South Sinai",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Nour+District%2C+Sharm+El+Sheikh+Central+Park%2C+Al+Nour+District%2C+Sharm+El+Sheikh+South+Sinai+Egypt"
+    },
+    {
+      "id": "nbe-9c9bc8e3d9791c36",
+      "name": "El Madina, Marsa Alam",
+      "address": "Building No. 91, Street 9, Marsa Alam",
+      "governorate": "Red Sea",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Madina%2C+Marsa+Alam+Building+No.+91%2C+Street+9%2C+Marsa+Alam+Red+Sea+Egypt"
+    },
+    {
+      "id": "nbe-f73b1025e6600193",
+      "name": "Sharm El Sheikh",
+      "address": "Hadabet Umm El Sid / Banks Street, Sharm El Sheikh",
+      "governorate": "South Sinai",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sharm+El+Sheikh+Hadabet+Umm+El+Sid+%2F+Banks+Street%2C+Sharm+El+Sheikh+South+Sinai+Egypt"
+    },
+    {
+      "id": "nbe-141770cc50249868",
+      "name": "El Tur",
+      "address": "Martyr Ahmed Hamdy Street, Banks Complex, next to the Court",
+      "governorate": "South Sinai",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Tur+Martyr+Ahmed+Hamdy+Street%2C+Banks+Complex%2C+next+to+the+Court+South+Sinai+Egypt"
+    },
+    {
+      "id": "nbe-13dadbb728c4c3c5",
+      "name": "El Sakala District",
+      "address": "Sheraton Street, El Sakala, Hurghada",
+      "governorate": "Red Sea",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Sakala+District+Sheraton+Street%2C+El+Sakala%2C+Hurghada+Red+Sea+Egypt"
+    },
+    {
+      "id": "nbe-b4664d1559692712",
+      "name": "New Aswan",
+      "address": "New Aswan City",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Aswan+New+Aswan+City+Aswan+Egypt"
+    },
+    {
+      "id": "nbe-7b1cf70e12a15607",
+      "name": "Naga Hammadi",
+      "address": "th 30 of March Street, in front of the Railway Station",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Naga+Hammadi+th+30+of+March+Street%2C+in+front+of+the+Railway+Station+Qena+Egypt"
+    },
+    {
+      "id": "nbe-515ca023d72a137d",
+      "name": "Naqada",
+      "address": "Gamal Abdel Nasser Street",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Naqada+Gamal+Abdel+Nasser+Street+Qena+Egypt"
+    },
+    {
+      "id": "nbe-d579858c8ac3809c",
+      "name": "Aswan",
+      "address": "Abtal El Tahrir Street, Aswan",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Aswan+Abtal+El+Tahrir+Street%2C+Aswan+Aswan+Egypt"
+    },
+    {
+      "id": "nbe-39c5a6a6c6d01ebb",
+      "name": "Edfu",
+      "address": "Corniche El Nile Street, Edfu",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Edfu+Corniche+El+Nile+Street%2C+Edfu+Aswan+Egypt"
+    },
+    {
+      "id": "nbe-9ceb09c25969071f",
+      "name": "New Qena",
+      "address": "Second District Services Center, New Qena, Qena Governorate",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Qena+Second+District+Services+Center%2C+New+Qena%2C+Qena+Governorate+Qena+Egypt"
+    },
+    {
+      "id": "nbe-0f8c86acf18ecf06",
+      "name": "Nasr, Nubia",
+      "address": "Nasr Al Noba town",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Nasr%2C+Nubia+Nasr+Al+Noba+town+Aswan+Egypt"
+    },
+    {
+      "id": "nbe-9e7445dc4a6f3a54",
+      "name": "Marina El Gouna",
+      "address": "Abu Tig Marina 3, El Gouna, Hurghada, Red Sea",
+      "governorate": "Red Sea",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Marina+El+Gouna+Abu+Tig+Marina+3%2C+El+Gouna%2C+Hurghada%2C+Red+Sea+Red+Sea+Egypt"
+    },
+    {
+      "id": "nbe-92517446fd0115d7",
+      "name": "Halayeb",
+      "address": "Building No. 5, next to Halayeb Supply Office",
+      "governorate": "Red Sea",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Halayeb+Building+No.+5%2C+next+to+Halayeb+Supply+Office+Red+Sea+Egypt"
+    },
+    {
+      "id": "nbe-b999410204f9ec79",
+      "name": "Aluminum Complex, Naga Hammadi",
+      "address": "In front of Aluminum Club, Naga Hammadi",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Aluminum+Complex%2C+Naga+Hammadi+In+front+of+Aluminum+Club%2C+Naga+Hammadi+Qena+Egypt"
+    },
+    {
+      "id": "nbe-3812322bb26f34f7",
+      "name": "Philae, Aswan",
+      "address": "Sadat Road (Airport Road), Zohour District, in front of the Nile Valley Corporation",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Philae%2C+Aswan+Sadat+Road+%28Airport+Road%29%2C+Zohour+District%2C+in+front+of+the+Nile+Valley+Corporation+Aswan+Egypt"
+    },
+    {
+      "id": "nbe-232e55c2f77d510b",
+      "name": "Nuweiba",
+      "address": "Al Bi'ah Street, in front of Nuweiba Sea Port Gate, Nuweiba, South Sinai",
+      "governorate": "South Sinai",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Nuweiba+Al+Bi%27ah+Street%2C+in+front+of+Nuweiba+Sea+Port+Gate%2C+Nuweiba%2C+South+Sinai+South+Sinai+Egypt"
+    },
+    {
+      "id": "nbe-1c549c0251e46ba3",
+      "name": "Ras Sedr",
+      "address": "Commercial Market, next to Ras Sedr Post Office",
+      "governorate": "South Sinai",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Ras+Sedr+Commercial+Market%2C+next+to+Ras+Sedr+Post+Office+South+Sinai+Egypt"
+    },
+    {
+      "id": "nbe-462b8b74d909c07e",
+      "name": "Dahab",
+      "address": "El Mashraba, Dahab, South Sinai",
+      "governorate": "South Sinai",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Dahab+El+Mashraba%2C+Dahab%2C+South+Sinai+South+Sinai+Egypt"
+    },
+    {
+      "id": "nbe-741b88f365d93b8e",
+      "name": "Qeft",
+      "address": "El-Thawra Street, Qeft, Qena",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Qeft+El-Thawra+Street%2C+Qeft%2C+Qena+Qena+Egypt"
+    },
+    {
+      "id": "nbe-f824d49628f678c3",
+      "name": "El Mansheya, Qena",
+      "address": "Dandara Bridge Street, next to Oriental Weavers, Qena",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Mansheya%2C+Qena+Dandara+Bridge+Street%2C+next+to+Oriental+Weavers%2C+Qena+Qena+Egypt"
+    },
+    {
+      "id": "nbe-6ecd4d9404ef46c4",
+      "name": "Armant, Luxor",
+      "address": "Wabourat Armant Area, Armant Town, Luxor",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Armant%2C+Luxor+Wabourat+Armant+Area%2C+Armant+Town%2C+Luxor+Luxor+Egypt"
+    },
+    {
+      "id": "nbe-0962729d3c8aedda",
+      "name": "Dokki",
+      "address": "98 El-Tahrir Street, Dokki",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Dokki+98+El-Tahrir+Street%2C+Dokki+Giza+Egypt"
+    },
+    {
+      "id": "nbe-413da4df85a8129e",
+      "name": "Mostafa Kamel, King Faisal Street",
+      "address": "224, Intersection of Mostafa Kamel Street with King Faisal Street - El-Taawon Station",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mostafa+Kamel%2C+King+Faisal+Street+224%2C+Intersection+of+Mostafa+Kamel+Street+with+King+Faisal+Street+-+El-Taawon+Station+Giza+Egypt"
+    },
+    {
+      "id": "nbe-07228eb45de32fe1",
+      "name": "Maadi Club",
+      "address": "Maadi Club Fence, Damascus Street, Sawares Square, Maadi, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Maadi+Club+Maadi+Club+Fence%2C+Damascus+Street%2C+Sawares+Square%2C+Maadi%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-bf2d16533e3ad8ef",
+      "name": "Mourad Street",
+      "address": "26 Mourad Street, next to Omar Effendi, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mourad+Street+26+Mourad+Street%2C+next+to+Omar+Effendi%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-23771ffaa670134b",
+      "name": "El Kom El Akhdar, Haram",
+      "address": "114 Haram Street, El Kom El Akhdar, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Kom+El+Akhdar%2C+Haram+114+Haram+Street%2C+El+Kom+El+Akhdar%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-402f7026ec2ef5df",
+      "name": "El Khamsin, Zahraa El Maadi",
+      "address": "78/11, Section 13, El-Khamsin Street, Zahraa El-Maadi, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Khamsin%2C+Zahraa+El+Maadi+78%2F11%2C+Section+13%2C+El-Khamsin+Street%2C+Zahraa+El-Maadi%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-606facd49bb1f81a",
+      "name": "Olympic Center, Maadi",
+      "address": "256 El-Nadi El-Gedid Street, Fontana Square, El Laselky, Maadi",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Olympic+Center%2C+Maadi+256+El-Nadi+El-Gedid+Street%2C+Fontana+Square%2C+El+Laselky%2C+Maadi+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-946e11a18ad1fab1",
+      "name": "Monieb",
+      "address": "304 El Bahr El Aazam Street",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Monieb+304+El+Bahr+El+Aazam+Street+Giza+Egypt"
+    },
+    {
+      "id": "nbe-aa750a6931a2c692",
+      "name": "Dar El Salam",
+      "address": "2 Abdullah Ezzat Street, off Misr Helwan Agricultural Street, Dar El Salam, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Dar+El+Salam+2+Abdullah+Ezzat+Street%2C+off+Misr+Helwan+Agricultural+Street%2C+Dar+El+Salam%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-eac1bb636b86d177",
+      "name": "El Ayyat",
+      "address": "Cairo-Assiut Agricultural Road, El Ayyat Town, Giza Governorate",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Ayyat+Cairo-Assiut+Agricultural+Road%2C+El+Ayyat+Town%2C+Giza+Governorate+Giza+Egypt"
+    },
+    {
+      "id": "nbe-62a91168e354e6e2",
+      "name": "Manial Shiha",
+      "address": "Cairo-Assiut Agricultural Road, Abo El Nomros, Manial Shiha, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Manial+Shiha+Cairo-Assiut+Agricultural+Road%2C+Abo+El+Nomros%2C+Manial+Shiha%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-4e4f9b63e1c52803",
+      "name": "Omrania",
+      "address": "40 Khatem El Morsaleen Street, Haram",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Omrania+40+Khatem+El+Morsaleen+Street%2C+Haram+Giza+Egypt"
+    },
+    {
+      "id": "nbe-adff988b72d5c93d",
+      "name": "El Lebini",
+      "address": "Nazlet El-Sisi, Corner of El-Lebini, El Mariouteya, Haram",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Lebini+Nazlet+El-Sisi%2C+Corner+of+El-Lebini%2C+El+Mariouteya%2C+Haram+Giza+Egypt"
+    },
+    {
+      "id": "nbe-cba6556ca32d8925",
+      "name": "El Hawamdya",
+      "address": "Cairo-Aswan Agricultural Road, in front of El Hawamdya Traffic Department",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Hawamdya+Cairo-Aswan+Agricultural+Road%2C+in+front+of+El+Hawamdya+Traffic+Department+Giza+Egypt"
+    },
+    {
+      "id": "nbe-b9e0fa3c4385fe4c",
+      "name": "Corniche El Maadi",
+      "address": "Plot No. 1097, near to Dar El Salam, El Basateen Police Station, Corniche El Maadi, in front of Water Surfaces Police",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Corniche+El+Maadi+Plot+No.+1097%2C+near+to+Dar+El+Salam%2C+El+Basateen+Police+Station%2C+Corniche+El+Maadi%2C+in+front+of+Water+Surfaces+Police+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-168c17be4dc8a350",
+      "name": "Sarayat El Maadi",
+      "address": "39 Street 10, Maadi",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sarayat+El+Maadi+39+Street+10%2C+Maadi+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-3b0ad44fc98ef1f9",
+      "name": "Mesaha Square",
+      "address": "12 Masaha Square, El Diplomasyeen Building, Dokki",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mesaha+Square+12+Masaha+Square%2C+El+Diplomasyeen+Building%2C+Dokki+Giza+Egypt"
+    },
+    {
+      "id": "nbe-8627679d285b7c85",
+      "name": "El Saff",
+      "address": "El Gomhoria Street, El Saff city, El Saff Town, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Saff+El+Gomhoria+Street%2C+El+Saff+city%2C+El+Saff+Town%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-764c06af66261904",
+      "name": "New Maadi",
+      "address": "7 Al Gazaer Street, Al Gazaer Square, Saudi Company Buildings, end of Al Gazaer Street, New Maadi",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Maadi+7+Al+Gazaer+Street%2C+Al+Gazaer+Square%2C+Saudi+Company+Buildings%2C+end+of+Al+Gazaer+Street%2C+New+Maadi+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-e9e0aa47e0e8ea73",
+      "name": "Hadayek Helwan",
+      "address": "6 Hamouda Street, Corner of Abdel Salam Al-Khubeiry Street, Hadayek Helwan",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Hadayek+Helwan+6+Hamouda+Street%2C+Corner+of+Abdel+Salam+Al-Khubeiry+Street%2C+Hadayek+Helwan+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-b88de15220fd7049",
+      "name": "El Katameya, Ring Road",
+      "address": "Plot No. 35 off Plot 4 (Investment), Entrance of Ashgar Darna Compound, El Katameya, Ring Road",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Katameya%2C+Ring+Road+Plot+No.+35+off+Plot+4+%28Investment%29%2C+Entrance+of+Ashgar+Darna+Compound%2C+El+Katameya%2C+Ring+Road+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-3966499967445654",
+      "name": "Badrashin",
+      "address": "Cairo-Assiut Agricultural Road, Intersection of El-Meadeya Street, Badrashin",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Badrashin+Cairo-Assiut+Agricultural+Road%2C+Intersection+of+El-Meadeya+Street%2C+Badrashin+Giza+Egypt"
+    },
+    {
+      "id": "nbe-6a061f600622c8bd",
+      "name": "Galaa Square",
+      "address": "129 El-Tahrir Street, Dokki, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Galaa+Square+129+El-Tahrir+Street%2C+Dokki%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-e13ab57631392872",
+      "name": "Beila",
+      "address": "El Gomhouria Street, Beila",
+      "governorate": "Kafr El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Beila+El+Gomhouria+Street%2C+Beila+Kafr+El+Sheikh+Egypt"
+    },
+    {
+      "id": "nbe-688fb196fb16f929",
+      "name": "Metoubes",
+      "address": "118, Hod Dayer El Nahiya, No. 8, First Police Station, El Mostashfa Street, Metoubes, Kafr El Sheikh",
+      "governorate": "Kafr El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Metoubes+118%2C+Hod+Dayer+El+Nahiya%2C+No.+8%2C+First+Police+Station%2C+El+Mostashfa+Street%2C+Metoubes%2C+Kafr+El+Sheikh+Kafr+El+Sheikh+Egypt"
+    },
+    {
+      "id": "nbe-4ae50a5eb2fbaa12",
+      "name": "Mansoura",
+      "address": "167 El Gomhouria Street, Mansoura",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mansoura+167+El+Gomhouria+Street%2C+Mansoura+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-c5d6af1369cedf5e",
+      "name": "Qalyub",
+      "address": "Dalia Street, Qalyub El Balad, next to Qalyub Court",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Qalyub+Dalia+Street%2C+Qalyub+El+Balad%2C+next+to+Qalyub+Court+Qalyubia+Egypt"
+    },
+    {
+      "id": "nbe-f122a3520bb650f0",
+      "name": "Benha",
+      "address": "Corniche El Nil, Benha, Qalyubia",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Benha+Corniche+El+Nil%2C+Benha%2C+Qalyubia+Qalyubia+Egypt"
+    },
+    {
+      "id": "nbe-ca7f00ad943e0bbd",
+      "name": "Al Kholafaa Al Rashedeen",
+      "address": "55 Al Kholafaa Al Rashedeen Street, Mansoura, Dakahlia",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Kholafaa+Al+Rashedeen+55+Al+Kholafaa+Al+Rashedeen+Street%2C+Mansoura%2C+Dakahlia+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-006f217b9ec182f7",
+      "name": "Kafr El Sheikh",
+      "address": "El Geish Street, Kafr El Sheikh",
+      "governorate": "Kafr El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Kafr+El+Sheikh+El+Geish+Street%2C+Kafr+El+Sheikh+Kafr+El+Sheikh+Egypt"
+    },
+    {
+      "id": "nbe-e97c506e225093fc",
+      "name": "Baltim",
+      "address": "Gamal Abdel Nasser Street, Baltim",
+      "governorate": "Kafr El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Baltim+Gamal+Abdel+Nasser+Street%2C+Baltim+Kafr+El+Sheikh+Egypt"
+    },
+    {
+      "id": "nbe-b9144b77cd7aac20",
+      "name": "Sidi Salem",
+      "address": "Al Rasheed Street, in front of El-Wehda Mosque, Sidi Salem",
+      "governorate": "Kafr El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sidi+Salem+Al+Rasheed+Street%2C+in+front+of+El-Wehda+Mosque%2C+Sidi+Salem+Kafr+El+Sheikh+Egypt"
+    },
+    {
+      "id": "nbe-d4596960974eebfa",
+      "name": "Kafr El Sheikh Governorate",
+      "address": "2 Abdel Salam Aref Street, Engineers Syndicate, Kafr El Sheikh",
+      "governorate": "Kafr El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Kafr+El+Sheikh+Governorate+2+Abdel+Salam+Aref+Street%2C+Engineers+Syndicate%2C+Kafr+El+Sheikh+Kafr+El+Sheikh+Egypt"
+    },
+    {
+      "id": "nbe-63335d3fccaaf4bd",
+      "name": "Mit Ghamr",
+      "address": "El Geish Street, Mit Ghamr",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mit+Ghamr+El+Geish+Street%2C+Mit+Ghamr+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-f6955a12631084e7",
+      "name": "Mansoura University",
+      "address": "Faculty of Agriculture, Mansoura University",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mansoura+University+Faculty+of+Agriculture%2C+Mansoura+University+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-3f4fcb1c671fba34",
+      "name": "Senbellawein",
+      "address": "Talaat Harb Street, Senbellawein, next to Banque Misr",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Senbellawein+Talaat+Harb+Street%2C+Senbellawein%2C+next+to+Banque+Misr+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-54c8a0630ad88d5a",
+      "name": "Toukh",
+      "address": "El Tawheed Tower, Ezz El Din Sadek El Mougy Street, next to Toukh Education Department",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Toukh+El+Tawheed+Tower%2C+Ezz+El+Din+Sadek+El+Mougy+Street%2C+next+to+Toukh+Education+Department+Qalyubia+Egypt"
+    },
+    {
+      "id": "nbe-92d6961766ac7db9",
+      "name": "Corniche Mit Ghamr",
+      "address": "El Horreya Street, El Sofi Tower, Mit Ghamr city, Dakahlia",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Corniche+Mit+Ghamr+El+Horreya+Street%2C+El+Sofi+Tower%2C+Mit+Ghamr+city%2C+Dakahlia+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-7c9f942c52e96632",
+      "name": "Sherbin",
+      "address": "39 El Galaa Street, Sherbin City",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sherbin+39+El+Galaa+Street%2C+Sherbin+City+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-3633677e2aaca3f1",
+      "name": "Gamasa",
+      "address": "Industrial Zone, Gamasa city, Dakahlia",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Gamasa+Industrial+Zone%2C+Gamasa+city%2C+Dakahlia+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-1a726e14e4feed79",
+      "name": "Talkha",
+      "address": "El Bahr El Aazam Street, Talkha",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Talkha+El+Bahr+El+Aazam+Street%2C+Talkha+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-01ea031135ee81b2",
+      "name": "Bani Ebeid",
+      "address": "Bani Ebeid, next to Bani Ebeid Club",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Bani+Ebeid+Bani+Ebeid%2C+next+to+Bani+Ebeid+Club+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-3302d201ad42178d",
+      "name": "Corniche Dekernes",
+      "address": "23 El Bahr Street, Dekernes, Dakahlia",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Corniche+Dekernes+23+El+Bahr+Street%2C+Dekernes%2C+Dakahlia+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-97772c90e7968012",
+      "name": "El Geish Street, Mansoura",
+      "address": "El Geish Street, in front of the Courts Complex, Mansoura",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Geish+Street%2C+Mansoura+El+Geish+Street%2C+in+front+of+the+Courts+Complex%2C+Mansoura+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-4450cb408e26f510",
+      "name": "Mit Salsil",
+      "address": "Mansoura-Manzala Road, in front of the Development Company, Mit Salsil city, Dakahlia",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mit+Salsil+Mansoura-Manzala+Road%2C+in+front+of+the+Development+Company%2C+Mit+Salsil+city%2C+Dakahlia+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-0aadab8f3009b306",
+      "name": "New Belqas",
+      "address": "El Horreya Road, Belqas, Dakahlia",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Belqas+El+Horreya+Road%2C+Belqas%2C+Dakahlia+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-136997c9e94b6a01",
+      "name": "Corniche El Qanater El Khaireya",
+      "address": "7 Corniche El Nil Street, El Qanater El Khaireya, Qalyubia",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Corniche+El+Qanater+El+Khaireya+7+Corniche+El+Nil+Street%2C+El+Qanater+El+Khaireya%2C+Qalyubia+Qalyubia+Egypt"
+    },
+    {
+      "id": "nbe-d81b03fa41e1e964",
+      "name": "Belbisi Mall",
+      "address": "Km 10, Cairo-Alexandria Agricultural Road, Qalyub city, Qalyubia",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Belbisi+Mall+Km+10%2C+Cairo-Alexandria+Agricultural+Road%2C+Qalyub+city%2C+Qalyubia+Qalyubia+Egypt"
+    },
+    {
+      "id": "nbe-4aeefb21d97a73a7",
+      "name": "Corniche Benha",
+      "address": "New Nile Corniche, Benha Town, Qalyubia",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Corniche+Benha+New+Nile+Corniche%2C+Benha+Town%2C+Qalyubia+Qalyubia+Egypt"
+    },
+    {
+      "id": "nbe-b7330e7e4471e7d9",
+      "name": "Sindiyun",
+      "address": "Sindiyun Youth Center, Sindiyun city, Qalyubia Governorate",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sindiyun+Sindiyun+Youth+Center%2C+Sindiyun+city%2C+Qalyubia+Governorate+Qalyubia+Egypt"
+    },
+    {
+      "id": "nbe-982fd51cad2b5e90",
+      "name": "Dakahlia Governorate",
+      "address": "Suez Canal Street",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Dakahlia+Governorate+Suez+Canal+Street+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-253867eb9dc6dc3a",
+      "name": "District 5",
+      "address": "Units E22 & E23, District 5 Mall, Km 9, South Cairo, Ain Sokhna, Southern Extension of New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+District+5+Units+E22+%26+E23%2C+District+5+Mall%2C+Km+9%2C+South+Cairo%2C+Ain+Sokhna%2C+Southern+Extension+of+New+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-eb24c18a4408a865",
+      "name": "Madinaty Mall",
+      "address": "Arabesque Mall, Madinaty Gate 2",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Madinaty+Mall+Arabesque+Mall%2C+Madinaty+Gate+2+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-192a676154b4d045",
+      "name": "Abbas El Akkad",
+      "address": "6 Abbas El Akkad Street",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Abbas+El+Akkad+6+Abbas+El+Akkad+Street+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-93cafff4e4c0c97a",
+      "name": "Ahmed Fakhry",
+      "address": "Nasr City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Ahmed+Fakhry+Nasr+City+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-1e30ded584f65f98",
+      "name": "Cross Ten Mall, 10th of Ramadan city",
+      "address": "th Cross Ten Mall, km 52, Ismailia Desert Road, 10 of Ramadan City",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Cross+Ten+Mall%2C+10th+of+Ramadan+city+th+Cross+Ten+Mall%2C+km+52%2C+Ismailia+Desert+Road%2C+10+of+Ramadan+City+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-5ba75b8cd5452da2",
+      "name": "East Hub, Madinaty",
+      "address": "Craft and Commercial Zone, Madinaty, Eastern Extensions, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+East+Hub%2C+Madinaty+Craft+and+Commercial+Zone%2C+Madinaty%2C+Eastern+Extensions%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-0c4cdc258a944b82",
+      "name": "Abo Dawood El Zahery",
+      "address": "81 Abo Dawood El Zahery Street, Nasr City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Abo+Dawood+El+Zahery+81+Abo+Dawood+El+Zahery+Street%2C+Nasr+City+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-7b50808eba647777",
+      "name": "Asmarat District",
+      "address": "Plot No. 1155, Asmarat, in front of Resala Charity Association, Street 9, Moqattam",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Asmarat+District+Plot+No.+1155%2C+Asmarat%2C+in+front+of+Resala+Charity+Association%2C+Street+9%2C+Moqattam+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-4c70c3ab8833e4eb",
+      "name": "Tiba 2000",
+      "address": "22 Anwar El Mofti Street, behind Tiba Mall, Nasr City, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Tiba+2000+22+Anwar+El+Mofti+Street%2C+behind+Tiba+Mall%2C+Nasr+City%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-98a76304db2985ef",
+      "name": "th 10 District",
+      "address": "Military Justice Authority Fence, Rehana Plaza",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+th+10+District+Military+Justice+Authority+Fence%2C+Rehana+Plaza+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-e5ec1f95792ab9e7",
+      "name": "Zakir Hussein",
+      "address": "th 66 Ahmed El Zomor Street, 8 District, Nasr City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Zakir+Hussein+th+66+Ahmed+El+Zomor+Street%2C+8+District%2C+Nasr+City+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-2b35279934819353",
+      "name": "El Sabeen, Fifth Settlement",
+      "address": "Banks Area, Fifth Settlement, New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Sabeen%2C+Fifth+Settlement+Banks+Area%2C+Fifth+Settlement%2C+New+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-56bf219e20137b98",
+      "name": "Airport",
+      "address": "Banks Complex, Cairo Airport",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Airport+Banks+Complex%2C+Cairo+Airport+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-94fbf49d83107dd0",
+      "name": "th 10 of Ramadan",
+      "address": "th Banks Complex, El Ordoneya Square, 10 of Ramadan City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+th+10+of+Ramadan+th+Banks+Complex%2C+El+Ordoneya+Square%2C+10+of+Ramadan+City+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-16ba3d43b30ba836",
+      "name": "Rabaa El-Adaweyya",
+      "address": "73 Nasr Road, Tiba Mall, Ground Floor",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Rabaa+El-Adaweyya+73+Nasr+Road%2C+Tiba+Mall%2C+Ground+Floor+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-141173e1ea0ea21f",
+      "name": "Al-Azhar University",
+      "address": "Inside Al-Azhar University campus",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al-Azhar+University+Inside+Al-Azhar+University+campus+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-812c96809ae722b1",
+      "name": "Al Masa, El Tayaran Street",
+      "address": "38 El Tayaran Street",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Masa%2C+El+Tayaran+Street+38+El+Tayaran+Street+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-4ff01024361d83a3",
+      "name": "Mirage City",
+      "address": "2, Commercial Building, Mostafa Kamel Axis, First Settlement",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mirage+City+2%2C+Commercial+Building%2C+Mostafa+Kamel+Axis%2C+First+Settlement+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-740418a76a1f72c0",
+      "name": "Wesal",
+      "address": "West Shorouk Housing Project, Wesal, Cairo-Suez Road",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Wesal+West+Shorouk+Housing+Project%2C+Wesal%2C+Cairo-Suez+Road+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-47a82097383c3272",
+      "name": "Hikestep",
+      "address": "Mostaqbal City, next to El Shaheed Mosque",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Hikestep+Mostaqbal+City%2C+next+to+El+Shaheed+Mosque+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-da3b4a3f5eaec9d3",
+      "name": "Neverland",
+      "address": "Aqua Park, Ain Sokhna Road",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Neverland+Aqua+Park%2C+Ain+Sokhna+Road+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-9ca2f0cdb445d93a",
+      "name": "El Batrawy",
+      "address": "12 El Batrawy Street, in front of Genena Mall",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Batrawy+12+El+Batrawy+Street%2C+in+front+of+Genena+Mall+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-e65718110882ec0f",
+      "name": "El Yasmeen",
+      "address": "th Plot No. 4/F, Banks District, Phase 2, 10 of Ramadan City",
+      "governorate": "Al Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Yasmeen+th+Plot+No.+4%2FF%2C+Banks+District%2C+Phase+2%2C+10+of+Ramadan+City+Al+Sharqia+Egypt"
+    },
+    {
+      "id": "nbe-70a062922305e59e",
+      "name": "Cairo Festival",
+      "address": "Cairo Festival City Mall, Taha Hussein Street, Fifth Settlement, New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Cairo+Festival+Cairo+Festival+City+Mall%2C+Taha+Hussein+Street%2C+Fifth+Settlement%2C+New+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-12d65d38ea2d4925",
+      "name": "Moqattam",
+      "address": "112 El Nafora Square, Moqattam",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Moqattam+112+El+Nafora+Square%2C+Moqattam+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-4ef6301d9b62e373",
+      "name": "Badr City",
+      "address": "Plot No. 126, Services District, Badr City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Badr+City+Plot+No.+126%2C+Services+District%2C+Badr+City+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-cce526a0fcba9df0",
+      "name": "El Hadaba El Wosta",
+      "address": "Plot 123, Commercial Center, El Hadaba El Wosta, Moqattam",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Hadaba+El+Wosta+Plot+123%2C+Commercial+Center%2C+El+Hadaba+El+Wosta%2C+Moqattam+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-9fe2424a6d0c8627",
+      "name": "Second District, Al Shorouk",
+      "address": "Plot No. 7, Hoda Shaarawy Street, off Abdel Moneim Wasel Street, Second District, Al Shorouk City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Second+District%2C+Al+Shorouk+Plot+No.+7%2C+Hoda+Shaarawy+Street%2C+off+Abdel+Moneim+Wasel+Street%2C+Second+District%2C+Al+Shorouk+City+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-c15bf994d0ab4126",
+      "name": "El Mahata, Samalout",
+      "address": "El Erfani Main Street, Government Services Complex, Malawy, Minya",
+      "governorate": "Minya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Mahata%2C+Samalout+El+Erfani+Main+Street%2C+Government+Services+Complex%2C+Malawy%2C+Minya+Minya+Egypt"
+    },
+    {
+      "id": "nbe-aa58175236fd1628",
+      "name": "Sahel Selim",
+      "address": "Mohamed Mahmoud Pasha Street, next to the Police Station, Sahel Selim, Assiut",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sahel+Selim+Mohamed+Mahmoud+Pasha+Street%2C+next+to+the+Police+Station%2C+Sahel+Selim%2C+Assiut+Assiut+Egypt"
+    },
+    {
+      "id": "nbe-a5a69e8ee1f76c7b",
+      "name": "El Qusiya",
+      "address": "El Galaa Street, El Qusiya, Assiut",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Qusiya+El+Galaa+Street%2C+El+Qusiya%2C+Assiut+Assiut+Egypt"
+    },
+    {
+      "id": "nbe-a986235037fb9822",
+      "name": "Dairut",
+      "address": "El Galaa Street, next to Bank of Alexandria",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Dairut+El+Galaa+Street%2C+next+to+Bank+of+Alexandria+Assiut+Egypt"
+    },
+    {
+      "id": "nbe-8dbd33fb470104c3",
+      "name": "El Kharga, Services Complex",
+      "address": "Government Services Complex, Kharga",
+      "governorate": "New Valley",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Kharga%2C+Services+Complex+Government+Services+Complex%2C+Kharga+New+Valley+Egypt"
+    },
+    {
+      "id": "nbe-1e486341a2d18e7e",
+      "name": "Abanoub",
+      "address": "60 El Gomhouria Street, near to Hawd El-Balad, Abanoub Town, Assiut",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Abanoub+60+El+Gomhouria+Street%2C+near+to+Hawd+El-Balad%2C+Abanoub+Town%2C+Assiut+Assiut+Egypt"
+    },
+    {
+      "id": "nbe-e00ef9e4f2b1f2ed",
+      "name": "Beni Suef Governorate",
+      "address": "rd 23 of July Street, Al Modereya Al Qadema Square, Beni Suef",
+      "governorate": "Beni Suef",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Beni+Suef+Governorate+rd+23+of+July+Street%2C+Al+Modereya+Al+Qadema+Square%2C+Beni+Suef+Beni+Suef+Egypt"
+    },
+    {
+      "id": "nbe-c87ede568ee46d40",
+      "name": "Akhmim",
+      "address": "Sohag-Akhmim Road, in front of the New Bridge Roundabout, Seif El Nasr Tower",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Akhmim+Sohag-Akhmim+Road%2C+in+front+of+the+New+Bridge+Roundabout%2C+Seif+El+Nasr+Tower+Sohag+Egypt"
+    },
+    {
+      "id": "nbe-f7fcd9d41eef312f",
+      "name": "Beni Suef",
+      "address": "Salah Salem, Beni Suef",
+      "governorate": "Beni Suef",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Beni+Suef+Salah+Salem%2C+Beni+Suef+Beni+Suef+Egypt"
+    },
+    {
+      "id": "nbe-cdb828a1289ab830",
+      "name": "El Wasta",
+      "address": "Dr. Abdel Halim Mahmoud Street, El Wasta Town, Beni Suef",
+      "governorate": "Beni Suef",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Wasta+Dr.+Abdel+Halim+Mahmoud+Street%2C+El+Wasta+Town%2C+Beni+Suef+Beni+Suef+Egypt"
+    },
+    {
+      "id": "nbe-cb3a6a4ecaf54346",
+      "name": "Malawy",
+      "address": "Gamal El-Din Borai Street, Malawy, Minya",
+      "governorate": "Minya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Malawy+Gamal+El-Din+Borai+Street%2C+Malawy%2C+Minya+Minya+Egypt"
+    },
+    {
+      "id": "nbe-ced26b62ad3dc9b5",
+      "name": "Assiut",
+      "address": "El Benuk Square, Assiut",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Assiut+El+Benuk+Square%2C+Assiut+Assiut+Egypt"
+    },
+    {
+      "id": "nbe-16cd3b85e2bef508",
+      "name": "Tahta",
+      "address": "El Thawra Street, Tahta",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Tahta+El+Thawra+Street%2C+Tahta+Sohag+Egypt"
+    },
+    {
+      "id": "nbe-959211f20d46f3cb",
+      "name": "El Kharga",
+      "address": "Gamal Abdel Nasser Street, in front of Engineers Syndicate, Kharga",
+      "governorate": "New Valley",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Kharga+Gamal+Abdel+Nasser+Street%2C+in+front+of+Engineers+Syndicate%2C+Kharga+New+Valley+Egypt"
+    },
+    {
+      "id": "nbe-346fe40b62d36790",
+      "name": "Fayoum University",
+      "address": "Next to the Faculty of Engineering Gate, Fayoum University, Kiman Faris",
+      "governorate": "Fayoum",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Fayoum+University+Next+to+the+Faculty+of+Engineering+Gate%2C+Fayoum+University%2C+Kiman+Faris+Fayoum+Egypt"
+    },
+    {
+      "id": "nbe-4a5355b169ad01a6",
+      "name": "New Assiut",
+      "address": "Plot No. 38B, City Services Center, New Assiut, Assiut",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Assiut+Plot+No.+38B%2C+City+Services+Center%2C+New+Assiut%2C+Assiut+Assiut+Egypt"
+    },
+    {
+      "id": "nbe-f5e90155a76b6ed1",
+      "name": "Ibsheway",
+      "address": "El Gomhouria Street, Ibsheway, Fayoum",
+      "governorate": "Fayoum",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Ibsheway+El+Gomhouria+Street%2C+Ibsheway%2C+Fayoum+Fayoum+Egypt"
+    },
+    {
+      "id": "nbe-e7f7a876cda08173",
+      "name": "El Qusiya El Gedida",
+      "address": "1 Megawer Street, Assiut-Cairo Agricultural Road",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Qusiya+El+Gedida+1+Megawer+Street%2C+Assiut-Cairo+Agricultural+Road+Assiut+Egypt"
+    },
+    {
+      "id": "nbe-5e9bb906d748bec2",
+      "name": "El Bahr El Aazam, Dairut",
+      "address": "Al Bahr Al Aazam Street, Dairut",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Bahr+El+Aazam%2C+Dairut+Al+Bahr+Al+Aazam+Street%2C+Dairut+Assiut+Egypt"
+    },
+    {
+      "id": "nbe-68cb213aacd42d0c",
+      "name": "New Sohag",
+      "address": "Banks Area, New Sohag, Sohag",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Sohag+Banks+Area%2C+New+Sohag%2C+Sohag+Sohag+Egypt"
+    },
+    {
+      "id": "nbe-48899fea0e837055",
+      "name": "El Badari",
+      "address": "Gamal Abdel Nasser Street, next to El Badari Police Station, Assiut",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Badari+Gamal+Abdel+Nasser+Street%2C+next+to+El+Badari+Police+Station%2C+Assiut+Assiut+Egypt"
+    },
+    {
+      "id": "nbe-2260b0b179cf36e6",
+      "name": "Kom Oshim",
+      "address": "First Industrial Zone, Kom Oshim",
+      "governorate": "Fayoum",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Kom+Oshim+First+Industrial+Zone%2C+Kom+Oshim+Fayoum+Egypt"
+    },
+    {
+      "id": "nbe-a96aa4c51956a40a",
+      "name": "El Dakhla",
+      "address": "Mut, El Dakhla, New Valley",
+      "governorate": "New Valley",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Dakhla+Mut%2C+El+Dakhla%2C+New+Valley+New+Valley+Egypt"
+    },
+    {
+      "id": "nbe-b369a33f0f7536ab",
+      "name": "Farafra",
+      "address": "Ring Road (1), Government Services Complex, Farafra City, New Valley",
+      "governorate": "New Valley",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Farafra+Ring+Road+%281%29%2C+Government+Services+Complex%2C+Farafra+City%2C+New+Valley+New+Valley+Egypt"
+    },
+    {
+      "id": "nbe-c91c7931fca22fcc",
+      "name": "New Fayoum",
+      "address": "New Fayoum, Fayoum",
+      "governorate": "Fayoum",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Fayoum+New+Fayoum%2C+Fayoum+Fayoum+Egypt"
+    },
+    {
+      "id": "nbe-b1361b55fcca0038",
+      "name": "Deir Mawas, Minya",
+      "address": "Cairo-Aswan Agricultural Road",
+      "governorate": "Minya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Deir+Mawas%2C+Minya+Cairo-Aswan+Agricultural+Road+Minya+Egypt"
+    },
+    {
+      "id": "nbe-cbee0fcf4945dc5d",
+      "name": "New Gerga",
+      "address": "Abo Asim El-Basri Street, El Abaadia, Gerga, Sohag",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Gerga+Abo+Asim+El-Basri+Street%2C+El+Abaadia%2C+Gerga%2C+Sohag+Sohag+Egypt"
+    },
+    {
+      "id": "nbe-b9c695768f50d306",
+      "name": "Bab El-Mazar",
+      "address": "Dr. Ali El-Kayyal Tower, Port Said Street",
+      "governorate": "Minya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Bab+El-Mazar+Dr.+Ali+El-Kayyal+Tower%2C+Port+Said+Street+Minya+Egypt"
+    },
+    {
+      "id": "nbe-65a0e8526b6fef2f",
+      "name": "El Ghanayem",
+      "address": "El Ghanayem Youth Center Fence",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Ghanayem+El+Ghanayem+Youth+Center+Fence+Assiut+Egypt"
+    },
+    {
+      "id": "nbe-31081c7f72401340",
+      "name": "Kom Abo Rady",
+      "address": "Administrative Building Fence, Kom Abo Rady Industrial Zone, Services Area, El Wasta",
+      "governorate": "Beni Suef",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Kom+Abo+Rady+Administrative+Building+Fence%2C+Kom+Abo+Rady+Industrial+Zone%2C+Services+Area%2C+El+Wasta+Beni+Suef+Egypt"
+    },
+    {
+      "id": "nbe-bbd16faf5e5e2e34",
+      "name": "Al Shawashna",
+      "address": "Al Shawashna Town",
+      "governorate": "Fayoum",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Shawashna+Al+Shawashna+Town+Fayoum+Egypt"
+    },
+    {
+      "id": "nbe-49601e43333b6c4e",
+      "name": "El-Erfani, Malawy",
+      "address": "116 Port Said Street",
+      "governorate": "Minya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El-Erfani%2C+Malawy+116+Port+Said+Street+Minya+Egypt"
+    },
+    {
+      "id": "nbe-49735bd4fed08910",
+      "name": "Al Sharqi Square, Minya",
+      "address": "Abdel Moneim Al Sharqi Square, Minya",
+      "governorate": "Minya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Sharqi+Square%2C+Minya+Abdel+Moneim+Al+Sharqi+Square%2C+Minya+Minya+Egypt"
+    },
+    {
+      "id": "nbe-575d89d1a1dde5a5",
+      "name": "New Minya",
+      "address": "National Bank of Egypt, next to Cityscape Mall",
+      "governorate": "Minya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Minya+National+Bank+of+Egypt%2C+next+to+Cityscape+Mall+Minya+Egypt"
+    },
+    {
+      "id": "nbe-e17169512478eb83",
+      "name": "Obour Buildings",
+      "address": "9 Obour Buildings, Salah Salem, Heliopolis, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Obour+Buildings+9+Obour+Buildings%2C+Salah+Salem%2C+Heliopolis%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-c27262873485aa9d",
+      "name": "Amiriya",
+      "address": "1 El Sawah Square, Saray Al-Qubba, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Amiriya+1+El+Sawah+Square%2C+Saray+Al-Qubba%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-c3315c2ca7425cf2",
+      "name": "Roxy",
+      "address": "4 Botros Ghali Street, Heliopolis",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Roxy+4+Botros+Ghali+Street%2C+Heliopolis+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-83478748afa9431a",
+      "name": "Gardenia",
+      "address": "Shopping Mall, Gardenia Housing Project, Suez Road",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Gardenia+Shopping+Mall%2C+Gardenia+Housing+Project%2C+Suez+Road+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-c24d58edd991fbfb",
+      "name": "Ahalina",
+      "address": "Gamal Abdel Nasser Street, El-Salam District, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Ahalina+Gamal+Abdel+Nasser+Street%2C+El-Salam+District%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-34704234b92586fb",
+      "name": "Obour",
+      "address": "Plot 8A, Industrial Zone, Obour City, Qalyubia Governorate",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Obour+Plot+8A%2C+Industrial+Zone%2C+Obour+City%2C+Qalyubia+Governorate+Qalyubia+Egypt"
+    },
+    {
+      "id": "nbe-248a6f2dc154b667",
+      "name": "Merryland",
+      "address": "32 Nehro Street, Roxy, Heliopolis",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Merryland+32+Nehro+Street%2C+Roxy%2C+Heliopolis+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-2a7b268434702977",
+      "name": "El Hegaz",
+      "address": "99 El Hegaz Street, Heliopolis",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Hegaz+99+El+Hegaz+Street%2C+Heliopolis+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-4309c1cce28580c2",
+      "name": "Gesr El Suez",
+      "address": "60 Gesr El Suez Street, Cairo-Ismailia Desert Road",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Gesr+El+Suez+60+Gesr+El+Suez+Street%2C+Cairo-Ismailia+Desert+Road+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-f85ab5efdafbd740",
+      "name": "Nazih Khalifa",
+      "address": "29 Nazih Khalifa Street, Roxy, Heliopolis",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Nazih+Khalifa+29+Nazih+Khalifa+Street%2C+Roxy%2C+Heliopolis+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-553dfe8a744644a9",
+      "name": "Ain Shams",
+      "address": "68 Ain Shams Street, Ghoneim Towers",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Ain+Shams+68+Ain+Shams+Street%2C+Ghoneim+Towers+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-00df7947a0444112",
+      "name": "Merghany",
+      "address": "36 El Thawra Street, Corner of Merghany Street, Heliopolis, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Merghany+36+El+Thawra+Street%2C+Corner+of+Merghany+Street%2C+Heliopolis%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-94fbfb012f9874bc",
+      "name": "City Stars",
+      "address": "Building 3, Shopping Mall, Ard El Golf, Nasr City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+City+Stars+Building+3%2C+Shopping+Mall%2C+Ard+El+Golf%2C+Nasr+City+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-26dd00c755aee3f0",
+      "name": "El Golf",
+      "address": "3 Hassan Aflatoun Street, in front of the Administrative Control Authority, Nasr City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Golf+3+Hassan+Aflatoun+Street%2C+in+front+of+the+Administrative+Control+Authority%2C+Nasr+City+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-589e5e2dddbe0fbc",
+      "name": "Ahalina 2",
+      "address": "Social Housing Project, Salam District 1",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Ahalina+2+Social+Housing+Project%2C+Salam+District+1+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-a174c1272a84761c",
+      "name": "El Mataria",
+      "address": "187 Trolley Street, El Mataria",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Mataria+187+Trolley+Street%2C+El+Mataria+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-07c793b72116662b",
+      "name": "Teraet El Gabal",
+      "address": "80 Teraet El Gabal Street, Hadayek El Qubba",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Teraet+El+Gabal+80+Teraet+El+Gabal+Street%2C+Hadayek+El+Qubba+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-86839edf27de6e60",
+      "name": "El Salam Mall",
+      "address": "Town Center, Adly Mansour Station, El Salam city",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Salam+Mall+Town+Center%2C+Adly+Mansour+Station%2C+El+Salam+city+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-8b676ed60b5e597c",
+      "name": "Artillery House",
+      "address": "Artillery House Fence, El Thawra Street",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Artillery+House+Artillery+House+Fence%2C+El+Thawra+Street+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-9116011b88138ddc",
+      "name": "Al Aziz Billah, Zaitoun",
+      "address": "20A Selim El Awal Street, intersection of Al Aziz Bellah Street and Hadayek El Zaitoun",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Aziz+Billah%2C+Zaitoun+20A+Selim+El+Awal+Street%2C+intersection+of+Al+Aziz+Bellah+Street+and+Hadayek+El+Zaitoun+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-a85e094f94c5493c",
+      "name": "East Cairo",
+      "address": "Block 1000-32, Ahmed Lotfy Street, off Mohamed Kamel Hussein Street, El Nozha",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+East+Cairo+Block+1000-32%2C+Ahmed+Lotfy+Street%2C+off+Mohamed+Kamel+Hussein+Street%2C+El+Nozha+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-276c70e5f185aa41",
+      "name": "Manshayet El Bakry",
+      "address": "32 El Khalifa El Mamoun Street, Manshayet El Bakry, Heliopolis",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Manshayet+El+Bakry+32+El+Khalifa+El+Mamoun+Street%2C+Manshayet+El+Bakry%2C+Heliopolis+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-85b2d641100def2e",
+      "name": "Basyoun",
+      "address": "rd 23 of July Street, Basyoun",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Basyoun+rd+23+of+July+Street%2C+Basyoun+Gharbia+Egypt"
+    },
+    {
+      "id": "nbe-53c8a7fca7257991",
+      "name": "Tala",
+      "address": "3 El Batanounia El Sharqi Street, Tala, Monufia",
+      "governorate": "Monufia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Tala+3+El+Batanounia+El+Sharqi+Street%2C+Tala%2C+Monufia+Monufia+Egypt"
+    },
+    {
+      "id": "nbe-679e070a56ed96b2",
+      "name": "Qutour",
+      "address": "Agricultural reform land, Qutour",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Qutour+Agricultural+reform+land%2C+Qutour+Gharbia+Egypt"
+    },
+    {
+      "id": "nbe-b594b2fa2a7612bd",
+      "name": "New Tanta",
+      "address": "Plot No. A, Tanta Commercial Area, Gharbia",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Tanta+Plot+No.+A%2C+Tanta+Commercial+Area%2C+Gharbia+Gharbia+Egypt"
+    },
+    {
+      "id": "nbe-fb1e6afb2a8874e4",
+      "name": "Delengat",
+      "address": "Entrance of Delengat town, Delengat, Beheira",
+      "governorate": "Behiera",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Delengat+Entrance+of+Delengat+town%2C+Delengat%2C+Beheira+Behiera+Egypt"
+    },
+    {
+      "id": "nbe-45546bf28cecf780",
+      "name": "Abo El Matamir",
+      "address": "El Shaarawy Street, Abo El Matamir, Beheira",
+      "governorate": "Behiera",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Abo+El+Matamir+El+Shaarawy+Street%2C+Abo+El+Matamir%2C+Beheira+Behiera+Egypt"
+    },
+    {
+      "id": "nbe-b401d0245849b3a9",
+      "name": "El Fateh",
+      "address": "3 Mohamed El Fateh Street, Intersection with Ali Pasha Street, Tanta First Police Station, Gharbia",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Fateh+3+Mohamed+El+Fateh+Street%2C+Intersection+with+Ali+Pasha+Street%2C+Tanta+First+Police+Station%2C+Gharbia+Gharbia+Egypt"
+    },
+    {
+      "id": "nbe-6b72ac96ebc4fb27",
+      "name": "Tanta",
+      "address": "Extension of Corniche and Stadium Streets, Tanta, Gharbia",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Tanta+Extension+of+Corniche+and+Stadium+Streets%2C+Tanta%2C+Gharbia+Gharbia+Egypt"
+    },
+    {
+      "id": "nbe-442f02d3056316ad",
+      "name": "El Santa",
+      "address": "Port Said Street, El Santa",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Santa+Port+Said+Street%2C+El+Santa+Gharbia+Egypt"
+    },
+    {
+      "id": "nbe-ca96616dc3a9297a",
+      "name": "Kafr El Dawar",
+      "address": "25 Port Said Street, Kafr El Dawar",
+      "governorate": "Behiera",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Kafr+El+Dawar+25+Port+Said+Street%2C+Kafr+El+Dawar+Behiera+Egypt"
+    },
+    {
+      "id": "nbe-644954729e2df103",
+      "name": "Kom Hamada",
+      "address": "El Tahrir Street, Kom Hamada",
+      "governorate": "Behiera",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Kom+Hamada+El+Tahrir+Street%2C+Kom+Hamada+Behiera+Egypt"
+    },
+    {
+      "id": "nbe-3f4ed1d4245c9189",
+      "name": "Sadat City",
+      "address": "Third District Services Axis, Banks Area, Sadat City, Monufia",
+      "governorate": "Monufia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sadat+City+Third+District+Services+Axis%2C+Banks+Area%2C+Sadat+City%2C+Monufia+Monufia+Egypt"
+    },
+    {
+      "id": "nbe-63473aef531a4c03",
+      "name": "Quesna",
+      "address": "Sabry Street, next to the Education Department, Quesna",
+      "governorate": "Monufia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Quesna+Sabry+Street%2C+next+to+the+Education+Department%2C+Quesna+Monufia+Egypt"
+    },
+    {
+      "id": "nbe-0d9b4b158ac7085e",
+      "name": "Menouf",
+      "address": "Zein El-Din Street, Menouf",
+      "governorate": "Monufia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Menouf+Zein+El-Din+Street%2C+Menouf+Monufia+Egypt"
+    },
+    {
+      "id": "nbe-5f6f8634dc748fc3",
+      "name": "El Geish Street, El Mahalla El Kobra",
+      "address": "El Geish Street (formerly El Bahr Street), next to the Oriental Weavers, El Mahalla El Kobra",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Geish+Street%2C+El+Mahalla+El+Kobra+El+Geish+Street+%28formerly+El+Bahr+Street%29%2C+next+to+the+Oriental+Weavers%2C+El+Mahalla+El+Kobra+Gharbia+Egypt"
+    },
+    {
+      "id": "nbe-e153d01fa470b88b",
+      "name": "El Bar El Sharqi, Shebin El Kom",
+      "address": "Intersection of Mostafa Kamel Street and Mohamed Farid Street, El Bar El Sharqi, in front of El Bar El Sharqi Square, Shebin El Kom, Monufia",
+      "governorate": "Monufia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Bar+El+Sharqi%2C+Shebin+El+Kom+Intersection+of+Mostafa+Kamel+Street+and+Mohamed+Farid+Street%2C+El+Bar+El+Sharqi%2C+in+front+of+El+Bar+El+Sharqi+Square%2C+Shebin+El+Kom%2C+Monufia+Monufia+Egypt"
+    },
+    {
+      "id": "nbe-d3b7d9f9f6b8c572",
+      "name": "East Quesna",
+      "address": "Beginning of Quesna Road, in front of the Irrigation Engineering Authority, Quesna, Monufia",
+      "governorate": "Dakahlia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+East+Quesna+Beginning+of+Quesna+Road%2C+in+front+of+the+Irrigation+Engineering+Authority%2C+Quesna%2C+Monufia+Dakahlia+Egypt"
+    },
+    {
+      "id": "nbe-0cb546a928916402",
+      "name": "East Nile, Kafr El Zayat",
+      "address": "21 Saafan Street, Dalgamoun Bridge ramp, Kafr El Zayat city entrance",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+East+Nile%2C+Kafr+El+Zayat+21+Saafan+Street%2C+Dalgamoun+Bridge+ramp%2C+Kafr+El+Zayat+city+entrance+Gharbia+Egypt"
+    },
+    {
+      "id": "nbe-53c5987386af4f31",
+      "name": "Corniche Zefta",
+      "address": "El Bahr El Raesy Street, in front of River Rescue, Zefta, Gharbia",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Corniche+Zefta+El+Bahr+El+Raesy+Street%2C+in+front+of+River+Rescue%2C+Zefta%2C+Gharbia+Gharbia+Egypt"
+    },
+    {
+      "id": "nbe-eec55bb5a3db7ada",
+      "name": "East Sadat",
+      "address": "Banks Area, Seventh Industrial Zone, Sadat City, Monufia",
+      "governorate": "Monufia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+East+Sadat+Banks+Area%2C+Seventh+Industrial+Zone%2C+Sadat+City%2C+Monufia+Monufia+Egypt"
+    },
+    {
+      "id": "nbe-494ddf211024196a",
+      "name": "Hassan Radwan, Tanta",
+      "address": "42 Hassan Radwan Street, Tanta, Gharbia",
+      "governorate": "Tanta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Hassan+Radwan%2C+Tanta+42+Hassan+Radwan+Street%2C+Tanta%2C+Gharbia+Tanta+Egypt"
+    },
+    {
+      "id": "nbe-fbe6d9316432828f",
+      "name": "Sudan Street",
+      "address": "73 Sudan Street, Mohandessin, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Sudan+Street+73+Sudan+Street%2C+Mohandessin%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-64817695af00b1ad",
+      "name": "Mall of Egypt",
+      "address": "Unit No. \"C002-003\", Ground Floor, Mall of Egypt",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mall+of+Egypt+Unit+No.+%22C002-003%22%2C+Ground+Floor%2C+Mall+of+Egypt+Giza+Egypt"
+    },
+    {
+      "id": "nbe-69a8c87fd98d2e1b",
+      "name": "Dandy Mall",
+      "address": "Unit No. 22, Dandy Mega Mall, Cairo-Alexandria Desert Road",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Dandy+Mall+Unit+No.+22%2C+Dandy+Mega+Mall%2C+Cairo-Alexandria+Desert+Road+Giza+Egypt"
+    },
+    {
+      "id": "nbe-ea1e3bf6088ab7a5",
+      "name": "El Batal Ahmed Abdel Aziz",
+      "address": "34 El Batal Ahmed Abdel Aziz Street, Mohandessin",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Batal+Ahmed+Abdel+Aziz+34+El+Batal+Ahmed+Abdel+Aziz+Street%2C+Mohandessin+Giza+Egypt"
+    },
+    {
+      "id": "nbe-2d369eba26e35207",
+      "name": "Americana Plaza",
+      "address": "Unit No. 20, Americana Plaza, Sheikh Zayed",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Americana+Plaza+Unit+No.+20%2C+Americana+Plaza%2C+Sheikh+Zayed+Giza+Egypt"
+    },
+    {
+      "id": "nbe-c13ebefa8e496d84",
+      "name": "Syria, Mohandessin",
+      "address": "20 Syria Street, Mohandessin, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Syria%2C+Mohandessin+20+Syria+Street%2C+Mohandessin%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-957e56e7f743e748",
+      "name": "Agouza",
+      "address": "th 201, 26 July Street",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Agouza+th+201%2C+26+July+Street+Giza+Egypt"
+    },
+    {
+      "id": "nbe-f1b13e4862e1b51a",
+      "name": "Al Mathaf Al Zerai",
+      "address": "7 Dr. Mohamed Shahin Street, Agouza, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Mathaf+Al+Zerai+7+Dr.+Mohamed+Shahin+Street%2C+Agouza%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-db224310f7bc855e",
+      "name": "Citymark Mall, Sheikh Zayed",
+      "address": "Citymark Commercial and Administrative Building, Sheikh Zayed city, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Citymark+Mall%2C+Sheikh+Zayed+Citymark+Commercial+and+Administrative+Building%2C+Sheikh+Zayed+city%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-65e8eeb09e4fdb9c",
+      "name": "Allegria, Sheikh Zayed",
+      "address": "Km 38, Cairo-Alexandria Desert Road, inside Walk of Cairo Mall",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Allegria%2C+Sheikh+Zayed+Km+38%2C+Cairo-Alexandria+Desert+Road%2C+inside+Walk+of+Cairo+Mall+Giza+Egypt"
+    },
+    {
+      "id": "nbe-3243a5a47e8cee2e",
+      "name": "Star Mall",
+      "address": "th Plot X, Phase 2 Services, Hadayek Al Fardous, Building 3, Star Mall, 6 of October City",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Star+Mall+th+Plot+X%2C+Phase+2+Services%2C+Hadayek+Al+Fardous%2C+Building+3%2C+Star+Mall%2C+6+of+October+City+Giza+Egypt"
+    },
+    {
+      "id": "nbe-e12fc5296bcdc3ad",
+      "name": "Al Guezira Plaza",
+      "address": "Plot No. 33, Crazy Water Axis, Al Guezira Plaza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Guezira+Plaza+Plot+No.+33%2C+Crazy+Water+Axis%2C+Al+Guezira+Plaza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-0f3157208ed0b354",
+      "name": "Beverly Hills",
+      "address": "Km 38, Cairo-Alexandria Desert Road",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Beverly+Hills+Km+38%2C+Cairo-Alexandria+Desert+Road+Giza+Egypt"
+    },
+    {
+      "id": "nbe-d000a23d8561f6d9",
+      "name": "El Hay El Motamyez, October",
+      "address": "th Naguib Mahfouz Street, El Hay El Motamyez, 6 of October City",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Hay+El+Motamyez%2C+October+th+Naguib+Mahfouz+Street%2C+El+Hay+El+Motamyez%2C+6+of+October+City+Giza+Egypt"
+    },
+    {
+      "id": "nbe-76914605d4f95f31",
+      "name": "Zamalek Club Fence",
+      "address": "th 29, 26 of July Extension, Zamalek Club Fence",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Zamalek+Club+Fence+th+29%2C+26+of+July+Extension%2C+Zamalek+Club+Fence+Giza+Egypt"
+    },
+    {
+      "id": "nbe-a5cfe48abd7d9ace",
+      "name": "Al Takamul",
+      "address": "149/151 Sudan Street",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Al+Takamul+149%2F151+Sudan+Street+Giza+Egypt"
+    },
+    {
+      "id": "nbe-1ea6ca21fe10bb2b",
+      "name": "th 6 of October City",
+      "address": "th Tower 8, Borai Plaza Towers, Central Axis, 6 of October City, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+th+6+of+October+City+th+Tower+8%2C+Borai+Plaza+Towers%2C+Central+Axis%2C+6+of+October+City%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-a359db373b9e6522",
+      "name": "th Industrial Zone, 6 of October City",
+      "address": "th th 4 Industrial Zone, Banks Complex, 6 of October City",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+th+Industrial+Zone%2C+6+of+October+City+th+th+4+Industrial+Zone%2C+Banks+Complex%2C+6+of+October+City+Giza+Egypt"
+    },
+    {
+      "id": "nbe-208d25ee535fa5d3",
+      "name": "th Central Axis, 6 of October City",
+      "address": "th Plot 3/65, Central Axis, 6 of October City",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+th+Central+Axis%2C+6+of+October+City+th+Plot+3%2F65%2C+Central+Axis%2C+6+of+October+City+Giza+Egypt"
+    },
+    {
+      "id": "nbe-b5715a37a00e6b28",
+      "name": "Mossadak",
+      "address": "3, 5 Mossadak Street, Dokki",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mossadak+3%2C+5+Mossadak+Street%2C+Dokki+Giza+Egypt"
+    },
+    {
+      "id": "nbe-85a77d5d1edee308",
+      "name": "Smart Village",
+      "address": "Km 28, Cairo-Alexandria Desert Road",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Smart+Village+Km+28%2C+Cairo-Alexandria+Desert+Road+Giza+Egypt"
+    },
+    {
+      "id": "nbe-d0c26c04f996d428",
+      "name": "New Giza",
+      "address": "Km 22, Cairo-Alexandria Desert Road, Annex Building, New Giza Sports Club",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+New+Giza+Km+22%2C+Cairo-Alexandria+Desert+Road%2C+Annex+Building%2C+New+Giza+Sports+Club+Giza+Egypt"
+    },
+    {
+      "id": "nbe-d7bec8df18c83925",
+      "name": "Concordia Plaza",
+      "address": "th Plot 13, Eastern Expansions, next to Gezira Sporting Club, 6 of October City",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Concordia+Plaza+th+Plot+13%2C+Eastern+Expansions%2C+next+to+Gezira+Sporting+Club%2C+6+of+October+City+Giza+Egypt"
+    },
+    {
+      "id": "nbe-36329804387cab4e",
+      "name": "th Al Kafrawy Axis, 6 of October City",
+      "address": "th Shooping Center, District 3, Neighborhood 6, Al Kafrawy Axis, 6 of October City, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+th+Al+Kafrawy+Axis%2C+6+of+October+City+th+Shooping+Center%2C+District+3%2C+Neighborhood+6%2C+Al+Kafrawy+Axis%2C+6+of+October+City%2C+Giza+Giza+Egypt"
+    },
+    {
+      "id": "nbe-b0faa4a1ee55e2bb",
+      "name": "th th 26 of July Axis, 6 of October City",
+      "address": "th th 26 of July Axis, next to Al Khamayel Compound, 6 of October City",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+th+th+26+of+July+Axis%2C+6+of+October+City+th+th+26+of+July+Axis%2C+next+to+Al+Khamayel+Compound%2C+6+of+October+City+Giza+Egypt"
+    },
+    {
+      "id": "nbe-5f16a1bdefac919f",
+      "name": "Monshaat El Qanater, Giza",
+      "address": "Nile Garden Fence, Monshaat El Qanater city, Giza Governorate",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Monshaat+El+Qanater%2C+Giza+Nile+Garden+Fence%2C+Monshaat+El+Qanater+city%2C+Giza+Governorate+Giza+Egypt"
+    },
+    {
+      "id": "nbe-63dbb295053dac00",
+      "name": "El Diplomasyeen, Sheikh Zayed",
+      "address": "th Services Building 2, Neighborhood 3, District 2, Sheikh Zayed, 6 of October City",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Diplomasyeen%2C+Sheikh+Zayed+th+Services+Building+2%2C+Neighborhood+3%2C+District+2%2C+Sheikh+Zayed%2C+6+of+October+City+Giza+Egypt"
+    },
+    {
+      "id": "nbe-513114fb899666f1",
+      "name": "Elwi",
+      "address": "4 El Shawarby Street, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Elwi+4+El+Shawarby+Street%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-e18c0738adafe65e",
+      "name": "Tharwat",
+      "address": "39 Abdel Khalek Tharwat Street, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Tharwat+39+Abdel+Khalek+Tharwat+Street%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-7f4dc1e286dc26a5",
+      "name": "El Sherifeen",
+      "address": "9 El Sharifain Street, off Qasr El-Nil Street, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Sherifeen+9+El+Sharifain+Street%2C+off+Qasr+El-Nil+Street%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-3b0f9574204efa1a",
+      "name": "Arkadia",
+      "address": "Arkadia Mall, Nile Corniche",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Arkadia+Arkadia+Mall%2C+Nile+Corniche+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-220659ab5f5464c6",
+      "name": "El Hamzawy",
+      "address": "160 Gawhar El Qaed Street, in front of Al-Hussein Hospital, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Hamzawy+160+Gawhar+El+Qaed+Street%2C+in+front+of+Al-Hussein+Hospital%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-1c46f70b1723f01b",
+      "name": "Mohamed Farid",
+      "address": "147 Mohamed Farid Street, Downtown",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mohamed+Farid+147+Mohamed+Farid+Street%2C+Downtown+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-3d14067961963aa2",
+      "name": "Dawaran Shoubra",
+      "address": "82 Shoubra Street and 61 Asaad Street",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Dawaran+Shoubra+82+Shoubra+Street+and+61+Asaad+Street+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-40d19c0a459ff697",
+      "name": "Manshayet El Horreya",
+      "address": "th 173, 15 of May Street, Shoubra El-Kheima Second Police Station",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Manshayet+El+Horreya+th+173%2C+15+of+May+Street%2C+Shoubra+El-Kheima+Second+Police+Station+Qalyubia+Egypt"
+    },
+    {
+      "id": "nbe-77e8c493ba6e2a70",
+      "name": "Tower",
+      "address": "1187 Nile Corniche",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Tower+1187+Nile+Corniche+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-634e6472df7605b6",
+      "name": "Mahattat Masr",
+      "address": "Shop No. 101, Ground Floor, Shopping Center attached to Ramsis Railway Station, Suite 1",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Mahattat+Masr+Shop+No.+101%2C+Ground+Floor%2C+Shopping+Center+attached+to+Ramsis+Railway+Station%2C+Suite+1+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-34e18a424504fcd1",
+      "name": "Abbassia",
+      "address": "5 El Esbitalia El-Faransawi Square, Abbassia, in front of Air Force Hospital, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Abbassia+5+El+Esbitalia+El-Faransawi+Square%2C+Abbassia%2C+in+front+of+Air+Force+Hospital%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-a05fe4dd4a6ff066",
+      "name": "North Cairo",
+      "address": "Plastic Club Street, next to the Youth Development Center, Shoubra El-Kheima",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+North+Cairo+Plastic+Club+Street%2C+next+to+the+Youth+Development+Center%2C+Shoubra+El-Kheima+Qalyubia+Egypt"
+    },
+    {
+      "id": "nbe-778a50f2934ccfac",
+      "name": "El Khalafawy",
+      "address": "14 Mamal El Alban Street, Mamalik Square, El Khalafawy",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+El+Khalafawy+14+Mamal+El+Alban+Street%2C+Mamalik+Square%2C+El+Khalafawy+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-3054a01c8266feac",
+      "name": "Police Sporting Federation Club",
+      "address": "16 Al Beouth Al Islamia Street, El Darrasa, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Police+Sporting+Federation+Club+16+Al+Beouth+Al+Islamia+Street%2C+El+Darrasa%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-f77a9c0c115bdec0",
+      "name": "Ain Shams University",
+      "address": "Inside Ain Shams University campus, in front of the Faculty of Commerce, Abbassia, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Ain+Shams+University+Inside+Ain+Shams+University+campus%2C+in+front+of+the+Faculty+of+Commerce%2C+Abbassia%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-a3dfb72dc63e8986",
+      "name": "Kamel Sedky, El Faggala",
+      "address": "39A Kamel Sedky Street, El Fagala, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Kamel+Sedky%2C+El+Faggala+39A+Kamel+Sedky+Street%2C+El+Fagala%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-8bbbfad092120dbe",
+      "name": "Fakhry Abdel Nour, Abbassia",
+      "address": "9 Emtedad Ramsis Street, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Fakhry+Abdel+Nour%2C+Abbassia+9+Emtedad+Ramsis+Street%2C+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-75fa866749e75824",
+      "name": "Adly Street",
+      "address": "25 Adly Street, Omar Effendi Premises, Downtown",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Adly+Street+25+Adly+Street%2C+Omar+Effendi+Premises%2C+Downtown+Cairo+Egypt"
+    },
+    {
+      "id": "nbe-55da9fecbc446a24",
+      "name": "Aga Khan",
+      "address": "Aga Khan Towers, Nile Corniche",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=National+Bank+of+Egypt+Aga+Khan+Aga+Khan+Towers%2C+Nile+Corniche+Cairo+Egypt"
+    }
+  ],
+  "atms": [],
+  "branches_status": "partial",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://www.nbe.com.eg/NBEPlatinum/PlatinumPlus.aspx?lang=AR",
+    "https://www.nbe.com.eg/AssetsManager/99eef9a2-d128-477e-892b-a3c57561bda3.pdf"
+  ],
+  "branch_locator_url": "https://www.nbe.com.eg/NBE/E/#/EN/ATMsAndBranches",
+  "atm_locator_url": "https://www.nbe.com.eg/NBE/E/#/EN/ATMsAndBranches",
+  "hotline": "19623",
+  "contact_url": "https://www.nbe.com.eg/",
+  "reviewed_at": "2026-10-29",
+  "version": "9e19ac7550a2f487"
+}

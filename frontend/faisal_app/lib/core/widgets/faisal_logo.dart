@@ -1,3 +1,5 @@
+import '../../features/banks/presentation/bank_logo.dart';
+
 import 'package:flutter/material.dart';
 
 import '../config/banking_identity.dart';
@@ -5,7 +7,7 @@ import '../theme/app_spacing.dart';
 import '../theme/faisal_palette.dart';
 import '../../features/branding/presentation/widgets/branding_scope.dart';
 
-/// The compiled Banking App identity. Remote bank appearance never replaces it.
+/// Reviewed bank identity follows the current scope; native branding stays compiled.
 class FaisalLogo extends StatelessWidget {
   const FaisalLogo({
     super.key,
@@ -19,6 +21,7 @@ class FaisalLogo extends StatelessWidget {
   final bool showWordmark;
   @override
   Widget build(BuildContext context) {
+    final bank = BrandingScope.bankOf(context);
     final dark = onDark ?? Theme.of(context).brightness == Brightness.dark;
     final color = dark
         ? BrandingScope.headerText(context)
@@ -30,20 +33,23 @@ class FaisalLogo extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        ClipRRect(
-          borderRadius: BorderRadius.circular(size * .24),
-          child: ColoredBox(
-            color: Colors.white,
-            child: Image.asset(
-              assetPath,
-              width: size,
-              height: size,
-              fit: BoxFit.contain,
-              filterQuality: FilterQuality.high,
-              semanticLabel: 'Banking App logo',
+        if (bank != null)
+          BankLogo(bank: bank, size: size)
+        else
+          ClipRRect(
+            borderRadius: BorderRadius.circular(size * .24),
+            child: ColoredBox(
+              color: Colors.white,
+              child: Image.asset(
+                assetPath,
+                width: size,
+                height: size,
+                fit: BoxFit.contain,
+                filterQuality: FilterQuality.high,
+                semanticLabel: BankingIdentity.displayName(context),
+              ),
             ),
           ),
-        ),
         if (showWordmark) ...[
           const SizedBox(width: AppSpacing.md),
           Flexible(
@@ -54,8 +60,8 @@ class FaisalLogo extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    BankingIdentity.name,
-                    maxLines: 1,
+                    BankingIdentity.displayName(context),
+                    maxLines: 3,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
                       fontSize: 18,
@@ -64,12 +70,13 @@ class FaisalLogo extends StatelessWidget {
                       color: color,
                     ),
                   ),
-                  Text(
-                    arabic ? 'بنوكك في تطبيق واحد' : 'Your banks, one app',
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(fontSize: 12, color: muted),
-                  ),
+                  if (bank == null)
+                    Text(
+                      arabic ? 'بنوكك في تطبيق واحد' : 'Your banks, one app',
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: TextStyle(fontSize: 12, color: muted),
+                    ),
                 ],
               ),
             ),

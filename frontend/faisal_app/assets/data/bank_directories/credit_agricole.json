@@ -1,0 +1,4310 @@
+{
+  "bank_code": "credit_agricole",
+  "branches": [
+    {
+      "id": "credit_agricole-3de83cd443739256",
+      "name": "Talaat Harab",
+      "address": "19, Talaat Harb St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0470990%2C31.2381020"
+    },
+    {
+      "id": "credit_agricole-53f47b606460e59d",
+      "name": "Ramsis Hilton",
+      "address": "1115, Cornish El Nile - Ramsis Hilton Hotel",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0502800%2C31.2321030"
+    },
+    {
+      "id": "credit_agricole-74f4787662bb93d0",
+      "name": "Garden City",
+      "address": "23, Gamal El-Din Abou El-Mahasen St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0370210%2C31.2299530"
+    },
+    {
+      "id": "credit_agricole-7c594e8826015743",
+      "name": "Tharwat",
+      "address": "48 & 50, Abdel Khalek Tharwat St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0504050%2C31.2455600"
+    },
+    {
+      "id": "credit_agricole-3898e8ab74dd9edc",
+      "name": "Gezirah",
+      "address": "6, Gezirah St.- Zamalek",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0561760%2C31.2215180"
+    },
+    {
+      "id": "credit_agricole-0a7e7606785a8829",
+      "name": "Zamalek",
+      "address": "4, Hassan Sabry St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0535920%2C31.2188850"
+    },
+    {
+      "id": "credit_agricole-b66ccc5ff5b5a636",
+      "name": "Giza",
+      "address": "3, El -Yemen St.",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0319550%2C31.2179750"
+    },
+    {
+      "id": "credit_agricole-b38e0eebb7b9dd1e",
+      "name": "EL Messaha",
+      "address": "10 El Messaha square",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0355750%2C31.2137610"
+    },
+    {
+      "id": "credit_agricole-3de19730070d9641",
+      "name": "Mohandeseen",
+      "address": "46, El-Batal Ahmed Abdel Aziz St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0538330%2C31.2050080"
+    },
+    {
+      "id": "credit_agricole-64663460f08d84bd",
+      "name": "Dokki",
+      "address": "33, Mosadak Street, Dokki",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0437960%2C31.2018840"
+    },
+    {
+      "id": "credit_agricole-11dcf202f8ac46ef",
+      "name": "Shooting Club Dokki",
+      "address": "Egyptian Shooting Club",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0468940%2C31.1995580"
+    },
+    {
+      "id": "credit_agricole-65250386a6ba97e1",
+      "name": "Syria",
+      "address": "10, Syria St.",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0530030%2C31.1995950"
+    },
+    {
+      "id": "credit_agricole-2173c5498e71f7cf",
+      "name": "Shubra Branch ATM",
+      "address": "182 Shoubra Street – Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0904570%2C31.2449170"
+    },
+    {
+      "id": "credit_agricole-275f2e2144f7f357",
+      "name": "Hadayek El Qoba",
+      "address": "Building #123 Misr-Sudan St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0835840%2C31.2794100"
+    },
+    {
+      "id": "credit_agricole-b385c52b43f18bc3",
+      "name": "Mokattam",
+      "address": "Intersection of St.9 with St.10 – High Hill",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0134960%2C31.2877320"
+    },
+    {
+      "id": "credit_agricole-8473dfa4a2e8f4ad",
+      "name": "Maadi",
+      "address": "4, Road 151",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0933240%2C31.2692570"
+    },
+    {
+      "id": "credit_agricole-6976697336fe1bf7",
+      "name": "Maadi El Nasr",
+      "address": "Lot No. 2/d/4, El-Nasr street –El Laselky",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9757430%2C31.2841390"
+    },
+    {
+      "id": "credit_agricole-9763050dd11e5225",
+      "name": "Faisal",
+      "address": "146, King Faisal St. El Kom Al Akhdar Station Effective 14 June 2026, branch operations will be transferred to Pyramids Branch",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9960940%2C31.1527430"
+    },
+    {
+      "id": "credit_agricole-b725e12028e5fe7c",
+      "name": "Baghdad",
+      "address": "12, Baghdad St., El-Korba",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0900020%2C31.3232100"
+    },
+    {
+      "id": "credit_agricole-2b00073d46cbd205",
+      "name": "New Haram",
+      "address": "408, El-Haram St., Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9914580%2C31.1539590"
+    },
+    {
+      "id": "credit_agricole-cb4a3717b81e6796",
+      "name": "Sefarat",
+      "address": "67 Zaker Hussein Street, extension of Abbas El-Akkad st.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0442680%2C31.3395640"
+    },
+    {
+      "id": "credit_agricole-f0620e77dcfcf1c5",
+      "name": "Nasr City",
+      "address": "9, Abdel Razek El Sanhoury St., off Abbas El Akkad St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0621990%2C31.3392180"
+    },
+    {
+      "id": "credit_agricole-400dbe3b1d99f88f",
+      "name": "Merghany",
+      "address": "79, El-Merghany St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0843930%2C31.3309810"
+    },
+    {
+      "id": "credit_agricole-b25a565b2f4d3d8c",
+      "name": "Sarayat",
+      "address": "2, Mostafa Kamel St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9555420%2C31.2703400"
+    },
+    {
+      "id": "credit_agricole-067e46564bfc0fad",
+      "name": "Katameya",
+      "address": "Badr Towers - Ring Road, Beside Carrefour",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9837990%2C31.3206570"
+    },
+    {
+      "id": "credit_agricole-68ad1b0b30253840",
+      "name": "Makram Ebeid",
+      "address": "64, Makram Ebeid St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0618620%2C31.3448540"
+    },
+    {
+      "id": "credit_agricole-d95d5200c7a96a99",
+      "name": "City Stars Branch",
+      "address": "Ground floor - unit 132 - Gate 5 - City Stars",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0735600%2C31.3464690"
+    },
+    {
+      "id": "credit_agricole-5c64fc756a457094",
+      "name": "Heliopolis",
+      "address": "72, Omar Ibn El-Khattab St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0915270%2C31.3409430"
+    },
+    {
+      "id": "credit_agricole-f2fffe0df9c35c5c",
+      "name": "Hassan Maamoun branch",
+      "address": "96 Hassan Maamoun st.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0677440%2C31.3563970"
+    },
+    {
+      "id": "credit_agricole-364781689762350f",
+      "name": "Pyramids",
+      "address": "23 Cairo Alex Desert Road , El Haram, Giza.",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9884350%2C31.1294010"
+    },
+    {
+      "id": "credit_agricole-3d2f0d404b6b90cc",
+      "name": "Saint Fatima",
+      "address": "94, Abdel Aziz Fahmy St., Saint Fatima Square",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1057270%2C31.3436420"
+    },
+    {
+      "id": "credit_agricole-bdb498e6793a90f9",
+      "name": "Shams",
+      "address": "92 Mohamed Farid Street near El Hegaz square El No",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1146600%2C31.3428500"
+    },
+    {
+      "id": "credit_agricole-bea94a0071aa226b",
+      "name": "Sheraton",
+      "address": "11, Khaled Ibn El Waleed Street, Masaken Sheraton",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1028790%2C31.3773780"
+    },
+    {
+      "id": "credit_agricole-aade32bc82ab27c7",
+      "name": "Head Office",
+      "address": "90th street, 1st right to Choueifat area, 5th sett",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0064010%2C31.4023430"
+    },
+    {
+      "id": "credit_agricole-4b5837078a334c58",
+      "name": "5th Settlement (El-Tagamoa El-Khames)",
+      "address": "Downtown mall, 90th street, Area “A”, New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0169210%2C31.4111050"
+    },
+    {
+      "id": "credit_agricole-b74cc08d2a1a1d2a",
+      "name": "Hale Town Palm Hills",
+      "address": "Unit NO.( PH MDCL – B – 16G) in the ground floor at Hale Town Center – Gold Views – EL Sheikh Zayed , Giza.",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9932470%2C31.0472820"
+    },
+    {
+      "id": "credit_agricole-35faa1b276867a22",
+      "name": "Chillout",
+      "address": "Shell Out 1 Service - located on the Cairo-Alexandria Desert Road, below the turnbridge facing the Smart Village - Shop No. 4 - Ground floor",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0684560%2C31.0168580"
+    },
+    {
+      "id": "credit_agricole-7793682ba0af273c",
+      "name": "Dandy Mall",
+      "address": "Kilo 28 Cairo-Alex Desert Road - Dandy Mega Mall",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0685800%2C31.0147310"
+    },
+    {
+      "id": "credit_agricole-6878be691eb14dd5",
+      "name": "El Sheikh zayed – El Morshedy Mall",
+      "address": "Axis of 26 of July – Plot 34 - Sixth of October",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0183310%2C31.0044150"
+    },
+    {
+      "id": "credit_agricole-001e518c692174ca",
+      "name": "Rehab",
+      "address": "Shop no.407, Commercial Center- Rehab City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0583190%2C31.4896230"
+    },
+    {
+      "id": "credit_agricole-70f8cdc9b69214d1",
+      "name": "EL-Teseen",
+      "address": "South El Teseen street, in front of the AUC at the administrative building of Al Bonian.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0258060%2C31.4938330"
+    },
+    {
+      "id": "credit_agricole-5b2a2db6ae29ed05",
+      "name": "Palm Strip Branch",
+      "address": "Shop #1 Palm Strip Mall,- beside Masr University - October",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9916640%2C30.9683200"
+    },
+    {
+      "id": "credit_agricole-292e68065dd6146c",
+      "name": "El Rehab 2 – Eastern Market",
+      "address": "Shop 102 - district A - northen Easter facility Area -Elrehab 2",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0710010%2C31.5143140"
+    },
+    {
+      "id": "credit_agricole-0a0192197ea7fc6d",
+      "name": "Obour",
+      "address": "City Club - Main Gate (Shops # 38&39)",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1774010%2C31.4741050"
+    },
+    {
+      "id": "credit_agricole-cade257969357a3f",
+      "name": "Sheikh Zayed",
+      "address": "Westown Hub – Kilo 38 Cairo Alexandria Desert road",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0741210%2C30.9467020"
+    },
+    {
+      "id": "credit_agricole-60a1651038e14ff2",
+      "name": "Mivida Branch",
+      "address": "Plot # 16 – Investors Eastern Extension – the Lotus East – Services Area # 4 – Building # 6 3D-3E-4A-4B – Fifth Settlement – New Cairo – Cairo Governorate.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0069620%2C31.5300940"
+    },
+    {
+      "id": "credit_agricole-c1af33ceb35ed207",
+      "name": "Sixth of October Industrial Zone",
+      "address": "Industrial Zone - Banks Zone",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9434540%2C30.8964060"
+    },
+    {
+      "id": "credit_agricole-affdc03083a1cc79",
+      "name": "New EL Sherouk – Terrrace Mall Branch",
+      "address": "Shop No. (A0-15 & A0-16) located on the (ground) floor - located within the integrated commercial mall (Terrace-A) third district east of El Shorouk City - Cairo.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1509520%2C31.6271970"
+    },
+    {
+      "id": "credit_agricole-9434afa0adb2975f",
+      "name": "Madinaty",
+      "address": "Kilo 33 Suez road/ Commercial zone, Madinaty club",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0970940%2C31.6429910"
+    },
+    {
+      "id": "credit_agricole-806925200432838b",
+      "name": "Banha",
+      "address": "Dream Towers- behind Muslim Youth association",
+      "governorate": "Banha",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4667170%2C31.1799030"
+    },
+    {
+      "id": "credit_agricole-a10ac1c8d4860b73",
+      "name": "Tenth of Ramadan",
+      "address": "Plot 5 - City Center",
+      "governorate": "Zakazeek",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2867080%2C31.7490000"
+    },
+    {
+      "id": "credit_agricole-141ce5598e9b1ac2",
+      "name": "Shebein EL-Kom branch",
+      "address": "104 Gamal Abdel Nasser Street – in front of Faculty of Engineering – Shebeen El Koum Menoufia Governorate",
+      "governorate": "Monufia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5771560%2C31.0093260"
+    },
+    {
+      "id": "credit_agricole-4bea8f2fc968c497",
+      "name": "Sharkia Branch",
+      "address": "45 Talaat Harb St., (Corniche) , Zaqaziq City - Sharkia",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Sharkia+Branch+45+Talaat+Harb+St.%2C+%28Corniche%29+%2C+Zaqaziq+City+-+Sharkia+Cairo+Egypt"
+    },
+    {
+      "id": "credit_agricole-0552d8420432d417",
+      "name": "Sadat City",
+      "address": "15 belal abn rabah st., 1st residential area, Sadat City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Sadat+City+15+belal+abn+rabah+st.%2C+1st+residential+area%2C+Sadat+City+Cairo+Egypt"
+    },
+    {
+      "id": "credit_agricole-837145373d2f68b0",
+      "name": "طنــطا",
+      "address": "تقاطع شارع الجيش من شارع محمد شرف",
+      "governorate": "طنــطا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7918570%2C30.9983970"
+    },
+    {
+      "id": "credit_agricole-a64346c8c7369557",
+      "name": "Tanta New Branch",
+      "address": "133 ElGeish street Tanta - El Sharque insurance company bulding",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7919620%2C30.9633890"
+    },
+    {
+      "id": "credit_agricole-221bab249aa2e56a",
+      "name": "Beni Suef",
+      "address": "17 Port Said St.,Borg Khafaguy next to KFC",
+      "governorate": "Beni Suef",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.0792380%2C31.1004170"
+    },
+    {
+      "id": "credit_agricole-c9bd30a8961b042f",
+      "name": "Mansoura",
+      "address": "64, El-Gomhoreya St., beside Faculty of Dentistry - Dakahleya",
+      "governorate": "Mansoura",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0453940%2C31.3596300"
+    },
+    {
+      "id": "credit_agricole-db93b15b949e47a9",
+      "name": "Mansoura Torail",
+      "address": "1 Ahmed Badawy St. (Ex Botary St.) off Suez Canal St. near Om Kolthoum Square",
+      "governorate": "Mansoura",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0486120%2C31.3958160"
+    },
+    {
+      "id": "credit_agricole-b5f94470b5160191",
+      "name": "Ismailia",
+      "address": "Kortoba Tower - Mogamae'e El-Mahakem",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6136900%2C32.2722580"
+    },
+    {
+      "id": "credit_agricole-a27a184f5589c015",
+      "name": "Suez",
+      "address": "14 El Geish St. corner of Sinai St.",
+      "governorate": "Suez",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9656250%2C32.5520680"
+    },
+    {
+      "id": "credit_agricole-e732ac83a4a2a3a9",
+      "name": "Damietta Kornish",
+      "address": "67 Saad Zaghloul Street, El Courniche - Damietta",
+      "governorate": "Damietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4176580%2C31.8115570"
+    },
+    {
+      "id": "credit_agricole-61132afcec199ff9",
+      "name": "Damietta Port",
+      "address": "Damietta Port",
+      "governorate": "Damietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4708870%2C31.7622860"
+    },
+    {
+      "id": "credit_agricole-ee1c1040b07ddf1e",
+      "name": "Port Said",
+      "address": "Corner of Gomhoreya, Delicepse St., Port Said, Egypt.",
+      "governorate": "Port Said",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2692020%2C32.3156350"
+    },
+    {
+      "id": "credit_agricole-d3cf422aaddee7b6",
+      "name": "Smouha",
+      "address": "Smouha",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2100990%2C29.9615420"
+    },
+    {
+      "id": "credit_agricole-756d6640e5663512",
+      "name": "Alexandria Sporting Club",
+      "address": "Inside Alexandria Sporting Club",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2148410%2C29.9359740"
+    },
+    {
+      "id": "credit_agricole-bb67f8dd9a8c4822",
+      "name": "Fleming",
+      "address": "El Horreya Road - Fleming - Alex",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1984640%2C29.9076870"
+    },
+    {
+      "id": "credit_agricole-9a981ab08107dd98",
+      "name": "Stadium",
+      "address": "10, Patrice Lumumba St., Bab Sharq",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1978920%2C29.9128440"
+    },
+    {
+      "id": "credit_agricole-c15c661b519f7956",
+      "name": "Miami",
+      "address": "28 Ibn Saad St. off Street 45",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2696280%2C29.9983910"
+    },
+    {
+      "id": "credit_agricole-3ace4549308ff35e",
+      "name": "Alex Bay",
+      "address": "Glym Bay Cornish Road",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2420270%2C29.9594020"
+    },
+    {
+      "id": "credit_agricole-0b6679944bf27e36",
+      "name": "Salah Salem",
+      "address": "14, Salah Salem St.",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1965550%2C29.8966210"
+    },
+    {
+      "id": "credit_agricole-edc1453f1c175cc6",
+      "name": "Loran",
+      "address": "476 Main St., Elkornish, Alex",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1340320%2C29.8140050"
+    },
+    {
+      "id": "credit_agricole-5374b642e3931dc9",
+      "name": "Borg El-Aarab",
+      "address": "Banks Zone -Beside Borg El Arab Council",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8836690%2C29.5775560"
+    },
+    {
+      "id": "credit_agricole-b293de2e1b0e428a",
+      "name": "Menya",
+      "address": "Port Said St., Muslims Youth Association Building",
+      "governorate": "Menya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.1015980%2C30.7547580"
+    },
+    {
+      "id": "credit_agricole-99780a734d42fe25",
+      "name": "Assiut",
+      "address": "El-Watania Towers - El-Gomhoreya & Goal Gamal St.",
+      "governorate": "Assuit",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1915360%2C31.1884470"
+    },
+    {
+      "id": "credit_agricole-fe7212680fa75a25",
+      "name": "Gouna",
+      "address": "Kafr El-Gouna, in front of El-Khan Hotel",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3956430%2C33.6746840"
+    },
+    {
+      "id": "credit_agricole-57aaf2d3ef0b7ea4",
+      "name": "Sharm El Sheikh",
+      "address": "Neama Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9118910%2C34.3188680"
+    },
+    {
+      "id": "credit_agricole-d36143ae0720a866",
+      "name": "Nabq Bay",
+      "address": "Park In Mall, Nabq Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0275900%2C34.4330420"
+    },
+    {
+      "id": "credit_agricole-98c88609ddeb90e9",
+      "name": "Sohag",
+      "address": "30, Cournich El-Nile St., Corner of El-Horria and Isaac St.",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.5475500%2C31.7030130"
+    },
+    {
+      "id": "credit_agricole-43e8976adbb59b47",
+      "name": "Hurghada",
+      "address": "Mohamady Hwaidak Square, El-Mamsha El-Seyahie",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1951830%2C33.8326550"
+    },
+    {
+      "id": "credit_agricole-247c0a9c403a7ded",
+      "name": "Qena",
+      "address": "26th of July St., Infront of Qena Public Hospital",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1574070%2C32.7072760"
+    },
+    {
+      "id": "credit_agricole-1a7a3809e38bd583",
+      "name": "Luxor",
+      "address": "Keddis Hotel, 54 Khaled Ebn El-Waleed St.",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6867160%2C32.6315940"
+    },
+    {
+      "id": "credit_agricole-589b0ab3403225c1",
+      "name": "Aswan El Mahatta",
+      "address": "Beshara Abd El-Maseeh Building, Station Square",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.1000080%2C32.9018820"
+    },
+    {
+      "id": "credit_agricole-5931590df5d37169",
+      "name": "Aswan",
+      "address": "1, Bahary El Lokanda St.",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0997700%2C32.9013450"
+    }
+  ],
+  "atms": [
+    {
+      "id": "credit_agricole-dfc93fa4ac98fd03",
+      "name": "Talaat Harb Branch ATM",
+      "address": "19, Talaat Harb St",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0482500%2C31.2391050"
+    },
+    {
+      "id": "credit_agricole-f68908cd30786684",
+      "name": "Blue Nile Boat",
+      "address": "9 sarai elgezira street",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0454330%2C31.2284230"
+    },
+    {
+      "id": "credit_agricole-406919a2add058f1",
+      "name": "NILOFAR Floating Restaurant",
+      "address": "NILOFAR Floating Restaurant, 15 Al Saraya Street Al Zamalek",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0497000%2C31.2276510"
+    },
+    {
+      "id": "credit_agricole-5ce8bfa56f7a4d0c",
+      "name": "Al Saraya Restaurant Cruise",
+      "address": "Al Saraya Restaurant Cruise, Al Zamalek Area",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0508080%2C31.2279730"
+    },
+    {
+      "id": "credit_agricole-369a04a4d95c58e8",
+      "name": "Blue Blue Boat",
+      "address": "Blue Blue Boat Montazh El Giza , Al Zamalek , Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0388140%2C31.2225980"
+    },
+    {
+      "id": "credit_agricole-8fe9a98b29956d97",
+      "name": "Cairo Marriott Hotel",
+      "address": "Cairo Marriott Hotel & Omar-Khayyam Casino, 16 Saraya El Gezira St. Zamalek, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0359720%2C31.2247480"
+    },
+    {
+      "id": "credit_agricole-717b20a7d5ae2bec",
+      "name": "El Bayt Baytek Restaurant",
+      "address": "El Bayt Baytek Restaurant, 111 El Nile St. Infront Sheraton Hotel",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0386110%2C31.2207720"
+    },
+    {
+      "id": "credit_agricole-3d943daa54bf3c8f",
+      "name": "Sheraton Cairo Hotel",
+      "address": "Sheraton Cairo Hotel, El Dokki - Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0386130%2C31.2195890"
+    },
+    {
+      "id": "credit_agricole-6f6d784963e34626",
+      "name": "Pyramisa Suites Hotel Cairo",
+      "address": "Pyramisa Suites Hotel Cairo, 60Giza St beside Agouza tunnel",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0378600%2C31.2179790"
+    },
+    {
+      "id": "credit_agricole-82ebbbb7ad0b4fa9",
+      "name": "Al Nabila Cairo Tower Hotel",
+      "address": "Al Nabila Hotel, 4Gameat Alduwal Mohandesin",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0590240%2C31.2505290"
+    },
+    {
+      "id": "credit_agricole-b2ccc3b3dac62d7f",
+      "name": "White Nile Restaurant",
+      "address": "White Nile Restaurant, 90 Nile St Al Agouza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0557050%2C31.2164070"
+    },
+    {
+      "id": "credit_agricole-5de37bfeb27649b8",
+      "name": "Teleperformance Co. ATM",
+      "address": "Post Building , Werash El Telefonat St. , Above Shoubra Tunnel, Shoubra",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0637950%2C31.2436220"
+    },
+    {
+      "id": "credit_agricole-931e38bb634128e2",
+      "name": "Safir Hotel El Dokki",
+      "address": "Safir Hotel El Dokki, 22 Refaa St. Al Mesaha Sq.Dokki",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0353080%2C31.2134300"
+    },
+    {
+      "id": "credit_agricole-30e63bf47da7b761",
+      "name": "Crystal Asfour Shop",
+      "address": "Crystal Asfour, Beside Naguib Mahfouz Restaurant, Khan el-Khalili",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0480070%2C31.2615250"
+    },
+    {
+      "id": "credit_agricole-40791ee515b2e0aa",
+      "name": "Naguib Mahfouz Restaurant",
+      "address": "Naguib Mahfouz Restaurant, Khan Al Khalili, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0481070%2C31.2616440"
+    },
+    {
+      "id": "credit_agricole-9463fa919eb9d68c",
+      "name": "Radwan Hotel – Khan Elkhalili",
+      "address": "83Johar Elqaed, Al Hussein Square El Gamalia",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0471420%2C31.2619130"
+    },
+    {
+      "id": "credit_agricole-1549bb83d5c5a832",
+      "name": "Alfishawy caffee – Khan Elkhalili",
+      "address": "Khan el-Khalili, El-Gamaleya, Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0472630%2C31.2622510"
+    },
+    {
+      "id": "credit_agricole-63d9194870e92f21",
+      "name": "NILE DRAGON Boat",
+      "address": "Nile Dragon Boat, 23 Nile Street, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0267500%2C31.2182470"
+    },
+    {
+      "id": "credit_agricole-98d360c48676278e",
+      "name": "YOGI Restaurant and Clube",
+      "address": "YOGI Restaurant and Club, 26 El Nile Street behind Fourseasoin Hotel",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0255620%2C31.2184410"
+    },
+    {
+      "id": "credit_agricole-4947ca67059e16b6",
+      "name": "Sunset Al Nile Restaurant",
+      "address": "Sunset Al Nile, 135 El Nile Street",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0229270%2C31.2179790"
+    },
+    {
+      "id": "credit_agricole-b919cc78f02cf51f",
+      "name": "Dokki Branch ATM",
+      "address": "33, Mosadak St., in front of Talaat Mostafa Group",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0396220%2C31.2054150"
+    },
+    {
+      "id": "credit_agricole-722adfbcf74e73d5",
+      "name": "Al Dahabia Cruise",
+      "address": "Al Dahabia Cruise, Al Ket Kat Square Nile St, front of Ministry of Culture",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0642870%2C31.2139590"
+    },
+    {
+      "id": "credit_agricole-c4d278bcca594dd4",
+      "name": "El Regina Nile Tower",
+      "address": "El Regina Nile Tower, 21,22,Charles de Gaulle, Administrative Nile Towers, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0215200%2C31.2166300"
+    },
+    {
+      "id": "credit_agricole-0f67f314b914aad8",
+      "name": "ECHO PRIVE DISCO",
+      "address": "ECHO PRIVE DISCO, Fairmont Nile Towers City, North Tower",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0725690%2C31.2281980"
+    },
+    {
+      "id": "credit_agricole-fef739da62200349",
+      "name": "Golden Inn Hotel",
+      "address": "Golden Inn Hotel, Sphinx Square El Mohandseen",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0608120%2C31.2073710"
+    },
+    {
+      "id": "credit_agricole-b1b6ba6e68a5c18f",
+      "name": "Topaz luxury club",
+      "address": "TOPAZ LUXURY CLUB, Beside Golden Inn Hotel Ahmed Oraby St. Siphinx Square , Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0612650%2C31.2074060"
+    },
+    {
+      "id": "credit_agricole-518b3153e2fa31bf",
+      "name": "Shooting Club Branch 2 ATM",
+      "address": "Mohy El Din Abo El Ezz St., inside the Club, Gate4",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0459840%2C31.1997710"
+    },
+    {
+      "id": "credit_agricole-67ab6e0d3f32e29d",
+      "name": "Lunopark Al King Club",
+      "address": "Lunopark Al King Club, 155 Al Bahr AlAzam Street.",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0114390%2C31.2183830"
+    },
+    {
+      "id": "credit_agricole-1059baa76e3f76f8",
+      "name": "Grand Nile Tower",
+      "address": "Grand Nile Tower Abdul Aziz Al Saud St., Corniche Al Nile ,Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0350250%2C31.2771540"
+    },
+    {
+      "id": "credit_agricole-526e18d9a4631a6d",
+      "name": "Fish Boat Abuzeid",
+      "address": "Fish Boat Abuzeid, 18 Corniche El Nile, Masr Al Kadeima, Athar AlNabi , Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0078460%2C31.2263870"
+    },
+    {
+      "id": "credit_agricole-7cdc80c649820dd5",
+      "name": "Shubra Branch ATM",
+      "address": "182 Shoubra Street – Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0904570%2C31.2449170"
+    },
+    {
+      "id": "credit_agricole-00124c7e977d56ed",
+      "name": "Mohamed Omar Building",
+      "address": "Street# 30 from Street# 45",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0130980%2C31.2818990"
+    },
+    {
+      "id": "credit_agricole-5fecb28b67cc2b1e",
+      "name": "Hadaeq Al Qoba Branch ATM",
+      "address": "123 , Misr & Sudan St., in front of Omar Effendi",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0834020%2C31.2821550"
+    },
+    {
+      "id": "credit_agricole-80645eec32b7f7bd",
+      "name": "Marmonil Marble & Granite",
+      "address": "56 Emtedad Ramsis - Nasr City - Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0469480%2C31.3079940"
+    },
+    {
+      "id": "credit_agricole-8ae3ce1ef114953e",
+      "name": "Petroleum Air Service Company ATM",
+      "address": "5, Dr. El Batrawy St., off Abbas Al Akkad St., beside Genena Mall",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0610520%2C31.3307630"
+    },
+    {
+      "id": "credit_agricole-d6de45760b3e7502",
+      "name": "Nasr City Branch (Enppi) ATM",
+      "address": "67 Zaker Hussein – Nasr City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0446470%2C31.3362700"
+    },
+    {
+      "id": "credit_agricole-f448f82a4f767232",
+      "name": "Community Services Association (CSA) ATM",
+      "address": "4 St., 21, near to Al Maadi Grand Mall",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9614270%2C31.2695490"
+    },
+    {
+      "id": "credit_agricole-4bc82b21f94faccb",
+      "name": "Al Katamya Branch ATM",
+      "address": "Badr Towers, next to Carrefour, Ring Road",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9837800%2C31.3209830"
+    },
+    {
+      "id": "credit_agricole-8c4c3b68ea17a2ca",
+      "name": "Topaz Bazaar",
+      "address": "Topaz Bazaar, 90 Abou El Houl El Seyahy St.El Haram ,Giza ,Egypt",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9848470%2C31.1432360"
+    },
+    {
+      "id": "credit_agricole-94a4401245cc0fe8",
+      "name": "City Stars Branch",
+      "address": "Ground floor - unit 132 - Gate 5 - City Stars",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0735600%2C31.3464690"
+    },
+    {
+      "id": "credit_agricole-f9494cf3d3f1d65a",
+      "name": "Three Pyramids Papyrus institute",
+      "address": "Al Mansoureya Rd, Nazlet El-Semman, Al Haram, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9841930%2C31.1428870"
+    },
+    {
+      "id": "credit_agricole-f157fee7d09262fa",
+      "name": "EGYPT Papyrus Institute",
+      "address": "EGYPT Papyrus Institute, 1 Abu El Houl El Siahei Street, Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9860170%2C31.1411560"
+    },
+    {
+      "id": "credit_agricole-9c88cf4eae5c0695",
+      "name": "Dr. Mohamed Beshry Pharmacy",
+      "address": "El Sanahra - El rahma Street",
+      "governorate": "El-Beheira",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1138480%2C31.1496900"
+    },
+    {
+      "id": "credit_agricole-8b54d7d1f2b296c7",
+      "name": "Philae Bazaar",
+      "address": "Philae Bazaar, 64 Abu El Hol St. Nazket El Samman, AlHaram ,Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9788870%2C31.1440610"
+    },
+    {
+      "id": "credit_agricole-9349a5395188d36f",
+      "name": "Nefertiti Bazaar",
+      "address": "Nefertiti Bazaar, El Sheikh mustafa ismail S, Hadayek Al Ahram , Kerdasa, Al Haram",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9930710%2C31.1288210"
+    },
+    {
+      "id": "credit_agricole-95e96298435f7fc4",
+      "name": "Abou Shakra – Pyramids",
+      "address": "1 abou elhol street",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9805730%2C31.1374480"
+    },
+    {
+      "id": "credit_agricole-d025c4056f79bef4",
+      "name": "Hassan Maamoun branch",
+      "address": "96 Hassan Maamoun st.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0677440%2C31.3563970"
+    },
+    {
+      "id": "credit_agricole-07a644e9513cb3de",
+      "name": "Hnert and Landroc bookstore",
+      "address": "Hnert and Landroc bookstore 1 Abou elhol street",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9756380%2C31.1409780"
+    },
+    {
+      "id": "credit_agricole-e0bab1259b2d4922",
+      "name": "Al Haram Branch ATM",
+      "address": "29, Hadayek Al Aharam St., beside Ceramica El Gawhara Showroom",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9883090%2C31.1302730"
+    },
+    {
+      "id": "credit_agricole-9a50f0b8f7b5983f",
+      "name": "El Nile Textile Co. ATM",
+      "address": "Kafr Hakim , Kerdasa – Giza",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0814030%2C31.1188560"
+    },
+    {
+      "id": "credit_agricole-36b77fa556a85e73",
+      "name": "Ragab Sons Market El Naam ATM",
+      "address": "41, Ain Shams St.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1248710%2C31.3194480"
+    },
+    {
+      "id": "credit_agricole-c315a18477b507a8",
+      "name": "Dice Factory – El Khanka",
+      "address": "El Khanka - Inustrial zone - Amal 1 - Qualiobya",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1542430%2C31.2165820"
+    },
+    {
+      "id": "credit_agricole-372ae1a33f84e133",
+      "name": "Cotton Flower Center",
+      "address": "Cotton Flower Center, Beside Modern Yemeni School, ElMansourya Road , Before the Ring Road access",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9600040%2C31.1508770"
+    },
+    {
+      "id": "credit_agricole-95a029bd3e8f975e",
+      "name": "Weatherford Egypt Co ATM",
+      "address": "Industrial Zone 5, Zahraa Al Maadi",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9613670%2C31.3289540"
+    },
+    {
+      "id": "credit_agricole-89636e726e60608d",
+      "name": "Oasis Hotel ATM",
+      "address": "KM 10.5, Cairo Alex Desert Road, from 1 KM from Nazlet El Daeery",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0138650%2C31.1027000"
+    },
+    {
+      "id": "credit_agricole-1d4159c5d95b09a1",
+      "name": "Kia Showroom – Abou Rawash ATM",
+      "address": "Piece 99 - Old Industrial Zone , Abo Rawash - Kilo 28 Cairo Alex Desert Road",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0165230%2C31.1002760"
+    },
+    {
+      "id": "credit_agricole-528f36dce235a05b",
+      "name": "Coca-Cola Company – Qualiob – EL Qanater Road",
+      "address": "Inside CocaCola Company - Qualiob –ِ Abo El Ghait - EL Qanater Road",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1610430%2C31.1930360"
+    },
+    {
+      "id": "credit_agricole-8514238d136e68db",
+      "name": "Concord El Salam Hotel Cairo",
+      "address": "Abdel Hamid Badawi Heliopolis",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1242240%2C31.3481480"
+    },
+    {
+      "id": "credit_agricole-d0e593aa61b0b7a3",
+      "name": "Sayed Mekkawy Agriculture Road",
+      "address": "kalyobeya - Kilo 44 Cairo Alex Agricultural road",
+      "governorate": "Qalyubia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1718460%2C31.2281100"
+    },
+    {
+      "id": "credit_agricole-6b8344abdf1653db",
+      "name": "El Hadaba Super Market",
+      "address": "Ahmed Allam Street - Hadyek Al Ahram",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9588830%2C31.1010310"
+    },
+    {
+      "id": "credit_agricole-928fe371680feb34",
+      "name": "Lake View Compound – 9th Street – New Cairo",
+      "address": "Lake View Compound - 90th Street - New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0220310%2C31.4063130"
+    },
+    {
+      "id": "credit_agricole-8c37d1e5469d6bca",
+      "name": "Triumph Hotel “5th Settlement”",
+      "address": "El Shweifat Zone beside Credit Agricole Head Office",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0040770%2C31.4018780"
+    },
+    {
+      "id": "credit_agricole-17e66c959162fa58",
+      "name": "Head Office Building ATM",
+      "address": "Ring Road exit to 90th street, 1st right to Choueifat area, 5th",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0056130%2C31.4029460"
+    },
+    {
+      "id": "credit_agricole-949193423bbbda07",
+      "name": "Cairo Airport Terminal 2",
+      "address": "Terminal 2 Cairo International airport",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1109790%2C31.3970750"
+    },
+    {
+      "id": "credit_agricole-3663fc8e4c89927b",
+      "name": "El Tagmo El Khames Branch ATM",
+      "address": "Downtown mall, 90 St., City Center, Area A, El Tagamo El Khames",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0171660%2C31.4131860"
+    },
+    {
+      "id": "credit_agricole-484d931a1e505761",
+      "name": "Coca Cola Assuit",
+      "address": "Abnob - Assuit",
+      "governorate": "Assuit",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9991040%2C31.4114050"
+    },
+    {
+      "id": "credit_agricole-4f6a605a62a5127e",
+      "name": "Mobil Damanhour",
+      "address": "Kilo 43 Alex Cairo Agric. Road",
+      "governorate": "El Beheira",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2055140%2C31.2213860"
+    },
+    {
+      "id": "credit_agricole-e2301cf00545395b",
+      "name": "Trans Business For Trading And Distribution ATM",
+      "address": "Trans Business Company - Abou Rawash - October",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0804910%2C31.0528670"
+    },
+    {
+      "id": "credit_agricole-bd60c3d1c0f481fc",
+      "name": "Seven Stars Mall ATM",
+      "address": "Seven Stars Mall, Area 5, Al Tagamo El Khams",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0043180%2C31.4248520"
+    },
+    {
+      "id": "credit_agricole-bce75652cab988dc",
+      "name": "Cairo Airport Terminal 1",
+      "address": "Cairo Airport Terminal 1",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1133240%2C31.4153620"
+    },
+    {
+      "id": "credit_agricole-14676da40adcf167",
+      "name": "Hale Town Palm Hills",
+      "address": "Unit NO.( PH MDCL – B – 16G) in the ground floor at Hale Town Center – Gold Views – EL Sheikh Zayed , Giza.",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9932470%2C31.0472820"
+    },
+    {
+      "id": "credit_agricole-251309b48b8092a3",
+      "name": "Cairo Airport Terminal 3",
+      "address": "Terminal 3 Cairo International airport",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1124100%2C31.4267370"
+    },
+    {
+      "id": "credit_agricole-19b9a06ede3417c7",
+      "name": "Sakkara Carpet School",
+      "address": "Sakkara Carpet School, Sakkara monuments, Al Badrashin.",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8644750%2C31.2397500"
+    },
+    {
+      "id": "credit_agricole-79e5d15d9db94f9c",
+      "name": "Dandy Mall Branch ATM",
+      "address": "Kilo 28, Cairo Alexandria Desert, Dandy Mega Mall",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0626310%2C31.0275810"
+    },
+    {
+      "id": "credit_agricole-3b31ea11157f985d",
+      "name": "Hyper One Market ATM",
+      "address": "El Sheikh Zayed City, Entrance No.1",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0305930%2C31.0210200"
+    },
+    {
+      "id": "credit_agricole-4bb58479546e9d5b",
+      "name": "Renault Showroom – Abou Rawash ATM",
+      "address": "Renault Showroom , 103 – Old Industrial Zone , Abo Rawash Zone",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0878100%2C31.0216810"
+    },
+    {
+      "id": "credit_agricole-930310801877e58e",
+      "name": "Etisalat Co. Smart Village ATM",
+      "address": "KM 28, Cairo Alexandria Desert Road",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0778580%2C31.0192040"
+    },
+    {
+      "id": "credit_agricole-5694de2da4d3b2bd",
+      "name": "Chillout",
+      "address": "Shell Out 1 Service - located on the Cairo-Alexandria Desert Road, below the turnbridge facing the Smart Village - Shop No. 4 - Ground floor",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0684560%2C31.0168580"
+    },
+    {
+      "id": "credit_agricole-4196603e4748c506",
+      "name": "El Sewedy Power System",
+      "address": "Inside El Swedy Company - fifth Settelment - New Cairo.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0297180%2C31.4657990"
+    },
+    {
+      "id": "credit_agricole-8218a949942269be",
+      "name": "Crown Plaza Hotel",
+      "address": "Crown Plaza Hotel, Plot 29 Arkan Plaza ,Zayed entrance 2, Sheikh Zayed",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0210680%2C31.0047420"
+    },
+    {
+      "id": "credit_agricole-2d3b7bef04e14497",
+      "name": "Coca-Cola Factory – Alex",
+      "address": "Kilo 31 Alexandria – Cairo desert Road",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8938490%2C31.0687430"
+    },
+    {
+      "id": "credit_agricole-9669b4d2fae2d07c",
+      "name": "Mantrac – 10th of Ramadan",
+      "address": "Inside Mantrac Company – 10th Of Ramadan",
+      "governorate": "10th of Ramadan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1907740%2C31.4145430"
+    },
+    {
+      "id": "credit_agricole-1e4989217c02ca9f",
+      "name": "مول العرب ATM",
+      "address": "طريق جمال عبد الناصر، ميدان جهينة، بوابه 20",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0075110%2C30.9749580"
+    },
+    {
+      "id": "credit_agricole-a3da546fc5c3b780",
+      "name": "Renault El Obour",
+      "address": "Infront of City Center El Golf",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1741360%2C31.4650470"
+    },
+    {
+      "id": "credit_agricole-5649940aba495310",
+      "name": "Total Kafr El Dawar Deirames",
+      "address": "Cairo Tanta Road Deirames , Behira",
+      "governorate": "Beheira",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2511800%2C31.0984290"
+    },
+    {
+      "id": "credit_agricole-6c269bf0de473a09",
+      "name": "El Rehab 2 – Eastern Market",
+      "address": "Shop 102 - district A - northen Easter facility Area -Elrehab 2",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0710010%2C31.5143140"
+    },
+    {
+      "id": "credit_agricole-250ddb5cc246e90a",
+      "name": "Shooting Club Branch ATM",
+      "address": "Mohy El Din Abo El Ezz St., inside the Club, Gate 4",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9986450%2C30.9490780"
+    },
+    {
+      "id": "credit_agricole-c54772dbdf3425eb",
+      "name": "Renault Alex",
+      "address": "Desert road - Beside Pepsi",
+      "governorate": "El-Beheira",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.8357950%2C31.0617040"
+    },
+    {
+      "id": "credit_agricole-75057cd4dad319e1",
+      "name": "Mivida Branch",
+      "address": "Plot # 16 – Investors Eastern Extension – the Lotus East – Services Area # 4 – Building # 6 3D-3E-4A-4B – Fifth Settlement – New Cairo – Cairo Governorate.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0069620%2C31.5300940"
+    },
+    {
+      "id": "credit_agricole-ef0c0d5cb88cbcbb",
+      "name": "Eleite Pharmacy",
+      "address": "El Bashayer - Rehana Center",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9752370%2C30.9140680"
+    },
+    {
+      "id": "credit_agricole-847dc43c261e63f6",
+      "name": "Total El Wahat",
+      "address": "Intersection Of Wahat And Dahshour Road",
+      "governorate": "El Beheira",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9105560%2C30.9352450"
+    },
+    {
+      "id": "credit_agricole-cce2174f97c61e95",
+      "name": "Cairo Pharamcy",
+      "address": "Megad Mall - Eskan El Shabab 63 - obour",
+      "governorate": "El Obour",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2559790%2C31.4872890"
+    },
+    {
+      "id": "credit_agricole-480d3075ab11f977",
+      "name": "Kiriazy Co. El Obour ATM",
+      "address": "Kiriazy - Industrial Zone - Cairo Belbais Desert Road, El Obour City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2720270%2C31.4679550"
+    },
+    {
+      "id": "credit_agricole-993643412d2f32e6",
+      "name": "Covertina Factory El Obour ATM",
+      "address": "Covartina Factory - El Obour - Iskan El Shabab - After Ragab Sons - Obour City",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2666640%2C31.4758310"
+    },
+    {
+      "id": "credit_agricole-1c744344c9ba5d4d",
+      "name": "Sphinx International Airport",
+      "address": "Sphinx International Airport, Alexandria Cairo Desert Road",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1080100%2C30.8886720"
+    },
+    {
+      "id": "credit_agricole-3ebff6426e16d3b5",
+      "name": "Edita Company ATM – E 7 , October",
+      "address": "Piece 63 - Polaris Industrial Zone , 6th October City",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9605490%2C30.8843710"
+    },
+    {
+      "id": "credit_agricole-6cc4ac1607ba5713",
+      "name": "Edita Company ATM 6th October",
+      "address": "19 – 21 , 3rd Industrial Zone – 6th October City.",
+      "governorate": "Giza",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.9264720%2C30.8843850"
+    },
+    {
+      "id": "credit_agricole-186964952c8ef034",
+      "name": "New EL Sherouk – Terrrace Mall Branch",
+      "address": "Shop No. (A0-15 & A0-16) located on the (ground) floor - located within the integrated commercial mall (Terrace-A) third district east of El Shorouk City - Cairo.",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.1509520%2C31.6271970"
+    },
+    {
+      "id": "credit_agricole-879ff003e3aa30bb",
+      "name": "Madinaty",
+      "address": "Kilo 33 Suez road/ Commercial zone, Madinaty club",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.0970940%2C31.6429910"
+    },
+    {
+      "id": "credit_agricole-2fc1ed9bd2f01711",
+      "name": "Total Awel Damanhour",
+      "address": "Alex Agriculture Road - Bedayet Damanhour",
+      "governorate": "El Beheira",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4228050%2C31.0433000"
+    },
+    {
+      "id": "credit_agricole-69f51f0907a96b34",
+      "name": "El Mohandes Showroom ATM",
+      "address": "El Mohandes Showroom - El Bagour - El Geish Street - Monufia",
+      "governorate": "Monufia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4236070%2C31.0372690"
+    },
+    {
+      "id": "credit_agricole-66208624820b1b55",
+      "name": "Al Aksa Super Market",
+      "address": "El Reyah El Tawfiki Street,Banha, Kalyoubia",
+      "governorate": "Banha",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4681880%2C31.1985970"
+    },
+    {
+      "id": "credit_agricole-cc5b95382b1443bd",
+      "name": "Total Belbeis",
+      "address": "Total Belbies - Belbies cairo road",
+      "governorate": "Sharkia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3603280%2C31.6501460"
+    },
+    {
+      "id": "credit_agricole-28712126490cc8cc",
+      "name": "Al Sadek Tal Store",
+      "address": "Handaset El Ray Street",
+      "governorate": "Sharkeya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5242010%2C31.3378960"
+    },
+    {
+      "id": "credit_agricole-4b517b23d5ab9a48",
+      "name": "El Sweedy Arab Steel",
+      "address": "10th Of Ramadan – industrial zone – Ismailia road.",
+      "governorate": "10th of Ramadan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2563820%2C31.7499770"
+    },
+    {
+      "id": "credit_agricole-c0f1d463bf2de67e",
+      "name": "Oriental Weavers Company",
+      "address": "Oriental Weavers Company",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2390550%2C31.7659360"
+    },
+    {
+      "id": "credit_agricole-a3875e7cf500b431",
+      "name": "Abouda Al Ashmawy Mall",
+      "address": "Jaz Way - Minouf",
+      "governorate": "Monufia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4640940%2C30.9161410"
+    },
+    {
+      "id": "credit_agricole-3353e18eb032bbc1",
+      "name": "Edita Company ATM 10th Ramadan",
+      "address": "Piece# H3 – H9 , Industrial Zone B2 , 10th of Ramadan City",
+      "governorate": "Zagazig",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2926660%2C31.7423430"
+    },
+    {
+      "id": "credit_agricole-f512735e9d9b6275",
+      "name": "Total Aga",
+      "address": "El Thawra ST - Aga",
+      "governorate": "Dakahelya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5429440%2C31.3795030"
+    },
+    {
+      "id": "credit_agricole-8aac80e89affdcfd",
+      "name": "Fresh Factory, “10th of Ramadan”",
+      "address": "The second piece, the division of the Ard Sharif, industrial zone A3",
+      "governorate": "Zagazig",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.2953130%2C31.8023510"
+    },
+    {
+      "id": "credit_agricole-a07b28ebb4a23e7f",
+      "name": "Total EL Asloogy",
+      "address": "El Aslogy - total station - El Zagazik",
+      "governorate": "Sharkia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5462590%2C31.5289570"
+    },
+    {
+      "id": "credit_agricole-36e2dd08e00d0423",
+      "name": "Al Kafrawy Showroom ATM",
+      "address": "Abdel Aziz Ayaad St. From El Mohafza St. El Zakazeek City",
+      "governorate": "Zagazig",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.5883360%2C31.5009330"
+    },
+    {
+      "id": "credit_agricole-ca3aa5fe99ab062c",
+      "name": "Dina Farms ATM",
+      "address": "Dina Farms, Cairo Alex Desert Road – Kilo 80",
+      "governorate": "Sadat",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Dina+Farms+ATM+Dina+Farms%2C+Cairo+Alex+Desert+Road+%E2%80%93+Kilo+80+Sadat+Egypt"
+    },
+    {
+      "id": "credit_agricole-ddc85cdec17a78b5",
+      "name": "Sharkia Branch",
+      "address": "45 Talaat Harb St., (Corniche) , Zaqaziq City - Sharkia",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Sharkia+Branch+45+Talaat+Harb+St.%2C+%28Corniche%29+%2C+Zaqaziq+City+-+Sharkia+Cairo+Egypt"
+    },
+    {
+      "id": "credit_agricole-c17ac73b07dcff44",
+      "name": "Coca Cola El Sadat",
+      "address": "Inustrial Zone# 5 - The regional road",
+      "governorate": "Sadat",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3929630%2C30.5685780"
+    },
+    {
+      "id": "credit_agricole-8495173cb0307658",
+      "name": "Bticino Factory – ATM",
+      "address": "Bticino Factory - EL Sadat City - industrial zone# 2 - Menoufia",
+      "governorate": "Menoufia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.3669480%2C30.5397830"
+    },
+    {
+      "id": "credit_agricole-27f5a45e7f4a1470",
+      "name": "Samsung Factory , Beny Sweif",
+      "address": "Piece# 98 – Industrial Zone , Kom Abo Rady – El Wasta , Beny Sewif City",
+      "governorate": "Beny Sewif",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.3479090%2C31.1032310"
+    },
+    {
+      "id": "credit_agricole-76c26f0a9f953c8c",
+      "name": "Total Heheya",
+      "address": "Ezzbet El Prince - Heheya",
+      "governorate": "Sharqia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6931540%2C31.6209320"
+    },
+    {
+      "id": "credit_agricole-26e29aea38081ada",
+      "name": "Coca-Cola Tanta Factory",
+      "address": "Shobar Road - Tanta",
+      "governorate": "El Gharbeya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7565120%2C31.0238840"
+    },
+    {
+      "id": "credit_agricole-544f38c65336672b",
+      "name": "Dr. Abdel Bary Pharmacy",
+      "address": "El Galaa Street - Masaken El Galaa",
+      "governorate": "Tanta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7773720%2C31.0157450"
+    },
+    {
+      "id": "credit_agricole-6d96163551e8e8b1",
+      "name": "Ahmed Emara Pharmacy",
+      "address": "El Thawra ST - Beside The General Hospital",
+      "governorate": "El Beheira",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.6881370%2C30.7655490"
+    },
+    {
+      "id": "credit_agricole-438cb11b37b72a03",
+      "name": "Farhety Showroom",
+      "address": "Fayoum - Houd Ahmed Bek",
+      "governorate": "El Fayoum",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.3447350%2C30.8639590"
+    },
+    {
+      "id": "credit_agricole-eee65a1fd590ed91",
+      "name": "Kenouz Company",
+      "address": "El Sheikh Salem Street",
+      "governorate": "El Fayoum",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.4392220%2C30.6856970"
+    },
+    {
+      "id": "credit_agricole-65712244a435c1d7",
+      "name": "Kaza Meeza",
+      "address": "Mansoura Sherbeen Road",
+      "governorate": "Dakahleya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.4251610%2C30.4563060"
+    },
+    {
+      "id": "credit_agricole-3bc6ff9cd2bff9ef",
+      "name": "Lafarge Factory ATM",
+      "address": "Kilo 93 – Al Katamya , El Ain El Sokhna Road – Industrial Zone",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Lafarge+Factory+ATM+Kilo+93+%E2%80%93+Al+Katamya+%2C+El+Ain+El+Sokhna+Road+%E2%80%93+Industrial+Zone+Cairo+Egypt"
+    },
+    {
+      "id": "credit_agricole-3c890c17e4f077ca",
+      "name": "Tanta New Branch",
+      "address": "133 ElGeish street Tanta - El Sharque insurance company bulding",
+      "governorate": "Gharbia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7919620%2C30.9633890"
+    },
+    {
+      "id": "credit_agricole-066937986cd87f2a",
+      "name": "El Safwa Super Market",
+      "address": "E mamaleek street - tanta",
+      "governorate": "Gharbeya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8109200%2C31.0047970"
+    },
+    {
+      "id": "credit_agricole-5f855c181a2e95e7",
+      "name": "Total Kafr El Zayat",
+      "address": "Cairo Alex Agricultural Road , Kafr El Zayat",
+      "governorate": "El Gharbeya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Total+Kafr+El+Zayat+Cairo+Alex+Agricultural+Road+%2C+Kafr+El+Zayat+El+Gharbeya+Egypt"
+    },
+    {
+      "id": "credit_agricole-7a313d568716733d",
+      "name": "Ibn Sina Pharmacy",
+      "address": "Beside the traffic unit",
+      "governorate": "Dakahleya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8725830%2C31.4712700"
+    },
+    {
+      "id": "credit_agricole-8d4ddd0270652709",
+      "name": "Total Bany Mazar",
+      "address": "El Gendeya - Bani Mazar - El Menya",
+      "governorate": "Menya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.2356920%2C31.6718210"
+    },
+    {
+      "id": "credit_agricole-b9e541000a44dd2d",
+      "name": "Abo Ismail",
+      "address": "El Reyad Kafr El Shikh Road",
+      "governorate": "Kafr El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9434130%2C31.2365270"
+    },
+    {
+      "id": "credit_agricole-6e672840fc4f4b38",
+      "name": "Sayed Mekkawy Kafr El Shikh",
+      "address": "Sakha - Kafr El Sheikh",
+      "governorate": "Kafr El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9439330%2C31.0896150"
+    },
+    {
+      "id": "credit_agricole-252e5dc13b893481",
+      "name": "Taawon Bani Sweif",
+      "address": "Bani Sweif Fayoum New Road",
+      "governorate": "Bani Sweif",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.1271110%2C31.0602630"
+    },
+    {
+      "id": "credit_agricole-005c4ded1ec2265c",
+      "name": "Beny Sweif Branch ATM",
+      "address": "Khafagy Tower, Port Said St., next to The University of Port Said",
+      "governorate": "Beny Sweif",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.0802420%2C31.1012970"
+    },
+    {
+      "id": "credit_agricole-3c7108865b69a3aa",
+      "name": "Taawon Slaheya Gas Station",
+      "address": "Fakkous El Salheya Road",
+      "governorate": "Sharkeya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.7748450%2C31.9789980"
+    },
+    {
+      "id": "credit_agricole-d7a218e8a61c317e",
+      "name": "Coca-Cola El Mansoura",
+      "address": "Sendoub - infront of el Kaaed factory",
+      "governorate": "Dakahleya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0243040%2C31.3999580"
+    },
+    {
+      "id": "credit_agricole-2aad856fc33c2f3c",
+      "name": "El Attafy For Cars",
+      "address": "Talkha Damietta road - beside el Manoura College School",
+      "governorate": "Dakahleya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.0624080%2C31.3604850"
+    },
+    {
+      "id": "credit_agricole-fbdbe3103962cd16",
+      "name": "Azha Resort",
+      "address": "Suez bay Coast",
+      "governorate": "Suez",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.7236970%2C32.3674670"
+    },
+    {
+      "id": "credit_agricole-f802016e307a8567",
+      "name": "Taawon Etsa",
+      "address": "Atamna - Atsa",
+      "governorate": "El Fayoum",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.1327150%2C30.6268990"
+    },
+    {
+      "id": "credit_agricole-b0c6871d97445f19",
+      "name": "Nassar Mall",
+      "address": "Kantara Gharb - El Moahada wel Hegaz road",
+      "governorate": "Ismailia",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8480320%2C32.3062870"
+    },
+    {
+      "id": "credit_agricole-d9d444312d053e9d",
+      "name": "Taawon El Feshn ATM",
+      "address": "Cairo Assuit Agricultural Road",
+      "governorate": "Beny Sweif",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Taawon+El+Feshn+ATM+Cairo+Assuit+Agricultural+Road+Beny+Sweif+Egypt"
+    },
+    {
+      "id": "credit_agricole-e4227cbb0d99e220",
+      "name": "Soma Bay Resrot, Hurghada",
+      "address": "Soma Bay Resort , Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.6218980%2C31.6770020"
+    },
+    {
+      "id": "credit_agricole-7a84ab22695815d5",
+      "name": "Damietta Branch ATM",
+      "address": "Logistic Building, Damietta Port Al Bahare, beside the Automated Control Center",
+      "governorate": "Damietta",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.4719830%2C31.7616730"
+    },
+    {
+      "id": "credit_agricole-df868ca29bc4a77a",
+      "name": "Port Said International Schools ATM",
+      "address": "Mohamed Ali St., in front of Golf Area",
+      "governorate": "Port Said",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2486150%2C32.2901650"
+    },
+    {
+      "id": "credit_agricole-39e2da9086d684ad",
+      "name": "Teleperformance ATM 2",
+      "address": "Inside Tele-Performaence Company 90th Street - New Cairo",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Teleperformance+ATM+2+Inside+Tele-Performaence+Company+90th+Street+-+New+Cairo+Cairo+Egypt"
+    },
+    {
+      "id": "credit_agricole-77133103703a5752",
+      "name": "Hilton Green Plaza Hotel ATM",
+      "address": "4, 14th May road Landmark towers , Semoha Green Plaza Mall",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2066640%2C29.9651670"
+    },
+    {
+      "id": "credit_agricole-398b377bfd2a35cb",
+      "name": "Crush Factory – Alex ATM",
+      "address": "Kilo 25 Alexandria - Cairo desert Road",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Crush+Factory+%E2%80%93+Alex+ATM+Kilo+25+Alexandria+-+Cairo+desert+Road+Alexandria+Egypt"
+    },
+    {
+      "id": "credit_agricole-be375b1fe8cfd86d",
+      "name": "Mantrac Company ATM",
+      "address": "KM 28, Cairo Alex Desert Road",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Mantrac+Company+ATM+KM+28%2C+Cairo+Alex+Desert+Road+Alexandria+Egypt"
+    },
+    {
+      "id": "credit_agricole-58f5b5b12f51c77c",
+      "name": "Alex Stadium Branch ATM",
+      "address": "10, Patrice Lumumba St., in front of Alex Stadium",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.1978920%2C29.9128440"
+    },
+    {
+      "id": "credit_agricole-e3e4c4211963983d",
+      "name": "Glym Branch ATM",
+      "address": "4, Ahmed Yehia St., in front of Egypt Air",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2387550%2C29.9623100"
+    },
+    {
+      "id": "credit_agricole-392ecf3dd51fcb7c",
+      "name": "Fathallah Market Montazah ATM",
+      "address": "60 Sheraton El Montazah Towers, off Al Raqeeb Mosque St.",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2805170%2C30.0137980"
+    },
+    {
+      "id": "credit_agricole-24fd9155bcb20e7e",
+      "name": "Roushdy Branch ATM",
+      "address": "34, El Moaskar El Romany St.",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2301970%2C29.9483660"
+    },
+    {
+      "id": "credit_agricole-183eaa3d24d6bd3a",
+      "name": "Hilton King’s Ranch ATM",
+      "address": "Hilton King Maryot Hotel , Kilo 10.30 Borg El Arab",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.9825860%2C29.6924950"
+    },
+    {
+      "id": "credit_agricole-d50474a661e96d0e",
+      "name": "Blue Nile Boat Maadi",
+      "address": "Nile Corniche Maadi",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Blue+Nile+Boat+Maadi+Nile+Corniche+Maadi+Cairo+Egypt"
+    },
+    {
+      "id": "credit_agricole-b30769e091767bcc",
+      "name": "فرع السلطان حسين ATM",
+      "address": "1/69ش السلطان حسين، بجوار محل جنواز",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=31.2003320%2C29.8816510"
+    },
+    {
+      "id": "credit_agricole-0d89cb3b5a4323ae",
+      "name": "Nano Egypt – Borga Al Arab – Alex",
+      "address": "Nano Egypt Company - borg al arab - industrial zone - el sanfara Street - Alex",
+      "governorate": "Alexandria",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=30.8705700%2C29.5758020"
+    },
+    {
+      "id": "credit_agricole-7a2f1b7a868d13f8",
+      "name": "Coca Cola El Menya",
+      "address": "New Menya - Beside el Safa police station",
+      "governorate": "Menya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0996470%2C30.9041240"
+    },
+    {
+      "id": "credit_agricole-6d630e1e9df7be1f",
+      "name": "Dr. A.Ismail Pharmacy",
+      "address": "El Amal Mall - New menya",
+      "governorate": "Menya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0800180%2C30.8106710"
+    },
+    {
+      "id": "credit_agricole-a6fa8552ea4ed6c1",
+      "name": "Total El Menya",
+      "address": "Total Gas Station - Fakousa village entrance",
+      "governorate": "Menya",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0779820%2C30.7591320"
+    },
+    {
+      "id": "credit_agricole-9aa4e61fd005eb64",
+      "name": "Reemas For Ceramic",
+      "address": "Dayrout , Assuit",
+      "governorate": "Asyut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.5474410%2C30.8006330"
+    },
+    {
+      "id": "credit_agricole-e9f2b091fbdf434f",
+      "name": "Assuit Oil Refining company ATM",
+      "address": "Assiut Petroleum Company – Manfalot – Gahdam",
+      "governorate": "Assiut",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2035140%2C30.9966890"
+    },
+    {
+      "id": "credit_agricole-d0ab62688b7d6140",
+      "name": "El Motaheda For Ceramic",
+      "address": "Assiut Sohag Road",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1818490%2C31.1582270"
+    },
+    {
+      "id": "credit_agricole-79999d05d11487b5",
+      "name": "Pernasos Libraries",
+      "address": "New Assuit - El Hay El Sakany",
+      "governorate": "Assuit",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1770330%2C31.2019280"
+    },
+    {
+      "id": "credit_agricole-c5146ddb3505dad4",
+      "name": "Asmant Assuit",
+      "address": "Assuit Kilo 18 - El Wadi Elgedeh road",
+      "governorate": "Assuit",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1752540%2C31.1724540"
+    },
+    {
+      "id": "credit_agricole-c8ac29b82eb18973",
+      "name": "Sea Soul Hotel 3",
+      "address": "Sea Soul 3 Lighthouse Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4499770%2C28.4499770"
+    },
+    {
+      "id": "credit_agricole-5aa12e629c4cd02c",
+      "name": "Pizza shop Nuweiba",
+      "address": "Pizza Shop Nuweiba, Sahafa Market",
+      "governorate": "Nuweiba",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.0203900%2C34.3959300"
+    },
+    {
+      "id": "credit_agricole-9ef9fcb77472a6bc",
+      "name": "Safari Beach Camp",
+      "address": "Safari Beach Camp Nuweiba Taba Road",
+      "governorate": "Nuweiba",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.1678210%2C34.6942170"
+    },
+    {
+      "id": "credit_agricole-9d1b66fb4d561d1b",
+      "name": "New Moon Island Beach Camp",
+      "address": "New Moon Island Beach Camp, Ras Shitan, Nuweibaa, Taba Road",
+      "governorate": "Nuweiba",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.1224840%2C34.6829570"
+    },
+    {
+      "id": "credit_agricole-29f264a7c5854846",
+      "name": "Paradise Swire",
+      "address": "Paradise Swire Nuweiba Taba Road bier Swire",
+      "governorate": "Nuweiba",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.2476800%2C34.7346700"
+    },
+    {
+      "id": "credit_agricole-33a9fca2271ef9d6",
+      "name": "Crazy horse Camp Nuweiba",
+      "address": "Crazy horse Camp Nuweiba Taba road",
+      "governorate": "Nuweiba",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.1929310%2C34.7267360"
+    },
+    {
+      "id": "credit_agricole-d75202b3052266d5",
+      "name": "Mobil Station Taba",
+      "address": "Mobil Station Taba Nuweiba Taba rd",
+      "governorate": "Taba",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.3966000%2C34.7909700"
+    },
+    {
+      "id": "credit_agricole-2c89c6e1f9337017",
+      "name": "Club Nuweiba Village Hotel",
+      "address": "Club Nuweiba Village Hotel, Nuweiba City Center",
+      "governorate": "Nuweiba",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=29.0272420%2C34.6720840"
+    },
+    {
+      "id": "credit_agricole-b931e61376c5e4a3",
+      "name": "Taawon Tema",
+      "address": "Ahmed Oraby Street - Tema-Sohag",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.8909040%2C31.4462300"
+    },
+    {
+      "id": "credit_agricole-ef68b71dd0c932f6",
+      "name": "Le Meridien Hotel",
+      "address": "Le Meridien Hotel, Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4691640%2C34.4776310"
+    },
+    {
+      "id": "credit_agricole-393871e65531c935",
+      "name": "Happy Life Village",
+      "address": "Happy Life Village,El-Mobasat - Wadi Kena- Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4411390%2C34.4622340"
+    },
+    {
+      "id": "credit_agricole-9f7be3d06566e062",
+      "name": "Panda Hotel Dahab",
+      "address": "Panda Hotel Dahab, Lagoon Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4804100%2C34.4912500"
+    },
+    {
+      "id": "credit_agricole-ba0bade16a56dc8c",
+      "name": "Ganet Sinai Resort Dahab",
+      "address": "Ganet Sinai Resort, Lagoon Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4806620%2C34.4922290"
+    },
+    {
+      "id": "credit_agricole-8130e8d782191d27",
+      "name": "Dahab Square",
+      "address": "Dahab Square",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4909790%2C34.4996750"
+    },
+    {
+      "id": "credit_agricole-6ded851d69cd6c20",
+      "name": "Zarnook Pharmacy",
+      "address": "Zarnook Pharmacy Blue hole RD",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5120470%2C34.5141350"
+    },
+    {
+      "id": "credit_agricole-4023aece98486796",
+      "name": "Al Zarnouk Shop",
+      "address": "Al Zarnouk Shop,El salam Street blue hole direction",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5120580%2C34.5142460"
+    },
+    {
+      "id": "credit_agricole-5aebb0b7035ad21e",
+      "name": "G Mart Cafee",
+      "address": "G Mart Cafee, Assala blue hole direction",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+G+Mart+Cafee+G+Mart+Cafee%2C+Assala+blue+hole+direction+Cairo+Egypt"
+    },
+    {
+      "id": "credit_agricole-bf16973f12b45fcb",
+      "name": "Bakkar Kitchen",
+      "address": "Bakkar Kitchen Assala Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5089910%2C34.5162110"
+    },
+    {
+      "id": "credit_agricole-5bbbdd9286170839",
+      "name": "Tirana Dahab hotel",
+      "address": "Dahab Lagoon area",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4797160%2C34.4985700"
+    },
+    {
+      "id": "credit_agricole-1f87016b77dbece4",
+      "name": "El Salam Market",
+      "address": "El Salam commercial market Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5074620%2C34.5168650"
+    },
+    {
+      "id": "credit_agricole-3456afb63ade1228",
+      "name": "Shepherd Assala Dahab",
+      "address": "Shepherd Assala market Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5073520%2C34.5168760"
+    },
+    {
+      "id": "credit_agricole-40807af2b1313fd1",
+      "name": "Compu Mob Shop",
+      "address": "Compu Mob Shop Assala Market",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5063830%2C34.5176160"
+    },
+    {
+      "id": "credit_agricole-eae65dd72714081a",
+      "name": "Carmine Hotel Dahab",
+      "address": "Carmine Hotel Dahab, El Salam El Masbat",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4985900%2C34.5156700"
+    },
+    {
+      "id": "credit_agricole-b8dff82032c6468e",
+      "name": "Seduction Restaurant",
+      "address": "Seduction Restaurant Lighthouse",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5001570%2C34.5175850"
+    },
+    {
+      "id": "credit_agricole-af051aac59b58bf3",
+      "name": "Coral Coast Promenade Hotel",
+      "address": "Coral Coast Promenade Hotel, El Melel St., Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5032410%2C34.5195720"
+    },
+    {
+      "id": "credit_agricole-c83090be0a8af409",
+      "name": "Coral Coast St Hotel",
+      "address": "Coral Coast St. Hotel, El Melel St., Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5032440%2C34.5195900"
+    },
+    {
+      "id": "credit_agricole-02733fa1bb780086",
+      "name": "Golden Europe Hotel",
+      "address": "Dahab lighthouse",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4995330%2C34.5176490"
+    },
+    {
+      "id": "credit_agricole-8925f9f766924f7f",
+      "name": "Le Coin Shop",
+      "address": "Le Coin Shop Peace Road",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4930830%2C34.5138940"
+    },
+    {
+      "id": "credit_agricole-3b0fc94c4f288b9a",
+      "name": "El Raky Phone",
+      "address": "El Raky Phone, beginning of El Mamsha",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4926910%2C34.5136850"
+    },
+    {
+      "id": "credit_agricole-23ad5bd79c02bb33",
+      "name": "Alibaba Dahab 2",
+      "address": "Alibaba Dahab 2 Promenade",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4976070%2C34.5169810"
+    },
+    {
+      "id": "credit_agricole-0e320f8009b15c15",
+      "name": "King Safari Dahab",
+      "address": "King Safari Dahab, Promenade bridge Assala Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4970400%2C34.5166300"
+    },
+    {
+      "id": "credit_agricole-401c0dabd8f1182b",
+      "name": "Tea Garden",
+      "address": "Tea Garden Cafe Dahab Mashraba",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4914610%2C34.5130760"
+    },
+    {
+      "id": "credit_agricole-26e0e1a445e2089c",
+      "name": "Dahab Hotel Street",
+      "address": "Dahab Hotel St Melel",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5019780%2C34.5197840"
+    },
+    {
+      "id": "credit_agricole-2c8d8ee9a8297e9d",
+      "name": "Ali Baba Café",
+      "address": "El Masbat St,Dahab, South Sinai Governorate, Egypt",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4977130%2C34.5171340"
+    },
+    {
+      "id": "credit_agricole-e176b538db2cdabf",
+      "name": "Blue Beach Club Hotel",
+      "address": "El Melal Street, Assalah, Dahab, South Sinai Governorate, Egypt",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5017170%2C34.5197770"
+    },
+    {
+      "id": "credit_agricole-7659bddf7e39c597",
+      "name": "Jackie’s Dahab",
+      "address": "Jackie's Dahab, Promenade ElMasbat",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4970600%2C34.5168800"
+    },
+    {
+      "id": "credit_agricole-77665ea9d04f52f2",
+      "name": "Yasmina Dahab Hotel",
+      "address": "Yasmina Dahab Hotel, Mashraba Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4941600%2C34.5152750"
+    },
+    {
+      "id": "credit_agricole-e68e57466c3d5c07",
+      "name": "Sababa restaurant Dahab",
+      "address": "Sababa restaurant Dahab, Dahab Promenade Assala",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4990000%2C34.5184300"
+    },
+    {
+      "id": "credit_agricole-5789dc4a3cc5d5c0",
+      "name": "Dahab Hotel Promenade",
+      "address": "Dahab Hotel Promenade Melel",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5019800%2C34.5203910"
+    },
+    {
+      "id": "credit_agricole-c4b268907cbc6a27",
+      "name": "Sea Soul Hotel light",
+      "address": "Sea Soul Light House street",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4997790%2C34.5194230"
+    },
+    {
+      "id": "credit_agricole-928b19a0f965dc6d",
+      "name": "Trust Pharmacy Dahab",
+      "address": "Trust Pharmacy Almasbat beside arous albahr restaurant, Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4940740%2C34.5158530"
+    },
+    {
+      "id": "credit_agricole-77e5dba8854fadd4",
+      "name": "Karkoor One",
+      "address": "Karkoor Restaurant light house",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.5001530%2C34.5198790"
+    },
+    {
+      "id": "credit_agricole-df6c28d9579cd8e7",
+      "name": "Sea Soul promenade",
+      "address": "Sea Soul promenade Lighthouse",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4991490%2C34.5195030"
+    },
+    {
+      "id": "credit_agricole-15535aa78d5b4e47",
+      "name": "Downtown Hotel- Dahab",
+      "address": "South sinai, dahab, mashraba",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4991690%2C34.5196550"
+    },
+    {
+      "id": "credit_agricole-9065a75bc8f9b46d",
+      "name": "Market one Dahab",
+      "address": "Market one Mashrabia Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4925830%2C34.5158020"
+    },
+    {
+      "id": "credit_agricole-0fdeaa004bd8e03e",
+      "name": "Oricana Dahab Hotel",
+      "address": "Oricana Dahab Hotel, Mashraba St Dahab",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4887900%2C34.5142850"
+    },
+    {
+      "id": "credit_agricole-17eb7a48d823d5d3",
+      "name": "Shams Dahab Hotel",
+      "address": "Shams Dahab, Mashraba Dahab promenade",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.4923150%2C34.5168640"
+    },
+    {
+      "id": "credit_agricole-0ee45ac1722b7528",
+      "name": "Casa Blanka",
+      "address": "Markaz Tahta - Sohag",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.7602160%2C31.5017960"
+    },
+    {
+      "id": "credit_agricole-46b886191639b151",
+      "name": "Ochean View Resort",
+      "address": "Ochean View Resort El Gouna",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.4073170%2C33.6775650"
+    },
+    {
+      "id": "credit_agricole-887da0df2b1fe81a",
+      "name": "Abu Tig Marina Elgouna",
+      "address": "Marina elgouna, Hurghada, Red sea",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.4007930%2C33.6724070"
+    },
+    {
+      "id": "credit_agricole-450ac6ead33a92b5",
+      "name": "Three Corner Rihana El Gouna",
+      "address": "Three Corner Rihana El Gouna, Downtown El Gouna",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3996530%2C33.6730330"
+    },
+    {
+      "id": "credit_agricole-a591a5793479ec84",
+      "name": "Downtown El Gouna",
+      "address": "Downtown El Gouna",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3965290%2C33.6766230"
+    },
+    {
+      "id": "credit_agricole-b7e4323c7323d144",
+      "name": "Cooks Club El Gouna",
+      "address": "Cooks Club Hotel Downtown El Gouna",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3943310%2C33.6754560"
+    },
+    {
+      "id": "credit_agricole-e7b3e4eb76a503c8",
+      "name": "Barcelo Tiran Sharm hotel",
+      "address": "Barcelo Tiran Sharm hotel Nabq bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0657720%2C34.4357070"
+    },
+    {
+      "id": "credit_agricole-69f77d760fc04146",
+      "name": "Nabq Mall",
+      "address": "Nabq Mall, front of Sea Beach Hotel Nabq Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0563490%2C34.4320740"
+    },
+    {
+      "id": "credit_agricole-1c92d3d89a329ccf",
+      "name": "Royal AlBatros Moderna",
+      "address": "Royal AlBatros Moderna Nabq bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0596480%2C34.4357600"
+    },
+    {
+      "id": "credit_agricole-ca435032f1841e0a",
+      "name": "Shepherd Market",
+      "address": "Shepherd Market Nabq Mall",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0545010%2C34.4322770"
+    },
+    {
+      "id": "credit_agricole-d41cd851968d4af7",
+      "name": "Regency Plaza Hotel",
+      "address": "Regency Plaza Hotel, Nabq bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0532400%2C34.4347800"
+    },
+    {
+      "id": "credit_agricole-d2a13d0491f3530f",
+      "name": "Sea Beach Aqua park hotel",
+      "address": "Sea Beach Aqua park hotel Nabq",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0553470%2C34.4376050"
+    },
+    {
+      "id": "credit_agricole-65c9f09906abf6f7",
+      "name": "Coral sea Aqua Park Hotel",
+      "address": "Coral sea Aqua Park Nabq Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0406160%2C34.4288560"
+    },
+    {
+      "id": "credit_agricole-5e7067b6eab67b64",
+      "name": "Coral sea Holiday Village",
+      "address": "Coral sea Holiday Village Nabq Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0397910%2C34.4298210"
+    },
+    {
+      "id": "credit_agricole-d83daf1dc5887c9a",
+      "name": "OPC Market Sharm",
+      "address": "OPC Market Sharm Entrance",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8582030%2C34.2683110"
+    },
+    {
+      "id": "credit_agricole-1c32fc3857531bde",
+      "name": "Falcon Naama Star",
+      "address": "Falcon Naama Star, Naama Bay El Poling St.",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9094510%2C34.3183280"
+    },
+    {
+      "id": "credit_agricole-02c0021049e9a204",
+      "name": "Mall 7- Etisalat",
+      "address": "Mall 7- Etisalat - El Salaam Road - Namaa Bay- Sharm El Sheikh",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9122680%2C34.3215010"
+    },
+    {
+      "id": "credit_agricole-7cf215605d163936",
+      "name": "Mall 7- Carrefour",
+      "address": "Mall 7- Carrefour - El Salaam Road - Namaa Bay- Sharm El Sheikh",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9117610%2C34.3210530"
+    },
+    {
+      "id": "credit_agricole-1af0d66f26cfd8c6",
+      "name": "The Blue fountain- Naama Bay- Sharm Elsheikh",
+      "address": "1 market square, besides rear exit of carrefour",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9120320%2C34.3217300"
+    },
+    {
+      "id": "credit_agricole-f3591bff5e2ddefb",
+      "name": "Mall 8",
+      "address": "Mall 8 Neama bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9123210%2C34.3223780"
+    },
+    {
+      "id": "credit_agricole-6a1938ab6e464422",
+      "name": "Hyper Market Mall1",
+      "address": "Hyper Market Mall1, Nabq Area front of Rixos hotel",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0359420%2C34.4311490"
+    },
+    {
+      "id": "credit_agricole-672e3dc262ec2a47",
+      "name": "Genena City Mall 2",
+      "address": "Genena City Mall 2- Namaa Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9085210%2C34.3192670"
+    },
+    {
+      "id": "credit_agricole-7ddebc98ee17f11a",
+      "name": "Genena City Mall",
+      "address": "Genena City Mall - Namaa Bay",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9072670%2C34.3191860"
+    },
+    {
+      "id": "credit_agricole-999a4463bc2198e2",
+      "name": "ElArab Sat Mall",
+      "address": "ElArab Sat Mall Nabq Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0352380%2C34.4318070"
+    },
+    {
+      "id": "credit_agricole-36854f9971f01fec",
+      "name": "EgyptAir Naama Bay",
+      "address": "EgyptAir Naama Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9099030%2C34.3236170"
+    },
+    {
+      "id": "credit_agricole-bfc0960b14329ccf",
+      "name": "Sharm Airport Terminal 1",
+      "address": "Sharm El Sheikh Airport Terminal 1",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9792970%2C34.3857800"
+    },
+    {
+      "id": "credit_agricole-1679509405898266",
+      "name": "Sharm Airport Terminal 2",
+      "address": "Sharm El Sheikh Airport Terminal 2",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9824220%2C34.3886280"
+    },
+    {
+      "id": "credit_agricole-b052599f29df44b2",
+      "name": "Anteka Pharmacy",
+      "address": "Anteka Pharmacy, Naama Bay front of Cataract hotel, Sharm El Sheikh",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9095900%2C34.3237140"
+    },
+    {
+      "id": "credit_agricole-90b7fea2b89bb964",
+      "name": "Naama Inn Hotel Shopping Mall",
+      "address": "Naama Inn Hotel Shopping Mall, Naama bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9093770%2C34.3236440"
+    },
+    {
+      "id": "credit_agricole-8fa653812a9b6d57",
+      "name": "Promenade Resort",
+      "address": "Promenade Resort Naama Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9180790%2C34.3316770"
+    },
+    {
+      "id": "credit_agricole-a8295ad52f1fc82c",
+      "name": "Sanafir Sharm Hotel",
+      "address": "Sanafir Sharm Hotel, Naama bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9101110%2C34.3249330"
+    },
+    {
+      "id": "credit_agricole-2a15680c1c5e2f45",
+      "name": "Pacha Sharm",
+      "address": "Pacha Sharm Naama bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9100800%2C34.3249230"
+    },
+    {
+      "id": "credit_agricole-3b2cdea46aeba87c",
+      "name": "Naama Bay Hotel & Resort",
+      "address": "Naama Bay Hotel and Resort, Naama Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9086960%2C34.3238800"
+    },
+    {
+      "id": "credit_agricole-611eb09b76d3a6b0",
+      "name": "Naama Center Tropitel Entrances",
+      "address": "Naama Center Tropitel naama hotel entrances",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9087690%2C34.3239650"
+    },
+    {
+      "id": "credit_agricole-69350a37d2c40b26",
+      "name": "Tavern Shop101",
+      "address": "Tavern Shop101 Naama bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9092200%2C34.3244650"
+    },
+    {
+      "id": "credit_agricole-63454c4e87e02131",
+      "name": "Solymar Naama Hotel",
+      "address": "Solymar Naama Hotel Naama Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9130480%2C34.3279920"
+    },
+    {
+      "id": "credit_agricole-551dbfb0313df91a",
+      "name": "Tropitel Naama Bay Hotel ATM",
+      "address": "Tropitel Naama Bay Hotel, Sharm El Sheikh",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9085820%2C34.3239360"
+    },
+    {
+      "id": "credit_agricole-ebd98e98a911b1a1",
+      "name": "Fayrouz Resort Sharm",
+      "address": "Fayrouz Resort Sharm Neama Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9127920%2C34.3279580"
+    },
+    {
+      "id": "credit_agricole-da359884b2ac84b3",
+      "name": "Marina Wataneya 1",
+      "address": "Marina Wataneya Sharm",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8526120%2C34.2716050"
+    },
+    {
+      "id": "credit_agricole-362ae6c3e34a4197",
+      "name": "Naama Bay Center 1",
+      "address": "Naama Bay Center 1 elmamash entrance, Naama Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9085800%2C34.3242820"
+    },
+    {
+      "id": "credit_agricole-3e4217cb8c750969",
+      "name": "Promenade El Slam st",
+      "address": "Promenade El Slam st Naama bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9166590%2C34.3316810"
+    },
+    {
+      "id": "credit_agricole-3f72ab586f258796",
+      "name": "Naama Center Fairuz Resturant",
+      "address": "Naama Center Fairuz Resturant, Naama Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9088360%2C34.3248190"
+    },
+    {
+      "id": "credit_agricole-0119e32d3522067d",
+      "name": "Naama Bay Center 2",
+      "address": "Naama Bay Center 2, in front of Fix price shop, Naama Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9083860%2C34.3244430"
+    },
+    {
+      "id": "credit_agricole-e93bcd05b3b607a7",
+      "name": "Naama Center Nero Café",
+      "address": "Naama Center Nero Café, Naama Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9086320%2C34.3247060"
+    },
+    {
+      "id": "credit_agricole-00dff0fed2b8aa78",
+      "name": "G.Clooney Shopping Center",
+      "address": "G.Clooney Shopping Center, Sierra Compound, in front of Magic Life Hotel, Nabq",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0325580%2C34.4341330"
+    },
+    {
+      "id": "credit_agricole-e784d54e266663c2",
+      "name": "Mall El Gende",
+      "address": "Mall El Gende Naama Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9093360%2C34.3260500"
+    },
+    {
+      "id": "credit_agricole-d44a5def08409601",
+      "name": "Marina Wataneya 2",
+      "address": "Marina Wataneya 2 Sharm",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8514820%2C34.2719570"
+    },
+    {
+      "id": "credit_agricole-9adb2151afea9454",
+      "name": "Panorama Dive Store",
+      "address": "Dive Store Panorama Mall Naama Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9079120%2C34.3250700"
+    },
+    {
+      "id": "credit_agricole-2f5f80d9e63243b9",
+      "name": "Promenade Beach Hotel",
+      "address": "Promenade Beach Hotel, Naama Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9160610%2C34.3326290"
+    },
+    {
+      "id": "credit_agricole-d98dedaf87654504",
+      "name": "Roza Mall",
+      "address": "Roza Mall Neama bay",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9181900%2C34.3349700"
+    },
+    {
+      "id": "credit_agricole-98a8dcb37a447f60",
+      "name": "Oriental Rivoli Hotel",
+      "address": "Oriental Rivoli Hotel, 65 Neama bay, Peace road",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9181860%2C34.3349680"
+    },
+    {
+      "id": "credit_agricole-25210b38b3cb1924",
+      "name": "Kiroseiz Parkland Sharm el Sheikh",
+      "address": "Xperienxe Kiroseize Parkland hotel, Peace Road, Sharm el Sheikh",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9231820%2C34.3401240"
+    },
+    {
+      "id": "credit_agricole-f944c86813b8b989",
+      "name": "Delta Sharm Resort & Hotel",
+      "address": "Delta Sharm Hotel, El Salam St",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8830570%2C34.3034060"
+    },
+    {
+      "id": "credit_agricole-14cd88826a9385d9",
+      "name": "Mango Market Namaa",
+      "address": "Mango Market Namaa Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9186770%2C34.3371560"
+    },
+    {
+      "id": "credit_agricole-b915483eac7cd561",
+      "name": "Sakalt Landmark Marina",
+      "address": "Sakalt Landmark Marina",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8574410%2C34.2802180"
+    },
+    {
+      "id": "credit_agricole-a53ed3832276cb7a",
+      "name": "Concorde ElSalam Shopping Center",
+      "address": "Concorde ElSalam Shopping Center Shark bay oasis’",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9453100%2C34.3615960"
+    },
+    {
+      "id": "credit_agricole-84f4a077eaa2bb57",
+      "name": "El Adly Center",
+      "address": "El Sheikh El Tayeb Street",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0245140%2C34.4306320"
+    },
+    {
+      "id": "credit_agricole-0eab7b439d71dcad",
+      "name": "Sakalt Travco Marina",
+      "address": "Sakalt Travco Marina",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8570240%2C34.2805190"
+    },
+    {
+      "id": "credit_agricole-88cfd57ab748300c",
+      "name": "Oonas Dive Club",
+      "address": "Oonas Dive Club, Naama Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9154130%2C34.3357270"
+    },
+    {
+      "id": "credit_agricole-5d84c2192cfdc0d2",
+      "name": "Lido Hotel Sharm",
+      "address": "Lido Hotel Sharm Neama bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9070290%2C34.3284320"
+    },
+    {
+      "id": "credit_agricole-766361e30501be60",
+      "name": "Grand Plaza Hotel 2",
+      "address": "Grand Plaza Hotel 2, Nabq Area Hotels Street",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0279680%2C34.4355830"
+    },
+    {
+      "id": "credit_agricole-446a4a80bfac1ba8",
+      "name": "Shams Pharmacy old Market",
+      "address": "Shams Pharmacy Old Market Exit",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8675340%2C34.2935340"
+    },
+    {
+      "id": "credit_agricole-dfc28576c20b3d33",
+      "name": "Old Market (Sharm El Maya)",
+      "address": "Old Market - Tiran Center - Sharm El Sheikh",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8669550%2C34.2934180"
+    },
+    {
+      "id": "credit_agricole-cf8c74bd9d87f87a",
+      "name": "Turquoise Sharm Hotel",
+      "address": "Turquoise Sharm Hotel, next Sharm Sporting Club, before old market",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8618600%2C34.2886490"
+    },
+    {
+      "id": "credit_agricole-58a4e3f8f1e2379e",
+      "name": "Terrazzina Beach",
+      "address": "Terrazzina Beach, Sharm El Maya Bay- next to Ibrotel Place hotel",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8626570%2C34.2904360"
+    },
+    {
+      "id": "credit_agricole-b15fd80d4d55af9d",
+      "name": "One Stop Market",
+      "address": "One Stop Market, Old market",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8658730%2C34.2936850"
+    },
+    {
+      "id": "credit_agricole-89aa13d139efee13",
+      "name": "El Amir Pharmacy",
+      "address": "El Amir Pharmacy Old market",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8668730%2C34.2947890"
+    },
+    {
+      "id": "credit_agricole-86eef2be38a0efbe",
+      "name": "Sea Club Aqua Park Hotel – Sharm",
+      "address": "Nabq Bay - El Salam Road - Sharm El Sheikh",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0257750%2C34.4366060"
+    },
+    {
+      "id": "credit_agricole-69c54e4d7fec7c4b",
+      "name": "City Center Mall",
+      "address": "City Center Mall, El Omaran Shop, old market",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8657550%2C34.2943930"
+    },
+    {
+      "id": "credit_agricole-8548e2a88c48d491",
+      "name": "Essam Shams Pharmacy",
+      "address": "Essam Shams Pharmacy, Old market beside Smile Shop",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8644180%2C34.2933140"
+    },
+    {
+      "id": "credit_agricole-52761edb5866fd1b",
+      "name": "City Center look shop entrance",
+      "address": "City Center look shop entrance, Old Market",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8657030%2C34.2946620"
+    },
+    {
+      "id": "credit_agricole-202343426eb427bb",
+      "name": "Parrotel Beach Resort",
+      "address": "Parrotel Beach Resort, Al Gharaqanuh area Sharm El Sheikh",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0255740%2C34.4372490"
+    },
+    {
+      "id": "credit_agricole-001a4e72559f95da",
+      "name": "Dive Shop",
+      "address": "Dive Shop Old market",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8667000%2C34.2957120"
+    },
+    {
+      "id": "credit_agricole-f1c4601b10225607",
+      "name": "Oriental Carpet Shop",
+      "address": "Oriental Carpet Old market",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8666870%2C34.2957270"
+    },
+    {
+      "id": "credit_agricole-39b7a571805bde55",
+      "name": "City Center main entrance",
+      "address": "City Center main entrance, Old Market",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8654030%2C34.2945230"
+    },
+    {
+      "id": "credit_agricole-e9952b1af0cd6eb9",
+      "name": "Grand Plaza Sharm Hotel",
+      "address": "Grand Plaza Sharm Hotel, Nabq Area Hotels Street",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0275110%2C34.4391080"
+    },
+    {
+      "id": "credit_agricole-a9dde7fd844b8708",
+      "name": "Asda Price Shop",
+      "address": "Asda Price Shop Old market",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8655800%2C34.2951750"
+    },
+    {
+      "id": "credit_agricole-716fef93cc035f16",
+      "name": "Princes Shop",
+      "address": "Princes Shop, Old Market Sharm El Sheikh, South Sinai Governorate, Egypt",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Princes+Shop+Princes+Shop%2C+Old+Market+Sharm+El+Sheikh%2C+South+Sinai+Governorate%2C+Egypt+Cairo+Egypt"
+    },
+    {
+      "id": "credit_agricole-92356322e2f9c413",
+      "name": "Movenpick Sharm Hotel",
+      "address": "Movenpick Sharm Hotel, Naama bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9139390%2C34.3404460"
+    },
+    {
+      "id": "credit_agricole-067d21b9f98c436d",
+      "name": "City Center entrance 3",
+      "address": "City Center entrance 3, old Market",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8654450%2C34.2954650"
+    },
+    {
+      "id": "credit_agricole-c04bf2061324c11f",
+      "name": "Nubian Village Hotel 2",
+      "address": "Nubian Village Hotel 2, Al Gharaqanuh area",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0235380%2C34.4365120"
+    },
+    {
+      "id": "credit_agricole-74ec374822616864",
+      "name": "Sandy Entrance- old Market",
+      "address": "Sandy Entrance - Old Market - Sharm El Sheikh",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8649300%2C34.2950340"
+    },
+    {
+      "id": "credit_agricole-124f6f5eeba0b4bd",
+      "name": "Mego Store, Sharm",
+      "address": "Mego Store Shop, Old Market Sharm El Sheikh, South Sinai Governorate, Egypt",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Mego+Store%2C+Sharm+Mego+Store+Shop%2C+Old+Market+Sharm+El+Sheikh%2C+South+Sinai+Governorate%2C+Egypt+Cairo+Egypt"
+    },
+    {
+      "id": "credit_agricole-43e40528a2a013e4",
+      "name": "Mal dahab – old market- Sharm Elsheikh",
+      "address": "Mal dahab- old market- Sharm Elsheikh",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8654490%2C34.2955580"
+    },
+    {
+      "id": "credit_agricole-c947fb67fa384dec",
+      "name": "Charmillion Club Resort – Sharm",
+      "address": "Nabq bay - Sea Club Hotel, Sharm El Sheikh",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0097700%2C34.4249640"
+    },
+    {
+      "id": "credit_agricole-c9c2ac3f5f90472a",
+      "name": "Karma Mall",
+      "address": "Karma Mall Old Market",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8650700%2C34.2953000"
+    },
+    {
+      "id": "credit_agricole-a19c1f3ecae79b54",
+      "name": "Palace Shop Old Market",
+      "address": "Palace Shop Entrance Old Market Sharm El Sheikh, South Sinai Governorate, Egypt",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8655260%2C34.2958030"
+    },
+    {
+      "id": "credit_agricole-da5e06b750ac2a55",
+      "name": "Nubian Village Hotel",
+      "address": "Al Gharaqanuh area Sharm El Sheikh",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0222310%2C34.4356750"
+    },
+    {
+      "id": "credit_agricole-03fa02571dcd89b5",
+      "name": "Radison Blue Hotel, Sharm",
+      "address": "Radison Blue Hotel, Nabq Bay - Sharm El Sheikh",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0251950%2C34.4385150"
+    },
+    {
+      "id": "credit_agricole-1298077227c7ae73",
+      "name": "Rehana Resort and Spa",
+      "address": "Rehana Resort and Spa, Nabq Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0194730%2C34.4339440"
+    },
+    {
+      "id": "credit_agricole-2931475fca6ae463",
+      "name": "Rehana Royal Beach Hotel",
+      "address": "Rehana Royal Beach Hotel, Nabq Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0201150%2C34.4354990"
+    },
+    {
+      "id": "credit_agricole-5125d01ad8e3ddf2",
+      "name": "Kiwi Shop",
+      "address": "Kiwi Shop before Delta Entrance Elsalam Road",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8673600%2C34.2994710"
+    },
+    {
+      "id": "credit_agricole-3a0a7b1feff22254",
+      "name": "Tamra Beach Resort",
+      "address": "Tamra Beach Resort Nabq Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=28.0188460%2C34.4355190"
+    },
+    {
+      "id": "credit_agricole-e8a09a7302d46a6b",
+      "name": "Maya Sharm Center ATM",
+      "address": "Old Market , Tiran Center - Sharm Al Sheikh",
+      "governorate": "Sharm Al Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8634730%2C34.2972850"
+    },
+    {
+      "id": "credit_agricole-2cefb30a29c93449",
+      "name": "Sinai Flowers",
+      "address": "At the beginning of EL Hadaba Road in front of EgyptAir",
+      "governorate": "Cairo",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Sinai+Flowers+At+the+beginning+of+EL+Hadaba+Road+in+front+of+EgyptAir+Cairo+Egypt"
+    },
+    {
+      "id": "credit_agricole-7be2ee2477e3c6a4",
+      "name": "Tivoli Hotel",
+      "address": "Tivoli Hotel, City Council Street El Hadabah",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8701060%2C34.3049130"
+    },
+    {
+      "id": "credit_agricole-c10ff333adeb2068",
+      "name": "Champagne Club",
+      "address": "Champagne Club, beside Sunrise Hotel, Motels st., Hadabah",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8705220%2C34.3066240"
+    },
+    {
+      "id": "credit_agricole-2ee41229d4339fc0",
+      "name": "Domina Coral Bay Resort , Sharm",
+      "address": "Domina Coral Bay Hotel, Sharm El Sheikh",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9300120%2C34.3621250"
+    },
+    {
+      "id": "credit_agricole-90861c89c30d7555",
+      "name": "Fares el mercato",
+      "address": "at the beginning of Elmarcato st. Elhadaba",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8652950%2C34.3032860"
+    },
+    {
+      "id": "credit_agricole-f33a581b27284ecd",
+      "name": "Coral Bay Hotel & Resort ATM",
+      "address": "Coral Bay Hotel & Resort - El Shiekh Coast, Coral Bay - Sharm El Sheikh",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9297140%2C34.3627290"
+    },
+    {
+      "id": "credit_agricole-4456e32aa2d9080d",
+      "name": "Club Reef hotel",
+      "address": "Club Reef Hotel, Tower St., ElHadaba",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8871800%2C34.3246190"
+    },
+    {
+      "id": "credit_agricole-e71fe8b536dd49e9",
+      "name": "Beach Albatros Resort Sharm",
+      "address": "Beach Albatros Resort Sharm, El Hadaba",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8595000%2C34.2995700"
+    },
+    {
+      "id": "credit_agricole-363b093952dc1f55",
+      "name": "Qamar Sinai Market",
+      "address": "Qamar Sinai Hotel, Super market, Elhadaba motalat St.",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8702300%2C34.3096870"
+    },
+    {
+      "id": "credit_agricole-0a2ab25a7edfb33d",
+      "name": "Sun Shine il Porto Restaurant",
+      "address": "Sun Shine il Porto Restaurant, Sharks Bay",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9517060%2C34.3845640"
+    },
+    {
+      "id": "credit_agricole-6cdb7bcbc0e7b49f",
+      "name": "Sharks Bay Umbi",
+      "address": "Umbi Sharks Bay Diving Village",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9521110%2C34.3850850"
+    },
+    {
+      "id": "credit_agricole-e56d31902ceb2228",
+      "name": "French Village Mall",
+      "address": "French Village Mall, El Khazan Street, El hadaba",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8596760%2C34.3008340"
+    },
+    {
+      "id": "credit_agricole-43ca164408ebbf37",
+      "name": "Pyramisa Sharm Resort",
+      "address": "Pyramisa Sharm Resort Behind conference center",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9480700%2C34.3818000"
+    },
+    {
+      "id": "credit_agricole-d6757900f151832f",
+      "name": "Shark’s Bay Oasis Sharm",
+      "address": "Shark’s Bay Oasis Sharm, Shark's Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9529580%2C34.3863200"
+    },
+    {
+      "id": "credit_agricole-faf54a9d5501011e",
+      "name": "Jolie Ville Golf Shop 8",
+      "address": "Jolie Ville Golf Shop 8, Shark's bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9446140%2C34.3796090"
+    },
+    {
+      "id": "credit_agricole-b18543f8c22421c3",
+      "name": "Sheikh Coast Diving Center",
+      "address": "Sheikh Coast Diving Center, Domna Coral Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9328390%2C34.3692230"
+    },
+    {
+      "id": "credit_agricole-ad1d7ab6536b433d",
+      "name": "New Ramssces Bazaar Sharm",
+      "address": "New Ramssces Bazaar, Horus Mall, Mercato Street",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8629990%2C34.3051070"
+    },
+    {
+      "id": "credit_agricole-543cb85b8f26d4c1",
+      "name": "Sultan Gardens hotel",
+      "address": "Sultan Gardens hotel, beside Conference Center",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9449320%2C34.3805410"
+    },
+    {
+      "id": "credit_agricole-7046c07e27d62595",
+      "name": "Domina Coral Bay Market 521",
+      "address": "Domina Coral Bay Market 521",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9290810%2C34.3664250"
+    },
+    {
+      "id": "credit_agricole-ef1480511d5740e0",
+      "name": "Jolie Ville Golf Shop 21",
+      "address": "Jolie Ville Golf Shop 21, Shark's bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9435070%2C34.3795880"
+    },
+    {
+      "id": "credit_agricole-fb26c69ac894f0f8",
+      "name": "Domina Coral Bay Harem",
+      "address": "Domina Coral Bay Harem Hotel",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9253600%2C34.3635370"
+    },
+    {
+      "id": "credit_agricole-dc19a6692ff5697d",
+      "name": "Sharm Club Hotel",
+      "address": "Sharm Club Hotel El Hadaba tower street",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8862220%2C34.3277880"
+    },
+    {
+      "id": "credit_agricole-55e63fb332f5fd4e",
+      "name": "Hilton Sharks Bay",
+      "address": "Ra's Nasrani, Sharks Bay, Sharm El Sheikh, South Sinai Governorate, Egypt",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9663010%2C34.4003250"
+    },
+    {
+      "id": "credit_agricole-312c03aca67af215",
+      "name": "Viva Sharm Hotel",
+      "address": "Viva Sharm Hotel ElMotalat St",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8707000%2C34.3138960"
+    },
+    {
+      "id": "credit_agricole-cd6de11fd91da4a8",
+      "name": "Concorde El Salam Hotel",
+      "address": "Concorde El Salam Hotel Sharks Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9641440%2C34.3988160"
+    },
+    {
+      "id": "credit_agricole-53f36a82f02fa6dd",
+      "name": "Falcon Hills Hotel",
+      "address": "Falcon Hotel ElHadaba Motel Street",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8701140%2C34.3137020"
+    },
+    {
+      "id": "credit_agricole-618d9ad04ede839a",
+      "name": "Meraki Resort Sharm",
+      "address": "Meraki Resort Sharm Sharks bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9664700%2C34.4011600"
+    },
+    {
+      "id": "credit_agricole-195390973e279921",
+      "name": "Jolie Ville Golf Shop 44",
+      "address": "Jolie Ville Golf Shop 44, Shark's bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9418700%2C34.3796570"
+    },
+    {
+      "id": "credit_agricole-57acb6a7d2fd75d0",
+      "name": "SUNRISE Arabian Beach Resort",
+      "address": "SUNRISE Arabian Beach Resort, Behind conference center",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9424730%2C34.3809920"
+    },
+    {
+      "id": "credit_agricole-b24b2cc3f3becef9",
+      "name": "Mall 2000 ELMercato",
+      "address": "Mall 2000 ELMercato street, El Hadaba",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8628660%2C34.3081680"
+    },
+    {
+      "id": "credit_agricole-1f4a84a1aff9a2c0",
+      "name": "Dive Inn Hotel",
+      "address": "Dive Inn Hotel, ELFrosaya St. EL Hadaba",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8648990%2C34.3108200"
+    },
+    {
+      "id": "credit_agricole-b1226e8684a941a9",
+      "name": "White Hills Resort",
+      "address": "White Hills Resort Sharks Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9661000%2C34.4026000"
+    },
+    {
+      "id": "credit_agricole-eba27043420253a4",
+      "name": "Reem market (2)- Sharming",
+      "address": "Reem Market El Fanar Street, Hadabet Om El Seid Sharm El Sheikh",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8695960%2C34.3166640"
+    },
+    {
+      "id": "credit_agricole-196df42c449a6e86",
+      "name": "El Khan Hotel",
+      "address": "El Khan Hotel Hadaba Fanar and Froseya Street",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8651170%2C34.3125790"
+    },
+    {
+      "id": "credit_agricole-f6613c6e6b26a54c",
+      "name": "Mall Dahab Entrance 2",
+      "address": "Mall Dahab Entrance2, ElHadabah, Sharm El Sheikh",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8545730%2C34.3030020"
+    },
+    {
+      "id": "credit_agricole-8051e8084ba2c3c6",
+      "name": "Mall Dahab Express Market",
+      "address": "Mall Dahab Express Market entrance Elhadaba",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8547270%2C34.3036290"
+    },
+    {
+      "id": "credit_agricole-0292e899ce4aa614",
+      "name": "Seven Corner Shop",
+      "address": "Seven Corner, El Mercatio Street",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8630510%2C34.3116460"
+    },
+    {
+      "id": "credit_agricole-b3ab639a337fca97",
+      "name": "Charmillion Sea Life Resort",
+      "address": "Charmillion Sea Life Resort - Nabq bay - Sharm El Sheihk",
+      "governorate": "Sharm El-Sheihk",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9996350%2C34.4340110"
+    },
+    {
+      "id": "credit_agricole-ef7413d313575b26",
+      "name": "Grand Rotana Resort",
+      "address": "Grand Rotana Hotel, Shark's Bay",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9397540%2C34.3822920"
+    },
+    {
+      "id": "credit_agricole-5a26cc990cb821c0",
+      "name": "Mall Dahab Center",
+      "address": "Dahab Center,Hadabet Om El Seid Sharm El Sheikh, South Sinai",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8551930%2C34.3048950"
+    },
+    {
+      "id": "credit_agricole-4499bf04da43056c",
+      "name": "Sharm Reef hotel",
+      "address": "Sharm Reef hotel El Fanar St. ElHadaba",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8634640%2C34.3136630"
+    },
+    {
+      "id": "credit_agricole-d2df7509580645d0",
+      "name": "Tamra Residence hotel",
+      "address": "Tamra Residence hotel, Salah Taher ST. from fanar ST., Hadaba",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8705000%2C34.3206200"
+    },
+    {
+      "id": "credit_agricole-a010664971c17efa",
+      "name": "Albatros Hotel Aqua",
+      "address": "Albatros Hotel Aqua El Hadabah",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8584080%2C34.3096590"
+    },
+    {
+      "id": "credit_agricole-bceba55aafab01a8",
+      "name": "Albatros Aqua Park Sharm",
+      "address": "Albatros Aqua Park Sharm, EL Hadabah",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8580980%2C34.3097220"
+    },
+    {
+      "id": "credit_agricole-b4972b6378dcead2",
+      "name": "Elmamsha Mall Dahab",
+      "address": "Mall Dahab street, Hadabet Om El Seid Sharm El Sheikh, South Sinai",
+      "governorate": "Dahab",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8572280%2C34.3092710"
+    },
+    {
+      "id": "credit_agricole-f2d63ad95b47180d",
+      "name": "Crocodile Show Mall",
+      "address": "Crocodile Show Mall, Banks St. Hadaba",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8604830%2C34.3125630"
+    },
+    {
+      "id": "credit_agricole-d1628dd1d1661085",
+      "name": "Queen Sharm Hotel",
+      "address": "Queen Sharm, Fanar St. El Hadaba",
+      "governorate": "Sharm El Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8597550%2C34.3128280"
+    },
+    {
+      "id": "credit_agricole-5da98c21e4215710",
+      "name": "Sunrise Diamond Hotel",
+      "address": "Sunrise Diamond Hotel El Hadabah",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8645490%2C34.3179310"
+    },
+    {
+      "id": "credit_agricole-daf8ea9218d88d6f",
+      "name": "Monte Carlo Sharm Resort",
+      "address": "Monte Carlo Sharm Resort, El Hadaba",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8659920%2C34.3202970"
+    },
+    {
+      "id": "credit_agricole-33ff574f7ff1e456",
+      "name": "AlBatros Royal Garnd Hotel",
+      "address": "AlBatros Royal Garnd Hotel El Hadaba",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8617680%2C34.3167970"
+    },
+    {
+      "id": "credit_agricole-6acccf2998d635e5",
+      "name": "Sunrise Remal Resort",
+      "address": "Sunrise Remal Resort El Montazah",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9692600%2C34.4139900"
+    },
+    {
+      "id": "credit_agricole-74a612779000570e",
+      "name": "Hilton Waterfalls",
+      "address": "El Fanar Street, hadabet om el seid Sharm El Sheikh, South Sinai Governorate, Egypt",
+      "governorate": "Sharm El-Sheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8557040%2C34.3129040"
+    },
+    {
+      "id": "credit_agricole-731be5226cd92f43",
+      "name": "Queen Club Hotel",
+      "address": "Queen Club Hotel, Fanar St. El Hadaba",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8600600%2C34.3170150"
+    },
+    {
+      "id": "credit_agricole-6b7d59736ec1886f",
+      "name": "Baron Palms",
+      "address": "Baron Palms Montazah",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9751260%2C34.4222380"
+    },
+    {
+      "id": "credit_agricole-cfa56685cbc1caa2",
+      "name": "Reem market (1)- Palma beach",
+      "address": "Reem Market El Fanar Street, next to renaisaance mariott",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8528440%2C34.3127550"
+    },
+    {
+      "id": "credit_agricole-5231d90d2f005345",
+      "name": "Sunrise Montemare Resort",
+      "address": "Sunrise Montemare Resort, El Fanar Street, El Hadabah",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.8542380%2C34.3141250"
+    },
+    {
+      "id": "credit_agricole-5964da742b95022a",
+      "name": "Baron Boulevard",
+      "address": "Baron Boulevard, Montaza Baron Resort",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9724730%2C34.4220640"
+    },
+    {
+      "id": "credit_agricole-3ca68091658940b7",
+      "name": "Remal Beach",
+      "address": "Remal Beach El Montazah",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9648570%2C34.4159600"
+    },
+    {
+      "id": "credit_agricole-1fd5f50eb2394359",
+      "name": "Sindbad Beach Aria",
+      "address": "Sindbad Beach, Montazah, Baron boulevard, Sharm El Sheikh",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.9722100%2C34.4224410"
+    },
+    {
+      "id": "credit_agricole-b548e8779da782a2",
+      "name": "Selena Bay",
+      "address": "Selena Bay Hurghada Gouna Road, Next to Cave hotel, Al Ahyaa Area.",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3175150%2C33.7111790"
+    },
+    {
+      "id": "credit_agricole-517d888038a1b248",
+      "name": "Golden Beach Resort",
+      "address": "Golden Beach Resort Alahyaa Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3105040%2C33.7169280"
+    },
+    {
+      "id": "credit_agricole-27fb7452cf1b8804",
+      "name": "Bellagio Beach Resort",
+      "address": "Bellagio Beach Resort & Spa, Al Ahyaa Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.3082890%2C33.7205950"
+    },
+    {
+      "id": "credit_agricole-13a023e040b18337",
+      "name": "Islam Fathy Pharmacy",
+      "address": "Islam Fathy Pharmacy - El Gomhoureya st. beside Vodafone -Sohag",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.5655330%2C31.6962520"
+    },
+    {
+      "id": "credit_agricole-4a0f951f5b0be095",
+      "name": "Palma Beach Seashore",
+      "address": "Palma Beach Seashore, Al Ahyaa Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2895440%2C33.7612730"
+    },
+    {
+      "id": "credit_agricole-83bb7fd42f0f3892",
+      "name": "Meraki Resort Hurghada",
+      "address": "Meraki Resort Hurghada, El kornesh Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2603160%2C33.8154530"
+    },
+    {
+      "id": "credit_agricole-e9db4134fd73a52d",
+      "name": "Daby Sand beach hotel",
+      "address": "Daby Sand beach hotel, Touristic center st dist.4 Hurghada, Red sea",
+      "governorate": "Hurghada,",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2603900%2C33.8208300"
+    },
+    {
+      "id": "credit_agricole-0eee86c64d7da0e2",
+      "name": "Al Ashry Shop",
+      "address": "1 Souq seyahi St., Hurghada Red Sea",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2514690%2C33.8197090"
+    },
+    {
+      "id": "credit_agricole-1b7079f629f5e89c",
+      "name": "Gadalla Showroom ATM – Hurghada City",
+      "address": "Gadalla Showroom - 14 EL Nasr Street - Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2445160%2C33.8262440"
+    },
+    {
+      "id": "credit_agricole-c2705cf0355c4e70",
+      "name": "Dr Mary Somaail Pharmacy",
+      "address": "Dr Mary Somaail Pharmacy, El kornish Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2435920%2C33.8424420"
+    },
+    {
+      "id": "credit_agricole-ab59b1a24901e4dd",
+      "name": "New Cairo shop",
+      "address": "New Cairo shop, Sea street, front of belair Azur Hotel, Arabia area",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+New+Cairo+shop+New+Cairo+shop%2C+Sea+street%2C+front+of+belair+Azur+Hotel%2C+Arabia+area+Hurghada+Egypt"
+    },
+    {
+      "id": "credit_agricole-cffa35541e4618f3",
+      "name": "Bel Air Azure Hotel",
+      "address": "Bel Air Azure Hotel,El kronish Street, Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2417030%2C33.8434480"
+    },
+    {
+      "id": "credit_agricole-544558d7f75c639e",
+      "name": "Arabia Azur Hotel",
+      "address": "Arabia Azur Hotel, El Kornesh Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2411550%2C33.8455570"
+    },
+    {
+      "id": "credit_agricole-5cb61c57edce0f1a",
+      "name": "Arabella Azur Resort",
+      "address": "Arabella Azur Resort, El kornesh Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2402110%2C33.8464330"
+    },
+    {
+      "id": "credit_agricole-d8309e3a00d6808a",
+      "name": "Thawb Al Dafa",
+      "address": "Thawb Al Dafa shop next to el Mina Mosque, Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2292200%2C33.8422360"
+    },
+    {
+      "id": "credit_agricole-12b8552c92e718e9",
+      "name": "Hurghada Marina 2 Shopping center",
+      "address": "Hurghada Marina 2 Shopping center",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2277170%2C33.8416900"
+    },
+    {
+      "id": "credit_agricole-ec476aa87b3d0374",
+      "name": "Hurghada Marina 1",
+      "address": "Hurghada Marina 1",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2267760%2C33.8414960"
+    },
+    {
+      "id": "credit_agricole-064d5d196d090f35",
+      "name": "SAMSUNG Shop",
+      "address": "Samsung Shop, Sheraton street, Al Arosa square",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2225170%2C33.8372110"
+    },
+    {
+      "id": "credit_agricole-ad526c20e7bc7693",
+      "name": "Cotton Land 1",
+      "address": "Cotton Land 1 Sheraton Street",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2206800%2C33.8378910"
+    },
+    {
+      "id": "credit_agricole-dd9f7ea58e653907",
+      "name": "Cotton Land 2- Hurghada",
+      "address": "Cotton Land 2 Shop - The first Sherry Walk, Sheraton Road Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2201660%2C33.8375190"
+    },
+    {
+      "id": "credit_agricole-18e68a3589286bba",
+      "name": "Regina Hotel Hurghada",
+      "address": "Regina Hotel, Sheraton St.",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2198600%2C33.8379500"
+    },
+    {
+      "id": "credit_agricole-f88fff3a03a3f31a",
+      "name": "Le Pacha Resort 2 Shopping Center",
+      "address": "Le Pacha Resort 2 Shopping Center, Sheraton Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2187450%2C33.8382370"
+    },
+    {
+      "id": "credit_agricole-1c66afe9207239ee",
+      "name": "Le Pache Resort 1",
+      "address": "Le Pache Resort 1 Sheraton Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2180760%2C33.8383060"
+    },
+    {
+      "id": "credit_agricole-5a722ff6dc5e125a",
+      "name": "Rivoli Suites Hotel",
+      "address": "Rivoli Suites Hotel, Airport Roadd, New Kawthar",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2042200%2C33.8233900"
+    },
+    {
+      "id": "credit_agricole-8858f9ac336c1bb6",
+      "name": "Coca-Cola Sohag",
+      "address": "Al Kawamel - new Sohag - sotres area",
+      "governorate": "Sohag",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.4263290%2C31.6625600"
+    },
+    {
+      "id": "credit_agricole-a1418cdedb879d82",
+      "name": "La Rose hotel",
+      "address": "La Rose hotel Sheraton road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2147400%2C33.8408380"
+    },
+    {
+      "id": "credit_agricole-976ea3248cb77c36",
+      "name": "Hurghada Airport Terminal 2",
+      "address": "Hurghada Airport Terminal 2",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1889430%2C33.8050520"
+    },
+    {
+      "id": "credit_agricole-573d21a4de86adde",
+      "name": "Sasha bar",
+      "address": "Sasha bar, Sheraton street",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2124030%2C33.8416490"
+    },
+    {
+      "id": "credit_agricole-95239d8f23e61b72",
+      "name": "La Casa Beach",
+      "address": "La Casa Beach, Old Sheraton road front Retro Rest, after Sasha Bar",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.2113960%2C33.8434960"
+    },
+    {
+      "id": "credit_agricole-8b2cbcaf85e89c86",
+      "name": "5 Corners Market",
+      "address": "5 Corners Market at the front of 3 Corners Empire Hotel",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1974170%2C33.8258300"
+    },
+    {
+      "id": "credit_agricole-d28afd52b107e2c3",
+      "name": "Hurghada Airport Terminal 1",
+      "address": "Hurghada Airport Terminal 1",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1801770%2C33.8078960"
+    },
+    {
+      "id": "credit_agricole-0ebb2a49f9e89ada",
+      "name": "Hurghada Airport Arrival Hall 3",
+      "address": "Hurghada Airport Arrival Hall 3",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1795220%2C33.8071900"
+    },
+    {
+      "id": "credit_agricole-293f1c36c2e0485b",
+      "name": "Aldau Hights Village Mall",
+      "address": "Aldau Hights Village Mall Al Mamsha",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1956410%2C33.8361020"
+    },
+    {
+      "id": "credit_agricole-fe077017cd2d58f5",
+      "name": "Hurghada Branch ATM",
+      "address": "Mohamady Hwaidak Square – El Mamsha, Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1951830%2C33.8326550"
+    },
+    {
+      "id": "credit_agricole-f036d067c32eebd5",
+      "name": "Marlin Inn Azur Hotel",
+      "address": "Marlin Inn Azur Hotel El Mamsha",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1923040%2C33.8350270"
+    },
+    {
+      "id": "credit_agricole-2ffa3fe3f867a617",
+      "name": "Miguel Shop",
+      "address": "Miguel Shop Al Mamsha Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1916370%2C33.8343980"
+    },
+    {
+      "id": "credit_agricole-662198763ef0a7f3",
+      "name": "Mena Tours Paradise – Hurghada",
+      "address": "Mena Tours Paradise - Youssef Afifi street - Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1911800%2C33.8339050"
+    },
+    {
+      "id": "credit_agricole-5676af7a2ccfc1cc",
+      "name": "Elysees Hotel",
+      "address": "Elysees Hotel, Old Sheraton Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1969910%2C33.8432140"
+    },
+    {
+      "id": "credit_agricole-79038df989d6f687",
+      "name": "Little Buddha Club",
+      "address": "Little Buddha Club El Mamsha Road, Village Road, Next to Sindbad Resort.",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1877830%2C33.8306740"
+    },
+    {
+      "id": "credit_agricole-05d6af8455664aaf",
+      "name": "Giftun Azur Hotel",
+      "address": "Giftun Azur Hotel, Youssef Affifi Road El Mamsha",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1847740%2C33.8266720"
+    },
+    {
+      "id": "credit_agricole-4a2c2b82b7257f45",
+      "name": "Albatros White Beach Resort",
+      "address": "Albatros White Beach AL Mamsha Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1835510%2C33.8255950"
+    },
+    {
+      "id": "credit_agricole-3d3bec6ba1d6b3ea",
+      "name": "Sunrise Aqua Joy Resort",
+      "address": "Sunrise Aqua Joy Resort El Mamsha Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1674770%2C33.8235640"
+    },
+    {
+      "id": "credit_agricole-3ac58a06a1807d6b",
+      "name": "Sunrise Supermarket",
+      "address": "Sunrise Supermarket, Al Humbra Village, Tourist Walk, in front of Sultan Beach Hotel",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1664770%2C33.8228870"
+    },
+    {
+      "id": "credit_agricole-9ab0a0cdbc716fda",
+      "name": "Royal Lagoon Shopping Center",
+      "address": "Royal Lagoon Shopping Center, Al Mamsha",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1605040%2C33.8245800"
+    },
+    {
+      "id": "credit_agricole-f7886e0f457b4d5e",
+      "name": "Royal Lagoon Resort",
+      "address": "Royal Lagoon Resort Al Mamsha",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1587790%2C33.8221650"
+    },
+    {
+      "id": "credit_agricole-4c58ad3b7449ecd4",
+      "name": "Swiss Inn Hurghada Hotel",
+      "address": "Swiss Inn Hurghada Mamsha Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1587380%2C33.8259090"
+    },
+    {
+      "id": "credit_agricole-39b3b189a8cf9bcd",
+      "name": "New Royal Shop",
+      "address": "New Royal Shop El Mamsha, front of Gravity Hotel",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1568020%2C33.8259480"
+    },
+    {
+      "id": "credit_agricole-3dc7c7507cd56e46",
+      "name": "Mobo Shop",
+      "address": "Al Dahar square Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1507930%2C33.8235950"
+    },
+    {
+      "id": "credit_agricole-594ab5e645c36551",
+      "name": "Anton Center Golden 5",
+      "address": "Anton Center Golden 5, Al Qora road Golden 5 center",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1506420%2C33.8235720"
+    },
+    {
+      "id": "credit_agricole-22a414b0a5b5993a",
+      "name": "My Dream Tours",
+      "address": "Commercial center Arosa square",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1504600%2C33.8235510"
+    },
+    {
+      "id": "credit_agricole-634800e6b14e5449",
+      "name": "Eagles hotel Hurghada",
+      "address": "Eagles hotel Villages street",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1277630%2C33.8243250"
+    },
+    {
+      "id": "credit_agricole-7644ba6a64636af6",
+      "name": "Albatros Aqua Vista",
+      "address": "Albatros Aqua Vista, Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1254860%2C33.8225400"
+    },
+    {
+      "id": "credit_agricole-c2cdef72796083c9",
+      "name": "Albatros Aqua Blu",
+      "address": "Albatros Aqua Blu, Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1241670%2C33.8228240"
+    },
+    {
+      "id": "credit_agricole-3c120f59625e6529",
+      "name": "Albatros Aqua Park",
+      "address": "Albatros Aqua Park, Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1223690%2C33.8228220"
+    },
+    {
+      "id": "credit_agricole-1949e9ab87f28c37",
+      "name": "Albatros Palace Resort",
+      "address": "Albatros Palace Resort, Villages Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1203280%2C33.8249320"
+    },
+    {
+      "id": "credit_agricole-8ab08452207d04d5",
+      "name": "Grand Seas Hotel",
+      "address": "Grand Seas Hotel, El Nasr Street",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1162600%2C33.8252400"
+    },
+    {
+      "id": "credit_agricole-5c8555a5bfb5ccc3",
+      "name": "Titanic Royal Beach",
+      "address": "Titanic Royal Beach, Touristic Villages Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1101830%2C33.8258820"
+    },
+    {
+      "id": "credit_agricole-41654ac268b5c98e",
+      "name": "Aladdin Beach Resort",
+      "address": "Aladdin Beach Resort, Touristic Villages Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1061100%2C33.8289860"
+    },
+    {
+      "id": "credit_agricole-be5c7ead4c76b163",
+      "name": "Ali Baba Resort",
+      "address": "Ali Baba Resort, Touristic Villages Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.1045660%2C33.8274010"
+    },
+    {
+      "id": "credit_agricole-b2bb48305b7adcc8",
+      "name": "Sunrise Mamlouk Palace Resort",
+      "address": "Sunrise Mamlouk Palace Resort Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0996750%2C33.8276020"
+    },
+    {
+      "id": "credit_agricole-7e6e23aa580f57ae",
+      "name": "Sunrise Garden Beach",
+      "address": "Sunrise Garden Beach Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0988780%2C33.8304380"
+    },
+    {
+      "id": "credit_agricole-3ad814252a8b0025",
+      "name": "Sunrise Mall",
+      "address": "Sunrise Mall Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0967450%2C33.8292410"
+    },
+    {
+      "id": "credit_agricole-2ab62480d0a22c5d",
+      "name": "Albatros Alf Lila W Lila",
+      "address": "Albatros Alf Lila W Lila, Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0920590%2C33.8244870"
+    },
+    {
+      "id": "credit_agricole-9cf974be090be4b3",
+      "name": "Dana Beach Resort",
+      "address": "Dana Beach Resort, Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0968470%2C33.8322680"
+    },
+    {
+      "id": "credit_agricole-9732fcdc69c52aed",
+      "name": "Beach Albatros",
+      "address": "Beach Albatros, Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0968310%2C33.8323030"
+    },
+    {
+      "id": "credit_agricole-560d261c0ffda128",
+      "name": "Albatros Jungle Aqua Park",
+      "address": "Albatros Jungle Aqua Park, Beside Senzo Mall, Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0903340%2C33.8243320"
+    },
+    {
+      "id": "credit_agricole-8fb9d76aaceb018f",
+      "name": "Blend Calimera Paradise Resort",
+      "address": "Blend Calimera Paradise Resort, Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0954430%2C33.8394830"
+    },
+    {
+      "id": "credit_agricole-ef30fc4d33040c34",
+      "name": "Blend Club Aqua Resort",
+      "address": "Blend Club Aqua Resort, Sahl Hasheesh Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0937830%2C33.8392990"
+    },
+    {
+      "id": "credit_agricole-eda2e94aafbab941",
+      "name": "Titanic Palace Resort",
+      "address": "Titanic Palace Resort, Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0899900%2C33.8479090"
+    },
+    {
+      "id": "credit_agricole-95a37a3a8a14f1b1",
+      "name": "Titanic Aqua Park Hotel",
+      "address": "Titanic Aqua Park Hotel, villages road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0889300%2C33.8483600"
+    },
+    {
+      "id": "credit_agricole-dc9ebf6e87a852b0",
+      "name": "Titanic Beach Resort",
+      "address": "Titanic Beach Resort, Village Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0889890%2C33.8485900"
+    },
+    {
+      "id": "credit_agricole-8dacf411aec87904",
+      "name": "Albatros Citadel Hotel",
+      "address": "Albatros Citadel Hotel, Sahl Hasheesh, Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0700790%2C33.8907690"
+    },
+    {
+      "id": "credit_agricole-cf409738587bd158",
+      "name": "Old Palace hotel",
+      "address": "Old palace hotel Sahl Hasheesh",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0467580%2C33.8881120"
+    },
+    {
+      "id": "credit_agricole-5be373c418657a11",
+      "name": "Sahl Hashesh Mamsha 1",
+      "address": "Sahl Hashesh Mamsha 1, The Corniche sahl hashesh",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0478100%2C33.8915390"
+    },
+    {
+      "id": "credit_agricole-9354e91aa5f0c2a3",
+      "name": "Sahl Hashesh Mamsha 2",
+      "address": "Sahl Hashesh Mamsha 2, The Corniche sahl hashesh",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0484010%2C33.8934900"
+    },
+    {
+      "id": "credit_agricole-93b89e31b697aac9",
+      "name": "Tropitel Sahl Hashish",
+      "address": "Tropitel Sahl Hashish - Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=27.0203680%2C33.8923400"
+    },
+    {
+      "id": "credit_agricole-3d63d0919b34bfe4",
+      "name": "Sunrise Royal Makadi Resort",
+      "address": "Sunrise Royal Makadi Resort, Makadi Bay",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.9968240%2C33.8977750"
+    },
+    {
+      "id": "credit_agricole-30d6b9b9a7a0f743",
+      "name": "Sunrise Tucana Resort",
+      "address": "Sunrise Tucana Resort, Makadi Bay",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.9965520%2C33.9001930"
+    },
+    {
+      "id": "credit_agricole-c9d2a5b408701c98",
+      "name": "Fort Arabesque Resort",
+      "address": "Fort Arabesque Resort Makadi Bay",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.9985270%2C33.9035960"
+    },
+    {
+      "id": "credit_agricole-365fc4515f0e3934",
+      "name": "Labranda Royal Makadi Hotel",
+      "address": "Labranda Royal Makadi Hotel, Makadi bay",
+      "governorate": "Safaga",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.9826090%2C33.9104820"
+    },
+    {
+      "id": "credit_agricole-6c2cc457c76d4f7e",
+      "name": "Labranda Club Makadi Hotel",
+      "address": "Labranda Club Makadi Hotel, Makadi bay",
+      "governorate": "Safaga",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.9819180%2C33.9122410"
+    },
+    {
+      "id": "credit_agricole-3157f6ed8b3f4d07",
+      "name": "Labranda Garden Lemon and Soul",
+      "address": "Labranda Garden Lemon and Soul, Makadi bay",
+      "governorate": "Safaga",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.9747500%2C33.9045060"
+    },
+    {
+      "id": "credit_agricole-5aa90c28cc63b538",
+      "name": "The Cascades Golf Resort",
+      "address": "The Cascades Golf Resort, Soma Bay, Safaga",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.8590130%2C33.9929710"
+    },
+    {
+      "id": "credit_agricole-ac48af98d4ecbef4",
+      "name": "Kempiniski Soma Bay",
+      "address": "Kempiniski Soma Bay",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.8487490%2C33.9875200"
+    },
+    {
+      "id": "credit_agricole-bcdc1810eaa6db4d",
+      "name": "Albatros Club Beach Soma",
+      "address": "Albatros Club Beach Soma Bay",
+      "governorate": "Safaga",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.8133650%2C33.9444490"
+    },
+    {
+      "id": "credit_agricole-ace71486fc31e39f",
+      "name": "Kairaba Aqua Mondo Resort",
+      "address": "Kairaba Aqua Mondo Resort, Soma Bay",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.7994490%2C33.9416150"
+    },
+    {
+      "id": "credit_agricole-4c7a3c969776b8c1",
+      "name": "Amarina Abu Soma Resort",
+      "address": "Amarina Abu Soma Resort Safaga",
+      "governorate": "Safaga",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.7984850%2C33.9407420"
+    },
+    {
+      "id": "credit_agricole-6f5616cfe782488e",
+      "name": "Dr. Khaled El Dawy Pharmacy",
+      "address": "No 13 El Bakry Street",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1728720%2C32.7129930"
+    },
+    {
+      "id": "credit_agricole-79db701f1d26919c",
+      "name": "Smart Home Showroom",
+      "address": "Borg Al Gabalawy - infront of El Reyah Slipway",
+      "governorate": "Qena",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1511890%2C32.7419740"
+    },
+    {
+      "id": "credit_agricole-7eaf09195305a476",
+      "name": "Coral Sun Beach",
+      "address": "Coral Sun Beach Safaga Al Qusair Road",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.5701920%2C34.0314560"
+    },
+    {
+      "id": "credit_agricole-4c28f04e37fe74b3",
+      "name": "El Deir El Bahari for Alabaster",
+      "address": "Deir Bahari Alabaster, El Qaran, Entrance to the Temple of Hatshepsut",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7348670%2C32.6138940"
+    },
+    {
+      "id": "credit_agricole-b3a54b2db91f572b",
+      "name": "Abou ElQomsan for Alabaster",
+      "address": "Abou ElQomsan for Alabaster, AlQarnah",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7355780%2C32.6248810"
+    },
+    {
+      "id": "credit_agricole-d1c014944a116088",
+      "name": "IBIS for Alabaster",
+      "address": "IBIS for Alabaster Al Qarna",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7328270%2C32.6173240"
+    },
+    {
+      "id": "credit_agricole-1f43d12e67cc5d8f",
+      "name": "Thutmous Shop for Alabaster",
+      "address": "Thutmous for Alabaster, AlQarna, Luxor",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7343060%2C32.6242920"
+    },
+    {
+      "id": "credit_agricole-05aa7612ef000762",
+      "name": "Abu Simbel Alabaster luxor",
+      "address": "Abu Simbel Alabaster luxor, El Qaran",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7317160%2C32.6152040"
+    },
+    {
+      "id": "credit_agricole-2a1f37795a13425c",
+      "name": "Habu Cafe 2",
+      "address": "Habu Cafe front of Medinet Habu Temple",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7181680%2C32.6022720"
+    },
+    {
+      "id": "credit_agricole-10f6e57553782c3e",
+      "name": "Habu Cafe",
+      "address": "Habu Cafe front of Medinet Habu Temple",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7181160%2C32.6022000"
+    },
+    {
+      "id": "credit_agricole-fea9e20ffca5e0fe",
+      "name": "Ali Baba Market",
+      "address": "Ali Baba Market front of Colossi of Memnon ElQarna",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7197390%2C32.6108800"
+    },
+    {
+      "id": "credit_agricole-7a786ac59e138790",
+      "name": "Moon Valley Restaurant",
+      "address": "25.7205024 32.6180306",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7205020%2C32.6180310"
+    },
+    {
+      "id": "credit_agricole-0cb70c7c5a9e56ca",
+      "name": "Isis2 Papyrus Bazaar",
+      "address": "Isis2 Papyrus Bazaar, Karank, Next to Hilton Hotel",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7271900%2C32.6575450"
+    },
+    {
+      "id": "credit_agricole-d59784606a8f54ee",
+      "name": "Hilton Luxor Hotel ATM",
+      "address": "Karnak St. off Television St., Inside Hilton Luxor hotel",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7244040%2C32.6542660"
+    },
+    {
+      "id": "credit_agricole-e1589e05c1b12e79",
+      "name": "Shot café",
+      "address": "Shot Café Al Qarna",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7143010%2C32.6243530"
+    },
+    {
+      "id": "credit_agricole-420d41010025f7c3",
+      "name": "White Cafe Karnak",
+      "address": "White Cafe Karnak",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7179480%2C32.6521950"
+    },
+    {
+      "id": "credit_agricole-b3d3361ec2a8cef1",
+      "name": "Karnak Park",
+      "address": "Karnak Park beside Karnak Temp",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7167850%2C32.6521950"
+    },
+    {
+      "id": "credit_agricole-ad3e4da707d767ee",
+      "name": "Merit Aton Bazaar",
+      "address": "Merit Aton Bazaar Beside Karnak Park",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7153840%2C32.6515870"
+    },
+    {
+      "id": "credit_agricole-18ed11219fcb696e",
+      "name": "Georgina Restaurant",
+      "address": "Georgina Restaurant, Kornish Al Nile, Mummification Museum",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7091880%2C32.6356930"
+    },
+    {
+      "id": "credit_agricole-5e4ee9449c19fda1",
+      "name": "Almina Restaurant",
+      "address": "Almina Restaurant, El Qurna, next to the tourist port",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7099230%2C32.6389220"
+    },
+    {
+      "id": "credit_agricole-87ba6ffe13369508",
+      "name": "Hamees Papyrus Luxor",
+      "address": "Hamees Papyrus, Karnak, Public Library",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7107680%2C32.6493190"
+    },
+    {
+      "id": "credit_agricole-b836cc269a2dcdc2",
+      "name": "Spring Tours Luxor",
+      "address": "Spring Tours Gazirat Al Awameyah",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7037200%2C32.6247430"
+    },
+    {
+      "id": "credit_agricole-f1deec06ec5f5d5a",
+      "name": "Africa Restaurant",
+      "address": "Africa Resturant, ElQarna,elbairat",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7050300%2C32.6331160"
+    },
+    {
+      "id": "credit_agricole-ac639ef453bc820d",
+      "name": "El Moudira Hotel",
+      "address": "El Moudira Hotel, Hajar Al-Dabeya, the west bank",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6848320%2C32.5529500"
+    },
+    {
+      "id": "credit_agricole-e3d313945b0995c0",
+      "name": "ATM Center Luxor ATM",
+      "address": "33, El Karnak Museum St. ATM Center in front of Luxor Museum",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7074240%2C32.6464720"
+    },
+    {
+      "id": "credit_agricole-1a6e286520d9bb34",
+      "name": "El Waha Restaurant",
+      "address": "El Waha Restaurant, Qurna boayrat west bank",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7037000%2C32.6335080"
+    },
+    {
+      "id": "credit_agricole-0c45a179a659c6c0",
+      "name": "El Mesala Hotel Luxor",
+      "address": "El Mesala Hotel, west bank, El ramla, Al Qarna Road, Luxor",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7030040%2C32.6335030"
+    },
+    {
+      "id": "credit_agricole-ba63a0d3d382fcd8",
+      "name": "ART Museum Shop",
+      "address": "ART Museum Shop Karnak",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7063180%2C32.6469310"
+    },
+    {
+      "id": "credit_agricole-a704156b96db5d44",
+      "name": "Aracan Eatabe Luxor Hotel",
+      "address": "Aracan Eatabe Luxor Hotel Cornish El Nile",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7048150%2C32.6426600"
+    },
+    {
+      "id": "credit_agricole-a4e0d37ea072e432",
+      "name": "Desouky Market",
+      "address": "Desouky Market, Next to Sonesta hotel, Nile road",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7015350%2C32.6413440"
+    },
+    {
+      "id": "credit_agricole-b490867a964729d0",
+      "name": "Om Kolsoum Café",
+      "address": "Om Kolsoum Café front of Karnak temple",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.7012600%2C32.6420800"
+    },
+    {
+      "id": "credit_agricole-1631a49a4ef14e96",
+      "name": "Nile Castle Hotel",
+      "address": "Nile Castle Hotel Al Qarna",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6994270%2C32.6353400"
+    },
+    {
+      "id": "credit_agricole-2678478eaccdd019",
+      "name": "ALFA Bazar",
+      "address": "ALFA Bazar Luxor Temples Road ,McDonald's Luxor",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6994550%2C32.6409390"
+    },
+    {
+      "id": "credit_agricole-d9b3d6b6fdccc5dc",
+      "name": "Sofitel Winter Palace Luxor",
+      "address": "Sofitel Winter Palace Luxor, 17 Corniche El Nile street Beside LUXOR Temple",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6968150%2C32.6369910"
+    },
+    {
+      "id": "credit_agricole-d34d6d87a319369e",
+      "name": "Al Baeirat Hotel",
+      "address": "Al Baeirat Hotel, West Bank, Al Baeirat",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6856510%2C32.6213320"
+    },
+    {
+      "id": "credit_agricole-7fcb7dbc6f1fe9b5",
+      "name": "Steigenberger Nile Palace",
+      "address": "Steigenberger Nile Palace Hotel, Khalid Ibn El-Waleed Street, Gazirat Al Awameyah",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6875000%2C32.6308210"
+    },
+    {
+      "id": "credit_agricole-39571c731880b7ad",
+      "name": "Thutmose Shop Aswan",
+      "address": "Thutmose Shop, El Sadat Area",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6870930%2C32.6318020"
+    },
+    {
+      "id": "credit_agricole-c9c31be3b707eecb",
+      "name": "Nile Queen Restaurant",
+      "address": "Nile Queen Restaurant, Beside Steigenburger Hotel",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6843940%2C32.6295090"
+    },
+    {
+      "id": "credit_agricole-8e4b686d7e758390",
+      "name": "Jolie Ville Resort",
+      "address": "Jolie Ville Resort & SPA kings Island, Gazirat Al Awameyah Street, Luxor",
+      "governorate": "Sharm ElSheikh",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6657830%2C32.6208380"
+    },
+    {
+      "id": "credit_agricole-389d6864c70c14ee",
+      "name": "Luxor Airport",
+      "address": "Luxor Airpot",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6753130%2C32.7001610"
+    },
+    {
+      "id": "credit_agricole-5fb69cae3f695a9d",
+      "name": "Marsa El Watanya Luxor",
+      "address": "Marsa El Watanya Luxor, El-Boghdady",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6379880%2C32.5970440"
+    },
+    {
+      "id": "credit_agricole-7aa807a6a3f9acfb",
+      "name": "SUNRISE Nile Cruise",
+      "address": "SUNRISE Nile Cruise, Blue Sky dock, beside Luxor Bridge, El-Boghdady",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6354770%2C32.5970100"
+    },
+    {
+      "id": "credit_agricole-60c39aac1156a451",
+      "name": "Viking Nile Cruise",
+      "address": "Viking Nile Cruise, El Boghdady",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6278170%2C32.5908570"
+    },
+    {
+      "id": "credit_agricole-a62926fe9bd3f137",
+      "name": "EL MARSA Luxor",
+      "address": "EL MARSA Luxor",
+      "governorate": "Luxor",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.6213910%2C32.5809290"
+    },
+    {
+      "id": "credit_agricole-19f1e34988981ab6",
+      "name": "Radisson Blu Resort El Quseir",
+      "address": "Radisson Blu Resort El Quseir Road",
+      "governorate": "El Qoseir",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1469660%2C34.2572930"
+    },
+    {
+      "id": "credit_agricole-15c7ead19236c328",
+      "name": "Movenpick Quseir",
+      "address": "Movenpick Hotel -El Quseir - Hurghada",
+      "governorate": "Hurghada",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=26.1013530%2C34.2803110"
+    },
+    {
+      "id": "credit_agricole-5180e2be85677a72",
+      "name": "Albatros Sea World",
+      "address": "Albatros Sea World, El Qoseir Road",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.9670320%2C34.3613670"
+    },
+    {
+      "id": "credit_agricole-fa1f585022f861a0",
+      "name": "Albatros Oasis Porto Ghalib",
+      "address": "Albatros Oasis Porto Ghalib",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.5379280%2C34.6388440"
+    },
+    {
+      "id": "credit_agricole-2d6c763074096431",
+      "name": "Radisson Individuals Port Ghalib",
+      "address": "Radisson Individuals Port Ghalib",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.5347910%2C34.6365540"
+    },
+    {
+      "id": "credit_agricole-864dd7556c2d50b8",
+      "name": "Albatros Palace Port Ghalib",
+      "address": "Albatros Palace Port Ghalib",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.5354520%2C34.6393130"
+    },
+    {
+      "id": "credit_agricole-6345e88906b0aa6b",
+      "name": "Marsa Alam Airport",
+      "address": "Marsa Alam Airport Port Ghalib",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.3856520%2C34.7116940"
+    },
+    {
+      "id": "credit_agricole-d1842b473d28b8cd",
+      "name": "Three Corner Equinox",
+      "address": "Three Corner Equinox Marsa Alam Road",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.3237760%2C34.7434110"
+    },
+    {
+      "id": "credit_agricole-219c2f5ec56c94b5",
+      "name": "Blend Elphistone Resort",
+      "address": "Blend Elphistone Resort, Marsa Alam",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.2764110%2C34.7736700"
+    },
+    {
+      "id": "credit_agricole-41079961acb20fea",
+      "name": "Marsa Shagra Village Abu Dabab",
+      "address": "Marsa Shagra Village Abu Dabab, Camp, Marsa Alam road",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.2451560%2C34.7939130"
+    },
+    {
+      "id": "credit_agricole-87bba934999b3893",
+      "name": "Egypt Marina Center",
+      "address": "Egypt Marina Center Marsa Alam",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.2403440%2C34.7944470"
+    },
+    {
+      "id": "credit_agricole-6bfc3220d0637696",
+      "name": "Blue Reef Resort Marsa Alam",
+      "address": "Blue Reef Resort Marsa Alam",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.2401280%2C34.7944590"
+    },
+    {
+      "id": "credit_agricole-081edd5ee336a7a2",
+      "name": "MG Alexander Hotel",
+      "address": "MG Alexander Hotel Marsa Alam",
+      "governorate": "Marsa Alam",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=25.2309320%2C34.7974600"
+    },
+    {
+      "id": "credit_agricole-b9d10d43bace5daf",
+      "name": "Sonesta Nouba Aswan",
+      "address": "Sonesta Nouba Aswan, Abu Arish Qebli",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.1592080%2C32.8789990"
+    },
+    {
+      "id": "credit_agricole-31aaa1ccea7deac6",
+      "name": "Aswan Marina",
+      "address": "Aswan Marina, Abu Arish Qebli",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.1243280%2C32.8956710"
+    },
+    {
+      "id": "credit_agricole-f3a6bc10ae0c6420",
+      "name": "Coca-Cola Aswan Factory",
+      "address": "Coca-Cola Aswan Factory ,Aswan",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.1161380%2C32.8990860"
+    },
+    {
+      "id": "credit_agricole-66001cf3cb8d542a",
+      "name": "Aswan Station Branch ATM",
+      "address": "El Mahatta Sq., Aswan",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.1003790%2C32.8997840"
+    },
+    {
+      "id": "credit_agricole-b0eff7558a928f4f",
+      "name": "Germany Hospital Aswan ATM",
+      "address": "23, Cornish El Nile St., inside German Evangelical Mission Hospital",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0955550%2C32.8979240"
+    },
+    {
+      "id": "credit_agricole-3ba8787143a59970",
+      "name": "Police Club Aswan",
+      "address": "Police Officers Club,Kornish Al Nile, Aswan",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0947340%2C32.8968810"
+    },
+    {
+      "id": "credit_agricole-81f78b2eeff265d7",
+      "name": "Obelisk Nile Hotel 2 Rec",
+      "address": "Obelisk Nile Hotel, inside Reception, Corniche El Nile Street",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0922310%2C32.8956590"
+    },
+    {
+      "id": "credit_agricole-ecc0b06062ddeda9",
+      "name": "Obelisk Nile Hotel 1 St",
+      "address": "Obelisk Nile Hotel, at street, Corniche El Nile Street",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0921470%2C32.8960390"
+    },
+    {
+      "id": "credit_agricole-d56a2179db837d93",
+      "name": "Sofitel Legend Old Cataract Hotel",
+      "address": "Sofitel Legend Old Cataract Hotel, Abtal El Tahrir Street",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0824760%2C32.8878520"
+    },
+    {
+      "id": "credit_agricole-83708ed679442e15",
+      "name": "Basma Hotel 2",
+      "address": "Basma Hotel 2, Al Fanadek Street",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0777330%2C32.8859780"
+    },
+    {
+      "id": "credit_agricole-c502e94b4274cb3b",
+      "name": "Basma Hotel 1",
+      "address": "Basma Hotel 1, Al Fanadek Street",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0779780%2C32.8876340"
+    },
+    {
+      "id": "credit_agricole-7ccbb948145708aa",
+      "name": "Sunset hotel Aswan",
+      "address": "Sunset hotel , Al Fanadek, Sheyakhah Oula, Aswan",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0771200%2C32.8871170"
+    },
+    {
+      "id": "credit_agricole-adb18745e5f4224b",
+      "name": "Doroka Hotel",
+      "address": "Doroka Hotel, Gharb Sohail, Aswan",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0633310%2C32.8643260"
+    },
+    {
+      "id": "credit_agricole-d751006f762a6655",
+      "name": "Katdoley hotel",
+      "address": "Katdoley hotel, Gharb Sohil, Beside Marsa Gharb Sohil",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0605480%2C32.8640500"
+    },
+    {
+      "id": "credit_agricole-633a5e2c368eea01",
+      "name": "Sandallia Papyrus Bazar",
+      "address": "Sandallia Papyrus Bazar, El Sadat road",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0542660%2C32.8822140"
+    },
+    {
+      "id": "credit_agricole-a0b31c05fe0ec2ab",
+      "name": "Scarab Jewelry",
+      "address": "Scarab Jewelry El Sadat RD",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0522990%2C32.8819140"
+    },
+    {
+      "id": "credit_agricole-6eb16696ad973bd0",
+      "name": "JAREEDY CAFÉ",
+      "address": "JAREEDY CAFÉ Gharb Suhayl",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0466920%2C32.8617630"
+    },
+    {
+      "id": "credit_agricole-d3762ffda1a5d9a1",
+      "name": "Abu Simbel Bazaar Aswan",
+      "address": "Abu Simbel Bazaar Aswan, El Sadat Riad, Naga karkur",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0492460%2C32.8808800"
+    },
+    {
+      "id": "credit_agricole-f214ce945044bee6",
+      "name": "Marina Philae Temple",
+      "address": "Marina Philae Temple",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=24.0354710%2C32.8863570"
+    },
+    {
+      "id": "credit_agricole-a651e3096f29be52",
+      "name": "Aswan Airport Domestic Arrival",
+      "address": "Aswan Airport",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=23.9670400%2C32.8247250"
+    },
+    {
+      "id": "credit_agricole-cd32cadbaaf474d5",
+      "name": "Bishareen Bazaar Aswan",
+      "address": "Bishareen Bazar Kornish AlNile",
+      "governorate": "Aswan",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cr%C3%A9dit+Agricole+Egypt+Bishareen+Bazaar+Aswan+Bishareen+Bazar+Kornish+AlNile+Aswan+Egypt"
+    }
+  ],
+  "branches_status": "published",
+  "atms_status": "published",
+  "source_urls": [
+    "https://www.ca-egypt.com/en/map-details/",
+    "https://www.ca-egypt.com/en/security/?bank_segment=personal-banking"
+  ],
+  "branch_locator_url": "https://www.ca-egypt.com/en/map-details/",
+  "atm_locator_url": "https://www.ca-egypt.com/en/map-details/",
+  "hotline": "19191",
+  "contact_url": "https://www.ca-egypt.com/",
+  "reviewed_at": "2026-10-29",
+  "version": "3b7d3ecdf6543356"
+}

@@ -1,0 +1,16 @@
+{
+  "bank_code": "idb",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [
+    "https://www.idb.com.eg/"
+  ],
+  "branch_locator_url": "https://www.idb.com.eg/",
+  "atm_locator_url": "https://www.idb.com.eg/",
+  "hotline": "19320",
+  "contact_url": "https://www.idb.com.eg/",
+  "reviewed_at": "2026-10-29",
+  "version": "4d19dc4e58062bda"
+}

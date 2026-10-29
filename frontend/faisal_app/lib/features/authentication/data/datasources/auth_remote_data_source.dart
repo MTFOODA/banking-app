@@ -23,6 +23,7 @@ class AuthRemoteDataSource {
       '/auth/login',
       body: {
         'identifier': identifier,
+        'identifier_type': 'username',
         'password': password,
         'remember_device': rememberDevice,
         'bank_code': ?bankCode,

@@ -1,0 +1,14 @@
+{
+  "bank_code": "ealbank",
+  "branches": [],
+  "atms": [],
+  "branches_status": "unavailable",
+  "atms_status": "unavailable",
+  "source_urls": [],
+  "branch_locator_url": "https://www.eal-bank.com/",
+  "atm_locator_url": "https://www.eal-bank.com/",
+  "hotline": null,
+  "contact_url": "https://www.eal-bank.com/",
+  "reviewed_at": null,
+  "version": "18b6b3c28384eea4"
+}

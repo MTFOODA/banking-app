@@ -1,3 +1,5 @@
+import 'package:faisal_app/features/banks/presentation/bank_onboarding_page.dart';
+import 'package:faisal_app/features/authentication/presentation/pages/login_page.dart';
 import 'package:faisal_app/main.dart' as app;
 import 'package:faisal_app/features/products/presentation/pages/bank_notices_page.dart';
 import 'package:faisal_app/core/di/injector.dart';
@@ -38,19 +40,50 @@ Future<void> tap(WidgetTester tester, String label) async {
 bool isStartupPage(Widget widget) =>
     widget is TextFormField ||
     widget is NavigationBar ||
-    widget is BankNoticesPage;
+    widget is BankNoticesPage ||
+    widget is BankOnboardingPage;
 
-/// The permanent public portal requires an explicit sign-in action.
+/// Follow the global bank selection before entering the username form.
+Future<void> chooseBank(WidgetTester tester, String code) async {
+  if (find.byType(LoginPage).evaluate().isNotEmpty) {
+    await tap(tester, 'Change bank');
+  }
+  await waitFor(tester, find.byType(BankOnboardingPage));
+  for (
+    var i = 0;
+    i < 2 &&
+        find.byKey(const Key('bank-onboarding-next')).evaluate().isNotEmpty;
+    i++
+  ) {
+    await tester.tap(find.byKey(const Key('bank-onboarding-next')));
+    await tester.pumpAndSettle();
+  }
+  await tester.enterText(
+    find.byKey(const Key('bank-onboarding-search')),
+    code == 'banque_misr' ? 'Misr' : code,
+  );
+  await tester.pumpAndSettle();
+  final target = find.byKey(ValueKey('choose-bank-$code'));
+  await tester.ensureVisible(target);
+  await tester.tap(target);
+  await waitFor(tester, find.byType(LoginPage));
+}
+
 Future<void> openSignIn(WidgetTester tester) async {
   await waitFor(
     tester,
-    find.byWidgetPredicate((w) => w is TextFormField || w is BankNoticesPage),
+    find.byWidgetPredicate(
+      (w) => w is LoginPage || w is BankOnboardingPage || w is BankNoticesPage,
+    ),
   );
   final card = find.byKey(const ValueKey('notice_continue_login'));
   if (card.evaluate().isNotEmpty) {
     await tester.ensureVisible(card);
     await tester.tap(card);
     await tester.pumpAndSettle();
+  }
+  if (find.byType(BankOnboardingPage).evaluate().isNotEmpty) {
+    await chooseBank(tester, 'faisal');
   }
   await waitFor(tester, find.byType(TextFormField));
 }
@@ -79,16 +112,12 @@ void main() {
       await waitFor(tester, find.byWidgetPredicate(isStartupPage));
       await sl<LanguageCubit>().change('en');
       sl<AuthBloc>().add(const AuthLogoutRequested());
-      await waitFor(tester, find.text('Sign in'));
       await openSignIn(tester);
       await tester.pumpAndSettle();
       await waitFor(tester, find.text('Register for digital banking'));
       await tap(tester, 'Register for digital banking');
       await tester.pumpAndSettle();
-      await tester.tap(find.byType(DropdownButtonFormField<String>).first);
-      await tester.pumpAndSettle();
-      await tester.tap(find.text('Faisal Islamic Bank of Egypt').last);
-      await tester.pumpAndSettle();
+
       await tester.enterText(
         find.byType(TextFormField).first,
         '4000-0000-0000-0901',
@@ -185,7 +214,6 @@ void main() {
       );
       await tester.pump();
       await tap(tester, 'Change password');
-      await waitFor(tester, find.text('Sign in'));
       await openSignIn(tester);
       await tester.pumpAndSettle();
       expect(find.byType(TextFormField), findsNWidgets(2));

@@ -9,8 +9,13 @@ class DiscoverRepositoryImpl implements DiscoverRepository {
   final DioClient _client;
 
   @override
-  Future<List<Announcement>> fetchPublicAnnouncements() async {
-    final data = await _client.get('/public/announcements');
+  Future<List<Announcement>> fetchPublicAnnouncements({
+    String? bankCode,
+  }) async {
+    final data = await _client.get(
+      '/public/announcements',
+      query: {'bank_code': bankCode},
+    );
     return (data as List).map((item) => announcement(asMap(item))).toList();
   }
 

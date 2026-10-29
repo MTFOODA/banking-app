@@ -97,7 +97,7 @@ void main() {
         auth: const AuthState(status: AuthStatus.unauthenticated),
         location: AppRoutes.splash,
       );
-      expect(redirect, AppRoutes.preLogin);
+      expect(redirect, AppRoutes.login);
     });
 
     test('signed-out state stays on the credential screens', () {

@@ -1,4 +1,5 @@
-import '../../../banks/presentation/bank_selector.dart';
+import '../../../banks/presentation/bank_selection_cubit.dart';
+import '../../../branding/presentation/widgets/branding_scope.dart';
 
 import 'dart:async';
 
@@ -36,7 +37,9 @@ class _RegistrationPageState extends State<RegistrationPage> {
   final _password = TextEditingController(),
       _confirmation = TextEditingController();
   Timer? _timer;
-  String? _bankCode;
+  late final String? _bankCode = sl.isRegistered<BankSelectionCubit>()
+      ? sl<BankSelectionCubit>().state
+      : null;
   @override
   void initState() {
     super.initState();
@@ -198,12 +201,15 @@ class _RegistrationPageState extends State<RegistrationPage> {
                                 const SizedBox(height: 20),
                                 if (state.step ==
                                     RegistrationStep.identifier) ...[
-                                  BankSelector(
-                                    value: _bankCode,
-                                    registrationOnly: true,
-                                    enabled: !state.busy,
-                                    onChanged: (value) =>
-                                        setState(() => _bankCode = value),
+                                  Text(
+                                    BrandingScope.bankOf(context)?.name(
+                                          Localizations.localeOf(context)
+                                              .languageCode,
+                                        ) ??
+                                        l.bankChooseTitle,
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .titleMedium,
                                   ),
                                   const SizedBox(height: 12),
                                   Text(l.bankRegistrationHelp),
@@ -225,12 +231,13 @@ class _RegistrationPageState extends State<RegistrationPage> {
                                     label: l.continueLabel,
                                     loading: state.busy,
                                     onPressed: () {
-                                      if (_form.currentState!.validate()) {
+                                      if (_bankCode != null &&
+                                          _form.currentState!.validate()) {
                                         _cubit.start(
                                           normalizeRegistrationIdentifier(
                                             _identifier.text,
                                           )!,
-                                          bankCode: _bankCode!,
+                                          bankCode: _bankCode,
                                         );
                                       }
                                     },

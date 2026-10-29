@@ -4,5 +4,5 @@ abstract class DiscoverRepository {
   Future<DiscoverContent> loadDiscover();
 
   Future<Announcement> fetchAnnouncement(String announcementId);
-  Future<List<Announcement>> fetchPublicAnnouncements();
+  Future<List<Announcement>> fetchPublicAnnouncements({String? bankCode});
 }

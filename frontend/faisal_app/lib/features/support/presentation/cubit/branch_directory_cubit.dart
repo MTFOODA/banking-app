@@ -1,3 +1,5 @@
+import '../../domain/entities/bank_directory.dart';
+
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../core/errors/app_exception.dart';
@@ -18,14 +20,21 @@ class BranchDirectoryState {
     this.error,
     this.query = '',
     this.governorate,
+    this.directory,
   });
   final List<BankBranch> branches;
   final bool loading;
   final AppException? error;
   final String query;
   final String? governorate;
+  final BankDirectory? directory;
   List<String> get governorates =>
-      (branches.map((b) => b.governorate).toSet().toList()..sort());
+      (branches
+          .map((b) => b.governorate)
+          .where((g) => g.isNotEmpty)
+          .toSet()
+          .toList()
+        ..sort());
   List<BankBranch> get visible => branches
       .where(
         (b) =>
@@ -37,8 +46,14 @@ class BranchDirectoryState {
 }
 
 class BranchDirectoryCubit extends Cubit<BranchDirectoryState> {
-  BranchDirectoryCubit(this._repository) : super(const BranchDirectoryState());
+  BranchDirectoryCubit(
+    this._repository, {
+    this.bankCode = 'faisal',
+    this.atms = false,
+  }) : super(const BranchDirectoryState());
   final BankDirectoryRepository _repository;
+  final String bankCode;
+  final bool atms;
   Future<void> load() async {
     if (isClosed) return;
     final previous = state;
@@ -50,17 +65,24 @@ class BranchDirectoryCubit extends Cubit<BranchDirectoryState> {
       ),
     );
     try {
-      final branches = await _repository.loadBranches();
-      if (!isClosed) {
-        emit(
-          BranchDirectoryState(
-            branches: branches,
-            loading: false,
-            query: state.query,
-            governorate: state.governorate,
-          ),
-        );
+      final directory = await _repository.loadDirectory(bankCode);
+      void apply(BankDirectory value) {
+        if (!isClosed) {
+          emit(
+            BranchDirectoryState(
+              branches: atms ? value.atms : value.branches,
+              directory: value,
+              loading: false,
+              query: state.query,
+              governorate: state.governorate,
+            ),
+          );
+        }
       }
+
+      apply(directory);
+      final updated = await _repository.loadDirectory(bankCode, refresh: true);
+      if (!identical(directory, updated)) apply(updated);
     } on AppException catch (error) {
       if (!isClosed) {
         emit(
@@ -85,6 +107,7 @@ class BranchDirectoryCubit extends Cubit<BranchDirectoryState> {
       branches: state.branches,
       loading: state.loading,
       error: state.error,
+      directory: state.directory,
       query: query ?? state.query,
       governorate: clearGovernorate ? null : governorate ?? state.governorate,
     ),

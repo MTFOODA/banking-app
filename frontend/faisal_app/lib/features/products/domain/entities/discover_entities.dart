@@ -20,6 +20,7 @@ class Announcement extends Equatable {
     this.ctaRoute,
     this.displayLocation = 'home',
     this.publiclyAddressed = true,
+    this.bankCode,
   });
 
   final String id;
@@ -40,6 +41,7 @@ class Announcement extends Equatable {
   final String? ctaRoute;
   final String displayLocation;
   final bool publiclyAddressed;
+  final String? bankCode;
 
   String title(bool arabic) => arabic ? titleAr : titleEn;
   String body(bool arabic) => arabic ? bodyAr : bodyEn;

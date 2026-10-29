@@ -1,0 +1,1357 @@
+{
+  "bank_code": "bank_nxt",
+  "branches": [
+    {
+      "id": "bank_nxt-24ba80ffeb899a46",
+      "name": "القاهره",
+      "address": "8 ش عبد الخالق ثروت –وسط البلد",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D9%87+8+%D8%B4+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D8%AE%D8%A7%D9%84%D9%82+%D8%AB%D8%B1%D9%88%D8%AA+%E2%80%93%D9%88%D8%B3%D8%B7+%D8%A7%D9%84%D8%A8%D9%84%D8%AF+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-75f8141d7ac71d81",
+      "name": "شبرا",
+      "address": "أبراج أغاخان - كورنيش النيل - شـــــبرا",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC+%D8%A3%D8%BA%D8%A7%D8%AE%D8%A7%D9%86+-+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+-+%D8%B4%D9%80%D9%80%D9%80%D9%80%D9%80%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-896dbebbe7e5ab33",
+      "name": "الزمالك الإسلامي",
+      "address": "44 ش محمد مظهر - الزمالك",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A+44+%D8%B4+%D9%85%D8%AD%D9%85%D8%AF+%D9%85%D8%B8%D9%87%D8%B1+-+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-4ceda3bfc3bdc227",
+      "name": "مول أرينا",
+      "address": "أرينا مول –القطاع الاول من شارع التسعين- قطعه رقم 127 ‘ 130 – التجمع الخامس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%88%D9%84+%D8%A3%D8%B1%D9%8A%D9%86%D8%A7+%D8%A3%D8%B1%D9%8A%D9%86%D8%A7+%D9%85%D9%88%D9%84+%E2%80%93%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9+%D8%A7%D9%84%D8%A7%D9%88%D9%84+%D9%85%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86-+%D9%82%D8%B7%D8%B9%D9%87+%D8%B1%D9%82%D9%85+127+%E2%80%98+130+%E2%80%93+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-2d26b4af6cc3bd4c",
+      "name": "عمارات العبور",
+      "address": "8 عمارات العبور - ش صلاح سالم",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B9%D9%85%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+8+%D8%B9%D9%85%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+-+%D8%B4+%D8%B5%D9%84%D8%A7%D8%AD+%D8%B3%D8%A7%D9%84%D9%85+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-853d099d8f56d1e5",
+      "name": "الزمالك التجاري",
+      "address": "29 ش المنصور محمد - الزمالك",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A+29+%D8%B4+%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1+%D9%85%D8%AD%D9%85%D8%AF+-+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-85d7629ec3c8404b",
+      "name": "مدينة نصر",
+      "address": "24 ش أبو داود الظاهرى - مدينه نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+24+%D8%B4+%D8%A3%D8%A8%D9%88+%D8%AF%D8%A7%D9%88%D8%AF+%D8%A7%D9%84%D8%B8%D8%A7%D9%87%D8%B1%D9%89+-+%D9%85%D8%AF%D9%8A%D9%86%D9%87+%D9%86%D8%B5%D8%B1+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-43a74170b8963ba9",
+      "name": "نهرو",
+      "address": "40 شارع نهرو - خلف الميريلاند - مصر الجديده",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%86%D9%87%D8%B1%D9%88+40+%D8%B4%D8%A7%D8%B1%D8%B9+%D9%86%D9%87%D8%B1%D9%88+-+%D8%AE%D9%84%D9%81+%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D9%8A%D9%84%D8%A7%D9%86%D8%AF+-+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D9%87+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-a0cc9365183feadf",
+      "name": "فرع التجمع",
+      "address": "شارع التسعين، كونكورد مول، التجمع الخامس، القاهرة الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86%D8%8C+%D9%83%D9%88%D9%86%D9%83%D9%88%D8%B1%D8%AF+%D9%85%D9%88%D9%84%D8%8C+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%8C+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-7382a1be23bd8778",
+      "name": "الميرغني",
+      "address": "51 ش السيد الميرغني – مصر الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D8%BA%D9%86%D9%8A+51+%D8%B4+%D8%A7%D9%84%D8%B3%D9%8A%D8%AF+%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D8%BA%D9%86%D9%8A+%E2%80%93+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-efc3e1611acea5c7",
+      "name": "المعادي النصر",
+      "address": "1 ش النصر – تقسيم اللأسلكى",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D9%86%D8%B5%D8%B1+1+%D8%B4+%D8%A7%D9%84%D9%86%D8%B5%D8%B1+%E2%80%93+%D8%AA%D9%82%D8%B3%D9%8A%D9%85+%D8%A7%D9%84%D9%84%D8%A3%D8%B3%D9%84%D9%83%D9%89+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-1a2aafcb5e3b82f7",
+      "name": "مدينتي",
+      "address": "اوبن اير مول مدينتي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AF%D9%8A%D9%86%D8%AA%D9%8A+%D8%A7%D9%88%D8%A8%D9%86+%D8%A7%D9%8A%D8%B1+%D9%85%D9%88%D9%84+%D9%85%D8%AF%D9%8A%D9%86%D8%AA%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-0a29b84a30d6e591",
+      "name": "الخليفة المأمون",
+      "address": "27 الخليفة المأمون- هليوبلس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%81%D8%A9+%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D9%86+27+%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%81%D8%A9+%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D9%86-+%D9%87%D9%84%D9%8A%D9%88%D8%A8%D9%84%D8%B3+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-e9ddde5c333157e3",
+      "name": "المعادي دجلة",
+      "address": "شارع 206 - دجلة - المعادي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%AF%D8%AC%D9%84%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+206+-+%D8%AF%D8%AC%D9%84%D8%A9+-+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-11967d8b545a32a4",
+      "name": "القاهرة الجديدة مبنى إداري إضافي",
+      "address": "القطعة رقم 63 شارع التسعين الجنوبي مبنى بركه التجمع الخامس - القاهره الجديده",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D9%85%D8%A8%D9%86%D9%89+%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A+%D8%A5%D8%B6%D8%A7%D9%81%D9%8A+%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9+%D8%B1%D9%82%D9%85+63+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A+%D9%85%D8%A8%D9%86%D9%89+%D8%A8%D8%B1%D9%83%D9%87+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+-+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D9%87+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D9%87+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-3c17631d137e6385",
+      "name": "بندر مول المعادي",
+      "address": "ش11693 فلسطين المعادي الجديدة القاهرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A8%D9%86%D8%AF%D8%B1+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%B411693+%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-cbb30532822d4287",
+      "name": "سموحة",
+      "address": "107 ميدان علي بن أبي طالب",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B3%D9%85%D9%88%D8%AD%D8%A9+107+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%B9%D9%84%D9%8A+%D8%A8%D9%86+%D8%A3%D8%A8%D9%8A+%D8%B7%D8%A7%D9%84%D8%A8+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-29223bd3a5c8080f",
+      "name": "الاسكندرية الإسلامي",
+      "address": "303 طريق الحرية (أبو قير) - سبورتنج",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A+303+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D8%A9+%28%D8%A3%D8%A8%D9%88+%D9%82%D9%8A%D8%B1%29+-+%D8%B3%D8%A8%D9%88%D8%B1%D8%AA%D9%86%D8%AC+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-9bffeefa2a037a81",
+      "name": "أسيوط",
+      "address": "33 كورنيش النيل - مجمع محاكم اسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A3%D8%B3%D9%8A%D9%88%D8%B7+33+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+-+%D9%85%D8%AC%D9%85%D8%B9+%D9%85%D8%AD%D8%A7%D9%83%D9%85+%D8%A7%D8%B3%D9%8A%D9%88%D8%B7+%D8%A3%D8%B3%D9%8A%D9%88%D8%B7+Egypt"
+    },
+    {
+      "id": "bank_nxt-6b62f3cd4f97e88c",
+      "name": "المنصورة",
+      "address": "41 ش سعد زغلول باشا",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9+41+%D8%B4+%D8%B3%D8%B9%D8%AF+%D8%B2%D8%BA%D9%84%D9%88%D9%84+%D8%A8%D8%A7%D8%B4%D8%A7+%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-9681ec61596ab4e8",
+      "name": "دمياط",
+      "address": "برج الصياد بلازا - كونيش النيل",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D8%AF+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+-+%D9%83%D9%88%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+Egypt"
+    },
+    {
+      "id": "bank_nxt-03909b8811756cb4",
+      "name": "طنطا",
+      "address": "مول سيتي بيرل - امتداد ش الجيش والكورنيش",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B7%D9%86%D8%B7%D8%A7+%D9%85%D9%88%D9%84+%D8%B3%D9%8A%D8%AA%D9%8A+%D8%A8%D9%8A%D8%B1%D9%84+-+%D8%A7%D9%85%D8%AA%D8%AF%D8%A7%D8%AF+%D8%B4+%D8%A7%D9%84%D8%AC%D9%8A%D8%B4+%D9%88%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-18e6ecb3580a3d2a",
+      "name": "سور نادي الزمالك",
+      "address": "ش 26 يوليو - سور نادي الزمالك",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B3%D9%88%D8%B1+%D9%86%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%B4+26+%D9%8A%D9%88%D9%84%D9%8A%D9%88+-+%D8%B3%D9%88%D8%B1+%D9%86%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-8d6e7d5a6a283c6e",
+      "name": "مصدق",
+      "address": "59 ش مصدق بالدقى",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%B5%D8%AF%D9%82+59+%D8%B4+%D9%85%D8%B5%D8%AF%D9%82+%D8%A8%D8%A7%D9%84%D8%AF%D9%82%D9%89+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-726ea84be1208c3d",
+      "name": "مول أركان",
+      "address": "27 مول أركان بلازا 2 - البستان",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%88%D9%84+%D8%A3%D8%B1%D9%83%D8%A7%D9%86+27+%D9%85%D9%88%D9%84+%D8%A3%D8%B1%D9%83%D8%A7%D9%86+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+2+-+%D8%A7%D9%84%D8%A8%D8%B3%D8%AA%D8%A7%D9%86+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-773bdf47f41fcfaf",
+      "name": "ستريب مول",
+      "address": "مول بيفرلي هيلز - طريق وصلة دهشور",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B3%D8%AA%D8%B1%D9%8A%D8%A8+%D9%85%D9%88%D9%84+%D9%85%D9%88%D9%84+%D8%A8%D9%8A%D9%81%D8%B1%D9%84%D9%8A+%D9%87%D9%8A%D9%84%D8%B2+-+%D8%B7%D8%B1%D9%8A%D9%82+%D9%88%D8%B5%D9%84%D8%A9+%D8%AF%D9%87%D8%B4%D9%88%D8%B1+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-7c10d3d66d782342",
+      "name": "الهرم الإسلامي",
+      "address": "415 ش الهرم - ناصيه أحمد جمال",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D9%87%D8%B1%D9%85+%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A+415+%D8%B4+%D8%A7%D9%84%D9%87%D8%B1%D9%85+-+%D9%86%D8%A7%D8%B5%D9%8A%D9%87+%D8%A3%D8%AD%D9%85%D8%AF+%D8%AC%D9%85%D8%A7%D9%84+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-6f9be8dfd12713c8",
+      "name": "ميدان لبنان",
+      "address": "56 ش لبنان - المهندسين",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D9%84%D8%A8%D9%86%D8%A7%D9%86+56+%D8%B4+%D9%84%D8%A8%D9%86%D8%A7%D9%86+-+%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-3eb7a14cb9f22552",
+      "name": "الجيزة",
+      "address": "مبنى سكاى سنتر - 28 ش مراد",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D9%85%D8%A8%D9%86%D9%89+%D8%B3%D9%83%D8%A7%D9%89+%D8%B3%D9%86%D8%AA%D8%B1+-+28+%D8%B4+%D9%85%D8%B1%D8%A7%D8%AF+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-14cd28a4aa44a1af",
+      "name": "أكتوبر",
+      "address": "أكتوبر بلازا - المحور المركزي الخدمي",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1+%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+-+%D8%A7%D9%84%D9%85%D8%AD%D9%88%D8%B1+%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A+%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D9%8A+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-c7d53ef542e325eb",
+      "name": "الإسماعيلية",
+      "address": "جرين بلازا - ش أم كلثوم - الترعة",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%AC%D8%B1%D9%8A%D9%86+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+-+%D8%B4+%D8%A3%D9%85+%D9%83%D9%84%D8%AB%D9%88%D9%85+-+%D8%A7%D9%84%D8%AA%D8%B1%D8%B9%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-ec51eb7e7ff2fa31",
+      "name": "المنيا",
+      "address": "236 ش كورنيش النيل",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+236+%D8%B4+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+Egypt"
+    },
+    {
+      "id": "bank_nxt-5a369a2112e135de",
+      "name": "بورسعيد",
+      "address": "برج جولي فيل - ش 23 يوليو",
+      "governorate": "بور سعيد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF+%D8%A8%D8%B1%D8%AC+%D8%AC%D9%88%D9%84%D9%8A+%D9%81%D9%8A%D9%84+-+%D8%B4+23+%D9%8A%D9%88%D9%84%D9%8A%D9%88+%D8%A8%D9%88%D8%B1+%D8%B3%D8%B9%D9%8A%D8%AF+Egypt"
+    },
+    {
+      "id": "bank_nxt-dcbb7008be333f31",
+      "name": "العبور",
+      "address": "17 -18 مجمع التجارى - جولف سيتى مول",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+17+-18+%D9%85%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%89+-+%D8%AC%D9%88%D9%84%D9%81+%D8%B3%D9%8A%D8%AA%D9%89+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-30330a4a97dd1644",
+      "name": "العاشر من رمضان",
+      "address": "1/4 د - مركز المدينه - المرحله الثانية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1+%D9%85%D9%86+%D8%B1%D9%85%D8%B6%D8%A7%D9%86+1%2F4+%D8%AF+-+%D9%85%D8%B1%D9%83%D8%B2+%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D9%87+-+%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D9%87+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-fdb5009805814ab9",
+      "name": "السويس",
+      "address": "45 أ - سيتى مول - ش الشهداء",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+45+%D8%A3+-+%D8%B3%D9%8A%D8%AA%D9%89+%D9%85%D9%88%D9%84+-+%D8%B4+%D8%A7%D9%84%D8%B4%D9%87%D8%AF%D8%A7%D8%A1+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+Egypt"
+    },
+    {
+      "id": "bank_nxt-e66402ec01d97e5b",
+      "name": "القرية الذكية",
+      "address": "طريق القاهرة-الإسكندرية الصحراوي - القرية الذكية - B129 - مبنى EFG القابضة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D9%82%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%8A+-+%D8%A7%D9%84%D9%82%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9+-+B129+-+%D9%85%D8%A8%D9%86%D9%89+EFG+%D8%A7%D9%84%D9%82%D8%A7%D8%A8%D8%B6%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-2ec9e27f7954c1d8",
+      "name": "دمنهور",
+      "address": "شارع عبد السلام الشاذلي، مبنى 131 - بجوار مبنى المحافظة",
+      "governorate": "بحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AF%D9%85%D9%86%D9%87%D9%88%D8%B1+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85+%D8%A7%D9%84%D8%B4%D8%A7%D8%B0%D9%84%D9%8A%D8%8C+%D9%85%D8%A8%D9%86%D9%89+131+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%85%D8%A8%D9%86%D9%89+%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+Egypt"
+    }
+  ],
+  "atms": [
+    {
+      "id": "bank_nxt-c78c77be8431d3c7",
+      "name": "امان المقطم",
+      "address": "ش 9 - بلوك 5 - مدخل 3 - المقطم",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%85%D8%A7%D9%86+%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85+%D8%B4+9+-+%D8%A8%D9%84%D9%88%D9%83+5+-+%D9%85%D8%AF%D8%AE%D9%84+3+-+%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-dba8fba4158a213b",
+      "name": "سيتي سكوير الرحاب",
+      "address": "مجمع مطاعم سيتي سكوير - مدينة الرحاب",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B3%D9%8A%D8%AA%D9%8A+%D8%B3%D9%83%D9%88%D9%8A%D8%B1+%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8+%D9%85%D8%AC%D9%85%D8%B9+%D9%85%D8%B7%D8%A7%D8%B9%D9%85+%D8%B3%D9%8A%D8%AA%D9%8A+%D8%B3%D9%83%D9%88%D9%8A%D8%B1+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-068fe9d253bfa341",
+      "name": "امان عين شمس",
+      "address": "المحل التجاري بالدور الأرضي - عقار رقم 6 أ",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%85%D8%A7%D9%86+%D8%B9%D9%8A%D9%86+%D8%B4%D9%85%D8%B3+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A+%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1+%D8%A7%D9%84%D8%A3%D8%B1%D8%B6%D9%8A+-+%D8%B9%D9%82%D8%A7%D8%B1+%D8%B1%D9%82%D9%85+6+%D8%A3+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-3e3485055a87b05d",
+      "name": "امان شبرا",
+      "address": "المحل رقم 2 - عقار رقم 69 - ش شبرا",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%85%D8%A7%D9%86+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D9%85%D8%AD%D9%84+%D8%B1%D9%82%D9%85+2+-+%D8%B9%D9%82%D8%A7%D8%B1+%D8%B1%D9%82%D9%85+69+-+%D8%B4+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-3fb3aeb7ec95006c",
+      "name": "محطة قطار رمسيس",
+      "address": "محطة سكة حديد مصر - ميدان رمسيس",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AD%D8%B7%D8%A9+%D9%82%D8%B7%D8%A7%D8%B1+%D8%B1%D9%85%D8%B3%D9%8A%D8%B3+%D9%85%D8%AD%D8%B7%D8%A9+%D8%B3%D9%83%D8%A9+%D8%AD%D8%AF%D9%8A%D8%AF+%D9%85%D8%B5%D8%B1+-+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%B1%D9%85%D8%B3%D9%8A%D8%B3+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-666009bf35b39deb",
+      "name": "ماستر شيل اوت السخنة",
+      "address": "محطة شيل اوت - طريق العين السخنة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D8%B4%D9%8A%D9%84+%D8%A7%D9%88%D8%AA+%D8%A7%D9%84%D8%B3%D8%AE%D9%86%D8%A9+%D9%85%D8%AD%D8%B7%D8%A9+%D8%B4%D9%8A%D9%84+%D8%A7%D9%88%D8%AA+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%B3%D8%AE%D9%86%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-c7977a459cc0c603",
+      "name": "ماستر محور جيهان السادات",
+      "address": "محطة تموين شيل اوت - محور جيهان السادات",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%AD%D9%88%D8%B1+%D8%AC%D9%8A%D9%87%D8%A7%D9%86+%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A7%D8%AA+%D9%85%D8%AD%D8%B7%D8%A9+%D8%AA%D9%85%D9%88%D9%8A%D9%86+%D8%B4%D9%8A%D9%84+%D8%A7%D9%88%D8%AA+-+%D9%85%D8%AD%D9%88%D8%B1+%D8%AC%D9%8A%D9%87%D8%A7%D9%86+%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A7%D8%AA+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-bc59aa3dc46915f1",
+      "name": "كاش ان داش",
+      "address": "محور محمد نجيب مع المستثمرين الجنوبيين",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%83%D8%A7%D8%B4+%D8%A7%D9%86+%D8%AF%D8%A7%D8%B4+%D9%85%D8%AD%D9%88%D8%B1+%D9%85%D8%AD%D9%85%D8%AF+%D9%86%D8%AC%D9%8A%D8%A8+%D9%85%D8%B9+%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AB%D9%85%D8%B1%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A%D9%8A%D9%86+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-9e5dec98d719fe53",
+      "name": "سي بي سي",
+      "address": "بنزينة التعاون - محور محمد فريد",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B3%D9%8A+%D8%A8%D9%8A+%D8%B3%D9%8A+%D8%A8%D9%86%D8%B2%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86+-+%D9%85%D8%AD%D9%88%D8%B1+%D9%85%D8%AD%D9%85%D8%AF+%D9%81%D8%B1%D9%8A%D8%AF+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-fabf195593b92c4c",
+      "name": "مول SI4 الحي الحكومي",
+      "address": "مول SI4 - الحي الحكومي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%88%D9%84+SI4+%D8%A7%D9%84%D8%AD%D9%8A+%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A+%D9%85%D9%88%D9%84+SI4+-+%D8%A7%D9%84%D8%AD%D9%8A+%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-5466fcd70b0e29bd",
+      "name": "مستشفى كليوبترا",
+      "address": "ش محمد نافع - روكسي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89+%D9%83%D9%84%D9%8A%D9%88%D8%A8%D8%AA%D8%B1%D8%A7+%D8%B4+%D9%85%D8%AD%D9%85%D8%AF+%D9%86%D8%A7%D9%81%D8%B9+-+%D8%B1%D9%88%D9%83%D8%B3%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-27544e9532b320bb",
+      "name": "ثاوث بارك مدينتي",
+      "address": "ساوث بارك - طريق طلعت مصطفى",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AB%D8%A7%D9%88%D8%AB+%D8%A8%D8%A7%D8%B1%D9%83+%D9%85%D8%AF%D9%8A%D9%86%D8%AA%D9%8A+%D8%B3%D8%A7%D9%88%D8%AB+%D8%A8%D8%A7%D8%B1%D9%83+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%B7%D9%84%D8%B9%D8%AA+%D9%85%D8%B5%D8%B7%D9%81%D9%89+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-800769d6d86553b9",
+      "name": "ماستر محور شيل اوت محمد نجيب",
+      "address": "محطة شيل أوت - محور محمد نجيب",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D9%85%D8%AD%D9%88%D8%B1+%D8%B4%D9%8A%D9%84+%D8%A7%D9%88%D8%AA+%D9%85%D8%AD%D9%85%D8%AF+%D9%86%D8%AC%D9%8A%D8%A8+%D9%85%D8%AD%D8%B7%D8%A9+%D8%B4%D9%8A%D9%84+%D8%A3%D9%88%D8%AA+-+%D9%85%D8%AD%D9%88%D8%B1+%D9%85%D8%AD%D9%85%D8%AF+%D9%86%D8%AC%D9%8A%D8%A8+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-5ae479cfcea61a4b",
+      "name": "السوق الشرقي الرحاب",
+      "address": "السوق الشرقي - بجوار بوابة رقم 23 - الرحاب",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%B3%D9%88%D9%82+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A+%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8+%D8%A7%D9%84%D8%B3%D9%88%D9%82+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%A8%D9%88%D8%A7%D8%A8%D8%A9+%D8%B1%D9%82%D9%85+23+-+%D8%A7%D9%84%D8%B1%D8%AD%D8%A7%D8%A8+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-601a834fbd20945f",
+      "name": "كايرو فاستيفال",
+      "address": "كايرو فيستيفال مول - الطريق الدائري",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%83%D8%A7%D9%8A%D8%B1%D9%88+%D9%81%D8%A7%D8%B3%D8%AA%D9%8A%D9%81%D8%A7%D9%84+%D9%83%D8%A7%D9%8A%D8%B1%D9%88+%D9%81%D9%8A%D8%B3%D8%AA%D9%8A%D9%81%D8%A7%D9%84+%D9%85%D9%88%D9%84+-+%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%AF%D8%A7%D8%A6%D8%B1%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-dd0b7a586d9420ee",
+      "name": "ديستريكت 5",
+      "address": "ديستريكت 5 - طريق القاهرة-السخنة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AF%D9%8A%D8%B3%D8%AA%D8%B1%D9%8A%D9%83%D8%AA+5+%D8%AF%D9%8A%D8%B3%D8%AA%D8%B1%D9%8A%D9%83%D8%AA+5+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%AE%D9%86%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-1c810253123fa4e1",
+      "name": "صيدلية الصيدلي النجدة",
+      "address": "11 ش جمجوم - حدائق القبة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%B5%D9%8A%D8%AF%D9%84%D9%8A+%D8%A7%D9%84%D9%86%D8%AC%D8%AF%D8%A9+11+%D8%B4+%D8%AC%D9%85%D8%AC%D9%88%D9%85+-+%D8%AD%D8%AF%D8%A7%D8%A6%D9%82+%D8%A7%D9%84%D9%82%D8%A8%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-69cfaf80f6d4c497",
+      "name": "منتجع عين الحياة",
+      "address": "منتجع عين الحياه الفسطاط - كوم غراب",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%86%D8%AA%D8%AC%D8%B9+%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9+%D9%85%D9%86%D8%AA%D8%AC%D8%B9+%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87+%D8%A7%D9%84%D9%81%D8%B3%D8%B7%D8%A7%D8%B7+-+%D9%83%D9%88%D9%85+%D8%BA%D8%B1%D8%A7%D8%A8+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-e788c58ffe08ebc0",
+      "name": "مول N1 الحي الحكومي",
+      "address": "مول N1 - الحي الحكومي - العاصمة الادارية الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%88%D9%84+N1+%D8%A7%D9%84%D8%AD%D9%8A+%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A+%D9%85%D9%88%D9%84+N1+-+%D8%A7%D9%84%D8%AD%D9%8A+%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A+-+%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9+%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-26575b1026b11bd5",
+      "name": "السلام BRT",
+      "address": "محطة شيل اوت - الطريق الدائري",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85+BRT+%D9%85%D8%AD%D8%B7%D8%A9+%D8%B4%D9%8A%D9%84+%D8%A7%D9%88%D8%AA+-+%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%AF%D8%A7%D8%A6%D8%B1%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-374d8c6072f53ef9",
+      "name": "مول البستان",
+      "address": "مول البستان - ش البستان - وسط البلد",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D8%A8%D8%B3%D8%AA%D8%A7%D9%86+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D8%A8%D8%B3%D8%AA%D8%A7%D9%86+-+%D8%B4+%D8%A7%D9%84%D8%A8%D8%B3%D8%AA%D8%A7%D9%86+-+%D9%88%D8%B3%D8%B7+%D8%A7%D9%84%D8%A8%D9%84%D8%AF+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-0bb0d21d6a41bb55",
+      "name": "صوفيا ماركت",
+      "address": "محطة شل أوت - صلاح سالم - الوايلى",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B5%D9%88%D9%81%D9%8A%D8%A7+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D9%85%D8%AD%D8%B7%D8%A9+%D8%B4%D9%84+%D8%A3%D9%88%D8%AA+-+%D8%B5%D9%84%D8%A7%D8%AD+%D8%B3%D8%A7%D9%84%D9%85+-+%D8%A7%D9%84%D9%88%D8%A7%D9%8A%D9%84%D9%89+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-4cbb4c5a82f695ea",
+      "name": "ممشي وست بانك",
+      "address": "ش عبد العزيز ال سعود - المنيل",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%85%D8%B4%D9%8A+%D9%88%D8%B3%D8%AA+%D8%A8%D8%A7%D9%86%D9%83+%D8%B4+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2+%D8%A7%D9%84+%D8%B3%D8%B9%D9%88%D8%AF+-+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D9%84+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-735ea95e0c2a5c51",
+      "name": "مصر الخير",
+      "address": "9 ش مصطفى النحاس - بجوار النساجون الشرقون",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AE%D9%8A%D8%B1+9+%D8%B4+%D9%85%D8%B5%D8%B7%D9%81%D9%89+%D8%A7%D9%84%D9%86%D8%AD%D8%A7%D8%B3+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%A7%D9%84%D9%86%D8%B3%D8%A7%D8%AC%D9%88%D9%86+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%88%D9%86+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-cb7457fcd16823e9",
+      "name": "فودافون-مصر القديمة",
+      "address": "فودافون - سيدي حسن الأنوار - كورنيش النيل",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86-%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%B3%D9%8A%D8%AF%D9%8A+%D8%AD%D8%B3%D9%86+%D8%A7%D9%84%D8%A3%D9%86%D9%88%D8%A7%D8%B1+-+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-a2b6a52b760a51c4",
+      "name": "ذا جيت مول",
+      "address": "مول ذا جيت - ش الحريه - مدينة الشروق",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B0%D8%A7+%D8%AC%D9%8A%D8%AA+%D9%85%D9%88%D9%84+%D9%85%D9%88%D9%84+%D8%B0%D8%A7+%D8%AC%D9%8A%D8%AA+-+%D8%B4+%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D9%87+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D9%82+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-0c6ea4b3332af2dd",
+      "name": "فودافون-مدينة نصر",
+      "address": "فودافون - طريق النصر - بجوار موقف جو باص",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86-%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%86%D8%B5%D8%B1+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%85%D9%88%D9%82%D9%81+%D8%AC%D9%88+%D8%A8%D8%A7%D8%B5+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-a5fdc4ee08114a98",
+      "name": "كاش ان داش",
+      "address": "ش التسعين الجنوبي - بجوار فندق ويستن كايرو",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%83%D8%A7%D8%B4+%D8%A7%D9%86+%D8%AF%D8%A7%D8%B4+%D8%B4+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A+-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D9%81%D9%86%D8%AF%D9%82+%D9%88%D9%8A%D8%B3%D8%AA%D9%86+%D9%83%D8%A7%D9%8A%D8%B1%D9%88+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-bcf6beb9b15283ac",
+      "name": "فودافون الدمرداش",
+      "address": "فودافون - 351 ش رمسيس - غمرة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A7%D9%84%D8%AF%D9%85%D8%B1%D8%AF%D8%A7%D8%B4+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+351+%D8%B4+%D8%B1%D9%85%D8%B3%D9%8A%D8%B3+-+%D8%BA%D9%85%D8%B1%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-1cf7e4f981fd2d13",
+      "name": "فودافون روض الفرج",
+      "address": "فودافون - 67 ش روض الفرج",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%B1%D9%88%D8%B6+%D8%A7%D9%84%D9%81%D8%B1%D8%AC+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+67+%D8%B4+%D8%B1%D9%88%D8%B6+%D8%A7%D9%84%D9%81%D8%B1%D8%AC+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-b4e0e4a6f1fd24d0",
+      "name": "فودافون الحي العاشر",
+      "address": "فودافون - برج الموافي - ش أحمد الزمر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A7%D9%84%D8%AD%D9%8A+%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%81%D9%8A+-+%D8%B4+%D8%A3%D8%AD%D9%85%D8%AF+%D8%A7%D9%84%D8%B2%D9%85%D8%B1+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-11ecdf44cc76477e",
+      "name": "نادي تنمية الاسمرات",
+      "address": "ش أحمد فؤاد نجم - المقطم",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%86%D8%A7%D8%AF%D9%8A+%D8%AA%D9%86%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D8%A7%D8%B3%D9%85%D8%B1%D8%A7%D8%AA+%D8%B4+%D8%A3%D8%AD%D9%85%D8%AF+%D9%81%D8%A4%D8%A7%D8%AF+%D9%86%D8%AC%D9%85+-+%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-9987a7d7aeba47c3",
+      "name": "الراية ماركت شيراتون",
+      "address": "الراية ماركت - 59 عمارات صقر قريش",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%B1%D8%A7%D9%8A%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%B4%D9%8A%D8%B1%D8%A7%D8%AA%D9%88%D9%86+%D8%A7%D9%84%D8%B1%D8%A7%D9%8A%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+-+59+%D8%B9%D9%85%D8%A7%D8%B1%D8%A7%D8%AA+%D8%B5%D9%82%D8%B1+%D9%82%D8%B1%D9%8A%D8%B4+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-3ff97b8986dcc5fa",
+      "name": "سيتي سنتر ألماظة",
+      "address": "مول سيتي سنتر ألماظة - طريق النصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B3%D9%8A%D8%AA%D9%8A+%D8%B3%D9%86%D8%AA%D8%B1+%D8%A3%D9%84%D9%85%D8%A7%D8%B8%D8%A9+%D9%85%D9%88%D9%84+%D8%B3%D9%8A%D8%AA%D9%8A+%D8%B3%D9%86%D8%AA%D8%B1+%D8%A3%D9%84%D9%85%D8%A7%D8%B8%D8%A9+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%86%D8%B5%D8%B1+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-c7cdabc90a8e6714",
+      "name": "فرع شبرا",
+      "address": "أبراج أغاخان - كورنيش النيل - شـــــبرا",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC+%D8%A3%D8%BA%D8%A7%D8%AE%D8%A7%D9%86+-+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+-+%D8%B4%D9%80%D9%80%D9%80%D9%80%D9%80%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-9956b2d6343e1fac",
+      "name": "فرع الزمالك الاسلامي",
+      "address": "44 ش محمد مظهر - الزمالك",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A+44+%D8%B4+%D9%85%D8%AD%D9%85%D8%AF+%D9%85%D8%B8%D9%87%D8%B1+-+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-be984353480a203b",
+      "name": "فرع القاهرة",
+      "address": "مبنى سماء القاهره - 8 ش عبد الخالق ثروت",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D9%85%D8%A8%D9%86%D9%89+%D8%B3%D9%85%D8%A7%D8%A1+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D9%87+-+8+%D8%B4+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D8%AE%D8%A7%D9%84%D9%82+%D8%AB%D8%B1%D9%88%D8%AA+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-e10bef3119cd5167",
+      "name": "فرع ارينا مول",
+      "address": "أرينا مول - ش مجمع البنوك",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D8%B1%D9%8A%D9%86%D8%A7+%D9%85%D9%88%D9%84+%D8%A3%D8%B1%D9%8A%D9%86%D8%A7+%D9%85%D9%88%D9%84+-+%D8%B4+%D9%85%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%A8%D9%86%D9%88%D9%83+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-8877f28e4b03b076",
+      "name": "فرع عمارات العبور",
+      "address": "8 عمارات العبور - ش صلاح سالم",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%B9%D9%85%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+8+%D8%B9%D9%85%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+-+%D8%B4+%D8%B5%D9%84%D8%A7%D8%AD+%D8%B3%D8%A7%D9%84%D9%85+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-d8f7c1d7653fd610",
+      "name": "فرع الزمالك التجاري",
+      "address": "29 ش المنصور محمد - الزمالك",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A+29+%D8%B4+%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1+%D9%85%D8%AD%D9%85%D8%AF+-+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-464f46051f7a72af",
+      "name": "فرع مدينة نصر",
+      "address": "24 ش أبو داود الظاهرى - مدينه نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+24+%D8%B4+%D8%A3%D8%A8%D9%88+%D8%AF%D8%A7%D9%88%D8%AF+%D8%A7%D9%84%D8%B8%D8%A7%D9%87%D8%B1%D9%89+-+%D9%85%D8%AF%D9%8A%D9%86%D9%87+%D9%86%D8%B5%D8%B1+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-4e528337be080ec0",
+      "name": "بندر مول",
+      "address": "11693 ش فلسطين - المعادي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A8%D9%86%D8%AF%D8%B1+%D9%85%D9%88%D9%84+11693+%D8%B4+%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86+-+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-d1889e1a56d0d1c7",
+      "name": "فرع نهرو",
+      "address": "40 ش نهرو - خلف الميريلاند",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%86%D9%87%D8%B1%D9%88+40+%D8%B4+%D9%86%D9%87%D8%B1%D9%88+-+%D8%AE%D9%84%D9%81+%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D9%8A%D9%84%D8%A7%D9%86%D8%AF+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-38069346ce3a5eef",
+      "name": "مول كونكور",
+      "address": "مول كونكورد بلازا - ش التسعين الجنوبي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%88%D9%84+%D9%83%D9%88%D9%86%D9%83%D9%88%D8%B1+%D9%85%D9%88%D9%84+%D9%83%D9%88%D9%86%D9%83%D9%88%D8%B1%D8%AF+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+-+%D8%B4+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-3b74e4722ea0f06b",
+      "name": "فرع الميرغني",
+      "address": "51 ش السيد الميرغني – مصر الجديدة",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D8%BA%D9%86%D9%8A+51+%D8%B4+%D8%A7%D9%84%D8%B3%D9%8A%D8%AF+%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D8%BA%D9%86%D9%8A+%E2%80%93+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-d29669d0b100a8d3",
+      "name": "فرع المعادي النصر",
+      "address": "1 ش النصر – تقسيم اللأسلكى",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D9%86%D8%B5%D8%B1+1+%D8%B4+%D8%A7%D9%84%D9%86%D8%B5%D8%B1+%E2%80%93+%D8%AA%D9%82%D8%B3%D9%8A%D9%85+%D8%A7%D9%84%D9%84%D8%A3%D8%B3%D9%84%D9%83%D9%89+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-5f2e4b6de1b61d2f",
+      "name": "فرع مدينتي",
+      "address": "اوبن اير مول - وحده رقم HA05 - HA06",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%85%D8%AF%D9%8A%D9%86%D8%AA%D9%8A+%D8%A7%D9%88%D8%A8%D9%86+%D8%A7%D9%8A%D8%B1+%D9%85%D9%88%D9%84+-+%D9%88%D8%AD%D8%AF%D9%87+%D8%B1%D9%82%D9%85+HA05+-+HA06+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-041cbeed7e5d9838",
+      "name": "الخليفة المأمون",
+      "address": "27 ش الخليفة المأمون - روكسى",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%81%D8%A9+%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D9%86+27+%D8%B4+%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%81%D8%A9+%D8%A7%D9%84%D9%85%D8%A3%D9%85%D9%88%D9%86+-+%D8%B1%D9%88%D9%83%D8%B3%D9%89+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-df1afe132df3e3ad",
+      "name": "فرع المعادي دجلة",
+      "address": "ش 206 - دجلة - المعادي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%AF%D8%AC%D9%84%D8%A9+%D8%B4+206+-+%D8%AF%D8%AC%D9%84%D8%A9+-+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-ce6a09fc33abcd2e",
+      "name": "القاهرة الجديدة",
+      "address": "مبنى بركه - القطعة رقم 63 - ش التسعين الجنوبي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D9%85%D8%A8%D9%86%D9%89+%D8%A8%D8%B1%D9%83%D9%87+-+%D8%A7%D9%84%D9%82%D8%B7%D8%B9%D8%A9+%D8%B1%D9%82%D9%85+63+-+%D8%B4+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D9%86%D9%88%D8%A8%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-ef2bcc2c4cb8107d",
+      "name": "فرع فودافون حلوان",
+      "address": "مكس مول - ش منصور",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%AD%D9%84%D9%88%D8%A7%D9%86+%D9%85%D9%83%D8%B3+%D9%85%D9%88%D9%84+-+%D8%B4+%D9%85%D9%86%D8%B5%D9%88%D8%B1+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-a8b6495918e3a885",
+      "name": "فرع أسماء فهمي",
+      "address": "29 ش أسماء فهمي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A3%D8%B3%D9%85%D8%A7%D8%A1+%D9%81%D9%87%D9%85%D9%8A+29+%D8%B4+%D8%A3%D8%B3%D9%85%D8%A7%D8%A1+%D9%81%D9%87%D9%85%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-85ccb3f28ba8afe1",
+      "name": "توتال الشروق",
+      "address": "الكيلو 79 - 41 طريق الإسماعيلية الصحراوي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D9%82+%D8%A7%D9%84%D9%83%D9%8A%D9%84%D9%88+79+-+41+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-e66275e29cfb410d",
+      "name": "فرع فودافون المعادى",
+      "address": "شارع 9 -المعادي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%89+%D8%B4%D8%A7%D8%B1%D8%B9+9+-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-8fbf70a707614d4f",
+      "name": "كليوبترا التجمع",
+      "address": "مستشفيي كليوبترا - ش التسعين الشمالي",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%83%D9%84%D9%8A%D9%88%D8%A8%D8%AA%D8%B1%D8%A7+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9+%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%8A%D9%8A+%D9%83%D9%84%D9%8A%D9%88%D8%A8%D8%AA%D8%B1%D8%A7+-+%D8%B4+%D8%A7%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D9%86+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-ba08fdf091d332e8",
+      "name": "أكاديمية الشرطة BRT",
+      "address": "الطريق الدائري - مدينة نصر",
+      "governorate": "القاهرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D8%B7%D8%A9+BRT+%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%AF%D8%A7%D8%A6%D8%B1%D9%8A+-+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D9%86%D8%B5%D8%B1+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-a731d50ead1055e1",
+      "name": "محطة توتال طريق الواحات",
+      "address": "محطة توتال - طريق الواحات",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AD%D8%B7%D8%A9+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%A7%D8%AA+%D9%85%D8%AD%D8%B7%D8%A9+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%A7%D8%AA+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-fde15e3bcdc1699e",
+      "name": "جولف كورنر مول",
+      "address": "مول جولف كورنر - ش بيتا جاردن",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AC%D9%88%D9%84%D9%81+%D9%83%D9%88%D8%B1%D9%86%D8%B1+%D9%85%D9%88%D9%84+%D9%85%D9%88%D9%84+%D8%AC%D9%88%D9%84%D9%81+%D9%83%D9%88%D8%B1%D9%86%D8%B1+-+%D8%B4+%D8%A8%D9%8A%D8%AA%D8%A7+%D8%AC%D8%A7%D8%B1%D8%AF%D9%86+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-24759ca299a21422",
+      "name": "توتال زايد",
+      "address": "محطة توتال - طريق وصلة دهشور",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+%D8%B2%D8%A7%D9%8A%D8%AF+%D9%85%D8%AD%D8%B7%D8%A9+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+-+%D8%B7%D8%B1%D9%8A%D9%82+%D9%88%D8%B5%D9%84%D8%A9+%D8%AF%D9%87%D8%B4%D9%88%D8%B1+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-e47a6b497ceab646",
+      "name": "فودافون فيصل",
+      "address": "فودافون - 26 ش العشرين - فيصل",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D9%81%D9%8A%D8%B5%D9%84+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+26+%D8%B4+%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D9%8A%D9%86+-+%D9%81%D9%8A%D8%B5%D9%84+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-69034b3df60c578b",
+      "name": "مول العرب",
+      "address": "مول العرب - محور جمال عبد الناصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8+-+%D9%85%D8%AD%D9%88%D8%B1+%D8%AC%D9%85%D8%A7%D9%84+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-303793d3460b57db",
+      "name": "الراية ماركت",
+      "address": "106 ش الملك فيصل - الهرم",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%84%D8%B1%D8%A7%D9%8A%D8%A9+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+106+%D8%B4+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%8A%D8%B5%D9%84+-+%D8%A7%D9%84%D9%87%D8%B1%D9%85+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-907bd7addfd95bb8",
+      "name": "فودافون شهاب",
+      "address": "فودافون - 53 ش شهاب - العجوزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%B4%D9%87%D8%A7%D8%A8+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+53+%D8%B4+%D8%B4%D9%87%D8%A7%D8%A8+-+%D8%A7%D9%84%D8%B9%D8%AC%D9%88%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-6de5bc5c4db808e7",
+      "name": "وان سكوير مول",
+      "address": "سكوير وان مول - طريق جمال عبد الناصر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%88%D8%A7%D9%86+%D8%B3%D9%83%D9%88%D9%8A%D8%B1+%D9%85%D9%88%D9%84+%D8%B3%D9%83%D9%88%D9%8A%D8%B1+%D9%88%D8%A7%D9%86+%D9%85%D9%88%D9%84+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%AC%D9%85%D8%A7%D9%84+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-81dec642c63b35f9",
+      "name": "فودافون الحصري",
+      "address": "فودافون - المحور المركزي - الحصري",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A7%D9%84%D8%AD%D8%B5%D8%B1%D9%8A+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%A7%D9%84%D9%85%D8%AD%D9%88%D8%B1+%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A+-+%D8%A7%D9%84%D8%AD%D8%B5%D8%B1%D9%8A+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-1cf803a3e41e811e",
+      "name": "شيل أوت الهرم",
+      "address": "ماستر شيل أوت - الطريق الدائري",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B4%D9%8A%D9%84+%D8%A3%D9%88%D8%AA+%D8%A7%D9%84%D9%87%D8%B1%D9%85+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D8%B4%D9%8A%D9%84+%D8%A3%D9%88%D8%AA+-+%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%AF%D8%A7%D8%A6%D8%B1%D9%8A+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-7f1b18ab17b890a8",
+      "name": "جولف سنترال",
+      "address": "جولف سنترال مول - بالم هيلز",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AC%D9%88%D9%84%D9%81+%D8%B3%D9%86%D8%AA%D8%B1%D8%A7%D9%84+%D8%AC%D9%88%D9%84%D9%81+%D8%B3%D9%86%D8%AA%D8%B1%D8%A7%D9%84+%D9%85%D9%88%D9%84+-+%D8%A8%D8%A7%D9%84%D9%85+%D9%87%D9%8A%D9%84%D8%B2+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-9efac933be484f7c",
+      "name": "مترو جامعة القاهرة",
+      "address": "محطه مترو جامعه القاهره - ش السودان",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AA%D8%B1%D9%88+%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9+%D9%85%D8%AD%D8%B7%D9%87+%D9%85%D8%AA%D8%B1%D9%88+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D9%87+-+%D8%B4+%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-6617d2d2982cdbdc",
+      "name": "فودافون مصر و السودان",
+      "address": "فودافون - 89 ش السودان - الدقي",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D9%85%D8%B5%D8%B1+%D9%88+%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+89+%D8%B4+%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86+-+%D8%A7%D9%84%D8%AF%D9%82%D9%8A+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-a3c3ff218562a35a",
+      "name": "فرع سور نادي الزمالك",
+      "address": "ش 26 يوليو - سور نادي الزمالك",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%B3%D9%88%D8%B1+%D9%86%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%B4+26+%D9%8A%D9%88%D9%84%D9%8A%D9%88+-+%D8%B3%D9%88%D8%B1+%D9%86%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-4cdab879504b9a98",
+      "name": "فرع مصدق",
+      "address": "59 ش مصدق بالدقى",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%85%D8%B5%D8%AF%D9%82+59+%D8%B4+%D9%85%D8%B5%D8%AF%D9%82+%D8%A8%D8%A7%D9%84%D8%AF%D9%82%D9%89+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-065282f29a3fe865",
+      "name": "فرع اركان مول1",
+      "address": "27 مول أركان بلازا - البستان",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D8%B1%D9%83%D8%A7%D9%86+%D9%85%D9%88%D9%841+27+%D9%85%D9%88%D9%84+%D8%A3%D8%B1%D9%83%D8%A7%D9%86+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+-+%D8%A7%D9%84%D8%A8%D8%B3%D8%AA%D8%A7%D9%86+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-0d51c52d57dc4642",
+      "name": "فرع الهرم",
+      "address": "447 ش الهرم - ناصيه أحمد جمال",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%87%D8%B1%D9%85+447+%D8%B4+%D8%A7%D9%84%D9%87%D8%B1%D9%85+-+%D9%86%D8%A7%D8%B5%D9%8A%D9%87+%D8%A3%D8%AD%D9%85%D8%AF+%D8%AC%D9%85%D8%A7%D9%84+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-1e8e25a7633a4124",
+      "name": "فرع ميدان لبنان",
+      "address": "56 ش لبنان - المهندسين",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D9%84%D8%A8%D9%86%D8%A7%D9%86+56+%D8%B4+%D9%84%D8%A8%D9%86%D8%A7%D9%86+-+%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D9%86+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-ac3e001e938705d5",
+      "name": "فرع الجيزة",
+      "address": "مبنى سكاى سنتر - 28 ش مراد",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D9%85%D8%A8%D9%86%D9%89+%D8%B3%D9%83%D8%A7%D9%89+%D8%B3%D9%86%D8%AA%D8%B1+-+28+%D8%B4+%D9%85%D8%B1%D8%A7%D8%AF+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-c5c268bba27b5be2",
+      "name": "فرع ستريب مول",
+      "address": "ستريب مول - بيفرلي هيلز - طريق وصلة دهشور",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%B3%D8%AA%D8%B1%D9%8A%D8%A8+%D9%85%D9%88%D9%84+%D8%B3%D8%AA%D8%B1%D9%8A%D8%A8+%D9%85%D9%88%D9%84+-+%D8%A8%D9%8A%D9%81%D8%B1%D9%84%D9%8A+%D9%87%D9%8A%D9%84%D8%B2+-+%D8%B7%D8%B1%D9%8A%D9%82+%D9%88%D8%B5%D9%84%D8%A9+%D8%AF%D9%87%D8%B4%D9%88%D8%B1+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-4cc9e2a26bb7bcca",
+      "name": "فرع اكتوبر",
+      "address": "مول أكتوبر بلازا - المحور المركزي الخدمي",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1+%D9%85%D9%88%D9%84+%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+-+%D8%A7%D9%84%D9%85%D8%AD%D9%88%D8%B1+%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A+%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D9%8A+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-77b2116bb909f59b",
+      "name": "فرع فودافون - إمبابة",
+      "address": "7 عمارات الاوقاف - ش السودان",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%A5%D9%85%D8%A8%D8%A7%D8%A8%D8%A9+7+%D8%B9%D9%85%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D8%A7%D9%88%D9%82%D8%A7%D9%81+-+%D8%B4+%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-078d512997db3561",
+      "name": "فرع فيصل",
+      "address": "48 ش الملك فيصل الجيزة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%81%D9%8A%D8%B5%D9%84+48+%D8%B4+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%8A%D8%B5%D9%84+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-60cdbe2a749d971c",
+      "name": "هايبر وان - السليمانية",
+      "address": "هايبر وان - طريق القاهرة-الإسكندرية الصحراوي",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%87%D8%A7%D9%8A%D8%A8%D8%B1+%D9%88%D8%A7%D9%86+-+%D8%A7%D9%84%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86%D9%8A%D8%A9+%D9%87%D8%A7%D9%8A%D8%A8%D8%B1+%D9%88%D8%A7%D9%86+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%8A+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-3cd0034ce46d7b79",
+      "name": "فرع فودافون المريوطية",
+      "address": "شارع اللبيني - المريوطية - فيصل",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D9%88%D8%B7%D9%8A%D8%A9+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D9%84%D8%A8%D9%8A%D9%86%D9%8A+-+%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D9%88%D8%B7%D9%8A%D8%A9+-+%D9%81%D9%8A%D8%B5%D9%84+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-8597d616098c1b8f",
+      "name": "شركة كاف",
+      "address": "مبني طارق نور - طريق القاهرة-الإسكندرية الصحراوي",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B4%D8%B1%D9%83%D8%A9+%D9%83%D8%A7%D9%81+%D9%85%D8%A8%D9%86%D9%8A+%D8%B7%D8%A7%D8%B1%D9%82+%D9%86%D9%88%D8%B1+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%8A+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-2108be88d3cf6792",
+      "name": "فرع القرية الذكية",
+      "address": "B129 - مبنى EFG القابضة",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%82%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9+B129+-+%D9%85%D8%A8%D9%86%D9%89+EFG+%D8%A7%D9%84%D9%82%D8%A7%D8%A8%D8%B6%D8%A9+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-b7995cb97890d3b9",
+      "name": "فرع اركان مول1",
+      "address": "أركان مول - البستان",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D8%B1%D9%83%D8%A7%D9%86+%D9%85%D9%88%D9%841+%D8%A3%D8%B1%D9%83%D8%A7%D9%86+%D9%85%D9%88%D9%84+-+%D8%A7%D9%84%D8%A8%D8%B3%D8%AA%D8%A7%D9%86+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-5051fdb833a0272c",
+      "name": "جامعة MSA",
+      "address": "محور 26 يوليو - تقاطع مع طريق الواحات، مدينة السادس من أكتوبر",
+      "governorate": "الجيزة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+MSA+%D9%85%D8%AD%D9%88%D8%B1+26+%D9%8A%D9%88%D9%84%D9%8A%D9%88+-+%D8%AA%D9%82%D8%A7%D8%B7%D8%B9+%D9%85%D8%B9+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%A7%D8%AA%D8%8C+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3+%D9%85%D9%86+%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1+%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-d5678b5d8272ac9d",
+      "name": "فرع سموحة",
+      "address": "107 ش ألبرت الأول - ميدان على بن ابي طالب",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%B3%D9%85%D9%88%D8%AD%D8%A9+107+%D8%B4+%D8%A3%D9%84%D8%A8%D8%B1%D8%AA+%D8%A7%D9%84%D8%A3%D9%88%D9%84+-+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%B9%D9%84%D9%89+%D8%A8%D9%86+%D8%A7%D8%A8%D9%8A+%D8%B7%D8%A7%D9%84%D8%A8+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-7be43facafb84a1c",
+      "name": "فرع اسكندراية الإسلامي",
+      "address": "303 طريق الحرية (أبو قير) - سبورتنج",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D8%A7%D9%8A%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A+303+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D8%A9+%28%D8%A3%D8%A8%D9%88+%D9%82%D9%8A%D8%B1%29+-+%D8%B3%D8%A8%D9%88%D8%B1%D8%AA%D9%86%D8%AC+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-5240e522c91c23de",
+      "name": "برج العرب",
+      "address": "شركة الغرابلي - المنطقة الصناعية الثانية",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8+%D8%B4%D8%B1%D9%83%D8%A9+%D8%A7%D9%84%D8%BA%D8%B1%D8%A7%D8%A8%D9%84%D9%8A+-+%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9+%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-f197309078d7d7d4",
+      "name": "مجمع الفيروز",
+      "address": "مجمع الفيروز- 423 ش قنال المحمودية",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D9%81%D9%8A%D8%B1%D9%88%D8%B2+%D9%85%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D9%81%D9%8A%D8%B1%D9%88%D8%B2-+423+%D8%B4+%D9%82%D9%86%D8%A7%D9%84+%D8%A7%D9%84%D9%85%D8%AD%D9%85%D9%88%D8%AF%D9%8A%D8%A9+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-4e170ebd6bbed661",
+      "name": "امان سيدي بشر",
+      "address": "160 تقاطع ش 587 و ش ملك حفني ناصف",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A7%D9%85%D8%A7%D9%86+%D8%B3%D9%8A%D8%AF%D9%8A+%D8%A8%D8%B4%D8%B1+160+%D8%AA%D9%82%D8%A7%D8%B7%D8%B9+%D8%B4+587+%D9%88+%D8%B4+%D9%85%D9%84%D9%83+%D8%AD%D9%81%D9%86%D9%8A+%D9%86%D8%A7%D8%B5%D9%81+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-f8dba59a1524bf47",
+      "name": "توتال المنتزة",
+      "address": "محطة توتال - ش النبوى المهندس",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B2%D8%A9+%D9%85%D8%AD%D8%B7%D8%A9+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+-+%D8%B4+%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%89+%D8%A7%D9%84%D9%85%D9%87%D9%86%D8%AF%D8%B3+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-1734f14377b76a26",
+      "name": "مصر الخير ميامي",
+      "address": "383 شارع جمال عبد الناصر - ميامي",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%B5%D8%B1+%D8%A7%D9%84%D8%AE%D9%8A%D8%B1+%D9%85%D9%8A%D8%A7%D9%85%D9%8A+383+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%AC%D9%85%D8%A7%D9%84+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1+-+%D9%85%D9%8A%D8%A7%D9%85%D9%8A+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-0e686717f7365685",
+      "name": "فودافون ميامي",
+      "address": "فودافون - ش إسكندر إبراهيم - ميامي",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D9%85%D9%8A%D8%A7%D9%85%D9%8A+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%B4+%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1+%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85+-+%D9%85%D9%8A%D8%A7%D9%85%D9%8A+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-9ce1be316b529c17",
+      "name": "توتال بوابات اسكندراية",
+      "address": "محطة توتال - ك 39 طريق القاهرة-الإسكندرية الصحراوي",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+%D8%A8%D9%88%D8%A7%D8%A8%D8%A7%D8%AA+%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D8%A7%D9%8A%D8%A9+%D9%85%D8%AD%D8%B7%D8%A9+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+-+%D9%83+39+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D9%88%D9%8A+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-cc6fee723a35a894",
+      "name": "فرع فودافون -محرم بيك",
+      "address": "65 ش محرم بك",
+      "governorate": "الاسكندرية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-%D9%85%D8%AD%D8%B1%D9%85+%D8%A8%D9%8A%D9%83+65+%D8%B4+%D9%85%D8%AD%D8%B1%D9%85+%D8%A8%D9%83+%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-030204cd9e067676",
+      "name": "محطة توتال الزقازيق",
+      "address": "محطة توتال - ش عبد العزيز علي",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AD%D8%B7%D8%A9+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+%D8%A7%D9%84%D8%B2%D9%82%D8%A7%D8%B2%D9%8A%D9%82+%D9%85%D8%AD%D8%B7%D8%A9+%D8%AA%D9%88%D8%AA%D8%A7%D9%84+-+%D8%B4+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2+%D8%B9%D9%84%D9%8A+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-82734c19fd19b5d8",
+      "name": "ZMC العاشر من رمضان",
+      "address": "شركة مصر لصناعة الكباسات - ش أمون",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+ZMC+%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1+%D9%85%D9%86+%D8%B1%D9%85%D8%B6%D8%A7%D9%86+%D8%B4%D8%B1%D9%83%D8%A9+%D9%85%D8%B5%D8%B1+%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A9+%D8%A7%D9%84%D9%83%D8%A8%D8%A7%D8%B3%D8%A7%D8%AA+-+%D8%B4+%D8%A3%D9%85%D9%88%D9%86+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-e79458dd8da8bce0",
+      "name": "محطة قطار الزقازيق",
+      "address": "محطة القطار الزقازيق - ميدان عرابي",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AD%D8%B7%D8%A9+%D9%82%D8%B7%D8%A7%D8%B1+%D8%A7%D9%84%D8%B2%D9%82%D8%A7%D8%B2%D9%8A%D9%82+%D9%85%D8%AD%D8%B7%D8%A9+%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B1+%D8%A7%D9%84%D8%B2%D9%82%D8%A7%D8%B2%D9%8A%D9%82+-+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%B9%D8%B1%D8%A7%D8%A8%D9%8A+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-e179de935b2c9ae0",
+      "name": "فودافون الزقازيق",
+      "address": "فودافون - ش القومية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A7%D9%84%D8%B2%D9%82%D8%A7%D8%B2%D9%8A%D9%82+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%B4+%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-5b748eeec42074fe",
+      "name": "فرع العاشر من رمضان",
+      "address": "قطعه 1/4 د - مركز المدينه - المرحله الثانية",
+      "governorate": "الشرقية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1+%D9%85%D9%86+%D8%B1%D9%85%D8%B6%D8%A7%D9%86+%D9%82%D8%B7%D8%B9%D9%87+1%2F4+%D8%AF+-+%D9%85%D8%B1%D9%83%D8%B2+%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D9%87+-+%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D9%87+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9+%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-b8332fb53b957478",
+      "name": "محطة قطار طنطا",
+      "address": "محطة قطار طنطا - ميدان المحطة",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AD%D8%B7%D8%A9+%D9%82%D8%B7%D8%A7%D8%B1+%D8%B7%D9%86%D8%B7%D8%A7+%D9%85%D8%AD%D8%B7%D8%A9+%D9%82%D8%B7%D8%A7%D8%B1+%D8%B7%D9%86%D8%B7%D8%A7+-+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D9%85%D8%AD%D8%B7%D8%A9+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-774fa98e79f4ec03",
+      "name": "مول اعمار الاشرف",
+      "address": "مول إعمار- ش الاشرف",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%88%D9%84+%D8%A7%D8%B9%D9%85%D8%A7%D8%B1+%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81+%D9%85%D9%88%D9%84+%D8%A5%D8%B9%D9%85%D8%A7%D8%B1-+%D8%B4+%D8%A7%D9%84%D8%A7%D8%B4%D8%B1%D9%81+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-14eb12cbc549fac0",
+      "name": "مول اعمار",
+      "address": "مول إعمار دلتا - ش محب",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%88%D9%84+%D8%A7%D8%B9%D9%85%D8%A7%D8%B1+%D9%85%D9%88%D9%84+%D8%A5%D8%B9%D9%85%D8%A7%D8%B1+%D8%AF%D9%84%D8%AA%D8%A7+-+%D8%B4+%D9%85%D8%AD%D8%A8+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-adecaa630599aa4e",
+      "name": "فرع طنطا",
+      "address": "مول سيتي بيرل - امتداد ش الجيش والكورنيش",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%B7%D9%86%D8%B7%D8%A7+%D9%85%D9%88%D9%84+%D8%B3%D9%8A%D8%AA%D9%8A+%D8%A8%D9%8A%D8%B1%D9%84+-+%D8%A7%D9%85%D8%AA%D8%AF%D8%A7%D8%AF+%D8%B4+%D8%A7%D9%84%D8%AC%D9%8A%D8%B4+%D9%88%D8%A7%D9%84%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-d29000b2d9520857",
+      "name": "محطة قطار طنطا 2",
+      "address": "محطة قطار - ش المديرية",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AD%D8%B7%D8%A9+%D9%82%D8%B7%D8%A7%D8%B1+%D8%B7%D9%86%D8%B7%D8%A7+2+%D9%85%D8%AD%D8%B7%D8%A9+%D9%82%D8%B7%D8%A7%D8%B1+-+%D8%B4+%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-db227788693f578f",
+      "name": "مستشفى كوين",
+      "address": "برج حلا - ش الحجاج بن يوسف",
+      "governorate": "الغربية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89+%D9%83%D9%88%D9%8A%D9%86+%D8%A8%D8%B1%D8%AC+%D8%AD%D9%84%D8%A7+-+%D8%B4+%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC+%D8%A8%D9%86+%D9%8A%D9%88%D8%B3%D9%81+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-866346846d2ea73e",
+      "name": "مازيا مول شبرا",
+      "address": "أبراج عودة - ش 15 مايو - شبرا الخيمة",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%A7%D8%B2%D9%8A%D8%A7+%D9%85%D9%88%D9%84+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A3%D8%A8%D8%B1%D8%A7%D8%AC+%D8%B9%D9%88%D8%AF%D8%A9+-+%D8%B4+15+%D9%85%D8%A7%D9%8A%D9%88+-+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D8%AE%D9%8A%D9%85%D8%A9+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-9c5dff3e9bf28a1b",
+      "name": "نيل فيو مول",
+      "address": "مول نايل فيو - ش كمال الدين حسين",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%86%D9%8A%D9%84+%D9%81%D9%8A%D9%88+%D9%85%D9%88%D9%84+%D9%85%D9%88%D9%84+%D9%86%D8%A7%D9%8A%D9%84+%D9%81%D9%8A%D9%88+-+%D8%B4+%D9%83%D9%85%D8%A7%D9%84+%D8%A7%D9%84%D8%AF%D9%8A%D9%86+%D8%AD%D8%B3%D9%8A%D9%86+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-18626b7d0d82c2ed",
+      "name": "كاش ان داش",
+      "address": "طريق العبور - ميدان أحمد عرابى",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%83%D8%A7%D8%B4+%D8%A7%D9%86+%D8%AF%D8%A7%D8%B4+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+-+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%A3%D8%AD%D9%85%D8%AF+%D8%B9%D8%B1%D8%A7%D8%A8%D9%89+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-e39a7b95a0713cf6",
+      "name": "ماستر طريق بنها",
+      "address": "محطة شيل أوت - طريق شبرا-بنها الحر",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%A7%D8%B3%D8%AA%D8%B1+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A8%D9%86%D9%87%D8%A7+%D9%85%D8%AD%D8%B7%D8%A9+%D8%B4%D9%8A%D9%84+%D8%A3%D9%88%D8%AA+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%B4%D8%A8%D8%B1%D8%A7-%D8%A8%D9%86%D9%87%D8%A7+%D8%A7%D9%84%D8%AD%D8%B1+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-d052a091d55980d5",
+      "name": "هاب مول",
+      "address": "هب مول - محور العبور- بجوار جولف سيتي",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%87%D8%A7%D8%A8+%D9%85%D9%88%D9%84+%D9%87%D8%A8+%D9%85%D9%88%D9%84+-+%D9%85%D8%AD%D9%88%D8%B1+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1-+%D8%A8%D8%AC%D9%88%D8%A7%D8%B1+%D8%AC%D9%88%D9%84%D9%81+%D8%B3%D9%8A%D8%AA%D9%8A+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-5d6c02c456b510f4",
+      "name": "مترو كلية الزراعة",
+      "address": "محطة كلية الزراعة - كوبري عرابي - شبرا الخيمة",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AA%D8%B1%D9%88+%D9%83%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9+%D9%85%D8%AD%D8%B7%D8%A9+%D9%83%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9+-+%D9%83%D9%88%D8%A8%D8%B1%D9%8A+%D8%B9%D8%B1%D8%A7%D8%A8%D9%8A+-+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D8%AE%D9%8A%D9%85%D8%A9+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-07ea68b67916712c",
+      "name": "فرع العبور",
+      "address": "17 -18 المجمع التجارى - جولف سيتى مول",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1+17+-18+%D8%A7%D9%84%D9%85%D8%AC%D9%85%D8%B9+%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%89+-+%D8%AC%D9%88%D9%84%D9%81+%D8%B3%D9%8A%D8%AA%D9%89+%D9%85%D9%88%D9%84+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-968570d719f2449d",
+      "name": "فرع فودافون - بنها",
+      "address": "ش سعد زغلول",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%A8%D9%86%D9%87%D8%A7+%D8%B4+%D8%B3%D8%B9%D8%AF+%D8%B2%D8%BA%D9%84%D9%88%D9%84+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-fda89b6ca84f2d1c",
+      "name": "BRT الإسكندرية الزراعي",
+      "address": "الطريق الدائري - شبرا الخيمة",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+BRT+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A+%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%AF%D8%A7%D8%A6%D8%B1%D9%8A+-+%D8%B4%D8%A8%D8%B1%D8%A7+%D8%A7%D9%84%D8%AE%D9%8A%D9%85%D8%A9+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-a7f4d531a6c6595c",
+      "name": "زد مول",
+      "address": "طريق قليوب-شبين القناطر",
+      "governorate": "القليوبية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B2%D8%AF+%D9%85%D9%88%D9%84+%D8%B7%D8%B1%D9%8A%D9%82+%D9%82%D9%84%D9%8A%D9%88%D8%A8-%D8%B4%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%82%D9%86%D8%A7%D8%B7%D8%B1+%D8%A7%D9%84%D9%82%D9%84%D9%8A%D9%88%D8%A8%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-6acffd7549fec469",
+      "name": "توليب العالمين",
+      "address": "فندق توليب الساحل الشمالي - طريق الإسكندرية-مطروح",
+      "governorate": "مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AA%D9%88%D9%84%D9%8A%D8%A8+%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D9%86+%D9%81%D9%86%D8%AF%D9%82+%D8%AA%D9%88%D9%84%D9%8A%D8%A8+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "bank_nxt-a5b1aeca0cbdb0e6",
+      "name": "سيركل ك العلمين",
+      "address": "محطة شل أوت - طريق الإسكندرية-مطروح",
+      "governorate": "مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B3%D9%8A%D8%B1%D9%83%D9%84+%D9%83+%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D9%86+%D9%85%D8%AD%D8%B7%D8%A9+%D8%B4%D9%84+%D8%A3%D9%88%D8%AA+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "bank_nxt-02ca7129f35fee64",
+      "name": "كافالا مول - الساحل الشمالي",
+      "address": "كافالا مول - ك 135 - طريق الإسكندرية-مطروح",
+      "governorate": "مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%83%D8%A7%D9%81%D8%A7%D9%84%D8%A7+%D9%85%D9%88%D9%84+-+%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A+%D9%83%D8%A7%D9%81%D8%A7%D9%84%D8%A7+%D9%85%D9%88%D9%84+-+%D9%83+135+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "bank_nxt-23be9684bc5b6724",
+      "name": "تلال دريم ماركت",
+      "address": "الكيلو 140 - طريق الإسكندرية-مطروح",
+      "governorate": "مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%AA%D9%84%D8%A7%D9%84+%D8%AF%D8%B1%D9%8A%D9%85+%D9%85%D8%A7%D8%B1%D9%83%D8%AA+%D8%A7%D9%84%D9%83%D9%8A%D9%84%D9%88+140+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "bank_nxt-13b9d762ffc50ca8",
+      "name": "متشا",
+      "address": "سيزر سوديك - طريق الإسكندرية-مطروح",
+      "governorate": "مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AA%D8%B4%D8%A7+%D8%B3%D9%8A%D8%B2%D8%B1+%D8%B3%D9%88%D8%AF%D9%8A%D9%83+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "bank_nxt-3bec181d3219783a",
+      "name": "هاسيندا ويست",
+      "address": "الكيلو 200 - طريق الإسكندرية-مطروح",
+      "governorate": "مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%87%D8%A7%D8%B3%D9%8A%D9%86%D8%AF%D8%A7+%D9%88%D9%8A%D8%B3%D8%AA+%D8%A7%D9%84%D9%83%D9%8A%D9%84%D9%88+200+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "bank_nxt-a42b2babedbc02e5",
+      "name": "شاطئ تلال",
+      "address": "كيلو 140 - طريق الإسكندرية-مطروح",
+      "governorate": "مطروح",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B4%D8%A7%D8%B7%D8%A6+%D8%AA%D9%84%D8%A7%D9%84+%D9%83%D9%8A%D9%84%D9%88+140+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-%D9%85%D8%B7%D8%B1%D9%88%D8%AD+%D9%85%D8%B7%D8%B1%D9%88%D8%AD+Egypt"
+    },
+    {
+      "id": "bank_nxt-8f31734c0202dca9",
+      "name": "فودافون الغردقة",
+      "address": "فودافون - ش الشيراتون - أمام كنتاكى",
+      "governorate": "البحر الاحمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A7%D9%84%D8%BA%D8%B1%D8%AF%D9%82%D8%A9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%B4+%D8%A7%D9%84%D8%B4%D9%8A%D8%B1%D8%A7%D8%AA%D9%88%D9%86+-+%D8%A3%D9%85%D8%A7%D9%85+%D9%83%D9%86%D8%AA%D8%A7%D9%83%D9%89+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1+%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1+Egypt"
+    },
+    {
+      "id": "bank_nxt-647e3c155895a666",
+      "name": "شاطئ زوني",
+      "address": "مانجروفي - شاطي زوني",
+      "governorate": "البحر الاحمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B4%D8%A7%D8%B7%D8%A6+%D8%B2%D9%88%D9%86%D9%8A+%D9%85%D8%A7%D9%86%D8%AC%D8%B1%D9%88%D9%81%D9%8A+-+%D8%B4%D8%A7%D8%B7%D9%8A+%D8%B2%D9%88%D9%86%D9%8A+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1+%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1+Egypt"
+    },
+    {
+      "id": "bank_nxt-78c653784e54bf1f",
+      "name": "سوما باي",
+      "address": "ويت بيتش كلوب - طريق الغردقة-سفاجا",
+      "governorate": "البحر الاحمر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B3%D9%88%D9%85%D8%A7+%D8%A8%D8%A7%D9%8A+%D9%88%D9%8A%D8%AA+%D8%A8%D9%8A%D8%AA%D8%B4+%D9%83%D9%84%D9%88%D8%A8+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A7%D9%84%D8%BA%D8%B1%D8%AF%D9%82%D8%A9-%D8%B3%D9%81%D8%A7%D8%AC%D8%A7+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1+%D8%A7%D9%84%D8%A7%D8%AD%D9%85%D8%B1+Egypt"
+    },
+    {
+      "id": "bank_nxt-b6c4ba6848cc9b15",
+      "name": "محطة الاسماعيلية",
+      "address": "محطة القطار - ش شريف",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AD%D8%B7%D8%A9+%D8%A7%D9%84%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D9%85%D8%AD%D8%B7%D8%A9+%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B1+-+%D8%B4+%D8%B4%D8%B1%D9%8A%D9%81+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-6cdd5f05e265cc5e",
+      "name": "فرع الاسماعيلية",
+      "address": "جرين بلازا - ش أم كلثوم - الترعة",
+      "governorate": "الإسماعيلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%A7%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+%D8%AC%D8%B1%D9%8A%D9%86+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+-+%D8%B4+%D8%A3%D9%85+%D9%83%D9%84%D8%AB%D9%88%D9%85+-+%D8%A7%D9%84%D8%AA%D8%B1%D8%B9%D8%A9+%D8%A7%D9%84%D8%A5%D8%B3%D9%85%D8%A7%D8%B9%D9%8A%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-d91a1c6218324748",
+      "name": "فودافون السويس",
+      "address": "فودافون - 517 برج البطل - ش 23 يوليو",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+517+%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D8%A8%D8%B7%D9%84+-+%D8%B4+23+%D9%8A%D9%88%D9%84%D9%8A%D9%88+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+Egypt"
+    },
+    {
+      "id": "bank_nxt-f828d40d5bb3acc6",
+      "name": "فرع السويس",
+      "address": "45 أ - سيتى مول - ش الشهداء",
+      "governorate": "السويس",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+45+%D8%A3+-+%D8%B3%D9%8A%D8%AA%D9%89+%D9%85%D9%88%D9%84+-+%D8%B4+%D8%A7%D9%84%D8%B4%D9%87%D8%AF%D8%A7%D8%A1+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+Egypt"
+    },
+    {
+      "id": "bank_nxt-1f4e88a3700a8d4d",
+      "name": "شيل اوت المنصورة",
+      "address": "محطة شيل أوت – ش قناة السويس",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B4%D9%8A%D9%84+%D8%A7%D9%88%D8%AA+%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9+%D9%85%D8%AD%D8%B7%D8%A9+%D8%B4%D9%8A%D9%84+%D8%A3%D9%88%D8%AA+%E2%80%93+%D8%B4+%D9%82%D9%86%D8%A7%D8%A9+%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3+%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-4fd509560b7319d8",
+      "name": "فودافون - المنصورة",
+      "address": "فودافون - ش عبد السلام عارف",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%B4+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85+%D8%B9%D8%A7%D8%B1%D9%81+%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-5b0d6140ea3eed95",
+      "name": "فرع المنصورة",
+      "address": "41 هـ - ش سعد زغلول باشا",
+      "governorate": "الدقهلية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9+41+%D9%87%D9%80+-+%D8%B4+%D8%B3%D8%B9%D8%AF+%D8%B2%D8%BA%D9%84%D9%88%D9%84+%D8%A8%D8%A7%D8%B4%D8%A7+%D8%A7%D9%84%D8%AF%D9%82%D9%87%D9%84%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-95644b1bc44efaa4",
+      "name": "فودافون دمنهور",
+      "address": "فودافون - 1 ش عبد السلام الشاذلى",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%AF%D9%85%D9%86%D9%87%D9%88%D8%B1+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+1+%D8%B4+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85+%D8%A7%D9%84%D8%B4%D8%A7%D8%B0%D9%84%D9%89+%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-0b44bdd4e2fd6fef",
+      "name": "فرع دمنهور",
+      "address": "مبنى 131 - ش عبد السلام الشاذلي",
+      "governorate": "البحيرة",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%AF%D9%85%D9%86%D9%87%D9%88%D8%B1+%D9%85%D8%A8%D9%86%D9%89+131+-+%D8%B4+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85+%D8%A7%D9%84%D8%B4%D8%A7%D8%B0%D9%84%D9%8A+%D8%A7%D9%84%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-b56d705c7ba023c9",
+      "name": "محطة المنيا",
+      "address": "محطة المنيا - ميدان المحطة",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AD%D8%B7%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+%D9%85%D8%AD%D8%B7%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+-+%D9%85%D9%8A%D8%AF%D8%A7%D9%86+%D8%A7%D9%84%D9%85%D8%AD%D8%B7%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+Egypt"
+    },
+    {
+      "id": "bank_nxt-f57002692dd567f7",
+      "name": "فرع المنيا",
+      "address": "236 ش كورنيش النيل",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+236+%D8%B4+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+Egypt"
+    },
+    {
+      "id": "bank_nxt-87cf8eee30f669b0",
+      "name": "أب تاون مول",
+      "address": "أب تاون مول - المنطقة السياحية",
+      "governorate": "المنيا",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%A3%D8%A8+%D8%AA%D8%A7%D9%88%D9%86+%D9%85%D9%88%D9%84+%D8%A3%D8%A8+%D8%AA%D8%A7%D9%88%D9%86+%D9%85%D9%88%D9%84+-+%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9+%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7+Egypt"
+    },
+    {
+      "id": "bank_nxt-024c0d3ac744966d",
+      "name": "فودافون المنوفية",
+      "address": "فودافون - 95 ش جمال عبد الناصر",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+95+%D8%B4+%D8%AC%D9%85%D8%A7%D9%84+%D8%B9%D8%A8%D8%AF+%D8%A7%D9%84%D9%86%D8%A7%D8%B5%D8%B1+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-b1970c3f723dca7e",
+      "name": "مصنع ديفاش",
+      "address": "مدينة السادات الصناعية",
+      "governorate": "المنوفية",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%B5%D9%86%D8%B9+%D8%AF%D9%8A%D9%81%D8%A7%D8%B4+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A7%D8%AA+%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%81%D9%8A%D8%A9+Egypt"
+    },
+    {
+      "id": "bank_nxt-12ff06544d796bcb",
+      "name": "سوبارو",
+      "address": "أبو حته لتجارة السيارات - ش أحمد عرابي",
+      "governorate": "بني سويف",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B3%D9%88%D8%A8%D8%A7%D8%B1%D9%88+%D8%A3%D8%A8%D9%88+%D8%AD%D8%AA%D9%87+%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA+-+%D8%B4+%D8%A3%D8%AD%D9%85%D8%AF+%D8%B9%D8%B1%D8%A7%D8%A8%D9%8A+%D8%A8%D9%86%D9%8A+%D8%B3%D9%88%D9%8A%D9%81+Egypt"
+    },
+    {
+      "id": "bank_nxt-1c054a89511f0b25",
+      "name": "فودافون بني سويف",
+      "address": "فودافون - كورنيش النيل",
+      "governorate": "بني سويف",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A8%D9%86%D9%8A+%D8%B3%D9%88%D9%8A%D9%81+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+%D8%A8%D9%86%D9%8A+%D8%B3%D9%88%D9%8A%D9%81+Egypt"
+    },
+    {
+      "id": "bank_nxt-582910bb6ea8cc0e",
+      "name": "فودافون اسيواط",
+      "address": "فودافون - 43 ش الجمهورية",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%A7%D8%B3%D9%8A%D9%88%D8%A7%D8%B7+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+43+%D8%B4+%D8%A7%D9%84%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9+%D8%A3%D8%B3%D9%8A%D9%88%D8%B7+Egypt"
+    },
+    {
+      "id": "bank_nxt-eaf29c80715025f3",
+      "name": "فرع اسيوط",
+      "address": "33 كورنيش النيل - مجمع محاكم اسيوط",
+      "governorate": "أسيوط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A7%D8%B3%D9%8A%D9%88%D8%B7+33+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+-+%D9%85%D8%AC%D9%85%D8%B9+%D9%85%D8%AD%D8%A7%D9%83%D9%85+%D8%A7%D8%B3%D9%8A%D9%88%D8%B7+%D8%A3%D8%B3%D9%8A%D9%88%D8%B7+Egypt"
+    },
+    {
+      "id": "bank_nxt-f4f750025d13227c",
+      "name": "فرع بور سعيد",
+      "address": "برج جولي فيل - ش 23 يوليو",
+      "governorate": "بور سعيد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%A8%D9%88%D8%B1+%D8%B3%D8%B9%D9%8A%D8%AF+%D8%A8%D8%B1%D8%AC+%D8%AC%D9%88%D9%84%D9%8A+%D9%81%D9%8A%D9%84+-+%D8%B4+23+%D9%8A%D9%88%D9%84%D9%8A%D9%88+%D8%A8%D9%88%D8%B1+%D8%B3%D8%B9%D9%8A%D8%AF+Egypt"
+    },
+    {
+      "id": "bank_nxt-5ad79359b4479d0f",
+      "name": "We بورسعيد",
+      "address": "سنترال بورسعيد - ش الزعيم غاندي",
+      "governorate": "بور سعيد",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+We+%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF+%D8%B3%D9%86%D8%AA%D8%B1%D8%A7%D9%84+%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF+-+%D8%B4+%D8%A7%D9%84%D8%B2%D8%B9%D9%8A%D9%85+%D8%BA%D8%A7%D9%86%D8%AF%D9%8A+%D8%A8%D9%88%D8%B1+%D8%B3%D8%B9%D9%8A%D8%AF+Egypt"
+    },
+    {
+      "id": "bank_nxt-bc8b99cf542f985f",
+      "name": "فرع دمياط",
+      "address": "برج الصياد بلازا - كونيش النيل",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+%D8%A8%D8%B1%D8%AC+%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D8%AF+%D8%A8%D9%84%D8%A7%D8%B2%D8%A7+-+%D9%83%D9%88%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+Egypt"
+    },
+    {
+      "id": "bank_nxt-7c52dfc58f4c70ac",
+      "name": "سي بي سي دمياط",
+      "address": "بنزينه التعاون - طريق دمياط الجديدة",
+      "governorate": "دمياط",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D8%B3%D9%8A+%D8%A8%D9%8A+%D8%B3%D9%8A+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+%D8%A8%D9%86%D8%B2%D9%8A%D9%86%D9%87+%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9+%D8%AF%D9%85%D9%8A%D8%A7%D8%B7+Egypt"
+    },
+    {
+      "id": "bank_nxt-c0fcc0e37da0f08b",
+      "name": "ميجا مول",
+      "address": "ميجا مول - ش السد العالي",
+      "governorate": "الفيوم",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D9%8A%D8%AC%D8%A7+%D9%85%D9%88%D9%84+%D9%85%D9%8A%D8%AC%D8%A7+%D9%85%D9%88%D9%84+-+%D8%B4+%D8%A7%D9%84%D8%B3%D8%AF+%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A+%D8%A7%D9%84%D9%81%D9%8A%D9%88%D9%85+Egypt"
+    },
+    {
+      "id": "bank_nxt-e0f938878b0fdd13",
+      "name": "محطة قطار الاقصر",
+      "address": "مدينة الاقصر",
+      "governorate": "الأقصر",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AD%D8%B7%D8%A9+%D9%82%D8%B7%D8%A7%D8%B1+%D8%A7%D9%84%D8%A7%D9%82%D8%B5%D8%B1+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%A7%D9%82%D8%B5%D8%B1+%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D8%B1+Egypt"
+    },
+    {
+      "id": "bank_nxt-0a74f37bb1efaae3",
+      "name": "محطة قطار اسوان",
+      "address": "ش سعد زغلول - كورنيش النيل",
+      "governorate": "أسوان",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%85%D8%AD%D8%B7%D8%A9+%D9%82%D8%B7%D8%A7%D8%B1+%D8%A7%D8%B3%D9%88%D8%A7%D9%86+%D8%B4+%D8%B3%D8%B9%D8%AF+%D8%B2%D8%BA%D9%84%D9%88%D9%84+-+%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4+%D8%A7%D9%84%D9%86%D9%8A%D9%84+%D8%A3%D8%B3%D9%88%D8%A7%D9%86+Egypt"
+    },
+    {
+      "id": "bank_nxt-371e417f7bc91ed0",
+      "name": "فرع فودافون -سوهاج",
+      "address": "فودافون - طريق أخميم-سوهاج",
+      "governorate": "سوهاج",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D8%B1%D8%B9+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-%D8%B3%D9%88%D9%87%D8%A7%D8%AC+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%B7%D8%B1%D9%8A%D9%82+%D8%A3%D8%AE%D9%85%D9%8A%D9%85-%D8%B3%D9%88%D9%87%D8%A7%D8%AC+%D8%B3%D9%88%D9%87%D8%A7%D8%AC+Egypt"
+    },
+    {
+      "id": "bank_nxt-9595075f62ce151e",
+      "name": "فودافون دهب",
+      "address": "فودافون - ش المشربة",
+      "governorate": "جنوب سيناء",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=BANK+NXT+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+%D8%AF%D9%87%D8%A8+%D9%81%D9%88%D8%AF%D8%A7%D9%81%D9%88%D9%86+-+%D8%B4+%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D8%A8%D8%A9+%D8%AC%D9%86%D9%88%D8%A8+%D8%B3%D9%8A%D9%86%D8%A7%D8%A1+Egypt"
+    }
+  ],
+  "branches_status": "published",
+  "atms_status": "published",
+  "source_urls": [
+    "https://www.banknxteg.com/locations/branches/",
+    "https://www.banknxteg.com/locations/atms/",
+    "https://www.banknxteg.com/"
+  ],
+  "branch_locator_url": "https://www.banknxteg.com/locations/branches/",
+  "atm_locator_url": "https://www.banknxteg.com/locations/atms/",
+  "hotline": "16697",
+  "contact_url": "https://www.banknxteg.com/",
+  "reviewed_at": "2026-10-29",
+  "version": "88f9bf146f989db7"
+}

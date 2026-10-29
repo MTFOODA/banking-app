@@ -129,3 +129,11 @@ String? validateEmailField(String? value) {
   final pattern = RegExp(r'^[^@\s]+@[^@\s]+\.[^@\s]+$');
   return pattern.hasMatch(value.trim()) ? null : 'invalid';
 }
+
+/// Username-only sign-in; the legacy identifier validator remains for old API clients.
+String? validateUsernameField(String? value) {
+  if (value == null || value.trim().isEmpty) return 'required';
+  return RegExp(r'^[a-zA-Z][a-zA-Z0-9]{2,29}$').hasMatch(value.trim())
+      ? null
+      : 'invalid';
+}
